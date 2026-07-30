@@ -1,71 +1,41 @@
-import { Analytics } from '@vercel/analytics/next'
-import type { Metadata, Viewport } from 'next'
-import { Noto_Serif_JP, Noto_Sans_JP, Inter } from 'next/font/google'
-import './globals.css'
-
-const notoSerifJP = Noto_Serif_JP({
-  subsets: ['latin'],
-  weight: ['300'],
-  variable: '--font-noto-serif-jp',
-  display: 'swap',
-})
-
-const notoSansJP = Noto_Sans_JP({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-noto-sans-jp',
-  display: 'swap',
-})
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'InnBuddy | 宿の眠れる資産を、世界の感動に変える',
-  description:
-    '地方の宿泊施設のためのクリエイティブパートナー。ホテル・旅館の眠れる資産を、世界の感動へと変えるコンサルティング。',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
-}
-
-export const viewport: Viewport = {
-  colorScheme: 'light',
-  themeColor: '#fdfbf7',
-}
+  title: "InnBuddy | 日本の宿を世界ブランドに",
+  description: "OTA運用、Webサイト制作、ブランディング、インバウンド戦略まで。地方の宿の価値を最大限に引き出す、クリエイティブパートナーです。",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="ja"
-      className={`${notoSerifJP.variable} ${notoSansJP.variable} ${inter.variable} bg-background`}
-    >
-      <body className="font-sans antialiased">
+    <html lang="ja">
+      <head>
+        {/* ページが完全に読み込まれた後に、壊れた画像を全て非表示にする */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.addEventListener('load', function() {
+                document.querySelectorAll('img').forEach(function(img) {
+                  img.addEventListener('error', function() {
+                    this.style.display = 'none';
+                  });
+                  // キャッシュなどですでにエラー状態の画像にも対応
+                  if (img.complete && img.naturalWidth === 0) {
+                    img.style.display = 'none';
+                  }
+                });
+              });
+            `,
+          }}
+        />
+      </head>
+      <body className="antialiased font-sans">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
-  )
+  );
 }
