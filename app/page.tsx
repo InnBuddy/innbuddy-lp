@@ -163,7 +163,35 @@ export default function Home() {
       </section>
 
       {/* Act 3: サービスカード */}
-      <section ref={serviceCardsRef} className="py-16 md:py-24 bg-background"><div className="max-w-6xl mx-auto px-4 md:px-6"><h2 className="text-center font-serif font-light text-3xl mb-12 md:mb-16 text-foreground">私たちの視点</h2><div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">{[ { title: 'グローバルOTA運用', desc: '世界77カ国の視点で、あなたの宿を最適な販路へ。' }, { title: 'データドリブン単価最適化', desc: '感覚を数値に。適正価格が、最高の利益を呼ぶ。' }, { title: '自社予約シフト設計', desc: 'リピーターを育み、OTA手数料から卒業する仕組み。' }, { title: '多言語ブランド構築', desc: '日・英・中、3言語で紡ぐ、世界に響く物語。' }, { title: '越境エコシステム', desc: '教育、村づくり、EC。集客のその先まで、共に。' }].map((s, i) => (<div key={i} className="text-center md:text-left p-4 md:p-6"><h3 className="font-serif font-light text-lg mb-3 text-foreground">{s.title}</h3><p className="text-sm text-foreground/70 leading-relaxed">{s.desc}</p></div>))}</div></div></section>
+      <section ref={serviceCardsRef} className="py-16 md:py-24 bg-background">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
+          <h2 className="text-center font-serif font-light text-3xl mb-12 md:mb-16 text-foreground">私たちの視点</h2>
+          
+          {/* 新規テキストブロック */}
+          <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16 text-sm text-foreground/60 leading-relaxed space-y-1">
+            <p>MBA (経営学修士) ＆ 多文化国家での経営経験で培った、経営戦略。</p>
+            <p>10年の観光業（OTA・旅行企画）で積み重ねた、専門性。</p>
+            <p>77カ国を旅して掴んだ、現場のリアルな感覚。</p>
+            <p className="mt-4 !mb-0">ここに、世界中に築いた独自のネットワークを携え、</p>
+            <p>三つの視点から、あなたの宿を見つめます。</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
+            {[
+              { title: 'グローバルOTA運用', desc: '77カ国を旅して掴んだ、世界の旅行者が本当に求めるもの。その知見であなたの宿を最適な販路へ。' },
+              { title: 'データドリブン単価最適化', desc: '感覚を数値に。適正価格が、最高の利益を呼ぶ。' },
+              { title: '自社予約シフト設計', desc: 'リピーターを育み、OTA手数料から卒業する仕組み。' },
+              { title: '多言語ブランド構築', desc: '日・英・中、3言語で紡ぐ、世界に響く物語。' },
+              { title: '越境エコシステム', desc: 'デスティネーションデザインは、地域との共創へと広がっていく。宿を起点に、まちごと世界とつながっていく。' },
+            ].map((s, i) => (
+              <div key={i} className="text-center md:text-left p-4 md:p-6">
+                <h3 className="font-serif font-light text-lg mb-3 text-foreground">{s.title}</h3>
+                <p className="text-sm text-foreground/70 leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* 予告カード */}
       <section className="py-12 md:py-16 bg-background"><div className="max-w-2xl mx-auto px-4 md:px-6 text-center border border-hairline p-6 md:p-8"><h3 className="font-serif font-light text-2xl text-foreground mb-4">では、あなたの宿は、どれくらい伸びるのか。</h3><p className="text-sm text-foreground/60 mb-6">稼働率とお部屋単価を動かすだけで、3秒でわかります。</p><button onClick={openSelector} className="bg-[#ABBAA9] text-black font-['Zen_Old_Mincho'] px-6 py-2 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors">宿の伸びしろを測定</button></div></section>
