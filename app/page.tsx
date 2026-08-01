@@ -83,7 +83,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 md:px-6 space-y-16 md:space-y-32">
           <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative h-64 md:h-96"><img src="/images/forest_stream.png" className="w-full h-full object-cover" alt="" /></div>
-            <div className="max-w-md mx-auto md:mx-0">
+            <div className="max-w-full md:max-w-md mx-auto md:mx-0">
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">資産01 — 自然</p>
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">
                 この静寂は、都会の人が1泊5万円で買う体験です。
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
-            <div className="order-2 md:order-1 max-w-md mx-auto md:mx-0">
+            <div className="order-2 md:order-1 max-w-full md:max-w-md mx-auto md:mx-0">
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">資産02 — 食</p>
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">
                 この一皿の物語を、世界はまだ知りません。
@@ -125,7 +125,7 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative h-64 md:h-96"><img src="/images/craftsman_hands.png" className="w-full h-full object-cover" alt="" /></div>
-            <div className="max-w-md mx-auto md:mx-0">
+            <div className="max-w-full md:max-w-md mx-auto md:mx-0">
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">資産03 — 人と時間</p>
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">
                 継がれる手仕事は、最も贅沢なインテリアです。
@@ -169,9 +169,10 @@ export default function Home() {
           
           {/* 新規テキストブロック */}
           <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16 text-sm text-foreground/60 leading-relaxed space-y-1">
-            <p>MBA (経営学修士) ＆ 多文化国家での経営経験で培った、経営戦略。</p>
-            <p>10年の観光業（OTA・旅行企画）で積み重ねた、専門性。</p>
-            <p>77カ国を旅して掴んだ、現場のリアルな感覚。</p>
+            <p>①MBA (経営学修士) ＆ 多文化国家での経営経験で培った、経営戦略。</p>
+            <p>②10年の観光業（OTA・旅行企画）で積み重ねた、専門性。</p>
+            <p>③77カ国を旅して掴んだ、現場のリアルな感覚。</p>
+            <hr className="border-dotted border-[var(--hairline)] w-1/2 mx-auto my-4" />
             <p className="mt-4 !mb-0">ここに、世界中に築いた独自のネットワークを携え、</p>
             <p>三つの視点から、あなたの宿を見つめます。</p>
           </div>
