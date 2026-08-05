@@ -8,6 +8,7 @@ interface Props {
 
 export default function DiagnosticSelectorModal({ isOpen, onClose, onSelectRevenue, onSelectHiring }: Props) {
   if (!isOpen) return null;
+
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/40 backdrop-blur-sm">
       <div className="relative bg-background w-full max-w-md p-8 md:p-10 rounded-sm shadow-xl text-center">

@@ -4,9 +4,10 @@ import { useState } from 'react';
 import { submitDiagnostic, LeadFormData } from '@/lib/submitToSheet';
 
 interface Props {
-  diagnosticType: 'revenue' | 'hiring';
+  diagnosticType: 'revenue' | 'hiring' | 'analysis';
   payload: Record<string, any>;
   onClose: () => void;
+  analysisMode?: boolean;
 }
 
 const PREFECTURES = [
@@ -19,8 +20,8 @@ const PREFECTURES = [
   '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'
 ];
 
-export default function LeadCaptureForm({ diagnosticType, payload, onClose }: Props) {
-  const [form, setForm] = useState({ facilityName: '', prefecture: '', contactName: '', email: '', phone: '' });
+export default function LeadCaptureForm({ diagnosticType, payload, onClose, analysisMode }: Props) {
+  const [form, setForm] = useState({ facilityName: '', prefecture: '', contactName: '', email: '', phone: '', address: '' });
   const [sending, setSending] = useState(false);
   const [done, setDone] = useState(false);
 
@@ -54,7 +55,7 @@ export default function LeadCaptureForm({ diagnosticType, payload, onClose }: Pr
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <h3 className="font-serif text-xl text-center mb-4 font-bold">
-        『コンサルタントに共有してフィードバックを待つ』
+        {analysisMode ? '資料ダウンロード（無料）' : 'コンサルタントに共有してフィードバックを待つ'}
       </h3>
 
       <div>
@@ -82,6 +83,19 @@ export default function LeadCaptureForm({ diagnosticType, payload, onClose }: Pr
           ))}
         </select>
       </div>
+
+      {analysisMode && (
+        <div>
+          <label className="block text-xs text-foreground/60 mb-1">住所 *</label>
+          <input
+            type="text"
+            required
+            value={form.address}
+            onChange={(e) => setForm({ ...form, address: e.target.value })}
+            className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust"
+          />
+        </div>
+      )}
 
       <div>
         <label className="block text-xs text-foreground/60 mb-1">担当者名 *</label>
