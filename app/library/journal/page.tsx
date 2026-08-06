@@ -7,7 +7,7 @@ export default function JournalPage() {
   return (
     <div className="min-h-screen bg-[var(--background)] py-24">
       <header className="max-w-6xl mx-auto px-6 pt-6">
-        <a href="/" className="text-sm text-[var(--accent-rust)] hover:underline font-serif">
+        <a href="/#library" className="text-sm text-[var(--accent-rust)] hover:underline font-serif">
           ← InnBuddyへ戻る
         </a>
       </header>
@@ -25,8 +25,8 @@ export default function JournalPage() {
           {posts.map((post) => (
             <Link key={post.slug} href={`/library/journal/${post.slug}`} className="group block">
               <article className="border border-[#8A9A7B] bg-white/50 backdrop-blur-sm p-6 transition-all duration-500 group-hover:border-[var(--accent-rust)]/30 group-hover:shadow-sm h-full flex flex-col">
-                <div className="mb-4 overflow-hidden">
-                  <img src={post.image} alt={post.title} className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div className="mb-4 overflow-hidden rounded-[4px]">
+                  <img src={post.image} alt={post.title} className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-105 border-0" />
                 </div>
                 <div className="flex-grow">
                   <p className="text-xs tracking-[0.2em] text-[var(--accent-rust)] mb-2">
