@@ -9,20 +9,33 @@ import DiagnosticBackground from '@/components/diagnostics/DiagnosticBackground'
 import MeaningDesignSection from '@/components/MeaningDesignSection';
 import { AssetTag } from '@/components/AssetTag';
 import { assetTagsNature, assetTagsFood, assetTagsPeopleTime, assetBlockColors } from '@/data/assetTags';
+import { ContactFormModal } from '@/components/ContactFormModal';
+import { FloatingOtaBanner } from '@/components/FloatingOtaBanner';
+import { OtaPromoModal } from '@/components/OtaPromoModal';
 
 export default function Home() {
   const [revenueOpen, setRevenueOpen] = useState(false);
   const [hiringOpen, setHiringOpen] = useState(false);
   const [selectorOpen, setSelectorOpen] = useState(false);
+  const [contactFormOpen, setContactFormOpen] = useState(false);
+  const [otaPromoOpen, setOtaPromoOpen] = useState(false);
   const [floatingVisible, setFloatingVisible] = useState(false);
+  const [bannerVisible, setBannerVisible] = useState(false);
+
   const serviceCardsRef = useRef<HTMLDivElement>(null);
   const diagnosticSectionRef = useRef<HTMLDivElement>(null);
+  const portfolioSectionRef = useRef<HTMLDivElement>(null);
+  const ourMethodSectionRef = useRef<HTMLDivElement>(null);
+  const pricingSectionRef = useRef<HTMLDivElement>(null);
+
   const hasReachedServiceCards = useRef(false);
+  const hasPassedPortfolio = useRef(false);
 
   const [natureOpenTag, setNatureOpenTag] = useState<string | null>(null);
   const [foodOpenTag, setFoodOpenTag] = useState<string | null>(null);
   const [peopleTimeOpenTag, setPeopleTimeOpenTag] = useState<string | null>(null);
 
+  // サービスカード通過後のフローティングCTA制御
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -31,7 +44,7 @@ export default function Home() {
           setFloatingVisible(false);
         } else {
           if (hasReachedServiceCards.current) {
-            const isAnyModalOpen = revenueOpen || hiringOpen || selectorOpen;
+            const isAnyModalOpen = revenueOpen || hiringOpen || selectorOpen || contactFormOpen || otaPromoOpen;
             if (!isAnyModalOpen) setFloatingVisible(true);
           }
         }
@@ -40,8 +53,9 @@ export default function Home() {
     );
     if (serviceCardsRef.current) observer.observe(serviceCardsRef.current);
     return () => { if (serviceCardsRef.current) observer.unobserve(serviceCardsRef.current); };
-  }, [revenueOpen, hiringOpen, selectorOpen]);
+  }, [revenueOpen, hiringOpen, selectorOpen, contactFormOpen, otaPromoOpen]);
 
+  // 診断入口カード表示中はフローティングCTA非表示
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) setFloatingVisible(false); },
@@ -51,9 +65,58 @@ export default function Home() {
     return () => { if (diagnosticSectionRef.current) observer.unobserve(diagnosticSectionRef.current); };
   }, []);
 
+  // モーダル表示中はフローティングCTA非表示
   useEffect(() => {
-    if (revenueOpen || hiringOpen || selectorOpen) setFloatingVisible(false);
-  }, [revenueOpen, hiringOpen, selectorOpen]);
+    if (revenueOpen || hiringOpen || selectorOpen || contactFormOpen || otaPromoOpen) setFloatingVisible(false);
+  }, [revenueOpen, hiringOpen, selectorOpen, contactFormOpen, otaPromoOpen]);
+
+  // ポートフォリオ通過でバナー表示可能に
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          hasPassedPortfolio.current = true;
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (portfolioSectionRef.current) observer.observe(portfolioSectionRef.current);
+    return () => { if (portfolioSectionRef.current) observer.unobserve(portfolioSectionRef.current); };
+  }, []);
+
+  // OUR METHOD に到達したら非表示
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setBannerVisible(false);
+        } else {
+          if (hasPassedPortfolio.current && !otaPromoOpen) {
+            setBannerVisible(true);
+          }
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (ourMethodSectionRef.current) observer.observe(ourMethodSectionRef.current);
+    return () => { if (ourMethodSectionRef.current) observer.unobserve(ourMethodSectionRef.current); };
+  }, [otaPromoOpen]);
+
+  // 私たちの報酬設計 に到達したら再表示
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          if (!otaPromoOpen) setBannerVisible(true);
+        } else {
+          setBannerVisible(false);
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (pricingSectionRef.current) observer.observe(pricingSectionRef.current);
+    return () => { if (pricingSectionRef.current) observer.unobserve(pricingSectionRef.current); };
+  }, [otaPromoOpen]);
 
   const openSelector = () => setSelectorOpen(true);
   const closeSelector = () => setSelectorOpen(false);
@@ -198,7 +261,7 @@ export default function Home() {
       <section className="py-12 md:py-16 bg-background"><div className="max-w-2xl mx-auto px-4 md:px-6 text-center border border-hairline p-6 md:p-8"><h3 className="font-serif font-light text-2xl text-foreground mb-4">では、あなたの宿は、どれくらい伸びるのか。</h3><p className="text-sm text-foreground/60 mb-6">稼働率とお部屋単価を動かすだけで、3秒でわかります。</p><button onClick={openSelector} className="bg-[#ABBAA9] text-black font-['Zen_Old_Mincho'] px-6 py-2 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors">宿の伸びしろを測定</button></div></section>
 
       {/* 水平スクロール・ポートフォリオ */}
-      <section className="py-16 md:py-24 bg-background">
+      <section ref={portfolioSectionRef} className="py-16 md:py-24 bg-background">
         <h2 className="text-center font-serif font-light text-3xl mb-12 md:mb-16 text-foreground">私たちは、このように宿を見ています</h2>
         <div className="relative overflow-x-auto scrollbar-hide px-4 md:px-8">
           <div className="flex space-x-4 md:space-x-8">
@@ -224,7 +287,7 @@ export default function Home() {
       <MeaningDesignSection />
 
       {/* DestinationDesign：4つのメソッド */}
-      <section className="py-16 md:py-24 bg-background relative overflow-hidden">
+      <section ref={ourMethodSectionRef} className="py-16 md:py-24 bg-background relative overflow-hidden">
         <img src="/images/illust/illus_1.jpg" className="absolute top-20 left-[-40px] w-40 opacity-40 rotate-[-3deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0" alt="" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
         <img src="/images/illust/illus_2.jpg" className="absolute bottom-40 right-[-30px] w-48 opacity-30 rotate-[2deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0" alt="" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
         <div className="max-w-6xl mx-auto px-4 md:px-6 relative z-10"><div className="text-center mb-16 md:mb-24"><p className="text-xs tracking-[0.2em] text-accent-rust mb-4">OUR METHOD</p>
@@ -275,8 +338,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 静かなる約束（料金体系） */}
-      <section className="py-16 md:py-24 bg-background">
+      {/* 私たちの報酬設計 */}
+      <section ref={pricingSectionRef} className="py-16 md:py-24 bg-background">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <p className="text-center text-xs tracking-[0.2em] text-accent-rust mb-12 md:mb-16">私たちの報酬設計</p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
@@ -310,7 +373,12 @@ export default function Home() {
         <div className="relative z-10 text-center px-4 md:px-6 max-w-2xl mx-auto">
           <h2 className="font-serif font-light text-3xl md:text-5xl text-white mb-6 md:mb-8 leading-tight whitespace-normal md:whitespace-nowrap">あなたの物語を、世界の感動へ。</h2>
           <p className="text-white/80 mb-8 md:mb-12 font-sans text-sm md:text-base">まずは、御宿の“眠れる資産”を診断するところから。</p>
-          <a href="https://timerex.net/s/InnBuddy_ESG/386fd946" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#FDF7F5] text-[#515D46] font-['Zen_Old_Mincho'] px-8 md:px-10 py-3 md:py-4 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors duration-700">無料相談を予約する</a>
+          <button
+            onClick={() => setContactFormOpen(true)}
+            className="inline-block bg-[#FDF7F5] text-[#515D46] font-['Zen_Old_Mincho'] px-8 md:px-10 py-3 md:py-4 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors duration-700"
+          >
+            お問い合わせフォーム
+          </button>
           <p className="mt-6 md:mt-8 text-xs text-white/40 tracking-widest">InnBuddy — 越境エコシステムの入り口</p>
         </div>
       </section>
@@ -422,6 +490,12 @@ export default function Home() {
       <DiagnosticSelectorModal isOpen={selectorOpen} onClose={closeSelector} onSelectRevenue={openRevenue} onSelectHiring={openHiring} />
       <RevenueDiagnosticModal isOpen={revenueOpen} onClose={() => setRevenueOpen(false)} />
       <HiringDiagnosticModal isOpen={hiringOpen} onClose={() => setHiringOpen(false)} />
+      <ContactFormModal isOpen={contactFormOpen} onClose={() => setContactFormOpen(false)} />
+      <FloatingOtaBanner
+        onClick={() => setOtaPromoOpen(true)}
+        visible={bannerVisible && !otaPromoOpen}
+      />
+      <OtaPromoModal isOpen={otaPromoOpen} onClose={() => setOtaPromoOpen(false)} />
     </main>
   );
 }

@@ -42,9 +42,7 @@ export function AssetTag({ label, description, colorClass, isOpen, onToggle }: A
       {isOpen && (
         <div className="absolute z-50 top-full mt-2 left-1/2 -translate-x-1/2 w-64 max-w-[90vw] rounded-lg bg-white shadow-lg p-4 text-left border border-hairline">
           <p className="text-sm font-medium text-foreground mb-1">#{label}とは</p>
-          <p className="text-sm leading-relaxed text-foreground/70">
-            {description}
-          </p>
+          <p className="text-sm leading-relaxed text-foreground/70">{description}</p>
         </div>
       )}
     </div>
