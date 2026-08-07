@@ -1,0 +1,58 @@
+'use client';
+
+import { useState } from 'react';
+import Link from 'next/link';
+import { ContactFormModal } from '@/components/ContactFormModal';
+
+export default function AnalysisClient() {
+  const [isContactOpen, setIsContactOpen] = useState(false);
+
+  return (
+    <article className="min-h-screen bg-[#fdfbf7] px-4 py-16">
+      <div className="max-w-3xl mx-auto">
+        <div className="text-sm text-foreground/40 mb-6">
+          <Link href="/" className="hover:text-foreground">ホーム</Link>
+          <span className="mx-2">›</span>
+          <Link href="/#library" className="hover:text-foreground">ライブラリ</Link>
+          <span className="mx-2">›</span>
+          <span className="text-foreground/60">Analysis</span>
+        </div>
+
+        <Link
+          href="/#library"
+          className="inline-block mb-6 text-sm text-foreground/60 hover:text-foreground transition-colors no-underline border-none"
+        >
+          ← ライブラリに戻る
+        </Link>
+
+        <h1 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-8">
+          Analysis
+        </h1>
+
+        <div className="space-y-6 text-foreground/70 leading-relaxed">
+          <p>マーケット分析レポートを掲載しています。</p>
+          <p className="text-foreground/50 italic">📝 記事は準備中です。しばらくお待ちください。</p>
+          <p className="text-sm text-foreground/40">※現在 ASEAN &amp; ESG 関連レポートを更新中です。</p>
+        </div>
+
+        {/* ★ CTA：お問い合わせフォームを開く */}
+        <div className="mt-12 p-6 bg-[#f0e8d0]/30 border border-[#E8B93C] rounded-lg text-center">
+          <p className="text-sm text-foreground/70 mb-4">
+            ご質問・ご相談はお気軽にお問い合わせください。
+          </p>
+          <button
+            onClick={() => setIsContactOpen(true)}
+            className="inline-block bg-[#ABBAA9] text-black font-['Zen_Old_Mincho'] px-8 py-3 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors"
+          >
+            お問い合わせフォーム
+          </button>
+        </div>
+      </div>
+
+      <ContactFormModal
+        isOpen={isContactOpen}
+        onClose={() => setIsContactOpen(false)}
+      />
+    </article>
+  );
+}

@@ -269,8 +269,8 @@ export default function Home() {
       <MeaningDesignSection />
 
       <section id="our-method" ref={ourMethodSectionRef} className="py-16 md:py-24 bg-background relative overflow-hidden">
-        <img src="/images/illust/illus_1.jpg" className="absolute top-20 left-[-40px] w-40 opacity-40 rotate-[-3deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0" alt="" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-        <img src="/images/illust/illus_2.jpg" className="absolute bottom-40 right-[-30px] w-48 opacity-30 rotate-[2deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0" alt="" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+        <img src="/images/illust/illus_1.jpg" className="absolute top-20 left-[-20px] md:left-[-40px] w-40 opacity-40 rotate-[-3deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0" alt="" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+        <img src="/images/illust/illus_2.jpg" className="absolute bottom-40 right-[-15px] md:right-[-30px] w-48 opacity-30 rotate-[2deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0" alt="" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
         <div className="max-w-6xl mx-auto px-4 md:px-6 relative z-10"><div className="text-center mb-16 md:mb-24"><p className="text-xs tracking-[0.2em] text-accent-rust mb-4">OUR METHOD</p>
           <h2 className="font-serif font-light text-3xl md:text-5xl text-foreground mb-6">私たちは「モノのないデザイン」を届けます。</h2>
           <p className="text-sm text-foreground/60 max-w-2xl mx-auto leading-relaxed mb-8 px-2 md:px-0">日本各地の宿や地域に眠る価値を再発見し、「日本だけでなく世界中から訪れたくなる目的地」へと再設計する。それが、私たちのデスティネーションデザインです。</p>
@@ -415,7 +415,7 @@ export default function Home() {
         <DiagnosticCards onRevenue={openRevenue} onHiring={openHiring} />
       </section>
 
-      {/* Library セクション（Link コンポーネントに修正） */}
+      {/* 【正しいリンクに修正】ライブラリ 3カード（押すと /library/ 配下の一覧へ遷移します） */}
       <section id="library" className="py-24 bg-background border-t border-hairline">
         <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
           <h2 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-4">LIBRARY</h2>
@@ -434,7 +434,7 @@ export default function Home() {
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
-              <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">JOURNAL</span>
               </div>
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
@@ -455,7 +455,7 @@ export default function Home() {
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
-              <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">STORY</span>
               </div>
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
@@ -476,7 +476,7 @@ export default function Home() {
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
-              <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">ANALYSIS</span>
               </div>
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
