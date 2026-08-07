@@ -6,7 +6,6 @@ import type { ScoringQuestion, CostQuestion } from '@/data/hiringQuestions';
 import { calcHiringScore, getScoreLevel } from '@/lib/scoring';
 import { saveProgress, loadProgress, clearProgress } from '@/lib/progressStorage';
 import type { SavedProgress } from '@/lib/progressStorage';
-import ProgressBar from './ProgressBar';
 import LeadCaptureForm from './LeadCaptureForm';
 import DiagnosticBackground from './DiagnosticBackground';
 
@@ -181,11 +180,24 @@ export default function HiringDiagnosticModal({ isOpen, onClose }: ModalProps) {
       <div className="relative bg-background w-full max-w-2xl max-h-[90vh] overflow-y-auto p-8 md:p-12 rounded-sm shadow-xl overflow-hidden">
         <DiagnosticBackground showContourOverlay={false} />
         <div className="relative z-10">
-          <button onClick={handleMainBack} className="absolute top-4 left-4 text-sm text-foreground/50 hover:text-foreground transition-colors">← 前のページに戻る</button>
-          <button onClick={onClose} className="absolute top-4 right-4 text-foreground/40 hover:text-foreground text-2xl">&times;</button>
+          {/* ★ トップバー：戻るボタンと閉じるボタンのみ（中央にStep表示なし） */}
+          <div className="flex items-center justify-between mb-2">
+            <button 
+              onClick={handleMainBack} 
+              className="text-sm text-foreground/50 hover:text-foreground transition-colors"
+            >
+              ← 前のページに戻る
+            </button>
+            <button 
+              onClick={onClose} 
+              className="text-foreground/40 hover:text-foreground text-2xl leading-none"
+            >
+              ×
+            </button>
+          </div>
 
           {showResume ? (
-            <div className="text-center py-12 pt-16">
+            <div className="text-center py-12">
               <p className="font-serif text-xl mb-4">前回の続きから再開しますか？</p>
               <p className="text-sm text-foreground/60 mb-8">Step {saved?.currentStep} まで入力されています。</p>
               <div className="flex justify-center gap-4">
@@ -194,8 +206,24 @@ export default function HiringDiagnosticModal({ isOpen, onClose }: ModalProps) {
               </div>
             </div>
           ) : (
-            <div className="pt-8">
-              {step <= 3 && <ProgressBar current={step} total={4} />}
+            <div>
+              {/* ★ Step 表示：戻るボタンの下に配置（%表示なし） */}
+              {step <= 3 && (
+                <div className="text-sm text-foreground/60 font-medium tracking-wide mb-2">
+                  Step {step} / 4
+                </div>
+              )}
+
+              {/* ★ プログレスバー（%表示なし） - 独自実装 */}
+              {step <= 3 && (
+                <div className="w-full bg-hairline rounded-full h-1.5 mb-6">
+                  <div
+                    className="bg-accent-rust h-1.5 rounded-full transition-all duration-300"
+                    style={{ width: `${(step / 4) * 100}%` }}
+                  />
+                </div>
+              )}
+
               {step === 1 && <Step1 answers={answers} updateAnswer={updateAnswer} onNext={handleNext} errors={errors} clearError={clearError} />}
               {step === 2 && <Step2 answers={answers} updateAnswer={updateAnswer} onNext={handleNext} onPrev={handlePrev} errors={errors} clearError={clearError} />}
               {step === 3 && <Step3 answers={answers} updateAnswer={updateAnswer} onNext={handleNext} onPrev={handlePrev} errors={errors} clearError={clearError} />}

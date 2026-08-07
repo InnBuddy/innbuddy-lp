@@ -1,29 +1,83 @@
-'use client';
-import { useEffect, useState } from 'react';
+"use client";
 
-interface Props {
-  onClick: () => void;
+interface FloatingOtaBannerProps {
   visible: boolean;
+  onClick: () => void;
 }
 
-export function FloatingOtaBanner({ onClick, visible }: Props) {
+export function FloatingOtaBanner({ visible, onClick }: FloatingOtaBannerProps) {
+  if (!visible) return null;
+
   return (
-    <div
-      onClick={onClick}
-      className={`fixed top-1/2 -translate-y-1/2 right-0 z-40 cursor-pointer transition-all duration-500 ${
-        visible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4 pointer-events-none'
-      }`}
+    <a
+      onClick={(e) => {
+        e.preventDefault();
+        onClick();
+      }}
+      href="#"
+      className="side-banner"
+      style={{
+        position: "fixed",
+        top: "50%",
+        right: "0",
+        transform: "translateY(-50%)",
+        zIndex: 50,
+        cursor: "pointer",
+        textDecoration: "none",
+        // すりガラス背景
+        background: "rgba(20,22,20,0.3)",
+        backdropFilter: "blur(8px)",
+        WebkitBackdropFilter: "blur(8px)",
+        // 細い白枠
+        border: "1px solid rgba(255,255,255,0.18)",
+        borderRadius: "2px",
+        boxShadow: "0 8px 30px rgba(0,0,0,0.25)",
+        // コンパクトなサイズ
+        padding: "24px 10px",
+        transition: "background 0.45s ease",
+        // 横幅を固定
+        width: "44px",
+        minHeight: "160px",
+        display: "flex",        // ← flex のみに統一
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.background = "rgba(20,22,20,0.5)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.background = "rgba(20,22,20,0.3)";
+      }}
     >
-      <div className="flex items-center group">
-        {/* バナーの縦長エリア */}
-        <div className="w-12 bg-[#1c1712]/90 backdrop-blur-sm border-l border-t border-b border-[#E8B93C] rounded-l-md py-6 px-2 text-center shadow-lg group-hover:bg-[#1c1712] transition-colors">
-          <div className="[writing-mode:vertical-rl] text-[#f0e2c0] text-xs tracking-[0.2em] font-serif leading-relaxed">
-            OTA代行メニュー＆期間限定無料特典
-          </div>
-        </div>
-        {/* 横に飛び出る目印 */}
-        <div className="w-2 h-16 bg-[#E8B93C] rounded-r-sm opacity-80 group-hover:opacity-100 transition-opacity" />
-      </div>
-    </div>
+      <span
+        className="main-text"
+        style={{
+          writingMode: "vertical-rl",
+          textOrientation: "upright",
+          color: "#f5f4ef",
+          fontSize: "13px",
+          letterSpacing: "0.15em",
+          lineHeight: "1.6",
+          fontFamily: "'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif",
+        }}
+      >
+        OTA代行メニュー詳細
+      </span>
+
+      {/* スマホ用スタイル */}
+      <style jsx>{`
+        @media (max-width: 600px) {
+          .side-banner {
+            padding: 18px 7px !important;
+            width: 36px !important;
+            min-height: 130px !important;
+          }
+          .main-text {
+            font-size: 11px !important;
+            letter-spacing: 0.12em !important;
+          }
+        }
+      `}</style>
+    </a>
   );
 }

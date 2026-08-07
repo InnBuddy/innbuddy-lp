@@ -1,8 +1,14 @@
-"use client";
+'use client';
 
-import { useEffect, useRef, ReactNode } from "react";
+import { useEffect, useRef, ReactNode } from 'react';
 
-export const RevealOnScroll = ({ children }: { children: ReactNode }) => {
+interface RevealOnScrollProps {
+  children: ReactNode;
+  delay?: 0 | 1 | 2 | 3 | 4;
+  className?: string;
+}
+
+export function RevealOnScroll({ children, delay = 0, className = '' }: RevealOnScrollProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -10,24 +16,25 @@ export const RevealOnScroll = ({ children }: { children: ReactNode }) => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("reveal");
+            entry.target.classList.add('visible');
           }
         });
       },
       { threshold: 0.1 }
     );
 
-    if (ref.current) observer.observe(ref.current);
-
-    return () => observer.disconnect();
+    const el = ref.current;
+    if (el) observer.observe(el);
+    return () => {
+      if (el) observer.unobserve(el);
+    };
   }, []);
 
+  const delayClass = delay > 0 ? `reveal-delay-${delay}` : '';
+
   return (
-    <div
-      ref={ref}
-      className="opacity-0 translate-y-8 transition-all duration-700"
-    >
+    <div ref={ref} className={`reveal ${delayClass} ${className}`.trim()}>
       {children}
     </div>
   );
-};
+}
