@@ -1,21 +1,18 @@
 import Link from 'next/link';
+import { getStoryArticles } from '@/lib/microcms';
 
 export const metadata = {
   title: 'Story | 世界から届くジャパントーク | InnBuddy',
-  description: '世界の旅行者が語る日本体験ストーリー。インバウンド集客・海外旅行者の生の声を紹介します。',
-  openGraph: {
-    title: 'Story | InnBuddy',
-    description: '世界から届くジャパントーク',
-    url: 'https://innbuddy-japan.com/library/story',
-    siteName: 'InnBuddy',
-    type: 'website',
-  },
+  description: '世界の旅行者が語る日本体験ストーリー。',
 };
 
-export default function StoryPage() {
+export default async function StoryPage() {
+  const articles = await getStoryArticles();
+
   return (
     <article className="min-h-screen bg-[#fdfbf7] px-4 py-16">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
+        {/* パンくずリスト */}
         <div className="text-sm text-foreground/40 mb-6">
           <Link href="/" className="hover:text-foreground">ホーム</Link>
           <span className="mx-2">›</span>
@@ -31,16 +28,26 @@ export default function StoryPage() {
           ← ライブラリに戻る
         </Link>
 
-        <h1 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-8">
-          Story
-        </h1>
+        <h1 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-8">Story</h1>
 
-        <div className="space-y-6 text-foreground/70 leading-relaxed">
-          <p>世界の旅行者が語る日本体験ストーリーを掲載しています。</p>
-          <p className="text-foreground/50 italic">📝 記事は準備中です。しばらくお待ちください。</p>
+        {/* 記事一覧（microCMSから取得） */}
+        <div className="space-y-8">
+          {articles.map((article: any) => (
+            <div key={article.id} className="border-b border-hairline pb-6 hover:opacity-70 transition-opacity">
+              {/* ★ リンク先を article.id に変更（コンテンツID） */}
+              <Link href={`/library/story/${article.id}`}>
+                <p className="text-xs text-foreground/50 mb-2">{article.publishedAt}</p>
+                <h2 className="font-serif text-xl text-foreground">{article.title}</h2>
+                {/* ★ カテゴリーがあれば表示（任意） */}
+                {article.category && (
+                  <span className="inline-block mt-1 text-xs text-accent-rust/60 border border-accent-rust/20 px-2 py-0.5 rounded">
+                    {article.category}
+                  </span>
+                )}
+              </Link>
+            </div>
+          ))}
         </div>
-
-        {/* ★ CTAは削除（診断は付けない） */}
       </div>
     </article>
   );

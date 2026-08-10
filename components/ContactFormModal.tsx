@@ -1,7 +1,12 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { RevealOnScroll } from './RevealOnScroll';
+import { useState } from "react";
+
+interface Props {
+  isOpen: boolean;
+  onClose: () => void;
+  isPage?: boolean; // ★ 追加（専用ページ用フラグ）
+}
 
 const facilityTypes = ['ホテル', '旅館', '民宿', 'その他'];
 const roomCounts = ['5室未満', '5〜20室', '21〜50室', '51〜100室', '100室超'];
@@ -19,17 +24,18 @@ const concerns = [
   'その他',
 ];
 
-interface Props {
-  isOpen: boolean;
-  onClose: () => void;
-}
-
-export function ContactFormModal({ isOpen, onClose }: Props) {
+export function ContactFormModal({ isOpen, onClose, isPage = false }: Props) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4"
-         onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
+    <div
+      className={`fixed inset-0 z-50 flex items-center justify-center p-4 ${
+        isPage ? 'bg-white' : 'bg-black/40 backdrop-blur-sm'
+      }`}
+      onClick={(e) => {
+        if (e.target === e.currentTarget) onClose();
+      }}
+    >
       <div className="relative bg-[var(--background)] w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-sm shadow-xl p-6 md:p-10">
         <button onClick={onClose} className="absolute top-4 right-4 text-foreground/40 hover:text-foreground text-2xl">&times;</button>
         <h2 className="font-serif font-light text-2xl md:text-3xl text-foreground mb-8 text-center">お問い合わせフォーム</h2>
@@ -39,6 +45,7 @@ export function ContactFormModal({ isOpen, onClose }: Props) {
   );
 }
 
+// ★ 以下は既存の ContactFormContent（変更なし）
 function ContactFormContent({ onClose }: { onClose: () => void }) {
   const [form, setForm] = useState({
     facilityName: '', name: '', email: '', phone: '',
@@ -74,37 +81,37 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
-      <RevealOnScroll>
+      <div>
         <label className="block text-sm text-foreground/70 mb-1">施設名 *</label>
         <input type="text" required value={form.facilityName}
           onChange={(e) => setForm((p) => ({ ...p, facilityName: e.target.value }))}
           className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
-      </RevealOnScroll>
+      </div>
 
-      <RevealOnScroll>
+      <div>
         <label className="block text-sm text-foreground/70 mb-1">ご担当者名 *</label>
         <input type="text" required value={form.name}
           onChange={(e) => setForm((p) => ({ ...p, name: e.target.value }))}
           className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
-      </RevealOnScroll>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <RevealOnScroll>
+        <div>
           <label className="block text-sm text-foreground/70 mb-1">メールアドレス *</label>
           <input type="email" required value={form.email}
             onChange={(e) => setForm((p) => ({ ...p, email: e.target.value }))}
             className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
-        </RevealOnScroll>
-        <RevealOnScroll>
+        </div>
+        <div>
           <label className="block text-sm text-foreground/70 mb-1">電話番号</label>
           <input type="tel" value={form.phone}
             onChange={(e) => setForm((p) => ({ ...p, phone: e.target.value }))}
             className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
-        </RevealOnScroll>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <RevealOnScroll>
+        <div>
           <label className="block text-sm text-foreground/70 mb-1">施設の種類 *</label>
           <select required value={form.facilityType}
             onChange={(e) => setForm((p) => ({ ...p, facilityType: e.target.value }))}
@@ -112,8 +119,8 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
             <option value="">選択してください</option>
             {facilityTypes.map((t) => (<option key={t} value={t}>{t}</option>))}
           </select>
-        </RevealOnScroll>
-        <RevealOnScroll>
+        </div>
+        <div>
           <label className="block text-sm text-foreground/70 mb-1">部屋数</label>
           <select value={form.roomCount}
             onChange={(e) => setForm((p) => ({ ...p, roomCount: e.target.value }))}
@@ -121,10 +128,10 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
             <option value="">選択してください</option>
             {roomCounts.map((t) => (<option key={t} value={t}>{t}</option>))}
           </select>
-        </RevealOnScroll>
+        </div>
       </div>
 
-      <RevealOnScroll>
+      <div>
         <label className="block text-sm text-foreground/70 mb-2">現在利用中のOTA（複数選択可）</label>
         <div className="flex flex-wrap gap-2">
           {otas.map((ota) => (
@@ -136,9 +143,9 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
               }`}>{ota}</button>
           ))}
         </div>
-      </RevealOnScroll>
+      </div>
 
-      <RevealOnScroll>
+      <div>
         <label className="block text-sm text-foreground/70 mb-2">ご相談内容 *（複数選択可）</label>
         <div className="space-y-2">
           {concerns.map((c) => (
@@ -150,30 +157,30 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
             </label>
           ))}
         </div>
-      </RevealOnScroll>
+      </div>
 
-      <RevealOnScroll>
+      <div>
         <label className="block text-sm text-foreground/70 mb-1">その他、詳細があればご記入ください</label>
         <textarea rows={5} value={form.message}
           onChange={(e) => setForm((p) => ({ ...p, message: e.target.value }))}
           className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust resize-none" />
-      </RevealOnScroll>
+      </div>
 
-      <RevealOnScroll>
+      <div>
         <label className="flex items-start gap-3 cursor-pointer text-xs text-foreground/60 leading-relaxed">
           <input type="checkbox" required checked={form.agreed}
             onChange={(e) => setForm((p) => ({ ...p, agreed: e.target.checked }))}
             className="w-4 h-4 mt-0.5 accent-accent-rust flex-shrink-0" />
           <span><a href="#" className="text-accent-rust underline">個人情報保護方針</a>に同意します *</span>
         </label>
-      </RevealOnScroll>
+      </div>
 
-      <RevealOnScroll>
+      <div>
         <button type="submit"
-          className="w-full bg-accent-rust text-white py-3 text-sm tracking-widest hover:bg-[#9a3a2e] transition-colors font-['Zen_Old_Mincho']">
+          className="w-full bg-[#ABBAA9] text-black font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors">
           送信する
         </button>
-      </RevealOnScroll>
+      </div>
     </form>
   );
 }
