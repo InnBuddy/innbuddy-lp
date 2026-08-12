@@ -1,18 +1,31 @@
 import { createClient } from 'microcms-js-sdk';
 
-export const client = createClient({
-  serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN!,
-  apiKey: process.env.MICROCMS_API_KEY!,
-});
+let client: ReturnType<typeof createClient> | null = null;
 
-// 記事一覧を取得（全件）
+function getClient() {
+  if (!client) {
+    client = createClient({
+      serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN!,
+      apiKey: process.env.MICROCMS_API_KEY!,
+    });
+  }
+  return client;
+}
+
 export const getStoryArticles = async () => {
-  const data = await client.get({ endpoint: 'story' });
+  const data = await getClient().get({ endpoint: 'story' });
   return data.contents;
 };
 
-// 個別記事を取得（コンテンツID = id で検索）
 export const getStoryArticleById = async (id: string) => {
   const articles = await getStoryArticles();
   return articles.find((article: any) => article.id === id);
+};
+
+export const getWaTalkArticles = async () => {
+  const data = await getClient().get({
+    endpoint: 'story',
+    queries: { limit: 50, orders: '-publishedAt' },
+  });
+  return data.contents;
 };

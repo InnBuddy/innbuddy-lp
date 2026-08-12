@@ -15,7 +15,6 @@
   --warm-white: #faf8f5;
   --deep-green: #0f1f0f;
   --accent: #EC008C;
-  /* --text-pink は削除（使わない） */
 }
 
 * {
@@ -31,7 +30,7 @@ html {
 body {
   font-family: 'Noto Serif JP', 'Zen Old Mincho', serif;
   background-color: var(--warm-white);
-  color: var(--charcoal); /* ★ 緑色→濃いグレーに修正 */
+  color: var(--charcoal);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   line-height: 1.9;
@@ -59,7 +58,7 @@ body {
   font-size: 0.7rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--accent); /* ★ ピンク（EC008C）を維持 */
+  color: var(--accent);
 }
 
 .container {
@@ -97,12 +96,15 @@ body {
 .reveal-delay-1 {
   transition-delay: 0.15s;
 }
+
 .reveal-delay-2 {
   transition-delay: 0.3s;
 }
+
 .reveal-delay-3 {
   transition-delay: 0.45s;
 }
+
 .reveal-delay-4 {
   transition-delay: 0.6s;
 }
@@ -241,6 +243,7 @@ section {
 }
 
 /* ===== ヘルパークラス ===== */
+
 .bg-hairline {
   background-color: #e5e0d9;
 }
@@ -249,7 +252,8 @@ section {
   background-color: #b44a3a;
 }
 
-/* ===== Story 記事用スタイル（Tailwind Typography なしで自前定義） ===== */
+/* ===== Story 記事用スタイル ===== */
+
 .prose {
   max-width: 100% !important;
   color: var(--charcoal) !important;
@@ -318,15 +322,71 @@ section {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* レスポンシブ調整 */
 @media (max-width: 768px) {
   .prose h2 {
     font-size: 1.5rem;
   }
+
   .prose h3 {
     font-size: 1.2rem;
   }
+
   .prose p {
     font-size: 0.95rem;
   }
+}
+
+/* ===== Wa Talk 専用スタイル ===== */
+
+/* 弾幕アニメーション */
+@keyframes danmaku-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-danmaku {
+  animation: danmaku-scroll var(--duration, 30s) linear infinite;
+}
+
+/* WebGL背景フェードイン */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1.5s ease-out forwards;
+}
+
+/* 記事カードホバー */
+.wa-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wa-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ファンマスク（長方形ベース・丸み・両サイド削り） */
+.fan-mask {
+  -webkit-mask-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* 記事詳細モーダル */
+.wa-article-overlay {
+  backdrop-filter: blur(8px);
 }

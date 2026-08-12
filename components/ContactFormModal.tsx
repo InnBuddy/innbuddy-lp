@@ -5,7 +5,7 @@ import { useState } from "react";
 interface Props {
   isOpen: boolean;
   onClose: () => void;
-  isPage?: boolean; // ★ 追加（専用ページ用フラグ）
+  isPage?: boolean;
 }
 
 const facilityTypes = ['ホテル', '旅館', '民宿', 'その他'];
@@ -29,23 +29,20 @@ export function ContactFormModal({ isOpen, onClose, isPage = false }: Props) {
 
   return (
     <div
-      className={`fixed inset-0 z-50 flex items-center justify-center p-4 ${
-        isPage ? 'bg-white' : 'bg-black/40 backdrop-blur-sm'
-      }`}
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#fdfbf7]"
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
     >
-      <div className="relative bg-[var(--background)] w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-sm shadow-xl p-6 md:p-10">
-        <button onClick={onClose} className="absolute top-4 right-4 text-foreground/40 hover:text-foreground text-2xl">&times;</button>
-        <h2 className="font-serif font-light text-2xl md:text-3xl text-foreground mb-8 text-center">お問い合わせフォーム</h2>
+      <div className="relative bg-[#fdfbf7] w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-sm shadow-xl p-6 md:p-10">
+        <button onClick={onClose} className="absolute top-4 right-4 text-[#1b2e1b]/40 hover:text-[#1b2e1b] text-2xl">&times;</button>
+        <h2 className="font-serif font-light text-2xl md:text-3xl text-[#1b2e1b] mb-8 text-center">お問い合わせフォーム</h2>
         <ContactFormContent onClose={onClose} />
       </div>
     </div>
   );
 }
 
-// ★ 以下は既存の ContactFormContent（変更なし）
 function ContactFormContent({ onClose }: { onClose: () => void }) {
   const [form, setForm] = useState({
     facilityName: '', name: '', email: '', phone: '',
@@ -65,16 +62,15 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: 実際の送信処理
     setSubmitted(true);
   };
 
   if (submitted) {
     return (
       <div className="text-center py-16">
-        <h3 className="font-serif font-light text-2xl text-foreground mb-4">お問い合わせありがとうございます</h3>
-        <p className="text-foreground/60 mb-8">担当者より2営業日以内にご連絡いたします。</p>
-        <button onClick={onClose} className="text-sm text-accent-rust underline">閉じる</button>
+        <h3 className="font-serif font-light text-2xl text-[#1b2e1b] mb-4">お問い合わせありがとうございます</h3>
+        <p className="text-[#1b2e1b]/60 mb-8">担当者より2営業日以内にご連絡いたします。</p>
+        <button onClick={onClose} className="text-sm text-[#1b2e1b] underline">閉じる</button>
       </div>
     );
   }
@@ -82,49 +78,49 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
       <div>
-        <label className="block text-sm text-foreground/70 mb-1">施設名 *</label>
-        <input type="text" required value={form.facilityName}
+        <label className="block text-sm text-[#1b2e1b]/70 mb-1">施設名 *</label>
+        <input type="number" required value={form.facilityName}
           onChange={(e) => setForm((p) => ({ ...p, facilityName: e.target.value }))}
-          className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
+          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
       </div>
 
       <div>
-        <label className="block text-sm text-foreground/70 mb-1">ご担当者名 *</label>
+        <label className="block text-sm text-[#1b2e1b]/70 mb-1">ご担当者名 *</label>
         <input type="text" required value={form.name}
           onChange={(e) => setForm((p) => ({ ...p, name: e.target.value }))}
-          className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
+          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm text-foreground/70 mb-1">メールアドレス *</label>
+          <label className="block text-sm text-[#1b2e1b]/70 mb-1">メールアドレス *</label>
           <input type="email" required value={form.email}
             onChange={(e) => setForm((p) => ({ ...p, email: e.target.value }))}
-            className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
         </div>
         <div>
-          <label className="block text-sm text-foreground/70 mb-1">電話番号</label>
+          <label className="block text-sm text-[#1b2e1b]/70 mb-1">電話番号</label>
           <input type="tel" value={form.phone}
             onChange={(e) => setForm((p) => ({ ...p, phone: e.target.value }))}
-            className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust" />
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm text-foreground/70 mb-1">施設の種類 *</label>
+          <label className="block text-sm text-[#1b2e1b]/70 mb-1">施設の種類 *</label>
           <select required value={form.facilityType}
             onChange={(e) => setForm((p) => ({ ...p, facilityType: e.target.value }))}
-            className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust">
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]">
             <option value="">選択してください</option>
             {facilityTypes.map((t) => (<option key={t} value={t}>{t}</option>))}
           </select>
         </div>
         <div>
-          <label className="block text-sm text-foreground/70 mb-1">部屋数</label>
+          <label className="block text-sm text-[#1b2e1b]/70 mb-1">部屋数</label>
           <select value={form.roomCount}
             onChange={(e) => setForm((p) => ({ ...p, roomCount: e.target.value }))}
-            className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust">
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]">
             <option value="">選択してください</option>
             {roomCounts.map((t) => (<option key={t} value={t}>{t}</option>))}
           </select>
@@ -132,27 +128,27 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
       </div>
 
       <div>
-        <label className="block text-sm text-foreground/70 mb-2">現在利用中のOTA（複数選択可）</label>
+        <label className="block text-sm text-[#1b2e1b]/70 mb-2">現在利用中のOTA（複数選択可）</label>
         <div className="flex flex-wrap gap-2">
           {otas.map((ota) => (
             <button key={ota} type="button" onClick={() => toggleArray('currentOtas', ota)}
               className={`px-3 py-1 text-xs border transition-all ${
                 form.currentOtas.includes(ota)
-                  ? 'border-foreground bg-black/5 text-black font-semibold'
-                  : 'border-hairline text-foreground/60'
+                  ? 'border-[#1b2e1b] bg-[#1b2e1b]/5 text-[#1b2e1b] font-semibold'
+                  : 'border-[#e5e0d9] text-[#1b2e1b]/60'
               }`}>{ota}</button>
           ))}
         </div>
       </div>
 
       <div>
-        <label className="block text-sm text-foreground/70 mb-2">ご相談内容 *（複数選択可）</label>
+        <label className="block text-sm text-[#1b2e1b]/70 mb-2">ご相談内容 *（複数選択可）</label>
         <div className="space-y-2">
           {concerns.map((c) => (
-            <label key={c} className="flex items-center gap-3 cursor-pointer text-sm text-foreground/80">
+            <label key={c} className="flex items-center gap-3 cursor-pointer text-sm text-[#1b2e1b]/80">
               <input type="checkbox" checked={form.concerns.includes(c)}
                 onChange={() => toggleArray('concerns', c)}
-                className="w-4 h-4 accent-accent-rust" />
+                className="w-4 h-4 accent-[#1b2e1b]" />
               {c}
             </label>
           ))}
@@ -160,24 +156,24 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
       </div>
 
       <div>
-        <label className="block text-sm text-foreground/70 mb-1">その他、詳細があればご記入ください</label>
+        <label className="block text-sm text-[#1b2e1b]/70 mb-1">その他、詳細があればご記入ください</label>
         <textarea rows={5} value={form.message}
           onChange={(e) => setForm((p) => ({ ...p, message: e.target.value }))}
-          className="w-full border-b border-hairline bg-transparent py-2 text-foreground focus:outline-none focus:border-accent-rust resize-none" />
+          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b] resize-none" />
       </div>
 
       <div>
-        <label className="flex items-start gap-3 cursor-pointer text-xs text-foreground/60 leading-relaxed">
+        <label className="flex items-start gap-3 cursor-pointer text-xs text-[#1b2e1b]/60 leading-relaxed">
           <input type="checkbox" required checked={form.agreed}
             onChange={(e) => setForm((p) => ({ ...p, agreed: e.target.checked }))}
-            className="w-4 h-4 mt-0.5 accent-accent-rust flex-shrink-0" />
-          <span><a href="#" className="text-accent-rust underline">個人情報保護方針</a>に同意します *</span>
+            className="w-4 h-4 mt-0.5 accent-[#1b2e1b] flex-shrink-0" />
+          <span><a href="#" className="text-[#1b2e1b] underline">個人情報保護方針</a>に同意します *</span>
         </label>
       </div>
 
       <div>
         <button type="submit"
-          className="w-full bg-[#ABBAA9] text-black font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors">
+          className="w-full bg-[#1b2e1b] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#2d4a2d] transition-colors">
           送信する
         </button>
       </div>

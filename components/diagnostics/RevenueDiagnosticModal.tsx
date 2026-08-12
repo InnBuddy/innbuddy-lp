@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import LeadCaptureForm from './LeadCaptureForm';
-import DiagnosticBackground from './DiagnosticBackground';
 
 interface Props {
   isOpen: boolean;
@@ -52,87 +51,78 @@ export default function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[70] flex items-center justify-center bg-black/40 backdrop-blur-sm">
-      <div className="relative bg-background w-full max-w-2xl max-h-[90vh] overflow-y-auto p-8 md:p-12 rounded-sm shadow-xl overflow-hidden">
-        <DiagnosticBackground showContourOverlay={false} />
+    <div className="fixed inset-0 z-[70] flex items-center justify-center bg-[#fdfbf7] p-4">
+      <div className="relative bg-[#fdfbf7] w-full max-w-2xl max-h-[90vh] overflow-y-auto p-8 md:p-12 rounded-sm shadow-xl overflow-hidden">
         <div className="relative z-10">
-          {/* ★ トップバー：Flexレイアウトに変更（絶対配置を解除） */}
           <div className="flex items-center justify-between mb-4">
-            <button 
-              onClick={handleBack} 
-              className="text-sm text-foreground/50 hover:text-foreground transition-colors"
-            >
+            <button onClick={handleBack} className="text-sm text-[#1b2e1b]/50 hover:text-[#1b2e1b] transition-colors">
               ← 前のページに戻る
             </button>
-            <button 
-              onClick={onClose} 
-              className="text-foreground/40 hover:text-foreground text-2xl leading-none"
-            >
+            <button onClick={onClose} className="text-[#1b2e1b]/40 hover:text-[#1b2e1b] text-2xl leading-none">
               ×
             </button>
           </div>
 
           {!showResult ? (
             <div className="space-y-8">
-              {/* ★ タイトル：pt-8 を削除し、上部余白をトップバーの mb-4 で調整 */}
-              <h2 className="font-serif font-light text-2xl md:text-3xl text-foreground">売上期待値測定</h2>
+              <h2 className="font-serif font-light text-2xl md:text-3xl text-[#1b2e1b]">売上期待値測定</h2>
               <div>
-                <label className="block text-sm text-foreground/70 mb-1">総客室数</label>
+                <label className="block text-sm text-[#1b2e1b]/70 mb-1">総客室数</label>
                 <input type="number" value={totalRooms} onChange={e => setTotalRooms(e.target.value)}
                   onWheel={e => (e.target as HTMLElement).blur()}
-                  className="w-full border-b border-hairline bg-transparent py-2 focus:outline-none focus:border-accent-rust" />
+                  className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
               </div>
               <div>
-                <label className="block text-sm text-foreground/70 mb-1">現在のADR（客室単価・円）</label>
+                <label className="block text-sm text-[#1b2e1b]/70 mb-1">現在のADR（客室単価・円）</label>
                 <input type="number" value={adr} onChange={e => setAdr(e.target.value)}
                   onWheel={e => (e.target as HTMLElement).blur()}
-                  className="w-full border-b border-hairline bg-transparent py-2 focus:outline-none focus:border-accent-rust" />
+                  className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
               </div>
               <div>
-                <label className="block text-sm text-foreground/70 mb-1">現在の稼働率（%）：{occ}%</label>
-                <input type="range" min="0" max="100" value={occ} onChange={e => setOcc(parseInt(e.target.value))} className="w-full accent-accent-rust" />
+                <label className="block text-sm text-[#1b2e1b]/70 mb-1">現在の稼働率（%）：{occ}%</label>
+                <input type="range" min="0" max="100" value={occ} onChange={e => setOcc(parseInt(e.target.value))} className="w-full accent-[#1b2e1b]" />
               </div>
               <div>
-                <label className="block text-sm text-foreground/70 mb-2">メイン利用OTA（最大3つ）</label>
+                <label className="block text-sm text-[#1b2e1b]/70 mb-2">メイン利用OTA（最大3つ）</label>
                 <div className="flex flex-wrap gap-2">
                   {otaOptions.map(ota => (
                     <button key={ota} onClick={() => toggleOta(ota)}
-                      className={`px-3 py-1 text-xs border transition-all ${selectedOta.includes(ota) ? 'border-foreground bg-black/5 text-black font-semibold' : 'border-hairline text-foreground/60'}`}>
+                      className={`px-3 py-1 text-xs border transition-all ${selectedOta.includes(ota) ? 'border-[#1b2e1b] bg-[#1b2e1b]/5 text-[#1b2e1b] font-semibold' : 'border-[#e5e0d9] text-[#1b2e1b]/60'}`}>
                       {ota}
                     </button>
                   ))}
                 </div>
               </div>
               <div>
-                <label className="block text-sm text-foreground/70 mb-1">一番予約数の多いOTA</label>
-                <select value={primaryOta} onChange={e => setPrimaryOta(e.target.value)} className="w-full border-b border-hairline bg-transparent py-2 focus:outline-none focus:border-accent-rust">
+                <label className="block text-sm text-[#1b2e1b]/70 mb-1">一番予約数の多いOTA</label>
+                <select value={primaryOta} onChange={e => setPrimaryOta(e.target.value)} className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]">
                   <option value="">選択</option>
                   {otaOptions.map(ota => <option key={ota} value={ota}>{ota}</option>)}
                 </select>
               </div>
               <div>
-                <label className="block text-sm text-foreground/70 mb-1">そのOTAの売上構成比（%）</label>
+                <label className="block text-sm text-[#1b2e1b]/70 mb-1">そのOTAの売上構成比（%）</label>
                 <input type="number" value={primaryOtaShare} onChange={e => setPrimaryOtaShare(e.target.value)}
                   onWheel={e => (e.target as HTMLElement).blur()}
-                  className="w-full border-b border-hairline bg-transparent py-2 focus:outline-none focus:border-accent-rust" />
+                  className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
               </div>
-              <div className="pt-6 border-t border-hairline">
-                <p className="text-sm text-foreground/60 mb-4">改善シミュレーション</p>
-                <label className="block text-xs mb-2">ADR上昇額：+{adrUp.toLocaleString()}円</label>
-                <input type="range" min="0" max="30000" step="100" value={adrUp} onChange={e => setAdrUp(parseInt(e.target.value))} className="w-full accent-accent-rust" />
-                <label className="block text-xs mt-4 mb-2">稼働率上昇：+{occUp}%</label>
-                <input type="range" min="0" max="50" step="1" value={occUp} onChange={e => setOccUp(parseInt(e.target.value))} className="w-full accent-accent-rust" />
+              <div className="pt-6 border-t border-[#e5e0d9]">
+                <p className="text-sm text-[#1b2e1b]/60 mb-4">改善シミュレーション</p>
+                <label className="block text-xs mb-2 text-[#1b2e1b]/70">ADR上昇額：+{adrUp.toLocaleString()}円</label>
+                <input type="range" min="0" max="30000" step="100" value={adrUp} onChange={e => setAdrUp(parseInt(e.target.value))} className="w-full accent-[#1b2e1b]" />
+                <label className="block text-xs mt-4 mb-2 text-[#1b2e1b]/70">稼働率上昇：+{occUp}%</label>
+                <input type="range" min="0" max="50" step="1" value={occUp} onChange={e => setOccUp(parseInt(e.target.value))} className="w-full accent-[#1b2e1b]" />
               </div>
-              <button onClick={handleSubmit} className="w-full bg-[var(--diag-accent)] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:opacity-90 transition-opacity">
+              <button onClick={handleSubmit} className="w-full bg-[#1b2e1b] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#2d4a2d] transition-opacity">
                 シミュレーション結果を見る
               </button>
             </div>
           ) : (
             <div className="text-center pt-8">
               <div className="py-12 space-y-6">
-                <p className="text-6xl font-light" style={{ color: 'var(--diag-accent)' }}>{formattedUpAmount}円</p>
-                <p className="text-xl text-foreground">年間売上UP</p>
-                <p className="text-sm text-foreground/60">
+                <p className="text-6xl font-light text-[#1b2e1b]">{formattedUpAmount}円</p>
+                <p className="text-xl text-[#1b2e1b]">年間売上UP</p>
+                <p className="text-sm text-[#1b2e1b]/60">
                   稼働率{occUp}%UP ＆ ADR{adrUp.toLocaleString()}円UP
                 </p>
               </div>
