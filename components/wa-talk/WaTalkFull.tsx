@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+import Link from 'next/link';
 
 interface Article {
   id: string;
@@ -10,7 +11,7 @@ interface Article {
   content: string;
   bodyEn?: string;
   bodyZh?: string;
-  coverImage?: { url: string }; // ← ここを image → coverImage に変更
+  coverImage?: { url: string };
   category?: string;
   publishedAt?: string;
   author?: string;
@@ -134,7 +135,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => document.removeEventListener('keydown', h);
   }, [close]);
 
-  // WebGL背景（変更なし）
+  // WebGL背景
   useEffect(() => {
     const c = bgRef.current; if (!c) return;
     const gl = c.getContext('webgl', { antialias: false, alpha: false }); if (!gl) return;
@@ -161,7 +162,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => { removeEventListener('resize', rs); cancelAnimationFrame(raf); };
   }, [sIdx]);
 
-  // 落ち葉（変更なし）
+  // 落ち葉
   useEffect(() => {
     const cv = leafRef.current; if (!cv) return;
     const ctx = cv.getContext('2d'); if (!ctx) return;
@@ -188,7 +189,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => { removeEventListener('resize', rs); cancelAnimationFrame(raf); };
   }, []);
 
-  // 弾幕（変更なし）
+  // 弾幕（ニコ生風）
   useEffect(() => {
     const el = dmRef.current; if (!el) return;
     el.innerHTML = '';
@@ -237,16 +238,16 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
       <canvas ref={leafRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', zIndex: 1, pointerEvents: 'none' }} aria-hidden="true" />
       <div style={{ position: 'relative', zIndex: 2 }}>
 
-        {/* ヘッダー */}
+        {/* ヘッダー（修正済み：ロゴクリックでトップページへ） */}
         <header style={{ position: 'sticky', top: 0, zIndex: 10, background: S.headerBg, backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(0,0,0,0.06)' }}>
           <div style={{ maxWidth: 1200, margin: '0 auto', height: 72, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 40px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 12, cursor: 'pointer' }} onClick={close}>
+            <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
               <img src="/images/wa-talk-logo.png" alt="" style={{ height: 36, width: 'auto', borderRadius: 6, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
               <div>
                 <div style={{ fontWeight: 700, fontSize: 20, color: '#000', letterSpacing: '.06em', fontFamily: "'Train One', 'Helvetica Neue', Arial, sans-serif", lineHeight: 1.1 }}>WAAI DIG</div>
                 <div style={{ fontSize: 8, letterSpacing: '.3em', color: S.muted, fontFamily: S.sans, fontWeight: 500, marginTop: 2 }}>BY INNBUDDY</div>
               </div>
-            </div>
+            </Link>
             <nav style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
               <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navFood')}</a>
               <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navCulture')}</a>
@@ -300,7 +301,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           </div>
         </section>
 
-        {/* ★★★ 記事一覧（ここを修正！） ★★★ */}
+        {/* 記事一覧 */}
         <section id="articles" style={{ maxWidth: 1200, margin: '0 auto', padding: '64px 40px' }}>
           <h2 style={{ textAlign: 'center', fontSize: 'clamp(24px, 3.5vw, 36px)', fontWeight: 300, color: S.dark, letterSpacing: '.15em', fontFamily: S.serif, marginBottom: 48 }}>
             {ui('storiesTitle')}
@@ -311,14 +312,8 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
               return (
                 <article key={a.id} style={{ cursor: 'pointer', transition: 'opacity 0.3s' }} onClick={() => click(a)} onMouseEnter={e => { (e.currentTarget as HTMLElement).style.opacity = '0.65'; }} onMouseLeave={e => { (e.currentTarget as HTMLElement).style.opacity = '1'; }}>
                   <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden', marginBottom: 16 }}>
-                    {/* ★★★ 修正ポイント：a.image → a.coverImage ★★★ */}
                     {a.coverImage?.url ? (
-                      <img 
-                        src={a.coverImage.url} 
-                        alt={getTitle(a, lang)} 
-                        loading="lazy" 
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
-                      />
+                      <img src={a.coverImage.url} alt={getTitle(a, lang)} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     ) : (
                       <div style={{ width: '100%', height: '100%', background: '#f5f0e8' }} />
                     )}
@@ -354,13 +349,8 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
         <div style={{ position: 'fixed', inset: 0, zIndex: 50, background: '#fff', overflowY: 'auto' }}>
           <button onClick={close} style={{ position: 'fixed', top: 20, left: 20, zIndex: 60, background: 'rgba(255,255,255,0.9)', border: 'none', padding: '10px 18px', fontSize: 12, cursor: 'pointer', fontFamily: S.sans, letterSpacing: '.04em', color: S.muted, backdropFilter: 'blur(8px)' }}>{ui('back')}</button>
           <div style={{ position: 'relative', height: '55vh', minHeight: 360, overflow: 'hidden' }}>
-            {/* ★★★ 修正ポイント：sel.image → sel.coverImage ★★★ */}
             {sel.coverImage?.url ? (
-              <img 
-                src={sel.coverImage.url} 
-                alt={getTitle(sel, lang)} 
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
-              />
+              <img src={sel.coverImage.url} alt={getTitle(sel, lang)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             ) : (
               <div style={{ width: '100%', height: '100%', background: '#f5f0e8' }} />
             )}
