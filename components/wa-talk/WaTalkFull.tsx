@@ -43,8 +43,6 @@ const CATEGORY_LABELS: Record<string, Record<string, string>> = {
   travel: { ja: '風景・旅', en: 'Travel', zh: '风景・旅行' },
 };
 
-const CATEGORY_KEYS = ['food', 'culture', 'travel'] as const;
-
 const WORDS_JA = [
   '桜', '紅葉', '温泉', '抹茶', '着物', '神社', '富士山', '新幹線',
   'おもてなし', '侘び寂び', '花見', '浴衣', '茶道', '書道', '華道',
@@ -143,7 +141,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => document.removeEventListener('keydown', h);
   }, [close]);
 
-  // WebGL背景（変更なし）
+  // WebGL背景
   useEffect(() => {
     const c = bgRef.current; if (!c) return;
     const gl = c.getContext('webgl', { antialias: false, alpha: false }); if (!gl) return;
@@ -170,7 +168,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => { removeEventListener('resize', rs); cancelAnimationFrame(raf); };
   }, [sIdx]);
 
-  // 落ち葉（変更なし）
+  // 落ち葉
   useEffect(() => {
     const cv = leafRef.current; if (!cv) return;
     const ctx = cv.getContext('2d'); if (!ctx) return;
@@ -197,7 +195,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => { removeEventListener('resize', rs); cancelAnimationFrame(raf); };
   }, []);
 
-  // 弾幕（変更なし）
+  // 弾幕（ニコ生風）
   useEffect(() => {
     const el = dmRef.current; if (!el) return;
     el.innerHTML = '';
@@ -257,13 +255,6 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return acc;
   }, {} as Record<string, Article[]>);
 
-  // ★★★ デバッグ用：コンソールにカテゴリ情報を表示 ★★★
-  console.log('📦 全記事のカテゴリ一覧:');
-  articles.forEach(a => {
-    console.log(`  - ${a.title}: category = "${a.category}" → 正規化後 = "${normalizeCategory(a.category)}"`);
-  });
-  console.log('📁 グループ化されたカテゴリキー:', Object.keys(groupedArticles));
-
   // カテゴリーの表示順を定義
   const categoryOrder = ['food', 'culture', 'travel'];
 
@@ -273,39 +264,43 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
       <canvas ref={leafRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', zIndex: 1, pointerEvents: 'none' }} aria-hidden="true" />
       <div style={{ position: 'relative', zIndex: 2 }}>
 
-        {/* ヘッダー */}
+        {/* ===== ヘッダー（スマホ対応済み） ===== */}
         <header style={{ position: 'sticky', top: 0, zIndex: 10, background: S.headerBg, backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(0,0,0,0.06)' }}>
-          <div style={{ maxWidth: 1200, margin: '0 auto', height: 72, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 40px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-              <Link href="/#library" style={{ fontSize: 14, color: S.muted, textDecoration: 'none', fontFamily: S.sans, letterSpacing: '.05em' }}>
-                ← 戻る
-              </Link>
-              <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
-                <img src="/images/wa-talk-logo.png" alt="" style={{ height: 36, width: 'auto', borderRadius: 6, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                  <div style={{ fontWeight: 700, fontSize: 20, color: '#000', letterSpacing: '.06em', fontFamily: "'Arvo', serif", lineHeight: 1.2 }}>
-                    WAAI STORY
-                  </div>
-                  <div style={{ fontSize: 11, color: '#f4b8b8', fontFamily: "'Arvo', serif", letterSpacing: '.08em', lineHeight: 1.2 }}>
-                    わーいすとーりー
-                  </div>
+          <div style={{ maxWidth: 1200, margin: '0 auto', height: 'clamp(56px, 10vh, 72px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 clamp(12px, 2vw, 40px)' }}>
+            
+            {/* 左：戻るボタン */}
+            <Link href="/#library" style={{ fontSize: 'clamp(12px, 1.5vw, 14px)', color: S.muted, textDecoration: 'none', fontFamily: S.sans, letterSpacing: '.05em', flexShrink: 0 }}>
+              ← 戻る
+            </Link>
+
+            {/* 中央：ロゴ + WAAI STORY */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 'clamp(6px, 1.2vw, 14px)', flex: 1, minWidth: 0 }}>
+              <img src="/images/wa-talk-logo.png" alt="" style={{ height: 'clamp(26px, 4.5vw, 36px)', width: 'auto', borderRadius: 6, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: 0 }}>
+                <div style={{ fontWeight: 700, fontSize: 'clamp(13px, 3vw, 20px)', color: '#000', letterSpacing: '.04em', fontFamily: "'Arvo', serif", lineHeight: 1.2, whiteSpace: 'nowrap' }}>
+                  WAAI STORY
                 </div>
-              </Link>
+                <div style={{ fontSize: 'clamp(8px, 1.6vw, 11px)', color: '#f4b8b8', fontFamily: "'Arvo', serif", letterSpacing: '.06em', lineHeight: 1.2, whiteSpace: 'nowrap' }}>
+                  わーいすとーりー
+                </div>
+              </div>
             </div>
-            <nav style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
-              <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navFood')}</a>
-              <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navCulture')}</a>
-              <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navTravel')}</a>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 0, marginLeft: 8, border: '1px solid rgba(0,0,0,0.12)', borderRadius: 4 }}>
+
+            {/* 右：ナビゲーション */}
+            <nav style={{ display: 'flex', alignItems: 'center', gap: 'clamp(6px, 1vw, 16px)', flexShrink: 0 }}>
+              <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase', display: 'none' }}>{ui('navFood')}</a>
+              <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase', display: 'none' }}>{ui('navCulture')}</a>
+              <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase', display: 'none' }}>{ui('navTravel')}</a>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 0, border: '1px solid rgba(0,0,0,0.12)', borderRadius: 4, flexShrink: 0 }}>
                 {LANG_OPTIONS.map(([code, label], i) => (
                   <button
                     key={code}
                     onClick={() => setLang(code)}
                     style={{
-                      fontSize: 10,
+                      fontSize: 'clamp(7px, 0.9vw, 10px)',
                       fontFamily: S.sans,
-                      letterSpacing: '.06em',
-                      padding: '6px 12px',
+                      letterSpacing: '.04em',
+                      padding: 'clamp(3px, 0.6vw, 6px) clamp(6px, 1vw, 12px)',
                       background: lang === code ? '#000' : 'transparent',
                       color: lang === code ? '#fff' : S.muted,
                       border: 'none',
@@ -323,31 +318,31 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           </div>
         </header>
 
-        {/* ヒーロー */}
-        <section style={{ position: 'relative', height: 'clamp(400px, 70vh, 85vh)', minHeight: 360, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+        {/* ===== ヒーロー ===== */}
+        <section style={{ position: 'relative', height: 'clamp(320px, 60vh, 85vh)', minHeight: 280, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
           <div style={{ width: 'min(860px, 92vw)', aspectRatio: '1000/700', WebkitMaskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`, maskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`, WebkitMaskSize: '100% 100%', maskSize: '100% 100%', WebkitMaskRepeat: 'no-repeat', maskRepeat: 'no-repeat', filter: 'drop-shadow(0 20px 40px rgba(60,30,40,.25))' }}>
             <img src="/images/wa-talk-hero.jpg" alt="WAAI STORY" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'row-reverse', alignItems: 'center', justifyContent: 'center', gap: 'clamp(1rem, 2.8vw, 2.2rem)', pointerEvents: 'none' }}>
-              {haiku.map((line, i) => <span key={i} style={{ writingMode: 'vertical-rl', fontSize: 'clamp(18px, 2.6vw, 28px)', fontWeight: 700, color: '#fff', letterSpacing: '.28em', textShadow: '0 2px 14px rgba(50,10,20,.55), 0 0 3px rgba(0,0,0,.35)' }}>{line}</span>)}
+              {haiku.map((line, i) => <span key={i} style={{ writingMode: 'vertical-rl', fontSize: 'clamp(14px, 2.6vw, 28px)', fontWeight: 700, color: '#fff', letterSpacing: '.28em', textShadow: '0 2px 14px rgba(50,10,20,.55), 0 0 3px rgba(0,0,0,.35)' }}>{line}</span>)}
             </div>
           </div>
         </section>
 
-        {/* Wa Wave */}
-        <section style={{ maxWidth: 1200, margin: '0 auto', padding: '48px 40px 64px' }}>
-          <h2 style={{ textAlign: 'center', fontSize: 'clamp(28px, 4.5vw, 42px)', fontWeight: 300, color: S.dark, letterSpacing: '.2em', fontFamily: S.serif, marginBottom: 24 }}>
+        {/* ===== Wa Wave ===== */}
+        <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(24px, 4vw, 48px) clamp(16px, 3vw, 40px) clamp(32px, 5vw, 64px)' }}>
+          <h2 style={{ textAlign: 'center', fontSize: 'clamp(22px, 4.5vw, 42px)', fontWeight: 300, color: S.dark, letterSpacing: '.2em', fontFamily: S.serif, marginBottom: 24 }}>
             {ui('waveTitle')}
           </h2>
-          <div ref={dmRef} style={{ height: 480, position: 'relative', overflow: 'hidden', borderTop: '1px solid rgba(0,0,0,0.06)', borderBottom: '1px solid rgba(0,0,0,0.06)', WebkitMaskImage: 'linear-gradient(to right,transparent,black 8%,black 92%,transparent)', maskImage: 'linear-gradient(to right,transparent,black 8%,black 92%,transparent)' }} />
+          <div ref={dmRef} style={{ height: 'clamp(280px, 50vw, 480px)', position: 'relative', overflow: 'hidden', borderTop: '1px solid rgba(0,0,0,0.06)', borderBottom: '1px solid rgba(0,0,0,0.06)', WebkitMaskImage: 'linear-gradient(to right,transparent,black 8%,black 92%,transparent)', maskImage: 'linear-gradient(to right,transparent,black 8%,black 92%,transparent)' }} />
           <div style={{ textAlign: 'center', marginTop: 32 }}>
             <p style={{ fontSize: 13, color: S.muted, fontFamily: S.sans, letterSpacing: '.04em', marginBottom: 8 }}>{ui('waveCount')}</p>
             <p style={{ fontSize: 13, color: S.accent, fontFamily: S.sans, letterSpacing: '.04em', fontWeight: 500 }}>{ui('waveHint')}</p>
           </div>
         </section>
 
-        {/* ===== カテゴリ別スライダー（修正済み） ===== */}
-        <section id="articles" style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(32px, 4vw, 64px) clamp(16px, 3vw, 40px)' }}>
-          <h2 style={{ textAlign: 'center', fontSize: 'clamp(24px, 3.5vw, 36px)', fontWeight: 300, color: S.dark, letterSpacing: '.15em', fontFamily: S.serif, marginBottom: 48 }}>
+        {/* ===== カテゴリ別スライダー ===== */}
+        <section id="articles" style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(24px, 4vw, 64px) clamp(12px, 2.5vw, 40px)' }}>
+          <h2 style={{ textAlign: 'center', fontSize: 'clamp(20px, 3.5vw, 36px)', fontWeight: 300, color: S.dark, letterSpacing: '.15em', fontFamily: S.serif, marginBottom: 32 }}>
             {ui('storiesTitle')}
           </h2>
 
@@ -356,21 +351,18 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
             const label = CATEGORY_LABELS[catKey]?.[lang] || CATEGORY_LABELS[catKey]?.ja || catKey;
             const color = CATEGORY_COLORS[catKey] || '#8A9A7B';
 
-            // そのカテゴリに記事が1件もなければ表示しない
             if (catArticles.length === 0) return null;
 
             return (
-              <div key={catKey} style={{ marginBottom: 64 }}>
-                {/* カテゴリータイトル */}
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 }}>
-                  <h3 style={{ fontSize: 'clamp(18px, 2vw, 24px)', fontWeight: 400, fontFamily: S.serif, color: S.dark, letterSpacing: '.1em' }}>
+              <div key={catKey} style={{ marginBottom: 'clamp(40px, 8vw, 64px)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+                  <h3 style={{ fontSize: 'clamp(16px, 2vw, 24px)', fontWeight: 400, fontFamily: S.serif, color: S.dark, letterSpacing: '.1em' }}>
                     <span style={{ borderBottom: `3px solid ${color}`, paddingBottom: 4 }}>{label}</span>
                   </h3>
-                  {/* 「もっと見る」ボタン（カテゴリ別一覧へ） */}
                   <Link
                     href={`/library/story?category=${catKey}`}
                     style={{
-                      fontSize: 13,
+                      fontSize: 'clamp(11px, 1.2vw, 13px)',
                       color: S.muted,
                       textDecoration: 'none',
                       fontFamily: S.sans,
@@ -384,18 +376,18 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
                   </Link>
                 </div>
 
-                {/* Swiper スライダー */}
                 <Swiper
                   modules={[Navigation, Pagination]}
                   navigation
                   pagination={{ clickable: true }}
-                  spaceBetween={20}
+                  spaceBetween={16}
                   slidesPerView={1}
                   breakpoints={{
+                    480: { slidesPerView: 1.2 },
                     640: { slidesPerView: 2 },
                     1024: { slidesPerView: 3 },
                   }}
-                  style={{ padding: '4px 0 40px 0' }}
+                  style={{ padding: '4px 0 36px 0' }}
                 >
                   {catArticles.map((article) => (
                     <SwiperSlide key={article.id}>
@@ -417,7 +409,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
                         </div>
                         <div>
                           <p style={{ fontSize: 10, color: S.muted, fontFamily: S.sans, letterSpacing: '.04em', marginBottom: 4 }}>{fmt(article.publishedAt)} · {mins(article.content)}{ui('readMin')}</p>
-                          <h4 style={{ fontSize: 15, lineHeight: 1.4, color: S.dark, fontFamily: S.serif, fontWeight: 400, letterSpacing: '.01em' }}>{getTitle(article, lang)}</h4>
+                          <h4 style={{ fontSize: 'clamp(14px, 1.4vw, 16px)', lineHeight: 1.4, color: S.dark, fontFamily: S.serif, fontWeight: 400, letterSpacing: '.01em' }}>{getTitle(article, lang)}</h4>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -428,20 +420,20 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           })}
         </section>
 
-        {/* フッター */}
-        <footer style={{ width: '100%', padding: '80px 40px 50px 40px', background: 'transparent', textAlign: 'center', boxSizing: 'border-box' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', fontFamily: "'Arvo', serif", fontWeight: 700, fontSize: 'clamp(77px, 13vw, 194px)', color: '#000', lineHeight: 1.2, whiteSpace: 'nowrap', letterSpacing: '-0.02em' }}>
+        {/* ===== フッター（スマホ対応済み） ===== */}
+        <footer style={{ width: '100%', padding: 'clamp(32px, 6vw, 80px) clamp(16px, 4vw, 40px) clamp(24px, 4vw, 50px) clamp(16px, 4vw, 40px)', background: 'transparent', textAlign: 'center', boxSizing: 'border-box' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', fontFamily: "'Arvo', serif", fontWeight: 700, fontSize: 'clamp(32px, 7vw, 77px)', color: '#000', lineHeight: 1.2, whiteSpace: 'nowrap', letterSpacing: '-0.02em' }}>
             <span>WAAI</span>
-            <span style={{ width: 'clamp(20px, 3vw, 50px)', flexShrink: 0 }}></span>
+            <span style={{ width: 'clamp(10px, 1.5vw, 30px)', flexShrink: 0 }}></span>
             <span>STORY</span>
           </div>
-          <div style={{ marginTop: 40, fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: 'clamp(11px, 1vw, 16px)', color: '#888', letterSpacing: '0.5px' }}>
+          <div style={{ marginTop: 'clamp(16px, 3vw, 40px)', fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: 'clamp(9px, 1.2vw, 14px)', color: '#888', letterSpacing: '0.5px' }}>
             <span>©2026 by InnBuddy</span>
           </div>
         </footer>
       </div>
 
-      {/* 記事詳細 */}
+      {/* ===== 記事詳細 ===== */}
       {sel && (
         <div style={{ position: 'fixed', inset: 0, zIndex: 50, background: '#fff', overflowY: 'auto' }}>
           <button onClick={close} style={{ position: 'fixed', top: 20, left: 20, zIndex: 60, background: 'rgba(255,255,255,0.9)', border: 'none', padding: '10px 18px', fontSize: 12, cursor: 'pointer', fontFamily: S.sans, letterSpacing: '.04em', color: S.muted, backdropFilter: 'blur(8px)' }}>{ui('back')}</button>
