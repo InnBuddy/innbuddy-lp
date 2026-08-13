@@ -2,6 +2,11 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 interface Article {
   id: string;
@@ -37,6 +42,8 @@ const CATEGORY_LABELS: Record<string, Record<string, string>> = {
   culture: { ja: '伝統文化', en: 'Culture', zh: '传统文化' },
   travel: { ja: '風景・旅', en: 'Travel', zh: '风景・旅行' },
 };
+
+const CATEGORY_KEYS = ['food', 'culture', 'travel'] as const;
 
 const WORDS_JA = [
   '桜', '紅葉', '温泉', '抹茶', '着物', '神社', '富士山', '新幹線',
@@ -80,6 +87,7 @@ const UI_TEXT: Record<string, Record<string, string>> = {
   navFood: { ja: '食文化', en: 'Food', zh: '美食' },
   navCulture: { ja: '伝統文化', en: 'Culture', zh: '文化' },
   navTravel: { ja: '風景・旅', en: 'Travel', zh: '旅行' },
+  more: { ja: 'もっと見る →', en: 'See More →', zh: '查看更多 →' },
 };
 
 const HAIKU: Record<string, string[]> = {
@@ -135,7 +143,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => document.removeEventListener('keydown', h);
   }, [close]);
 
-  // WebGL背景
+  // WebGL背景（変更なし）
   useEffect(() => {
     const c = bgRef.current; if (!c) return;
     const gl = c.getContext('webgl', { antialias: false, alpha: false }); if (!gl) return;
@@ -162,7 +170,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => { removeEventListener('resize', rs); cancelAnimationFrame(raf); };
   }, [sIdx]);
 
-  // 落ち葉
+  // 落ち葉（変更なし）
   useEffect(() => {
     const cv = leafRef.current; if (!cv) return;
     const ctx = cv.getContext('2d'); if (!ctx) return;
@@ -189,7 +197,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
     return () => { removeEventListener('resize', rs); cancelAnimationFrame(raf); };
   }, []);
 
-  // 弾幕（ニコ生風）
+  // 弾幕（変更なし）
   useEffect(() => {
     const el = dmRef.current; if (!el) return;
     el.innerHTML = '';
@@ -232,22 +240,58 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
   const fmt = (d?: string) => d ? `${new Date(d).getFullYear()}.${String(new Date(d).getMonth() + 1).padStart(2, '0')}.${String(new Date(d).getDate()).padStart(2, '0')}` : '';
   const mins = (c: string) => Math.max(1, Math.ceil((c?.replace(/<[^>]+>/g, '')?.length || 0) / 600));
 
+  // ★★★ カテゴリ値の正規化関数（日本語→英字に変換） ★★★
+  const normalizeCategory = (cat: string | undefined): string => {
+    if (!cat) return 'other';
+    if (cat === '食文化' || cat === '美食') return 'food';
+    if (cat === '伝統文化' || cat === '传统文化') return 'culture';
+    if (cat === '風景・旅' || cat === '风景・旅行') return 'travel';
+    return cat; // 既に英字の場合はそのまま
+  };
+
+  // ★★★ カテゴリーごとに記事をグループ化（正規化対応） ★★★
+  const groupedArticles = articles.reduce((acc, article) => {
+    const normalizedCat = normalizeCategory(article.category);
+    if (!acc[normalizedCat]) acc[normalizedCat] = [];
+    acc[normalizedCat].push(article);
+    return acc;
+  }, {} as Record<string, Article[]>);
+
+  // ★★★ デバッグ用：コンソールにカテゴリ情報を表示 ★★★
+  console.log('📦 全記事のカテゴリ一覧:');
+  articles.forEach(a => {
+    console.log(`  - ${a.title}: category = "${a.category}" → 正規化後 = "${normalizeCategory(a.category)}"`);
+  });
+  console.log('📁 グループ化されたカテゴリキー:', Object.keys(groupedArticles));
+
+  // カテゴリーの表示順を定義
+  const categoryOrder = ['food', 'culture', 'travel'];
+
   return (
     <>
       <canvas ref={bgRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', zIndex: 0 }} aria-hidden="true" />
       <canvas ref={leafRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', zIndex: 1, pointerEvents: 'none' }} aria-hidden="true" />
       <div style={{ position: 'relative', zIndex: 2 }}>
 
-        {/* ヘッダー（修正済み：ロゴクリックでトップページへ） */}
+        {/* ヘッダー */}
         <header style={{ position: 'sticky', top: 0, zIndex: 10, background: S.headerBg, backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(0,0,0,0.06)' }}>
           <div style={{ maxWidth: 1200, margin: '0 auto', height: 72, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 40px' }}>
-            <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
-              <img src="/images/wa-talk-logo.png" alt="" style={{ height: 36, width: 'auto', borderRadius: 6, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-              <div>
-                <div style={{ fontWeight: 700, fontSize: 20, color: '#000', letterSpacing: '.06em', fontFamily: "'Train One', 'Helvetica Neue', Arial, sans-serif", lineHeight: 1.1 }}>WAAI DIG</div>
-                <div style={{ fontSize: 8, letterSpacing: '.3em', color: S.muted, fontFamily: S.sans, fontWeight: 500, marginTop: 2 }}>BY INNBUDDY</div>
-              </div>
-            </Link>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+              <Link href="/#library" style={{ fontSize: 14, color: S.muted, textDecoration: 'none', fontFamily: S.sans, letterSpacing: '.05em' }}>
+                ← 戻る
+              </Link>
+              <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
+                <img src="/images/wa-talk-logo.png" alt="" style={{ height: 36, width: 'auto', borderRadius: 6, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                  <div style={{ fontWeight: 700, fontSize: 20, color: '#000', letterSpacing: '.06em', fontFamily: "'Arvo', serif", lineHeight: 1.2 }}>
+                    WAAI STORY
+                  </div>
+                  <div style={{ fontSize: 11, color: '#f4b8b8', fontFamily: "'Arvo', serif", letterSpacing: '.08em', lineHeight: 1.2 }}>
+                    わーいすとーりー
+                  </div>
+                </div>
+              </Link>
+            </div>
             <nav style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
               <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navFood')}</a>
               <a href="#articles" style={{ fontSize: 12, color: S.muted, textDecoration: 'none', letterSpacing: '.1em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navCulture')}</a>
@@ -280,9 +324,9 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
         </header>
 
         {/* ヒーロー */}
-        <section style={{ position: 'relative', height: '85vh', minHeight: 520, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+        <section style={{ position: 'relative', height: 'clamp(400px, 70vh, 85vh)', minHeight: 360, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
           <div style={{ width: 'min(860px, 92vw)', aspectRatio: '1000/700', WebkitMaskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`, maskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`, WebkitMaskSize: '100% 100%', maskSize: '100% 100%', WebkitMaskRepeat: 'no-repeat', maskRepeat: 'no-repeat', filter: 'drop-shadow(0 20px 40px rgba(60,30,40,.25))' }}>
-            <img src="/images/wa-talk-hero.jpg" alt="WAAI DIG" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/images/wa-talk-hero.jpg" alt="WAAI STORY" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'row-reverse', alignItems: 'center', justifyContent: 'center', gap: 'clamp(1rem, 2.8vw, 2.2rem)', pointerEvents: 'none' }}>
               {haiku.map((line, i) => <span key={i} style={{ writingMode: 'vertical-rl', fontSize: 'clamp(18px, 2.6vw, 28px)', fontWeight: 700, color: '#fff', letterSpacing: '.28em', textShadow: '0 2px 14px rgba(50,10,20,.55), 0 0 3px rgba(0,0,0,.35)' }}>{line}</span>)}
             </div>
@@ -301,42 +345,95 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           </div>
         </section>
 
-        {/* 記事一覧 */}
-        <section id="articles" style={{ maxWidth: 1200, margin: '0 auto', padding: '64px 40px' }}>
+        {/* ===== カテゴリ別スライダー（修正済み） ===== */}
+        <section id="articles" style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(32px, 4vw, 64px) clamp(16px, 3vw, 40px)' }}>
           <h2 style={{ textAlign: 'center', fontSize: 'clamp(24px, 3.5vw, 36px)', fontWeight: 300, color: S.dark, letterSpacing: '.15em', fontFamily: S.serif, marginBottom: 48 }}>
             {ui('storiesTitle')}
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 28 }}>
-            {articles.map(a => {
-              const cc = CATEGORY_COLORS[a.category || 'culture'] || '#8A9A7B';
-              return (
-                <article key={a.id} style={{ cursor: 'pointer', transition: 'opacity 0.3s' }} onClick={() => click(a)} onMouseEnter={e => { (e.currentTarget as HTMLElement).style.opacity = '0.65'; }} onMouseLeave={e => { (e.currentTarget as HTMLElement).style.opacity = '1'; }}>
-                  <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden', marginBottom: 16 }}>
-                    {a.coverImage?.url ? (
-                      <img src={a.coverImage.url} alt={getTitle(a, lang)} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                    ) : (
-                      <div style={{ width: '100%', height: '100%', background: '#f5f0e8' }} />
-                    )}
-                    <span style={{ position: 'absolute', top: 12, left: 12, fontSize: 9, fontWeight: 600, padding: '5px 10px', background: 'rgba(255,255,255,0.9)', color: S.accent, fontFamily: S.sans, letterSpacing: '.12em', textTransform: 'uppercase' }}>{cat(a.category || 'culture')}</span>
-                  </div>
-                  <div>
-                    <p style={{ fontSize: 10, color: S.muted, fontFamily: S.sans, letterSpacing: '.04em', marginBottom: 6 }}>{fmt(a.publishedAt)} · {mins(a.content)}{ui('readMin')}</p>
-                    <h3 style={{ fontSize: 16, lineHeight: 1.5, color: S.dark, fontFamily: S.serif, fontWeight: 400, letterSpacing: '.01em' }}>{getTitle(a, lang)}</h3>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
+
+          {categoryOrder.map((catKey) => {
+            const catArticles = groupedArticles[catKey] || [];
+            const label = CATEGORY_LABELS[catKey]?.[lang] || CATEGORY_LABELS[catKey]?.ja || catKey;
+            const color = CATEGORY_COLORS[catKey] || '#8A9A7B';
+
+            // そのカテゴリに記事が1件もなければ表示しない
+            if (catArticles.length === 0) return null;
+
+            return (
+              <div key={catKey} style={{ marginBottom: 64 }}>
+                {/* カテゴリータイトル */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 }}>
+                  <h3 style={{ fontSize: 'clamp(18px, 2vw, 24px)', fontWeight: 400, fontFamily: S.serif, color: S.dark, letterSpacing: '.1em' }}>
+                    <span style={{ borderBottom: `3px solid ${color}`, paddingBottom: 4 }}>{label}</span>
+                  </h3>
+                  {/* 「もっと見る」ボタン（カテゴリ別一覧へ） */}
+                  <Link
+                    href={`/library/story?category=${catKey}`}
+                    style={{
+                      fontSize: 13,
+                      color: S.muted,
+                      textDecoration: 'none',
+                      fontFamily: S.sans,
+                      letterSpacing: '.05em',
+                      transition: 'color 0.3s',
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.color = '#000'; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.color = S.muted; }}
+                  >
+                    {ui('more')}
+                  </Link>
+                </div>
+
+                {/* Swiper スライダー */}
+                <Swiper
+                  modules={[Navigation, Pagination]}
+                  navigation
+                  pagination={{ clickable: true }}
+                  spaceBetween={20}
+                  slidesPerView={1}
+                  breakpoints={{
+                    640: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                  }}
+                  style={{ padding: '4px 0 40px 0' }}
+                >
+                  {catArticles.map((article) => (
+                    <SwiperSlide key={article.id}>
+                      <div
+                        style={{ cursor: 'pointer' }}
+                        onClick={() => click(article)}
+                        onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.opacity = '0.65'; }}
+                        onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.opacity = '1'; }}
+                      >
+                        <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden', marginBottom: 12, borderRadius: 8 }}>
+                          {article.coverImage?.url ? (
+                            <img src={article.coverImage.url} alt={getTitle(article, lang)} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                          ) : (
+                            <div style={{ width: '100%', height: '100%', background: '#f5f0e8' }} />
+                          )}
+                          <span style={{ position: 'absolute', top: 12, left: 12, fontSize: 9, fontWeight: 600, padding: '5px 10px', background: 'rgba(255,255,255,0.9)', color: S.accent, fontFamily: S.sans, letterSpacing: '.12em', textTransform: 'uppercase' }}>
+                            {cat(article.category || 'culture')}
+                          </span>
+                        </div>
+                        <div>
+                          <p style={{ fontSize: 10, color: S.muted, fontFamily: S.sans, letterSpacing: '.04em', marginBottom: 4 }}>{fmt(article.publishedAt)} · {mins(article.content)}{ui('readMin')}</p>
+                          <h4 style={{ fontSize: 15, lineHeight: 1.4, color: S.dark, fontFamily: S.serif, fontWeight: 400, letterSpacing: '.01em' }}>{getTitle(article, lang)}</h4>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+              </div>
+            );
+          })}
         </section>
 
         {/* フッター */}
         <footer style={{ width: '100%', padding: '80px 40px 50px 40px', background: 'transparent', textAlign: 'center', boxSizing: 'border-box' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', fontFamily: "'Bernou', 'Helvetica Neue', Arial, sans-serif", fontWeight: 900, fontSize: 'clamp(77px, 13vw, 194px)', color: '#000', lineHeight: 1.2, whiteSpace: 'nowrap', letterSpacing: '-0.02em' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', fontFamily: "'Arvo', serif", fontWeight: 700, fontSize: 'clamp(77px, 13vw, 194px)', color: '#000', lineHeight: 1.2, whiteSpace: 'nowrap', letterSpacing: '-0.02em' }}>
             <span>WAAI</span>
             <span style={{ width: 'clamp(20px, 3vw, 50px)', flexShrink: 0 }}></span>
-            <span>DIG</span>
-            <span style={{ width: 'clamp(20px, 3vw, 50px)', flexShrink: 0 }}></span>
-            <span>TRIP</span>
+            <span>STORY</span>
           </div>
           <div style={{ marginTop: 40, fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: 'clamp(11px, 1vw, 16px)', color: '#888', letterSpacing: '0.5px' }}>
             <span>©2026 by InnBuddy</span>

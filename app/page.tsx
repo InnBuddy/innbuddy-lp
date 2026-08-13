@@ -214,17 +214,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== ★★★ ここが「私たちの視点」セクション（修正済み） ★★★ ===== */}
       <section ref={serviceCardsRef} className="py-16 md:py-24 bg-background">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
-          <h2 className="text-center font-serif font-light text-3xl mb-12 md:mb-16 text-foreground">私たちの視点</h2>
+          <h2 className="text-center font-serif font-light text-3xl mb-2 md:mb-3 text-foreground">私たちの視点</h2>
+
           <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16 text-sm text-foreground/60 leading-relaxed space-y-1">
-            <p>①MBA (経営学修士) ＆ 多文化国家での経営経験で培った、経営戦略。</p>
-            <p>②10年の観光業（OTA・旅行企画）で積み重ねた、専門性。</p>
-            <p>③77カ国を旅して掴んだ、現場のリアルな感覚。</p>
-            <hr className="border-dotted border-[var(--hairline)] w-1/2 mx-auto my-4" />
-            <p className="mt-4 !mb-0">ここに、世界中に築いた独自のネットワークを携え、</p>
+            <p>1. 国内最大手OTAでの300施設以上支援した、専門性。</p>
+            <p>2. 多文化国家での経営で培った、グローバル経営戦略。</p>
+            <p>3. 全国旅行企画＆世界77カ国を旅して掴んだ、リアルな旅感覚。</p>
+            <hr className="border-dotted border-[var(--hairline)] w-1/2 mx-auto my-3" />
+            <p className="mt-3 !mb-0">ここに、世界中に築いた独自のネットワークを携え、</p>
             <p>三つの視点から、あなたの宿を見つめます。</p>
           </div>
+          {/* ===== ★★★ 修正箇所 ここまで ★★★ ===== */}
+
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
             {[
               { title: 'グローバルOTA運用', desc: '77カ国を旅して掴んだ、世界の旅行者が本当に求めるもの。その知見であなたの宿を最適な販路へ。' },
