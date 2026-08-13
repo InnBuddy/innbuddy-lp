@@ -146,7 +146,7 @@ export default function Home() {
             <div className="max-w-full md:max-w-md mx-auto md:mx-0">
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">資産01 — 自然</p>
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">この静寂は、都会の人が1泊5万円で買う体験です。</h2>
-              <div className="flex flex-wrap gap-2 mt-6">
+              <div className="flex flex-wrap gap-2 mt-6" style={{ maxWidth: '100%' }}>
                 {assetTagsNature.map((tag) => (
                   <AssetTag
                     key={tag.label}
@@ -164,7 +164,7 @@ export default function Home() {
             <div className="order-2 md:order-1 max-w-full md:max-w-md mx-auto md:mx-0">
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">資産02 — 食</p>
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">この一皿の物語を、世界はまだ知りません。</h2>
-              <div className="flex flex-wrap gap-2 mt-6">
+              <div className="flex flex-wrap gap-2 mt-6" style={{ maxWidth: '100%' }}>
                 {assetTagsFood.map((tag) => (
                   <AssetTag
                     key={tag.label}
@@ -184,7 +184,8 @@ export default function Home() {
             <div className="max-w-full md:max-w-md mx-auto md:mx-0">
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">資産03 — 人と時間</p>
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">継がれる手仕事は、最も贅沢なインテリアです。</h2>
-              <div className="flex flex-wrap gap-2 mt-6">
+              {/* ★★★ 修正：タグがはみ出さないように maxWidth を追加 ★★★ */}
+              <div className="flex flex-wrap gap-2 mt-6" style={{ maxWidth: '100%' }}>
                 {assetTagsPeopleTime.map((tag) => (
                   <AssetTag
                     key={tag.label}
@@ -214,21 +215,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== ★★★ ここが「私たちの視点」セクション（修正済み） ★★★ ===== */}
       <section ref={serviceCardsRef} className="py-16 md:py-24 bg-background">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
           <h2 className="text-center font-serif font-light text-3xl mb-2 md:mb-3 text-foreground">私たちの視点</h2>
-
           <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16 text-sm text-foreground/60 leading-relaxed space-y-1">
-            <p>1. 国内最大手OTAでの300施設以上支援した、専門性。</p>
-            <p>2. 多文化国家での経営で培った、グローバル経営戦略。</p>
-            <p>3. 全国旅行企画＆世界77カ国を旅して掴んだ、リアルな旅感覚。</p>
+            <p>1. 国内最大手OTAで300施設支援した、専門性。</p>
+            <p>2. 多文化国家で培った、グローバル経営戦略。</p>
+            <p>3. 日本旅行企画＆世界中で得た、リアルな旅感覚。</p>
             <hr className="border-dotted border-[var(--hairline)] w-1/2 mx-auto my-3" />
             <p className="mt-3 !mb-0">ここに、世界中に築いた独自のネットワークを携え、</p>
             <p>三つの視点から、あなたの宿を見つめます。</p>
           </div>
-          {/* ===== ★★★ 修正箇所 ここまで ★★★ ===== */}
-
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
             {[
               { title: 'グローバルOTA運用', desc: '77カ国を旅して掴んだ、世界の旅行者が本当に求めるもの。その知見であなたの宿を最適な販路へ。' },
@@ -419,7 +416,7 @@ export default function Home() {
         <DiagnosticCards onRevenue={openRevenue} onHiring={openHiring} />
       </section>
 
-      {/* 【正しいリンクに修正】ライブラリ 3カード（押すと /library/ 配下の一覧へ遷移します） */}
+      {/* ライブラリ 3カード */}
       <section id="library" className="py-24 bg-background border-t border-hairline">
         <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
           <h2 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-4">LIBRARY</h2>

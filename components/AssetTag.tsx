@@ -1,7 +1,6 @@
-// components/AssetTag.tsx
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useState } from 'react';
 
 interface AssetTagProps {
   label: string;
@@ -12,37 +11,63 @@ interface AssetTagProps {
 }
 
 export function AssetTag({ label, description, colorClass, isOpen, onToggle }: AssetTagProps) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!isOpen) return;
-    const handleClickOutside = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) {
-        onToggle();
-      }
-    };
-    const timer = setTimeout(() => {
-      document.addEventListener('click', handleClickOutside);
-    }, 10);
-    return () => {
-      clearTimeout(timer);
-      document.removeEventListener('click', handleClickOutside);
-    };
-  }, [isOpen, onToggle]);
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div ref={ref} className="relative inline-block">
+    <div
+      style={{
+        display: 'inline-block',
+        maxWidth: '100%',
+        margin: 0,
+      }}
+    >
       <button
         onClick={onToggle}
-        className={`whitespace-nowrap text-sm px-3 py-1.5 rounded-full ${colorClass} hover:opacity-80 transition-opacity`}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        style={{
+          display: 'inline-block',
+          whiteSpace: 'normal', // 折り返しを許可
+          wordBreak: 'break-word',
+          padding: 'clamp(3px, 0.8vw, 8px) clamp(6px, 1.2vw, 14px)',
+          fontSize: 'clamp(10px, 1.1vw, 13px)',
+          fontWeight: 500,
+          fontFamily: "'Helvetica Neue', Arial, sans-serif",
+          color: '#1a1a1a',
+          backgroundColor: isOpen ? colorClass : '#f5f0e8',
+          border: 'none',
+          borderRadius: '4px',
+          cursor: 'pointer',
+          transition: 'all 0.3s ease',
+          letterSpacing: '0.02em',
+          maxWidth: '100%',
+          boxSizing: 'border-box',
+          opacity: isHovered ? 0.85 : 1,
+          lineHeight: 1.4,
+          textAlign: 'left',
+          margin: 0,
+        }}
       >
-        #{label}
+        {label}
       </button>
 
+      {/* 説明文（開いているときのみ表示） */}
       {isOpen && (
-        <div className="absolute z-50 top-full mt-2 left-1/2 -translate-x-1/2 w-64 max-w-[90vw] rounded-lg bg-white shadow-lg p-4 text-left border border-hairline">
-          <p className="text-sm font-medium text-foreground mb-1">#{label}とは</p>
-          <p className="text-sm leading-relaxed text-foreground/70">{description}</p>
+        <div
+          style={{
+            marginTop: 'clamp(4px, 0.8vw, 8px)',
+            padding: 'clamp(6px, 1vw, 12px)',
+            backgroundColor: '#fafaf8',
+            borderRadius: '4px',
+            fontSize: 'clamp(11px, 1.2vw, 14px)',
+            color: '#4a3728',
+            maxWidth: '100%',
+            wordBreak: 'break-word',
+            lineHeight: 1.6,
+            border: '1px solid #e8e3dc',
+          }}
+        >
+          {description}
         </div>
       )}
     </div>
