@@ -2,11 +2,11 @@
 
 export interface LeadFormData {
   facilityName: string;
-  prefecture: string;   // 今回追加
+  prefecture: string;
   contactName: string;
   email: string;
   phone: string;
-  diagnosticType: 'revenue' | 'hiring';
+  diagnosticType: 'revenue' | 'hiring' | 'contact'; // ← 'contact' を追加
   payload: Record<string, any>;
 }
 

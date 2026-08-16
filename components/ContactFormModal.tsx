@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { submitDiagnostic } from "@/lib/submitToSheet";
 
 interface Props {
   isOpen: boolean;
@@ -68,20 +69,25 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
     setError('');
 
     try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+      // ★★★ ここが修正ポイント ★★★
+      await submitDiagnostic({
+        facilityName: form.facilityName,
+        prefecture: '',
+        contactName: form.name,
+        email: form.email,
+        phone: form.phone,
+        diagnosticType: 'contact',
+        payload: {
+          facilityType: form.facilityType,
+          roomCount: form.roomCount,
+          currentOtas: form.currentOtas,
+          concerns: form.concerns,
+          message: form.message,
+        },
       });
-
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data.error || '送信に失敗しました');
-      }
-
       setSubmitted(true);
     } catch (err: any) {
-      setError(err.message || 'エラーが発生しました。もう一度お試しください。');
+      setError(err.message || '送信に失敗しました。もう一度お試しください。');
     } finally {
       setLoading(false);
     }
@@ -99,7 +105,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
-      {/* ★★★ 最終手段：key と inputMode を追加 ★★★ */}
+      {/* 施設名 */}
       <div>
         <label className="block text-sm text-[#1b2e1b]/70 mb-1">施設名 *</label>
         <input
@@ -113,6 +119,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         />
       </div>
 
+      {/* ご担当者名 */}
       <div>
         <label className="block text-sm text-[#1b2e1b]/70 mb-1">ご担当者名 *</label>
         <input type="text" required value={form.name}
@@ -120,6 +127,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
           className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
       </div>
 
+      {/* メール・電話 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label className="block text-sm text-[#1b2e1b]/70 mb-1">メールアドレス *</label>
@@ -135,6 +143,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         </div>
       </div>
 
+      {/* 施設の種類・部屋数 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label className="block text-sm text-[#1b2e1b]/70 mb-1">施設の種類 *</label>
@@ -156,6 +165,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         </div>
       </div>
 
+      {/* OTA */}
       <div>
         <label className="block text-sm text-[#1b2e1b]/70 mb-2">現在利用中のOTA（複数選択可）</label>
         <div className="flex flex-wrap gap-2">
@@ -170,6 +180,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         </div>
       </div>
 
+      {/* 相談内容 */}
       <div>
         <label className="block text-sm text-[#1b2e1b]/70 mb-2">ご相談内容 *（複数選択可）</label>
         <div className="space-y-2">
@@ -184,6 +195,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         </div>
       </div>
 
+      {/* 詳細メッセージ */}
       <div>
         <label className="block text-sm text-[#1b2e1b]/70 mb-1">その他、詳細があればご記入ください</label>
         <textarea rows={5} value={form.message}
@@ -191,6 +203,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
           className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b] resize-none" />
       </div>
 
+      {/* 同意 */}
       <div>
         <label className="flex items-start gap-3 cursor-pointer text-xs text-[#1b2e1b]/60 leading-relaxed">
           <input type="checkbox" required checked={form.agreed}
@@ -204,6 +217,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         <p className="text-red-600 text-sm text-center">{error}</p>
       )}
 
+      {/* 送信ボタン */}
       <div>
         <button type="submit" disabled={loading}
           className="w-full bg-[#1b2e1b] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#2d4a2d] transition-colors disabled:opacity-50">
