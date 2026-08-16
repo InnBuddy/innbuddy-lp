@@ -238,16 +238,16 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
   const fmt = (d?: string) => d ? `${new Date(d).getFullYear()}.${String(new Date(d).getMonth() + 1).padStart(2, '0')}.${String(new Date(d).getDate()).padStart(2, '0')}` : '';
   const mins = (c: string) => Math.max(1, Math.ceil((c?.replace(/<[^>]+>/g, '')?.length || 0) / 600));
 
-  // ★★★ カテゴリ値の正規化関数（日本語→英字に変換） ★★★
+  // カテゴリ値の正規化関数
   const normalizeCategory = (cat: string | undefined): string => {
     if (!cat) return 'other';
     if (cat === '食文化' || cat === '美食') return 'food';
     if (cat === '伝統文化' || cat === '传统文化') return 'culture';
     if (cat === '風景・旅' || cat === '风景・旅行') return 'travel';
-    return cat; // 既に英字の場合はそのまま
+    return cat;
   };
 
-  // ★★★ カテゴリーごとに記事をグループ化（正規化対応） ★★★
+  // カテゴリーごとに記事をグループ化
   const groupedArticles = articles.reduce((acc, article) => {
     const normalizedCat = normalizeCategory(article.category);
     if (!acc[normalizedCat]) acc[normalizedCat] = [];
@@ -264,43 +264,39 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
       <canvas ref={leafRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', zIndex: 1, pointerEvents: 'none' }} aria-hidden="true" />
       <div style={{ position: 'relative', zIndex: 2 }}>
 
-        {/* ===== ヘッダー（スマホ対応済み） ===== */}
+        {/* ヘッダー */}
         <header style={{ position: 'sticky', top: 0, zIndex: 10, background: S.headerBg, backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(0,0,0,0.06)' }}>
-          <div style={{ maxWidth: 1200, margin: '0 auto', height: 'clamp(56px, 10vh, 72px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 clamp(12px, 2vw, 40px)' }}>
-            
-            {/* 左：戻るボタン */}
-            <Link href="/#library" style={{ fontSize: 'clamp(12px, 1.5vw, 14px)', color: S.muted, textDecoration: 'none', fontFamily: S.sans, letterSpacing: '.05em', flexShrink: 0 }}>
+          <div style={{ maxWidth: 1200, margin: '0 auto', height: 'clamp(52px, 8vh, 72px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 clamp(8px, 2vw, 40px)' }}>
+            <Link href="/#library" style={{ fontSize: 'clamp(11px, 1.4vw, 14px)', color: S.muted, textDecoration: 'none', fontFamily: S.sans, letterSpacing: '.04em', flexShrink: 0, paddingRight: '4px' }}>
               ← 戻る
             </Link>
-
-            {/* 中央：ロゴ + WAAI STORY */}
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 'clamp(6px, 1.2vw, 14px)', flex: 1, minWidth: 0 }}>
-              <img src="/images/wa-talk-logo.png" alt="" style={{ height: 'clamp(26px, 4.5vw, 36px)', width: 'auto', borderRadius: 6, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 'clamp(4px, 1vw, 12px)', flex: 1, minWidth: 0 }}>
+              <img src="/images/wa-talk-logo.png" alt="" style={{ height: 'clamp(22px, 4vw, 36px)', width: 'auto', borderRadius: 4, objectFit: 'cover' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: 0 }}>
-                <div style={{ fontWeight: 700, fontSize: 'clamp(13px, 3vw, 20px)', color: '#000', letterSpacing: '.04em', fontFamily: "'Arvo', serif", lineHeight: 1.2, whiteSpace: 'nowrap' }}>
+                <div style={{ fontWeight: 700, fontSize: 'clamp(12px, 2.8vw, 20px)', color: '#000', letterSpacing: '.03em', fontFamily: "'Arvo', serif", lineHeight: 1.2, whiteSpace: 'nowrap' }}>
                   WAAI STORY
                 </div>
-                <div style={{ fontSize: 'clamp(8px, 1.6vw, 11px)', color: '#f4b8b8', fontFamily: "'Arvo', serif", letterSpacing: '.06em', lineHeight: 1.2, whiteSpace: 'nowrap' }}>
+                <div style={{ fontSize: 'clamp(7px, 1.4vw, 11px)', color: '#f4b8b8', fontFamily: "'Arvo', serif", letterSpacing: '.05em', lineHeight: 1.2, whiteSpace: 'nowrap' }}>
                   わーいすとーりー
                 </div>
               </div>
             </div>
-
-            {/* 右：ナビゲーション */}
-            <nav style={{ display: 'flex', alignItems: 'center', gap: 'clamp(6px, 1vw, 16px)', flexShrink: 0 }}>
-              <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase', display: 'none' }}>{ui('navFood')}</a>
-              <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase', display: 'none' }}>{ui('navCulture')}</a>
-              <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase', display: 'none' }}>{ui('navTravel')}</a>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 0, flexShrink: 0, marginLeft: '4px' }}>
+              <div style={{ display: 'none' }}>
+                <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navFood')}</a>
+                <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navCulture')}</a>
+                <a href="#articles" style={{ fontSize: 'clamp(8px, 1vw, 11px)', color: S.muted, textDecoration: 'none', letterSpacing: '.08em', fontFamily: S.sans, textTransform: 'uppercase' }}>{ui('navTravel')}</a>
+              </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 0, border: '1px solid rgba(0,0,0,0.12)', borderRadius: 4, flexShrink: 0 }}>
                 {LANG_OPTIONS.map(([code, label], i) => (
                   <button
                     key={code}
                     onClick={() => setLang(code)}
                     style={{
-                      fontSize: 'clamp(7px, 0.9vw, 10px)',
+                      fontSize: 'clamp(6px, 0.8vw, 10px)',
                       fontFamily: S.sans,
-                      letterSpacing: '.04em',
-                      padding: 'clamp(3px, 0.6vw, 6px) clamp(6px, 1vw, 12px)',
+                      letterSpacing: '.03em',
+                      padding: 'clamp(3px, 0.5vw, 6px) clamp(4px, 0.8vw, 12px)',
                       background: lang === code ? '#000' : 'transparent',
                       color: lang === code ? '#fff' : S.muted,
                       border: 'none',
@@ -314,11 +310,11 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
                   </button>
                 ))}
               </div>
-            </nav>
+            </div>
           </div>
         </header>
 
-        {/* ===== ヒーロー ===== */}
+        {/* ヒーロー */}
         <section style={{ position: 'relative', height: 'clamp(320px, 60vh, 85vh)', minHeight: 280, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
           <div style={{ width: 'min(860px, 92vw)', aspectRatio: '1000/700', WebkitMaskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`, maskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`, WebkitMaskSize: '100% 100%', maskSize: '100% 100%', WebkitMaskRepeat: 'no-repeat', maskRepeat: 'no-repeat', filter: 'drop-shadow(0 20px 40px rgba(60,30,40,.25))' }}>
             <img src="/images/wa-talk-hero.jpg" alt="WAAI STORY" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
@@ -328,7 +324,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           </div>
         </section>
 
-        {/* ===== Wa Wave ===== */}
+        {/* Wa Wave */}
         <section style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(24px, 4vw, 48px) clamp(16px, 3vw, 40px) clamp(32px, 5vw, 64px)' }}>
           <h2 style={{ textAlign: 'center', fontSize: 'clamp(22px, 4.5vw, 42px)', fontWeight: 300, color: S.dark, letterSpacing: '.2em', fontFamily: S.serif, marginBottom: 24 }}>
             {ui('waveTitle')}
@@ -340,7 +336,7 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           </div>
         </section>
 
-        {/* ===== カテゴリ別スライダー ===== */}
+        {/* カテゴリ別スライダー */}
         <section id="articles" style={{ maxWidth: 1200, margin: '0 auto', padding: 'clamp(24px, 4vw, 64px) clamp(12px, 2.5vw, 40px)' }}>
           <h2 style={{ textAlign: 'center', fontSize: 'clamp(20px, 3.5vw, 36px)', fontWeight: 300, color: S.dark, letterSpacing: '.15em', fontFamily: S.serif, marginBottom: 32 }}>
             {ui('storiesTitle')}
@@ -420,20 +416,29 @@ export default function WaTalkFull({ initialArticles }: WaTalkFullProps) {
           })}
         </section>
 
-        {/* ===== フッター（スマホ対応済み） ===== */}
-        <footer style={{ width: '100%', padding: 'clamp(32px, 6vw, 80px) clamp(16px, 4vw, 40px) clamp(24px, 4vw, 50px) clamp(16px, 4vw, 40px)', background: 'transparent', textAlign: 'center', boxSizing: 'border-box' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', fontFamily: "'Arvo', serif", fontWeight: 700, fontSize: 'clamp(32px, 7vw, 77px)', color: '#000', lineHeight: 1.2, whiteSpace: 'nowrap', letterSpacing: '-0.02em' }}>
-            <span>WAAI</span>
-            <span style={{ width: 'clamp(10px, 1.5vw, 30px)', flexShrink: 0 }}></span>
-            <span>STORY</span>
+        {/* ===== フッター（画像版：WAAI & EMOI） ===== */}
+        <footer style={{ width: '100%', padding: 'clamp(8px, 1.5vw, 24px) clamp(16px, 4vw, 40px) clamp(8px, 1.5vw, 24px) clamp(16px, 4vw, 40px)', background: 'transparent', textAlign: 'center', boxSizing: 'border-box' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+            <img
+              src="/images/waai-emoi-logo.png"
+              alt="WAAI & EMOI"
+              style={{
+                width: '100%',
+                maxWidth: '100%',
+                height: 'auto',
+                maxHeight: 'clamp(112px, 28vw, 336px)',
+                objectFit: 'contain',
+                display: 'block',
+              }}
+            />
           </div>
-          <div style={{ marginTop: 'clamp(16px, 3vw, 40px)', fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: 'clamp(9px, 1.2vw, 14px)', color: '#888', letterSpacing: '0.5px' }}>
+          <div style={{ marginTop: 'clamp(8px, 1.5vw, 20px)', fontFamily: "'Helvetica Neue', Arial, sans-serif", fontSize: 'clamp(9px, 1.2vw, 14px)', color: '#888', letterSpacing: '0.5px' }}>
             <span>©2026 by InnBuddy</span>
           </div>
         </footer>
       </div>
 
-      {/* ===== 記事詳細 ===== */}
+      {/* 記事詳細 */}
       {sel && (
         <div style={{ position: 'fixed', inset: 0, zIndex: 50, background: '#fff', overflowY: 'auto' }}>
           <button onClick={close} style={{ position: 'fixed', top: 20, left: 20, zIndex: 60, background: 'rgba(255,255,255,0.9)', border: 'none', padding: '10px 18px', fontSize: 12, cursor: 'pointer', fontFamily: S.sans, letterSpacing: '.04em', color: S.muted, backdropFilter: 'blur(8px)' }}>{ui('back')}</button>

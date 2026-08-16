@@ -51,6 +51,8 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
     message: '', agreed: false,
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   const toggleArray = (key: 'currentOtas' | 'concerns', value: string) => {
     setForm((prev) => {
@@ -62,7 +64,27 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || '送信に失敗しました');
+      }
+
+      setSubmitted(true);
+    } catch (err: any) {
+      setError(err.message || 'エラーが発生しました。もう一度お試しください。');
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -77,11 +99,18 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
+      {/* ★★★ 最終手段：key と inputMode を追加 ★★★ */}
       <div>
         <label className="block text-sm text-[#1b2e1b]/70 mb-1">施設名 *</label>
-        <input type="number" required value={form.facilityName}
+        <input
+          key="facility-name-input"
+          type="text"
+          inputMode="text"
+          required
+          value={form.facilityName}
           onChange={(e) => setForm((p) => ({ ...p, facilityName: e.target.value }))}
-          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" />
+          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+        />
       </div>
 
       <div>
@@ -171,10 +200,14 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         </label>
       </div>
 
+      {error && (
+        <p className="text-red-600 text-sm text-center">{error}</p>
+      )}
+
       <div>
-        <button type="submit"
-          className="w-full bg-[#1b2e1b] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#2d4a2d] transition-colors">
-          送信する
+        <button type="submit" disabled={loading}
+          className="w-full bg-[#1b2e1b] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#2d4a2d] transition-colors disabled:opacity-50">
+          {loading ? '送信中...' : '送信する'}
         </button>
       </div>
     </form>
