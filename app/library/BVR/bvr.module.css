@@ -1,0 +1,625 @@
+.page {
+  min-height: 100vh;
+  background: #f4f1e9;
+  color: #24221d;
+}
+
+.container {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 34px 0 90px;
+}
+
+
+/* =========================================
+   Breadcrumb
+========================================= */
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+
+  color: #827b6d;
+}
+
+.breadcrumb a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.breadcrumb a:hover {
+  opacity: 0.55;
+}
+
+
+/* =========================================
+   Header
+========================================= */
+
+.header {
+  padding: 105px 0 75px;
+  border-bottom: 1px solid #d8d3c8;
+}
+
+.eyebrow {
+  margin: 0 0 22px;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+
+  color: #8d783c;
+}
+
+.header h1 {
+  margin: 0;
+
+  font-family:
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    "YuMincho",
+    serif;
+
+  font-size: clamp(44px, 7vw, 88px);
+  line-height: 0.98;
+  font-weight: 500;
+
+  letter-spacing: 0.055em;
+}
+
+.subtitle {
+  margin: 30px 0 0;
+
+  font-family:
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    "YuMincho",
+    serif;
+
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  color: #625d52;
+}
+
+.intro {
+  margin: 35px 0 0;
+
+  font-size: 13px;
+  line-height: 2.2;
+  letter-spacing: 0.08em;
+
+  color: #777166;
+}
+
+
+/* =========================================
+   Archive
+========================================= */
+
+.reports {
+  padding-top: 58px;
+}
+
+.sectionHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d8d3c8;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 10px;
+  letter-spacing: 0.2em;
+
+  color: #777064;
+}
+
+
+/* =========================================
+   Grid
+========================================= */
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 42px;
+
+  padding-top: 48px;
+}
+
+
+/* =========================================
+   Card
+========================================= */
+
+.card {
+  display: block;
+
+  color: inherit;
+  text-decoration: none;
+
+  min-width: 0;
+}
+
+.coverWrapper {
+  position: relative;
+
+  width: 100%;
+
+  aspect-ratio: 1.414 / 1;
+
+  overflow: hidden;
+
+  background: #1b1813;
+
+  box-shadow:
+    0 18px 45px rgba(35, 30, 20, 0.15);
+
+  transition:
+    transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.45s ease;
+}
+
+.card:hover .coverWrapper {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 28px 60px rgba(35, 30, 20, 0.23);
+}
+
+
+/* =========================================
+   Actual BVR preview
+========================================= */
+
+.preview {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 200%;
+  height: 200%;
+
+  border: 0;
+
+  transform: scale(0.5);
+
+  transform-origin: top left;
+
+  pointer-events: none;
+
+  background: #191510;
+}
+
+
+/* =========================================
+   Hover
+========================================= */
+
+.overlay {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+  align-items: flex-end;
+
+  padding: 30px;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(18, 15, 10, 0.94) 0%,
+      rgba(18, 15, 10, 0.7) 32%,
+      rgba(18, 15, 10, 0.12) 72%,
+      transparent 100%
+    );
+
+  opacity: 0;
+
+  transition: opacity 0.35s ease;
+
+  color: #fff;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlayContent {
+  transform: translateY(12px);
+
+  transition: transform 0.35s ease;
+}
+
+.card:hover .overlayContent {
+  transform: translateY(0);
+}
+
+.year {
+  display: block;
+
+  margin-bottom: 9px;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 10px;
+  letter-spacing: 0.25em;
+
+  color: #c7af69;
+}
+
+.overlay h2 {
+  margin: 0;
+
+  font-family:
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    "YuMincho",
+    serif;
+
+  font-size: 22px;
+  font-weight: 500;
+
+  letter-spacing: 0.04em;
+}
+
+.overlay p {
+  margin: 12px 0 21px;
+
+  max-width: 310px;
+
+  font-size: 11px;
+  line-height: 1.8;
+
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.open {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 10px;
+  letter-spacing: 0.18em;
+}
+
+.open span {
+  font-size: 15px;
+
+  transition: transform 0.25s ease;
+}
+
+.card:hover .open span {
+  transform: translateX(5px);
+}
+
+
+/* =========================================
+   Card metadata
+========================================= */
+
+.cardMeta {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 14px;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 9px;
+  letter-spacing: 0.13em;
+
+  color: #777166;
+}
+
+
+/* =========================================
+   Back
+========================================= */
+
+.back {
+  padding-top: 70px;
+}
+
+.back a {
+  display: inline-block;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 10px;
+  letter-spacing: 0.17em;
+
+  color: #777166;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.back a:hover {
+  color: #24221d;
+  transform: translateX(-4px);
+}
+
+
+/* =========================================
+   Tablet
+========================================= */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width: 640px) {
+  .container {
+    width: calc(100% - 30px);
+    padding-top: 24px;
+    padding-bottom: 60px;
+  }
+
+  .header {
+    padding: 65px 0 45px;
+  }
+
+  .header h1 {
+    font-size: 43px;
+    line-height: 1.05;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .intro {
+    font-size: 12px;
+    line-height: 2;
+  }
+
+  .sectionHeading {
+    font-size: 9px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+
+    padding-top: 34px;
+  }
+
+  .coverWrapper {
+    aspect-ratio: 1.414 / 1;
+  }
+
+  .overlay {
+    opacity: 1;
+
+    padding: 22px;
+
+    background:
+      linear-gradient(
+        to top,
+        rgba(18, 15, 10, 0.86) 0%,
+        rgba(18, 15, 10, 0.15) 65%,
+        transparent 100%
+      );
+  }
+
+  .overlayContent {
+    transform: none;
+  }
+
+  .overlay h2 {
+    font-size: 20px;
+  }
+
+  .overlay p {
+    margin-bottom: 15px;
+  }
+
+  .cardMeta {
+    font-size: 8px;
+  }
+
+  .back {
+    padding-top: 50px;
+  }
+}
+/* =========================================
+   2027 Coming Soon
+========================================= */
+
+.comingCard {
+  cursor: default;
+}
+
+.comingCover {
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 1.414 / 1;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ded9cc 0%,
+      #cfc8b8 48%,
+      #b9b09d 100%
+    );
+
+  box-shadow:
+    0 18px 45px rgba(35, 30, 20, 0.10);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comingCover::before {
+  content: '';
+
+  position: absolute;
+  inset: 18px;
+
+  border: 1px solid rgba(45, 40, 30, 0.22);
+
+  pointer-events: none;
+}
+
+.comingInner {
+  position: relative;
+
+  z-index: 2;
+
+  text-align: center;
+
+  color: #3e3a31;
+}
+
+.comingEyebrow {
+  display: block;
+
+  margin-bottom: 18px;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 9px;
+
+  letter-spacing: 0.28em;
+
+  color: #716956;
+}
+
+.comingYear {
+  display: block;
+
+  margin-bottom: 12px;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 11px;
+
+  letter-spacing: 0.25em;
+
+  color: #81765e;
+}
+
+.comingInner h2 {
+  margin: 0;
+
+  font-family:
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    "YuMincho",
+    serif;
+
+  font-size: clamp(20px, 3vw, 30px);
+
+  line-height: 1.25;
+
+  font-weight: 500;
+
+  letter-spacing: 0.08em;
+}
+
+.comingInner p {
+  margin: 20px 0 0;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 9px;
+
+  letter-spacing: 0.28em;
+
+  color: #766d5b;
+}
+
+
+/* =========================================
+   Coming Soon hover
+========================================= */
+
+.comingCard:hover .comingCover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 25px 50px rgba(35, 30, 20, 0.15);
+
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}

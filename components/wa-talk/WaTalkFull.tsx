@@ -1380,7 +1380,7 @@ function WaTalkFullInner({
             }}
           >
             <Link
-              href="/#library"
+              href="/library"
               style={{
                 fontSize:
                   'clamp(11px, 1.4vw, 14px)',

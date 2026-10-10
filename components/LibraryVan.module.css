@@ -1,0 +1,238 @@
+.section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.imageWrapper {
+  position: relative;
+
+  width: 100%;
+
+  overflow: hidden;
+
+  background: #d9d2bd;
+
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.background {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: cover;
+}
+
+
+/* =========================================
+   Drag area
+========================================= */
+
+.dragArea {
+  position: absolute;
+
+  /*
+   * バンの位置に合わせた操作エリア
+   */
+  left: 46%;
+  top: 40%;
+
+  width: 38%;
+  height: 42%;
+
+  cursor: grab;
+
+  touch-action: pan-y;
+
+  z-index: 5;
+}
+
+.dragArea:active {
+  cursor: grabbing;
+}
+
+
+/* =========================================
+   Drag indicator
+========================================= */
+
+.dragIndicator {
+  position: absolute;
+
+  right: 5%;
+  bottom: 8%;
+
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(40, 35, 20, 0.45);
+
+  background: rgba(255, 255, 255, 0.18);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #29271f;
+
+  pointer-events: none;
+}
+
+.arrow {
+  font-size: 30px;
+}
+
+
+/* =========================================
+   See ALL
+========================================= */
+
+.seeAll {
+  position: absolute;
+
+  right: 5%;
+  top: 40%;
+
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  border: 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+  padding: 0 0 10px;
+
+  background: transparent;
+
+  color: white;
+
+  font-family:
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    serif;
+
+  font-size: clamp(20px, 2.3vw, 34px);
+
+  font-style: italic;
+
+  cursor: pointer;
+
+  text-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.4);
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.seeAll:hover {
+  transform: translateX(8px);
+}
+
+.seeArrow {
+  font-style: normal;
+
+  transition:
+    transform 0.25s ease;
+}
+
+.seeAll:hover .seeArrow {
+  transform: translateX(6px);
+}
+
+
+/* =========================================
+   Instruction
+========================================= */
+
+.instruction {
+  position: absolute;
+
+  right: 3.5%;
+  bottom: 5%;
+
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 13px 25px;
+
+  border-radius: 40px;
+
+  background: rgba(238, 181, 24, 0.94);
+
+  color: #332d1d;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  letter-spacing: 0.05em;
+
+  box-shadow:
+    0 6px 20px rgba(60, 45, 10, 0.18);
+
+  pointer-events: none;
+}
+
+.hand {
+  font-size: 22px;
+}
+
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width: 700px) {
+
+  .dragArea {
+    left: 40%;
+    top: 35%;
+
+    width: 55%;
+    height: 48%;
+  }
+
+  .dragIndicator {
+    width: 55px;
+    height: 55px;
+  }
+
+  .arrow {
+    font-size: 24px;
+  }
+
+  .seeAll {
+    right: 5%;
+    top: 15%;
+
+    font-size: 22px;
+  }
+
+  .instruction {
+    right: 4%;
+    bottom: 5%;
+
+    padding: 10px 16px;
+
+    font-size: 9px;
+  }
+
+  .hand {
+    font-size: 18px;
+  }
+}

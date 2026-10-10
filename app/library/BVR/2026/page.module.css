@@ -1,0 +1,110 @@
+.page {
+  position: relative;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background: #191510;
+}
+
+
+/* =========================================
+   Top navigation
+========================================= */
+
+.topBar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  height: 54px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 22px;
+
+  box-sizing: border-box;
+
+  z-index: 1000;
+
+  background: rgba(20, 17, 12, 0.82);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  color: #ddd5c3;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 10px;
+
+  letter-spacing: 0.14em;
+}
+
+.topBar a {
+  color: inherit;
+
+  text-decoration: none;
+
+  transition: opacity 0.2s ease;
+}
+
+.topBar a:hover {
+  opacity: 0.55;
+}
+
+.topBar span {
+  color: #a99e88;
+}
+
+
+/* =========================================
+   Book
+========================================= */
+
+.book {
+  display: block;
+
+  width: 100%;
+  height: 100vh;
+
+  min-height: 700px;
+
+  border: 0;
+
+  margin: 0;
+}
+
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width: 640px) {
+  .topBar {
+    height: 48px;
+
+    padding: 0 14px;
+
+    font-size: 8px;
+  }
+
+  .book {
+    min-height: 100svh;
+
+    height: 100svh;
+  }
+}
