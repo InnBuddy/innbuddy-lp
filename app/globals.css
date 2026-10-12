@@ -111,8 +111,8 @@ html {
 
 body {
  margin: 0;
- background: var(--ink);
- color: var(--paper);
+ background: var(--paper);
+ color: var(--ink);
  font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -686,30 +686,78 @@ a {
  align-self: flex-start;
 }
 
+/* -------------------------------------
+   フッターの新しいデザイン（完璧なレイアウト）
+------------------------------------- */
 footer {
- padding: 70px 0;
- background: #101010;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 16px 5vw !important; 
+  background-color: transparent !important;
+  border-top: 1px solid #008000 !important;
+  border-left: none !important;
+  
+  /* フッター自体を横並びにする */
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: nowrap !important;
 }
 
-footer .label {
- margin-top: 28px;
+/* 内部のレイアウト調整（箱がある場合） */
+footer > div, footer > .wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
-footer p {
- color: #aaa;
- font-size: 13px;
- line-height: 2;
+/* ★一番左の要素（InnBuddy）のスペースを広げて、左寄せにする */
+footer > *:first-child, footer > div > *:first-child {
+  flex: 1 1 0% !important;
+  text-align: left !important;
+  margin-right: auto !important;
 }
 
+/* ★一番右の要素（コピーライト）のスペースを広げて、右寄せにする */
+footer > *:last-child, footer > div > *:last-child, footer p {
+  flex: 1 1 0% !important;
+  text-align: right !important;
+  margin-left: auto !important;
+  font-size: 11px !important;
+}
+
+/* ★中央のリンク（aタグ）は本来の大きさのまま中央に残す */
 footer a {
- color: var(--orange);
- font-size: 12px;
- margin-right: 20px;
- display: inline-block;
+  flex: 0 0 auto !important;
+  font-size: 13px !important;
+  margin: 0 20px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+
+/* 共通リセット */
+footer * {
+  color: #171717 !important;
+  position: relative;
+  z-index: 10;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  line-height: 1.5 !important;
+}
+
+/* ストライプなどを消去 */
+footer:before, footer > .wrap:before {
+  display: none !important;
 }
 
 footer a:hover {
- text-decoration: underline;
+  text-decoration: underline !important;
+  color: #008000 !important;
 }
 
 /* 発光背景 */
