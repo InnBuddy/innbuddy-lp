@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./team.css";
+import CampfireAnimation from "@/components/CampfireAnimation";
 
 export const metadata: Metadata = {
   title: "運営チームについて | InnBuddy",
@@ -108,6 +109,23 @@ export default function TeamPage() {
         <span className="bg-circle bg-circle-02" />
       </div>
 
+      {/* 30%サイズ縮小 & 右端に寄せて背面に配置した炎 */}
+      <div
+        style={{
+          position: "fixed",
+          bottom: "-10px",
+          right: "-35px",
+          width: "360px",
+          height: "285px",
+          maxWidth: "65vw",
+          maxHeight: "65vw",
+          zIndex: 1,
+          pointerEvents: "none",
+        }}
+      >
+        <CampfireAnimation />
+      </div>
+
       {/* HERO */}
       <section className="team-hero grid-navy">
         <div className="team-container">
@@ -140,6 +158,9 @@ export default function TeamPage() {
           </div>
         </div>
       </section>
+
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
 
       {/* APPROACH */}
       <section className="section section-approach grid-royal">
@@ -193,6 +214,9 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
+
       {/* EXPERIENCE */}
       <section className="section section-experience grid-navy">
         <div className="team-container">
@@ -229,6 +253,9 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
+
       {/* STRENGTHS */}
       <section className="section section-strengths grid-royal">
         <div className="team-container">
@@ -262,6 +289,9 @@ export default function TeamPage() {
           </div>
         </div>
       </section>
+
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
 
       {/* VISION */}
       <section className="section section-vision grid-navy">
@@ -311,6 +341,9 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
+
       {/* DESTINATION DESIGN */}
       <section className="destination-section grid-royal">
         <div className="destination-line" aria-hidden="true" />
@@ -354,6 +387,9 @@ export default function TeamPage() {
           </div>
         </div>
       </section>
+
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
 
       {/* TEAM */}
       <section className="section section-team grid-navy">
@@ -400,6 +436,9 @@ export default function TeamPage() {
           </div>
         </div>
       </section>
+
+      {/* ガラス調青線 */}
+      <div className="glass-divider" aria-hidden="true" />
 
       {/* FOOTER */}
       <footer className="team-footer">

@@ -1,5 +1,5 @@
 /* ========================================
-   INNBUDDY TEAM PAGE
+  INNBUDDY TEAM PAGE
 ======================================== */
 
 .team-page {
@@ -44,15 +44,16 @@
   text-decoration: none;
 }
 
+/* 文字・コンテンツを前面に配置（炎より優先） */
 .team-container {
   position: relative;
+  z-index: 2;
   width: min(1180px, calc(100% - 80px));
   margin: 0 auto;
 }
 
-
 /* ========================================
-   BACKGROUND
+  BACKGROUND
 ======================================== */
 
 .team-bg {
@@ -85,10 +86,8 @@
   border-color: rgba(20, 33, 61, 0.045);
 }
 
-
 /* ========================================
-   GRID
-   さいの目の背景
+  GRID (薄めの透明度)
 ======================================== */
 
 .grid-royal,
@@ -114,12 +113,12 @@
   background-image:
     linear-gradient(
       to right,
-      rgba(25, 85, 166, 0.055) 1px,
+      rgba(25, 85, 166, 0.045) 1px,
       transparent 1px
     ),
     linear-gradient(
       to bottom,
-      rgba(25, 85, 166, 0.055) 1px,
+      rgba(25, 85, 166, 0.045) 1px,
       transparent 1px
     );
 }
@@ -128,12 +127,12 @@
   background-image:
     linear-gradient(
       to right,
-      rgba(20, 33, 61, 0.055) 1px,
+      rgba(20, 33, 61, 0.045) 1px,
       transparent 1px
     ),
     linear-gradient(
       to bottom,
-      rgba(20, 33, 61, 0.055) 1px,
+      rgba(20, 33, 61, 0.045) 1px,
       transparent 1px
     );
 }
@@ -141,40 +140,97 @@
 .grid-royal > *,
 .grid-navy > * {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
+/* ========================================
+  GLASS DIVIDER (太さを倍の14pxに拡大・ガラス感強調)
+======================================== */
+
+.glass-divider {
+  position: relative;
+  z-index: 5;
+  width: min(1180px, calc(100% - 80px));
+  height: 14px; /* 7pxから倍に拡張 */
+  margin: 0 auto;
+  border-radius: 999px;
+
+  /* ガラスブロックの厚みと透明感を表現するリッチグラデーション */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(140, 195, 255, 0.6) 18%,
+    rgba(25, 85, 166, 0.45) 45%,
+    rgba(25, 85, 166, 0.85) 75%,
+    rgba(12, 35, 75, 0.95) 100%
+  );
+
+  /* 水面・ガラスのような内側と外側の反射光彩 */
+  box-shadow:
+    0 4px 16px rgba(25, 85, 166, 0.28),
+    0 8px 30px rgba(25, 85, 166, 0.15),
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.95),
+    inset 0 -2px 3px rgba(10, 25, 60, 0.6);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* 両端を開け、左右に向かって綺麗にフェードアウト */
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+}
+
+/* ガラス上端の光の筋（ハイライト） */
+.glass-divider::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5%;
+  right: 5%;
+  height: 1.5px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.98) 20%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.98) 80%,
+    transparent
+  );
+  filter: blur(0.5px);
+  pointer-events: none;
+}
 
 /* ========================================
-   HERO
+  HERO (背景を透過にして炎を文字の背面に表示)
 ======================================== */
 
 .team-hero {
   position: relative;
-
   min-height: 760px;
-
   display: flex;
   align-items: center;
-
   padding: 150px 0 130px;
-
-  background: var(--paper);
-}
-
-.team-hero .team-container {
-  z-index: 2;
+  background: transparent;
 }
 
 .eyebrow {
   display: flex;
   align-items: center;
   gap: 14px;
-
   margin-bottom: 34px;
-
   color: var(--green);
-
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.22em;
@@ -182,51 +238,38 @@
 
 .eyebrow i {
   display: block;
-
   width: 44px;
   height: 1px;
-
   background: var(--navy);
 }
 
 .team-hero h1 {
   margin: 0;
-
   font-size: clamp(48px, 6.4vw, 92px);
   line-height: 1.04;
-
   letter-spacing: -0.045em;
-
   font-weight: 700;
 }
 
 .hero-lead {
   margin: 52px 0 0;
-
   color: var(--green);
-
   font-size: clamp(22px, 2.4vw, 32px);
   line-height: 1.6;
-
   letter-spacing: -0.025em;
-
   font-weight: 600;
 }
 
 .hero-copy {
   max-width: 760px;
-
   margin-top: 60px;
   padding-top: 28px;
-
   border-top: 1px solid rgba(20, 33, 61, 0.14);
 }
 
 .hero-copy p {
   margin: 0 0 18px;
-
   color: #555;
-
   font-size: 15px;
   line-height: 2.15;
 }
@@ -235,92 +278,66 @@
   margin-bottom: 0;
 }
 
-
 /* ========================================
-   SECTION COMMON
+  SECTION COMMON
 ======================================== */
 
 .section {
   position: relative;
-
   padding: 145px 0;
-
-  background: var(--paper);
+  background: transparent; /* 背景を透過にして背面の炎が見えるように */
 }
 
 .section-heading {
   display: grid;
-
   grid-template-columns: 80px 1fr;
-
   gap: 30px;
-
   align-items: start;
-
   margin-bottom: 90px;
 }
 
 .section-number {
   display: block;
-
   padding-top: 8px;
-
   color: var(--royal-blue);
-
   font-family: Arial, sans-serif;
-
   font-size: 13px;
   font-weight: 700;
-
   letter-spacing: 0.12em;
 }
 
 .section-label {
   display: block;
-
   margin-bottom: 20px;
-
   color: var(--green);
-
   font-size: 11px;
   font-weight: 700;
-
   letter-spacing: 0.2em;
 }
 
 .section-heading h2 {
   margin: 0;
-
   font-size: clamp(34px, 4.3vw, 58px);
-
   line-height: 1.25;
-
   letter-spacing: -0.04em;
-
   font-weight: 700;
 }
 
 .section-intro {
   max-width: 760px;
-
   margin: 0 0 70px 110px;
-
   color: #555;
-
   font-size: 16px;
   line-height: 2.15;
 }
 
-
 /* ========================================
-   APPROACH
+  APPROACH
 ======================================== */
 
 .approach-layout {
   display: grid;
-
   grid-template-columns: 180px 1fr;
-
   gap: 70px;
 }
 
@@ -330,10 +347,8 @@
 
 .approach-side span {
   color: var(--royal-blue);
-
   font-size: 10px;
   font-weight: 700;
-
   letter-spacing: 0.18em;
 }
 
@@ -343,43 +358,33 @@
 
 .approach-content > p {
   margin: 0 0 28px;
-
   color: #444;
-
   font-size: 16px;
   line-height: 2.15;
 }
 
 .quote-list {
   margin: 46px 0;
-
   border-top: 1px solid rgba(25, 85, 166, 0.18);
 }
 
 .quote-list div {
   padding: 21px 0;
-
   border-bottom: 1px solid rgba(25, 85, 166, 0.10);
-
   color: var(--black);
-
   font-size: 16px;
   line-height: 1.8;
 }
 
 .approach-content .emphasis {
   margin-top: 50px;
-
   color: var(--green);
-
   font-size: 18px;
-
   font-weight: 700;
 }
 
-
 /* ========================================
-   EXPERIENCE
+  EXPERIENCE
 ======================================== */
 
 .experience-list {
@@ -388,66 +393,49 @@
 
 .experience-item {
   display: grid;
-
   grid-template-columns:
     80px
     minmax(300px, 1fr)
     minmax(280px, 0.8fr);
-
   gap: 45px;
-
   padding: 34px 0;
-
   border-bottom: 1px solid rgba(20, 33, 61, 0.10);
-
   align-items: start;
 }
 
 .experience-number {
   color: var(--navy);
-
   font-family: Arial, sans-serif;
-
   font-size: 13px;
   font-weight: 700;
-
   letter-spacing: 0.08em;
 }
 
 .experience-title span {
   display: block;
-
   margin-bottom: 10px;
-
   color: var(--green);
-
   font-size: 12px;
   font-weight: 700;
-
   letter-spacing: 0.08em;
 }
 
 .experience-title strong {
   display: block;
-
   font-size: 18px;
   line-height: 1.65;
-
   font-weight: 600;
 }
 
 .experience-item > p {
   margin: 0;
-
   color: #666;
-
   font-size: 14px;
   line-height: 2;
 }
 
-
 /* ========================================
-   STRENGTHS
+  STRENGTHS
 ======================================== */
 
 .strength-list {
@@ -456,54 +444,40 @@
 
 .strength-item {
   padding: 50px 0 55px;
-
   border-bottom: 1px solid rgba(25, 85, 166, 0.10);
 }
 
 .strength-top {
   display: grid;
-
   grid-template-columns: 80px 1fr;
-
   gap: 30px;
-
   align-items: start;
 }
 
 .strength-number {
   color: var(--royal-blue);
-
   font-family: Arial, sans-serif;
-
   font-size: 13px;
   font-weight: 700;
-
   letter-spacing: 0.08em;
 }
 
 .strength-top h3 {
   max-width: 850px;
-
   margin: 0;
-
   font-size: clamp(21px, 2.2vw, 30px);
-
   line-height: 1.5;
-
   letter-spacing: -0.025em;
 }
 
 .strength-body {
   max-width: 820px;
-
   margin: 30px 0 0 110px;
 }
 
 .strength-body p {
   margin: 0 0 18px;
-
   color: #555;
-
   font-size: 15px;
   line-height: 2.1;
 }
@@ -512,60 +486,45 @@
   margin-bottom: 0;
 }
 
-
 /* ========================================
-   VISION
+  VISION
 ======================================== */
 
 .vision-layout {
   display: grid;
-
   grid-template-columns:
     minmax(300px, 0.85fr)
     minmax(400px, 1fr);
-
   gap: 110px;
 }
 
 .vision-statement {
   align-self: start;
-
   padding: 35px 0;
-
   border-top: 1px solid rgba(20, 33, 61, 0.18);
   border-bottom: 1px solid rgba(20, 33, 61, 0.12);
 }
 
 .vision-statement span {
   display: block;
-
   margin-bottom: 32px;
-
   color: var(--navy);
-
   font-size: 10px;
   font-weight: 700;
-
   letter-spacing: 0.18em;
 }
 
 .vision-statement strong {
   display: block;
-
   color: var(--black);
-
   font-size: clamp(24px, 2.5vw, 34px);
-
   line-height: 1.55;
-
   letter-spacing: -0.03em;
 }
 
 .vision-copy p {
   margin: 0 0 26px;
-
   color: #555;
-
   font-size: 15px;
   line-height: 2.15;
 }
@@ -574,30 +533,20 @@
   margin-bottom: 0;
 }
 
-
 /* ========================================
-   DESTINATION DESIGN
+  DESTINATION DESIGN
 ======================================== */
 
 .destination-section {
   position: relative;
-
   overflow: hidden;
-
   padding: 150px 0;
-
   background: var(--royal-blue);
-
   color: var(--white);
 }
 
-/*
-  Destination Designだけは濃い青背景なので、
-  グリッドは白の極薄線に変更
-*/
 .destination-section::before {
   opacity: 0.9;
-
   background-image:
     linear-gradient(
       to right,
@@ -611,273 +560,194 @@
     );
 }
 
-.destination-section .team-container {
-  z-index: 2;
-}
-
 .destination-line {
   position: absolute;
-
   top: 0;
   left: 50%;
-
   width: 1px;
   height: 100%;
-
   background: rgba(255, 255, 255, 0.08);
-
   pointer-events: none;
 }
 
 .destination-label {
   margin-bottom: 35px;
-
   color: rgba(255, 255, 255, 0.65);
-
   font-size: 10px;
   font-weight: 700;
-
   letter-spacing: 0.22em;
 }
 
 .destination-section h2 {
   margin: 0;
-
   font-size: clamp(42px, 6vw, 82px);
-
   line-height: 1.05;
-
   letter-spacing: -0.045em;
-
   font-weight: 700;
 }
 
 .destination-lead {
   margin: 55px 0 0;
-
   font-size: clamp(18px, 2vw, 25px);
-
   line-height: 1.75;
 }
 
 .destination-copy {
   max-width: 760px;
-
   margin: 70px 0 0 auto;
 }
 
 .destination-copy p {
   margin: 0 0 24px;
-
   color: rgba(255, 255, 255, 0.78);
-
   font-size: 15px;
   line-height: 2.1;
 }
 
 .destination-philosophy {
   max-width: 760px;
-
   margin: 100px 0 0 auto;
-
   padding: 42px 0;
-
   border-top: 1px solid rgba(255, 255, 255, 0.22);
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
 }
 
 .destination-philosophy span {
   display: block;
-
   margin-bottom: 22px;
-
   color: rgba(255, 255, 255, 0.58);
-
   font-size: 10px;
   font-weight: 700;
-
   letter-spacing: 0.18em;
 }
 
 .destination-philosophy strong {
   display: block;
-
   margin-bottom: 18px;
-
   font-size: clamp(24px, 2.8vw, 38px);
-
   line-height: 1.4;
-
   letter-spacing: -0.025em;
 }
 
 .destination-philosophy p {
   margin: 0;
-
   color: rgba(255, 255, 255, 0.7);
-
   font-size: 14px;
-
   line-height: 2;
 }
 
 .destination-name {
   display: flex;
-
   align-items: baseline;
-
   gap: 20px;
-
   margin-top: 100px;
 }
 
 .destination-name span {
   font-size: 11px;
-
   font-weight: 700;
-
   letter-spacing: 0.2em;
 }
 
 .destination-name strong {
   font-size: 14px;
-
   font-weight: 500;
-
   letter-spacing: 0.08em;
 }
 
-
 /* ========================================
-   TEAM
+  TEAM
 ======================================== */
 
 .team-intro {
   max-width: 760px;
-
   margin-left: 110px;
 }
 
 .team-intro p {
   margin: 0;
-
   color: #444;
-
   font-size: 18px;
-
   line-height: 2;
 }
 
 .team-points {
   max-width: 850px;
-
   margin: 75px 0 0 110px;
-
   border-top: 1px solid rgba(20, 33, 61, 0.18);
 }
 
 .team-points div {
   padding: 22px 0;
-
   border-bottom: 1px solid rgba(20, 33, 61, 0.10);
-
   color: var(--black);
-
   font-size: 17px;
-
   line-height: 1.7;
 }
 
 .team-points div::before {
   content: "—";
-
   display: inline-block;
-
   width: 38px;
-
   color: var(--navy);
 }
 
 .team-conclusion {
   max-width: 760px;
-
   margin: 75px 0 0 110px;
 }
 
 .team-conclusion p {
   margin: 0 0 28px;
-
   color: #555;
-
   font-size: 15px;
-
   line-height: 2.1;
 }
 
 .team-conclusion .team-promise {
   color: var(--green);
-
   font-size: 18px;
-
   font-weight: 700;
 }
 
-
 /* ========================================
-   FOOTER
+  FOOTER
 ======================================== */
 
 .team-footer {
   position: relative;
-
-  z-index: 2;
-
+  z-index: 5;
   padding: 35px 0;
-
   background: #111;
-
   color: #fff;
 }
 
 .footer-inner {
   display: grid;
-
   grid-template-columns: 1fr auto 1fr;
-
   align-items: center;
-
   gap: 30px;
 }
 
 .footer-brand {
   font-size: 16px;
-
   font-weight: 700;
-
   letter-spacing: -0.02em;
 }
 
 .footer-nav {
   display: flex;
-
   justify-content: center;
 }
 
 .footer-contact {
   display: inline-flex;
-
   align-items: center;
-
   gap: 14px;
-
   color: #fff;
-
   font-size: 16px;
-
   font-weight: 700;
-
   letter-spacing: -0.02em;
-
   transition: opacity 0.2s ease;
 }
 
@@ -887,19 +757,14 @@
 
 .copyright {
   justify-self: end;
-
   color: rgba(255, 255, 255, 0.4);
-
   font-family: Arial, sans-serif;
-
   font-size: 10px;
-
   letter-spacing: 0.08em;
 }
 
-
 /* ========================================
-   UTILITIES
+  UTILITIES
 ======================================== */
 
 .mobile-only {
@@ -910,19 +775,18 @@
   display: block;
 }
 
-
 /* ========================================
-   TABLET
+  TABLET
 ======================================== */
 
 @media (max-width: 900px) {
-  .team-container {
+  .team-container,
+  .glass-divider {
     width: min(100% - 48px, 720px);
   }
 
   .team-hero {
     min-height: auto;
-
     padding: 120px 0 100px;
   }
 
@@ -932,9 +796,7 @@
 
   .section-heading {
     grid-template-columns: 55px 1fr;
-
     gap: 20px;
-
     margin-bottom: 65px;
   }
 
@@ -944,7 +806,6 @@
 
   .approach-layout {
     grid-template-columns: 1fr;
-
     gap: 30px;
   }
 
@@ -954,7 +815,6 @@
 
   .experience-item {
     grid-template-columns: 55px 1fr;
-
     gap: 25px;
   }
 
@@ -964,7 +824,6 @@
 
   .strength-top {
     grid-template-columns: 55px 1fr;
-
     gap: 20px;
   }
 
@@ -974,7 +833,6 @@
 
   .vision-layout {
     grid-template-columns: 1fr;
-
     gap: 60px;
   }
 
@@ -990,13 +848,13 @@
   }
 }
 
-
 /* ========================================
-   MOBILE
+  MOBILE
 ======================================== */
 
 @media (max-width: 600px) {
-  .team-container {
+  .team-container,
+  .glass-divider {
     width: calc(100% - 36px);
   }
 
@@ -1006,7 +864,6 @@
 
   .eyebrow {
     margin-bottom: 25px;
-
     font-size: 9px;
   }
 
@@ -1016,13 +873,11 @@
 
   .team-hero h1 {
     font-size: clamp(40px, 12vw, 58px);
-
     line-height: 1.08;
   }
 
   .hero-lead {
     margin-top: 38px;
-
     font-size: 20px;
   }
 
@@ -1032,7 +887,6 @@
 
   .hero-copy p {
     font-size: 13px;
-
     line-height: 2;
   }
 
@@ -1042,35 +896,28 @@
 
   .section-heading {
     grid-template-columns: 38px 1fr;
-
     gap: 15px;
-
     margin-bottom: 50px;
   }
 
   .section-number {
     padding-top: 5px;
-
     font-size: 11px;
   }
 
   .section-label {
     margin-bottom: 14px;
-
     font-size: 9px;
   }
 
   .section-heading h2 {
     font-size: clamp(29px, 8.5vw, 42px);
-
     line-height: 1.3;
   }
 
   .section-intro {
     margin: 0 0 50px 53px;
-
     font-size: 13px;
-
     line-height: 2;
   }
 
@@ -1084,7 +931,6 @@
 
   .approach-content > p {
     font-size: 13px;
-
     line-height: 2;
   }
 
@@ -1094,15 +940,12 @@
 
   .quote-list div {
     padding: 17px 0;
-
     font-size: 13px;
-
     line-height: 1.8;
   }
 
   .approach-content .emphasis {
     margin-top: 35px;
-
     font-size: 15px;
   }
 
@@ -1112,9 +955,7 @@
 
   .experience-item {
     grid-template-columns: 35px 1fr;
-
     gap: 15px;
-
     padding: 27px 0;
   }
 
@@ -1128,15 +969,12 @@
 
   .experience-title strong {
     font-size: 15px;
-
     line-height: 1.55;
   }
 
   .experience-item > p {
     grid-column: 2;
-
     font-size: 12px;
-
     line-height: 1.9;
   }
 
@@ -1146,7 +984,6 @@
 
   .strength-top {
     grid-template-columns: 35px 1fr;
-
     gap: 15px;
   }
 
@@ -1156,7 +993,6 @@
 
   .strength-top h3 {
     font-size: 18px;
-
     line-height: 1.55;
   }
 
@@ -1166,7 +1002,6 @@
 
   .strength-body p {
     font-size: 12px;
-
     line-height: 1.95;
   }
 
@@ -1180,7 +1015,6 @@
 
   .vision-statement span {
     margin-bottom: 20px;
-
     font-size: 9px;
   }
 
@@ -1190,7 +1024,6 @@
 
   .vision-copy p {
     font-size: 13px;
-
     line-height: 2;
   }
 
@@ -1200,7 +1033,6 @@
 
   .destination-label {
     margin-bottom: 25px;
-
     font-size: 9px;
   }
 
@@ -1210,9 +1042,7 @@
 
   .destination-lead {
     margin-top: 38px;
-
     font-size: 17px;
-
     line-height: 1.8;
   }
 
@@ -1222,13 +1052,11 @@
 
   .destination-copy p {
     font-size: 13px;
-
     line-height: 2;
   }
 
   .destination-philosophy {
     margin-top: 65px;
-
     padding: 32px 0;
   }
 
@@ -1238,13 +1066,11 @@
 
   .destination-philosophy p {
     font-size: 12px;
-
     line-height: 2;
   }
 
   .destination-name {
     margin-top: 65px;
-
     gap: 12px;
   }
 
@@ -1256,7 +1082,6 @@
 
   .team-intro p {
     font-size: 15px;
-
     line-height: 2;
   }
 
@@ -1266,7 +1091,6 @@
 
   .team-points div {
     padding: 17px 0;
-
     font-size: 13px;
   }
 
@@ -1280,7 +1104,6 @@
 
   .team-conclusion p {
     font-size: 13px;
-
     line-height: 2;
   }
 
@@ -1289,10 +1112,8 @@
   }
 
   /* FOOTER */
-
   .footer-inner {
     grid-template-columns: 1fr;
-
     gap: 15px;
   }
 
@@ -1309,7 +1130,6 @@
   }
 
   /* GRID */
-
   .grid-royal::before,
   .grid-navy::before {
     background-size: 58px 58px;
@@ -1324,12 +1144,9 @@
   }
 }
 
-
 /* ========================================
-   FOOTER CONTACT ARROW — REMOVE
-   矢印を完全に非表示
+  FOOTER CONTACT ARROW — REMOVE
 ======================================== */
-
 .team-footer .footer-contact::before,
 .team-footer .footer-contact::after {
   content: none !important;
