@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import './ota.css'
 
 const services = [
   ['アカウント・掲載情報', 'OTAアカウント管理|施設情報更新|客室情報更新|設備・アメニティ更新|アクセス情報更新|チェックイン・アウト情報|キャンセルポリシー|注意事項|OTAからの通知確認|OTA仕様変更への対応'],
@@ -78,7 +79,7 @@ export default function Page() {
   }
 
   return (
-    <main>
+    <main className="ota-page-root">
       {/* HEADER */}
       <header className="site-header">
         <a href="#top" className="logo">
@@ -143,6 +144,7 @@ export default function Page() {
             InnBuddy OTAが<br />
             <span>対応する11の業務</span>
           </h2>
+          {/* 黒文字に変更されたリード文 */}
           <p className="intro services-intro">
             施設ごとに異なる客室構成・ターゲットを踏まえ、日々の細かな実務を引き受けます。<br />
             各項目をクリックして、私たちの対応範囲をご確認ください。
@@ -202,7 +204,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* DISTRIBUTION */}
+      {/* DISTRIBUTION (高さ統一 & 文字範囲のみのぼかし適用) */}
       <section className="dark section ota">
         <div className="wrap">
           <h2>
@@ -218,9 +220,9 @@ export default function Page() {
                 DOMESTIC OTA <small>国内OTA</small>
               </h3>
               {otas.map((x, i) => (
-                <div className={`ota-item ${i === 0 ? 'featured' : ''}`} key={x}>
+                <div className="ota-item" key={x}>
                   <span>0{i + 1}</span>
-                  {x}
+                  <span className="ota-item-text">{x}</span>
                   {i === 0 && <b>特に注力</b>}
                 </div>
               ))}
@@ -232,7 +234,7 @@ export default function Page() {
               {overseas.map((x, i) => (
                 <div className="ota-item" key={x}>
                   <span>0{i + 1}</span>
-                  {x}
+                  <span className="ota-item-text">{x}</span>
                 </div>
               ))}
             </div>
@@ -337,7 +339,7 @@ export default function Page() {
           </div>
           <form onSubmit={handleSubmit}>
             {submitted ? (
-              <div style={{ color: '#fff', fontSize: '15px', fontWeight: 'bold', padding: '20px 0' }}>
+              <div style={{ color: '#ffffff', fontSize: '15px', fontWeight: 'bold', padding: '20px 0' }}>
                 ご相談を受け付けました。ご入力ありがとうございます。<br />
                 担当者よりメール（innbuddy.esg@gmail.com）にてご連絡いたします。
               </div>
@@ -395,18 +397,21 @@ export default function Page() {
       </section>
 
       {/* FOOTER */}
-      <footer id="about">
-        <div className="wrap">
-          <div className="logo">
-            InnBuddy<span>.</span>
+      <footer id="about" className="ota-footer-new">
+        <div className="wrap ota-footer-wrap">
+          <div className="ota-footer-brand-row">
+            <div className="ota-footer-logo">
+              InnBuddy<span>.</span>
+            </div>
+            <span className="ota-footer-tag">ABOUT INNBUDDY</span>
           </div>
-          <span className="label">ABOUT INNBUDDY</span>
-          <p>
+
+          <p className="ota-footer-desc">
             InnBuddyは、ホテル・旅館のオンライン販売を支援するサービスです。<br />
             OTA運用を中心に、施設ごとの課題や販売状況を理解しながら、必要なサポートを行っています。
           </p>
 
-          <div style={{ marginTop: '20px' }}>
+          <div className="ota-footer-links-row">
             <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer">
               InnBuddyブランドサイトへ ↗
             </a>
@@ -416,6 +421,10 @@ export default function Page() {
             <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
               お問い合わせ ↗
             </a>
+          </div>
+
+          <div className="ota-footer-copy">
+            © InnBuddy All rights reserved.
           </div>
         </div>
       </footer>

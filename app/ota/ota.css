@@ -1,0 +1,846 @@
+/* ===================================================
+   INNBUDDY OTA PAGE DEDICATED STYLES
+=================================================== */
+
+:root {
+  --ota-black: #111111;
+  --ota-dark-bg: #121212;
+  --ota-white: #ffffff;
+  --ota-light-bg: #f9f8f5;
+  --ota-orange: #e06a3b;          /* 鮮やかなアクセントオレンジ */
+  --ota-orange-hover: #f17b4c;
+  --ota-text-muted-dark: #cccccc; /* 黒背景用テキスト */
+  --ota-text-muted-light: #555555;/* 白背景用テキスト */
+  --ota-border-dark: rgba(255, 255, 255, 0.12);
+  --ota-border-light: rgba(0, 0, 0, 0.1);
+}
+
+.ota-page-root {
+  background-color: var(--ota-dark-bg);
+  color: var(--ota-white);
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", YuGothic, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+.ota-page-root *,
+.ota-page-root *::before,
+.ota-page-root *::after {
+  box-sizing: border-box;
+}
+
+.ota-page-root a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.wrap {
+  width: min(1140px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.wrap.narrow {
+  width: min(840px, calc(100% - 48px));
+}
+
+.section {
+  padding: 120px 0;
+  position: relative;
+}
+
+/* ===================================================
+   HEADER
+=================================================== */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: rgba(18, 18, 18, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 100;
+  border-bottom: 1px solid var(--ota-border-dark);
+}
+
+.site-header .logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ota-white);
+}
+
+.site-header .logo span {
+  color: var(--ota-orange);
+}
+
+.site-header .logo small {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--ota-orange);
+  margin-left: 6px;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.site-header nav a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.site-header nav a:hover {
+  color: var(--ota-orange);
+}
+
+.site-header .header-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border: 1px solid var(--ota-orange);
+  border-radius: 4px;
+  color: var(--ota-orange) !important;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.site-header .header-cta:hover {
+  background: var(--ota-orange);
+  color: var(--ota-white) !important;
+}
+
+/* ===================================================
+   BACKGROUND STRIPES
+=================================================== */
+.dark {
+  background-color: var(--ota-dark-bg);
+  color: var(--ota-white);
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 79px,
+    rgba(224, 106, 59, 0.05) 80px
+  );
+}
+
+.light {
+  background-color: var(--ota-light-bg);
+  color: var(--ota-black);
+}
+
+/* ===================================================
+   HERO
+=================================================== */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 160px 40px 100px;
+  background-color: var(--ota-dark-bg);
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 79px,
+    rgba(224, 106, 59, 0.06) 80px
+  );
+}
+
+.hero-inner {
+  width: min(1140px, 100%);
+  margin: 0 auto;
+}
+
+.hero .eyebrow {
+  color: var(--ota-orange);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  margin-bottom: 24px;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 5.5vw, 76px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ota-white);
+  margin: 0 0 32px;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--ota-orange);
+}
+
+.hero-copy {
+  color: var(--ota-text-muted-dark);
+  font-size: clamp(15px, 1.4vw, 18px);
+  line-height: 1.9;
+  margin-bottom: 48px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: transparent;
+  border: 1px solid var(--ota-orange);
+  color: var(--ota-orange);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: var(--ota-orange);
+  color: var(--ota-white);
+  box-shadow: 0 8px 24px rgba(224, 106, 59, 0.3);
+}
+
+.hero-index {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  color: var(--ota-orange);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ===================================================
+   DARK SECTION: PROBLEM (黒背景: 白+オレンジ)
+=================================================== */
+.problem h2 {
+  font-size: clamp(32px, 4vw, 56px);
+  color: var(--ota-white);
+  margin-bottom: 60px;
+  line-height: 1.3;
+}
+
+.problem h2 span {
+  color: var(--ota-orange);
+}
+
+.problem-list {
+  border-top: 1px solid var(--ota-border-dark);
+}
+
+.problem-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--ota-border-dark);
+  align-items: center;
+}
+
+.problem-row span {
+  color: var(--ota-orange);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.problem-row p {
+  margin: 0;
+  color: var(--ota-white);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* ===================================================
+   LIGHT SECTION: SERVICES (白背景: 黒+オレンジ)
+=================================================== */
+.services h2 {
+  font-size: clamp(32px, 4vw, 54px);
+  color: var(--ota-black);
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.services h2 span {
+  color: var(--ota-orange);
+}
+
+/* ★修正1：指示通りの完全な黒文字に設定 */
+.services-intro {
+  color: var(--ota-black) !important;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.service {
+  background: #ffffff;
+  border: 1px solid var(--ota-border-light);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.service:hover, .service.is-open {
+  border-color: var(--ota-orange);
+}
+
+.service button {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  padding: 22px 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ota-black);
+}
+
+.service-num {
+  color: var(--ota-orange);
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.service .plus {
+  color: var(--ota-orange);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.service-content {
+  padding: 0 24px 24px 72px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.service-content ul {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.service-content li {
+  font-size: 13px;
+  color: #222222;
+  background: #f1efe9;
+  padding: 6px 14px;
+  border-radius: 3px;
+}
+
+/* ===================================================
+   DARK SECTION: OTA (★修正2・3：01の高さ統一 & 文字背景ぼかし)
+=================================================== */
+.ota h2, .framework h2 {
+  font-size: clamp(32px, 4vw, 54px);
+  color: var(--ota-white);
+  margin-bottom: 20px;
+}
+
+.ota h2 span, .framework h2 span {
+  color: var(--ota-orange);
+}
+
+.intro {
+  color: var(--ota-text-muted-dark);
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 50px;
+}
+
+.ota-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+/* 見出し下の余白をマージンからパディングに統一し、01行との余白重複を防止 */
+.orange-heading {
+  color: var(--ota-orange);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--ota-border-dark);
+  padding-bottom: 16px;
+  margin-bottom: 0; 
+}
+
+.orange-heading small {
+  color: #888;
+  font-size: 12px;
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+/* 01〜04の行の高さを完全に統一（min-heightと固定ラインハイトでブレを解消） */
+.ota-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 58px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--ota-border-dark);
+  color: var(--ota-white);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.ota-item span {
+  color: var(--ota-orange);
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* ★修正3：文字の範囲のみに適用される、わずかに強化した背景ぼかし */
+.ota-item-text {
+  display: inline-block;
+  width: fit-content;
+  padding: 2px 8px;
+  margin-left: -8px;
+  border-radius: 4px;
+  background: rgba(18, 18, 18, 0.45); /* 文字の背後のみの透過マット */
+  backdrop-filter: blur(5px);          /* わずかに強めた背景ブラー */
+  -webkit-backdrop-filter: blur(5px);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* 「特に注力」バッジの行高影響をリセット */
+.ota-item b {
+  margin-left: auto;
+  font-size: 11px;
+  line-height: 1;
+  padding: 4px 10px;
+  background: rgba(224, 106, 59, 0.15);
+  border: 1px solid var(--ota-orange);
+  color: var(--ota-orange);
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ===================================================
+   DARK SECTION: FRAMEWORK (黒背景: 白+オレンジ)
+=================================================== */
+.flow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.flow div {
+  padding: 14px 40px;
+  border: 1px solid var(--ota-border-dark);
+  color: var(--ota-white);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.flow div.active {
+  border-color: var(--ota-orange);
+  color: var(--ota-orange);
+  background: rgba(224, 106, 59, 0.1);
+}
+
+.flow i {
+  font-style: normal;
+  color: var(--ota-orange);
+  font-size: 20px;
+}
+
+/* ===================================================
+   LIGHT SECTION: WORKFLOW (白背景: 黒+オレンジ)
+=================================================== */
+.workflow h2 {
+  font-size: clamp(32px, 4vw, 54px);
+  color: var(--ota-black);
+  margin-bottom: 60px;
+}
+
+.timeline {
+  border-top: 1px solid var(--ota-border-light);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  padding: 36px 0;
+  border-bottom: 1px solid var(--ota-border-light);
+  gap: 30px;
+}
+
+.timeline-item b {
+  color: var(--ota-orange);
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.timeline-item h3 {
+  margin: 0 0 10px;
+  color: var(--ota-black);
+  font-size: 20px;
+}
+
+.timeline-item p {
+  margin: 0;
+  color: var(--ota-text-muted-light);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+/* ===================================================
+   DARK SECTION: PRICING (黒背景: 白+オレンジ)
+=================================================== */
+.pricing h2 {
+  font-size: clamp(32px, 4vw, 54px);
+  color: var(--ota-white);
+  margin-bottom: 24px;
+}
+
+.pricing p {
+  color: var(--ota-text-muted-dark);
+  font-size: 16px;
+}
+
+.pricing p strong {
+  color: var(--ota-white);
+}
+
+.offer {
+  margin-top: 50px;
+  padding: 40px;
+  border: 1px solid var(--ota-orange);
+  background: rgba(224, 106, 59, 0.06);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.offer .label {
+  display: inline-block;
+  color: var(--ota-orange);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  margin-bottom: 16px;
+}
+
+.offer p {
+  font-size: 20px;
+  color: var(--ota-white);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.offer strong {
+  color: var(--ota-orange);
+  font-size: 24px;
+}
+
+/* ===================================================
+   LIGHT SECTION: FAQ (白背景: 黒+オレンジ)
+=================================================== */
+.faq h2 {
+  font-size: clamp(32px, 4vw, 54px);
+  color: var(--ota-black);
+  margin-bottom: 50px;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--ota-border-light);
+  padding: 24px 0;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ota-black);
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary span {
+  color: var(--ota-orange);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.faq p {
+  margin: 16px 0 0 32px;
+  color: var(--ota-text-muted-light);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.faq p b {
+  color: var(--ota-orange);
+  margin-right: 8px;
+}
+
+/* ===================================================
+   DARK SECTION: CONTACT (黒背景: 白+オレンジ)
+=================================================== */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 70px;
+}
+
+.contact h2 {
+  font-size: clamp(30px, 3.5vw, 48px);
+  color: var(--ota-white);
+  line-height: 1.35;
+  margin-bottom: 24px;
+}
+
+.contact h2 span {
+  color: var(--ota-orange);
+}
+
+.contact p {
+  color: var(--ota-text-muted-dark);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.contact label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--ota-white);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background: #1c1c1c;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: var(--ota-orange);
+}
+
+.contact textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.contact fieldset {
+  border: 1px solid #333333;
+  padding: 16px 20px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.contact legend {
+  color: var(--ota-orange);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 8px;
+}
+
+.contact .check {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-right: 18px;
+  margin-top: 10px;
+  color: #cccccc;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.contact button.button {
+  width: 100%;
+  justify-content: center;
+  padding: 18px;
+  font-size: 16px;
+  margin-top: 10px;
+  background: var(--ota-orange);
+  color: var(--ota-white);
+  border: none;
+}
+
+.contact button.button:hover {
+  background: var(--ota-orange-hover);
+}
+
+/* ===================================================
+   FOOTER (整理された白背景デザイン)
+=================================================== */
+.ota-footer-new {
+  background-color: var(--ota-light-bg);
+  border-top: 1px solid var(--ota-border-light);
+  padding: 80px 0 50px;
+  color: var(--ota-black);
+}
+
+.ota-footer-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.ota-footer-brand-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.ota-footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ota-black);
+}
+
+.ota-footer-logo span {
+  color: var(--ota-orange);
+}
+
+.ota-footer-tag {
+  color: var(--ota-orange);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.ota-footer-desc {
+  margin: 0;
+  max-width: 680px;
+  color: var(--ota-text-muted-light);
+  font-size: 14px;
+  line-height: 2.1;
+}
+
+.ota-footer-links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 24px 0;
+  border-top: 1px solid var(--ota-border-light);
+  border-bottom: 1px solid var(--ota-border-light);
+}
+
+.ota-footer-links-row a {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ota-black);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ota-footer-links-row a:hover {
+  color: var(--ota-orange);
+  transform: translateX(2px);
+}
+
+.ota-footer-copy {
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+@media (max-width: 900px) {
+  .service-grid, .ota-columns, .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .contact .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    padding: 0 20px;
+  }
+  .site-header nav a:not(.header-cta) {
+    display: none;
+  }
+  .hero {
+    padding: 130px 20px 80px;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .problem-row {
+    grid-template-columns: 50px 1fr;
+  }
+  .service button {
+    padding: 18px 16px;
+    font-size: 15px;
+  }
+  .service-content {
+    padding: 0 16px 20px 16px;
+  }
+  .ota-footer-links-row {
+    flex-direction: column;
+    gap: 18px;
+  }
+}
