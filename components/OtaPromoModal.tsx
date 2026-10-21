@@ -6,6 +6,10 @@ interface Props {
 }
 
 export function OtaPromoModal({ isOpen, onClose }: Props) {
+  // 次のアップデートでNext.jsページへ移行するまで一時的に完全非表示
+  return null;
+
+  /* 一時退避
   if (!isOpen) return null;
 
   return (
@@ -23,7 +27,6 @@ export function OtaPromoModal({ isOpen, onClose }: Props) {
           &times;
         </button>
 
-        {/* ★ iframe で HTML を表示 */}
         <iframe
           src="/innbuddy-modal.html"
           className="w-full border-0"
@@ -37,4 +40,5 @@ export function OtaPromoModal({ isOpen, onClose }: Props) {
       </div>
     </div>
   );
+  */
 }
