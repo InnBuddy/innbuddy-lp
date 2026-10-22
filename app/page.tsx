@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import RevenueDiagnosticModal from '@/components/diagnostics/RevenueDiagnosticModal';
 import HiringDiagnosticModal from '@/components/diagnostics/HiringDiagnosticModal';
 import DiagnosticSelectorModal from '@/components/diagnostics/DiagnosticSelectorModal';
@@ -12,16 +13,16 @@ import { AssetTag } from '@/components/AssetTag';
 import { assetTagsNature, assetTagsFood, assetTagsPeopleTime, assetBlockColors } from '@/data/assetTags';
 import { ContactFormModal } from '@/components/ContactFormModal';
 import { FloatingOtaBanner } from '@/components/FloatingOtaBanner';
-import { OtaPromoModal } from '@/components/OtaPromoModal';
 import { DiagnosticCards } from '@/components/DiagnosticCards';
 import LibraryVan from '@/components/LibraryVan';
 
 export default function Home() {
+  const router = useRouter();
+
   const [revenueOpen, setRevenueOpen] = useState(false);
   const [hiringOpen, setHiringOpen] = useState(false);
   const [selectorOpen, setSelectorOpen] = useState(false);
   const [contactFormOpen, setContactFormOpen] = useState(false);
-  const [otaPromoOpen, setOtaPromoOpen] = useState(false);
   const [floatingVisible, setFloatingVisible] = useState(false);
   const [bannerVisible, setBannerVisible] = useState(false);
 
@@ -46,7 +47,7 @@ export default function Home() {
           setFloatingVisible(false);
         } else {
           if (hasReachedServiceCards.current) {
-            const isAnyModalOpen = revenueOpen || hiringOpen || selectorOpen || contactFormOpen || otaPromoOpen;
+            const isAnyModalOpen = revenueOpen || hiringOpen || selectorOpen || contactFormOpen;
             if (!isAnyModalOpen) setFloatingVisible(true);
           }
         }
@@ -59,7 +60,7 @@ export default function Home() {
     return () => {
       if (serviceCardsRef.current) observer.unobserve(serviceCardsRef.current);
     };
-  }, [revenueOpen, hiringOpen, selectorOpen, contactFormOpen, otaPromoOpen]);
+  }, [revenueOpen, hiringOpen, selectorOpen, contactFormOpen]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -77,10 +78,10 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (revenueOpen || hiringOpen || selectorOpen || contactFormOpen || otaPromoOpen) {
+    if (revenueOpen || hiringOpen || selectorOpen || contactFormOpen) {
       setFloatingVisible(false);
     }
-  }, [revenueOpen, hiringOpen, selectorOpen, contactFormOpen, otaPromoOpen]);
+  }, [revenueOpen, hiringOpen, selectorOpen, contactFormOpen]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -111,7 +112,6 @@ export default function Home() {
 
       if (methodSection) {
         const rect = methodSection.getBoundingClientRect();
-
         if (rect.top <= window.innerHeight && rect.bottom >= 0) {
           setBannerVisible(false);
           return;
@@ -120,7 +120,6 @@ export default function Home() {
 
       if (pricingSection) {
         const rect = pricingSection.getBoundingClientRect();
-
         if (rect.top <= window.innerHeight && rect.bottom >= 0) {
           setBannerVisible(true);
           return;
@@ -151,7 +150,6 @@ export default function Home() {
 
   return (
     <main className="relative w-full overflow-x-hidden">
-
       <img
         src="/images/illust/illus_2.jpg"
         className="fixed bottom-8 left-4 w-36 opacity-70 rotate-[-2deg] z-10 hover:opacity-90 transition-opacity duration-1000 border-0"
@@ -180,7 +178,6 @@ export default function Home() {
             className="w-full h-full object-cover animate-kenburns border-0"
             alt=""
           />
-
           <div className="absolute inset-0 bg-black/10" />
         </div>
 
@@ -188,11 +185,9 @@ export default function Home() {
           <h1 className="font-serif font-light text-4xl md:text-6xl text-white/80 leading-tight mb-6 whitespace-normal md:whitespace-nowrap">
             これは、ただの霧ではありません。
           </h1>
-
           <p className="font-serif font-light text-xl md:text-2xl text-white/70 mb-12">
             あなたの宿がまだ売っていない、最高級の眠りです。
           </p>
-
           <p className="text-sm tracking-widest text-white/60 font-sans">
             誰も知らない、あなたの宿の資産を、世界の感動へ。
           </p>
@@ -219,7 +214,6 @@ export default function Home() {
 
       <section className="py-16 md:py-32 bg-background">
         <div className="max-w-6xl mx-auto px-4 md:px-6 space-y-16 md:space-y-32">
-
           <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative h-64 md:h-96">
               <img
@@ -233,11 +227,9 @@ export default function Home() {
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">
                 資産01 — 自然
               </p>
-
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">
                 この静寂は、都会の人が1泊5万円で買う体験です。
               </h2>
-
               <div
                 className="flex flex-wrap gap-2 mt-6"
                 style={{ maxWidth: '100%' }}
@@ -265,11 +257,9 @@ export default function Home() {
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">
                 資産02 — 食
               </p>
-
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">
                 この一皿の物語を、世界はまだ知りません。
               </h2>
-
               <div
                 className="flex flex-wrap gap-2 mt-6"
                 style={{ maxWidth: '100%' }}
@@ -313,11 +303,9 @@ export default function Home() {
               <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">
                 資産03 — 人と時間
               </p>
-
               <h2 className="font-serif font-light text-2xl md:text-4xl leading-relaxed text-foreground">
                 継がれる手仕事は、最も贅沢なインテリアです。
               </h2>
-
               <div
                 className="flex flex-wrap gap-2 mt-6"
                 style={{ maxWidth: '100%' }}
@@ -339,7 +327,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -347,7 +334,6 @@ export default function Home() {
         <p className="text-center text-xs tracking-[0.2em] text-accent-rust mb-8 md:mb-16">
           資産の解像度
         </p>
-
         <div className="max-w-6xl mx-auto px-4 md:px-6 grid grid-cols-2 gap-4 md:gap-6">
           <div className="space-y-4 md:space-y-6">
             <div className="h-48 md:h-64 w-full">
@@ -357,7 +343,6 @@ export default function Home() {
                 alt=""
               />
             </div>
-
             <div className="h-56 md:h-80 w-full">
               <img
                 src="/images/detail_wood.png"
@@ -365,7 +350,6 @@ export default function Home() {
                 alt=""
               />
             </div>
-
             <div className="h-48 md:h-72 w-full">
               <img
                 src="/images/detail_light.png"
@@ -383,7 +367,6 @@ export default function Home() {
                 alt=""
               />
             </div>
-
             <div className="h-48 md:h-64 w-full">
               <img
                 src="/images/detail_water.png"
@@ -391,7 +374,6 @@ export default function Home() {
                 alt=""
               />
             </div>
-
             <div className="h-56 md:h-80 w-full">
               <img
                 src="/images/detail_stone.png"
@@ -411,20 +393,17 @@ export default function Home() {
               className="h-48 md:h-64 w-full object-cover border-0"
               alt=""
             />
-
             <img
               src="/images/breath_2.jpg"
               className="h-48 md:h-64 w-full object-cover border-0"
               alt=""
             />
-
             <img
               src="/images/breath_3.jpg"
               className="h-48 md:h-64 w-full object-cover border-0"
               alt=""
             />
           </div>
-
           <p className="text-center mt-6 text-xs text-foreground/50 italic">
             静けさが、資産になる。
           </p>
@@ -433,22 +412,17 @@ export default function Home() {
 
       <section ref={serviceCardsRef} className="py-16 md:py-24 bg-background">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
-
           <h2 className="text-center font-serif font-light text-3xl mb-2 md:mb-3 text-foreground">
             私たちの視点
           </h2>
-
           <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16 text-sm text-foreground/60 leading-relaxed space-y-1">
             <p>1. 国内最大手OTAで300施設支援した、専門性。</p>
             <p>2. 多文化国家で培った、グローバル経営戦略。</p>
             <p>3. 日本旅行企画＆世界中で得た、リアルな旅感覚。</p>
-
             <hr className="border-dotted border-[var(--hairline)] w-1/2 mx-auto my-3" />
-
             <p className="mt-3 !mb-0">
               ここに、世界中に築いた独自のネットワークを携え、
             </p>
-
             <p>三つの視点から、あなたの宿を見つめます。</p>
           </div>
 
@@ -482,7 +456,6 @@ export default function Home() {
                 <h3 className="font-serif font-light text-lg mb-3 text-foreground">
                   {s.title}
                 </h3>
-
                 <p className="text-sm text-foreground/70 leading-relaxed">
                   {s.desc}
                 </p>
@@ -494,15 +467,13 @@ export default function Home() {
 
       <section className="py-12 md:py-16 bg-background">
         <div className="max-w-2xl mx-auto px-4 md:px-6 text-center border border-hairline p-6 md:p-8">
-
           <h3 className="font-serif font-light text-2xl text-foreground mb-4">
             では、あなたの宿は、どれくらい伸びるのか。
           </h3>
-
           <p className="text-sm text-foreground/60 mb-6">
             稼働率とお部屋単価を動かすだけで、3秒でわかります。
           </p>
-
+          {/* ★ ページ内は「宿の伸びしろを測定」のまま維持 */}
           <button
             onClick={openSelector}
             className="bg-[#ABBAA9] text-black font-['Zen_Old_Mincho'] px-6 py-2 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors"
@@ -532,10 +503,6 @@ export default function Home() {
                 caption: "世界に開かれた、24時間の窓口。"
               },
               {
-                img: "/images/portfolio/portfolio_3.jpg",
-                caption: "いつもの日常が、特別な「おもてなし」に変わる瞬間。"
-              },
-              {
                 img: "/images/portfolio/portfolio_4.jpg",
                 caption: "口コミが、次の予約を育てていく。"
               },
@@ -561,7 +528,6 @@ export default function Home() {
                   alt={item.caption}
                   className="h-64 md:h-96 w-full object-cover transition-transform duration-1000 group-hover:scale-[0.98] border-0"
                 />
-
                 <p className="mt-3 text-sm text-foreground/70 font-serif font-light">
                   {item.caption}
                 </p>
@@ -597,21 +563,16 @@ export default function Home() {
         />
 
         <div className="max-w-6xl mx-auto px-4 md:px-6 relative z-10">
-
           <div className="text-center mb-16 md:mb-24">
-
             <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">
               OUR METHOD
             </p>
-
             <h2 className="font-serif font-light text-3xl md:text-5xl text-foreground mb-6">
               私たちは「モノのないデザイン」を届けます。
             </h2>
-
             <p className="text-sm text-foreground/60 max-w-2xl mx-auto leading-relaxed mb-8 px-2 md:px-0">
               日本各地の宿や地域に眠る価値を再発見し、「日本だけでなく世界中から訪れたくなる目的地」へと再設計する。それが、私たちのデスティネーションデザインです。
             </p>
-
             <p className="font-['Ogg',_'Times_New_Roman',_serif] font-light text-2xl md:text-4xl text-[#6C6059] tracking-[0.15em] mt-8">
               A Stay Starts a Story
             </p>
@@ -662,7 +623,6 @@ export default function Home() {
                     className="w-full h-full object-cover shadow-2xl border-0"
                     alt={m.title}
                   />
-
                   <img
                     src={`/images/illust/illus_${i + 3}.jpg`}
                     className="absolute -bottom-3 -right-3 md:-bottom-6 md:-right-6 w-16 md:w-24 opacity-60 rotate-[4deg] hover:opacity-100 transition-opacity duration-700 z-10 border-0"
@@ -681,15 +641,12 @@ export default function Home() {
                   <p className="text-6xl font-light text-accent-rust/20 mb-4">
                     {m.number}
                   </p>
-
                   <h3 className="font-serif font-light text-2xl md:text-3xl text-foreground mb-2">
                     {m.title}
                   </h3>
-
                   <p className="text-xs tracking-[0.2em] text-accent-rust mb-6">
                     {m.subtitle}
                   </p>
-
                   <p className="text-sm text-foreground/60 leading-relaxed">
                     {m.desc}
                   </p>
@@ -701,7 +658,6 @@ export default function Home() {
       </section>
 
       <section className="py-16 md:py-24 bg-background relative overflow-hidden border-t border-hairline">
-
         <img
           src="/images/illust/illus_5.jpg"
           className="absolute top-1/2 left-[10%] w-36 opacity-30 rotate-[-2deg] z-0 hover:opacity-80 transition-opacity duration-1000 border-0"
@@ -721,17 +677,13 @@ export default function Home() {
         />
 
         <div className="max-w-6xl mx-auto px-4 md:px-6 relative z-10">
-
           <div className="text-center mb-16 md:mb-24">
-
             <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">
               OUR PROCESS
             </p>
-
             <h2 className="font-serif font-light text-3xl md:text-5xl text-foreground mb-6">
               利益を再投資し、共に成長する。
             </h2>
-
             <p className="text-sm text-foreground/60 max-w-2xl mx-auto leading-relaxed">
               共に成果を生み出しながら、4つのステップで確実に変革を実装します。
             </p>
@@ -782,7 +734,6 @@ export default function Home() {
                     className="w-full h-full object-cover shadow-2xl border-0"
                     alt={st.title}
                   />
-
                   {i === 3 && (
                     <img
                       src="/images/illust/illus_7.jpg"
@@ -803,15 +754,12 @@ export default function Home() {
                   <p className="text-sm tracking-[0.2em] text-accent-rust mb-2">
                     {st.step}
                   </p>
-
                   <h3 className="font-serif font-light text-2xl md:text-3xl text-foreground mb-2">
                     {st.title}
                   </h3>
-
                   <p className="text-xs tracking-[0.2em] text-accent-rust mb-6">
                     {st.subtitle}
                   </p>
-
                   <p className="text-sm text-foreground/60 leading-relaxed">
                     {st.desc}
                   </p>
@@ -825,13 +773,10 @@ export default function Home() {
       {/* FAQ セクション（8項目） */}
       <section className="py-16 md:py-24 bg-background border-t border-hairline">
         <div className="max-w-3xl mx-auto px-4 md:px-6">
-
           <div className="text-center mb-12 md:mb-16">
-
             <p className="text-xs tracking-[0.2em] text-accent-rust mb-4">
               FAQ
             </p>
-
             <h2 className="font-serif font-light text-3xl text-foreground">
               よくある質問
             </h2>
@@ -877,21 +822,16 @@ export default function Home() {
                 className="group border-b border-hairline pb-6"
               >
                 <summary className="flex justify-between items-center cursor-pointer list-none">
-
                   <span className="font-serif font-light text-lg text-foreground">
                     {faq.q}
                   </span>
-
                   <span className="text-accent-rust text-2xl group-open:hidden">
                     +
                   </span>
-
                   <span className="text-accent-rust text-2xl hidden group-open:inline">
                     −
                   </span>
-
                 </summary>
-
                 <p className="mt-4 text-sm text-foreground/60 leading-relaxed whitespace-pre-line">
                   {faq.a}
                 </p>
@@ -902,7 +842,6 @@ export default function Home() {
       </section>
 
       <section className="py-16 md:py-32 bg-background text-center border-t border-hairline relative overflow-hidden">
-
         <img
           src="/images/illust/illus_1.jpg"
           className="absolute top-0 left-1/2 -translate-x-1/2 w-96 opacity-20 rotate-[-2deg] z-0 border-0"
@@ -913,15 +852,12 @@ export default function Home() {
         />
 
         <div className="relative z-10 max-w-2xl mx-auto px-4 md:px-6">
-
           <h2 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-8">
             まずは、あなたの宿の「眠れる資産」を教えてください。
           </h2>
-
           <p className="text-sm text-foreground/60 mb-12 leading-relaxed">
             私たちが最初にやることは、無料であなたの宿の可能性を診断することです。リスクはゼロ。そこから、あなたと共に次の一歩を考えます。
           </p>
-
           <a
             href="https://timerex.net/s/InnBuddy_ESG/386fd946"
             target="_blank"
@@ -935,39 +871,33 @@ export default function Home() {
 
       <section className="py-12 md:py-16 bg-background">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
-
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <img
               src="/images/breath_4.jpg"
               className="h-36 md:h-48 w-full object-cover border-0"
               alt=""
             />
-
             <img
               src="/images/breath_5.jpg"
               className="h-36 md:h-48 w-full object-cover border-0"
               alt=""
             />
-
             <img
               src="/images/breath_6.jpg"
               className="h-36 md:h-48 w-full object-cover border-0"
               alt=""
             />
-
             <img
               src="/images/breath_7.jpg"
               className="h-36 md:h-48 w-full object-cover border-0"
               alt=""
             />
-
             <img
               src="/images/breath_8.jpg"
               className="h-36 md:h-48 w-full object-cover border-0"
               alt=""
             />
           </div>
-
           <p className="text-center mt-6 text-xs text-foreground/50 italic">
             静けさを、資産にする。
           </p>
@@ -976,55 +906,46 @@ export default function Home() {
 
       <section className="relative py-16 md:py-32 bg-background overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-4 h-auto md:h-[600px] flex flex-wrap justify-center items-center gap-3 md:block">
-
           <img
             src="/images/guest_peace.jpg"
             className="w-[42%] md:w-48 h-48 md:h-64 md:absolute md:top-4 md:left-[28%] md:z-20 md:rotate-[-2deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <img
             src="/images/local_smile.jpg"
             className="w-[42%] md:w-48 h-48 md:h-64 md:absolute md:top-16 md:left-[48%] md:z-10 md:rotate-[1.5deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <img
             src="/images/entrance_night.jpg"
             className="w-[42%] md:w-48 h-48 md:h-64 md:absolute md:top-8 md:left-[62%] md:z-30 md:rotate-[-1deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <img
             src="/images/kids_future.jpg"
             className="w-[42%] md:w-48 h-48 md:h-64 md:absolute md:top-24 md:left-[32%] md:z-0 md:rotate-[2.5deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <img
             src="/images/photo_essay_5.jpg"
             className="w-[42%] md:w-44 h-48 md:h-60 md:absolute md:top-0 md:left-[42%] md:z-15 md:rotate-[-3.5deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <img
             src="/images/photo_essay_6.jpg"
             className="w-[42%] md:w-48 h-48 md:h-64 md:absolute md:top-32 md:left-[52%] md:z-5 md:rotate-[0.5deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <img
             src="/images/photo_essay_7.jpg"
             className="w-[42%] md:w-44 h-48 md:h-60 md:absolute md:top-12 md:left-[22%] md:z-25 md:rotate-[-0.5deg] object-cover border-4 border-white shadow-sm"
             alt=""
           />
-
           <div className="w-full md:absolute md:top-[65%] md:left-1/2 md:-translate-x-1/2 z-40 bg-background/80 backdrop-blur-sm px-6 md:px-8 py-4 md:py-6 text-center mt-4 md:mt-0">
             <p className="font-serif text-lg md:text-2xl text-center text-foreground">
               この景色は、まだ誰の予約も取っていない。
             </p>
           </div>
-
         </div>
       </section>
 
@@ -1034,7 +955,6 @@ export default function Home() {
         className="py-16 md:py-24 bg-background"
       >
         <div className="max-w-4xl mx-auto px-4 md:px-6">
-
           <p className="text-center text-xs tracking-[0.2em] text-accent-rust mb-12 md:mb-16">
             私たちの報酬設計
           </p>
@@ -1069,11 +989,9 @@ export default function Home() {
                 <div className="text-4xl font-light text-accent-rust/20 mb-4">
                   {step.number}
                 </div>
-
                 <h3 className="font-serif font-light text-lg mb-2 text-foreground">
                   {step.title}
                 </h3>
-
                 {step.desc && (
                   <p className="text-sm text-foreground/60 leading-relaxed">
                     {step.desc}
@@ -1089,11 +1007,9 @@ export default function Home() {
             <span className="block">
               宿そのものを『目的地（Destination）』へ。
             </span>
-
             <span className="block">
               その価値を『共感の届け先（Destination）』へ。
             </span>
-
             <span className="block">
               二つのDestinationを重ね合わせ、唯一無二のブランドを創り上げます。
             </span>
@@ -1102,7 +1018,6 @@ export default function Home() {
       </section>
 
       <section className="relative py-32 md:py-48 bg-background">
-
         <div className="absolute inset-0 z-0">
           <img
             src="/images/fog_forest_dawn.png"
@@ -1112,22 +1027,18 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 text-center px-4 md:px-6 max-w-2xl mx-auto">
-
           <h2 className="font-serif font-light text-3xl md:text-5xl text-white mb-6 md:mb-8 leading-tight whitespace-normal md:whitespace-nowrap">
             あなたの物語を、世界の感動へ。
           </h2>
-
           <p className="text-white/80 mb-8 md:mb-12 font-sans text-sm md:text-base">
             まずは、御宿の“眠れる資産”を診断するところから。
           </p>
-
           <button
             onClick={() => setContactFormOpen(true)}
             className="inline-block bg-[#FDF7F5] text-[#515D46] font-['Zen_Old_Mincho'] px-8 md:px-10 py-3 md:py-4 text-sm tracking-widest hover:bg-[#B4BC4E] hover:text-white transition-colors duration-700"
           >
             お問い合わせフォーム
           </button>
-
           <p className="mt-6 md:mt-8 text-xs text-white/40 tracking-widest">
             InnBuddy — 越境エコシステムの入り口
           </p>
@@ -1145,19 +1056,17 @@ export default function Home() {
         />
       </section>
 
-      {/* ライブラリ 3カード */}
+      {/* ライブラリ 3カード ＋ 直下にバナー */}
       <section
         id="library"
-        className="py-24 bg-background border-t border-hairline"
+        className="pt-16 md:pt-24 pb-12 md:pb-16 bg-background border-t border-hairline"
       >
         <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
-
           <h2 className="font-serif font-light text-3xl md:text-4xl text-foreground mb-4">
             LIBRARY
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-12">
-
             {/* Journal */}
             <Link
               href="/library/journal"
@@ -1171,13 +1080,11 @@ export default function Home() {
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
-
               <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">
                   JOURNAL
                 </span>
               </div>
-
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
                 <h3 className="text-white text-sm leading-relaxed">
                   ホテル運営/ブランディングのデジタル専門誌
@@ -1198,13 +1105,11 @@ export default function Home() {
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
-
               <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">
                   STORY
                 </span>
               </div>
-
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
                 <h3 className="text-white text-sm leading-relaxed">
                   世界から届くジャパントーク
@@ -1225,38 +1130,35 @@ export default function Home() {
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
-
               <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">
                   ANALYSIS
                 </span>
               </div>
-
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
                 <h3 className="text-white text-sm leading-relaxed">
                   マーケット分析レポート
                 </h3>
-
                 <div className="border-b-2 border-[#8A9A7B] my-2 -mx-4" />
-
                 <p className="text-white text-xs opacity-80">
                   ※現在ASEAN&ESG関連レポートを更新中
                 </p>
               </div>
             </Link>
-
           </div>
+
+          {/* 3枚カードの直下にバナーを配置 */}
+          <LibraryVan href="/library" />
         </div>
       </section>
 
-      {/* 田園風景のバンからLibrary一覧へ */}
-      <LibraryVan />
-
+      {/* 右下の固定ボタン（宿の伸びしろを測定） */}
       <FloatingCta
         onDiagnosticClick={openSelector}
         visible={floatingVisible}
       />
 
+      {/* 診断選択モーダル */}
       <DiagnosticSelectorModal
         isOpen={selectorOpen}
         onClose={closeSelector}
@@ -1279,23 +1181,16 @@ export default function Home() {
         onClose={() => setContactFormOpen(false)}
       />
 
+      {/* サイドバナー：クリックすると /ota に直接遷移 */}
       <FloatingOtaBanner
-        onClick={() => setOtaPromoOpen(true)}
-        visible={bannerVisible && !otaPromoOpen}
-      />
-
-      <OtaPromoModal
-        isOpen={otaPromoOpen}
-        onClose={() => setOtaPromoOpen(false)}
+        onClick={() => router.push('/ota')}
+        visible={bannerVisible}
       />
 
       {/* ==================== Footer ==================== */}
       <footer className="bg-black text-white">
-        <div className="max-w-3xl mx-auto px-6 py-10 md:py-12">
-
+        <div className="max-w-4xl mx-auto px-6 py-10 md:py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-
-            {/* Logo */}
             <Link
               href="/"
               className="font-serif text-xl tracking-[0.08em] text-white hover:opacity-70 transition-opacity"
@@ -1303,36 +1198,46 @@ export default function Home() {
               InnBuddy
             </Link>
 
-            {/* Navigation */}
-            <nav className="flex items-center gap-6 md:gap-8 text-xs tracking-widest">
-
-              <a
-                href="https://innbuddy-japan.com/team"
+            <nav className="flex flex-wrap items-center justify-center gap-6 md:gap-8 text-xs tracking-widest">
+              <Link
+                href="/team"
                 className="text-white/70 hover:text-white transition-colors"
               >
                 運営チームについて
-              </a>
+              </Link>
 
-              <a
-                href="https://innbuddy-japan.com/contact"
+              <Link
+                href="/library"
+                className="text-white/70 hover:text-white transition-colors"
+              >
+                Library
+              </Link>
+
+              {/* ★ フッターのみ「OTA無料診断」に変更 */}
+              <button
+                type="button"
+                onClick={openSelector}
+                className="text-white/70 hover:text-white transition-colors cursor-pointer"
+              >
+                OTA無料診断
+              </button>
+
+              <Link
+                href="/contact"
                 className="text-white/70 hover:text-white transition-colors"
               >
                 お問い合わせ
-              </a>
-
+              </Link>
             </nav>
           </div>
 
-          {/* Copyright */}
           <div className="border-t border-white/10 mt-8 pt-5 text-center">
             <p className="text-[10px] tracking-widest text-white/40">
               © 2026 InnBuddy. All rights reserved.
             </p>
           </div>
-
         </div>
       </footer>
-
     </main>
   );
 }

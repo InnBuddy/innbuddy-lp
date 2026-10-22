@@ -62,7 +62,7 @@ function chindon(p){const g=grp(p),d=-1;
  const a=person(g,0,0,0xff5fa2,1.2);mesh(a,cyl,0xd7263d,[d*.55,1.5,0],[.42,.5,.42]).rotation.z=Math.PI/2;mesh(a,cone,0xfff176,[0,2.6,0],[.75,.45,.75]);
  const b=person(g,d*2.8,0,0x2ec4b6,1.2);mesh(b,cyl,0x222222,[d*.5,1.9,0],[.06,.9,.06]).rotation.z=-d;mesh(b,cone,0xff6b6b,[0,2.6,0],[.6,.5,.6]);
  const c=person(g,d*5.6,0,0xffb703,1.2);mesh(c,cyl,0x6b4a2b,[d*.45,2.2,0],[.05,4.4,.05]);mesh(c,cone,0x9b5de5,[0,2.6,0],[.65,.5,.65]);
- const sg=new T.Mesh(new T.PlaneGeometry(2.2,3.2),new T.MeshBasicMaterial({map:sign('ちんどん','#e63946')}));sg.position.set(d*.45,5.3,0);c.add(sg);return g}
+ const sg=new T.Mesh(new T.PlaneGeometry(2.2,3.2),new T.MeshBasicMaterial({map:sign('祭','#e63946')}));sg.position.set(d*.45,5.3,0);c.add(sg);return g}
 const pa=grp(S,0,0,-28),pb=grp(S,20,0,-12);
 const sh=shishi(pa);sh.scale.setScalar(1.5);
 const mk=mikoshi(pa);mk.position.x=-22;mk.scale.setScalar(1.5);

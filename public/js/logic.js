@@ -12,6 +12,7 @@ const regionMeta = {
 };
 const regionOrder = Object.keys(regionMeta);
 
+
 const mapG = document.getElementById('mapPaths');
 regionOrder.forEach(r=>{
   const p = document.createElementNS('http://www.w3.org/2000/svg','path');
@@ -23,7 +24,9 @@ regionOrder.forEach(r=>{
   mapG.appendChild(p);
 });
 
+
 function dialectsOf(region){ return dialects.filter(d=>d.region===region); }
+
 
 function renderDialect(d){
   document.getElementById('dCtx').textContent = d.region + ' · ' + d.id;
@@ -35,6 +38,7 @@ function renderDialect(d){
   document.getElementById('dLexicon').innerHTML = d.lexicon.map(l=>
     `<div class="lex-row"><span class="w">${l.word}</span><span class="m">${l.meaning}</span></div>`).join('');
 
+
   // additional 10 words per dialect, revealed via the toggle below
   const extra = d.additionalLexicon && d.additionalLexicon.length ? d.additionalLexicon : [];
   document.getElementById('lexCount').textContent = ` (+${extra.length})`;
@@ -43,9 +47,11 @@ function renderDialect(d){
   document.getElementById('lexFull').classList.remove('show');
   document.getElementById('lexToggleLabel').textContent = 'この方言の単語をもっと見る / More words';
 
+
   const friend = d.friendPhrases && d.friendPhrases.length ? d.friendPhrases : [];
   document.getElementById('dFriendPhrases').innerHTML = friend.map(p=>
     `<div class="phrase-item"><div class="ph">${p.phrase}</div><div class="mn">${p.meaning}</div></div>`).join('');
+
 
   const work = d.workPhrases && d.workPhrases.length ? d.workPhrases : [];
   document.getElementById('dWorkPhrases').innerHTML = work.map(p=>
@@ -57,6 +63,7 @@ lexToggleBtn.addEventListener('click', ()=>{
   const open = box.classList.toggle('show');
   document.getElementById('lexToggleLabel').textContent = open ? '閉じる / Close' : 'この方言の単語をもっと見る / More words';
 });
+
 
 let currentRegion = 'HOKKAIDO';
 function selectRegion(region){
@@ -98,6 +105,7 @@ function selectRegionInit(){
   renderDialect(list[0]);
 }
 
+
 /* ---- regions carousel: auto-rotating, pauses on interaction ---- */
 const ICONS = {
   HOKKAIDO:'<path d="M23 4 L23 42 M8 12 L38 34 M38 12 L8 34"/><circle cx="23" cy="23" r="6"/>',
@@ -114,10 +122,12 @@ const regionList = regionOrder.map(r=>({
   region:r, vibe:regionMeta[r].vibe, note:regionMeta[r].note, color:regionMeta[r].color, icon:ICONS[r]
 }));
 
+
 const track = document.getElementById('carTrack');
 const dotsEl = document.getElementById('carDots');
 const drawer = document.getElementById('regionDrawer');
 const CARD_W = 210, GAP = 22, STEP = CARD_W+GAP;
+
 
 function cardHTML(r){
   return `<div class="region-card" data-region="${r.region}" style="--card-accent:${r.color}">
@@ -130,12 +140,15 @@ function cardHTML(r){
 track.innerHTML = regionList.map(cardHTML).join('') + regionList.map(cardHTML).join('');
 dotsEl.innerHTML = regionList.map((_,i)=>`<button data-i="${i}"></button>`).join('');
 
+
 let offset = 0;                    // px scrolled so far
 const setWidth = STEP * regionList.length;
 let autoplay = true;
 const SPEED = 0.35;                // px per frame, deliberately slow
 
+
 function applyTransform(){ track.style.transform = `translateX(${-offset}px)`; }
+
 
 function updateFocus(){
   const stageRect = document.getElementById('carousel').getBoundingClientRect();
@@ -151,6 +164,7 @@ function updateFocus(){
   dotsEl.querySelectorAll('button').forEach((b,i)=>b.classList.toggle('active', i===nearest));
 }
 
+
 function tick(){
   if(autoplay){
     offset += SPEED;
@@ -161,11 +175,13 @@ function tick(){
   requestAnimationFrame(tick);
 }
 
+
 function pauseThenResume(ms=4500){
   autoplay = false;
   clearTimeout(pauseThenResume._t);
   pauseThenResume._t = setTimeout(()=>{ autoplay = true; }, ms);
 }
+
 
 function step(dir){
   offset += dir*STEP;
@@ -182,9 +198,12 @@ dotsEl.querySelectorAll('button').forEach(b=>{
 document.getElementById('carousel').addEventListener('pointerenter', ()=>{ autoplay=false; clearTimeout(pauseThenResume._t); });
 document.getElementById('carousel').addEventListener('pointerleave', ()=>{ pauseThenResume(600); });
 
+
+// ★ ドロワーを開く関数（写真・解説・方言チップを表示）
 function openDrawer(region){
   const meta = regionMeta[region];
   const list = dialectsOf(region);
+  if (!drawer) return;
   drawer.classList.add('show');
   drawer.innerHTML = `
     <p class="tag">${region}</p>
@@ -192,13 +211,23 @@ function openDrawer(region){
     <p class="note">${meta.note}${list.length ? '' : '（この地域の方言データは準備中です）'}</p>
     <div class="chip-row">${list.map(d=>`<button class="chip" data-id="${d.id}">${d.id}</button>`).join('')}</div>`;
   drawer.querySelectorAll('.chip').forEach(btn=>{
-    btn.onclick = ()=>{ selectRegion(region); setTimeout(()=>renderDialect(list.find(d=>d.id===btn.dataset.id)), 50); };
+    btn.onclick = ()=>{ 
+      selectRegion(region); 
+      setTimeout(()=>renderDialect(list.find(d=>d.id===btn.dataset.id)), 50); 
+    };
   });
   drawer.scrollIntoView({behavior:'smooth', block:'nearest'});
 }
-track.querySelectorAll('.region-card').forEach(card=>{
-  card.onclick = ()=>{ openDrawer(card.dataset.region); pauseThenResume(); };
+
+// イベント委譲により、複製されたすべてのカードのクリックを確実に検知
+track.addEventListener('click', (e) => {
+  const card = e.target.closest('.region-card');
+  if (card && card.dataset.region) {
+    openDrawer(card.dataset.region);
+    pauseThenResume();
+  }
 });
+
 
 applyTransform();
 updateFocus();

@@ -1,24 +1,25 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react'
 
 const projects = [
-  { num: '01', title: 'InnBuddy OTA', image: '/images/library/ota.png', museumImage: '/images/library/museum_01.png', description: '弊社のOTA運用代行サービスの紹介とご相談窓口', status: 'active', aspect: '16/9' },
-  { num: '02', title: 'Brand Vision Report', image: '/images/library/report.png', museumImage: '/images/library/museum_02.png', description: '弊社の考え方をまとめたサステナブルなデジタルフォトブック', status: 'active', aspect: '3/4' },
-  { num: '03', title: 'ジャーナル', image: '/images/library/journal.png', museumImage: '/images/library/museum_03.png', description: 'ホテル運営・ブランディング・マーケティング専門メディア', status: 'active', aspect: '1/1' },
-  { num: '04', title: 'ハラルBOX', image: '/images/library/halal.png', museumImage: '/images/library/museum_04.png', description: 'ハラルガイドとセルフチェックシート、フィードバックシート', status: 'active', aspect: '4/3', width: '42%' },
-  { num: '05', title: 'インバウンドBOX', image: '/images/library/inbound.png', museumImage: '/images/library/museum_05.png', description: '18言語対応の口コミ翻訳や接客指差しシートなど4点セット', status: 'active', aspect: '3/4', width: '35%' },
-  { num: '06', title: 'SDGs', image: '/images/library/sdgs.png', museumImage: '/images/library/museum_06.png', description: '宿が自分たちで実践できるサステナブルな取り組み事例', status: 'active', aspect: '1/1', width: '25vw' },
-  { num: '07', title: '組織ウェルビーイング', image: '/images/library/wellbeing.png', museumImage: '/images/library/museum_07.png', description: '採用・組織づくり。スタッフが定着する環境づくりのヒント', status: 'active', aspect: '16/9', width: '36vw' },
-  { num: '08', title: 'AIと宿', image: '/images/library/ai.png', museumImage: '/images/library/museum_08.png', description: '完全初心者向け。日常業務で使えるAIサポートの基本', status: 'active', aspect: '3/4', width: '26vw' },
-  { num: '09', title: 'AIと宿Pro', image: '/images/library/aipro.png', museumImage: '/images/library/museum_09.png', description: 'プロ向けAI活用術。より高度な運用と業務効率化をサポート', status: 'active', aspect: '4/3', width: '32vw' },
-  { num: '10', title: 'ストーリー', image: '/images/library/story.png', museumImage: '/images/library/museum_10.png', description: '世界の旅行者から届くリアルなインタビューメディア', status: 'active' },
+  { num: '01', title: 'InnBuddy OTA', image: '/images/library/ota.png', museumImage: '/images/library/museum_01.png', description: '弊社のOTA運用代行サービスの紹介とご相談窓口', status: 'active', aspect: '16/9', href: '/ota' },
+  { num: '02', title: 'Brand Vision Report', image: '/images/library/report.png', museumImage: '/images/library/museum_02.png', description: '弊社の考え方をまとめたサステナブルなデジタルフォトブック', status: 'coming_soon', aspect: '3/4' },
+  { num: '03', title: 'Journal', image: '/images/library/journal.png', museumImage: '/images/library/museum_03.png', description: 'ホテル運営・ブランディング・マーケティング専門メディア', status: 'coming_soon', aspect: '1/1' },
+  { num: '04', title: 'ハラルBOX', image: '/images/library/halal.png', museumImage: '/images/library/museum_04.png', description: 'ハラルガイドとセルフチェックシート、フィードバックシート', status: 'active', aspect: '4/3', width: '42%', href: '/halal' },
+  { num: '05', title: 'インバウンドBOX', image: '/images/library/inbound.png', museumImage: '/images/library/museum_05.png', description: '18言語対応の口コミ翻訳や接客指差しシートなど4点セット', status: 'active', aspect: '3/4', width: '35%', href: '/inbound' },
+  { num: '06', title: 'SDGs', image: '/images/library/sdgs.png', museumImage: '/images/library/museum_06.png', description: '宿が自分たちで実践できるサステナブルな取り組み事例', status: 'active', aspect: '1/1', width: '25vw', href: '/sustainable' },
+  { num: '07', title: '組織ウェルビーイング', image: '/images/library/wellbeing.png', museumImage: '/images/library/museum_07.png', description: '採用・組織づくり。スタッフが定着する環境づくりのヒント', status: 'coming_soon', aspect: '16/9', width: '36vw' },
+  { num: '08', title: '宿とAI', image: '/images/library/ai.png', museumImage: '/images/library/museum_08.png', description: '完全初心者向け。日常業務で使えるAIサポートの基本', status: 'coming_soon', aspect: '3/4', width: '26vw' },
+  { num: '09', title: '宿とAI Pro', image: '/images/library/aipro.png', museumImage: '/images/library/museum_09.png', description: 'プロ向けAI活用術。より高度な運用と業務効率化をサポート', status: 'coming_soon', aspect: '4/3', width: '32vw' },
+  { num: '10', title: 'STORY', image: '/images/library/story.png', museumImage: '/images/library/museum_10.png', description: '世界の旅行者から届くリアルなインタビューメディア', status: 'active', href: '/story' },
   { num: '11', title: 'Analysis', image: '/images/library/analysis.png', museumImage: '/images/library/museum_11.png', description: '専門性の高い分析データ。OTA攻略ブックとマーケットレポート', status: 'coming_soon' },
-  { num: '12', title: 'WAAI COMICS', image: '/images/library/comics.png', museumImage: '/images/library/museum_12.png', description: '30ページの短編漫画で宿の課題に気づき考えるケーススタディ', status: 'coming_soon', aspect: '3/4' },
+  { num: '12', title: 'WAAI COMICS', image: '/images/library/comics.png', museumImage: '/images/library/museum_12.png', description: '短編漫画で宿の課題に気づき考えるケーススタディ', status: 'coming_soon', aspect: '3/4' },
   { num: '13', title: 'FOOD VISUAL', image: '/images/library/food.png', museumImage: '/images/library/museum_13.png', description: '忙しい人の考える時間を減らす、画像と素材別料理アイデア', status: 'coming_soon', aspect: '1/1' },
   { num: '14', title: 'INTERIOR', image: '/images/library/interior.png', museumImage: '/images/library/museum_14.png', description: 'NO改装でおしゃれ宿に、サステナブルなインテリアアイデア', status: 'coming_soon', aspect: '16/9' },
-  { num: '15', title: 'SHIRANGAKE', image: '/images/library/shirangake.png', museumImage: '/images/library/museum_15.png', description: '英語で日本の方言を紹介。インバウンド旅行客を地方へ導く', status: 'coming_soon', aspect: '16/9' },
+  { num: '15', title: 'SHIRANGAKE', image: '/images/library/shirangake.png', museumImage: '/images/library/museum_15.png', description: '英語で日本の方言を紹介。インバウンド旅行客を地方へ導く', status: 'active', aspect: '16/9', href: '/shirangake' },
 ]
 
 const AutumnLeaf = ({ color, size }: { color: string; size: number }) => (
@@ -35,7 +36,7 @@ const SakuraPetal = ({ color, size }: { color: string; size: number }) => (
 )
 
 const RainDrop = () => (
-  <div style={{ width: '1.5px', height: '25px', background: 'linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.7))', borderRadius: '1px' }} />
+  <div style={{ width: '1.5px', height: '25px', background: 'linear-gradient(to bottom, rgba(255,255,255,0.7))', borderRadius: '1px' }} />
 )
 
 type Particle = { id: number; left: number; type?: number; size?: number; color?: string; delay?: number; opacity?: number }
@@ -93,112 +94,121 @@ export default function Page() {
   }, [])
 
   useEffect(() => {
-    let lenis: any
-    let updateLenis: any
+    let isMounted = true
+    let lenis: any = null
+    let updateLenis: any = null
+    let gsapInstance: any = null
+    let animationContext: any = null
 
     const initAnimations = async () => {
       if (typeof window === 'undefined') return
 
-      const Lenis = (await import('lenis')).default
-      const gsap = (await import('gsap')).default
-      const { ScrollTrigger } = await import('gsap/ScrollTrigger')
+      try {
+        const Lenis = (await import('lenis')).default
+        const gsapModule = (await import('gsap')).default
+        const { ScrollTrigger } = await import('gsap/ScrollTrigger')
 
-      gsap.registerPlugin(ScrollTrigger)
+        if (!isMounted) return
 
-      lenis = new Lenis({
-        duration: 1.2,
-        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-        smoothWheel: true,
-      })
+        gsapInstance = gsapModule
+        gsapInstance.registerPlugin(ScrollTrigger)
 
-      lenis.on('scroll', ScrollTrigger.update)
-      updateLenis = (time: number) => lenis.raf(time * 1000)
-      gsap.ticker.add(updateLenis)
-      gsap.ticker.lagSmoothing(0)
-
-      const ctx = gsap.context(() => {
-        if (carousel3dRef.current) {
-          gsap.to(carousel3dRef.current, {
-            rotationY: 360,
-            duration: 18,
-            repeat: -1,
-            ease: 'none',
-          })
-        }
-
-        const leafElements = leavesRef.current?.querySelectorAll('.leaf-particle')
-        if (leafElements && leafElements.length > 0) {
-          leafElements.forEach((leaf, idx) => {
-            gsap.to(leaf, {
-              y: '100vh',
-              x: `+=${(idx % 2 === 0 ? 1 : -1) * (60 + Math.random() * 80)}`,
-              rotationX: Math.random() * 720,
-              rotationY: Math.random() * 720,
-              rotationZ: Math.random() * 360,
-              duration: 8 + Math.random() * 7,
-              repeat: -1,
-              ease: 'none',
-              delay: idx * 0.5,
-            })
-          })
-        }
-
-        const sakuraElements = sakuraRef.current?.querySelectorAll('.sakura-particle')
-        if (sakuraElements && sakuraElements.length > 0) {
-          sakuraElements.forEach((petal, idx) => {
-            gsap.to(petal, {
-              y: '120vh',
-              x: `+=${(idx % 2 === 0 ? 1 : -1) * (40 + Math.random() * 60)}`,
-              rotationX: Math.random() * 360,
-              rotationY: Math.random() * 360,
-              rotationZ: Math.random() * 360,
-              duration: 6 + Math.random() * 5,
-              repeat: -1,
-              ease: 'none',
-              delay: Math.random() * 5,
-            })
-          })
-        }
-
-        const rainElements = rainRef.current?.querySelectorAll('.rain-particle')
-        if (rainElements && rainElements.length > 0) {
-          rainElements.forEach((drop) => {
-            gsap.to(drop, {
-              y: '120vh',
-              duration: 0.25 + Math.random() * 0.35,
-              repeat: -1,
-              ease: 'none',
-              delay: Math.random() * 1.5,
-            })
-          })
-        }
-
-        const reveals = gsap.utils.toArray<HTMLElement>('.reveal-item')
-        reveals.forEach((el) => {
-          gsap.fromTo(
-            el,
-            { y: 50, opacity: 0 },
-            {
-              y: 0,
-              opacity: 1,
-              duration: 1,
-              ease: 'power3.out',
-              scrollTrigger: {
-                trigger: el,
-                start: 'top 82%',
-                toggleActions: 'play none none reverse',
-              },
-            }
-          )
+        lenis = new Lenis({
+          duration: 1.2,
+          easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true,
         })
-      }, mainRef)
 
-      return ctx
+        lenis.on('scroll', ScrollTrigger.update)
+        updateLenis = (time: number) => lenis?.raf(time * 1000)
+        gsapInstance.ticker.add(updateLenis)
+        gsapInstance.ticker.lagSmoothing(0)
+
+        if (!isMounted) return
+
+        animationContext = gsapInstance.context(() => {
+          if (carousel3dRef.current) {
+            gsapInstance.to(carousel3dRef.current, {
+              rotationY: 360,
+              duration: 18,
+              repeat: -1,
+              ease: 'none',
+            })
+          }
+
+          const leafElements = leavesRef.current?.querySelectorAll('.leaf-particle')
+          if (leafElements && leafElements.length > 0) {
+            leafElements.forEach((leaf, idx) => {
+              gsapInstance.to(leaf, {
+                y: '100vh',
+                x: `+=${(idx % 2 === 0 ? 1 : -1) * (60 + Math.random() * 80)}`,
+                rotationX: Math.random() * 720,
+                rotationY: Math.random() * 720,
+                rotationZ: Math.random() * 360,
+                duration: 8 + Math.random() * 7,
+                repeat: -1,
+                ease: 'none',
+                delay: idx * 0.5,
+              })
+            })
+          }
+
+          const sakuraElements = sakuraRef.current?.querySelectorAll('.sakura-particle')
+          if (sakuraElements && sakuraElements.length > 0) {
+            sakuraElements.forEach((petal, idx) => {
+              gsapInstance.to(petal, {
+                y: '120vh',
+                x: `+=${(idx % 2 === 0 ? 1 : -1) * (40 + Math.random() * 60)}`,
+                rotationX: Math.random() * 360,
+                rotationY: Math.random() * 360,
+                rotationZ: Math.random() * 360,
+                duration: 6 + Math.random() * 5,
+                repeat: -1,
+                ease: 'none',
+                delay: Math.random() * 5,
+              })
+            })
+          }
+
+          const rainElements = rainRef.current?.querySelectorAll('.rain-particle')
+          if (rainElements && rainElements.length > 0) {
+            rainElements.forEach((drop) => {
+              gsapInstance.to(drop, {
+                y: '120vh',
+                duration: 0.25 + Math.random() * 0.35,
+                repeat: -1,
+                ease: 'none',
+                delay: Math.random() * 1.5,
+              })
+            })
+          }
+
+          const reveals = gsapInstance.utils.toArray('.reveal-item')
+          reveals.forEach((el: any) => {
+            gsapInstance.fromTo(
+              el,
+              { y: 50, opacity: 0 },
+              {
+                y: 0,
+                opacity: 1,
+                duration: 1,
+                ease: 'power3.out',
+                scrollTrigger: {
+                  trigger: el,
+                  start: 'top 82%',
+                  toggleActions: 'play none none reverse',
+                },
+              }
+            )
+          })
+        }, mainRef)
+      } catch (e) {
+        console.error('Failed to initialize animations:', e)
+      }
     }
 
-    let ctxPromise: Promise<any> | null = null
     if (sakuraParticles.length > 0) {
-      ctxPromise = initAnimations()
+      initAnimations()
     }
 
     let animationFrameId: number
@@ -215,11 +225,14 @@ export default function Page() {
     renderLoop()
 
     return () => {
-      if (ctxPromise) {
-        ctxPromise.then((ctx) => ctx?.revert())
+      isMounted = false
+      if (animationContext) {
+        animationContext.revert()
+      }
+      if (gsapInstance && updateLenis) {
+        gsapInstance.ticker.remove(updateLenis)
       }
       if (lenis) {
-        if (updateLenis) gsap?.ticker.remove(updateLenis)
         lenis.destroy()
       }
       cancelAnimationFrame(animationFrameId)
@@ -255,8 +268,17 @@ export default function Page() {
   const item15 = projects[14]
 
   return (
-    <main className="portfolio-shell" ref={mainRef}>
-      
+    <main
+      className="portfolio-shell"
+      ref={mainRef}
+      style={{
+        width: '100%',
+        maxWidth: '100%',
+        margin: 0,
+        padding: 0,
+        overflowX: 'clip',
+      }}
+    >
       {/* ドロワーメニュー */}
       <div style={{
         position: 'fixed', top: 0, right: menuOpen ? 0 : '-100%',
@@ -269,33 +291,75 @@ export default function Page() {
         <h3 style={{ fontSize: '11px', letterSpacing: '0.15em', color: '#777', marginBottom: '40px' }}>MEDIA LIST</h3>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '24px' }}>
           <li><a href="#top" onClick={() => setMenuOpen(false)} style={{ fontSize: '18px', textDecoration: 'none', color: '#f2f0e9' }}>Library (Top)</a></li>
-          {projects.map((p) => (
-            <li key={p.title}>
-              <a href={`#${p.title}`} onClick={() => setMenuOpen(false)} style={{ fontSize: '18px', textDecoration: 'none', color: '#f2f0e9' }}>
-                {p.num}. {p.title}
-              </a>
-            </li>
-          ))}
+          {projects.map((p) => {
+            const hasLink = !!p.href
+            return (
+              <li key={p.title}>
+                {hasLink ? (
+                  <Link href={p.href!} onClick={() => setMenuOpen(false)} style={{ fontSize: '18px', textDecoration: 'none', color: '#f2f0e9' }}>
+                    {p.num}. {p.title} ↗
+                  </Link>
+                ) : (
+                  <span style={{ fontSize: '18px', color: '#666' }}>
+                    {p.num}. {p.title} <span style={{ fontSize: '11px', color: '#888' }}>[Soon]</span>
+                  </span>
+                )}
+              </li>
+            )
+          })}
         </ul>
       </div>
       <div onClick={() => setMenuOpen(false)} style={{ position: 'fixed', inset: 0, backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 998, opacity: menuOpen ? 1 : 0, pointerEvents: menuOpen ? 'auto' : 'none', transition: 'opacity 0.6s ease' }} />
 
-      <header className="portfolio-header">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <a className="mini-mark" href="#top" aria-label="InnBuddy ホーム" style={{ display: 'flex', alignItems: 'center' }}>i<span>。</span></a>
-          <span style={{ fontSize: '12px', letterSpacing: '0.12em', fontWeight: 500, color: '#f2f0e9' }}>InnBuddy Library</span>
-        </div>
-        <nav className="portfolio-nav" style={{ display: 'flex', alignItems: 'center' }}>
-          <button onClick={() => setMenuOpen(true)} style={{ background: 'none', border: 'none', color: '#f2f0e9', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.12em', cursor: 'pointer' }}>
-            Projects
-          </button>
-        </nav>
-        <button className="menu-button" onClick={() => setMenuOpen(true)}><span /><span /></button>
-      </header>
-
       {/* トップヒーロー (65 : 35) */}
-      <section className="portfolio-hero" id="top" style={{ position: 'relative', width: '100vw', height: '100vh', display: 'flex', overflow: 'hidden', padding: 0 }}>
-        <div style={{ position: 'relative', width: '65%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '60px 40px' }}>
+      <section
+        className="portfolio-hero"
+        id="top"
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: '100vh',
+          minHeight: '100vh',
+          display: 'flex',
+          overflow: 'hidden',
+          padding: 0,
+          margin: 0,
+          background: 'none',
+        }}
+      >
+        {/* ヘッダー */}
+        <header
+          className="portfolio-header"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            zIndex: 30,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '24px 36px',
+            boxSizing: 'border-box',
+            backgroundColor: 'transparent',
+            backgroundImage: 'linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%)',
+            border: 'none',
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+            <Link className="mini-mark" href="/" aria-label="InnBuddy ホーム" style={{ display: 'flex', alignItems: 'center', color: '#ffffff', textDecoration: 'none', fontWeight: 700 }}>i<span>。</span></Link>
+            <span style={{ fontSize: '12px', letterSpacing: '0.12em', fontWeight: 500, color: '#f2f0e9', textShadow: '0 1px 4px rgba(0,0,0,0.6)' }}>InnBuddy Library</span>
+          </div>
+          <nav className="portfolio-nav" style={{ display: 'flex', alignItems: 'center' }}>
+            <button onClick={() => setMenuOpen(true)} style={{ background: 'none', border: 'none', color: '#f2f0e9', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.12em', cursor: 'pointer', textShadow: '0 1px 4px rgba(0,0,0,0.6)' }}>
+              Projects
+            </button>
+          </nav>
+          <button className="menu-button" onClick={() => setMenuOpen(true)}><span /><span /></button>
+        </header>
+
+        {/* 左側プレビューエリア */}
+        <div style={{ position: 'relative', width: '65%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '90px 40px 40px 40px' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <Image src="/images/library/hero-forest.png" alt="Hero Background" fill style={{ objectFit: 'cover' }} priority />
             <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.15)' }} />
@@ -318,25 +382,56 @@ export default function Page() {
               <span style={{ fontSize: '11px', fontFamily: 'Georgia, serif', color: '#666', fontWeight: 500 }}>{activeProject.num} / 15</span>
             </div>
 
-            <div style={{ position: 'relative', width: '100%', aspectRatio: '1/1', flexShrink: 0, display: 'block', backgroundColor: '#f5f5f5', overflow: 'hidden' }}>
-              <Image
-                key={activeProject.num}
-                src={activeProject.museumImage || activeProject.image}
-                alt={activeProject.title}
-                fill
-                style={{ objectFit: 'cover', transition: 'opacity 0.35s ease' }}
-                priority
-              />
-            </div>
+            {activeProject.href ? (
+              <Link href={activeProject.href} style={{ position: 'relative', width: '100%', aspectRatio: '1/1', flexShrink: 0, display: 'block', backgroundColor: '#f5f5f5', overflow: 'hidden', cursor: 'pointer' }}>
+                <Image
+                  key={activeProject.num}
+                  src={activeProject.museumImage || activeProject.image}
+                  alt={activeProject.title}
+                  fill
+                  style={{ objectFit: 'cover', transition: 'opacity 0.35s ease' }}
+                  priority
+                />
+              </Link>
+            ) : (
+              <div style={{ position: 'relative', width: '100%', aspectRatio: '1/1', flexShrink: 0, display: 'block', backgroundColor: '#f5f5f5', overflow: 'hidden' }}>
+                <Image
+                  key={activeProject.num}
+                  src={activeProject.museumImage || activeProject.image}
+                  alt={activeProject.title}
+                  fill
+                  style={{ objectFit: 'cover', transition: 'opacity 0.35s ease' }}
+                  priority
+                />
+              </div>
+            )}
 
             <div style={{ height: '80px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
-              <h3 style={{ fontSize: '20px', fontWeight: 500, color: '#111', margin: '0 0 6px 0', letterSpacing: '-0.02em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{activeProject.title}</h3>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '6px' }}>
+                {activeProject.href ? (
+                  <Link href={activeProject.href} style={{ textDecoration: 'none' }}>
+                    <h3 style={{ fontSize: '20px', fontWeight: 500, color: '#111', margin: 0, letterSpacing: '-0.02em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      {activeProject.title} <span style={{ fontSize: '13px', color: '#777' }}>↗</span>
+                    </h3>
+                  </Link>
+                ) : (
+                  <h3 style={{ fontSize: '20px', fontWeight: 500, color: '#111', margin: 0, letterSpacing: '-0.02em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    {activeProject.title}
+                  </h3>
+                )}
+                {activeProject.status === 'coming_soon' && (
+                  <span style={{ fontSize: '9px', fontWeight: 600, color: '#888', border: '1px solid #ddd', padding: '2px 6px', borderRadius: '2px', letterSpacing: '0.05em', textTransform: 'uppercase', flexShrink: 0 }}>
+                    Coming Soon
+                  </span>
+                )}
+              </div>
               <p style={{ fontSize: '11px', color: '#666', margin: 0, lineHeight: 1.6, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{activeProject.description}</p>
             </div>
           </div>
         </div>
 
-        <div style={{ position: 'relative', width: '35%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '80px 20px 30px 20px', borderLeft: '1px solid rgba(255,255,255,0.1)' }}>
+        {/* 右側ラインナップエリア */}
+        <div style={{ position: 'relative', width: '35%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '90px 20px 30px 20px', borderLeft: '1px solid rgba(255,255,255,0.1)' }}>
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
             <Image src="/images/library/photo-forest-bbq.png" alt="Sidebar Background" fill style={{ objectFit: 'cover' }} priority />
             <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.5)' }} />
@@ -356,36 +451,77 @@ export default function Page() {
             }}>
               {projects.map((item, idx) => {
                 const isActive = activeHeroIndex === idx
-                return (
-                  <a
+                const isComingSoon = item.status === 'coming_soon'
+                const hasLink = !!item.href
+
+                const commonStyle: React.CSSProperties = {
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  width: '100%',
+                  boxSizing: 'border-box',
+                  padding: '3px 8px',
+                  borderRadius: '3px',
+                  textDecoration: 'none',
+                  backgroundColor: isActive ? 'rgba(255,255,255,0.18)' : 'transparent',
+                  borderLeft: isActive ? '2px solid #ffffff' : '2px solid transparent',
+                  transition: 'all 0.18s ease',
+                  cursor: hasLink ? 'pointer' : 'default',
+                }
+
+                const content = (
+                  <>
+                    <span style={{ fontFamily: 'Georgia, serif', fontSize: '11px', color: isActive ? '#ffffff' : 'rgba(255,255,255,0.4)', transition: 'color 0.18s ease', width: '20px', flexShrink: 0 }}>{item.num}</span>
+                    <span style={{ fontSize: '11.5px', color: isActive ? '#ffffff' : (isComingSoon ? 'rgba(255,255,255,0.55)' : 'rgba(255,255,255,0.85)'), fontWeight: isActive ? 500 : 400, transition: 'color 0.18s ease', letterSpacing: '0.01em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', flex: 1 }}>
+                      {item.title}
+                    </span>
+                    {isComingSoon && (
+                      <span style={{ fontSize: '8px', color: 'rgba(255,255,255,0.38)', letterSpacing: '0.04em', flexShrink: 0 }}>[Soon]</span>
+                    )}
+                    <span style={{ fontSize: '9px', color: '#ffffff', opacity: (isActive && hasLink) ? 1 : 0, transition: 'opacity 0.18s ease', width: '10px', textAlign: 'right', flexShrink: 0 }}>↗</span>
+                  </>
+                )
+
+                return hasLink ? (
+                  <Link
                     key={item.num + item.title}
-                    href={`#${item.title}`}
+                    href={item.href!}
                     onMouseEnter={() => setActiveHeroIndex(idx)}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '10px',
-                      width: '100%',
-                      boxSizing: 'border-box',
-                      padding: '3px 8px',
-                      borderRadius: '3px',
-                      textDecoration: 'none',
-                      backgroundColor: isActive ? 'rgba(255,255,255,0.18)' : 'transparent',
-                      borderLeft: isActive ? '2px solid #ffffff' : '2px solid transparent',
-                      transition: 'all 0.18s ease',
-                      cursor: 'pointer'
-                    }}
+                    style={commonStyle}
                   >
-                    <span style={{ fontFamily: 'Georgia, serif', fontSize: '11px', color: isActive ? '#ffffff' : 'rgba(255,255,255,0.4)', transition: 'color 0.18s ease', width: '22px', flexShrink: 0 }}>{item.num}</span>
-                    <span style={{ fontSize: '11.5px', color: isActive ? '#ffffff' : 'rgba(255,255,255,0.7)', fontWeight: isActive ? 500 : 400, transition: 'color 0.18s ease', letterSpacing: '0.01em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', flex: 1 }}>{item.title}</span>
-                    <span style={{ fontSize: '9px', color: '#ffffff', opacity: isActive ? 1 : 0, transition: 'opacity 0.18s ease', width: '12px', textAlign: 'right', flexShrink: 0 }}>↗</span>
-                  </a>
+                    {content}
+                  </Link>
+                ) : (
+                  <div
+                    key={item.num + item.title}
+                    onMouseEnter={() => setActiveHeroIndex(idx)}
+                    style={commonStyle}
+                  >
+                    {content}
+                  </div>
                 )
               })}
             </div>
           </div>
         </div>
-        <p className="scroll-cue">Scroll Down</p>
+
+        {/* Scroll cue */}
+        <p
+          className="scroll-cue"
+          style={{
+            position: 'absolute',
+            bottom: '24px',
+            right: '28px',
+            zIndex: 10,
+            margin: 0,
+            fontSize: '10px',
+            letterSpacing: '0.15em',
+            color: 'rgba(255,255,255,0.6)',
+            textTransform: 'uppercase',
+          }}
+        >
+          Scroll Down
+        </p>
       </section>
 
       {/* 2ページ目（01〜03） */}
@@ -429,14 +565,18 @@ export default function Page() {
                 </div>
                 <h2 style={{ fontSize: '20px', fontWeight: 400, margin: '0 0 8px 0', letterSpacing: '-0.02em' }}>{project.title}</h2>
                 <p style={{ fontSize: '12px', color: '#555', marginBottom: '14px', lineHeight: 1.6 }}>{project.description}</p>
-                <a href="#contact" style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline' }}>View story ↗</a>
+                {project.status === 'coming_soon' ? (
+                  <span style={{ fontSize: '11px', fontWeight: 600, color: '#888', letterSpacing: '0.05em' }}>[ Coming Soon ]</span>
+                ) : (
+                  <Link href={project.href || '#contact'} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline' }}>View story ↗</Link>
+                )}
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 4: 独立コンテンツ */}
+      {/* 4: 独立コンテンツ（ハラルBOX） */}
       <section id={item4.title} style={{ 
         minHeight: '100vh', 
         display: 'flex', alignItems: 'center', padding: '80px 7vw', position: 'relative',
@@ -457,12 +597,12 @@ export default function Page() {
             <span style={{ fontSize: '9px', letterSpacing: '0.15em', color: '#666', textTransform: 'uppercase', margin: '10px 0 8px 0', display: 'block' }}>FEATURED MEDIA</span>
             <h2 style={{ fontSize: 'clamp(28px, 3vw, 42px)', fontWeight: 400, margin: '0 0 15px 0', letterSpacing: '-0.03em' }}>{item4.title}</h2>
             <p style={{ fontSize: '13px', lineHeight: 1.8, color: '#444', marginBottom: '25px' }}>{item4.description}</p>
-            <a href="#contact" style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <b>↗</b></a>
+            <Link href={item4.href || '#contact'} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <b>↗</b></Link>
           </div>
         </div>
       </section>
 
-      {/* 5: 独立コンテンツ */}
+      {/* 5: 独立コンテンツ（インバウンドBOX） */}
       <section id={item5.title} style={{ 
         minHeight: '100vh', 
         display: 'flex', alignItems: 'center', padding: '80px 7vw', position: 'relative',
@@ -480,7 +620,7 @@ export default function Page() {
             <span style={{ fontSize: '9px', letterSpacing: '0.15em', color: '#666', textTransform: 'uppercase', margin: '10px 0 8px 0', display: 'block' }}>FEATURED MEDIA</span>
             <h2 style={{ fontSize: 'clamp(28px, 3vw, 42px)', fontWeight: 400, margin: '0 0 15px 0', letterSpacing: '-0.03em' }}>{item5.title}</h2>
             <p style={{ fontSize: '13px', lineHeight: 1.8, color: '#444', marginBottom: '25px' }}>{item5.description}</p>
-            <a href="#contact" style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <b>↗</b></a>
+            <Link href={item5.href || '#contact'} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <b>↗</b></Link>
           </div>
           <div style={{ position: 'relative', width: item5.width || '50%', aspectRatio: item5.aspect || '1/1', borderRadius: '3px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.15)' }}>
             <Image src={item5.image} alt={item5.title} fill style={{ objectFit: 'cover' }} sizes="35vw" />
@@ -518,6 +658,7 @@ export default function Page() {
             {group6to9.map((project, index) => {
               const angle = (360 / group6to9.length) * index
               const radius = 380
+              const isComingSoon = project.status === 'coming_soon'
               return (
                 <div
                   key={project.title}
@@ -535,7 +676,7 @@ export default function Page() {
                     boxShadow: '0 20px 50px rgba(0,0,0,0.12)',
                     display: 'flex',
                     flexDirection: 'column',
-                    justify: 'space-between',
+                    justifyContent: 'space-between',
                     backfaceVisibility: 'visible',
                   }}
                 >
@@ -545,7 +686,15 @@ export default function Page() {
                   <div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '4px' }}>
                       <span style={{ fontFamily: 'Georgia, serif', fontSize: '20px', color: '#888' }}>{project.num}</span>
-                      <span style={{ fontSize: '9px', color: '#aaa', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Media</span>
+                      {project.href ? (
+                        <Link href={project.href} style={{ fontSize: '10px', color: '#10201a', fontWeight: 600, textDecoration: 'underline' }}>
+                          View story ↗
+                        </Link>
+                      ) : (
+                        <span style={{ fontSize: '9px', color: isComingSoon ? '#888' : '#aaa', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: isComingSoon ? 600 : 400 }}>
+                          {isComingSoon ? '[ Coming Soon ]' : 'Media'}
+                        </span>
+                      )}
                     </div>
                     <h3 style={{ fontSize: '18px', fontWeight: 500, margin: '0 0 4px 0', letterSpacing: '-0.02em', color: '#111' }}>{project.title}</h3>
                     <p style={{ fontSize: '11px', color: '#666', margin: 0, lineHeight: 1.4, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{project.description}</p>
@@ -580,7 +729,7 @@ export default function Page() {
               <span style={{ fontSize: '9px', letterSpacing: '0.15em', color: '#777', textTransform: 'uppercase', margin: '10px 0 8px 0', display: 'block' }}>INTERVIEW MEDIA</span>
               <h2 style={{ fontSize: 'clamp(28px, 3vw, 42px)', fontWeight: 400, margin: '0 0 10px 0', letterSpacing: '-0.03em' }}>{item10.title}</h2>
               <p style={{ fontSize: '14px', lineHeight: 1.8, color: '#444', marginBottom: '15px', fontWeight: 500 }}>{item10.description}</p>
-              <a href="#contact" style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <b>↗</b></a>
+              <Link href={item10.href || '#contact'} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <b>↗</b></Link>
             </div>
 
             <div style={{ display: 'grid', gridTemplateRows: '1fr 1fr', gap: '15px' }}>
@@ -609,7 +758,10 @@ export default function Page() {
 
         <div className="reveal-item" style={{ width: '100%', maxWidth: '1200px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '30px', zIndex: 1 }}>
           <div>
-            <span style={{ fontFamily: 'Georgia, serif', fontSize: '48px', color: '#555', display: 'block', lineHeight: 1 }}>{item11.num}</span>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: '16px' }}>
+              <span style={{ fontFamily: 'Georgia, serif', fontSize: '48px', color: '#555', display: 'block', lineHeight: 1 }}>{item11.num}</span>
+              <span style={{ fontSize: '11px', color: '#888', fontWeight: 600, letterSpacing: '0.08em' }}>[ Coming Soon ]</span>
+            </div>
             <h2 style={{ fontSize: 'clamp(28px, 3vw, 42px)', fontWeight: 400, margin: '5px 0 10px 0', color: '#ffffff' }}>{item11.title}</h2>
             <p style={{ fontSize: '13px', color: '#aaa' }}>{item11.description}</p>
           </div>
@@ -698,13 +850,14 @@ export default function Page() {
                 <p style={{ fontSize: '12px', lineHeight: 1.7, color: '#666' }}>{item14.description}</p>
               </article>
 
+              {/* 15: SHIRANGAKE（元の通常スタイル・左揃え・元文言に復帰） */}
               <article id={item15.title} className="reveal-item">
                 <div style={{ position: 'relative', width: '100%', aspectRatio: item15.aspect || '16/9', borderRadius: '2px', overflow: 'hidden', boxShadow: '0 15px 30px rgba(0,0,0,0.06)', marginBottom: '18px' }}>
                   <Image src={item15.image} alt={item15.title} fill style={{ objectFit: 'cover' }} sizes="30vw" />
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                   <span style={{ fontFamily: 'Georgia, serif', fontSize: '28px', color: '#aaa' }}>{item15.num}</span>
-                  <span style={{ fontSize: '10px', color: '#888', fontWeight: 600 }}>[ Coming Soon ]</span>
+                  <Link href={item15.href || '#contact'} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline' }}>View story ↗</Link>
                 </div>
                 <h3 style={{ fontSize: '20px', fontWeight: 400, margin: '8px 0 6px 0' }}>{item15.title}</h3>
                 <p style={{ fontSize: '12px', lineHeight: 1.7, color: '#666' }}>{item15.description}</p>
@@ -741,15 +894,32 @@ export default function Page() {
           <p className="section-label reveal-item" style={{ fontSize: '10px', letterSpacing: '0.15em', color: '#666', textTransform: 'uppercase', marginBottom: '30px' }}>
             ABOUT INNBUDDY / RESPONSIBLE TRAVEL
           </p>
-          <h2 className="reveal-item" style={{ fontSize: 'clamp(36px, 4.5vw, 64px)', fontWeight: 400, lineHeight: 1.15, margin: '0 0 40px 0', letterSpacing: '-0.03em' }}>
-            宿の未来を、<br />いっしょに。
+
+          <h2 className="reveal-item" style={{ fontSize: 'clamp(36px, 4.5vw, 64px)', fontWeight: 400, lineHeight: 1.15, margin: '0 0 20px 0', letterSpacing: '-0.03em' }}>
+            クリエイティブに、<br />唯一の目的地に。
           </h2>
-          <p className="about-copy reveal-item" style={{ fontSize: '13px', lineHeight: 2, color: '#444', maxWidth: '440px', marginBottom: '50px' }}>
-            InnBuddy は、旅の体験をデザインするクリエイティブ・ライブラリー。地域の文化、宿の思想、旅人の記憶を編集し、まだ見ぬ滞在のかたちをつくります。
+
+          <p
+            className="reveal-item"
+            style={{
+              fontFamily: '"Yuji Boku", "Klee One", "Zen Old Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif',
+              fontSize: 'clamp(18px, 2.2vw, 24px)',
+              fontWeight: 700,
+              color: '#9ACA47',
+              margin: '0 0 28px 0',
+              letterSpacing: '0.04em',
+              lineHeight: 1.4,
+            }}
+          >
+            激しく変わる時代に、残すもの。
           </p>
+
+          <p className="about-copy reveal-item" style={{ fontSize: '13px', lineHeight: 2, color: '#444', maxWidth: '440px', marginBottom: '50px' }}>
+            InnBuddy は、旅の意味からデザインします。地域の文化、宿の思想、旅人の記憶を編集し、この時代に残すものを選びながらまだ見ぬ滞在のかたちを共に。
+          </p>
+
           <div className="about-meta reveal-item" style={{ display: 'flex', gap: '40px', borderTop: '1px solid #c5c8c0', paddingTop: '20px', fontSize: '11px', color: '#666' }}>
             <span>Based in Japan</span>
-            <span>Independent since 2024</span>
           </div>
         </div>
       </section>
@@ -801,7 +971,7 @@ export default function Page() {
                     padding: 0,
                     display: 'flex',
                     flexDirection: 'column',
-                    justify: 'flex-start',
+                    justifyContent: 'flex-start',
                     backfaceVisibility: 'hidden',
                   }}
                 >
@@ -832,9 +1002,9 @@ export default function Page() {
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '12px', borderTop: '1px solid #333', fontSize: '11px', color: '#888', gap: '40px' }}>
             <span>© InnBuddy 2026</span>
             <div style={{ display: 'flex', gap: '20px' }}>
-              <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#ccc', textDecoration: 'none', letterSpacing: '0.05em' }}>
+              <Link href="/" style={{ color: '#ccc', textDecoration: 'none', letterSpacing: '0.05em' }}>
                 メインページに戻る <b>↗</b>
-              </a>
+              </Link>
               <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" style={{ color: '#ccc', textDecoration: 'none', letterSpacing: '0.05em' }}>
                 お問い合わせ <b>↗</b>
               </a>

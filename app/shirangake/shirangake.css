@@ -55,7 +55,7 @@ header {
 .nav a:hover { color: var(--ink); }
 
 /* -------------------------------------
- * ヒーローエリア（Impactフォント・黒文字キープ・サイズ調整・ホワイトグロー）
+ * ヒーローエリア
  * ------------------------------------- */
 body .hero {
   padding: 120px 0 60px !important;
@@ -70,7 +70,7 @@ body .hero .wrap {
   text-align: center !important;
 }
 
-/* 1. REAL vs TEXT BOOK (Roboto / 黒文字 / 20%拡大: 17px) */
+/* 1. REAL vs TEXT BOOK */
 body .hero p.eyebrow,
 body .hero p.eyebrow * {
   font-family: 'Roboto', sans-serif !important;
@@ -90,7 +90,7 @@ body .hero .eyebrow .rule {
   display: none !important;
 }
 
-/* 2. メイン見出し (Impactフォント / 黒文字 / 30%拡大) */
+/* 2. メイン見出し */
 body .hero h1,
 body .hero h1 * {
   font-family: 'Impact', 'Arial Black', sans-serif !important;
@@ -112,7 +112,7 @@ body .hero h1 em {
   color: #171717 !important;
 }
 
-/* 3. 説明文 (Roboto / 黒文字 / 20%拡大: 19px) */
+/* 3. 説明文 */
 body .hero p.lead,
 body .hero p.lead *,
 body .hero .sub-en {
@@ -134,7 +134,7 @@ section { padding: 64px 0; }
 .section-head h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.8rem, 3.6vw, 2.6rem); margin: 0; color: var(--ink); }
 .section-head p { max-width: 320px; font-size: 14px; line-height: 1.55; color: var(--ink-soft); margin: 0; }
 
-/* 地図エリア（沖縄の見切れ防止設定） */
+/* 地図エリア */
 .map-area { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
 @media (max-width: 860px) { .map-area { grid-template-columns: 1fr; } }
 .map-svg {
@@ -177,7 +177,9 @@ section { padding: 64px 0; }
   cursor: pointer;
   font-family: var(--sans);
   color: var(--ink);
+  transition: all 0.15s ease;
 }
+.chip:hover { border-color: var(--ink); }
 .chip.active { background: var(--ink); color: #ffffff; border-color: var(--ink); }
 
 /* 方言詳細 */
@@ -323,9 +325,49 @@ section { padding: 64px 0; }
 .car-dots button { width: 6px; height: 6px; border-radius: 50%; border: none; background: var(--line); cursor: pointer; padding: 0; }
 .car-dots button.active { background: var(--accent); width: 18px; border-radius: 4px; transition: width .2s; }
 
-/* 写真のカード部分（地域詳細ドロワー）非表示 */
-.region-drawer, #regionDrawer {
-  display: none !important;
+/* ★ 地域詳細ドロワーの復活スタイル */
+.region-drawer {
+  display: none;
+  margin-top: 36px;
+  padding: 32px 36px;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(23, 23, 23, 0.08);
+  animation: fadeInDrawer 0.3s ease;
+}
+.region-drawer.show {
+  display: block !important;
+}
+@keyframes fadeInDrawer {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.region-drawer .tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 14px;
+  margin-bottom: 12px;
+  background: #ffffff;
+}
+.region-drawer h4 {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  color: var(--ink);
+}
+.region-drawer .note {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  max-width: 640px;
 }
 
 /* 3Dキャンバス */
