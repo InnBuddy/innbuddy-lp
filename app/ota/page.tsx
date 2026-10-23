@@ -1,7 +1,234 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 import './ota.css'
+
+/* ===================================================
+   売上期待値測定モーダル（完全内蔵型）
+=================================================== */
+function RevenueDiagnosticModalView({ onClose }: { onClose: () => void }) {
+  const [roomCount, setRoomCount] = useState<string>('')
+  const [adr, setAdr] = useState<string>('')
+  const [occupancy, setOccupancy] = useState<number>(50)
+  const [selectedOtas, setSelectedOtas] = useState<string[]>([])
+
+  const otaList = [
+    '自社WEB', '楽天トラベル', 'じゃらん', '一休', 'Yahoo!トラベル',
+    'るるぶトラベル', 'Booking.com', 'Expedia', 'Agoda', 'Airbnb',
+    'Hotels.com', 'Trip.com', 'Meituan', 'Fliggy', 'Qunar', 'Klook', 'KKday',
+  ]
+
+  const toggleOta = (name: string) => {
+    if (selectedOtas.includes(name)) {
+      setSelectedOtas(selectedOtas.filter((x) => x !== name))
+    } else {
+      if (selectedOtas.length < 3) {
+        setSelectedOtas([...selectedOtas, name])
+      } else {
+        alert('メイン利用OTAは最大3つまで選択可能です。')
+      }
+    }
+  }
+
+  return (
+    <div className="rev-modal-container">
+      <div className="rev-modal-nav">
+        <button type="button" className="rev-back-btn" onClick={onClose}>
+          ← 前のページに戻る
+        </button>
+        <button type="button" className="rev-close-icon" onClick={onClose} aria-label="閉じる">
+          ✕
+        </button>
+      </div>
+
+      <h2 className="rev-modal-heading">売上期待値測定</h2>
+
+      <div className="rev-modal-form">
+        <div className="rev-input-group">
+          <label className="rev-label">総客室数</label>
+          <input
+            type="number"
+            placeholder="例: 15"
+            value={roomCount}
+            onChange={(e) => setRoomCount(e.target.value)}
+            className="rev-underline-input"
+          />
+        </div>
+
+        <div className="rev-input-group">
+          <label className="rev-label">現在のADR（客室単価・円）</label>
+          <input
+            type="number"
+            placeholder="例: 18000"
+            value={adr}
+            onChange={(e) => setAdr(e.target.value)}
+            className="rev-underline-input"
+          />
+        </div>
+
+        <div className="rev-input-group">
+          <div className="rev-slider-header">
+            <span className="rev-label">現在の稼働率（%）:</span>
+            <span className="rev-slider-value">{occupancy}%</span>
+          </div>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value={occupancy}
+            onChange={(e) => setOccupancy(Number(e.target.value))}
+            className="rev-range-slider"
+          />
+        </div>
+
+        <div className="rev-input-group">
+          <label className="rev-label">メイン利用OTA（最大3つ）</label>
+          <div className="rev-ota-tags">
+            {otaList.map((name) => {
+              const isSelected = selectedOtas.includes(name)
+              return (
+                <button
+                  key={name}
+                  type="button"
+                  onClick={() => toggleOta(name)}
+                  className={`rev-ota-tag-btn ${isSelected ? 'is-selected' : ''}`}
+                >
+                  {name}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+
+        <div className="rev-modal-footer">
+          <a
+            href="https://innbuddy-japan.com/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button red-neon-btn rev-submit-btn"
+          >
+            この条件で期待値を測定・無料相談する ＞
+          </a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/* ===================================================
+   SVG キービジュアル
+=================================================== */
+function HeroCenterBackdropIllustration() {
+  return (
+    <div className="hero-center-backdrop" aria-hidden="true">
+      <svg viewBox="0 0 540 440" className="hero-svg-backdrop" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="110" y="70" width="320" height="200" rx="8" fill="#2d3748" stroke="#111d2b" strokeWidth="3" />
+        <rect x="122" y="82" width="296" height="176" rx="4" fill="#ffffff" />
+        <path d="M245 270 L235 310 L305 310 L295 270 Z" fill="#718096" stroke="#111d2b" strokeWidth="2.5" />
+        <rect x="210" y="310" width="120" height="10" rx="3" fill="#4a5568" stroke="#111d2b" strokeWidth="2.5" />
+        <text x="140" y="145" fill="#4a5568" fontSize="38" fontWeight="900" fontFamily="Arial, sans-serif">OTA</text>
+        <rect x="200" y="210" width="26" height="36" fill="#fef3c7" stroke="#111d2b" strokeWidth="2" rx="2" />
+        <rect x="238" y="190" width="26" height="56" fill="#fde68a" stroke="#111d2b" strokeWidth="2" rx="2" />
+        <rect x="276" y="165" width="26" height="81" fill="#fcd34d" stroke="#111d2b" strokeWidth="2" rx="2" />
+        <rect x="314" y="140" width="26" height="106" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
+        <rect x="352" y="115" width="26" height="131" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
+        <path d="M140 220 Q 250 200 375 105" stroke="#FCAF17" strokeWidth="9" strokeLinecap="round" fill="none" />
+        <polygon points="375,90 395,115 365,120" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" />
+        <g transform="translate(60, 20)">
+          <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
+          <path d="M22 48 L22 26 L36 14 L50 26 L50 48 Z" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
+          <rect x="31" y="34" width="10" height="14" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
+          <line x1="36" y1="34" x2="36" y2="48" stroke="#111d2b" strokeWidth="1" />
+          <rect x="40" y="22" width="5" height="5" fill="#FCAF17" />
+          <rect x="27" y="22" width="5" height="5" fill="#FCAF17" />
+        </g>
+        <g transform="translate(400, 25)">
+          <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
+          <circle cx="36" cy="36" r="16" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
+          <circle cx="36" r="10" stroke="#cbd5e1" strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
+          <path d="M16 22 L16 34 M13 22 L13 28 Q13 32 16 34 M19 22 L19 28 Q19 32 16 34 M16 34 L16 50" stroke="#111d2b" strokeWidth="1.8" strokeLinecap="round" />
+          <path d="M56 22 Q52 26 52 30 Q52 35 56 36 L56 50 M56 22 Q60 26 60 30 Q60 35 56 36" stroke="#111d2b" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+        </g>
+        <g transform="translate(240, 290)">
+          <circle cx="34" cy="34" r="32" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
+          <path d="M16 44 L16 24 Q16 20 20 20 L48 20 Q52 20 52 24 L52 44" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
+          <rect x="18" y="32" width="32" height="10" fill="#FCAF17" stroke="#111d2b" strokeWidth="1.5" rx="1" />
+          <rect x="22" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
+          <rect x="36" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
+          <line x1="14" y1="44" x2="54" y2="44" stroke="#111d2b" strokeWidth="2.5" />
+        </g>
+        <g transform="translate(15, 120)">
+          <path d="M25 280 L40 180 Q65 140 110 145 L155 185 L165 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
+          <path d="M85 145 L100 210 L115 145" fill="#ffffff" stroke="#111d2b" strokeWidth="2" />
+          <polygon points="98,160 102,160 104,225 96,225" fill="#111d2b" />
+          <circle cx="102" cy="100" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
+          <path d="M72 95 Q85 65 115 70 Q135 75 130 92 Q125 78 105 78 Q85 80 75 105 Z" fill="#111d2b" />
+          <path d="M88 95 Q94 93 98 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <path d="M108 96 Q112 93 118 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <circle cx="94" cy="101" r="2" fill="#111d2b" />
+          <circle cx="112" cy="101" r="2" fill="#111d2b" />
+          <path d="M98 114 Q104 120 110 114" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <path d="M150 195 L158 135 Q160 120 166 120 Q172 120 172 135 L172 170" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
+        </g>
+        <g transform="translate(325, 120)">
+          <path d="M45 280 L35 185 Q75 140 125 155 L165 200 L155 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
+          <circle cx="95" cy="105" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
+          <path d="M68 95 Q80 65 115 72 Q130 78 128 95 Q120 78 100 80 Q80 82 72 105 Z" fill="#d97706" stroke="#111d2b" strokeWidth="2" />
+          <path d="M82 98 Q87 94 92 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <path d="M102 98 Q107 94 112 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <circle cx="87" cy="103" r="2" fill="#111d2b" />
+          <circle cx="107" cy="103" r="2" fill="#111d2b" />
+          <path d="M92 115 Q98 122 104 115" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <path d="M72 175 Q68 135 80 125 Q88 120 90 130 L90 150" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
+          <line x1="128" y1="70" x2="135" y2="55" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
+          <line x1="140" y1="80" x2="155" y2="72" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
+          <line x1="142" y1="95" x2="158" y2="98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
+        </g>
+      </svg>
+    </div>
+  )
+}
+
+function ServiceIcon({ index }: { index: number }) {
+  const icons = [
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 21h18M5 21V7l8-4v18M13 7l6 3v11M9 10h1M9 14h1M9 18h1M16 13h1M16 17h1"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/><circle cx="6" cy="11" r="1.5"/><path d="m17 4 1 2 2 .3-1.5 1.5.4 2.2-1.9-1-1.9 1 .4-2.2L14 6.3l2-.3z"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9h6M9 15h6"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="12" r="4"/><path d="m12 12 8-8M17 4l3 3M15 6l2 2"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m3 11 18-5v12L3 13v-2zM11.6 16.8a3 3 0 1 1-5.8-1.6M21 9v6"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="m12 7 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10z"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 3v18h18M18 9l-5 5-4-4-3 3"/><circle cx="18" cy="9" r="1.5"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>,
+  ]
+  return <span className="service-icon-wrap">{icons[index]}</span>
+}
+
+function ProblemIcon({ index }: { index: number }) {
+  const icons = [
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6h8c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20M2 12h20"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><path d="M11 8v6M8 11h6"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="18" y1="8" x2="23" y2="13"/><line x1="23" y1="8" x2="18" y2="13"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>,
+  ]
+  return <span className="problem-icon-wrap">{icons[index]}</span>
+}
+
+function WorkflowIcon({ index }: { index: number }) {
+  const icons = [
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="m9 14 2 2 4-4"/></svg>,
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 7.65l.77.78L12 20.66l7.65-7.65.77-.78a5.4 5.4 0 0 0 0-7.65z"/></svg>,
+  ]
+  return <span className="workflow-icon-wrap">{icons[index]}</span>
+}
 
 const services = [
   ['アカウント・掲載情報', 'OTAアカウント管理|施設情報更新|客室情報更新|設備・アメニティ更新|アクセス情報更新|チェックイン・アウト情報|キャンセルポリシー|注意事項|OTAからの通知確認|OTA仕様変更への対応'],
@@ -24,6 +251,39 @@ const painPoints = [
   '複数OTAを管理するのが大変（海外OTAまで運用する余裕がない）',
   'OTAを運用しているが、何を改善すればいいかわからない',
   '担当者が退職してOTA運用を任せられる人がいない',
+  '今の代行業者が全然提案/改善してくれない',
+  '事業拡大をしたいが相談できる専門家がいない',
+]
+
+const frameworkCategories = [
+  {
+    category: 'STRATEGY｜戦略',
+    catClass: 'tag-strategy',
+    steps: [
+      { num: '01', title: '現状把握', desc: '売上・予約数・\n稼働率などを\n確認', stepClass: 'step-1' },
+      { num: '02', title: '市場分析', desc: '競合施設や\n市場の動向を\n把握', stepClass: 'step-2' },
+      { num: '03', title: '課題発見', desc: '改善点と\n売上向上の機会を\n特定', stepClass: 'step-3' },
+      { num: '04', title: '目標設定', desc: '売上・稼働率などの\n数値目標を\n設定', stepClass: 'step-4' },
+    ],
+  },
+  {
+    category: 'EXECUTION｜実行',
+    catClass: 'tag-execution',
+    steps: [
+      { num: '05', title: '運用計画', desc: '料金・プラン・\n販売方法を\n策定', stepClass: 'step-5' },
+      { num: '06', title: 'OTA運用', desc: '計画に基づき\n掲載内容を\n管理', stepClass: 'step-6' },
+    ],
+  },
+  {
+    category: 'OPTIMIZATION｜分析・改善',
+    catClass: 'tag-optimization',
+    steps: [
+      { num: '07', title: '効果検証', desc: '施策の結果を\n数値で確認', stepClass: 'step-7' },
+      { num: '08', title: '改善提案', desc: '検証結果をもとに\n改善策を\n提案', stepClass: 'step-8' },
+      { num: '09', title: '再戦略化', desc: '結果を踏まえ、\n次の運用方針を\n決定', stepClass: 'step-9' },
+      { num: '10', title: '運用の定着', desc: '改善サイクルを継続し、\n安定した運用体制を構築', stepClass: 'step-10' },
+    ],
+  },
 ]
 
 const otas = ['楽天トラベル', 'じゃらんnet', '一休.com', 'Yahoo!トラベル / るるぶ 等']
@@ -41,8 +301,9 @@ function Arrow() {
 
 export default function Page() {
   const [openItems, setOpenItems] = useState<number[]>([])
-  const [submitted, setSubmitted] = useState(false)
-  const [isSubmitting, setIsSubmitting] = useState(false)
+
+  const [isDiagnosticOpen, setIsDiagnosticOpen] = useState(false)
+  const [isInboundMenuOpen, setIsInboundMenuOpen] = useState(false)
 
   const toggleItem = (i: number) => {
     setOpenItems(prev =>
@@ -53,44 +314,19 @@ export default function Page() {
   const leftServices = services.filter((_, i) => i % 2 === 0)
   const rightServices = services.filter((_, i) => i % 2 !== 0)
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    const form = e.currentTarget
-    const formData = new FormData(form)
-
-    try {
-      const GAS_URL = '★ここにGASのURLを貼り付けてください★'
-
-      if (GAS_URL.startsWith('http')) {
-        await fetch(GAS_URL, {
-          method: 'POST',
-          body: formData,
-          mode: 'no-cors',
-        })
-      }
-      setSubmitted(true)
-    } catch (error) {
-      console.error('送信エラー', error)
-      alert('送信時にエラーが発生しました。時間をおいて再度お試しください。')
-    } finally {
-      setIsSubmitting(false)
-    }
-  }
-
   return (
     <main className="ota-page-root">
       {/* HEADER */}
       <header className="site-header">
         <a href="#top" className="logo">
-          InnBuddy<span>.</span><small>OTA</small>
+          InnBuddy<small>OTA</small>
         </a>
         <nav>
           <a href="#services">対応業務</a>
           <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
             InnBuddyについて
           </a>
-          <a className="header-cta" href="#contact">
+          <a className="header-cta red-neon-btn" href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
             相談する <Arrow />
           </a>
         </nav>
@@ -98,26 +334,142 @@ export default function Page() {
 
       {/* HERO */}
       <section id="top" className="hero">
-        <div className="hero-overlay" />
-        <div className="hero-inner">
-          <p className="eyebrow hero-script">ホテル・旅館のOTA運用代行</p>
-          <h1>
-            ホテル・旅館のOTA運用を、<br />
-            <em>まるごと任せる。</em>
-          </h1>
-          <p className="hero-copy hero-script">
-            宿泊プラン、料金、在庫、掲載情報、キャンペーン、口コミ、海外OTAまで。<br />
-            日々のOTA業務を、InnBuddyがまとめてサポートします。
-          </p>
-          <a href="#contact" className="button">
-            OTA運用について相談する <Arrow />
-          </a>
+        <HeroCenterBackdropIllustration />
+
+        <div className="wrap hero-2col-wrap">
+          <div className="hero-left-content">
+            <p className="eyebrow hero-script">ホテル・旅館のOTA運用代行</p>
+            <h1>
+              ホテル・旅館の<br />
+              OTA運用を、<br />
+              まるごと任せる。
+            </h1>
+            <p className="hero-copy hero-script">
+              宿泊プラン、料金、在庫、<br />
+              掲載情報、キャンペーン、<br />
+              口コミ、海外OTAまで。<br />
+              日々のOTA業務を、<br />
+              InnBuddyがまとめてサポートします。
+            </p>
+            <div className="hero-cta-box">
+              <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="button red-neon-btn">
+                OTA運用について相談する <Arrow />
+              </a>
+            </div>
+          </div>
+
+          <div className="hero-editorial-panel-group">
+            {/* ★ 01. ABOUT US */}
+            <a
+              href="https://innbuddy-japan.com/team"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="square-glass-panel panel-about"
+            >
+              <div className="panel-inner">
+                <div className="panel-meta-row">
+                  <span className="panel-num">01</span>
+                  <span className="panel-label">ABOUT US</span>
+                </div>
+                <div className="panel-title-row">
+                  <h3 className="panel-heading">InnBuddyとは？</h3>
+                  <span className="panel-nav-symbol">↗</span>
+                </div>
+              </div>
+            </a>
+
+            {/* ★ 02. ONLINE CHECK */}
+            <button
+              type="button"
+              onClick={() => setIsDiagnosticOpen(true)}
+              className="square-glass-panel panel-check"
+            >
+              <div className="panel-inner">
+                <div className="panel-meta-row">
+                  <span className="panel-num">02</span>
+                  <span className="panel-label">ONLINE CHECK</span>
+                  <span className="panel-pill-tag">RECOMMENDED</span>
+                </div>
+                <div className="panel-title-row">
+                  <h3 className="panel-heading">無料診断で現状を把握しよう</h3>
+                  <span className="panel-nav-symbol">▶</span>
+                </div>
+              </div>
+            </button>
+
+            {/* ★ 03. INBOUND */}
+            <button
+              type="button"
+              onClick={() => setIsInboundMenuOpen(true)}
+              className="square-glass-panel panel-inbound"
+            >
+              <div className="panel-inner">
+                <div className="panel-meta-row">
+                  <span className="panel-num">03</span>
+                  <span className="panel-label">INBOUND</span>
+                </div>
+                <div className="panel-title-row">
+                  <h3 className="panel-heading">インバウンドをもっと取り込みたい</h3>
+                  <span className="panel-nav-symbol">▶</span>
+                </div>
+              </div>
+            </button>
+          </div>
         </div>
+
+        {/* 修正３：ヒーロー内にスッキリ収まるSCROLL位置 */}
         <div className="hero-index">
           SCROLL<br />
           <span>↓</span>
         </div>
       </section>
+
+      {/* 中央ポップアップ：インバウンド＆ハラル選択 */}
+      {isInboundMenuOpen && (
+        <div className="modal-overlay" onClick={() => setIsInboundMenuOpen(false)}>
+          <div className="inbound-square-modal" onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              className="modal-close-btn"
+              onClick={() => setIsInboundMenuOpen(false)}
+              aria-label="閉じる"
+            >
+              ✕
+            </button>
+            <div className="inbound-square-cards">
+              <a
+                href="https://innbuddy-japan.com/inbound"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inbound-square-item img-card-1"
+              >
+                <div className="img-card-overlay"></div>
+                <span className="square-num">1</span>
+                <span className="square-title">インバウンド特設ページをみる</span>
+              </a>
+              <a
+                href="https://innbuddy-japan.com/halal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inbound-square-item img-card-2"
+              >
+                <div className="img-card-overlay"></div>
+                <span className="square-num">2</span>
+                <span className="square-title">ハラル特設ページをみる</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 中央ポップアップ：売上期待値測定 */}
+      {isDiagnosticOpen && (
+        <div className="modal-overlay" onClick={() => setIsDiagnosticOpen(false)}>
+          <div className="modal-dialog rev-diagnostic-dialog" onClick={(e) => e.stopPropagation()}>
+            <RevenueDiagnosticModalView onClose={() => setIsDiagnosticOpen(false)} />
+          </div>
+        </div>
+      )}
 
       {/* PROBLEM */}
       <section className="dark section problem">
@@ -126,11 +478,14 @@ export default function Page() {
             こんなお悩みは<br />
             <span>ありませんか？</span>
           </h2>
-          <div className="problem-list">
+          <div className="problem-cards-grid">
             {painPoints.map((p, i) => (
-              <div className="problem-row" key={p}>
-                <span>0{i + 1}</span>
-                <p>{p}</p>
+              <div className="problem-card" key={p}>
+                <div className="problem-card-head">
+                  <span className="problem-card-num">0{i + 1}</span>
+                  <ProblemIcon index={i} />
+                </div>
+                <p className="problem-card-text">{p}</p>
               </div>
             ))}
           </div>
@@ -144,11 +499,20 @@ export default function Page() {
             InnBuddy OTAが<br />
             <span>対応する11の業務</span>
           </h2>
-          {/* 黒文字に変更されたリード文 */}
           <p className="intro services-intro">
-            施設ごとに異なる客室構成・ターゲットを踏まえ、日々の細かな実務を引き受けます。<br />
-            各項目をクリックして、私たちの対応範囲をご確認ください。
+            施設ごとに異なる客室構成・ターゲットを踏まえ、日々の細かな実務を引き受けます。
           </p>
+
+          {/* 修正４：余白を詰めたガイド */}
+          <div className="services-action-guide">
+            <span className="services-guide-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" className="guide-mouse-icon">
+                <rect x="5" y="2" width="14" height="20" rx="7" />
+                <line x1="12" y1="6" x2="12" y2="10" />
+              </svg>
+              クリックして詳細を見る
+            </span>
+          </div>
 
           <div className="service-grid">
             <div className="service-column">
@@ -159,7 +523,8 @@ export default function Page() {
                   <div className={`service ${isOpen ? 'is-open' : ''}`} key={title}>
                     <button onClick={() => toggleItem(originalIndex)} aria-expanded={isOpen}>
                       <span className="service-num">{String(originalIndex + 1).padStart(2, '0')}</span>
-                      <span>{title}</span>
+                      <ServiceIcon index={originalIndex} />
+                      <span className="service-title-text">{title}</span>
                       <span className="plus">{isOpen ? '−' : '+'}</span>
                     </button>
                     {isOpen && (
@@ -184,7 +549,8 @@ export default function Page() {
                   <div className={`service ${isOpen ? 'is-open' : ''}`} key={title}>
                     <button onClick={() => toggleItem(originalIndex)} aria-expanded={isOpen}>
                       <span className="service-num">{String(originalIndex + 1).padStart(2, '0')}</span>
-                      <span>{title}</span>
+                      <ServiceIcon index={originalIndex} />
+                      <span className="service-title-text">{title}</span>
                       <span className="plus">{isOpen ? '−' : '+'}</span>
                     </button>
                     {isOpen && (
@@ -204,7 +570,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* DISTRIBUTION (高さ統一 & 文字範囲のみのぼかし適用) */}
+      {/* DISTRIBUTION */}
       <section className="dark section ota">
         <div className="wrap">
           <h2>
@@ -251,21 +617,52 @@ export default function Page() {
           </h2>
           <p className="intro">
             OTAは、一度設定して終わりではありません。<br />
-            決まった作業を繰り返すだけの代行ではなく、季節、キャンペーン、OTA側の仕様変更などを確認しながら、必要な運用を見直していきます。
+            決まった作業を繰り返すだけの代行ではなく、現状把握から運用の定着まで、改善サイクルを回し続けます。
           </p>
-          <div className="flow">
-            <div>運用</div>
-            <i>→</i>
-            <div>分析</div>
-            <i>→</i>
-            <div className="active">改善</div>
+
+          <div className="framework-flow-wrapper">
+            {frameworkCategories.map((cat) => (
+              <div className={`framework-cat-group ${cat.catClass}`} key={cat.category}>
+                <div className="framework-cat-header">
+                  <span>{cat.category}</span>
+                </div>
+                <div className="framework-cat-steps">
+                  {cat.steps.map((step) => (
+                    <div className={`framework-step-card ${step.stepClass}`} key={step.num}>
+                      <div className="fstep-top">
+                        <span className="fstep-badge">{step.num}</span>
+                        <h3 className="fstep-title">{step.title}</h3>
+                      </div>
+                      <div className="fstep-bottom">
+                        <p className="fstep-desc">{step.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* WORKFLOW */}
       <section className="light section workflow">
-        <div className="wrap">
+        <div className="workflow-watermarks" aria-hidden="true">
+          <span className="wm wm-1">客室平均単価 (ADR)</span>
+          <span className="wm wm-2">客室稼働率 (OCC)</span>
+          <span className="wm wm-3">販売可能客室売上 (RevPAR)</span>
+          <span className="wm wm-4">予約リードタイム</span>
+          <span className="wm wm-5">キャンセル率</span>
+          <span className="wm wm-6">平均滞在日数 (LOS)</span>
+          <span className="wm wm-7">成約率 (CVR)</span>
+          <span className="wm wm-8">直販比率</span>
+          <span className="wm wm-9">広告費用対効果 (ROAS)</span>
+          <span className="wm wm-10">クチコミ評価スコア</span>
+          <span className="wm wm-11">予約ペース (Pacing)</span>
+          <span className="wm wm-12">営業利益率 (GOPPAR)</span>
+        </div>
+
+        <div className="wrap" style={{ position: 'relative', zIndex: 2 }}>
           <h2>ご利用開始まで</h2>
           <div className="timeline">
             {[
@@ -275,7 +672,10 @@ export default function Page() {
               ['運用開始', '面倒なOTA実務をInnBuddyに引き継ぎ、本来の業務に集中できる環境がスタートします。'],
             ].map(([t, d], i) => (
               <div className="timeline-item" key={t}>
-                <b>0{i + 1}</b>
+                <div className="timeline-left">
+                  <WorkflowIcon index={i} />
+                  <b>0{i + 1}</b>
+                </div>
                 <div>
                   <h3>{t}</h3>
                   <p>{d}</p>
@@ -294,12 +694,16 @@ export default function Page() {
             各施設様の規模や現状の課題に応じて、<strong>月額固定</strong> もしくは <strong>成果報酬</strong> にて最適なプランをご提案します。
           </p>
           <div className="offer">
-            <span className="label">LIMITED OFFER</span>
-            <p>
-              現在、限定３社様に<br />
-              <strong>「初月無料＆1ヶ月契約」</strong>から<br />
-              使用できる特別プランもご提案しております。
-            </p>
+            <div className="offer-inner-border">
+              <div className="offer-badge-wrap">
+                <span className="label">LIMITED OFFER</span>
+              </div>
+              <p>
+                現在、限定３社様に<br />
+                <strong>「初月無料＆1ヶ月契約」</strong>から<br />
+                使用できる特別プランもご提案しております。
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -325,8 +729,8 @@ export default function Page() {
 
       {/* CONTACT */}
       <section id="contact" className="dark section contact">
-        <div className="wrap contact-grid">
-          <div>
+        <div className="wrap contact-grid-split">
+          <div className="contact-split-left">
             <h2>
               「今のOTA運用、<br />
               どこまで任せられる？」<br />
@@ -334,74 +738,27 @@ export default function Page() {
             </h2>
             <p>
               現在の運用状況をお聞きし、InnBuddyで対応できる業務範囲をご説明します。<br />
-              まずは以下のフォームより、お気軽にご相談ください。
+              右のボタンからお気軽にご相談ください。
             </p>
           </div>
-          <form onSubmit={handleSubmit}>
-            {submitted ? (
-              <div style={{ color: '#ffffff', fontSize: '15px', fontWeight: 'bold', padding: '20px 0' }}>
-                ご相談を受け付けました。ご入力ありがとうございます。<br />
-                担当者よりメール（innbuddy.esg@gmail.com）にてご連絡いたします。
-              </div>
-            ) : (
-              <>
-                <div className="form-row">
-                  <label>
-                    施設名・会社名 *
-                    <input required type="text" name="facilityName" />
-                  </label>
-                  <label>
-                    ご担当者名 *
-                    <input required type="text" name="representativeName" />
-                  </label>
-                </div>
-                <label>
-                  メールアドレス *
-                  <input required type="email" name="email" />
-                </label>
-                <fieldset>
-                  <legend>現在利用しているOTA（複数選択可）</legend>
-                  {[...otas.slice(0, 3), ...overseas, 'その他'].map((x) => (
-                    <label className="check" key={x}>
-                      <input type="checkbox" name="otaOptions" value={x} /> {x}
-                    </label>
-                  ))}
-                </fieldset>
-                <fieldset>
-                  <legend>現在のお悩み（複数選択可）</legend>
-                  {[
-                    'OTA管理に時間がかかる',
-                    'プラン・料金設定がわからない',
-                    '在庫管理・調整が大変',
-                    '海外OTAまで手が回らない',
-                    '口コミ対応ができていない',
-                    '売上・販売状況の分析ができない',
-                    'その他',
-                  ].map((x) => (
-                    <label className="check" key={x}>
-                      <input type="checkbox" name="issueOptions" value={x} /> {x}
-                    </label>
-                  ))}
-                </fieldset>
-                <label>
-                  ご相談内容（任意）
-                  <textarea name="content" placeholder="担当者が退職して困っている、などお気軽にご記入ください。" />
-                </label>
-                <button className="button" type="submit" disabled={isSubmitting}>
-                  {isSubmitting ? '送信中...' : 'OTA運用について相談する'} <Arrow />
-                </button>
-              </>
-            )}
-          </form>
+          <div className="contact-split-right">
+            {/* 修正５：日本地図画像と完全一致させたCTA枠 */}
+            <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="huge-contact-cta red-neon-btn">
+              <div className="japan-map-watermark-img" aria-hidden="true" />
+              <span className="huge-cta-sub">InnBuddyへの無料相談・お問い合わせ</span>
+              <span className="huge-cta-main">お問い合わせフォームへ</span>
+              <span className="huge-cta-arrow">＞</span>
+            </a>
+          </div>
         </div>
       </section>
 
       {/* FOOTER */}
       <footer id="about" className="ota-footer-new">
-        <div className="wrap ota-footer-wrap">
+        <div className="ota-footer-wrap">
           <div className="ota-footer-brand-row">
             <div className="ota-footer-logo">
-              InnBuddy<span>.</span>
+              InnBuddy
             </div>
             <span className="ota-footer-tag">ABOUT INNBUDDY</span>
           </div>
@@ -412,19 +769,20 @@ export default function Page() {
           </p>
 
           <div className="ota-footer-links-row">
-            <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer">
-              InnBuddyブランドサイトへ ↗
-            </a>
-            <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
-              私たちについて ↗
-            </a>
-            <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
-              お問い合わせ ↗
-            </a>
-          </div>
-
-          <div className="ota-footer-copy">
-            © InnBuddy All rights reserved.
+            <div className="ota-footer-links-group">
+              <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer">
+                InnBuddyブランドサイトへ ↗
+              </a>
+              <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
+                私たちについて ↗
+              </a>
+              <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
+                お問い合わせ ↗
+              </a>
+            </div>
+            <span className="ota-footer-copy">
+              © InnBuddy All rights reserved.
+            </span>
           </div>
         </div>
       </footer>

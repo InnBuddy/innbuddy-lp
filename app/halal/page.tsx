@@ -202,14 +202,14 @@ export default function HalalPage() {
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-8 rounded-sm backdrop-blur-sm">
-                <div className="text-4xl font-serif text-[#e5c58d] mb-4">High ROI</div>
+                <div className="text-4xl font-serif text-[#e5c58d] mb-4">収益性</div>
                 <h3 className="text-lg font-bold mb-3">高い投資対効果</h3>
                 <p className="text-sm text-white/70 leading-relaxed">
                   家族などの大人数での旅行が多く、滞在期間も長い傾向にあります。礼拝マットの用意や調味料の見直しなど数万円の初期投資で、大幅な客単価アップが期待できます。
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-8 rounded-sm backdrop-blur-sm">
-                <div className="text-4xl font-serif text-[#e5c58d] mb-4">Zero Risk</div>
+                <div className="text-4xl font-serif text-[#e5c58d] mb-4">ローリスク</div>
                 <h3 className="text-lg font-bold mb-3">トラブルを防ぐ開示型</h3>
                 <p className="text-sm text-white/70 leading-relaxed">
                   厳格な「ハラル認証」ではなく、施設の現状を誠実に伝える「情報開示型（ムスリムフレンドリー）」を採用することで、現場に過度な負担をかけず安全に運用できます。

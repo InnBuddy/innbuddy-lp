@@ -5,21 +5,21 @@ import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react'
 
 const projects = [
-  { num: '01', title: 'InnBuddy OTA', image: '/images/library/ota.png', museumImage: '/images/library/museum_01.png', description: '弊社のOTA運用代行サービスの紹介とご相談窓口', status: 'active', aspect: '16/9', href: '/ota' },
-  { num: '02', title: 'Brand Vision Report', image: '/images/library/report.png', museumImage: '/images/library/museum_02.png', description: '弊社の考え方をまとめたサステナブルなデジタルフォトブック', status: 'coming_soon', aspect: '3/4' },
+  { num: '01', title: 'InnBuddy OTA', image: '/images/library/ota.png', museumImage: '/images/library/museum_01.png', description: 'OTA運用代行サービスの紹介とご相談窓口', status: 'active', aspect: '16/9', href: '/ota' },
+  { num: '02', title: 'Brand Vision Report', image: '/images/library/report.png', museumImage: '/images/library/museum_02.png', description: 'サステナブル思考のデジタルフォトブランドブック', status: 'coming_soon', aspect: '3/4' },
   { num: '03', title: 'Journal', image: '/images/library/journal.png', museumImage: '/images/library/museum_03.png', description: 'ホテル運営・ブランディング・マーケティング専門メディア', status: 'coming_soon', aspect: '1/1' },
-  { num: '04', title: 'ハラルBOX', image: '/images/library/halal.png', museumImage: '/images/library/museum_04.png', description: 'ハラルガイドとセルフチェックシート、フィードバックシート', status: 'active', aspect: '4/3', width: '42%', href: '/halal' },
+  { num: '04', title: 'ハラルBOX', image: '/images/library/halal.png', museumImage: '/images/library/museum_04.png', description: '役立つハラルガイドとチェックシートが利用可能', status: 'active', aspect: '4/3', width: '42%', href: '/halal' },
   { num: '05', title: 'インバウンドBOX', image: '/images/library/inbound.png', museumImage: '/images/library/museum_05.png', description: '18言語対応の口コミ翻訳や接客指差しシートなど4点セット', status: 'active', aspect: '3/4', width: '35%', href: '/inbound' },
-  { num: '06', title: 'SDGs', image: '/images/library/sdgs.png', museumImage: '/images/library/museum_06.png', description: '宿が自分たちで実践できるサステナブルな取り組み事例', status: 'active', aspect: '1/1', width: '25vw', href: '/sustainable' },
+  { num: '06', title: 'SDGs', image: '/images/library/sdgs.png', museumImage: '/images/library/museum_06.png', description: '宿で実践できる世界のサステナブルな取り組み事例', status: 'active', aspect: '1/1', width: '25vw', href: '/sustainable' },
   { num: '07', title: '組織ウェルビーイング', image: '/images/library/wellbeing.png', museumImage: '/images/library/museum_07.png', description: '採用・組織づくり。スタッフが定着する環境づくりのヒント', status: 'coming_soon', aspect: '16/9', width: '36vw' },
-  { num: '08', title: '宿とAI', image: '/images/library/ai.png', museumImage: '/images/library/museum_08.png', description: '完全初心者向け。日常業務で使えるAIサポートの基本', status: 'coming_soon', aspect: '3/4', width: '26vw' },
-  { num: '09', title: '宿とAI Pro', image: '/images/library/aipro.png', museumImage: '/images/library/museum_09.png', description: 'プロ向けAI活用術。より高度な運用と業務効率化をサポート', status: 'coming_soon', aspect: '4/3', width: '32vw' },
+  { num: '08', title: '宿とAI', image: '/images/library/ai.png', museumImage: '/images/library/museum_08.png', description: '日常業務で使えるAIサポートの基本', status: 'coming_soon', aspect: '3/4', width: '26vw' },
+  { num: '09', title: '宿とAI Pro', image: '/images/library/aipro.png', museumImage: '/images/library/museum_09.png', description: 'プロ向けAI活用術。より高度な運用と業務効率化を実現', status: 'coming_soon', aspect: '4/3', width: '32vw' },
   { num: '10', title: 'STORY', image: '/images/library/story.png', museumImage: '/images/library/museum_10.png', description: '世界の旅行者から届くリアルなインタビューメディア', status: 'active', href: '/story' },
-  { num: '11', title: 'Analysis', image: '/images/library/analysis.png', museumImage: '/images/library/museum_11.png', description: '専門性の高い分析データ。OTA攻略ブックとマーケットレポート', status: 'coming_soon' },
+  { num: '11', title: 'Analysis', image: '/images/library/analysis.png', museumImage: '/images/library/museum_11.png', description: '専門的な分析データやマーケットレポートなど', status: 'coming_soon' },
   { num: '12', title: 'WAAI COMICS', image: '/images/library/comics.png', museumImage: '/images/library/museum_12.png', description: '短編漫画で宿の課題に気づき考えるケーススタディ', status: 'coming_soon', aspect: '3/4' },
-  { num: '13', title: 'FOOD VISUAL', image: '/images/library/food.png', museumImage: '/images/library/museum_13.png', description: '忙しい人の考える時間を減らす、画像と素材別料理アイデア', status: 'coming_soon', aspect: '1/1' },
+  { num: '13', title: 'FOOD VISUAL', image: '/images/library/food.png', museumImage: '/images/library/museum_13.png', description: '忙しい料理人の考える時間を減らす、素材別料理アイデア', status: 'coming_soon', aspect: '1/1' },
   { num: '14', title: 'INTERIOR', image: '/images/library/interior.png', museumImage: '/images/library/museum_14.png', description: 'NO改装でおしゃれ宿に、サステナブルなインテリアアイデア', status: 'coming_soon', aspect: '16/9' },
-  { num: '15', title: 'SHIRANGAKE', image: '/images/library/shirangake.png', museumImage: '/images/library/museum_15.png', description: '英語で日本の方言を紹介。インバウンド旅行客を地方へ導く', status: 'active', aspect: '16/9', href: '/shirangake' },
+  { num: '15', title: 'SHIRANGAKE', image: '/images/library/shirangake.png', museumImage: '/images/library/museum_15.png', description: '英語で知る日本の方言。インバウンド旅行客を地方へ導く', status: 'active', aspect: '16/9', href: '/shirangake' },
 ]
 
 const AutumnLeaf = ({ color, size }: { color: string; size: number }) => (
