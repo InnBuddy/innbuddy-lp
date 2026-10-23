@@ -3,7 +3,6 @@ import articlesData from "@/data/sustainablearticles.json";
 import "../articles.css";
 import ArticleDetailView, { ArticleItem } from "./ArticleDetailView";
 
-// 500記事すべてを事前生成（SEO・表示速度を最大化）
 export async function generateStaticParams() {
   const articles = articlesData as unknown as ArticleItem[];
   if (!Array.isArray(articles)) return [];
@@ -30,14 +29,15 @@ export default async function SustainableArticlePage({
     notFound();
   }
 
-  // 容量パンク（ENOSPC）を防ぐため、一覧・サイドバー用のデータから重い本文を除去して軽量化
+  // 軽量化はしつつ、本文の表示に必要なプロパティ（articleHtml, goal, etc）を維持する
   const lightArticles = articles.map((a: any) => ({
-    id: a.id,
+    id: String(a.id),
     title: a.title,
-    category: a.category,
-    date: a.date,
-    thumbnail: a.thumbnail,
-    tags: a.tags,
+    goal: a.goal,
+    goalColor: a.goalColor,
+    length: a.length,
+    lead: a.lead,
+    articleHtml: String(a.id) === String(id) ? a.articleHtml : "", // 現在のページの本文だけを渡す
   })) as unknown as ArticleItem[];
 
   return (
