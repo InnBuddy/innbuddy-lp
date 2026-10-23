@@ -18,7 +18,7 @@ interface Article {
   bodyEn?: string;
   bodyZh?: string;
   coverImage?: { url: string };
-  category?: string;
+  category?: any;
   publishedAt?: string;
   author?: string;
   slug?: string;
@@ -59,6 +59,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   food: '#E8B93C',
   culture: '#8A9A7B',
   travel: '#6B7F5E',
+  other: '#5E7A8A',
 };
 
 const CATEGORY_LABELS: Record<string, Record<string, string>> = {
@@ -76,6 +77,11 @@ const CATEGORY_LABELS: Record<string, Record<string, string>> = {
     ja: '風景・旅',
     en: 'Travel',
     zh: '风景・旅行',
+  },
+  other: {
+    ja: 'ストーリー',
+    en: 'Stories',
+    zh: '故事',
   },
 };
 
@@ -283,16 +289,12 @@ const HAIKU: Record<string, string[]> = {
 };
 
 function getTitle(a: Article, l: string): string {
-  const k =
-    `title${l.charAt(0).toUpperCase() + l.slice(1)}` as keyof Article;
-
+  const k = `title${l.charAt(0).toUpperCase() + l.slice(1)}` as keyof Article;
   return (l !== 'ja' && (a[k] as string)) || a.title;
 }
 
 function getBody(a: Article, l: string): string {
-  const k =
-    `body${l.charAt(0).toUpperCase() + l.slice(1)}` as keyof Article;
-
+  const k = `body${l.charAt(0).toUpperCase() + l.slice(1)}` as keyof Article;
   return (l !== 'ja' && (a[k] as string)) || a.content;
 }
 
@@ -306,46 +308,17 @@ const S = {
   headerBg: 'rgba(255,255,255,0.95)',
 };
 
-/*
- * ============================================================
- * 共通コンテンツ幅
- * ============================================================
- *
- * ヒーロー画像・フッター画像・Wa Waveセクション・
- * 記事一覧セクションの横幅を完全に統一するための共通値です。
- *
- * PC:
- *   最大 1120px
- *
- * スマートフォン:
- *   画面幅の 92vw
- *
- * すべてのセクションで、この値を使用します。
- */
 const CONTENT_WIDTH = 'min(1120px, 92vw)';
-
-/*
- * ============================================================
- * ファーストビュー(1枚目の画面)対応
- * ============================================================
- *
- * ヘッダーの高さ(clamp(52px, 8vh, 72px))を画面の高さから
- * 差し引いて、ヒーローが「ちょうど画面1枚に収まる」ように
- * しています。
- */
 const HEADER_HEIGHT = 'clamp(52px, 8vh, 72px)';
 const HERO_HEIGHT = `calc(100vh - ${HEADER_HEIGHT})`;
 
-function WaTalkFullInner({
-  initialArticles,
-}: WaTalkFullProps) {
-  const [articles] = useState<Article[]>(initialArticles);
+function WaTalkFullInner({ initialArticles }: WaTalkFullProps) {
+  const [articles] = useState<Article[]>(initialArticles || []);
   const [sel, setSel] = useState<Article | null>(null);
   const [sIdx, setSIdx] = useState(0);
   const [cnt, setCnt] = useState(0);
   const [lang, setLang] = useState<Lang>('ja');
 
-  // URLの ?category=xxx を読み取って一覧を絞り込むための値
   const searchParams = useSearchParams();
   const categoryFilter = searchParams.get('category');
 
@@ -353,20 +326,15 @@ function WaTalkFullInner({
   const leafRef = useRef<HTMLCanvasElement>(null);
   const dmRef = useRef<HTMLDivElement>(null);
 
-  const ui = (k: string) =>
-    UI_TEXT[k]?.[lang] || UI_TEXT[k]?.ja || k;
+  const ui = (k: string) => UI_TEXT[k]?.[lang] || UI_TEXT[k]?.ja || k;
 
   const cat = (c: string) =>
-    CATEGORY_LABELS[c]?.[lang] ||
-    CATEGORY_LABELS[c]?.ja ||
-    c;
+    CATEGORY_LABELS[c]?.[lang] || CATEGORY_LABELS[c]?.ja || c;
 
   const click = useCallback(
     (a: Article) => {
       setSel(a);
-
       const n = cnt + 1;
-
       if (n >= 3) {
         setSIdx((p) => (p + 1) % 4);
         setCnt(0);
@@ -383,9 +351,7 @@ function WaTalkFullInner({
     const h = (e: KeyboardEvent) => {
       if (e.key === 'Escape') close();
     };
-
     document.addEventListener('keydown', h);
-
     return () => document.removeEventListener('keydown', h);
   }, [close]);
 
@@ -394,18 +360,15 @@ function WaTalkFullInner({
   // ============================================================
   useEffect(() => {
     const c = bgRef.current;
-
     if (!c) return;
 
     const gl = c.getContext('webgl', {
       antialias: false,
       alpha: false,
     });
-
     if (!gl) return;
 
-    const V =
-      'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+    const V = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
 
     const F = `
       precision highp float;
@@ -431,13 +394,11 @@ function WaTalkFullInner({
 
       float fbm(vec2 p){
         float v=0.,a=.55;
-
         for(int i=0;i<5;i++){
           v+=a*n(p);
           p=p*2.04+vec2(3.1,1.7);
           a*=.5;
         }
-
         return v;
       }
 
@@ -460,138 +421,110 @@ function WaTalkFullInner({
           float v=sin(
             (q.x*.9+q.y*1.1)*2.2+w*7.+T*1.5
           );
-
           float veins=pow(.5+.5*v,12.);
-
           vec3 col=mix(
             vec3(1.,.992,.984),
             vec3(.969,.894,.882),
             smoothstep(.25,.85,mist)
           );
-
           col=mix(
             col,
             vec3(.914,.482,.470),
             veins*w*.45
           );
-
           col=mix(
             col,
             vec3(.824,.122,.169),
             veins*veins*.34
           );
-
           col=mix(
             col,
             vec3(1.,.992,.984),
             .20+.20*uv.y
           );
-
           gl_FragColor=vec4(col,1.);
         }
-
         else if(S<1.5){
           float v=sin(q.y*3.2+w*4.5+T*2.2);
           float waves=pow(.5+.5*v,9.);
-
           vec3 col=mix(
             vec3(.949,.914,.835),
             vec3(.83,.96,.93),
             smoothstep(.2,.8,mist)
           );
-
           col=mix(
             col,
             vec3(.35,.80,.78),
             waves*(.7+.3*sin(T*.8+q.x*.5))*.5
           );
-
           col=mix(
             col,
             vec3(.55,.88,.86),
             waves*waves*w*.35
           );
-
           col=mix(
             col,
             vec3(.96,.99,.98),
             .30+.25*uv.y
           );
-
           gl_FragColor=vec4(col,1.);
         }
-
         else if(S<2.5){
           float v=sin(
             (q.x*.9+q.y*1.1)*2.2+w*7.+T*1.5
           );
-
           float veins=pow(.5+.5*v,10.);
-
           vec3 col=mix(
             vec3(.988,.949,.894),
             vec3(.92,.72,.32),
             smoothstep(.28,.72,mist)*.8
           );
-
           col=mix(
             col,
             vec3(.78,.24,.16),
             veins*w*.55
           );
-
           col=mix(
             col,
             vec3(.51,.32,.19),
             pow(veins,2.4)*w*.6
           );
-
           col=mix(
             col,
             vec3(.988,.949,.894),
             .18+.20*uv.y
           );
-
           gl_FragColor=vec4(col,1.);
         }
-
         else{
           float v=sin(
             (q.x*.8+q.y*1.0)*1.6+w*5.+T*1.2
           );
-
           float veins=pow(.5+.5*v,14.);
-
           vec3 col=mix(
             vec3(.985,.995,1.),
             vec3(.86,.94,.98),
             smoothstep(.3,.85,mist)
           );
-
           col=mix(
             col,
             vec3(.70,.88,.94),
             veins*w*.38
           );
-
           float grid=cos(q.x*55.)*cos(q.y*55.);
           float tw=h(
             floor(q*55.)+floor(T*4.)
           );
-
           float sparkle=
             step(.992,tw)*
             smoothstep(.96,1.,grid);
-
           sparkle*=
             .6+.4*sin(T*6.+tw*30.);
-
           col=mix(
             col,
             vec3(1.,.98,.88),
             clamp(sparkle,0.,1.)
           );
-
           gl_FragColor=vec4(col,1.);
         }
       }
@@ -599,58 +532,27 @@ function WaTalkFullInner({
 
     const sh = (t: number, s: string) => {
       const x = gl.createShader(t)!;
-
       gl.shaderSource(x, s);
       gl.compileShader(x);
-
       return x;
     };
 
     const pr = gl.createProgram()!;
-
-    gl.attachShader(
-      pr,
-      sh(gl.VERTEX_SHADER, V)
-    );
-
-    gl.attachShader(
-      pr,
-      sh(gl.FRAGMENT_SHADER, F)
-    );
-
+    gl.attachShader(pr, sh(gl.VERTEX_SHADER, V));
+    gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, F));
     gl.linkProgram(pr);
     gl.useProgram(pr);
 
-    gl.bindBuffer(
-      gl.ARRAY_BUFFER,
-      gl.createBuffer()
-    );
-
+    gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
     gl.bufferData(
       gl.ARRAY_BUFFER,
-      new Float32Array([
-        -1,
-        -1,
-        3,
-        -1,
-        -1,
-        3,
-      ]),
+      new Float32Array([-1, -1, 3, -1, -1, 3]),
       gl.STATIC_DRAW
     );
 
     const ap = gl.getAttribLocation(pr, 'p');
-
     gl.enableVertexAttribArray(ap);
-
-    gl.vertexAttribPointer(
-      ap,
-      2,
-      gl.FLOAT,
-      false,
-      0,
-      0
-    );
+    gl.vertexAttribPointer(ap, 2, gl.FLOAT, false, 0, 0);
 
     const uR = gl.getUniformLocation(pr, 'R');
     const uT = gl.getUniformLocation(pr, 'T');
@@ -659,50 +561,22 @@ function WaTalkFullInner({
     const rs = () => {
       c.width = innerWidth * 0.6;
       c.height = innerHeight * 0.6;
-
-      gl.viewport(
-        0,
-        0,
-        c.width,
-        c.height
-      );
+      gl.viewport(0, 0, c.width, c.height);
     };
 
     addEventListener('resize', rs);
-
     rs();
 
     const L = 18;
     const st = performance.now();
-
     let raf: number;
 
     const tk = () => {
-      const t =
-        (performance.now() - st) / 1000;
-
-      gl.uniform2f(
-        uR,
-        c.width,
-        c.height
-      );
-
-      gl.uniform1f(
-        uT,
-        ((t % L) / L) * Math.PI * 2
-      );
-
-      gl.uniform1f(
-        uS,
-        sIdx
-      );
-
-      gl.drawArrays(
-        gl.TRIANGLES,
-        0,
-        3
-      );
-
+      const t = (performance.now() - st) / 1000;
+      gl.uniform2f(uR, c.width, c.height);
+      gl.uniform1f(uT, ((t % L) / L) * Math.PI * 2);
+      gl.uniform1f(uS, sIdx);
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
       raf = requestAnimationFrame(tk);
     };
 
@@ -719,11 +593,9 @@ function WaTalkFullInner({
   // ============================================================
   useEffect(() => {
     const cv = leafRef.current;
-
     if (!cv) return;
 
     const ctx = cv.getContext('2d');
-
     if (!ctx) return;
 
     const LC = [
@@ -738,7 +610,6 @@ function WaTalkFullInner({
 
     let W = 0;
     let H = 0;
-
     const leaves: any[] = [];
 
     const rs = () => {
@@ -747,33 +618,19 @@ function WaTalkFullInner({
     };
 
     addEventListener('resize', rs);
-
     rs();
 
     const sp = (i: boolean) => ({
       x: Math.random() * W,
-      y: i
-        ? Math.random() * H
-        : -20,
+      y: i ? Math.random() * H : -20,
       size: 6 + Math.random() * 10,
-      color:
-        LC[
-          Math.floor(
-            Math.random() * 7
-          )
-        ],
-      angle:
-        Math.random() * Math.PI * 2,
-      speed:
-        0.4 + Math.random() * 0.9,
-      sway:
-        0.4 + Math.random() * 0.9,
-      phase:
-        Math.random() * Math.PI * 2,
-      spin:
-        (Math.random() - 0.5) * 0.028,
-      opacity:
-        0.35 + Math.random() * 0.45,
+      color: LC[Math.floor(Math.random() * 7)],
+      angle: Math.random() * Math.PI * 2,
+      speed: 0.4 + Math.random() * 0.9,
+      sway: 0.4 + Math.random() * 0.9,
+      phase: Math.random() * Math.PI * 2,
+      spin: (Math.random() - 0.5) * 0.028,
+      opacity: 0.35 + Math.random() * 0.45,
     });
 
     for (let i = 0; i < 24; i++) {
@@ -783,121 +640,56 @@ function WaTalkFullInner({
     let raf: number;
 
     const tk = () => {
-      ctx.clearRect(
-        0,
-        0,
-        W,
-        H
-      );
-
-      const t =
-        performance.now() / 1000;
+      ctx.clearRect(0, 0, W, H);
+      const t = performance.now() / 1000;
 
       for (const l of leaves) {
         l.y += l.speed;
-
-        l.x +=
-          Math.sin(
-            t * l.sway + l.phase
-          ) * 0.5;
-
+        l.x += Math.sin(t * l.sway + l.phase) * 0.5;
         l.angle += l.spin;
 
         ctx.save();
-
-        ctx.translate(
-          l.x,
-          l.y
-        );
-
-        ctx.rotate(
-          l.angle
-        );
-
-        ctx.globalAlpha =
-          l.opacity;
-
-        ctx.fillStyle =
-          l.color;
+        ctx.translate(l.x, l.y);
+        ctx.rotate(l.angle);
+        ctx.globalAlpha = l.opacity;
+        ctx.fillStyle = l.color;
 
         ctx.beginPath();
-
-        ctx.moveTo(
-          0,
-          -l.size
-        );
-
+        ctx.moveTo(0, -l.size);
         ctx.quadraticCurveTo(
           l.size * 0.65,
           -l.size * 0.15,
           l.size * 0.4,
           l.size * 0.7
         );
-
-        ctx.quadraticCurveTo(
-          0,
-          l.size,
-          -l.size * 0.4,
-          l.size * 0.7
-        );
-
-        ctx.quadraticCurveTo(
-          -l.size * 0.65,
-          -l.size * 0.15,
-          0,
-          -l.size
-        );
-
+        ctx.quadraticCurveTo(0, l.size, -l.size * 0.4, l.size * 0.7);
+        ctx.quadraticCurveTo(-l.size * 0.65, -l.size * 0.15, 0, -l.size);
         ctx.fill();
 
-        ctx.globalAlpha =
-          l.opacity * 0.75;
-
-        ctx.strokeStyle =
-          l.color;
-
+        ctx.globalAlpha = l.opacity * 0.75;
+        ctx.strokeStyle = l.color;
         ctx.lineWidth = 0.6;
 
         ctx.beginPath();
-
-        ctx.moveTo(
-          0,
-          -l.size * 0.8
-        );
-
-        ctx.lineTo(
-          0,
-          l.size * 0.8
-        );
-
+        ctx.moveTo(0, -l.size * 0.8);
+        ctx.lineTo(0, l.size * 0.8);
         ctx.stroke();
 
         ctx.restore();
 
         if (l.y > H + 24) {
-          Object.assign(
-            l,
-            sp(false)
-          );
+          Object.assign(l, sp(false));
         }
       }
 
-      raf =
-        requestAnimationFrame(tk);
+      raf = requestAnimationFrame(tk);
     };
 
-    raf =
-      requestAnimationFrame(tk);
+    raf = requestAnimationFrame(tk);
 
     return () => {
-      removeEventListener(
-        'resize',
-        rs
-      );
-
-      cancelAnimationFrame(
-        raf
-      );
+      removeEventListener('resize', rs);
+      cancelAnimationFrame(raf);
     };
   }, []);
 
@@ -906,79 +698,40 @@ function WaTalkFullInner({
   // ============================================================
   useEffect(() => {
     const el = dmRef.current;
-
     if (!el) return;
 
     el.innerHTML = '';
-
-    const words =
-      WORDS_MAP[lang] ||
-      WORDS_JA;
-
+    const words = WORDS_MAP[lang] || WORDS_JA;
     const lh = 48;
-
-    const W =
-      el.clientWidth;
-
-    const H =
-      el.clientHeight;
-
-    const n =
-      Math.floor(H / lh);
-
+    const W = el.clientWidth;
+    const H = el.clientHeight;
+    const n = Math.floor(H / lh);
     const lanes: any[] = [];
 
-    let q = [
-      ...words,
-    ].sort(
-      () => Math.random() - 0.5
-    );
-
+    let q = [...words].sort(() => Math.random() - 0.5);
     let qi = 0;
 
     const nx = () => {
       if (qi >= q.length) {
-        q = [
-          ...words,
-        ].sort(
-          () => Math.random() - 0.5
-        );
-
+        q = [...words].sort(() => Math.random() - 0.5);
         qi = 0;
       }
-
       return q[qi++];
     };
 
-    const mk = (
-      lane: HTMLDivElement
-    ) => {
-      const s =
-        document.createElement(
-          'span'
-        );
-
+    const mk = (lane: HTMLDivElement) => {
+      const s = document.createElement('span');
       s.textContent = nx();
 
-      const r =
-        Math.random();
-
+      const r = Math.random();
       const rem =
         r < 0.08
-          ? 2.0 +
-            Math.random() *
-              0.8
+          ? 2.0 + Math.random() * 0.8
           : r < 0.25
-          ? 1.3 +
-            Math.random() *
-              0.5
+          ? 1.3 + Math.random() * 0.5
           : r < 0.6
-          ? 0.85 +
-            Math.random() *
-              0.35
-          : 0.55 +
-            Math.random() *
-              0.2;
+          ? 0.85 + Math.random() * 0.35
+          : 0.55 + Math.random() * 0.2;
 
       s.style.cssText = `
         position:absolute;
@@ -995,18 +748,8 @@ function WaTalkFullInner({
             ? 700
             : 500
         };
-        color:${
-          COLORS[
-            Math.floor(
-              Math.random() *
-                12
-            )
-          ]
-        };
-        opacity:${(
-          0.6 +
-          Math.random() * 0.35
-        ).toFixed(2)};
+        color:${COLORS[Math.floor(Math.random() * 12)]};
+        opacity:${(0.6 + Math.random() * 0.35).toFixed(2)};
         user-select:none;
       `;
 
@@ -1015,22 +758,12 @@ function WaTalkFullInner({
       return {
         el: s,
         x: 0,
-        w:
-          s.getBoundingClientRect()
-            .width,
+        w: s.getBoundingClientRect().width,
       };
     };
 
-    for (
-      let i = 0;
-      i < n;
-      i++
-    ) {
-      const lane =
-        document.createElement(
-          'div'
-        );
-
+    for (let i = 0; i < n; i++) {
+      const lane = document.createElement('div');
       lane.style.cssText = `
         position:absolute;
         left:0;
@@ -1039,47 +772,21 @@ function WaTalkFullInner({
         height:${lh}px;
         overflow:hidden;
       `;
-
       el.appendChild(lane);
 
       const sp =
-        (30 +
-          Math.random() *
-            200) *
-        Math.min(
-          Math.max(
-            W / 1280,
-            0.6
-          ),
-          1.3
-        );
+        (30 + Math.random() * 200) *
+        Math.min(Math.max(W / 1280, 0.6), 1.3);
 
       const items: any[] = [];
+      let x = -Math.random() * 600 - 100;
 
-      let x =
-        -Math.random() *
-          600 -
-        100;
-
-      while (
-        x <
-        W + 80
-      ) {
-        const it =
-          mk(lane);
-
+      while (x < W + 80) {
+        const it = mk(lane);
         it.x = x;
-
-        it.el.style.transform =
-          `translate3d(${x}px,-50%,0)`;
-
+        it.el.style.transform = `translate3d(${x}px,-50%,0)`;
         items.push(it);
-
-        x +=
-          it.w +
-          16 +
-          Math.random() *
-            60;
+        x += it.w + 16 + Math.random() * 60;
       }
 
       lanes.push({
@@ -1089,228 +796,125 @@ function WaTalkFullInner({
       });
     }
 
-    let last =
-      performance.now();
-
+    let last = performance.now();
     let raf: number;
 
-    const tk = (
-      now: number
-    ) => {
-      const dt =
-        Math.min(
-          (now - last) /
-            1000,
-          0.1
-        );
-
+    const tk = (now: number) => {
+      const dt = Math.min((now - last) / 1000, 0.1);
       last = now;
+      const w = el.clientWidth;
 
-      const w =
-        el.clientWidth;
-
-      for (
-        const L of lanes
-      ) {
+      for (const L of lanes) {
         let right = -Infinity;
+        const keep: any[] = [];
 
-        const keep: any[] =
-          [];
-
-        for (
-          const it of L.items
-        ) {
-          it.x -=
-            L.speed * dt;
-
-          if (
-            it.x +
-              it.w >
-            -20
-          ) {
+        for (const it of L.items) {
+          it.x -= L.speed * dt;
+          if (it.x + it.w > -20) {
             keep.push(it);
-
-            it.el.style.transform =
-              `translate3d(${it.x.toFixed(
-                1
-              )}px,-50%,0)`;
-
-            right =
-              Math.max(
-                right,
-                it.x +
-                  it.w
-              );
+            it.el.style.transform = `translate3d(${it.x.toFixed(1)}px,-50%,0)`;
+            right = Math.max(right, it.x + it.w);
           } else {
             it.el.remove();
           }
         }
 
-        L.items =
-          keep;
+        L.items = keep;
 
-        while (
-          right <
-          w + 40
-        ) {
-          const it =
-            mk(L.lane);
-
-          it.x =
-            Math.max(
-              w + 10,
-              right +
-                16 +
-                Math.random() *
-                  60
-            );
-
-          it.el.style.transform =
-            `translate3d(${it.x}px,-50%,0)`;
-
+        while (right < w + 40) {
+          const it = mk(L.lane);
+          it.x = Math.max(w + 10, right + 16 + Math.random() * 60);
+          it.el.style.transform = `translate3d(${it.x}px,-50%,0)`;
           L.items.push(it);
-
-          right =
-            it.x +
-            it.w;
+          right = it.x + it.w;
         }
       }
 
-      raf =
-        requestAnimationFrame(
-          tk
-        );
+      raf = requestAnimationFrame(tk);
     };
 
-    raf =
-      requestAnimationFrame(
-        tk
-      );
+    raf = requestAnimationFrame(tk);
 
-    return () =>
-      cancelAnimationFrame(
-        raf
-      );
+    return () => cancelAnimationFrame(raf);
   }, [lang]);
 
-  const haiku =
-    HAIKU[lang] ||
-    HAIKU.ja;
+  const haiku = HAIKU[lang] || HAIKU.ja;
 
-  const fmt = (
-    d?: string
-  ) =>
+  const fmt = (d?: string) =>
     d
-      ? `${new Date(
-          d
-        ).getFullYear()}.${String(
-          new Date(
-            d
-          ).getMonth() + 1
-        ).padStart(
-          2,
-          '0'
-        )}.${String(
-          new Date(
-            d
-          ).getDate()
-        ).padStart(
-          2,
-          '0'
-        )}`
+      ? `${new Date(d).getFullYear()}.${String(
+          new Date(d).getMonth() + 1
+        ).padStart(2, '0')}.${String(new Date(d).getDate()).padStart(2, '0')}`
       : '';
 
-  const mins = (
-    c: string
-  ) =>
+  const mins = (c: string) =>
     Math.max(
       1,
-      Math.ceil(
-        (c
-          ?.replace(
-            /<[^>]+>/g,
-            ''
-          )
-          ?.length ||
-          0) / 600
-      )
+      Math.ceil((c?.replace(/<[^>]+>/g, '')?.length || 0) / 600)
     );
 
   // ============================================================
-  // カテゴリ値の正規化
+  // カテゴリ値の正規化（文字列・オブジェクト・空欄に対応）
   // ============================================================
-  const normalizeCategory = (
-    cat: string | undefined
-  ): string => {
-    if (!cat)
-      return 'other';
+  const normalizeCategory = (catVal: any): string => {
+    if (!catVal) return 'other';
+    const raw =
+      typeof catVal === 'object'
+        ? (catVal.name || catVal.title || catVal.id || '')
+        : String(catVal);
+    const val = raw.trim().toLowerCase();
 
     if (
-      cat === '食文化' ||
-      cat === '美食'
+      val === 'food' ||
+      val === '食文化' ||
+      val === '美食' ||
+      val === 'グルメ'
     )
       return 'food';
 
     if (
-      cat ===
-        '伝統文化' ||
-      cat ===
-        '传统文化'
+      val === 'culture' ||
+      val === '伝統文化' ||
+      val === '传统文化' ||
+      val === '文化'
     )
       return 'culture';
 
     if (
-      cat ===
-        '風景・旅' ||
-      cat ===
-        '风景・旅行'
+      val === 'travel' ||
+      val === '風景・旅' ||
+      val === '风景・旅行' ||
+      val === '旅行' ||
+      val === '風景'
     )
       return 'travel';
 
-    return cat;
+    return raw || 'other';
   };
 
   // ============================================================
   // カテゴリーごとに記事をグループ化
   // ============================================================
-  const groupedArticles =
-    articles.reduce(
-      (
-        acc,
-        article
-      ) => {
-        const normalizedCat =
-          normalizeCategory(
-            article.category
-          );
+  const groupedArticles = articles.reduce((acc, article) => {
+    const normalizedCat = normalizeCategory(article.category);
+    if (!acc[normalizedCat]) {
+      acc[normalizedCat] = [];
+    }
+    acc[normalizedCat].push(article);
+    return acc;
+  }, {} as Record<string, Article[]>);
 
-        if (
-          !acc[
-            normalizedCat
-          ]
-        ) {
-          acc[
-            normalizedCat
-          ] = [];
-        }
-
-        acc[
-          normalizedCat
-        ].push(article);
-
-        return acc;
-      },
-      {} as Record<
-        string,
-        Article[]
-      >
-    );
-
-  const categoryOrder = [
-    'food',
-    'culture',
-    'travel',
-  ];
+  // microCMSに存在する全カテゴリを網羅し、1件も記事が除外されないようにする
+  const presentCategories = Object.keys(groupedArticles).filter(
+    (k) => groupedArticles[k]?.length > 0
+  );
+  const baseOrder = ['food', 'culture', 'travel', 'other'];
+  const categoryOrder = Array.from(
+    new Set([
+      ...baseOrder.filter((c) => presentCategories.includes(c)),
+      ...presentCategories,
+    ])
+  );
 
   return (
     <>
@@ -1356,41 +960,30 @@ function WaTalkFullInner({
             position: 'sticky',
             top: 0,
             zIndex: 10,
-            background:
-              S.headerBg,
-            backdropFilter:
-              'blur(12px)',
-            borderBottom:
-              '1px solid rgba(0,0,0,0.06)',
+            background: S.headerBg,
+            backdropFilter: 'blur(12px)',
+            borderBottom: '1px solid rgba(0,0,0,0.06)',
           }}
         >
           <div
             style={{
               maxWidth: 1200,
               margin: '0 auto',
-              height:
-                'clamp(52px, 8vh, 72px)',
+              height: 'clamp(52px, 8vh, 72px)',
               display: 'flex',
-              alignItems:
-                'center',
-              justifyContent:
-                'space-between',
-              padding:
-                '0 clamp(8px, 2vw, 40px)',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              padding: '0 clamp(8px, 2vw, 40px)',
             }}
           >
             <Link
               href="/library"
               style={{
-                fontSize:
-                  'clamp(11px, 1.4vw, 14px)',
+                fontSize: 'clamp(11px, 1.4vw, 14px)',
                 color: S.muted,
-                textDecoration:
-                  'none',
-                fontFamily:
-                  S.sans,
-                letterSpacing:
-                  '.04em',
+                textDecoration: 'none',
+                fontFamily: S.sans,
+                letterSpacing: '.04em',
                 flexShrink: 0,
                 paddingRight: '4px',
               }}
@@ -1401,12 +994,9 @@ function WaTalkFullInner({
             <div
               style={{
                 display: 'flex',
-                alignItems:
-                  'center',
-                justifyContent:
-                  'center',
-                gap:
-                  'clamp(4px, 1vw, 12px)',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 'clamp(4px, 1vw, 12px)',
                 flex: 1,
                 minWidth: 0,
               }}
@@ -1415,44 +1005,33 @@ function WaTalkFullInner({
                 src="/images/wa-talk-logo.png"
                 alt=""
                 style={{
-                  height:
-                    'clamp(22px, 4vw, 36px)',
+                  height: 'clamp(22px, 4vw, 36px)',
                   width: 'auto',
                   borderRadius: 4,
-                  objectFit:
-                    'cover',
+                  objectFit: 'cover',
                 }}
                 onError={(e) => {
-                  (
-                    e.target as HTMLImageElement
-                  ).style.display =
-                    'none';
+                  (e.target as HTMLImageElement).style.display = 'none';
                 }}
               />
 
               <div
                 style={{
                   display: 'flex',
-                  flexDirection:
-                    'column',
-                  alignItems:
-                    'center',
+                  flexDirection: 'column',
+                  alignItems: 'center',
                   minWidth: 0,
                 }}
               >
                 <div
                   style={{
                     fontWeight: 700,
-                    fontSize:
-                      'clamp(12px, 2.8vw, 20px)',
+                    fontSize: 'clamp(12px, 2.8vw, 20px)',
                     color: '#000',
-                    letterSpacing:
-                      '.03em',
-                    fontFamily:
-                      "'Arvo', serif",
+                    letterSpacing: '.03em',
+                    fontFamily: "'Arvo', serif",
                     lineHeight: 1.2,
-                    whiteSpace:
-                      'nowrap',
+                    whiteSpace: 'nowrap',
                   }}
                 >
                   WAAI STORY
@@ -1460,17 +1039,12 @@ function WaTalkFullInner({
 
                 <div
                   style={{
-                    fontSize:
-                      'clamp(7px, 1.4vw, 11px)',
-                    color:
-                      '#f4b8b8',
-                    fontFamily:
-                      "'Arvo', serif",
-                    letterSpacing:
-                      '.05em',
+                    fontSize: 'clamp(7px, 1.4vw, 11px)',
+                    color: '#f4b8b8',
+                    fontFamily: "'Arvo', serif",
+                    letterSpacing: '.05em',
                     lineHeight: 1.2,
-                    whiteSpace:
-                      'nowrap',
+                    whiteSpace: 'nowrap',
                   }}
                 >
                   わーいすとーりー
@@ -1481,8 +1055,7 @@ function WaTalkFullInner({
             <div
               style={{
                 display: 'flex',
-                alignItems:
-                  'center',
+                alignItems: 'center',
                 gap: 0,
                 flexShrink: 0,
                 marginLeft: '4px',
@@ -1490,141 +1063,39 @@ function WaTalkFullInner({
             >
               <div
                 style={{
-                  display: 'none',
-                }}
-              >
-                <a
-                  href="#articles"
-                  style={{
-                    fontSize:
-                      'clamp(8px, 1vw, 11px)',
-                    color: S.muted,
-                    textDecoration:
-                      'none',
-                    letterSpacing:
-                      '.08em',
-                    fontFamily:
-                      S.sans,
-                    textTransform:
-                      'uppercase',
-                  }}
-                >
-                  {ui(
-                    'navFood'
-                  )}
-                </a>
-
-                <a
-                  href="#articles"
-                  style={{
-                    fontSize:
-                      'clamp(8px, 1vw, 11px)',
-                    color: S.muted,
-                    textDecoration:
-                      'none',
-                    letterSpacing:
-                      '.08em',
-                    fontFamily:
-                      S.sans,
-                    textTransform:
-                      'uppercase',
-                  }}
-                >
-                  {ui(
-                    'navCulture'
-                  )}
-                </a>
-
-                <a
-                  href="#articles"
-                  style={{
-                    fontSize:
-                      'clamp(8px, 1vw, 11px)',
-                    color: S.muted,
-                    textDecoration:
-                      'none',
-                    letterSpacing:
-                      '.08em',
-                    fontFamily:
-                      S.sans,
-                    textTransform:
-                      'uppercase',
-                  }}
-                >
-                  {ui(
-                    'navTravel'
-                  )}
-                </a>
-              </div>
-
-              <div
-                style={{
                   display: 'flex',
-                  alignItems:
-                    'center',
+                  alignItems: 'center',
                   gap: 0,
-                  border:
-                    '1px solid rgba(0,0,0,0.12)',
+                  border: '1px solid rgba(0,0,0,0.12)',
                   borderRadius: 4,
                   flexShrink: 0,
                 }}
               >
-                {LANG_OPTIONS.map(
-                  (
-                    [code, label],
-                    i
-                  ) => (
-                    <button
-                      key={code}
-                      onClick={() =>
-                        setLang(
-                          code
-                        )
-                      }
-                      style={{
-                        fontSize:
-                          'clamp(6px, 0.8vw, 10px)',
-                        fontFamily:
-                          S.sans,
-                        letterSpacing:
-                          '.03em',
-                        padding:
-                          'clamp(3px, 0.5vw, 6px) clamp(4px, 0.8vw, 12px)',
-                        background:
-                          lang ===
-                          code
-                            ? '#000'
-                            : 'transparent',
-                        color:
-                          lang ===
-                          code
-                            ? '#fff'
-                            : S.muted,
-                        border:
-                          'none',
-                        borderRight:
-                          i <
-                          LANG_OPTIONS.length -
-                            1
-                            ? '1px solid rgba(0,0,0,0.12)'
-                            : 'none',
-                        cursor:
-                          'pointer',
-                        transition:
-                          'all 0.2s',
-                        fontWeight:
-                          lang ===
-                          code
-                            ? 600
-                            : 400,
-                      }}
-                    >
-                      {
-                        label
-                      }
-                    </button>
-                  )
-                )}
+                {LANG_OPTIONS.map(([code, label], i) => (
+                  <button
+                    key={code}
+                    onClick={() => setLang(code)}
+                    style={{
+                      fontSize: 'clamp(6px, 0.8vw, 10px)',
+                      fontFamily: S.sans,
+                      letterSpacing: '.03em',
+                      padding:
+                        'clamp(3px, 0.5vw, 6px) clamp(4px, 0.8vw, 12px)',
+                      background: lang === code ? '#000' : 'transparent',
+                      color: lang === code ? '#fff' : S.muted,
+                      border: 'none',
+                      borderRight:
+                        i < LANG_OPTIONS.length - 1
+                          ? '1px solid rgba(0,0,0,0.12)'
+                          : 'none',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s',
+                      fontWeight: lang === code ? 600 : 400,
+                    }}
+                  >
+                    {label}
+                  </button>
+                ))}
               </div>
             </div>
           </div>
@@ -1632,60 +1103,29 @@ function WaTalkFullInner({
 
         {/* ====================================================
             ヒーロー
-            ↓ CONTENT_WIDTH を使用
         ==================================================== */}
         <section
           style={{
-            position:
-              'relative',
-            height:
-              HERO_HEIGHT,
+            position: 'relative',
+            height: HERO_HEIGHT,
             minHeight: 320,
             display: 'flex',
-            alignItems:
-              'center',
-            justifyContent:
-              'center',
-            overflow:
-              'hidden',
+            alignItems: 'center',
+            justifyContent: 'center',
+            overflow: 'hidden',
           }}
         >
           <div
             style={{
-              /*
-               * 高さは「画面1枚分(ヘッダーを除く)」に固定。
-               * 横幅は、そこから縦横比(10:7)で逆算した値と
-               * 「最大1120px/画面幅の92vw」を比べて、小さい
-               * 方を採用します。
-               *
-               * → 画面が広ければ横幅1120pxいっぱいに、
-               *   画面が縦に短ければ横幅を少し控えめにして、
-               *   どちらの場合も画像が1枚目にきれいに
-               *   収まり、切れることもありません。
-               */
               width: `min(1120px, 92vw, calc(${HERO_HEIGHT} * 10 / 7))`,
-
-              height:
-                HERO_HEIGHT,
-
+              height: HERO_HEIGHT,
               WebkitMaskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`,
-
               maskImage: `url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700'%3E%3Cpath d='M 100 50 Q 50 50 50 100 Q 30 350 60 600 Q 60 650 110 650 L 890 650 Q 940 650 940 600 Q 970 350 950 100 Q 950 50 900 50 Z' fill='white'/%3E%3C/svg%3E")`,
-
-              WebkitMaskSize:
-                '100% 100%',
-
-              maskSize:
-                '100% 100%',
-
-              WebkitMaskRepeat:
-                'no-repeat',
-
-              maskRepeat:
-                'no-repeat',
-
-              filter:
-                'drop-shadow(0 20px 40px rgba(60,30,40,.25))',
+              WebkitMaskSize: '100% 100%',
+              maskSize: '100% 100%',
+              WebkitMaskRepeat: 'no-repeat',
+              maskRepeat: 'no-repeat',
+              filter: 'drop-shadow(0 20px 40px rgba(60,30,40,.25))',
             }}
           >
             <img
@@ -1694,110 +1134,75 @@ function WaTalkFullInner({
               style={{
                 width: '100%',
                 height: '100%',
-                objectFit:
-                  'cover',
+                objectFit: 'cover',
               }}
             />
 
             <div
               style={{
-                position:
-                  'absolute',
+                position: 'absolute',
                 inset: 0,
                 display: 'flex',
-                flexDirection:
-                  'row-reverse',
-                alignItems:
-                  'center',
-                justifyContent:
-                  'center',
-                gap:
-                  'clamp(1rem, 2.8vw, 2.2rem)',
-                pointerEvents:
-                  'none',
+                flexDirection: 'row-reverse',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 'clamp(1rem, 2.8vw, 2.2rem)',
+                pointerEvents: 'none',
               }}
             >
-              {haiku.map(
-                (
-                  line,
-                  i
-                ) => (
-                  <span
-                    key={i}
-                    style={{
-                      writingMode:
-                        'vertical-rl',
-                      fontSize:
-                        'clamp(14px, 2.6vw, 28px)',
-                      fontWeight: 700,
-                      color:
-                        '#fff',
-                      letterSpacing:
-                        '.28em',
-                      textShadow:
-                        '0 2px 14px rgba(50,10,20,.55), 0 0 3px rgba(0,0,0,.35)',
-                    }}
-                  >
-                    {
-                      line
-                    }
-                  </span>
-                )
-              )}
+              {haiku.map((line, i) => (
+                <span
+                  key={i}
+                  style={{
+                    writingMode: 'vertical-rl',
+                    fontSize: 'clamp(14px, 2.6vw, 28px)',
+                    fontWeight: 700,
+                    color: '#fff',
+                    letterSpacing: '.28em',
+                    textShadow:
+                      '0 2px 14px rgba(50,10,20,.55), 0 0 3px rgba(0,0,0,.35)',
+                  }}
+                >
+                  {line}
+                </span>
+              ))}
             </div>
           </div>
         </section>
 
         {/* ====================================================
             Wa Wave
-            ↓ CONTENT_WIDTH と揃えるため maxWidth を 1120 に統一
         ==================================================== */}
         <section
           style={{
             maxWidth: 1120,
-            margin:
-              '0 auto',
+            margin: '0 auto',
             padding:
               'clamp(24px, 4vw, 48px) clamp(16px, 3vw, 40px) clamp(32px, 5vw, 64px)',
           }}
         >
           <h2
             style={{
-              textAlign:
-                'center',
-              fontSize:
-                'clamp(22px, 4.5vw, 42px)',
+              textAlign: 'center',
+              fontSize: 'clamp(22px, 4.5vw, 42px)',
               fontWeight: 300,
-              color:
-                S.dark,
-              letterSpacing:
-                '.2em',
-              fontFamily:
-                S.serif,
-              marginBottom:
-                24,
+              color: S.dark,
+              letterSpacing: '.2em',
+              fontFamily: S.serif,
+              marginBottom: 24,
             }}
           >
-            {
-              ui(
-                'waveTitle'
-              )
-            }
+            {ui('waveTitle')}
           </h2>
 
           <div
             ref={dmRef}
             style={{
-              height:
-                'clamp(280px, 50vw, 480px)',
-              position:
-                'relative',
-              overflow:
-                'hidden',
-              borderTop:
-                '1px solid rgba(0,0,0,0.06)',
-              borderBottom:
-                '1px solid rgba(0,0,0,0.06)',
+              height: 'clamp(280px, 50vw, 480px)',
+              position: 'relative',
+              overflow: 'hidden',
+              borderTop: '1px solid rgba(0,0,0,0.06)',
+              borderBottom: '1px solid rgba(0,0,0,0.06)',
               WebkitMaskImage:
                 'linear-gradient(to right,transparent,black 8%,black 92%,transparent)',
               maskImage:
@@ -1807,605 +1212,365 @@ function WaTalkFullInner({
 
           <div
             style={{
-              textAlign:
-                'center',
+              textAlign: 'center',
               marginTop: 32,
             }}
           >
             <p
               style={{
                 fontSize: 13,
-                color:
-                  S.muted,
-                fontFamily:
-                  S.sans,
-                letterSpacing:
-                  '.04em',
-                marginBottom:
-                  8,
+                color: S.muted,
+                fontFamily: S.sans,
+                letterSpacing: '.04em',
+                marginBottom: 8,
               }}
             >
-              {
-                ui(
-                  'waveCount'
-                )
-              }
+              {ui('waveCount')}
             </p>
 
             <p
               style={{
                 fontSize: 13,
-                color:
-                  S.accent,
-                fontFamily:
-                  S.sans,
-                letterSpacing:
-                  '.04em',
+                color: S.accent,
+                fontFamily: S.sans,
+                letterSpacing: '.04em',
                 fontWeight: 500,
               }}
             >
-              {
-                ui(
-                  'waveHint'
-                )
-              }
+              {ui('waveHint')}
             </p>
           </div>
         </section>
 
         {/* ====================================================
             カテゴリ別スライダー
-            ↓ CONTENT_WIDTH と揃えるため maxWidth を 1120 に統一
         ==================================================== */}
         <section
           id="articles"
           style={{
             maxWidth: 1120,
-            margin:
-              '0 auto',
-            padding:
-              'clamp(24px, 4vw, 64px) clamp(12px, 2.5vw, 40px)',
+            margin: '0 auto',
+            padding: 'clamp(24px, 4vw, 64px) clamp(12px, 2.5vw, 40px)',
           }}
         >
           <h2
             style={{
-              textAlign:
-                'center',
-              fontSize:
-                'clamp(20px, 3.5vw, 36px)',
+              textAlign: 'center',
+              fontSize: 'clamp(20px, 3.5vw, 36px)',
               fontWeight: 300,
-              color:
-                S.dark,
-              letterSpacing:
-                '.15em',
-              fontFamily:
-                S.serif,
-              marginBottom:
-                32,
+              color: S.dark,
+              letterSpacing: '.15em',
+              fontFamily: S.serif,
+              marginBottom: 32,
             }}
           >
-            {
-              ui(
-                'storiesTitle'
-              )
-            }
+            {ui('storiesTitle')}
           </h2>
 
           {categoryOrder
             .filter(
               (catKey) =>
-                !categoryFilter ||
-                catKey === categoryFilter
+                !categoryFilter || catKey === categoryFilter
             )
-            .map(
-            (catKey) => {
-              const catArticles =
-                groupedArticles[
-                  catKey
-                ] || [];
+            .map((catKey) => {
+              const catArticles = groupedArticles[catKey] || [];
 
               const label =
-                CATEGORY_LABELS[
-                  catKey
-                ]?.[lang] ||
-                CATEGORY_LABELS[
-                  catKey
-                ]?.ja ||
+                CATEGORY_LABELS[catKey]?.[lang] ||
+                CATEGORY_LABELS[catKey]?.ja ||
                 catKey;
 
-              const color =
-                CATEGORY_COLORS[
-                  catKey
-                ] ||
-                '#8A9A7B';
+              const color = CATEGORY_COLORS[catKey] || '#8A9A7B';
 
-              if (
-                catArticles.length ===
-                0
-              ) {
+              if (catArticles.length === 0) {
                 return null;
               }
 
               return (
                 <div
-                  key={
-                    catKey
-                  }
+                  key={catKey}
                   style={{
-                    marginBottom:
-                      'clamp(40px, 8vw, 64px)',
+                    marginBottom: 'clamp(40px, 8vw, 64px)',
                   }}
                 >
                   <div
                     style={{
-                      display:
-                        'flex',
-                      alignItems:
-                        'center',
-                      justifyContent:
-                        'space-between',
-                      marginBottom:
-                        16,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      marginBottom: 16,
                     }}
                   >
                     <h3
                       style={{
-                        fontSize:
-                          'clamp(16px, 2vw, 24px)',
+                        fontSize: 'clamp(16px, 2vw, 24px)',
                         fontWeight: 400,
-                        fontFamily:
-                          S.serif,
-                        color:
-                          S.dark,
-                        letterSpacing:
-                          '.1em',
+                        fontFamily: S.serif,
+                        color: S.dark,
+                        letterSpacing: '.1em',
                       }}
                     >
                       <span
                         style={{
-                          borderBottom:
-                            `3px solid ${color}`,
-                          paddingBottom:
-                            4,
+                          borderBottom: `3px solid ${color}`,
+                          paddingBottom: 4,
                         }}
                       >
-                        {
-                          label
-                        }
+                        {label}
                       </span>
                     </h3>
 
                     <Link
                       href={`/library/story?category=${catKey}`}
                       style={{
-                        fontSize:
-                          'clamp(11px, 1.2vw, 13px)',
-                        color:
-                          S.muted,
-                        textDecoration:
-                          'none',
-                        fontFamily:
-                          S.sans,
-                        letterSpacing:
-                          '.05em',
-                        transition:
-                          'color 0.3s',
+                        fontSize: 'clamp(11px, 1.2vw, 13px)',
+                        color: S.muted,
+                        textDecoration: 'none',
+                        fontFamily: S.sans,
+                        letterSpacing: '.05em',
+                        transition: 'color 0.3s',
                       }}
-                      onMouseEnter={(
-                        e
-                      ) => {
-                        e.currentTarget.style.color =
-                          '#000';
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.color = '#000';
                       }}
-                      onMouseLeave={(
-                        e
-                      ) => {
-                        e.currentTarget.style.color =
-                          S.muted;
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.color = S.muted;
                       }}
                     >
-                      {
-                        ui(
-                          'more'
-                        )
-                      }
+                      {ui('more')}
                     </Link>
                   </div>
 
                   <Swiper
-                    modules={[
-                      Navigation,
-                      Pagination,
-                    ]}
+                    modules={[Navigation, Pagination]}
                     navigation
                     pagination={{
-                      clickable:
-                        true,
+                      clickable: true,
                     }}
-                    spaceBetween={
-                      16
-                    }
-                    slidesPerView={
-                      1
-                    }
+                    spaceBetween={16}
+                    slidesPerView={1}
                     breakpoints={{
                       480: {
-                        slidesPerView:
-                          1.2,
+                        slidesPerView: 1.2,
                       },
                       640: {
-                        slidesPerView:
-                          2,
+                        slidesPerView: 2,
                       },
                       1024: {
-                        slidesPerView:
-                          3,
+                        slidesPerView: 3,
                       },
                     }}
                     style={{
-                      padding:
-                        '4px 0 36px 0',
+                      padding: '4px 0 36px 0',
                     }}
                   >
-                    {catArticles.map(
-                      (
-                        article
-                      ) => (
-                        <SwiperSlide
-                          key={
-                            article.id
-                          }
+                    {catArticles.map((article) => (
+                      <SwiperSlide key={article.id}>
+                        <div
+                          style={{
+                            cursor: 'pointer',
+                          }}
+                          onClick={() => click(article)}
+                          onMouseEnter={(e) => {
+                            (e.currentTarget as HTMLElement).style.opacity =
+                              '0.65';
+                          }}
+                          onMouseLeave={(e) => {
+                            (e.currentTarget as HTMLElement).style.opacity =
+                              '1';
+                          }}
                         >
                           <div
                             style={{
-                              cursor:
-                                'pointer',
-                            }}
-                            onClick={() =>
-                              click(
-                                article
-                              )
-                            }
-                            onMouseEnter={(
-                              e
-                            ) => {
-                              (
-                                e.currentTarget as HTMLElement
-                              ).style.opacity =
-                                '0.65';
-                            }}
-                            onMouseLeave={(
-                              e
-                            ) => {
-                              (
-                                e.currentTarget as HTMLElement
-                              ).style.opacity =
-                                '1';
+                              position: 'relative',
+                              aspectRatio: '4/3',
+                              overflow: 'hidden',
+                              marginBottom: 12,
+                              borderRadius: 8,
                             }}
                           >
-                            <div
+                            {article.coverImage?.url ? (
+                              <img
+                                src={article.coverImage.url}
+                                alt={getTitle(article, lang)}
+                                loading="lazy"
+                                style={{
+                                  width: '100%',
+                                  height: '100%',
+                                  objectFit: 'cover',
+                                }}
+                              />
+                            ) : (
+                              <div
+                                style={{
+                                  width: '100%',
+                                  height: '100%',
+                                  background: '#f5f0e8',
+                                }}
+                              />
+                            )}
+
+                            <span
                               style={{
-                                position:
-                                  'relative',
-                                aspectRatio:
-                                  '4/3',
-                                overflow:
-                                  'hidden',
-                                marginBottom:
-                                  12,
-                                borderRadius:
-                                  8,
+                                position: 'absolute',
+                                top: 12,
+                                left: 12,
+                                fontSize: 9,
+                                fontWeight: 600,
+                                padding: '5px 10px',
+                                background: 'rgba(255,255,255,0.9)',
+                                color: S.accent,
+                                fontFamily: S.sans,
+                                letterSpacing: '.12em',
+                                textTransform: 'uppercase',
                               }}
                             >
-                              {article
-                                .coverImage
-                                ?.url ? (
-                                <img
-                                  src={
-                                    article
-                                      .coverImage
-                                      .url
-                                  }
-                                  alt={getTitle(
-                                    article,
-                                    lang
-                                  )}
-                                  loading="lazy"
-                                  style={{
-                                    width:
-                                      '100%',
-                                    height:
-                                      '100%',
-                                    objectFit:
-                                      'cover',
-                                  }}
-                                />
-                              ) : (
-                                <div
-                                  style={{
-                                    width:
-                                      '100%',
-                                    height:
-                                      '100%',
-                                    background:
-                                      '#f5f0e8',
-                                  }}
-                                />
-                              )}
-
-                              <span
-                                style={{
-                                  position:
-                                    'absolute',
-                                  top: 12,
-                                  left: 12,
-                                  fontSize: 9,
-                                  fontWeight: 600,
-                                  padding:
-                                    '5px 10px',
-                                  background:
-                                    'rgba(255,255,255,0.9)',
-                                  color:
-                                    S.accent,
-                                  fontFamily:
-                                    S.sans,
-                                  letterSpacing:
-                                    '.12em',
-                                  textTransform:
-                                    'uppercase',
-                                }}
-                              >
-                                {cat(
-                                  article.category ||
-                                    'culture'
-                                )}
-                              </span>
-                            </div>
-
-                            <div>
-                              <p
-                                style={{
-                                  fontSize: 10,
-                                  color:
-                                    S.muted,
-                                  fontFamily:
-                                    S.sans,
-                                  letterSpacing:
-                                    '.04em',
-                                  marginBottom:
-                                    4,
-                                }}
-                              >
-                                {fmt(
-                                  article.publishedAt
-                                )}{' '}
-                                ·{' '}
-                                {mins(
-                                  article.content
-                                )}
-                                {
-                                  ui(
-                                    'readMin'
-                                  )
-                                }
-                              </p>
-
-                              <h4
-                                style={{
-                                  fontSize:
-                                    'clamp(14px, 1.4vw, 16px)',
-                                  lineHeight:
-                                    1.4,
-                                  color:
-                                    S.dark,
-                                  fontFamily:
-                                    S.serif,
-                                  fontWeight: 400,
-                                  letterSpacing:
-                                    '.01em',
-                                }}
-                              >
-                                {
-                                  getTitle(
-                                    article,
-                                    lang
-                                  )
-                                }
-                              </h4>
-                            </div>
+                              {cat(normalizeCategory(article.category))}
+                            </span>
                           </div>
-                        </SwiperSlide>
-                      )
-                    )}
+
+                          <div>
+                            <p
+                              style={{
+                                fontSize: 10,
+                                color: S.muted,
+                                fontFamily: S.sans,
+                                letterSpacing: '.04em',
+                                marginBottom: 4,
+                              }}
+                            >
+                              {fmt(article.publishedAt)} ·{' '}
+                              {mins(article.content)}
+                              {ui('readMin')}
+                            </p>
+
+                            <h4
+                              style={{
+                                fontSize: 'clamp(14px, 1.4vw, 16px)',
+                                lineHeight: 1.4,
+                                color: S.dark,
+                                fontFamily: S.serif,
+                                fontWeight: 400,
+                                letterSpacing: '.01em',
+                              }}
+                            >
+                              {getTitle(article, lang)}
+                            </h4>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
                   </Swiper>
                 </div>
               );
-            }
-          )}
+            })}
         </section>
 
         {/* ====================================================
             フッター
-            WAAI & EMOI 画像
-            ↓ ヒーローと完全に同じ CONTENT_WIDTH
         ==================================================== */}
         <footer
           style={{
             width: '100%',
-            padding:
-              'clamp(8px, 1.5vw, 24px) 0 clamp(8px, 1.5vw, 24px)',
-            background:
-              'transparent',
-            textAlign:
-              'center',
-            boxSizing:
-              'border-box',
+            padding: 'clamp(8px, 1.5vw, 24px) 0 clamp(8px, 1.5vw, 24px)',
+            background: 'transparent',
+            textAlign: 'center',
+            boxSizing: 'border-box',
           }}
         >
-          {/* 
-           * ヒーローと全く同じ幅
-           *
-           * PC → 最大1120px
-           * スマホ → 92vw
-           */}
           <div
             style={{
-              width:
-                CONTENT_WIDTH,
-              margin:
-                '0 auto',
-              boxSizing:
-                'border-box',
+              width: CONTENT_WIDTH,
+              margin: '0 auto',
+              boxSizing: 'border-box',
             }}
           >
             <img
               src="/images/waai-emoi-logo.png"
               alt="WAAI & EMOI"
               style={{
-                display:
-                  'block',
-
-                /*
-                 * 親要素いっぱいにする。
-                 * 親要素は CONTENT_WIDTH。
-                 */
+                display: 'block',
                 width: '100%',
-
-                /*
-                 * PNG本来の縦横比を維持
-                 */
                 height: 'auto',
-
-                /*
-                 * 親要素からはみ出さない
-                 */
-                maxWidth:
-                  '100%',
-
-                objectFit:
-                  'contain',
-
-                margin:
-                  '0 auto',
+                maxWidth: '100%',
+                objectFit: 'contain',
+                margin: '0 auto',
               }}
             />
           </div>
 
-          {/* コピーライト */}
           <div
             style={{
-              marginTop:
-                'clamp(-24px, -2vw, -8px)',
-              fontFamily:
-                "'Helvetica Neue', Arial, sans-serif",
-              fontSize:
-                'clamp(9px, 1.2vw, 14px)',
-              color:
-                '#888',
-              letterSpacing:
-                '0.5px',
+              marginTop: 'clamp(-24px, -2vw, -8px)',
+              fontFamily: "'Helvetica Neue', Arial, sans-serif",
+              fontSize: 'clamp(9px, 1.2vw, 14px)',
+              color: '#888',
+              letterSpacing: '0.5px',
             }}
           >
-            <span>
-              ©2026 by InnBuddy
-            </span>
+            <span>©2026 by InnBuddy</span>
           </div>
         </footer>
       </div>
 
       {/* ======================================================
-          記事詳細
+          記事詳細モーダル
       ====================================================== */}
       {sel && (
         <div
           style={{
-            position:
-              'fixed',
+            position: 'fixed',
             inset: 0,
             zIndex: 50,
-            background:
-              '#fff',
-            overflowY:
-              'auto',
+            background: '#fff',
+            overflowY: 'auto',
           }}
         >
           <button
             onClick={close}
             style={{
-              position:
-                'fixed',
+              position: 'fixed',
               top: 20,
               left: 20,
               zIndex: 60,
-              background:
-                'rgba(255,255,255,0.9)',
-              border:
-                'none',
-              padding:
-                '10px 18px',
+              background: 'rgba(255,255,255,0.9)',
+              border: 'none',
+              padding: '10px 18px',
               fontSize: 12,
-              cursor:
-                'pointer',
-              fontFamily:
-                S.sans,
-              letterSpacing:
-                '.04em',
-              color:
-                S.muted,
-              backdropFilter:
-                'blur(8px)',
+              cursor: 'pointer',
+              fontFamily: S.sans,
+              letterSpacing: '.04em',
+              color: S.muted,
+              backdropFilter: 'blur(8px)',
             }}
           >
-            {
-              ui(
-                'back'
-              )
-            }
+            {ui('back')}
           </button>
 
           <div
             style={{
-              position:
-                'relative',
-              height:
-                '55vh',
-              minHeight:
-                360,
-              overflow:
-                'hidden',
+              position: 'relative',
+              height: '55vh',
+              minHeight: 360,
+              overflow: 'hidden',
             }}
           >
-            {sel
-              .coverImage
-              ?.url ? (
+            {sel.coverImage?.url ? (
               <img
-                src={
-                  sel
-                    .coverImage
-                    .url
-                }
-                alt={getTitle(
-                  sel,
-                  lang
-                )}
+                src={sel.coverImage.url}
+                alt={getTitle(sel, lang)}
                 style={{
-                  width:
-                    '100%',
-                  height:
-                    '100%',
-                  objectFit:
-                    'cover',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
                 }}
               />
             ) : (
               <div
                 style={{
-                  width:
-                    '100%',
-                  height:
-                    '100%',
-                  background:
-                    '#f5f0e8',
+                  width: '100%',
+                  height: '100%',
+                  background: '#f5f0e8',
                 }}
               />
             )}
@@ -2413,106 +1578,61 @@ function WaTalkFullInner({
 
           <div
             style={{
-              maxWidth:
-                680,
-              margin:
-                '0 auto',
-              padding:
-                '48px 24px 80px',
+              maxWidth: 680,
+              margin: '0 auto',
+              padding: '48px 24px 80px',
             }}
           >
             <h2
               style={{
-                textAlign:
-                  'left',
-                fontSize:
-                  'clamp(24px, 3.5vw, 36px)',
-                lineHeight:
-                  1.5,
-                color:
-                  S.dark,
-                fontFamily:
-                  S.serif,
+                textAlign: 'left',
+                fontSize: 'clamp(24px, 3.5vw, 36px)',
+                lineHeight: 1.5,
+                color: S.dark,
+                fontFamily: S.serif,
                 fontWeight: 300,
-                letterSpacing:
-                  '.04em',
-                marginBottom:
-                  20,
+                letterSpacing: '.04em',
+                marginBottom: 20,
               }}
             >
-              {
-                getTitle(
-                  sel,
-                  lang
-                )
-              }
+              {getTitle(sel, lang)}
             </h2>
 
             <div
               style={{
                 fontSize: 11,
-                color:
-                  S.muted,
-                fontFamily:
-                  S.sans,
-                display:
-                  'flex',
+                color: S.muted,
+                fontFamily: S.sans,
+                display: 'flex',
                 gap: 14,
-                flexWrap:
-                  'wrap',
-                marginBottom:
-                  32,
+                flexWrap: 'wrap',
+                marginBottom: 32,
               }}
             >
+              <span>{fmt(sel.publishedAt)}</span>
               <span>
-                {fmt(
-                  sel.publishedAt
-                )}
+                {mins(sel.content)}
+                {ui('readMin')}
               </span>
-
-              <span>
-                {mins(
-                  sel.content
-                )}
-                {
-                  ui(
-                    'readMin'
-                  )
-                }
-              </span>
-
-              {sel.author && (
-                <span>
-                  {
-                    sel.author
-                  }
-                </span>
-              )}
+              {sel.author && <span>{sel.author}</span>}
             </div>
 
             <div
               style={{
                 width: 36,
                 height: 1,
-                background:
-                  S.accent,
-                marginBottom:
-                  32,
+                background: S.accent,
+                marginBottom: 32,
               }}
             />
 
             <div
               className="prose"
               style={{
-                lineHeight:
-                  1.9,
+                lineHeight: 1.9,
               }}
               dangerouslySetInnerHTML={{
-                __html:
-                  getBody(
-                    sel,
-                    lang
-                  ),
+                __html: getBody(sel, lang),
               }}
             />
           </div>
@@ -2522,27 +1642,10 @@ function WaTalkFullInner({
   );
 }
 
-/*
- * ============================================================
- * Suspense でラップした外側のコンポーネント
- * ============================================================
- *
- * URLの ?category=xxx（useSearchParams）を使うコンポーネントは、
- * Next.jsのルールで Suspense というものの内側に置く必要が
- * あります。これが無いと、カテゴリーの絞り込みが正しく
- * 効かなかったり、キャッシュのせいで前のページの内容が
- * 残って表示されてしまうことがあります。
- *
- * この対応は、このファイルの中だけで完結しています。
- * 他のファイル（page.tsxなど）は変更不要です。
- */
-export default function WaTalkFull(
-  props: WaTalkFullProps
-) {
+export default function WaTalkFull(props: WaTalkFullProps) {
   return (
     <Suspense fallback={null}>
       <WaTalkFullInner {...props} />
     </Suspense>
   );
 }
-
