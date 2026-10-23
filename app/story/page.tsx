@@ -1,6 +1,7 @@
-// app/library/story/page.tsx
 import WaTalkFull from '@/components/wa-talk/WaTalkFull';
 import { getStoryArticles } from '@/lib/microcms';
+
+export const dynamic = 'force-static';
 
 export const metadata = {
   title: 'Story | 世界から届くジャパントーク | InnBuddy',

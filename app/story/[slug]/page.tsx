@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getStoryArticles, getStoryArticleById } from '@/lib/microcms';
 
+export const dynamic = 'force-static';
+
 export async function generateStaticParams() {
   const articles = await getStoryArticles();
   return articles.map((article: any) => ({ slug: article.id }));
@@ -15,13 +17,12 @@ export default async function StoryDetailPage({ params }: { params: Promise<{ sl
   return (
     <article className="min-h-screen bg-[#fdfbf7] px-4 py-16">
       <div className="max-w-3xl mx-auto">
-        <Link href="/library/story" className="inline-block mb-6 text-sm text-foreground/60 hover:text-foreground">
+        <Link href="/story" className="inline-block mb-6 text-sm text-foreground/60 hover:text-foreground">
           ← ストーリー一覧に戻る
         </Link>
 
         <p className="text-xs text-foreground/50 mb-2">{article.publishedAt}</p>
 
-        {/* ★ タイトル：style で強制的に黒色・中央揃えに */}
         <h1
           className="font-serif font-light text-3xl md:text-4xl mb-8"
           style={{ color: '#1a1a1a', textAlign: 'center' }}
@@ -31,7 +32,7 @@ export default async function StoryDetailPage({ params }: { params: Promise<{ sl
 
         {article.category && (
           <span className="inline-block mb-4 text-xs text-accent-rust/60 border border-accent-rust/20 px-2 py-0.5 rounded">
-            {article.category}
+            {typeof article.category === 'object' ? article.category.name : article.category}
           </span>
         )}
 
