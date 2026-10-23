@@ -18,7 +18,6 @@ const slides = [
   { src: '/library/halal/hero-castle.png', alt: '大阪城を背景に記念撮影する旅行者たち' },
 ]
 
-// ▼ 右側ナビゲーションのテキストをいただいた内容に変更（改行\n入り） ▼
 const halalBoxItems = [
   {
     title: 'ムスリムフレンドリー実践マニュアル',
@@ -48,6 +47,7 @@ export default function HalalPage() {
   const [ratio, setRatio] = useState<string>('')
   const [selectedNationalities, setSelectedNationalities] = useState<string[]>([])
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   useEffect(() => {
     setIsMounted(true)
@@ -77,10 +77,41 @@ export default function HalalPage() {
     }
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log('送信データ:', { ratio, selectedNationalities })
-    setIsSubmitted(true)
+    setIsSubmitting(true)
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    const payload = {
+      downloadType: 'halal',
+      facilityName: formData.get('facilityName') as string,
+      contactName: formData.get('representativeName') as string,
+      email: formData.get('email') as string,
+      phone: formData.get('phone') as string,
+      address: formData.get('address') as string,
+      ratio: ratio,
+      nationalities: selectedNationalities.join(' / '),
+    }
+
+    try {
+      const res = await fetch('/api/download', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+
+      if (!res.ok) {
+        throw new Error('送信に失敗しました')
+      }
+
+      setIsSubmitted(true)
+    } catch (error) {
+      console.error('送信エラー', error)
+      alert('通信エラーが発生しました。もう一度お試しください。')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
@@ -173,7 +204,6 @@ export default function HalalPage() {
                 </button>
               ))}
             </div>
-            {/* ▼ 幅を 320px に広げ、改行（whitespace-pre-wrap）が効くように修正 ▼ */}
             <div className="mt-6 max-w-[320px] min-h-[120px]">
               <p className="text-xs leading-relaxed text-white/80 animate-in fade-in slide-in-from-right-4 duration-500 whitespace-pre-wrap" key={selectedBoxItem.title}>
                 {selectedBoxItem.description}
@@ -313,7 +343,7 @@ export default function HalalPage() {
           
           <div className="relative w-full max-w-3xl bg-[#fcfbf9] text-[#111] p-8 md:p-12 shadow-2xl rounded-sm my-auto animate-in fade-in zoom-in-95 duration-200">
             
-            <button 
+            <button
               onClick={() => setShowForm(false)}
               className="absolute top-4 right-4 p-2 text-[#999] hover:text-[#111] transition-colors rounded-full hover:bg-black/5"
               aria-label="閉じる"
@@ -329,15 +359,14 @@ export default function HalalPage() {
                 <h2 className="text-2xl md:text-3xl font-serif mb-4">ご入力ありがとうございました。</h2>
                 
                 <p className="text-sm md:text-base text-[#666] mb-8 leading-relaxed">
-                  以下のボタンより、各資料をご自由にダウンロードいただけます。<br/>
-                  <span className="text-xs">（※ご登録いただいたメールアドレス宛にもリンクをお送りいたしました）</span>
+                  以下のボタンより、各資料をご自由にダウンロードいただけます。
                 </p>
 
                 {/* 個別ダウンロードボタンのリスト */}
                 <div className="flex flex-col gap-3 mb-10 w-full max-w-md mx-auto">
-                  <a 
-                    href="/library/halal/halal-box/ハラル市場レポート＆ムスリムフレンドリー実践マニュアル.pdf" 
-                    download 
+                  <a
+                    href="/library/halal/halal-box/ハラル市場レポート＆ムスリムフレンドリー実践マニュアル.pdf"
+                    download
                     className="flex items-center justify-between bg-white hover:bg-[#f2f7f4] text-[#2D4F36] p-5 border border-[#2D4F36]/20 transition-colors rounded-sm shadow-sm"
                   >
                     <div className="flex items-center gap-3">
@@ -347,9 +376,9 @@ export default function HalalPage() {
                     <Download className="w-5 h-5 shrink-0 opacity-50" />
                   </a>
 
-                  <a 
-                    href="/library/halal/halal-box/チェックシート_日英併記.pdf" 
-                    download 
+                  <a
+                    href="/library/halal/halal-box/チェックシート_日英併記.pdf"
+                    download
                     className="flex items-center justify-between bg-white hover:bg-[#f2f7f4] text-[#2D4F36] p-5 border border-[#2D4F36]/20 transition-colors rounded-sm shadow-sm"
                   >
                     <div className="flex items-center gap-3">
@@ -359,9 +388,9 @@ export default function HalalPage() {
                     <Download className="w-5 h-5 shrink-0 opacity-50" />
                   </a>
 
-                  <a 
-                    href="/library/halal/halal-box/カスタマーフィードバックシート_日英併記.pdf" 
-                    download 
+                  <a
+                    href="/library/halal/halal-box/カスタマーフィードバックシート_日英併記.pdf"
+                    download
                     className="flex items-center justify-between bg-white hover:bg-[#f2f7f4] text-[#2D4F36] p-5 border border-[#2D4F36]/20 transition-colors rounded-sm shadow-sm"
                   >
                     <div className="flex items-center gap-3">
@@ -390,27 +419,27 @@ export default function HalalPage() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="facilityName" className="text-xs font-semibold text-[#333]">施設名 <span className="text-[#d95338]">*</span></Label>
-                      <Input id="facilityName" required placeholder="例: ホテル インバディ" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
+                      <Input id="facilityName" name="facilityName" required placeholder="例: ホテル インバディ" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="representativeName" className="text-xs font-semibold text-[#333]">ご担当者名 <span className="text-[#d95338]">*</span></Label>
-                      <Input id="representativeName" required placeholder="例: 旅行 太郎" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
+                      <Input id="representativeName" name="representativeName" required placeholder="例: 旅行 太郎" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
                     </div>
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="address" className="text-xs font-semibold text-[#333]">ご住所 <span className="text-[#d95338]">*</span></Label>
-                    <Input id="address" required placeholder="例: 東京都渋谷区〇〇1-2-3" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
+                    <Input id="address" name="address" required placeholder="例: 東京都渋谷区〇〇1-2-3" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="email" className="text-xs font-semibold text-[#333]">メールアドレス <span className="text-[#d95338]">*</span></Label>
-                      <Input id="email" type="email" required placeholder="example@innbuddy.com" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
+                      <Input id="email" name="email" type="email" required placeholder="example@innbuddy.com" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="phone" className="text-xs font-semibold text-[#333]">電話番号 <span className="text-[#d95338]">*</span></Label>
-                      <Input id="phone" type="tel" required placeholder="03-1234-5678" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
+                      <Input id="phone" name="phone" type="tel" required placeholder="03-1234-5678" className="rounded-none border-[#ccc] focus-visible:ring-[#2D4F36] py-6" />
                     </div>
                   </div>
 
@@ -422,6 +451,7 @@ export default function HalalPage() {
                       <div className="relative">
                         <select
                           id="ratio"
+                          name="ratio"
                           value={ratio}
                           onChange={(e) => setRatio(e.target.value)}
                           required
@@ -443,8 +473,8 @@ export default function HalalPage() {
                       <div className="grid grid-cols-2 md:grid-cols-3 gap-y-5 gap-x-2 bg-[#f9f9f9] p-6 border border-[#eee]">
                         {nationalitiesList.map((country) => (
                           <div key={country} className="flex items-center space-x-3">
-                            <Checkbox 
-                              id={country} 
+                            <Checkbox
+                              id={country}
                               className="border-[#999] rounded-[2px] data-[state=checked]:bg-[#2D4F36] data-[state=checked]:text-white w-5 h-5"
                               onCheckedChange={(checked) => handleNationalityChange(country, checked as boolean)}
                             />
@@ -461,9 +491,19 @@ export default function HalalPage() {
                   </div>
 
                   <div className="pt-6">
-                    <Button type="submit" className="w-full bg-[#2D4F36] hover:bg-[#1a3020] text-white rounded-none py-8 text-base tracking-[0.2em] font-medium uppercase transition-colors flex items-center justify-center gap-2">
-                      <Download className="w-5 h-5" />
-                      ハラルBOXをダウンロード
+                    <Button
+                      type="submit"
+                      disabled={isSubmitting}
+                      className="w-full bg-[#2D4F36] hover:bg-[#1a3020] text-white rounded-none py-8 text-base tracking-[0.2em] font-medium uppercase transition-colors flex items-center justify-center gap-2"
+                    >
+                      {isSubmitting ? (
+                        '送信中...'
+                      ) : (
+                        <>
+                          <Download className="w-5 h-5" />
+                          ハラルBOXをダウンロード
+                        </>
+                      )}
                     </Button>
                   </div>
                 </form>

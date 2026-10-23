@@ -5,45 +5,45 @@ import { createPortal } from 'react-dom'
 import { ArrowDown, Download, X, CheckSquare, FileText, Table, ExternalLink, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react'
 
 const papers = [
-  { 
-    title: 'インバウンド攻略マニュアル', 
+  {
+    title: 'インバウンド攻略マニュアル',
     catchcopyNode: (
       <span className="text-[#111111] font-bold text-sm md:text-base">
         これ一冊でインバウンドの今を<br />
         <strong className="text-base md:text-lg font-black text-[#111111]">数字</strong>で把握
       </span>
     ),
-    text: 'インバウンド市場の動向から実践的な受け入れノウハウまでを網羅', 
+    text: 'インバウンド市場の動向から実践的な受け入れノウハウまでを網羅',
     filename: 'InnBuddy_インバウンドガイドブック2026.pdf',
   },
-  { 
-    title: 'フロント接客翻訳', 
+  {
+    title: 'フロント接客翻訳',
     catchcopyNode: (
       <span className="text-[#111111] font-bold text-sm md:text-base">
         <strong className="text-lg md:text-2xl font-black text-[#111111]">200</strong>パターン×重要<strong className="text-lg md:text-2xl font-black text-[#111111]">19</strong>言語
       </span>
     ),
-    text: 'チェックインから周辺案内まで、フロント業務で必須の多言語対応シート', 
+    text: 'チェックインから周辺案内まで、フロント業務で必須の多言語対応シート',
     filename: 'フロント接客翻訳_19言語対応版.xlsx',
   },
-  { 
-    title: '多言語接客フレーズ集', 
+  {
+    title: '多言語接客フレーズ集',
     catchcopyNode: (
       <span className="text-[#111111] font-bold text-sm md:text-base">
         <strong className="text-lg md:text-2xl font-black text-[#111111]">1000</strong>パターン×重要<strong className="text-lg md:text-2xl font-black text-[#111111]">19</strong>言語
       </span>
     ),
-    text: '現場のあらゆるシーンで役立つ、やさしい多言語フレーズ集', 
+    text: '現場のあらゆるシーンで役立つ、やさしい多言語フレーズ集',
     filename: '多言語接客フレーズ集_19言語対応版.xlsx',
   },
-  { 
-    title: 'コメント返信翻訳', 
+  {
+    title: 'コメント返信翻訳',
     catchcopyNode: (
       <span className="text-[#111111] font-bold text-sm md:text-base">
         <strong className="text-lg md:text-2xl font-black text-[#111111]">300</strong>パターン×重要<strong className="text-lg md:text-2xl font-black text-[#111111]">19</strong>言語
       </span>
     ),
-    text: '感謝と誠意を届ける、多言語レビュー返信テンプレート', 
+    text: '感謝と誠意を届ける、多言語レビュー返信テンプレート',
     filename: 'コメント返信翻訳_19言語対応版.xlsx',
   },
 ]
@@ -106,7 +106,6 @@ export default function InboundPage() {
   const [showForm, setShowForm] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
-  
   const [ratio, setRatio] = useState<string>('')
   const [selectedNationalities, setSelectedNationalities] = useState<string[]>([])
 
@@ -142,27 +141,32 @@ export default function InboundPage() {
     const form = e.currentTarget
     const formData = new FormData(form)
 
-    formData.append('ratio', ratio)
-    formData.append('nationalities', selectedNationalities.join(' / '))
+    const payload = {
+      downloadType: 'inbound',
+      facilityName: formData.get('facilityName') as string,
+      contactName: formData.get('representativeName') as string,
+      email: formData.get('email') as string,
+      phone: formData.get('phone') as string,
+      address: formData.get('address') as string,
+      ratio: ratio,
+      nationalities: selectedNationalities.join(' / '),
+    }
 
     try {
-      // =========================================================================
-      // ★ご自身のGAS URLをここに貼り付けてください★
-      const GAS_URL = '★ここにGASのURLを貼り付けてください★'
-      // =========================================================================
+      const res = await fetch('/api/download', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
 
-      if (GAS_URL.startsWith('http')) {
-        await fetch(GAS_URL, {
-          method: 'POST',
-          body: formData,
-          mode: 'no-cors',
-        })
+      if (!res.ok) {
+        throw new Error('送信に失敗しました')
       }
-      
+
       setIsSubmitted(true)
     } catch (error) {
       console.error('送信エラー', error)
-      alert('通信エラーが発生しました。')
+      alert('通信エラーが発生しました。もう一度お試しください。')
     } finally {
       setIsSubmitting(false)
     }
@@ -216,7 +220,7 @@ export default function InboundPage() {
                   <span className="hidden text-4xl font-light md:block">04</span>
                 </div>
                 
-                {/* 6行メッセージ（枠なし・白文字・右詰め） */}
+                {/* 6行メッセージ */}
                 <div className="mt-3 text-[11px] md:text-xs leading-relaxed text-white text-right space-y-1 font-medium drop-shadow-sm">
                   <p>言葉の壁を、人の温かさで超える。</p>
                   <p>AIじゃできない「人の接客」を取り戻す。</p>
@@ -228,8 +232,8 @@ export default function InboundPage() {
               </div>
               
               {/* 黒のネオンBOXボタン */}
-              <button 
-                onClick={handleDownloadClick} 
+              <button
+                onClick={handleDownloadClick}
                 className="mt-3 inline-flex items-center gap-2.5 bg-[#0a0a0a] text-white border border-[#ff6a00] px-6 py-3 text-xs font-bold tracking-[0.15em] shadow-[0_0_20px_rgba(255,106,0,0.5)] hover:shadow-[0_0_30px_rgba(255,106,0,0.85)] hover:border-[#ff8800] hover:scale-[1.02] transition-all duration-300 cursor-pointer w-fit"
               >
                 <span className="drop-shadow-[0_0_8px_rgba(255,106,0,0.9)]">30秒で一括ダウンロード</span>
@@ -398,8 +402,8 @@ export default function InboundPage() {
           </div>
 
           <div className="mt-12 text-center">
-            <button 
-              onClick={handleDownloadClick} 
+            <button
+              onClick={handleDownloadClick}
               className="inline-flex items-center gap-3 bg-[#0a0a0a] text-white border border-[#ff6a00] px-8 py-4 text-xs md:text-sm font-bold tracking-[0.15em] shadow-[0_0_20px_rgba(255,106,0,0.5)] hover:shadow-[0_0_30px_rgba(255,106,0,0.85)] hover:border-[#ff8800] hover:scale-[1.02] transition-all duration-300 cursor-pointer"
             >
               <span className="drop-shadow-[0_0_8px_rgba(255,106,0,0.9)]">今すぐ4つの武器を無料ダウンロード</span>
@@ -411,8 +415,8 @@ export default function InboundPage() {
         {/* =========================================================
             6ページ目：時空の歪みポータルデザイン
         ========================================================= */}
-        <section 
-          id="download" 
+        <section
+          id="download"
           className="grid border-b border-black/40 md:grid-cols-[1fr_1fr] relative overflow-hidden text-white"
           style={{
             background: 'radial-gradient(circle at 75% 50%, #f47735 0%, #b84417 22%, #4a1509 45%, #180803 70%, #050505 100%)',
@@ -436,15 +440,14 @@ export default function InboundPage() {
               明日からの接客を変える、さらなるステップへ。
             </p>
 
-            {/* 枠なし・純白文字×オレンジネオングロー効果 */}
             <div className="flex flex-col gap-6 w-full pt-2">
-              <a 
-                href="https://timerex.net/s/InnBuddy_ESG/386fd946/" 
-                target="_blank" 
+              <a
+                href="https://timerex.net/s/InnBuddy_ESG/386fd946/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-between border-b border-[#ff6a00]/40 pb-3.5 transition-all duration-300 hover:border-[#ff6a00] cursor-pointer"
               >
-                <span 
+                <span
                   className="text-sm md:text-lg font-black tracking-[0.15em] text-white transition-all duration-300 group-hover:scale-[1.01]"
                   style={{
                     color: '#ffffff',
@@ -454,19 +457,19 @@ export default function InboundPage() {
                 >
                   海外からの集客を強化したい方はこちら
                 </span>
-                <ExternalLink 
-                  className="w-5 h-5 text-white transition-transform duration-300 group-hover:translate-x-1.5 shrink-0" 
+                <ExternalLink
+                  className="w-5 h-5 text-white transition-transform duration-300 group-hover:translate-x-1.5 shrink-0"
                   style={{ filter: 'drop-shadow(0 0 8px #ff5500)' }}
                 />
               </a>
 
-              <a 
-                href="https://innbuddy-japan.com/halal" 
-                target="_blank" 
+              <a
+                href="https://innbuddy-japan.com/halal"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-between border-b border-[#ff6a00]/40 pb-3.5 transition-all duration-300 hover:border-[#ff6a00] cursor-pointer"
               >
-                <span 
+                <span
                   className="text-sm md:text-lg font-black tracking-[0.15em] text-white transition-all duration-300 group-hover:scale-[1.01]"
                   style={{
                     color: '#ffffff',
@@ -476,8 +479,8 @@ export default function InboundPage() {
                 >
                   ハラル理解を深めたい方はこちら
                 </span>
-                <ExternalLink 
-                  className="w-5 h-5 text-white transition-transform duration-300 group-hover:translate-x-1.5 shrink-0" 
+                <ExternalLink
+                  className="w-5 h-5 text-white transition-transform duration-300 group-hover:translate-x-1.5 shrink-0"
                   style={{ filter: 'drop-shadow(0 0 8px #ff5500)' }}
                 />
               </a>
@@ -491,18 +494,18 @@ export default function InboundPage() {
             <span>© InnBuddy 2026</span>
           </div>
           <div className="flex items-center gap-6">
-            <a 
-              href="https://innbuddy-japan.com/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://innbuddy-japan.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#ed6a2b] transition-colors flex items-center gap-1"
             >
               ブランドページ <ExternalLink className="w-3.5 h-3.5" />
             </a>
-            <a 
-              href="https://innbuddy-japan.com/contact" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://innbuddy-japan.com/contact"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#ed6a2b] transition-colors flex items-center gap-1"
             >
               お問い合わせ <ExternalLink className="w-3.5 h-3.5" />
@@ -542,9 +545,9 @@ export default function InboundPage() {
             position: 'relative',
             margin: 'auto'
           }}>
-            <button 
+            <button
               type="button"
-              onClick={() => setShowForm(false)} 
+              onClick={() => setShowForm(false)}
               style={{
                 position: 'absolute',
                 top: '12px',
@@ -584,10 +587,10 @@ export default function InboundPage() {
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '20px' }}>
                   {papers.map((paper) => (
-                    <a 
+                    <a
                       key={paper.title}
                       href={`/library/inbound/inbound-box/${paper.filename}`}
-                      download 
+                      download
                       style={{
                         display: 'flex',
                         alignItems: 'center',
@@ -608,9 +611,9 @@ export default function InboundPage() {
                   ))}
                 </div>
 
-                <button 
+                <button
                   type="button"
-                  onClick={() => setShowForm(false)} 
+                  onClick={() => setShowForm(false)}
                   style={{
                     backgroundColor: '#e5e5e5',
                     color: '#333333',
@@ -635,19 +638,19 @@ export default function InboundPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                     <div>
                       <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>施設名 <span style={{ color: 'red' }}>*</span></label>
-                      <input 
-                        name="facilityName" 
-                        required 
-                        placeholder="例: ホテル インバディ" 
+                      <input
+                        name="facilityName"
+                        required
+                        placeholder="例: ホテル インバディ"
                         style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
                       />
                     </div>
                     <div>
                       <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>ご担当者名 <span style={{ color: 'red' }}>*</span></label>
-                      <input 
-                        name="representativeName" 
-                        required 
-                        placeholder="例: 旅行 太郎" 
+                      <input
+                        name="representativeName"
+                        required
+                        placeholder="例: 旅行 太郎"
                         style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
                       />
                     </div>
@@ -656,21 +659,21 @@ export default function InboundPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                     <div>
                       <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>メールアドレス <span style={{ color: 'red' }}>*</span></label>
-                      <input 
-                        name="email" 
-                        type="email" 
-                        required 
-                        placeholder="example@innbuddy.com" 
+                      <input
+                        name="email"
+                        type="email"
+                        required
+                        placeholder="example@innbuddy.com"
                         style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
                       />
                     </div>
                     <div>
                       <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>電話番号 <span style={{ color: 'red' }}>*</span></label>
-                      <input 
-                        name="phone" 
-                        type="tel" 
-                        required 
-                        placeholder="03-1234-5678" 
+                      <input
+                        name="phone"
+                        type="tel"
+                        required
+                        placeholder="03-1234-5678"
                         style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
                       />
                     </div>
@@ -679,20 +682,20 @@ export default function InboundPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                     <div>
                       <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>ご住所 <span style={{ color: 'red' }}>*</span></label>
-                      <input 
-                        name="address" 
-                        required 
-                        placeholder="例: 東京都渋谷区〇〇1-2-3" 
+                      <input
+                        name="address"
+                        required
+                        placeholder="例: 東京都渋谷区〇〇1-2-3"
                         style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
                       />
                     </div>
                     <div>
                       <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>外国人宿泊比率 <span style={{ color: 'red' }}>*</span></label>
-                      <select 
-                        name="ratio" 
-                        value={ratio} 
-                        onChange={(e) => setRatio(e.target.value)} 
-                        required 
+                      <select
+                        name="ratio"
+                        value={ratio}
+                        onChange={(e) => setRatio(e.target.value)}
+                        required
                         style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box', cursor: 'pointer' }}
                       >
                         <option value="" disabled>選択してください</option>
@@ -706,7 +709,7 @@ export default function InboundPage() {
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '8px 4px', backgroundColor: '#f9f9f9', padding: '10px', border: '1px solid #eee' }}>
                       {nationalitiesList.map((country) => (
                         <label key={country} style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer', fontSize: '10px', color: '#333' }}>
-                          <input 
+                          <input
                             type="checkbox"
                             value={country}
                             onChange={(e) => handleNationalityChange(country, e.target.checked)}
@@ -719,9 +722,9 @@ export default function InboundPage() {
                   </div>
 
                   <div style={{ paddingTop: '8px' }}>
-                    <button 
-                      type="submit" 
-                      disabled={isSubmitting} 
+                    <button
+                      type="submit"
+                      disabled={isSubmitting}
                       style={{
                         width: '100%',
                         height: '42px',
