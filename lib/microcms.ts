@@ -1,12 +1,16 @@
 import { createClient } from 'microcms-js-sdk';
 
+const serviceDomain = process.env.MICROCMS_SERVICE_DOMAIN || 'innbuddy';
+const apiKey = process.env.MICROCMS_API_KEY || '';
+
 let client: ReturnType<typeof createClient> | null = null;
 
 function getClient() {
   if (!client) {
+    console.log(`[microCMS Build] Domain: ${serviceDomain}, API Key Length: ${apiKey ? apiKey.length : 0}`);
     client = createClient({
-      serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN || 'dummy',
-      apiKey: process.env.MICROCMS_API_KEY || 'dummy',
+      serviceDomain,
+      apiKey: apiKey || 'dummy',
     });
   }
   return client;
@@ -15,9 +19,10 @@ function getClient() {
 export const getStoryArticles = async () => {
   try {
     const data = await getClient().get({ endpoint: 'story' });
+    console.log(`[microCMS Build] Successfully fetched ${data.contents.length} articles`);
     return data.contents;
-  } catch (error) {
-    console.warn('microCMS fetch error (build safe fallback):', error);
+  } catch (error: any) {
+    console.error('[microCMS Build Error]:', error?.message || error);
     return [];
   }
 };
@@ -34,8 +39,8 @@ export const getWaTalkArticles = async () => {
       queries: { limit: 50, orders: '-publishedAt' },
     });
     return data.contents;
-  } catch (error) {
-    console.warn('microCMS fetch error (build safe fallback):', error);
+  } catch (error: any) {
+    console.error('[microCMS Build Error]:', error?.message || error);
     return [];
   }
 };
