@@ -3,9 +3,9 @@ import WaTalkFull from '@/components/wa-talk/WaTalkFull';
 import { createClient } from 'microcms-js-sdk';
 
 const client = createClient({
-  serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN!,
-  apiKey: process.env.MICROCMS_API_KEY!,
-});
+  serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN || 'dummy',
+  apiKey: process.env.MICROCMS_API_KEY || 'dummy',
+})
 
 async function getArticles() {
   const data = await client.getList({
