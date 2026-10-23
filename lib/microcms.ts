@@ -5,16 +5,21 @@ let client: ReturnType<typeof createClient> | null = null;
 function getClient() {
   if (!client) {
     client = createClient({
-      serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN!,
-      apiKey: process.env.MICROCMS_API_KEY!,
+      serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN || 'dummy',
+      apiKey: process.env.MICROCMS_API_KEY || 'dummy',
     });
   }
   return client;
 }
 
 export const getStoryArticles = async () => {
-  const data = await getClient().get({ endpoint: 'story' });
-  return data.contents;
+  try {
+    const data = await getClient().get({ endpoint: 'story' });
+    return data.contents;
+  } catch (error) {
+    console.warn('microCMS fetch error (build safe fallback):', error);
+    return [];
+  }
 };
 
 export const getStoryArticleById = async (id: string) => {
@@ -23,9 +28,14 @@ export const getStoryArticleById = async (id: string) => {
 };
 
 export const getWaTalkArticles = async () => {
-  const data = await getClient().get({
-    endpoint: 'story',
-    queries: { limit: 50, orders: '-publishedAt' },
-  });
-  return data.contents;
+  try {
+    const data = await getClient().get({
+      endpoint: 'story',
+      queries: { limit: 50, orders: '-publishedAt' },
+    });
+    return data.contents;
+  } catch (error) {
+    console.warn('microCMS fetch error (build safe fallback):', error);
+    return [];
+  }
 };
