@@ -2,8 +2,8 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "build": "next build",
+ "scripts": {
+    "build": "opennextjs-cloudflare build",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint .",
