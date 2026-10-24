@@ -1,0 +1,13 @@
+packages:
+  - '.'
+
+overrides:
+  hono: '4.12.25'
+
+onlyBuiltDependencies:
+  - esbuild
+  - workerd
+
+allowBuilds:
+  esbuild: set this to true or false
+  workerd: set this to true or false

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import articlesData from "@/data/sustainablearticles.json";
 import "./articles.css";
+import SdgBottomNav, { SDG_GOALS } from "./SdgBottomNav";
 
 interface ArticleMeta {
   id: string;
@@ -54,7 +55,6 @@ function ArticlesContent() {
   const [query, setQuery] = useState("");
   const [selectedGoal, setSelectedGoal] = useState("ALL");
 
-  // URLクエリパラメータの初期同期
   useEffect(() => {
     const qParam = searchParams.get("q");
     const goalParam = searchParams.get("goal");
@@ -338,19 +338,23 @@ function ArticlesContent() {
           </div>
         )}
       </section>
+
+      {/* ★ スマホ用 SDGs ボトムナビ（一覧内での即時絞り込みに対応） ★ */}
+      <SdgBottomNav onSelectGoal={(goal) => setSelectedGoal(goal)} />
     </>
   );
 }
 
 export default function SustainableArticlesHomePage() {
   return (
-    <div className="articles-portal">
+    <div className="articles-portal pb-16 md:pb-0">
       <nav className="floating-sub-nav" aria-label="サイトナビゲーション">
         <Link href="/sustainable" className="brand-tag">
           HOTEL <span>×</span> SDGs 2030
         </Link>
+        {/* ★ 「特設LPトップへ戻る」を「トップに戻る」に変更 ★ */}
         <Link href="/sustainable" className="nav-back-link">
-          ← 特設LPトップへ戻る
+          ← トップに戻る
         </Link>
       </nav>
 

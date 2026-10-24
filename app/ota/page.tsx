@@ -1,791 +1,1074 @@
 'use client'
 
 import React, { useState } from 'react'
-import './ota.css'
+import Link from 'next/link'
+import {
+  Building2,
+  Calendar,
+  DollarSign,
+  Layers,
+  Megaphone,
+  Image as ImageIcon,
+  Star,
+  MessageSquare,
+  TrendingUp,
+  Search,
+  Users,
+  CheckCircle2,
+  HelpCircle,
+  ArrowRight,
+  ChevronDown,
+  ChevronUp,
+  Send,
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+  FileText,
+  Sparkles,
+  ShieldCheck,
+  Globe,
+  BookOpen
+} from 'lucide-react'
 
-/* ===================================================
-   売上期待値測定モーダル（完全内蔵型）
-=================================================== */
-function RevenueDiagnosticModalView({ onClose }: { onClose: () => void }) {
-  const [roomCount, setRoomCount] = useState<string>('')
-  const [adr, setAdr] = useState<string>('')
-  const [occupancy, setOccupancy] = useState<number>(50)
-  const [selectedOtas, setSelectedOtas] = useState<string[]>([])
-
-  const otaList = [
-    '自社WEB', '楽天トラベル', 'じゃらん', '一休', 'Yahoo!トラベル',
-    'るるぶトラベル', 'Booking.com', 'Expedia', 'Agoda', 'Airbnb',
-    'Hotels.com', 'Trip.com', 'Meituan', 'Fliggy', 'Qunar', 'Klook', 'KKday',
-  ]
-
-  const toggleOta = (name: string) => {
-    if (selectedOtas.includes(name)) {
-      setSelectedOtas(selectedOtas.filter((x) => x !== name))
-    } else {
-      if (selectedOtas.length < 3) {
-        setSelectedOtas([...selectedOtas, name])
-      } else {
-        alert('メイン利用OTAは最大3つまで選択可能です。')
-      }
-    }
+// 11の業務データ
+const scopeItems = [
+  {
+    id: 1,
+    icon: Building2,
+    title: 'アカウント・掲載情報',
+    tag: '基盤構築',
+    desc: 'OTA各社（楽天、じゃらん、一休、Booking.com、Expedia等）の管理画面設定、施設基本情報、客室情報、設備・サービス情報の最適化・最新化を行います。',
+    details: [
+      '施設概要・アピールポイントのブラッシュアップ',
+      '客室タイプ・アメニティ情報の正確な掲載',
+      'キャンセルポリシー・注意事項の明記',
+      'チェックイン・アウト等オペレーション情報の整備'
+    ]
+  },
+  {
+    id: 2,
+    icon: Calendar,
+    title: '宿泊プラン',
+    tag: '販売戦略',
+    desc: 'ターゲット層や季節に合わせた魅力的なプランの企画・作成・販売停止・期間設定まで一貫して行います。',
+    details: [
+      '季節限定プラン・早期予約特典プランの設計',
+      'ファミリー・カップル・ビジネス等セグメント別プラン',
+      '食事条件（朝食付・2食付・素泊まり）のバリエーション構築',
+      'プランタイトルのSEO・キーワード最適化'
+    ]
+  },
+  {
+    id: 3,
+    icon: DollarSign,
+    title: '料金設定',
+    tag: '収益最大化',
+    desc: '日々の需要動向、競合価格、自施設の稼働状況を分析し、最適な宿泊料金への調整（レベニューマネジメント）を行います。',
+    details: [
+      '平日・休前日・ハイシーズンのダイナミックプライシング',
+      '直前割引・直前料金のコントロール',
+      '競合施設の価格動向モニタリング',
+      '最低宿泊料金・会員限定価格の設定'
+    ]
+  },
+  {
+    id: 4,
+    icon: Layers,
+    title: '客室・在庫管理',
+    tag: '稼働率向上',
+    desc: 'サイトコントローラー（Beds24、TL-リンカーン、手間いらず等）を活用し、売り越しや在庫の滞留を防ぎながら稼働率を最大化します。',
+    details: [
+      '各OTAへの客室在庫の最適配分',
+      '連泊制限・最低宿泊日数（ミニマムステイ）の調整',
+      '直前キャンセルの即時再販設定',
+      'オーバーブッキング防止策の徹底'
+    ]
+  },
+  {
+    id: 5,
+    icon: Megaphone,
+    title: 'キャンペーン・特集',
+    tag: '露出強化',
+    desc: '楽天スーパーSALE、じゃらんのお得な10日間、Booking.com Geniusプログラムなど、各OTAのセール・特集への参画を管理します。',
+    details: [
+      '各OTAのセールスケジュールの把握と参画エントリー',
+      '特集ページへの露出枠の確保',
+      '割引原資と利益率のバランス調整',
+      'セール終了後の効果測定と検証'
+    ]
+  },
+  {
+    id: 6,
+    icon: ImageIcon,
+    title: '画像・ビジュアル',
+    tag: '成約率UP',
+    desc: '写真の選定、並び替え、キャプション設定を行い、旅行者の離脱を防ぎ「泊まりたい」と思わせるビジュアルを構築します。',
+    details: [
+      'メイン画像・客室画像の優先順位最適化',
+      '料理・風呂・施設周辺の魅力的な写真構成',
+      '多言語対応を意識した写真選定',
+      '画像ごとの説明文（キャプション）の充実'
+    ]
+  },
+  {
+    id: 7,
+    icon: Star,
+    title: '口コミ・レビュー',
+    tag: '信頼性向上',
+    desc: '全OTAに届く口コミの返信代行・返信文テンプレート作成、低評価レビューへの迅速な対応と現場への改善フィードバックを行います。',
+    details: [
+      '高評価への感謝と再訪を促す丁寧な返信',
+      'クレーム・低評価への誠実かつ的確な対応文作成',
+      '18言語対応によるインバウンド客への母国語返信',
+      '口コミから見える現場の課題レポート共有'
+    ]
+  },
+  {
+    id: 8,
+    icon: MessageSquare,
+    title: 'メッセージ・問い合わせ',
+    tag: '顧客体験',
+    desc: '宿泊前・宿泊後のゲストからの問い合わせ対応、自動送信メッセージ（ウェルカムメール・サンクスメール）の設定を行います。',
+    details: [
+      'チェックイン手順・アクセス案内の自動配信',
+      '多言語での定型メッセージテンプレート構築',
+      '特別リクエスト（アレルギー、記念日等）の確認連携',
+      '忘れ物やチェックアウト後のフォロー対応'
+    ]
+  },
+  {
+    id: 9,
+    icon: TrendingUp,
+    title: '販売状況分析',
+    tag: 'データ経営',
+    desc: '予約実績、客室単価（ADR）、RevPAR、キャンセル率などのデータを分析し、改善ポイントを可視化します。',
+    details: [
+      '週次・月次の売上・稼働率・単価レポート作成',
+      'リードタイム（予約から宿泊までの期間）の分析',
+      '販売チャネル（OTA別）のシェア・費用対効果検証',
+      '翌月・翌々月の予約ペース（オンハンド）の把握'
+    ]
+  },
+  {
+    id: 10,
+    icon: Search,
+    title: '競合・市場調査',
+    tag: '差別化',
+    desc: 'エリア内の競合施設の販売動向、地域イベント、季節要因を定点観測し、自施設が埋もれないポジショニングを保ちます。',
+    details: [
+      '競合施設のプラン・価格・打ち出し方の定期調査',
+      '地域イベント・コンサート・学会等の日程・需要把握',
+      'OTA内での自施設の検索順位モニタリング',
+      '競合との差別化ポイントの再定義'
+    ]
+  },
+  {
+    id: 11,
+    icon: Users,
+    title: '報告・ミーティング',
+    tag: '伴走体制',
+    desc: '月1回の定例ミーティングとチャットツール（LINE、Slack等）での日常的な連絡により、現場と一体となった運用体制を築きます。',
+    details: [
+      '月次報告書に基づく実績の振り返りと次月方針の共有',
+      '現場スタッフ様とのチャットによる迅速な質疑応答',
+      '急な空室対策やトラブル時の緊急対応相談',
+      '中長期的な改装・設備投資に関する相談'
+    ]
   }
-
-  return (
-    <div className="rev-modal-container">
-      <div className="rev-modal-nav">
-        <button type="button" className="rev-back-btn" onClick={onClose}>
-          ← 前のページに戻る
-        </button>
-        <button type="button" className="rev-close-icon" onClick={onClose} aria-label="閉じる">
-          ✕
-        </button>
-      </div>
-
-      <h2 className="rev-modal-heading">売上期待値測定</h2>
-
-      <div className="rev-modal-form">
-        <div className="rev-input-group">
-          <label className="rev-label">総客室数</label>
-          <input
-            type="number"
-            placeholder="例: 15"
-            value={roomCount}
-            onChange={(e) => setRoomCount(e.target.value)}
-            className="rev-underline-input"
-          />
-        </div>
-
-        <div className="rev-input-group">
-          <label className="rev-label">現在のADR（客室単価・円）</label>
-          <input
-            type="number"
-            placeholder="例: 18000"
-            value={adr}
-            onChange={(e) => setAdr(e.target.value)}
-            className="rev-underline-input"
-          />
-        </div>
-
-        <div className="rev-input-group">
-          <div className="rev-slider-header">
-            <span className="rev-label">現在の稼働率（%）:</span>
-            <span className="rev-slider-value">{occupancy}%</span>
-          </div>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={occupancy}
-            onChange={(e) => setOccupancy(Number(e.target.value))}
-            className="rev-range-slider"
-          />
-        </div>
-
-        <div className="rev-input-group">
-          <label className="rev-label">メイン利用OTA（最大3つ）</label>
-          <div className="rev-ota-tags">
-            {otaList.map((name) => {
-              const isSelected = selectedOtas.includes(name)
-              return (
-                <button
-                  key={name}
-                  type="button"
-                  onClick={() => toggleOta(name)}
-                  className={`rev-ota-tag-btn ${isSelected ? 'is-selected' : ''}`}
-                >
-                  {name}
-                </button>
-              )
-            })}
-          </div>
-        </div>
-
-        <div className="rev-modal-footer">
-          <a
-            href="https://innbuddy-japan.com/contact"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button red-neon-btn rev-submit-btn"
-          >
-            この条件で期待値を測定・無料相談する ＞
-          </a>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-/* ===================================================
-   SVG キービジュアル
-=================================================== */
-function HeroCenterBackdropIllustration() {
-  return (
-    <div className="hero-center-backdrop" aria-hidden="true">
-      <svg viewBox="0 0 540 440" className="hero-svg-backdrop" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="110" y="70" width="320" height="200" rx="8" fill="#2d3748" stroke="#111d2b" strokeWidth="3" />
-        <rect x="122" y="82" width="296" height="176" rx="4" fill="#ffffff" />
-        <path d="M245 270 L235 310 L305 310 L295 270 Z" fill="#718096" stroke="#111d2b" strokeWidth="2.5" />
-        <rect x="210" y="310" width="120" height="10" rx="3" fill="#4a5568" stroke="#111d2b" strokeWidth="2.5" />
-        <text x="140" y="145" fill="#4a5568" fontSize="38" fontWeight="900" fontFamily="Arial, sans-serif">OTA</text>
-        <rect x="200" y="210" width="26" height="36" fill="#fef3c7" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="238" y="190" width="26" height="56" fill="#fde68a" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="276" y="165" width="26" height="81" fill="#fcd34d" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="314" y="140" width="26" height="106" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="352" y="115" width="26" height="131" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <path d="M140 220 Q 250 200 375 105" stroke="#FCAF17" strokeWidth="9" strokeLinecap="round" fill="none" />
-        <polygon points="375,90 395,115 365,120" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" />
-        <g transform="translate(60, 20)">
-          <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
-          <path d="M22 48 L22 26 L36 14 L50 26 L50 48 Z" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
-          <rect x="31" y="34" width="10" height="14" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
-          <line x1="36" y1="34" x2="36" y2="48" stroke="#111d2b" strokeWidth="1" />
-          <rect x="40" y="22" width="5" height="5" fill="#FCAF17" />
-          <rect x="27" y="22" width="5" height="5" fill="#FCAF17" />
-        </g>
-        <g transform="translate(400, 25)">
-          <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
-          <circle cx="36" cy="36" r="16" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
-          <circle cx="36" r="10" stroke="#cbd5e1" strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
-          <path d="M16 22 L16 34 M13 22 L13 28 Q13 32 16 34 M19 22 L19 28 Q19 32 16 34 M16 34 L16 50" stroke="#111d2b" strokeWidth="1.8" strokeLinecap="round" />
-          <path d="M56 22 Q52 26 52 30 Q52 35 56 36 L56 50 M56 22 Q60 26 60 30 Q60 35 56 36" stroke="#111d2b" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-        </g>
-        <g transform="translate(240, 290)">
-          <circle cx="34" cy="34" r="32" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
-          <path d="M16 44 L16 24 Q16 20 20 20 L48 20 Q52 20 52 24 L52 44" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
-          <rect x="18" y="32" width="32" height="10" fill="#FCAF17" stroke="#111d2b" strokeWidth="1.5" rx="1" />
-          <rect x="22" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
-          <rect x="36" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
-          <line x1="14" y1="44" x2="54" y2="44" stroke="#111d2b" strokeWidth="2.5" />
-        </g>
-        <g transform="translate(15, 120)">
-          <path d="M25 280 L40 180 Q65 140 110 145 L155 185 L165 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
-          <path d="M85 145 L100 210 L115 145" fill="#ffffff" stroke="#111d2b" strokeWidth="2" />
-          <polygon points="98,160 102,160 104,225 96,225" fill="#111d2b" />
-          <circle cx="102" cy="100" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
-          <path d="M72 95 Q85 65 115 70 Q135 75 130 92 Q125 78 105 78 Q85 80 75 105 Z" fill="#111d2b" />
-          <path d="M88 95 Q94 93 98 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M108 96 Q112 93 118 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <circle cx="94" cy="101" r="2" fill="#111d2b" />
-          <circle cx="112" cy="101" r="2" fill="#111d2b" />
-          <path d="M98 114 Q104 120 110 114" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M150 195 L158 135 Q160 120 166 120 Q172 120 172 135 L172 170" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
-        </g>
-        <g transform="translate(325, 120)">
-          <path d="M45 280 L35 185 Q75 140 125 155 L165 200 L155 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
-          <circle cx="95" cy="105" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
-          <path d="M68 95 Q80 65 115 72 Q130 78 128 95 Q120 78 100 80 Q80 82 72 105 Z" fill="#d97706" stroke="#111d2b" strokeWidth="2" />
-          <path d="M82 98 Q87 94 92 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M102 98 Q107 94 112 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <circle cx="87" cy="103" r="2" fill="#111d2b" />
-          <circle cx="107" cy="103" r="2" fill="#111d2b" />
-          <path d="M92 115 Q98 122 104 115" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M72 175 Q68 135 80 125 Q88 120 90 130 L90 150" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
-          <line x1="128" y1="70" x2="135" y2="55" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
-          <line x1="140" y1="80" x2="155" y2="72" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
-          <line x1="142" y1="95" x2="158" y2="98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
-        </g>
-      </svg>
-    </div>
-  )
-}
-
-function ServiceIcon({ index }: { index: number }) {
-  const icons = [
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 21h18M5 21V7l8-4v18M13 7l6 3v11M9 10h1M9 14h1M9 18h1M16 13h1M16 17h1"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/><circle cx="6" cy="11" r="1.5"/><path d="m17 4 1 2 2 .3-1.5 1.5.4 2.2-1.9-1-1.9 1 .4-2.2L14 6.3l2-.3z"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9h6M9 15h6"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="12" r="4"/><path d="m12 12 8-8M17 4l3 3M15 6l2 2"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m3 11 18-5v12L3 13v-2zM11.6 16.8a3 3 0 1 1-5.8-1.6M21 9v6"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="m12 7 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10z"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 3v18h18M18 9l-5 5-4-4-3 3"/><circle cx="18" cy="9" r="1.5"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>,
-  ]
-  return <span className="service-icon-wrap">{icons[index]}</span>
-}
-
-function ProblemIcon({ index }: { index: number }) {
-  const icons = [
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6h8c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20M2 12h20"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><path d="M11 8v6M8 11h6"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="18" y1="8" x2="23" y2="13"/><line x1="23" y1="8" x2="18" y2="13"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>,
-  ]
-  return <span className="problem-icon-wrap">{icons[index]}</span>
-}
-
-function WorkflowIcon({ index }: { index: number }) {
-  const icons = [
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="m9 14 2 2 4-4"/></svg>,
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 7.65l.77.78L12 20.66l7.65-7.65.77-.78a5.4 5.4 0 0 0 0-7.65z"/></svg>,
-  ]
-  return <span className="workflow-icon-wrap">{icons[index]}</span>
-}
-
-const services = [
-  ['アカウント・掲載情報', 'OTAアカウント管理|施設情報更新|客室情報更新|設備・アメニティ更新|アクセス情報更新|チェックイン・アウト情報|キャンセルポリシー|注意事項|OTAからの通知確認|OTA仕様変更への対応'],
-  ['宿泊プラン', '新規プラン作成|プラン内容変更|プラン名改善|プラン説明文改善|食事条件変更|特典設定|早割・直前割プラン|連泊プラン|季節・ターゲット別|販売期間設定'],
-  ['料金設定', '基本料金設定|曜日別料金|繁忙期・閑散期対応|季節・連休料金|客室タイプ別料金|プラン別料金|早割・直前料金|料金変更・調整'],
-  ['客室・在庫管理', '客室在庫管理|OTA別在庫確認|販売開始・停止|客室タイプ別在庫|日付別在庫|最低/最大宿泊日数|連泊制限|販売可能期間|キャンセル時の在庫確認'],
-  ['キャンペーン・特集', 'OTAキャンペーン確認|セール情報確認|特集掲載確認|クーポン・ポイント施策|季節特集|インバウンド向け施策|キャンペーン参加設定|効果確認'],
-  ['写真・コンテンツ', '写真更新|客室・食事・館内写真|周辺情報|写真掲載順|施設・客室紹介文|OTA別仕様対応'],
-  ['口コミ・レビュー', '新着レビュー確認|口コミ返信|低評価レビュー確認|評価内容の整理|頻出コメント確認|口コミ傾向の把握|OTA別状況確認'],
-  ['海外OTA', 'Booking.com / Agoda|Expedia / Trip.com 等|英語等の掲載情報|海外向けプラン|海外ユーザー向け情報|海外キャンペーン|国・地域別の販売状況'],
-  ['販売状況分析', 'OTA別売上・予約数|ADR・稼働率|キャンセル率|リードタイム・滞在日数|客室・プラン別販売|OTA別比較|前月・前年との比較'],
-  ['改善', 'プラン・料金調整|在庫調整|掲載内容・写真改善|キャンペーン見直し|OTA別運用改善|状況に応じた施策提案'],
-  ['報告・ミーティング', '運用状況・販売実績共有|課題整理|改善施策共有|今後の対応方針|定期ミーティング'],
 ]
 
-const painPoints = [
-  'OTAの更新や在庫管理に時間を取られている',
-  '宿泊プランを作りたいが、手が回らない',
-  '料金をどう設定・変更すればいいかわからない',
-  '複数OTAを管理するのが大変（海外OTAまで運用する余裕がない）',
-  'OTAを運用しているが、何を改善すればいいかわからない',
-  '担当者が退職してOTA運用を任せられる人がいない',
-  '今の代行業者が全然提案/改善してくれない',
-  '事業拡大をしたいが相談できる専門家がいない',
-]
-
-const frameworkCategories = [
+// 宿が直面する課題
+const challenges = [
   {
-    category: 'STRATEGY｜戦略',
-    catClass: 'tag-strategy',
-    steps: [
-      { num: '01', title: '現状把握', desc: '売上・予約数・\n稼働率などを\n確認', stepClass: 'step-1' },
-      { num: '02', title: '市場分析', desc: '競合施設や\n市場の動向を\n把握', stepClass: 'step-2' },
-      { num: '03', title: '課題発見', desc: '改善点と\n売上向上の機会を\n特定', stepClass: 'step-3' },
-      { num: '04', title: '目標設定', desc: '売上・稼働率などの\n数値目標を\n設定', stepClass: 'step-4' },
-    ],
+    number: '01',
+    title: '人手不足で手が回らない',
+    desc: '日々の接客や清掃、仕込みに追われ、プラン作成や料金変更、口コミ返信が後回しになり、販売機会を逃していませんか？'
   },
   {
-    category: 'EXECUTION｜実行',
-    catClass: 'tag-execution',
-    steps: [
-      { num: '05', title: '運用計画', desc: '料金・プラン・\n販売方法を\n策定', stepClass: 'step-5' },
-      { num: '06', title: 'OTA運用', desc: '計画に基づき\n掲載内容を\n管理', stepClass: 'step-6' },
-    ],
+    number: '02',
+    title: 'OTAごとの特性がわからない',
+    desc: '楽天、じゃらん、一休、Booking.com…それぞれのユーザー層やアルゴリズムの違いが分からず、同じ内容をただ載せていませんか？'
   },
   {
-    category: 'OPTIMIZATION｜分析・改善',
-    catClass: 'tag-optimization',
-    steps: [
-      { num: '07', title: '効果検証', desc: '施策の結果を\n数値で確認', stepClass: 'step-7' },
-      { num: '08', title: '改善提案', desc: '検証結果をもとに\n改善策を\n提案', stepClass: 'step-8' },
-      { num: '09', title: '再戦略化', desc: '結果を踏まえ、\n次の運用方針を\n決定', stepClass: 'step-9' },
-      { num: '10', title: '運用の定着', desc: '改善サイクルを継続し、\n安定した運用体制を構築', stepClass: 'step-10' },
-    ],
+    number: '03',
+    title: 'インバウンドを取り込めない',
+    desc: '訪日旅行者が急増する中、英語での情報発信や海外OTAの設定、外国語の口コミ対応にハードルを感じていませんか？'
   },
+  {
+    number: '04',
+    title: '売上はあるのに利益が残らない',
+    desc: 'ただ稼働率を上げるために値引きを続け、手数料とコストばかりがかさんで手元に利益が残らない悪循環に陥っていませんか？'
+  }
 ]
 
-const otas = ['楽天トラベル', 'じゃらんnet', '一休.com', 'Yahoo!トラベル / るるぶ 等']
-const overseas = ['Booking.com', 'Agoda', 'Expedia', 'Trip.com / その他']
-
-const faqs = [
-  ['まだ契約するか決めていませんが、相談だけでもいいですか？', 'もちろんです。「自社の運用に問題があるか見てほしい」「どこまで任せられるのか知りたい」というご相談からでも構いません。'],
-  ['1つのOTAだけでも依頼できますか？', 'はい、可能です。海外OTAのみ、特定の国内OTAのみなど、施設様の状況に合わせて柔軟に対応いたします。'],
-  ['まだ登録していないOTAの新規開設からお願いできますか？', 'はい、新規アカウントの登録申請から、初期のページ作成・プラン設定までサポートいたします。'],
+// InnBuddyが選ばれる理由
+const reasons = [
+  {
+    title: '300施設以上の支援実績',
+    desc: '大手OTA出身者と旅行企画の専門家が、豊富なデータと成功パターンを元に、貴施設に最適な運用プランをご提案します。'
+  },
+  {
+    title: '「利益が残る」運用設計',
+    desc: '安売りに頼る稼働アップではなく、施設の独自性を引き出し、適正な単価で選ばれる「高収益構造」への転換を目指します。'
+  },
+  {
+    title: 'インバウンド対応の強み',
+    desc: '海外3カ国居住・80カ国渡航経験と18言語対応ツールを駆使し、海外OTAでの露出と評価を飛躍的に向上させます。'
+  },
+  {
+    title: '現場目線の伴走体制',
+    desc: 'マニュアル通りの代行ではなく、施設の規模やスタッフ様の体制に合わせて柔軟に対応。日々のチャット相談も無制限です。'
+  }
 ]
 
-function Arrow() {
-  return <span aria-hidden="true" className="arrow">＞</span>
-}
+// 料金プラン
+const plans = [
+  {
+    name: 'ライトプラン',
+    target: '客室数 1〜5室 / 民泊・一棟貸し',
+    price: '30,000',
+    unit: '円 / 月〜',
+    features: [
+      '主要OTA（2〜3社）の運用代行',
+      '在庫・料金の定期調整',
+      '基本口コミ返信代行',
+      'チャットによる日常相談'
+    ],
+    highlight: false
+  },
+  {
+    name: 'スタンダードプラン',
+    target: '客室数 6〜20室 / 旅館・小規模ホテル',
+    price: '70,000',
+    unit: '円 / 月〜',
+    features: [
+      '国内・海外主要OTA全対応',
+      'プラン企画・作成・販売管理',
+      'ダイナミックプライシング・競合調査',
+      '18言語対応口コミ返信',
+      '月次報告レポート＆オンライン定例会'
+    ],
+    highlight: true
+  },
+  {
+    name: 'プレミアムプラン',
+    target: '客室数 21室以上 / ホテル・リゾート',
+    price: '150,000',
+    unit: '円 / 月〜',
+    features: [
+      'OTA運用全般の完全代行',
+      '高度なレベニューマネジメント',
+      'サイトコントローラー完全連携',
+      'インバウンド戦略・多言語ビジュアル設計',
+      '月次定例会＋現場オペレーション改善支援'
+    ],
+    highlight: false
+  }
+]
 
-export default function Page() {
-  const [openItems, setOpenItems] = useState<number[]>([])
+// よくある質問
+const faqItems = [
+  {
+    q: '現在使っているサイトコントローラーはそのまま使えますか？',
+    a: 'はい、Beds24、TL-リンカーン、手間いらず、ねっぱん！など、現在ご利用中のシステムをそのまま活用して代行業務を行います。'
+  },
+  {
+    q: '契約期間の縛りはありますか？',
+    a: '最短3ヶ月からのご契約となります。成果を実感していただいた上で、中長期的なパートナーとして継続される施設様がほとんどです。'
+  },
+  {
+    q: '小規模な宿や民泊でも依頼できますか？',
+    a: 'もちろん可能です。1室の一棟貸しから100室超のホテルまで、規模に応じたプランをご用意しております。'
+  },
+  {
+    q: '依頼してから運用開始までどのくらいかかりますか？',
+    a: 'ヒアリングとお打ち合わせ後、最短1〜2週間程度で運用を開始できます。現在の設定状況に応じてスムーズに引き継ぎます。'
+  },
+  {
+    q: '自社ホームページの予約システム（直販）も相談できますか？',
+    a: 'はい、OTA運用だけでなく、OTAからの流入を活かした自社予約（直販）比率の向上についてもアドバイスや施策のご提案が可能です。'
+  }
+]
 
-  const [isDiagnosticOpen, setIsDiagnosticOpen] = useState(false)
-  const [isInboundMenuOpen, setIsInboundMenuOpen] = useState(false)
+// 診断質問
+const diagnosisQuestions = [
+  {
+    id: 1,
+    question: '現在、自施設のOTA販売について、どれくらい時間を割けていますか？',
+    options: [
+      { text: '毎日1時間以上、しっかりデータを分析して調整している', score: 3 },
+      { text: '週に数回、予約や料金を少し確認する程度', score: 2 },
+      { text: 'ほとんど触れていない（放置状態）', score: 1 }
+    ]
+  },
+  {
+    id: 2,
+    question: '競合施設の料金やプランの動向を定期的に把握していますか？',
+    options: [
+      { text: '毎週チェックし、自社の料金に反映させている', score: 3 },
+      { text: 'たまに見るが、自社の料金はあまり変えていない', score: 2 },
+      { text: '競合がいくらで売っているかほとんど知らない', score: 1 }
+    ]
+  },
+  {
+    id: 3,
+    question: '外国人旅行者（インバウンド）の集客設定はどうしていますか？',
+    options: [
+      { text: '海外OTAに登録し、英語や写真も充実させている', score: 3 },
+      { text: '一応登録はしているが、日本語を自動翻訳した程度', score: 2 },
+      { text: '海外OTAは使っていない／やり方がわからない', score: 1 }
+    ]
+  },
+  {
+    id: 4,
+    question: 'OTAに届く口コミへの返信はどのように行っていますか？',
+    options: [
+      { text: '全件に対して、個別の状況に合わせた丁寧な返信をしている', score: 3 },
+      { text: '定型文をコピペして返信している／たまに返信する', score: 2 },
+      { text: 'ほとんど返信していない', score: 1 }
+    ]
+  },
+  {
+    id: 5,
+    question: '現在の宿泊単価（ADR）や売上について、どう感じていますか？',
+    options: [
+      { text: '目標通りに推移しており、満足している', score: 3 },
+      { text: '稼働はしているが、もっと単価を上げられる気がする', score: 2 },
+      { text: '稼働も単価も低く、改善の糸口が見えない', score: 1 }
+    ]
+  }
+]
 
-  const toggleItem = (i: number) => {
-    setOpenItems(prev =>
-      prev.includes(i) ? prev.filter(item => item !== i) : [...prev, i]
+export default function OtaPage() {
+  const [openItems, setOpenItems] = useState<number[]>([1])
+  const [answers, setAnswers] = useState<{ [key: number]: number }>({})
+  const [diagnosisScore, setDiagnosisScore] = useState<number | null>(null)
+  const [isDiagnosed, setIsDiagnosed] = useState(false)
+  const [contactForm, setContactForm] = useState({
+    facilityName: '',
+    contactName: '',
+    email: '',
+    phone: '',
+    roomCount: '',
+    message: ''
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
+  const toggleItem = (id: number) => {
+    setOpenItems((prev) =>
+      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
     )
   }
 
-  const leftServices = services.filter((_, i) => i % 2 === 0)
-  const rightServices = services.filter((_, i) => i % 2 !== 0)
+  const handleAnswer = (questionId: number, score: number) => {
+    setAnswers((prev) => ({ ...prev, [questionId]: score }))
+  }
 
-  return (
-    <main className="ota-page-root">
-      {/* HEADER */}
-      <header className="site-header">
-        <a href="#top" className="logo">
-          InnBuddy<small>OTA</small>
-        </a>
-        <nav>
-          <a href="#services">対応業務</a>
-          <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
-            InnBuddyについて
-          </a>
-          <a className="header-cta red-neon-btn" href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
-            相談する <Arrow />
-          </a>
-        </nav>
-      </header>
+  const calculateScore = () => {
+    if (Object.keys(answers).length < diagnosisQuestions.length) {
+      alert('すべての質問にお答えください。')
+      return
+    }
+    const total = Object.values(answers).reduce((acc, cur) => acc + cur, 0)
+    setDiagnosisScore(total)
+    setIsDiagnosed(true)
+  }
 
-      {/* HERO */}
-      <section id="top" className="hero">
-        <HeroCenterBackdropIllustration />
+  const handleContactSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
 
-        <div className="wrap hero-2col-wrap">
-          <div className="hero-left-content">
-            <p className="eyebrow hero-script">ホテル・旅館のOTA運用代行</p>
-            <h1>
-              ホテル・旅館の<br />
-              OTA運用を、<br />
-              まるごと任せる。
-            </h1>
-            <p className="hero-copy hero-script">
-              宿泊プラン、料金、在庫、<br />
-              掲載情報、キャンペーン、<br />
-              口コミ、海外OTAまで。<br />
-              日々のOTA業務を、<br />
-              InnBuddyがまとめてサポートします。
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...contactForm,
+          type: 'ota_consultation'
+        })
+      })
+
+      if (res.ok) {
+        setIsSubmitted(true)
+      } else {
+        alert('送信に失敗しました。時間をおいて再度お試しください。')
+      }
+    } catch (error) {
+      console.error(error)
+      alert('エラーが発生しました。')
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
+  // ★ 11の業務の個別アコーディオンカード（共通コンポーネント化） ★
+  const renderScopeItem = (item: (typeof scopeItems)[0]) => {
+    const isOpen = openItems.includes(item.id)
+    const Icon = item.icon
+    return (
+      <div
+        key={item.id}
+        className="bg-white rounded-lg border border-[#e8e4dc] overflow-hidden transition-all shadow-sm hover:shadow"
+      >
+        <button
+          onClick={() => toggleItem(item.id)}
+          className="w-full px-5 py-4 flex items-center justify-between text-left transition-colors hover:bg-[#faf8f5] cursor-pointer"
+        >
+          <div className="flex items-center gap-4">
+            <span className="font-serif text-sm font-bold text-[#e89c3a]">
+              {String(item.id).padStart(2, '0')}
+            </span>
+            <Icon className="w-5 h-5 text-[#1b314b]" />
+            <span className="font-bold text-[#1b314b] text-sm sm:text-base">
+              {item.title}
+            </span>
+          </div>
+          <span className="text-[#e89c3a] font-bold text-lg">
+            {isOpen ? '−' : '+'}
+          </span>
+        </button>
+        {isOpen && (
+          <div className="px-5 pb-5 pt-2 border-t border-[#f0ece4] bg-[#fdfcf9] animate-in fade-in duration-200">
+            <p className="text-xs sm:text-sm text-[#555] leading-relaxed mb-3">
+              {item.desc}
             </p>
-            <div className="hero-cta-box">
-              <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="button red-neon-btn">
-                OTA運用について相談する <Arrow />
-              </a>
+            <div className="space-y-1.5">
+              {item.details.map((d, idx) => (
+                <div key={idx} className="flex items-center gap-2 text-xs text-[#666]">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#e89c3a]" />
+                  <span>{d}</span>
+                </div>
+              ))}
             </div>
           </div>
+        )}
+      </div>
+    )
+  }
 
-          <div className="hero-editorial-panel-group">
-            {/* ★ 01. ABOUT US */}
+  return (
+    <main className="min-h-screen bg-[#faf8f5] text-[#222] font-sans pb-20 md:pb-0">
+      
+      {/* NAVBAR */}
+      <nav className="fixed top-0 left-0 right-0 z-40 bg-[#1b314b]/95 backdrop-blur-md border-b border-white/10 px-4 md:px-8 py-3.5 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <Link href="/" className="text-white font-serif font-bold text-lg sm:text-xl tracking-wider">
+            InnBuddy <span className="text-xs sm:text-sm font-sans font-normal text-[#e89c3a]">OTA</span>
+          </Link>
+        </div>
+        <div className="flex items-center gap-4 sm:gap-6">
+          <a href="#scope" className="hidden sm:inline-block text-xs sm:text-sm text-white/80 hover:text-white transition-colors">
+            サポート内容
+          </a>
+          <a href="#plans" className="hidden sm:inline-block text-xs sm:text-sm text-white/80 hover:text-white transition-colors">
+            料金プラン
+          </a>
+          <a
+            href="#contact"
+            className="bg-[#e89c3a] hover:bg-[#d48b28] text-white text-xs sm:text-sm font-bold px-4 sm:px-5 py-2 rounded transition-colors shadow flex items-center gap-1.5"
+          >
+            <span>相談する</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </a>
+        </div>
+      </nav>
+
+      {/* HERO SECTION */}
+      <section className="relative min-h-[90vh] flex items-center justify-center pt-24 pb-16 px-4 md:px-8 overflow-hidden bg-gradient-to-b from-[#1b314b] via-[#2d527c] to-[#e89c3a]">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/10 via-transparent to-black/30 pointer-events-none" />
+
+        <div className="relative z-10 max-w-5xl mx-auto text-center text-white">
+          <span className="inline-block bg-white/15 backdrop-blur-md px-3.5 py-1 rounded-full text-xs font-semibold tracking-widest uppercase mb-4 text-[#ffd499] border border-white/20">
+            OTA OPERATION SERVICE
+          </span>
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-serif tracking-tight leading-tight sm:leading-tight mb-6">
+            売上を伸ばし、利益を残す。
+            <br />
+            宿のためのOTA運用代行。
+          </h1>
+
+          <p className="max-w-2xl mx-auto text-sm sm:text-base md:text-lg text-white/85 leading-relaxed mb-8">
+            プラン作成、日々の料金調整、在庫配分、口コミ返信からインバウンド対策まで。
+            大手OTA出身の専門チームが、貴施設のパートナーとして現場に伴走します。
+          </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+            <a
+              href="#contact"
+              className="w-full sm:w-auto bg-[#1b314b] hover:bg-[#15273c] text-white px-8 py-3.5 rounded font-bold text-sm sm:text-base shadow-xl transition-all duration-300 flex items-center justify-center gap-2 border border-white/20"
+            >
+              <span>OTA運用について相談する</span>
+              <ArrowRight className="w-4 h-4" />
+            </a>
+            <a
+              href="#diagnosis"
+              className="w-full sm:w-auto bg-white/20 hover:bg-white/30 text-white backdrop-blur-md px-6 py-3.5 rounded font-bold text-sm sm:text-base transition-all duration-300 flex items-center justify-center gap-2 border border-white/30"
+            >
+              <span>無料現状診断はこちら</span>
+            </a>
+          </div>
+
+          {/* ★ 3つのカード：スマホでは非表示（hidden）、PC（md以上）でのみ表示 ★ */}
+          <div className="hidden md:grid md:grid-cols-3 gap-6 mt-12 max-w-4xl mx-auto text-left">
             <a
               href="https://innbuddy-japan.com/team"
               target="_blank"
               rel="noopener noreferrer"
-              className="square-glass-panel panel-about"
+              className="group bg-white/10 hover:bg-white/20 backdrop-blur-md p-5 rounded-lg border border-white/20 transition-all cursor-pointer"
             >
-              <div className="panel-inner">
-                <div className="panel-meta-row">
-                  <span className="panel-num">01</span>
-                  <span className="panel-label">ABOUT US</span>
-                </div>
-                <div className="panel-title-row">
-                  <h3 className="panel-heading">InnBuddyとは？</h3>
-                  <span className="panel-nav-symbol">↗</span>
-                </div>
+              <div className="flex justify-between items-center text-xs text-[#ffd499] mb-1 font-mono">
+                <span>01</span>
+                <span>ABOUT US</span>
               </div>
+              <h3 className="font-bold text-white text-base flex items-center justify-between">
+                <span>InnBuddyとは？</span>
+                <span className="text-xs group-hover:translate-x-1 transition-transform">↗</span>
+              </h3>
             </a>
 
-            {/* ★ 02. ONLINE CHECK */}
-            <button
-              type="button"
-              onClick={() => setIsDiagnosticOpen(true)}
-              className="square-glass-panel panel-check"
+            <a
+              href="#diagnosis"
+              className="group bg-white/10 hover:bg-white/20 backdrop-blur-md p-5 rounded-lg border border-white/20 transition-all cursor-pointer"
             >
-              <div className="panel-inner">
-                <div className="panel-meta-row">
-                  <span className="panel-num">02</span>
-                  <span className="panel-label">ONLINE CHECK</span>
-                  <span className="panel-pill-tag">RECOMMENDED</span>
-                </div>
-                <div className="panel-title-row">
-                  <h3 className="panel-heading">無料診断で現状を把握しよう</h3>
-                  <span className="panel-nav-symbol">▶</span>
-                </div>
+              <div className="flex justify-between items-center text-xs text-[#ffd499] mb-1 font-mono">
+                <span>02</span>
+                <span className="bg-[#e89c3a] text-white text-[10px] px-1.5 py-0.2 rounded font-sans">RECOMMENDED</span>
               </div>
-            </button>
-
-            {/* ★ 03. INBOUND */}
-            <button
-              type="button"
-              onClick={() => setIsInboundMenuOpen(true)}
-              className="square-glass-panel panel-inbound"
-            >
-              <div className="panel-inner">
-                <div className="panel-meta-row">
-                  <span className="panel-num">03</span>
-                  <span className="panel-label">INBOUND</span>
-                </div>
-                <div className="panel-title-row">
-                  <h3 className="panel-heading">インバウンドをもっと取り込みたい</h3>
-                  <span className="panel-nav-symbol">▶</span>
-                </div>
-              </div>
-            </button>
-          </div>
-        </div>
-
-        {/* 修正３：ヒーロー内にスッキリ収まるSCROLL位置 */}
-        <div className="hero-index">
-          SCROLL<br />
-          <span>↓</span>
-        </div>
-      </section>
-
-      {/* 中央ポップアップ：インバウンド＆ハラル選択 */}
-      {isInboundMenuOpen && (
-        <div className="modal-overlay" onClick={() => setIsInboundMenuOpen(false)}>
-          <div className="inbound-square-modal" onClick={(e) => e.stopPropagation()}>
-            <button
-              type="button"
-              className="modal-close-btn"
-              onClick={() => setIsInboundMenuOpen(false)}
-              aria-label="閉じる"
-            >
-              ✕
-            </button>
-            <div className="inbound-square-cards">
-              <a
-                href="https://innbuddy-japan.com/inbound"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inbound-square-item img-card-1"
-              >
-                <div className="img-card-overlay"></div>
-                <span className="square-num">1</span>
-                <span className="square-title">インバウンド特設ページをみる</span>
-              </a>
-              <a
-                href="https://innbuddy-japan.com/halal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inbound-square-item img-card-2"
-              >
-                <div className="img-card-overlay"></div>
-                <span className="square-num">2</span>
-                <span className="square-title">ハラル特設ページをみる</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* 中央ポップアップ：売上期待値測定 */}
-      {isDiagnosticOpen && (
-        <div className="modal-overlay" onClick={() => setIsDiagnosticOpen(false)}>
-          <div className="modal-dialog rev-diagnostic-dialog" onClick={(e) => e.stopPropagation()}>
-            <RevenueDiagnosticModalView onClose={() => setIsDiagnosticOpen(false)} />
-          </div>
-        </div>
-      )}
-
-      {/* PROBLEM */}
-      <section className="dark section problem">
-        <div className="wrap">
-          <h2>
-            こんなお悩みは<br />
-            <span>ありませんか？</span>
-          </h2>
-          <div className="problem-cards-grid">
-            {painPoints.map((p, i) => (
-              <div className="problem-card" key={p}>
-                <div className="problem-card-head">
-                  <span className="problem-card-num">0{i + 1}</span>
-                  <ProblemIcon index={i} />
-                </div>
-                <p className="problem-card-text">{p}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SCOPE OF WORK */}
-      <section id="services" className="light section services">
-        <div className="wrap">
-          <h2>
-            InnBuddy OTAが<br />
-            <span>対応する11の業務</span>
-          </h2>
-          <p className="intro services-intro">
-            施設ごとに異なる客室構成・ターゲットを踏まえ、日々の細かな実務を引き受けます。
-          </p>
-
-          {/* 修正４：余白を詰めたガイド */}
-          <div className="services-action-guide">
-            <span className="services-guide-pill">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" className="guide-mouse-icon">
-                <rect x="5" y="2" width="14" height="20" rx="7" />
-                <line x1="12" y1="6" x2="12" y2="10" />
-              </svg>
-              クリックして詳細を見る
-            </span>
-          </div>
-
-          <div className="service-grid">
-            <div className="service-column">
-              {leftServices.map(([title, items], idx) => {
-                const originalIndex = idx * 2
-                const isOpen = openItems.includes(originalIndex)
-                return (
-                  <div className={`service ${isOpen ? 'is-open' : ''}`} key={title}>
-                    <button onClick={() => toggleItem(originalIndex)} aria-expanded={isOpen}>
-                      <span className="service-num">{String(originalIndex + 1).padStart(2, '0')}</span>
-                      <ServiceIcon index={originalIndex} />
-                      <span className="service-title-text">{title}</span>
-                      <span className="plus">{isOpen ? '−' : '+'}</span>
-                    </button>
-                    {isOpen && (
-                      <div className="service-content">
-                        <ul>
-                          {items.split('|').map((x) => (
-                            <li key={x}>{x}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-
-            <div className="service-column">
-              {rightServices.map(([title, items], idx) => {
-                const originalIndex = idx * 2 + 1
-                const isOpen = openItems.includes(originalIndex)
-                return (
-                  <div className={`service ${isOpen ? 'is-open' : ''}`} key={title}>
-                    <button onClick={() => toggleItem(originalIndex)} aria-expanded={isOpen}>
-                      <span className="service-num">{String(originalIndex + 1).padStart(2, '0')}</span>
-                      <ServiceIcon index={originalIndex} />
-                      <span className="service-title-text">{title}</span>
-                      <span className="plus">{isOpen ? '−' : '+'}</span>
-                    </button>
-                    {isOpen && (
-                      <div className="service-content">
-                        <ul>
-                          {items.split('|').map((x) => (
-                            <li key={x}>{x}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* DISTRIBUTION */}
-      <section className="dark section ota">
-        <div className="wrap">
-          <h2>
-            対応可能な<span>OTA</span>
-          </h2>
-          <p className="intro">
-            複数の国内・海外OTAに対応。<br />
-            現在ご利用中のOTAが対応可能か分からない場合も、お気軽にご相談ください。
-          </p>
-          <div className="ota-columns">
-            <div>
-              <h3 className="orange-heading">
-                DOMESTIC OTA <small>国内OTA</small>
+              <h3 className="font-bold text-white text-base flex items-center justify-between">
+                <span>無料診断で現状を把握しよう</span>
+                <span className="text-xs group-hover:translate-x-1 transition-transform">↓</span>
               </h3>
-              {otas.map((x, i) => (
-                <div className="ota-item" key={x}>
-                  <span>0{i + 1}</span>
-                  <span className="ota-item-text">{x}</span>
-                  {i === 0 && <b>特に注力</b>}
-                </div>
-              ))}
-            </div>
-            <div>
-              <h3 className="orange-heading">
-                OVERSEAS OTA <small>海外OTA（インバウンド）</small>
+            </a>
+
+            <a
+              href="https://innbuddy-japan.com/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white/10 hover:bg-white/20 backdrop-blur-md p-5 rounded-lg border border-white/20 transition-all cursor-pointer"
+            >
+              <div className="flex justify-between items-center text-xs text-[#ffd499] mb-1 font-mono">
+                <span>03</span>
+                <span>CONTACT</span>
+              </div>
+              <h3 className="font-bold text-white text-base flex items-center justify-between">
+                <span>ご相談・お問い合わせ</span>
+                <span className="text-xs group-hover:translate-x-1 transition-transform">↗</span>
               </h3>
-              {overseas.map((x, i) => (
-                <div className="ota-item" key={x}>
-                  <span>0{i + 1}</span>
-                  <span className="ota-item-text">{x}</span>
-                </div>
-              ))}
-            </div>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* APPROACH */}
-      <section className="dark framework section">
-        <div className="wrap">
-          <h2>
-            InnBuddyが<br />
-            <span>大切にしていること</span>
+      {/* CHALLENGES SECTION */}
+      <section className="py-20 px-4 md:px-8 max-w-5xl mx-auto">
+        <div className="text-center mb-12 sm:mb-16">
+          <span className="text-xs font-bold tracking-widest text-[#e89c3a] uppercase block mb-2 font-mono">
+            COMMON PROBLEMS
+          </span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#1b314b]">
+            こんなお悩みはありませんか？
           </h2>
-          <p className="intro">
-            OTAは、一度設定して終わりではありません。<br />
-            決まった作業を繰り返すだけの代行ではなく、現状把握から運用の定着まで、改善サイクルを回し続けます。
+          <p className="mt-3 text-xs sm:text-sm text-[#666] max-w-xl mx-auto">
+            多くの宿泊施設様が、現場の忙しさと専門性の高さからOTA運用の課題を抱えています。
           </p>
-
-          <div className="framework-flow-wrapper">
-            {frameworkCategories.map((cat) => (
-              <div className={`framework-cat-group ${cat.catClass}`} key={cat.category}>
-                <div className="framework-cat-header">
-                  <span>{cat.category}</span>
-                </div>
-                <div className="framework-cat-steps">
-                  {cat.steps.map((step) => (
-                    <div className={`framework-step-card ${step.stepClass}`} key={step.num}>
-                      <div className="fstep-top">
-                        <span className="fstep-badge">{step.num}</span>
-                        <h3 className="fstep-title">{step.title}</h3>
-                      </div>
-                      <div className="fstep-bottom">
-                        <p className="fstep-desc">{step.desc}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* WORKFLOW */}
-      <section className="light section workflow">
-        <div className="workflow-watermarks" aria-hidden="true">
-          <span className="wm wm-1">客室平均単価 (ADR)</span>
-          <span className="wm wm-2">客室稼働率 (OCC)</span>
-          <span className="wm wm-3">販売可能客室売上 (RevPAR)</span>
-          <span className="wm wm-4">予約リードタイム</span>
-          <span className="wm wm-5">キャンセル率</span>
-          <span className="wm wm-6">平均滞在日数 (LOS)</span>
-          <span className="wm wm-7">成約率 (CVR)</span>
-          <span className="wm wm-8">直販比率</span>
-          <span className="wm wm-9">広告費用対効果 (ROAS)</span>
-          <span className="wm wm-10">クチコミ評価スコア</span>
-          <span className="wm wm-11">予約ペース (Pacing)</span>
-          <span className="wm wm-12">営業利益率 (GOPPAR)</span>
         </div>
 
-        <div className="wrap" style={{ position: 'relative', zIndex: 2 }}>
-          <h2>ご利用開始まで</h2>
-          <div className="timeline">
-            {[
-              ['まずはご相談', '「どこまで任せられるのか知りたい」「複数OTAの管理を整理したい」といった段階でも構いません。'],
-              ['現状確認', '施設ごとに異なる販売状況・客室構成を踏まえ、現在のOTA運用状況を無料で確認いたします。'],
-              ['ご提案・ご契約', 'お任せいただく業務範囲を確認したうえで、最適なプラン・契約条件（初期無料期間など）をご提案します。'],
-              ['運用開始', '面倒なOTA実務をInnBuddyに引き継ぎ、本来の業務に集中できる環境がスタートします。'],
-            ].map(([t, d], i) => (
-              <div className="timeline-item" key={t}>
-                <div className="timeline-left">
-                  <WorkflowIcon index={i} />
-                  <b>0{i + 1}</b>
-                </div>
-                <div>
-                  <h3>{t}</h3>
-                  <p>{d}</p>
-                </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {challenges.map((c) => (
+            <div key={c.number} className="bg-white p-6 sm:p-8 rounded-xl border border-[#e8e4dc] shadow-sm flex gap-5 items-start">
+              <span className="font-serif text-3xl font-bold text-[#e89c3a] shrink-0 leading-none">
+                {c.number}
+              </span>
+              <div>
+                <h3 className="font-bold text-base sm:text-lg text-[#1b314b] mb-2">
+                  {c.title}
+                </h3>
+                <p className="text-xs sm:text-sm text-[#666] leading-relaxed">
+                  {c.desc}
+                </p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PRICING */}
-      <section className="dark section pricing">
-        <div className="wrap">
-          <h2>料金・契約条件</h2>
-          <p>
-            各施設様の規模や現状の課題に応じて、<strong>月額固定</strong> もしくは <strong>成果報酬</strong> にて最適なプランをご提案します。
-          </p>
-          <div className="offer">
-            <div className="offer-inner-border">
-              <div className="offer-badge-wrap">
-                <span className="label">LIMITED OFFER</span>
-              </div>
-              <p>
-                現在、限定３社様に<br />
-                <strong>「初月無料＆1ヶ月契約」</strong>から<br />
-                使用できる特別プランもご提案しております。
-              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="light section faq">
-        <div className="wrap narrow">
-          <h2>よくあるご質問</h2>
-          {faqs.map(([q, a]) => (
-            <details key={q}>
-              <summary>
-                <span>Q.</span>
-                {q}
-              </summary>
-              <p>
-                <b>A.</b>
-                {a}
-              </p>
-            </details>
           ))}
         </div>
       </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="dark section contact">
-        <div className="wrap contact-grid-split">
-          <div className="contact-split-left">
-            <h2>
-              「今のOTA運用、<br />
-              どこまで任せられる？」<br />
-              <span>からでも構いません。</span>
+      {/* =========================================================
+          ★ 11の業務セクション（スマホは01〜11順、PCは2列） ★
+      ========================================================= */}
+      <section id="scope" className="py-20 px-4 md:px-8 bg-[#fdfbf7] border-y border-[#ede9e1]">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16">
+            <span className="text-xs font-bold tracking-widest text-[#e89c3a] uppercase block mb-2 font-mono">
+              SERVICE SCOPE
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#1b314b]">
+              InnBuddyが担当する11の業務
             </h2>
-            <p>
-              現在の運用状況をお聞きし、InnBuddyで対応できる業務範囲をご説明します。<br />
-              右のボタンからお気軽にご相談ください。
+            <p className="mt-3 text-xs sm:text-sm text-[#666] max-w-xl mx-auto">
+              アカウント管理から分析・改善まで、OTA運用に必要なすべての実務を網羅してサポートします。
             </p>
           </div>
-          <div className="contact-split-right">
-            {/* 修正５：日本地図画像と完全一致させたCTA枠 */}
-            <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="huge-contact-cta red-neon-btn">
-              <div className="japan-map-watermark-img" aria-hidden="true" />
-              <span className="huge-cta-sub">InnBuddyへの無料相談・お問い合わせ</span>
-              <span className="huge-cta-main">お問い合わせフォームへ</span>
-              <span className="huge-cta-arrow">＞</span>
-            </a>
+
+          {/* スマホ用：01〜11まで順番に1列で綺麗に並ぶ */}
+          <div className="space-y-4 md:hidden">
+            {scopeItems.map((item) => renderScopeItem(item))}
+          </div>
+
+          {/* PC用：奇数（左）と偶数（右）の2列 */}
+          <div className="hidden md:grid md:grid-cols-2 gap-4 max-w-5xl mx-auto items-start">
+            <div className="space-y-4">
+              {scopeItems.filter((_, i) => i % 2 === 0).map((item) => renderScopeItem(item))}
+            </div>
+            <div className="space-y-4">
+              {scopeItems.filter((_, i) => i % 2 !== 0).map((item) => renderScopeItem(item))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer id="about" className="ota-footer-new">
-        <div className="ota-footer-wrap">
-          <div className="ota-footer-brand-row">
-            <div className="ota-footer-logo">
-              InnBuddy
+      {/* REASONS SECTION */}
+      <section className="py-20 px-4 md:px-8 max-w-5xl mx-auto">
+        <div className="text-center mb-12 sm:mb-16">
+          <span className="text-xs font-bold tracking-widest text-[#e89c3a] uppercase block mb-2 font-mono">
+            OUR STRENGTHS
+          </span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#1b314b]">
+            InnBuddyが選ばれる4つの理由
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {reasons.map((r, i) => (
+            <div key={i} className="flex gap-4 items-start">
+              <div className="p-2.5 rounded-lg bg-[#e89c3a]/10 text-[#e89c3a] shrink-0 mt-1">
+                <CheckCircle2 className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="font-bold text-base sm:text-lg text-[#1b314b] mb-2">
+                  {r.title}
+                </h3>
+                <p className="text-xs sm:text-sm text-[#666] leading-relaxed">
+                  {r.desc}
+                </p>
+              </div>
             </div>
-            <span className="ota-footer-tag">ABOUT INNBUDDY</span>
+          ))}
+        </div>
+      </section>
+
+      {/* DIAGNOSIS SECTION */}
+      <section id="diagnosis" className="py-20 px-4 md:px-8 bg-[#1b314b] text-white">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="text-xs font-bold tracking-widest text-[#ffd499] uppercase block mb-2 font-mono">
+              SELF CHECK
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold">
+              3分でわかるOTA運用 無料診断
+            </h2>
+            <p className="mt-3 text-xs sm:text-sm text-white/80 max-w-lg mx-auto">
+              5つの質問に答えるだけで、貴施設の現在の運用課題と改善のポテンシャルを判定します。
+            </p>
           </div>
 
-          <p className="ota-footer-desc">
-            InnBuddyは、ホテル・旅館のオンライン販売を支援するサービスです。<br />
-            OTA運用を中心に、施設ごとの課題や販売状況を理解しながら、必要なサポートを行っています。
-          </p>
+          {!isDiagnosed ? (
+            <div className="space-y-8 bg-white/5 p-6 sm:p-8 rounded-xl border border-white/10 backdrop-blur-sm">
+              {diagnosisQuestions.map((q) => (
+                <div key={q.id} className="space-y-3">
+                  <p className="font-bold text-sm sm:text-base flex items-start gap-2">
+                    <span className="text-[#ffd499]">Q{q.id}.</span>
+                    <span>{q.question}</span>
+                  </p>
+                  <div className="space-y-2 pl-6">
+                    {q.options.map((opt, oIdx) => (
+                      <label
+                        key={oIdx}
+                        className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-colors ${
+                          answers[q.id] === opt.score
+                            ? 'bg-[#e89c3a] border-[#e89c3a] text-white font-medium'
+                            : 'bg-white/10 border-white/15 hover:bg-white/15 text-white/90'
+                        }`}
+                      >
+                        <input
+                          type="radio"
+                          name={`q_${q.id}`}
+                          value={opt.score}
+                          checked={answers[q.id] === opt.score}
+                          onChange={() => handleAnswer(q.id, opt.score)}
+                          className="hidden"
+                        />
+                        <span className="w-4 h-4 rounded-full border border-white/50 flex items-center justify-center shrink-0">
+                          {answers[q.id] === opt.score && (
+                            <span className="w-2 h-2 rounded-full bg-white" />
+                          )}
+                        </span>
+                        <span className="text-xs sm:text-sm">{opt.text}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              ))}
 
-          <div className="ota-footer-links-row">
-            <div className="ota-footer-links-group">
-              <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer">
-                InnBuddyブランドサイトへ ↗
-              </a>
-              <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
-                私たちについて ↗
-              </a>
-              <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
-                お問い合わせ ↗
+              <button
+                onClick={calculateScore}
+                className="w-full bg-[#e89c3a] hover:bg-[#d48b28] text-white font-bold py-4 rounded-lg shadow-lg transition-colors text-sm sm:text-base cursor-pointer mt-6"
+              >
+                診断結果を見る
+              </button>
+            </div>
+          ) : (
+            <div className="bg-white text-[#222] p-8 rounded-xl shadow-2xl text-center space-y-6 animate-in fade-in zoom-in-95 duration-300">
+              <span className="text-xs font-bold text-[#e89c3a] uppercase font-mono tracking-widest block">
+                DIAGNOSIS RESULT
+              </span>
+              <h3 className="text-2xl font-bold font-serif text-[#1b314b]">
+                あなたの宿のOTA運用スコア：{diagnosisScore} / 15 点
+              </h3>
+
+              <div className="p-4 bg-[#fdfaf5] rounded-lg border border-[#e89c3a]/20 text-left text-xs sm:text-sm leading-relaxed text-[#555]">
+                {diagnosisScore! <= 8 && (
+                  <p>
+                    <strong>【改善ポテンシャル：大】</strong> 現在、販売機会の損失や安売りによる利益低下が起きている可能性が高い状態です。基本情報の見直しと料金・プランの整理を行うだけで、早期に売上・単価アップが見込めます。
+                  </p>
+                )}
+                {diagnosisScore! > 8 && diagnosisScore! <= 12 && (
+                  <p>
+                    <strong>【改善ポテンシャル：中】</strong> 基本的な運用はできていますが、細かな需要予測（レベニューマネジメント）やインバウンド対応、口コミ対策を強化することで、さらに収益性を高められる余地があります。
+                  </p>
+                )}
+                {diagnosisScore! > 12 && (
+                  <p>
+                    <strong>【改善ポテンシャル：洗練段階】</strong> 非常に高い水準で運用されています。今後は直販（自社予約）比率の向上や、リピーター施策、さらに高単価な限定プランの企画など、次のステップへの展開が有効です。
+                  </p>
+                )}
+              </div>
+
+              <div className="pt-4 border-t border-gray-100 flex flex-col sm:flex-row gap-3 justify-center">
+                <a
+                  href="#contact"
+                  className="bg-[#1b314b] text-white font-bold py-3 px-6 rounded hover:bg-[#15273c] transition-colors text-xs sm:text-sm"
+                >
+                  詳細な分析レポート・改善プランを相談する
+                </a>
+                <button
+                  onClick={() => setIsDiagnosed(false)}
+                  className="text-xs text-[#888] underline hover:text-[#222]"
+                >
+                  もう一度診断する
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* PLANS SECTION */}
+      <section id="plans" className="py-20 px-4 md:px-8 max-w-5xl mx-auto">
+        <div className="text-center mb-12 sm:mb-16">
+          <span className="text-xs font-bold tracking-widest text-[#e89c3a] uppercase block mb-2 font-mono">
+            PRICING PLANS
+          </span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#1b314b]">
+            明確で安心の月額固定プラン
+          </h2>
+          <p className="mt-3 text-xs sm:text-sm text-[#666] max-w-xl mx-auto">
+            成果報酬による手数料の肥大化を防ぎ、定額でしっかり伴走します。施設の規模に合わせてお選びいただけます。
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          {plans.map((p, idx) => (
+            <div
+              key={idx}
+              className={`rounded-xl p-6 sm:p-8 flex flex-col justify-between border transition-all ${
+                p.highlight
+                  ? 'bg-white border-[#e89c3a] shadow-xl ring-2 ring-[#e89c3a] relative'
+                  : 'bg-white border-[#e8e4dc] shadow-sm'
+              }`}
+            >
+              {p.highlight && (
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e89c3a] text-white text-[10px] font-bold px-3 py-0.5 rounded-full uppercase tracking-wider">
+                  MOST POPULAR
+                </span>
+              )}
+              <div>
+                <h3 className="font-bold text-lg text-[#1b314b] mb-1">{p.name}</h3>
+                <p className="text-xs text-[#777] mb-4">{p.target}</p>
+                <div className="mb-6 pb-6 border-b border-gray-100">
+                  <span className="text-3xl font-serif font-bold text-[#1b314b]">
+                    ¥{p.price}
+                  </span>
+                  <span className="text-xs text-[#888] ml-1">{p.unit}</span>
+                </div>
+                <ul className="space-y-3 mb-6 text-xs text-[#555]">
+                  {p.features.map((f, fIdx) => (
+                    <li key={fIdx} className="flex items-start gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-[#e89c3a] shrink-0 mt-0.5" />
+                      <span>{f}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <a
+                href="#contact"
+                className={`w-full py-3 rounded text-center text-xs sm:text-sm font-bold transition-colors ${
+                  p.highlight
+                    ? 'bg-[#e89c3a] text-white hover:bg-[#d48b28]'
+                    : 'bg-[#f4efe6] text-[#1b314b] hover:bg-[#e8e2d5]'
+                }`}
+              >
+                このプランについて相談する
               </a>
             </div>
-            <span className="ota-footer-copy">
-              © InnBuddy All rights reserved.
+          ))}
+        </div>
+      </section>
+
+      {/* FAQ SECTION */}
+      <section className="py-20 px-4 md:px-8 bg-[#fdfbf7] border-t border-[#ede9e1]">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16">
+            <span className="text-xs font-bold tracking-widest text-[#e89c3a] uppercase block mb-2 font-mono">
+              FAQ
             </span>
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#1b314b]">
+              よくあるご質問
+            </h2>
+          </div>
+
+          <div className="space-y-4">
+            {faqItems.map((faq, i) => (
+              <div key={i} className="bg-white p-5 rounded-lg border border-[#e8e4dc]">
+                <h3 className="font-bold text-sm sm:text-base text-[#1b314b] mb-2 flex items-start gap-2">
+                  <span className="text-[#e89c3a]">Q.</span>
+                  <span>{faq.q}</span>
+                </h3>
+                <p className="text-xs sm:text-sm text-[#666] leading-relaxed pl-6">
+                  {faq.a}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
+      </section>
+
+      {/* CONTACT SECTION */}
+      <section id="contact" className="py-20 px-4 md:px-8 max-w-3xl mx-auto">
+        <div className="text-center mb-12">
+          <span className="text-xs font-bold tracking-widest text-[#e89c3a] uppercase block mb-2 font-mono">
+            CONTACT US
+          </span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#1b314b]">
+            無料相談・お見積りのご依頼
+          </h2>
+          <p className="mt-3 text-xs sm:text-sm text-[#666]">
+            貴施設の現在の課題やご状況に合わせて、最適なサポートプランをご提案します。
+          </p>
+        </div>
+
+        {isSubmitted ? (
+          <div className="bg-white p-8 rounded-xl border border-[#e8e4dc] text-center space-y-4 shadow-sm">
+            <CheckCircle2 className="w-12 h-12 text-[#e89c3a] mx-auto" />
+            <h3 className="text-xl font-bold text-[#1b314b]">送信が完了しました</h3>
+            <p className="text-xs sm:text-sm text-[#666] leading-relaxed">
+              お問い合わせいただき誠にありがとうございます。<br />
+              担当者より24時間以内にご連絡させていただきます。
+            </p>
+          </div>
+        ) : (
+          <form onSubmit={handleContactSubmit} className="bg-white p-6 sm:p-8 rounded-xl border border-[#e8e4dc] shadow-sm space-y-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-xs font-bold text-[#444] mb-1.5">
+                  施設名 <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  required
+                  placeholder="例: ホテル インバディ"
+                  value={contactForm.facilityName}
+                  onChange={(e) => setContactForm({ ...contactForm, facilityName: e.target.value })}
+                  className="w-full px-3.5 py-2.5 rounded border border-[#ccc] text-sm focus:outline-none focus:border-[#1b314b]"
+                />
+              </div>
+              <div>
+                <label className="block text-xs font-bold text-[#444] mb-1.5">
+                  ご担当者名 <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  required
+                  placeholder="例: 山田 太郎"
+                  value={contactForm.contactName}
+                  onChange={(e) => setContactForm({ ...contactForm, contactName: e.target.value })}
+                  className="w-full px-3.5 py-2.5 rounded border border-[#ccc] text-sm focus:outline-none focus:border-[#1b314b]"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-xs font-bold text-[#444] mb-1.5">
+                  メールアドレス <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  required
+                  placeholder="example@innbuddy.com"
+                  value={contactForm.email}
+                  onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
+                  className="w-full px-3.5 py-2.5 rounded border border-[#ccc] text-sm focus:outline-none focus:border-[#1b314b]"
+                />
+              </div>
+              <div>
+                <label className="block text-xs font-bold text-[#444] mb-1.5">
+                  電話番号
+                </label>
+                <input
+                  type="tel"
+                  placeholder="03-1234-5678"
+                  value={contactForm.phone}
+                  onChange={(e) => setContactForm({ ...contactForm, phone: e.target.value })}
+                  className="w-full px-3.5 py-2.5 rounded border border-[#ccc] text-sm focus:outline-none focus:border-[#1b314b]"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-[#444] mb-1.5">
+                客室数
+              </label>
+              <input
+                type="text"
+                placeholder="例: 10室、一棟貸し2棟など"
+                value={contactForm.roomCount}
+                onChange={(e) => setContactForm({ ...contactForm, roomCount: e.target.value })}
+                className="w-full px-3.5 py-2.5 rounded border border-[#ccc] text-sm focus:outline-none focus:border-[#1b314b]"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-[#444] mb-1.5">
+                ご相談内容・現状の課題
+              </label>
+              <textarea
+                rows={4}
+                placeholder="例: 料金調整に手が回らない、Booking.comの設定を見直したい、などご自由にご記入ください。"
+                value={contactForm.message}
+                onChange={(e) => setContactForm({ ...contactForm, message: e.target.value })}
+                className="w-full px-3.5 py-2.5 rounded border border-[#ccc] text-sm focus:outline-none focus:border-[#1b314b]"
+              />
+            </div>
+
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full bg-[#1b314b] hover:bg-[#15273c] text-white font-bold py-4 rounded text-sm sm:text-base shadow transition-colors cursor-pointer"
+            >
+              {isSubmitting ? '送信中...' : '送信する'}
+            </button>
+          </form>
+        )}
+      </section>
+
+      {/* FOOTER */}
+      <footer className="bg-[#152438] text-white py-12 px-4 md:px-8 border-t border-white/10">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6">
+          <div className="text-center sm:text-left">
+            <span className="font-serif font-bold text-xl block mb-1">InnBuddy OTA</span>
+            <p className="text-xs text-white/50">宿泊施設の持続的な成長と収益最大化を支えるパートナー</p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-6 text-xs text-white/70">
+            <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">お問い合わせ</a>
+            <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">私たちについて</a>
+            <a href="https://innbuddy-japan.com/library" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">ライブラリ</a>
+            <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">ブランドサイト</a>
+          </div>
+        </div>
+        <div className="max-w-5xl mx-auto mt-8 pt-6 border-t border-white/10 text-center text-xs text-white/40">
+          © InnBuddy 2026 — All Rights Reserved.
+        </div>
       </footer>
+
+      {/* =========================================================
+          ★ スマホ専用 アプリ風ボトムナビゲーション（6項目） ★
+      ========================================================= */}
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-[#152438]/95 backdrop-blur-md border-t border-white/15 px-1 py-1.5 pb-[calc(0.4rem+env(safe-area-inset-bottom,0px))] shadow-[0_-8px_20px_rgba(0,0,0,0.5)]"
+        aria-label="モバイル下部ナビゲーション"
+      >
+        <div className="grid grid-cols-6 items-center justify-around gap-0.5 text-center">
+          
+          {/* 1. 無料診断（最重要CTA：オレンジアクセント） */}
+          <a
+            href="#diagnosis"
+            className="flex flex-col items-center justify-center py-1 text-[#f39c12] hover:text-[#f1c40f] transition-colors active:scale-95"
+          >
+            <Sparkles className="w-[17px] h-[17px] mb-1 shrink-0" />
+            <span className="text-[9px] font-bold tracking-tight whitespace-nowrap">無料診断</span>
+          </a>
+
+          {/* 2. InnBuddyとは？ */}
+          <a
+            href="https://innbuddy-japan.com/team"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Users className="w-[17px] h-[17px] mb-1 opacity-80 shrink-0" />
+            <span className="text-[9px] font-medium tracking-tight whitespace-nowrap">チーム</span>
+          </a>
+
+          {/* 3. インバウンド */}
+          <a
+            href="https://innbuddy-japan.com/inbound"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Globe className="w-[17px] h-[17px] mb-1 opacity-80 shrink-0" />
+            <span className="text-[9px] font-medium tracking-tight whitespace-nowrap">インバウンド</span>
+          </a>
+
+          {/* 4. ハラル */}
+          <a
+            href="https://innbuddy-japan.com/halal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <ShieldCheck className="w-[17px] h-[17px] mb-1 opacity-80 shrink-0" />
+            <span className="text-[9px] font-medium tracking-tight whitespace-nowrap">ハラル</span>
+          </a>
+
+          {/* 5. ライブラリ */}
+          <a
+            href="https://innbuddy-japan.com/library"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <BookOpen className="w-[17px] h-[17px] mb-1 opacity-80 shrink-0" />
+            <span className="text-[9px] font-medium tracking-tight whitespace-nowrap">書庫</span>
+          </a>
+
+          {/* 6. 問い合わせ */}
+          <a
+            href="https://innbuddy-japan.com/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Mail className="w-[17px] h-[17px] mb-1 opacity-80 shrink-0" />
+            <span className="text-[9px] font-medium tracking-tight whitespace-nowrap">問合せ</span>
+          </a>
+        </div>
+      </nav>
+
     </main>
   )
 }

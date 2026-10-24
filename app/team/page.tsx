@@ -1,12 +1,10 @@
-import type { Metadata } from "next";
-import "./team.css";
-import CampfireAnimation from "@/components/CampfireAnimation";
+'use client'
 
-export const metadata: Metadata = {
-  title: "運営チームについて | InnBuddy",
-  description:
-    "InnBuddyを運営する2名の共同創業者と、私たちが持つ経験・専門性、宿泊施設への向き合い方についてご紹介します。",
-};
+import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
+import { ArrowUp, Download, Mail, Users, Globe, BookOpen } from 'lucide-react'
+import "./team.css"
+import CampfireAnimation from "@/components/CampfireAnimation"
 
 const experiences = [
   {
@@ -102,8 +100,23 @@ const strengths = [
 ];
 
 export default function TeamPage() {
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  // スクロール検知で「上へ戻る」ボタンを表示
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 400)
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   return (
-    <main className="team-page">
+    <main className="team-page pb-16 md:pb-0">
       <div className="team-bg" aria-hidden="true">
         <span className="bg-circle bg-circle-01" />
         <span className="bg-circle bg-circle-02" />
@@ -442,19 +455,108 @@ export default function TeamPage() {
 
       {/* FOOTER */}
       <footer className="team-footer">
-        <div className="team-container footer-inner">
-          <div className="footer-brand">InnBuddy</div>
+        <div className="team-container">
+          {/* フッター上部：ナビゲーション */}
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 md:gap-0 pb-10 border-b border-white/10">
+            <div className="footer-brand text-2xl">InnBuddy</div>
+            
+            <div className="flex flex-col sm:flex-row gap-6 sm:gap-10 text-center sm:text-left">
+              <a href="https://innbuddy-japan.com/ota" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white/80 hover:text-white transition-colors">
+                OTAサポート相談
+              </a>
+              <a href="https://innbuddy-japan.com/library" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white/80 hover:text-white transition-colors">
+                ライブラリ
+              </a>
+              <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white/80 hover:text-white transition-colors">
+                問い合わせ
+              </a>
+              <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white/80 hover:text-white transition-colors">
+                ブランドサイト
+              </a>
+            </div>
+          </div>
 
-          <nav className="footer-nav">
-            <a href="/contact" className="footer-contact">
-              <span>ご相談はこちら</span>
-              <span className="footer-arrow">→</span>
-            </a>
-          </nav>
-
-          <div className="copyright">© InnBuddy</div>
+          {/* フッター下部：コピーライト */}
+          <div className="pt-6 flex justify-between items-center">
+            <div className="copyright">© InnBuddy 2026</div>
+          </div>
         </div>
       </footer>
+
+      {/* ★ スマホ専用 アプリ風ボトムナビゲーション（5項目） ★ */}
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-[#14213d]/92 backdrop-blur-md border-t border-white/10 px-1 py-1.5 pb-[calc(0.4rem+env(safe-area-inset-bottom,0px))] shadow-[0_-8px_20px_rgba(0,0,0,0.5)]"
+        aria-label="モバイル下部ナビゲーション"
+      >
+        <div className="grid grid-cols-5 items-center justify-around gap-0.5 text-center">
+          
+          {/* 1. OTAサポート（アクセントカラー：ロイヤルブルー） */}
+          <a
+            href="https://innbuddy-japan.com/ota"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-[#4da8da] hover:text-[#7ac4f0] transition-colors active:scale-95 cursor-pointer"
+          >
+            <Download className="w-[18px] h-[18px] mb-1" />
+            <span className="text-[9.5px] font-bold tracking-tight whitespace-nowrap">OTA支援</span>
+          </a>
+
+          {/* 2. 問い合わせ */}
+          <a
+            href="https://innbuddy-japan.com/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Mail className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight">問合せ</span>
+          </a>
+
+          {/* 3. 私たちについて */}
+          <button
+            type="button"
+            onClick={scrollToTop}
+            className="flex flex-col items-center justify-center py-1 text-white hover:text-white transition-colors active:scale-95"
+          >
+            <Users className="w-[18px] h-[18px] mb-1 opacity-100" />
+            <span className="text-[9.5px] font-bold tracking-tight whitespace-nowrap">私たち</span>
+          </button>
+
+          {/* 4. ブランドサイト */}
+          <a
+            href="https://innbuddy-japan.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Globe className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight">ブランド</span>
+          </a>
+
+          {/* 5. ライブラリ */}
+          <a
+            href="https://innbuddy-japan.com/library"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <BookOpen className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight">書庫</span>
+          </a>
+        </div>
+      </nav>
+
+      {/* ★ ページ上部へ戻るボタン ★ */}
+      <button
+        onClick={scrollToTop}
+        className={`fixed right-6 md:right-8 bottom-24 md:bottom-12 z-40 p-3 rounded-full bg-white text-[#14213d] shadow-lg border border-[#14213d]/10 transition-all duration-300 hover:bg-[#f0f0f0] hover:scale-110 active:scale-95 ${
+          showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
+        }`}
+        aria-label="ページ上部へ戻る"
+      >
+        <ArrowUp className="w-5 h-5" />
+      </button>
+
     </main>
   );
 }

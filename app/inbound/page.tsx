@@ -1,126 +1,89 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { createPortal } from 'react-dom'
-import { ArrowDown, Download, X, CheckSquare, FileText, Table, ExternalLink, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react'
+import {
+  ArrowRight, Menu, X, Globe, MessageSquare, Download,
+  CheckCircle2, FileText, CheckSquare, Sparkles, BookOpen, Users, Mail
+} from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { Checkbox } from '@/components/ui/checkbox'
 
-const papers = [
-  {
-    title: 'インバウンド攻略マニュアル',
-    catchcopyNode: (
-      <span className="text-[#111111] font-bold text-sm md:text-base">
-        これ一冊でインバウンドの今を<br />
-        <strong className="text-base md:text-lg font-black text-[#111111]">数字</strong>で把握
-      </span>
-    ),
-    text: 'インバウンド市場の動向から実践的な受け入れノウハウまでを網羅',
-    filename: 'InnBuddy_インバウンドガイドブック2026.pdf',
-  },
-  {
-    title: 'フロント接客翻訳',
-    catchcopyNode: (
-      <span className="text-[#111111] font-bold text-sm md:text-base">
-        <strong className="text-lg md:text-2xl font-black text-[#111111]">200</strong>パターン×重要<strong className="text-lg md:text-2xl font-black text-[#111111]">19</strong>言語
-      </span>
-    ),
-    text: 'チェックインから周辺案内まで、フロント業務で必須の多言語対応シート',
-    filename: 'フロント接客翻訳_19言語対応版.xlsx',
-  },
-  {
-    title: '多言語接客フレーズ集',
-    catchcopyNode: (
-      <span className="text-[#111111] font-bold text-sm md:text-base">
-        <strong className="text-lg md:text-2xl font-black text-[#111111]">1000</strong>パターン×重要<strong className="text-lg md:text-2xl font-black text-[#111111]">19</strong>言語
-      </span>
-    ),
-    text: '現場のあらゆるシーンで役立つ、やさしい多言語フレーズ集',
-    filename: '多言語接客フレーズ集_19言語対応版.xlsx',
-  },
-  {
-    title: 'コメント返信翻訳',
-    catchcopyNode: (
-      <span className="text-[#111111] font-bold text-sm md:text-base">
-        <strong className="text-lg md:text-2xl font-black text-[#111111]">300</strong>パターン×重要<strong className="text-lg md:text-2xl font-black text-[#111111]">19</strong>言語
-      </span>
-    ),
-    text: '感謝と誠意を届ける、多言語レビュー返信テンプレート',
-    filename: 'コメント返信翻訳_19言語対応版.xlsx',
-  },
+const slides = [
+  { src: '/library/inbound/hero-fushimi.png', alt: '伏見稲荷の千本鳥居を歩く外国人旅行者' },
+  { src: '/library/inbound/hero-dining.png', alt: '伝統的な日本料理を楽しむ外国人旅行者' },
+  { src: '/library/inbound/hero-onsen.png', alt: '日本の温泉宿でくつろぐ外国人客' },
+  { src: '/library/inbound/hero-market.png', alt: '日本の朝市を散策する家族' },
+  { src: '/library/inbound/hero-tea.png', alt: '茶道体験を楽しむ外国人女性' },
+  { src: '/library/inbound/hero-shibuya.png', alt: '渋谷のスクランブル交差点を歩く旅行者' },
+  { src: '/library/inbound/hero-ryokan.png', alt: '旅館の和室で庭を眺める外国人カップル' },
 ]
 
-const useCases = [
+const inboundBoxItems = [
   {
-    title: '1. インバウンド攻略マニュアル',
-    tag: '戦略・経営',
-    howToUse: '支配人・経営陣で共有し、自施設が狙うべき国籍や滞在・単価戦略の軸を決める際にご活用ください。',
-    result: '数値根拠に基づいた受入体制が整い、無駄な投資を防ぎながら売上・客単価を確実に引き上げられます。',
+    title: '口コミ翻訳マニュアル (18言語対応)',
+    shortTitle: '① 口コミ翻訳',
+    icon: Globe,
+    description: '英語・中国語（簡体・繁体）・韓国語はもちろん、タイ語・ベトナム語・フランス語・スペイン語など全18言語に対応。OTAやGoogleマップに届く外国語の口コミに対し、ネイティブに伝わる好印象な返信テンプレートと、評価を下げないクレーム対応の翻訳フレーズを網羅。現場スタッフが迷わずすぐ返信できます。'
   },
   {
-    title: '2. フロント接客翻訳',
-    tag: 'フロント・受付',
-    howToUse: 'フロントカウンターに印刷して常備。チェックイン・館内説明・周辺案内時に指差しで案内します。',
-    result: '言葉の壁による説明漏れや手続きの滞りがゼロになり、到着時の不安を「安心」へ変えます。',
+    title: '接客指差しシート (イラスト付き)',
+    shortTitle: '② 指差しシート',
+    icon: MessageSquare,
+    description: 'チェックイン、館内案内、大浴場のマナー、食事の希望確認、アレルギーの有無、緊急時の避難誘導など、宿の現場で最も頻出するシチュエーションを視覚的なイラストと多言語で整理。語学に自信がないスタッフでも、シートを指差すだけでスムーズかつ確実にお客様と意思疎通が図れます。'
   },
   {
-    title: '3. 多言語接客フレーズ集',
-    tag: 'レストラン・客室・現場',
-    howToUse: '食事の案内、アレルギー確認、部屋の使い方、トラブル対応など、現場スタッフ全員で日常的に活用。',
-    result: '「話せない恐怖」が消え、AIには真似できない温かいコミュニケーションと笑顔が生まれます。',
+    title: '文化・宗教別 おもてなしハンドブック',
+    shortTitle: '③ おもてなし',
+    icon: Sparkles,
+    description: '国や地域、宗教による生活習慣・マナー・タブーの違いを分かりやすく解説。靴の脱ぎ履き、タトゥー対応、チップ文化への配慮、食材の制限など、「知らずにトラブルになる」リスクを事前に回避。スタッフ全員が自信を持っておもてなしできる実践的な知識集です。'
   },
   {
-    title: '4. コメント返信翻訳',
-    tag: 'マーケティング・WEB',
-    howToUse: 'Booking.comやTrip.com等の海外OTAに寄せられたレビューに対し、状況に応じたフレーズを選んで返信。',
-    result: '迅速で誠意ある多言語返信により高評価（★）を獲得。海外客からの信頼が高まり、次の予約を呼び込みます。',
-  },
+    title: 'OTA集客・外国人レビュー向上ガイド',
+    shortTitle: '④ レビュー向上',
+    icon: FileText,
+    description: 'Booking.comやExpedia、Agodaなどの海外OTAで高評価を獲得し、成約率を最大化するための施設情報・写真の掲載ポイントを解説。外国人旅行者が宿を選ぶ際に重視する基準と、口コミ平均スコアを4.5以上に引き上げる現場改善のノウハウをまとめた戦略書です。'
+  }
 ]
 
 const nationalitiesList = [
   '中国', '台湾', '韓国', '香港', 'アメリカ', 'オーストラリア', 'ロシア', '東南アジア', 'ヨーロッパ', '中東地域', '中南米', 'その他',
 ]
+
 const ratioOptions = Array.from({ length: 11 }, (_, i) => (i * 10).toString())
 
-const localPhotos = [
-  { src: '/library/inbound/inbound-box-collage.png', alt: 'Inbound Box コラージュ' },
-  { src: '/library/inbound/sdg-reuse.png', alt: '竹製カトラリーと風呂敷のリユース素材' },
-  { src: '/library/inbound/sdg-local-food.png', alt: '地域の旬の野菜を使った食材' },
-  { src: '/library/inbound/sdg-refill.png', alt: 'マイボトルに給水する旅行者' },
-  { src: '/library/inbound/sdg-community.png', alt: '地域の人々が植樹する様子' },
-  { src: '/library/inbound/sdg-paper-signs.png', alt: '再生紙の多言語案内カード' },
-  { src: '/library/inbound/sdg-craft.png', alt: '再生紙を使ったものづくり' },
-  { src: '/library/inbound/hasamiyaki-hero.png', alt: '波佐見焼ヒーロー' },
-]
-
-function TileImage({ index = 0, className = '' }: { index?: number; className?: string }) {
-  const photo = localPhotos[index % localPhotos.length]
-  return (
-    <div className={`relative min-h-[120px] md:min-h-[160px] overflow-hidden bg-[#c9c7c0] ${className}`}>
-      <img src={photo.src} alt={photo.alt} className="photo-depth absolute inset-0 h-full w-full object-cover grayscale-[.05] transition-transform duration-700 hover:scale-105" />
-      <div className="absolute inset-0 bg-[#ed6a2b]/10" />
-    </div>
-  )
-}
-
 export default function InboundPage() {
+  const [activeIndex, setActiveIndex] = useState(0)
+  const [selectedBoxItem, setSelectedBoxItem] = useState(inboundBoxItems[0])
   const [isMounted, setIsMounted] = useState(false)
   const [showForm, setShowForm] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const [ratio, setRatio] = useState<string>('')
   const [selectedNationalities, setSelectedNationalities] = useState<string[]>([])
+  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   useEffect(() => {
     setIsMounted(true)
   }, [])
 
   useEffect(() => {
-    if (showForm) {
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % slides.length)
+    }, 3000)
+    return () => window.clearInterval(timer)
+  }, [])
+
+  useEffect(() => {
+    if (showForm || menuOpen) {
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = 'unset'
     }
     return () => { document.body.style.overflow = 'unset' }
-  }, [showForm])
+  }, [showForm, menuOpen])
 
   const handleNationalityChange = (nationality: string, checked: boolean) => {
     if (checked) {
@@ -128,11 +91,6 @@ export default function InboundPage() {
     } else {
       setSelectedNationalities(selectedNationalities.filter((n) => n !== nationality))
     }
-  }
-
-  const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
-    e.preventDefault()
-    setShowForm(true)
   }
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -172,584 +130,593 @@ export default function InboundPage() {
     }
   }
 
-  if (!isMounted) return null
+  const handleDownloadClick = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault()
+    setMenuOpen(false)
+    setShowForm(true)
+  }
+
+  if (!isMounted) {
+    return <main className="min-h-screen bg-[#111]" aria-busy="true" />
+  }
 
   return (
-    <main id="top" className="inbound-scene min-h-screen overflow-x-hidden bg-[#ed6a2b] text-white">
-      <div className="inbound-frame mx-auto max-w-[1500px] border-x border-black">
-        
-        {/* =========================================================
-            1ページ目：ファーストビュー
-        ========================================================= */}
-        <section className="min-h-screen flex flex-col justify-between">
-          <div className="grid grid-cols-2 md:grid-cols-4 border-b border-[#e7e4df]/30 flex-grow">
-            <div className="flex flex-col justify-end border-b md:border-b-0 border-r border-[#e7e4df]/30 p-3 md:p-5">
-              <div>
-                <p className="mb-1.5 text-[10px] md:text-[11px] font-bold tracking-[0.12em]">【明日から現場が変わる】</p>
-                <h1 className="hero-title text-[clamp(1.6rem,3.8vw,4.2rem)] font-bold leading-[.9] tracking-[-0.08em] break-words">Inbound<br />Box.</h1>
-              </div>
-            </div>
+    <main className="relative min-h-screen bg-[#111] text-white overflow-x-hidden pb-20 md:pb-0">
+      
+      {/* ヒーロー背景画像（固定） */}
+      <div className="fixed inset-0 z-0 pointer-events-none" aria-hidden="true">
+        {slides.map((slide, index) => (
+          <Image
+            key={slide.src}
+            src={slide.src}
+            alt={slide.alt}
+            fill
+            priority={index === 0}
+            sizes="100vw"
+            className={`object-cover object-center transition-opacity duration-1000 ease-in-out ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}
+          />
+        ))}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-transparent to-black/50" />
+      </div>
 
-            <TileImage index={0} className="border-b md:border-b-0 border-r border-[#e7e4df]/30" />
-
-            <div className="flex flex-col justify-between border-b md:border-b-0 border-r border-[#e7e4df]/30 p-3 md:p-5">
-              <div>
-                <span className="text-3xl md:text-5xl font-light tracking-[-0.1em]">19</span>
-                <p className="max-w-[150px] text-xs md:text-sm font-bold leading-4 md:leading-5 mt-1">主要19言語対応・<br />インバウンド接客ツール</p>
-              </div>
-              <p className="text-[10px] md:text-[11px] leading-4 opacity-90 mt-2 border-t border-white/20 pt-2 font-medium">
-                世界約80カ国旅で100カ国以上の人々とコミュニケーションした旅のプロが直々に監修。
-              </p>
-            </div>
-
-            <div className="flex flex-col justify-between border-b md:border-b-0 border-[#e7e4df]/30 p-3 md:p-5">
-              <span className="text-[10px] font-bold tracking-[0.2em]">SDGs / ACTION</span>
-              <p className="text-base md:text-lg font-bold leading-5 tracking-[-0.05em]">人と地域に<br />やさしい接客を。</p>
-              <p className="text-[10px] leading-4 opacity-75">印刷して現場に置くだけ・すぐ使える</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 border-b border-[#e7e4df]/30 flex-grow">
-            <div className="col-span-2 border-b md:border-b-0 border-r border-[#e7e4df]/30 p-3 md:p-5 flex flex-col justify-between">
-              <div>
-                <div className="flex items-start justify-between gap-2">
-                  <div>
-                    <p className="mb-1 text-[10px] font-bold tracking-[0.2em]">COMPLETE PACK / 1160+ ITEMS</p>
-                    <h2 className="text-xl font-bold leading-tight tracking-[-0.07em] md:text-3xl">ガイド＆テンプレートを<br />一括で無料ダウンロード</h2>
-                  </div>
-                  <span className="hidden text-4xl font-light md:block">04</span>
-                </div>
-                
-                {/* 6行メッセージ */}
-                <div className="mt-3 text-[11px] md:text-xs leading-relaxed text-white text-right space-y-1 font-medium drop-shadow-sm">
-                  <p>言葉の壁を、人の温かさで超える。</p>
-                  <p>AIじゃできない「人の接客」を取り戻す。</p>
-                  <p>19言語のガイドが、あなたの「おもてなし」を助ける。</p>
-                  <p>効率化の先にあるのは、お客様の笑顔。</p>
-                  <p>ツールは箱の中、心はあなたの手の中。</p>
-                  <p>一緒に見て、話して、そして笑顔に。</p>
-                </div>
-              </div>
-              
-              {/* 黒のネオンBOXボタン */}
-              <button
-                onClick={handleDownloadClick}
-                className="mt-3 inline-flex items-center gap-2.5 bg-[#0a0a0a] text-white border border-[#ff6a00] px-6 py-3 text-xs font-bold tracking-[0.15em] shadow-[0_0_20px_rgba(255,106,0,0.5)] hover:shadow-[0_0_30px_rgba(255,106,0,0.85)] hover:border-[#ff8800] hover:scale-[1.02] transition-all duration-300 cursor-pointer w-fit"
-              >
-                <span className="drop-shadow-[0_0_8px_rgba(255,106,0,0.9)]">30秒で一括ダウンロード</span>
-                <ArrowDown className="h-4 w-4 text-[#ff8800] animate-bounce filter drop-shadow-[0_0_8px_#ff5500]" />
-              </button>
-            </div>
-
-            <TileImage index={1} className="border-b md:border-b-0 border-r border-[#e7e4df]/30" />
-            <TileImage index={2} className="border-b md:border-b-0 border-[#e7e4df]/30" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4">
-            <div className="col-span-2 flex items-center border-b md:border-b-0 border-r border-[#e7e4df]/30 p-3 md:p-5 bg-[#ed6a2b]">
-              <p className="text-lg font-bold leading-tight tracking-[-0.05em] md:text-2xl">現場に置くだけ。<br />今日から。すぐ使える。</p>
-            </div>
-            <div className="col-span-2 flex items-center p-3 md:p-5 bg-[#ed6a2b]">
-              <p className="text-xs leading-5 opacity-90">観光・宿泊・飲食の現場で、言葉や文化の違いを負担にしない。現場で役立つ4つの資料を、ひとつの箱に。</p>
-            </div>
-          </div>
-        </section>
-
-        {/* =========================================================
-            2ページ目
-        ========================================================= */}
-        <section className="bg-white text-[#111] border-b border-black/20">
-          <div className="grid grid-cols-1 md:grid-cols-4">
-            <div className="col-span-2 border-b md:border-b-0 border-r border-black/15 p-6 md:p-10 flex flex-col justify-between">
-              <div>
-                <h2 className="text-3xl font-bold leading-tight tracking-[-0.07em] md:text-5xl text-[#111]">
-                  過去最高、<br /><span className="text-[#ed6a2b]">9.5兆円</span>の巨大市場へ。
-                </h2>
-              </div>
-              <p className="mt-6 text-xs md:text-sm leading-7 text-[#444] max-w-md">
-                訪日客数・消費額ともに過去最高を更新。政府目標である2030年「消費額15兆円」に向け、インバウンド対応は宿泊・観光業の成長に直結する必須戦略です。
-              </p>
-            </div>
-            
-            <div className="border-b md:border-b-0 border-r border-black/15 p-6 md:p-10 flex flex-col justify-between bg-[#faf8f5]">
-              <span className="text-[10px] font-bold tracking-[0.2em] text-[#666]">CONSUMPTION</span>
-              <div>
-                <span className="text-4xl md:text-5xl font-bold tracking-[-0.05em] text-[#ed6a2b]">9.5兆円</span>
-                <p className="mt-2 text-xs font-bold text-[#333]">訪日外国人消費額の実績</p>
-              </div>
-              <p className="text-[10px] text-[#888]">※観光庁最新データより</p>
-            </div>
-
-            <div className="p-6 md:p-10 flex flex-col justify-between bg-[#faf8f5]">
-              <span className="text-[10px] font-bold tracking-[0.2em] text-[#666]">TARGET 2030</span>
-              <div>
-                <span className="text-4xl md:text-5xl font-bold tracking-[-0.05em] text-[#111]">15兆円</span>
-                <p className="mt-2 text-xs font-bold text-[#333]">2030年 政府インバウンド目標</p>
-              </div>
-              <p className="text-[10px] text-[#888]">※経済波及効果19兆円規模</p>
-            </div>
-          </div>
-        </section>
-
-        {/* =========================================================
-            3ページ目
-        ========================================================= */}
-        <section className="bg-[#fcfbf9] text-[#111] border-b border-black/20">
-          <div className="grid grid-cols-1 md:grid-cols-4">
-            <div className="col-span-2 border-b md:border-b-0 border-r border-black/15 p-6 md:p-10 flex flex-col justify-between">
-              <div>
-                <h2 className="text-3xl font-bold leading-tight tracking-[-0.07em] md:text-5xl text-[#111]">
-                  「泊まるだけ」から<br /><span className="text-[#ed6a2b]">「体験を売る」</span>宿へ。
-                </h2>
-              </div>
-              <p className="mt-6 text-xs md:text-sm leading-7 text-[#444] max-w-md">
-                単なる宿泊の枠を超えた「体験価値」の提供が単価と満足度を引き上げます。円滑な多言語接客がその第一歩となります。
-              </p>
-            </div>
-
-            <div className="border-b md:border-b-0 border-r border-black/15 p-6 md:p-10 flex flex-col justify-between bg-white">
-              <span className="text-[10px] font-bold tracking-[0.2em] text-[#666]">HIGH-SPENDERS</span>
-              <div>
-                <span className="text-4xl md:text-5xl font-bold tracking-[-0.05em] text-[#ed6a2b]">+63%</span>
-                <p className="mt-2 text-xs font-bold text-[#333]">高所得層の消費単価比率</p>
-              </div>
-              <p className="text-[10px] text-[#888]">※世帯年収20万ドル以上</p>
-            </div>
-
-            <div className="p-6 md:p-10 flex flex-col justify-between bg-white">
-              <span className="text-[10px] font-bold tracking-[0.2em] text-[#666]">OPPORTUNITY</span>
-              <div>
-                <span className="text-4xl md:text-5xl font-bold tracking-[-0.05em] text-[#111]">44%</span>
-                <p className="mt-2 text-xs font-bold text-[#333]">体験・娯楽費の未購入率</p>
-              </div>
-              <p className="text-[10px] text-[#888]">※大きな開拓ポテンシャル</p>
-            </div>
-          </div>
-        </section>
-
-        {/* =========================================================
-            4ページ目：ボックスの中身
-        ========================================================= */}
-        <section id="contents" className="border-b border-[#e7e4df]/30 px-5 py-8 md:px-8 md:py-12">
-          <div className="mb-8 flex items-end justify-between">
-            <div>
-              <h2 className="text-3xl font-bold tracking-[-0.08em] md:text-5xl">ボックスの中身</h2>
-            </div>
-            <p className="hidden text-right text-xs leading-5 opacity-75 md:block">一括ダウンロードで<br />すべてのツールが揃います。</p>
-          </div>
-          <div className="grid grid-cols-2 gap-px border border-[#e7e4df]/30 bg-[#e7e4df]/30 md:grid-cols-4">
-            {papers.map((paper, index) => (
-              <article key={paper.title} className="relative flex min-h-[250px] md:min-h-[290px] flex-col justify-end overflow-hidden bg-[#ed6a2b] p-5 md:p-6 group text-right">
-                <img src={localPhotos[index + 3].src} alt={paper.title} className="photo-depth absolute inset-0 h-full w-full object-cover opacity-20 transition-transform duration-500 group-hover:scale-105" />
-                
-                <div className="relative z-10 flex flex-col items-end justify-end mt-auto text-right w-full">
-                  <h3 className="text-xl font-bold tracking-[-0.06em] md:text-2xl text-white drop-shadow-sm text-right">{paper.title}</h3>
-                  
-                  <div className="mt-2 text-right">
-                    {paper.catchcopyNode}
-                  </div>
-
-                  <p className="mt-3 text-xs leading-5 opacity-90 text-right text-white drop-shadow-sm">{paper.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        {/* =========================================================
-            5ページ目：4つの武器の活用方法
-        ========================================================= */}
-        <section className="bg-[#faf8f5] text-[#111111] border-b border-black/20 px-5 py-10 md:px-12 md:py-16">
-          <div className="mb-10 text-center max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-[-0.06em] text-[#111111]">
-              現場で使える、<br /><span className="text-[#ed6a2b]">4つの武器</span>の活用方法
-            </h2>
-            <p className="mt-4 text-xs md:text-sm text-[#555555] leading-relaxed">
-              資料を手に入れたその日から、現場がどう変わり、どのように成果へ繋がるのかをご紹介します。
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {useCases.map((item) => (
-              <div key={item.title} className="bg-white p-6 md:p-8 border border-black/10 shadow-sm flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center justify-between border-b border-gray-100 pb-3 mb-4">
-                    <span className="text-xs font-bold tracking-wider text-[#ed6a2b] bg-[#ed6a2b]/10 px-2.5 py-1 rounded-sm">
-                      {item.tag}
-                    </span>
-                    <Sparkles className="w-4 h-4 text-[#ed6a2b]" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#111111] mb-3">{item.title}</h3>
-                  
-                  <div className="space-y-3 text-xs md:text-sm text-[#444444] leading-relaxed">
-                    <div className="bg-[#faf8f5] p-3 border-l-2 border-[#ed6a2b]">
-                      <p className="font-bold text-[#111111] mb-1 flex items-center gap-1.5 text-xs">
-                        <ArrowRight className="w-3.5 h-3.5 text-[#ed6a2b]" /> どうやって使うか？
-                      </p>
-                      <p className="text-xs text-[#555555]">{item.howToUse}</p>
-                    </div>
-
-                    <div className="bg-white p-3 border border-gray-200">
-                      <p className="font-bold text-[#ed6a2b] mb-1 flex items-center gap-1.5 text-xs">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#ed6a2b]" /> 導入するとどうなる？
-                      </p>
-                      <p className="text-xs text-[#222222] font-medium">{item.result}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <button
-              onClick={handleDownloadClick}
-              className="inline-flex items-center gap-3 bg-[#0a0a0a] text-white border border-[#ff6a00] px-8 py-4 text-xs md:text-sm font-bold tracking-[0.15em] shadow-[0_0_20px_rgba(255,106,0,0.5)] hover:shadow-[0_0_30px_rgba(255,106,0,0.85)] hover:border-[#ff8800] hover:scale-[1.02] transition-all duration-300 cursor-pointer"
-            >
-              <span className="drop-shadow-[0_0_8px_rgba(255,106,0,0.9)]">今すぐ4つの武器を無料ダウンロード</span>
-              <ArrowDown className="h-4 w-4 text-[#ff8800] animate-bounce filter drop-shadow-[0_0_8px_#ff5500]" />
+      {/* スマホ用ヘッダードロワーメニュー */}
+      {menuOpen && (
+        <div className="fixed inset-0 z-[120] md:hidden flex flex-col justify-between bg-[#111]/95 backdrop-blur-md p-6">
+          <div className="flex justify-between items-center pb-4 border-b border-white/15">
+            <span className="text-xs tracking-[0.25em] text-[#d95338]">MENU</span>
+            <button onClick={() => setMenuOpen(false)} className="p-2 text-white/70 hover:text-white" aria-label="メニューを閉じる">
+              <X className="w-6 h-6" />
             </button>
           </div>
-        </section>
-
-        {/* =========================================================
-            6ページ目：時空の歪みポータルデザイン
-        ========================================================= */}
-        <section
-          id="download"
-          className="grid border-b border-black/40 md:grid-cols-[1fr_1fr] relative overflow-hidden text-white"
-          style={{
-            background: 'radial-gradient(circle at 75% 50%, #f47735 0%, #b84417 22%, #4a1509 45%, #180803 70%, #050505 100%)',
-          }}
-        >
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-amber-500/20 via-transparent to-black/80 pointer-events-none" />
-          <div className="absolute -inset-[100%] opacity-20 pointer-events-none animate-spin-slow bg-[conic-gradient(from_0deg,transparent_0_300deg,#ed6a2b_360deg)]" />
-
-          <div className="p-6 md:p-12 relative z-10 flex flex-col justify-between">
-            <span className="text-[10px] font-bold tracking-[0.3em] text-[#ed6a2b] flex items-center gap-1">
-              <Sparkles className="w-3.5 h-3.5" /> READY FOR TOMORROW
-            </span>
-            <h2 className="mt-12 text-4xl font-bold leading-[.95] tracking-[-0.09em] md:text-7xl text-white drop-shadow-md">
-              伝わることは、<br />やさしさの<br />インフラ。
-            </h2>
-          </div>
-
-          <div className="flex flex-col justify-end border-t border-white/10 p-6 md:border-l md:border-t-0 md:p-12 relative z-10 backdrop-blur-[2px]">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 tracking-tight">次のアクション。</h3>
-            <p className="max-w-md text-xs md:text-sm leading-7 text-gray-200 mb-8 font-medium">
-              明日からの接客を変える、さらなるステップへ。
-            </p>
-
-            <div className="flex flex-col gap-6 w-full pt-2">
-              <a
-                href="https://timerex.net/s/InnBuddy_ESG/386fd946/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-between border-b border-[#ff6a00]/40 pb-3.5 transition-all duration-300 hover:border-[#ff6a00] cursor-pointer"
-              >
-                <span
-                  className="text-sm md:text-lg font-black tracking-[0.15em] text-white transition-all duration-300 group-hover:scale-[1.01]"
-                  style={{
-                    color: '#ffffff',
-                    textShadow: '0 0 8px #ff6a00, 0 0 18px #ff5500, 0 0 28px #ff3300',
-                    filter: 'drop-shadow(0 0 6px rgba(255, 102, 0, 0.9))'
-                  }}
-                >
-                  海外からの集客を強化したい方はこちら
-                </span>
-                <ExternalLink
-                  className="w-5 h-5 text-white transition-transform duration-300 group-hover:translate-x-1.5 shrink-0"
-                  style={{ filter: 'drop-shadow(0 0 8px #ff5500)' }}
-                />
-              </a>
-
-              <a
-                href="https://innbuddy-japan.com/halal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-between border-b border-[#ff6a00]/40 pb-3.5 transition-all duration-300 hover:border-[#ff6a00] cursor-pointer"
-              >
-                <span
-                  className="text-sm md:text-lg font-black tracking-[0.15em] text-white transition-all duration-300 group-hover:scale-[1.01]"
-                  style={{
-                    color: '#ffffff',
-                    textShadow: '0 0 8px #ff6a00, 0 0 18px #ff5500, 0 0 28px #ff3300',
-                    filter: 'drop-shadow(0 0 6px rgba(255, 102, 0, 0.9))'
-                  }}
-                >
-                  ハラル理解を深めたい方はこちら
-                </span>
-                <ExternalLink
-                  className="w-5 h-5 text-white transition-transform duration-300 group-hover:translate-x-1.5 shrink-0"
-                  style={{ filter: 'drop-shadow(0 0 8px #ff5500)' }}
-                />
-              </a>
-            </div>
-          </div>
-        </section>
-        
-        {/* FOOTER */}
-        <footer className="flex flex-col md:flex-row items-center justify-between gap-4 px-5 py-6 text-xs font-bold tracking-[0.12em] text-white bg-black">
-          <div>
-            <span>© InnBuddy 2026</span>
-          </div>
-          <div className="flex items-center gap-6">
-            <a
-              href="https://innbuddy-japan.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#ed6a2b] transition-colors flex items-center gap-1"
+          <div className="flex flex-col gap-6 py-8">
+            <button
+              onClick={() => handleDownloadClick()}
+              className="text-left text-lg font-bold text-white py-3 border-b border-white/10 flex items-center justify-between"
             >
-              ブランドページ <ExternalLink className="w-3.5 h-3.5" />
-            </a>
+              <span>資料ダウンロード</span>
+              <Download className="w-5 h-5 text-[#d95338]" />
+            </button>
             <a
               href="https://innbuddy-japan.com/contact"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#ed6a2b] transition-colors flex items-center gap-1"
+              className="text-lg font-bold text-white py-3 border-b border-white/10 flex items-center justify-between"
             >
-              お問い合わせ <ExternalLink className="w-3.5 h-3.5" />
+              <span>お問い合わせ</span>
+              <ArrowRight className="w-5 h-5 text-white/60" />
+            </a>
+            <a
+              href="https://innbuddy-japan.com/team"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-bold text-white py-3 border-b border-white/10 flex items-center justify-between"
+            >
+              <span>私たちについて</span>
+              <ArrowRight className="w-5 h-5 text-white/60" />
+            </a>
+            <a
+              href="https://innbuddy-japan.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-bold text-white py-3 border-b border-white/10 flex items-center justify-between"
+            >
+              <span>ブランドサイト</span>
+              <ArrowRight className="w-5 h-5 text-white/60" />
+            </a>
+            <a
+              href="https://innbuddy-japan.com/library"
+              className="text-lg font-bold text-white py-3 border-b border-white/10 flex items-center justify-between"
+            >
+              <span>ライブラリ</span>
+              <ArrowRight className="w-5 h-5 text-white/60" />
             </a>
           </div>
+          <div className="text-center text-xs text-white/40 pt-4 border-t border-white/10">
+            © InnBuddy 2026
+          </div>
+        </div>
+      )}
+
+      {/* コンテンツレイヤー */}
+      <div className="relative z-10">
+        <header className="flex items-center justify-between px-5 py-5 sm:px-10 lg:px-16">
+          <a href="/library" className="flex items-center gap-3" aria-label="Library ホームへ戻る">
+            <span className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full border border-white/50 font-serif text-lg sm:text-xl">訪</span>
+            <span className="text-xs sm:text-sm font-medium tracking-[0.28em]">OMOTENASHI<br /><span className="text-[9px] sm:text-[10px] tracking-[0.4em] text-white/65">INBOUND JAPAN</span></span>
+          </a>
+          <nav className="hidden items-center gap-8 text-xs tracking-[0.2em] text-white/85 md:flex" aria-label="メインナビゲーション">
+            <button onClick={() => handleDownloadClick()} className="transition-colors hover:text-white cursor-pointer">無料ツールDL</button>
+            <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">お問い合わせ</a>
+            <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">私たちについて</a>
+            <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">ブランド</a>
+          </nav>
+          <button
+            type="button"
+            onClick={() => setMenuOpen(true)}
+            className="rounded-full border border-white/35 p-2.5 md:hidden text-white"
+            aria-label="メニューを開く"
+          >
+            <Menu className="h-5 w-5" />
+          </button>
+        </header>
+
+        {/* ヒーローセクション */}
+        <section className="relative flex min-h-[calc(100svh-80px)] items-center px-5 pb-16 pt-4 sm:px-10 lg:px-16">
+          <div className="w-full max-w-3xl">
+            <p className="mb-4 sm:mb-6 flex items-center gap-2.5 sm:gap-3 text-[11px] tracking-[0.25em] text-[#d95338] sm:text-sm">
+              <span className="h-px w-8 sm:w-10 bg-[#d95338]" />
+              INBOUND HOSPITALITY TOOLKIT
+            </p>
+            
+            <h1 className="text-[26px] xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.25] tracking-tight sm:tracking-wider text-white break-words">
+              言葉の壁を越え、<br className="sm:hidden" />世界に選ばれる「日本の宿」へ。
+            </h1>
+            
+            <p className="mt-4 sm:mt-6 max-w-2xl text-xs sm:text-base md:text-xl text-gray-200 leading-relaxed break-words">
+              外国人旅行者が心から感動し、高評価の口コミが集まるインバウンド対応の現場づくり。
+            </p>
+
+            {/* スマホ用：INBOUND BOX 収録内容プレビュー */}
+            <div className="lg:hidden mt-6 p-4 rounded bg-black/60 border border-white/15 backdrop-blur-md">
+              <span className="text-[10px] tracking-[0.25em] text-[#d95338] uppercase block mb-2.5 font-bold">
+                INBOUND BOX 収録内容（タップで詳細）
+              </span>
+              <div className="grid grid-cols-2 gap-1.5 mb-2.5">
+                {inboundBoxItems.map((item) => (
+                  <button
+                    key={item.title}
+                    type="button"
+                    onClick={() => setSelectedBoxItem(item)}
+                    className={`px-2 py-2 rounded text-[10.5px] font-medium leading-tight text-center transition-all ${
+                      selectedBoxItem.title === item.title
+                        ? 'bg-[#d95338] text-white border border-[#e06b52] shadow-md font-bold'
+                        : 'bg-white/10 text-white/70 hover:bg-white/15'
+                    }`}
+                  >
+                    {item.shortTitle}
+                  </button>
+                ))}
+              </div>
+              <div className="p-3 bg-black/50 rounded border border-white/10">
+                <p className="text-xs font-bold text-white mb-1">{selectedBoxItem.title}</p>
+                <p className="text-[11px] text-white/80 leading-relaxed whitespace-pre-wrap">{selectedBoxItem.description}</p>
+              </div>
+            </div>
+
+            {/* CTAボタン群 */}
+            <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 sm:gap-6">
+              <button
+                onClick={() => handleDownloadClick()}
+                className="group w-full sm:w-auto rounded-full bg-[#d95338] px-8 py-3.5 sm:px-10 sm:py-4 text-white shadow-xl transition-all duration-300 hover:bg-[#b83b23] active:scale-[0.98] flex flex-col items-center justify-center cursor-pointer"
+              >
+                <span className="mb-0.5 text-xs sm:text-sm font-medium opacity-90">インバウンドBOX 無料配布中</span>
+                <span className="flex items-center text-base sm:text-lg font-bold">
+                  無料ダウンロード <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform group-hover:translate-x-1" />
+                </span>
+              </button>
+
+              <a
+                href="https://innbuddy-japan.com/contact"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group w-full sm:w-auto rounded-full border border-white/35 px-8 py-3.5 sm:px-10 sm:py-4 text-white shadow-lg transition-all duration-300 hover:bg-white/15 active:scale-[0.98] flex flex-col items-center justify-center backdrop-blur-sm"
+              >
+                <span className="mb-0.5 text-xs sm:text-sm font-medium opacity-90">OTA集客・単価改善</span>
+                <span className="flex items-center text-base sm:text-lg font-bold">
+                  ご相談はこちら <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 transition-transform group-hover:translate-x-1" />
+                </span>
+              </a>
+            </div>
+          </div>
+
+          {/* PC用 右側ナビゲーション */}
+          <aside className="absolute right-6 top-1/2 hidden -translate-y-1/2 border-l border-white/30 pl-6 lg:block" aria-label="インバウンドBOX収録内容">
+            <p className="mb-5 text-[10px] tracking-[0.3em] text-[#d95338]">INBOUND BOX CONTENTS</p>
+            <div className="space-y-4">
+              {inboundBoxItems.map((item) => (
+                <button
+                  key={item.title}
+                  type="button"
+                  onClick={() => setSelectedBoxItem(item)}
+                  className={`block text-left text-sm tracking-[0.1em] transition-colors cursor-pointer ${selectedBoxItem.title === item.title ? 'text-white font-bold' : 'text-white/60 hover:text-white/90'}`}
+                  aria-pressed={selectedBoxItem.title === item.title}
+                >
+                  ・{item.title}
+                </button>
+              ))}
+            </div>
+            <div className="mt-6 max-w-[320px] min-h-[140px]">
+              <p className="text-xs leading-relaxed text-white/80 animate-in fade-in slide-in-from-right-4 duration-500 whitespace-pre-wrap" key={selectedBoxItem.title}>
+                {selectedBoxItem.description}
+              </p>
+            </div>
+          </aside>
+        </section>
+
+        {/* 追加セクション1：4大ツールの紹介 */}
+        <section className="bg-[#181818] py-16 px-5 sm:py-24 sm:px-10 lg:px-16 border-t border-white/10">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12 sm:mb-16">
+              <span className="text-[#d95338] text-xs tracking-[0.2em] font-medium block mb-2 sm:mb-3">COMPLETE TOOLKIT</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-wider">現場が本当に必要としている4つの実践ツール</h2>
+              <p className="mt-4 sm:mt-6 text-xs sm:text-sm text-white/70 max-w-2xl mx-auto leading-relaxed">
+                「英語が話せるスタッフがいない」「外国語の口コミにどう返信すればいいか分からない」現場の悩みを即座に解決するパッケージです。
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              {inboundBoxItems.map((item, idx) => {
+                const IconComponent = item.icon
+                return (
+                  <div key={item.title} className="bg-white/5 border border-white/10 p-6 sm:p-8 rounded-sm backdrop-blur-sm flex flex-col justify-between">
+                    <div>
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="p-2.5 rounded bg-[#d95338]/20 text-[#d95338]">
+                          <IconComponent className="w-5 h-5" />
+                        </div>
+                        <span className="font-serif text-2xl text-white/40">0{idx + 1}</span>
+                      </div>
+                      <h3 className="text-base sm:text-lg font-bold mb-3">{item.title}</h3>
+                      <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* 追加セクション2：現場導入のメリット */}
+        <section className="bg-[#fcfbf9] text-[#111] py-16 px-5 sm:py-24 sm:px-10 lg:px-16">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+              <div className="w-full md:w-1/2">
+                <span className="text-[#d95338] text-xs tracking-[0.2em] font-medium block mb-2 sm:mb-3">WHY INBOUND BOX</span>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-4 sm:mb-6">
+                  導入したその日から、<br/>スタッフの不安が自信に変わる。
+                </h2>
+                <p className="text-xs sm:text-sm text-[#666] leading-relaxed mb-6 sm:mb-8">
+                  語学研修には時間がかかりますが、ツールがあれば今日から誰でも外国人客に丁寧な対応ができます。ミスや誤解によるクレームを防ぎ、高評価レビューを増やすための最短ルートです。
+                </p>
+                <button
+                  onClick={() => handleDownloadClick()}
+                  className="inline-flex items-center justify-center gap-2 bg-[#d95338] hover:bg-[#b83b23] text-white px-8 py-4 sm:py-5 font-medium tracking-widest transition-colors w-full sm:w-auto text-xs sm:text-sm shadow-md cursor-pointer"
+                >
+                  <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+                  今すぐ無料でダウンロード
+                </button>
+              </div>
+              
+              <div className="w-full md:w-1/2 space-y-4">
+                <div className="bg-white p-5 sm:p-6 border border-[#eee] rounded-sm shadow-sm flex items-start gap-4">
+                  <div className="p-2 rounded bg-red-50 text-[#d95338] shrink-0 mt-0.5">
+                    <CheckCircle2 className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm sm:text-base mb-1">口コミ返信時間を80%削減</h4>
+                    <p className="text-xs sm:text-sm text-[#666]">18言語の定型文とアレンジ用文例で、翻訳ツールで迷う時間を大幅にカット。</p>
+                  </div>
+                </div>
+
+                <div className="bg-white p-5 sm:p-6 border border-[#eee] rounded-sm shadow-sm flex items-start gap-4">
+                  <div className="p-2 rounded bg-red-50 text-[#d95338] shrink-0 mt-0.5">
+                    <CheckCircle2 className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm sm:text-base mb-1">指差しで即座に伝わる安心感</h4>
+                    <p className="text-xs sm:text-sm text-[#666]">フロントや客室での複雑な説明も、イラスト付きシートで見せるだけで解決。</p>
+                  </div>
+                </div>
+
+                <div className="bg-white p-5 sm:p-6 border border-[#eee] rounded-sm shadow-sm flex items-start gap-4">
+                  <div className="p-2 rounded bg-red-50 text-[#d95338] shrink-0 mt-0.5">
+                    <CheckCircle2 className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm sm:text-base mb-1">OTAの成約率と単価アップ</h4>
+                    <p className="text-xs sm:text-sm text-[#666]">多言語対応の充実がレビュー評価を引き上げ、インバウンド客の予約率を高めます。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* お問い合わせ＆ダウンロードCTAセクション */}
+        <section id="contact" className="bg-[#1c1c1c] flex flex-col md:flex-row text-white">
+          <div className="w-full md:w-1/2 p-8 sm:p-12 md:p-20 flex flex-col justify-center items-center md:items-start border-b md:border-b-0 md:border-r border-white/10 text-center md:text-left">
+            <p className="mb-3 sm:mb-4 text-xs tracking-[0.3em] text-[#d95338]">CONSULTATION</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6">お気軽にご相談ください</h2>
+            <p className="text-white/70 mb-8 sm:mb-10 text-xs sm:text-sm leading-relaxed max-w-sm">
+              海外OTAの運用代行、インバウンド客向けの宿泊プラン設計、単価向上など、宿の専任チームがトータルで支援します。
+            </p>
+            <a
+              href="https://innbuddy-japan.com/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-white/50 px-8 py-3.5 sm:px-10 sm:py-4 hover:bg-white hover:text-[#111] transition-colors tracking-widest text-xs sm:text-sm w-full sm:w-auto"
+            >
+              お問い合わせへ
+            </a>
+          </div>
+          
+          <div className="w-full md:w-1/2 p-8 sm:p-12 md:p-20 flex flex-col justify-center items-center md:items-start text-center md:text-left bg-black/30">
+            <p className="mb-3 sm:mb-4 text-xs tracking-[0.3em] text-[#d95338]">FREE DOWNLOAD</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6">インバウンドBOX 無料配布中</h2>
+            <p className="text-white/70 mb-8 sm:mb-10 text-xs sm:text-sm leading-relaxed max-w-sm">
+              ・18言語対応 口コミ返信テンプレート<br/>
+              ・フロント接客指差しシート (イラスト付き)<br/>
+              ・文化・宗教別おもてなしハンドブック<br/>
+              ・OTAレビュー評価向上ガイド<br/>
+              上記4点セットがすぐにご活用いただけます。
+            </p>
+            <button
+              onClick={() => handleDownloadClick()}
+              className="inline-block bg-[#d95338] text-white font-bold px-8 py-3.5 sm:px-10 sm:py-4 hover:bg-[#b83b23] transition-colors tracking-widest text-xs sm:text-sm w-full sm:w-auto cursor-pointer"
+            >
+              資料をダウンロード
+            </button>
+          </div>
+        </section>
+
+        {/* フッター */}
+        <footer className="bg-[#111] border-t border-white/10 py-6 px-5 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs text-white/50 tracking-wider">
+          <span>&copy; InnBuddy 2026</span>
+          <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            ブランドサイト
+          </a>
         </footer>
       </div>
 
       {/* =========================================================
-          ダウンロードポップアップ（モーダル）
+          ★ スマホ専用 アプリ風ボトムナビゲーション（5項目） ★
       ========================================================= */}
-      {showForm && typeof window !== 'undefined' && createPortal(
-        <div style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          zIndex: 999999,
-          backgroundColor: 'rgba(0, 0, 0, 0.8)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '16px',
-          overflowY: 'auto'
-        }}>
-          <div style={{
-            backgroundColor: '#ffffff',
-            color: '#111111',
-            maxWidth: '520px',
-            width: '100%',
-            maxHeight: '90vh',
-            overflowY: 'auto',
-            padding: '24px',
-            borderRadius: '4px',
-            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.5)',
-            position: 'relative',
-            margin: 'auto'
-          }}>
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-[#111111]/92 backdrop-blur-md border-t border-white/15 px-1 py-1.5 pb-[calc(0.4rem+env(safe-area-inset-bottom,0px))] shadow-[0_-8px_20px_rgba(0,0,0,0.5)]"
+        aria-label="モバイル下部ナビゲーション"
+      >
+        <div className="grid grid-cols-5 items-center justify-around gap-0.5 text-center">
+          
+          {/* 1. ダウンロード（最重要CTA：朱赤 #d95338） */}
+          <button
+            type="button"
+            onClick={() => handleDownloadClick()}
+            className="flex flex-col items-center justify-center py-1 text-[#d95338] hover:text-[#e06b52] transition-colors active:scale-95 cursor-pointer"
+          >
+            <Download className="w-[18px] h-[18px] mb-1" />
+            <span className="text-[9.5px] font-bold tracking-tight">DL</span>
+          </button>
+
+          {/* 2. 問い合わせ */}
+          <a
+            href="https://innbuddy-japan.com/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Mail className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight">問合せ</span>
+          </a>
+
+          {/* 3. 私たちについて */}
+          <a
+            href="https://innbuddy-japan.com/team"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Users className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight whitespace-nowrap">私たち</span>
+          </a>
+
+          {/* 4. ブランドサイト */}
+          <a
+            href="https://innbuddy-japan.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <Globe className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight">ブランド</span>
+          </a>
+
+          {/* 5. ライブラリ */}
+          <a
+            href="https://innbuddy-japan.com/library"
+            className="flex flex-col items-center justify-center py-1 text-white/75 hover:text-white transition-colors active:scale-95"
+          >
+            <BookOpen className="w-[18px] h-[18px] mb-1 opacity-80" />
+            <span className="text-[9.5px] font-medium tracking-tight">書庫</span>
+          </a>
+        </div>
+      </nav>
+
+      {/* ポップアップ（モーダル）フォーム */}
+      {showForm && (
+        <div className="fixed inset-0 z-[150] flex items-center justify-center bg-black/75 backdrop-blur-sm p-3 sm:p-6 overflow-y-auto">
+          <div className="relative w-full max-w-2xl bg-[#fcfbf9] text-[#111] p-5 sm:p-8 md:p-10 shadow-2xl rounded-sm my-auto max-h-[92vh] overflow-y-auto animate-in fade-in zoom-in-95 duration-200">
             <button
-              type="button"
               onClick={() => setShowForm(false)}
-              style={{
-                position: 'absolute',
-                top: '12px',
-                right: '12px',
-                background: 'none',
-                border: 'none',
-                cursor: 'pointer',
-                padding: '4px',
-                color: '#666666'
-              }}
+              className="absolute top-3 right-3 p-2 text-[#999] hover:text-[#111] transition-colors rounded-full hover:bg-black/5"
               aria-label="閉じる"
             >
-              <X className="w-6 h-6" />
+              <X className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
 
             {isSubmitted ? (
-              <div style={{ textAlign: 'center', padding: '16px 0', color: '#111111' }}>
-                <div style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: '48px',
-                  height: '48px',
-                  borderRadius: '50%',
-                  backgroundColor: '#ed6a2b',
-                  color: '#ffffff',
-                  marginBottom: '12px'
-                }}>
-                  <CheckSquare className="w-6 h-6" />
+              <div className="text-center py-8 sm:py-10">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#d95338] text-white mb-4 sm:mb-6">
+                  <CheckSquare className="w-7 h-7" />
                 </div>
-                <h2 style={{ fontSize: '18px', fontWeight: 'bold', color: '#111111', marginBottom: '8px' }}>
-                  ご入力ありがとうございました。
-                </h2>
-                <p style={{ fontSize: '12px', color: '#666666', marginBottom: '20px' }}>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-serif mb-3">ご入力ありがとうございました。</h2>
+                
+                <p className="text-xs sm:text-sm text-[#666] mb-6 sm:mb-8 leading-relaxed">
                   以下のボタンより、各資料をご自由にダウンロードいただけます。
                 </p>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '20px' }}>
-                  {papers.map((paper) => (
-                    <a
-                      key={paper.title}
-                      href={`/library/inbound/inbound-box/${paper.filename}`}
-                      download
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        backgroundColor: '#f9f9f9',
-                        padding: '12px',
-                        border: '1px solid #e5e5e5',
-                        borderRadius: '4px',
-                        textDecoration: 'none'
-                      }}
-                    >
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <FileText className="w-4 h-4" style={{ color: '#ed6a2b' }} />
-                        <span style={{ fontSize: '12px', fontWeight: 'bold', color: '#111111' }}>{paper.title}</span>
-                      </div>
-                      <Download className="w-4 h-4" style={{ color: '#ed6a2b' }} />
-                    </a>
-                  ))}
+                <div className="flex flex-col gap-2.5 sm:gap-3 mb-8 w-full max-w-md mx-auto">
+                  <a
+                    href="/library/inbound/inbound-box/インバウンド接客_指差しシート.pdf"
+                    download
+                    className="flex items-center justify-between bg-white hover:bg-[#fcf8f7] text-[#d95338] p-4 border border-[#d95338]/20 transition-colors rounded-sm shadow-sm"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <MessageSquare className="w-4 h-4 opacity-70" />
+                      <span className="text-xs sm:text-sm font-bold text-left">① 接客指差しシート (イラスト付き)</span>
+                    </div>
+                    <Download className="w-4 h-4 shrink-0 opacity-50" />
+                  </a>
+
+                  <a
+                    href="/library/inbound/inbound-box/18言語対応_口コミ返信マニュアル.pdf"
+                    download
+                    className="flex items-center justify-between bg-white hover:bg-[#fcf8f7] text-[#d95338] p-4 border border-[#d95338]/20 transition-colors rounded-sm shadow-sm"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <Globe className="w-4 h-4 opacity-70" />
+                      <span className="text-xs sm:text-sm font-bold text-left">② 口コミ翻訳返信マニュアル (18言語)</span>
+                    </div>
+                    <Download className="w-4 h-4 shrink-0 opacity-50" />
+                  </a>
+
+                  <a
+                    href="/library/inbound/inbound-box/文化・宗教別_おもてなしハンドブック.pdf"
+                    download
+                    className="flex items-center justify-between bg-white hover:bg-[#fcf8f7] text-[#d95338] p-4 border border-[#d95338]/20 transition-colors rounded-sm shadow-sm"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <Sparkles className="w-4 h-4 opacity-70" />
+                      <span className="text-xs sm:text-sm font-bold text-left">③ 文化・宗教別おもてなしハンドブック</span>
+                    </div>
+                    <Download className="w-4 h-4 shrink-0 opacity-50" />
+                  </a>
+
+                  <a
+                    href="/library/inbound/inbound-box/OTAレビュー評価向上ガイド.pdf"
+                    download
+                    className="flex items-center justify-between bg-white hover:bg-[#fcf8f7] text-[#d95338] p-4 border border-[#d95338]/20 transition-colors rounded-sm shadow-sm"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <FileText className="w-4 h-4 opacity-70" />
+                      <span className="text-xs sm:text-sm font-bold text-left">④ OTA集客・レビュー向上ガイド</span>
+                    </div>
+                    <Download className="w-4 h-4 shrink-0 opacity-50" />
+                  </a>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => setShowForm(false)}
-                  style={{
-                    backgroundColor: '#e5e5e5',
-                    color: '#333333',
-                    border: 'none',
-                    padding: '8px 24px',
-                    fontSize: '12px',
-                    fontWeight: 'bold',
-                    cursor: 'pointer'
-                  }}
-                >
-                  閉じる
-                </button>
+                <div className="flex justify-center">
+                  <Button onClick={() => setShowForm(false)} variant="outline" className="text-xs sm:text-sm tracking-wider uppercase rounded-none border-[#ccc] text-[#333] hover:bg-[#eee] transition-colors px-8 py-3">
+                    閉じる
+                  </Button>
+                </div>
               </div>
             ) : (
-              <div style={{ color: '#111111' }}>
-                <div style={{ textAlign: 'center', borderBottom: '1px solid #eeeeee', paddingBottom: '12px', marginBottom: '16px' }}>
-                  <span style={{ color: '#ed6a2b', fontSize: '10px', letterSpacing: '0.2em', fontWeight: 'bold', textTransform: 'uppercase' }}>Download</span>
-                  <h2 style={{ fontSize: '18px', fontWeight: 'bold', color: '#111111', marginTop: '4px' }}>Inbound Box 一括ダウンロード</h2>
+              <>
+                <div className="mb-6 sm:mb-8 border-b border-[#eee] pb-4 sm:pb-6 text-center mt-1">
+                  <span className="text-[#d95338] text-xs tracking-[0.2em] uppercase mb-1 block font-medium">Download</span>
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-serif tracking-tight text-[#111]">インバウンドBOX ダウンロード</h2>
+                  <p className="text-xs text-[#666] mt-2">18言語対応マニュアルや各種ツール4点を一括でお送りします。</p>
                 </div>
 
-                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                    <div>
-                      <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>施設名 <span style={{ color: 'red' }}>*</span></label>
-                      <input
-                        name="facilityName"
-                        required
-                        placeholder="例: ホテル インバディ"
-                        style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
-                      />
+                <form onSubmit={handleSubmit} className="space-y-5 sm:space-y-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                    <div className="space-y-1.5">
+                      <Label htmlFor="facilityName" className="text-xs font-semibold text-[#333]">施設名 <span className="text-[#d95338]">*</span></Label>
+                      <Input id="facilityName" name="facilityName" required placeholder="例: ホテル インバディ" className="rounded-none border-[#ccc] focus-visible:ring-[#d95338] h-11 text-base md:text-sm" />
                     </div>
-                    <div>
-                      <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>ご担当者名 <span style={{ color: 'red' }}>*</span></label>
-                      <input
-                        name="representativeName"
-                        required
-                        placeholder="例: 旅行 太郎"
-                        style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
-                      />
+                    <div className="space-y-1.5">
+                      <Label htmlFor="representativeName" className="text-xs font-semibold text-[#333]">ご担当者名 <span className="text-[#d95338]">*</span></Label>
+                      <Input id="representativeName" name="representativeName" required placeholder="例: 旅行 太郎" className="rounded-none border-[#ccc] focus-visible:ring-[#d95338] h-11 text-base md:text-sm" />
                     </div>
                   </div>
 
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                    <div>
-                      <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>メールアドレス <span style={{ color: 'red' }}>*</span></label>
-                      <input
-                        name="email"
-                        type="email"
-                        required
-                        placeholder="example@innbuddy.com"
-                        style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
-                      />
+                  <div className="space-y-1.5">
+                    <Label htmlFor="address" className="text-xs font-semibold text-[#333]">ご住所 <span className="text-[#d95338]">*</span></Label>
+                    <Input id="address" name="address" required placeholder="例: 東京都渋谷区〇〇1-2-3" className="rounded-none border-[#ccc] focus-visible:ring-[#d95338] h-11 text-base md:text-sm" />
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                    <div className="space-y-1.5">
+                      <Label htmlFor="email" className="text-xs font-semibold text-[#333]">メールアドレス <span className="text-[#d95338]">*</span></Label>
+                      <Input id="email" name="email" type="email" required placeholder="example@innbuddy.com" className="rounded-none border-[#ccc] focus-visible:ring-[#d95338] h-11 text-base md:text-sm" />
                     </div>
-                    <div>
-                      <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>電話番号 <span style={{ color: 'red' }}>*</span></label>
-                      <input
-                        name="phone"
-                        type="tel"
-                        required
-                        placeholder="03-1234-5678"
-                        style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
-                      />
+                    <div className="space-y-1.5">
+                      <Label htmlFor="phone" className="text-xs font-semibold text-[#333]">電話番号 <span className="text-[#d95338]">*</span></Label>
+                      <Input id="phone" name="phone" type="tel" required placeholder="03-1234-5678" className="rounded-none border-[#ccc] focus-visible:ring-[#d95338] h-11 text-base md:text-sm" />
                     </div>
                   </div>
 
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                    <div>
-                      <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>ご住所 <span style={{ color: 'red' }}>*</span></label>
-                      <input
-                        name="address"
-                        required
-                        placeholder="例: 東京都渋谷区〇〇1-2-3"
-                        style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box' }}
-                      />
+                  <hr className="border-[#eee]" />
+
+                  <div className="space-y-5">
+                    <div className="space-y-1.5">
+                      <Label htmlFor="ratio" className="text-xs font-semibold text-[#333]">外国人宿泊比率 <span className="text-[#d95338]">*</span></Label>
+                      <div className="relative">
+                        <select
+                          id="ratio"
+                          name="ratio"
+                          value={ratio}
+                          onChange={(e) => setRatio(e.target.value)}
+                          required
+                          className="flex w-full rounded-none border border-[#ccc] bg-white px-3 h-11 text-base md:text-sm focus:outline-none focus:ring-2 focus:ring-[#d95338] appearance-none cursor-pointer"
+                        >
+                          <option value="" disabled hidden>選択してください</option>
+                          {ratioOptions.map((opt) => (
+                            <option key={opt} value={opt}>{opt}%</option>
+                          ))}
+                        </select>
+                        <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#666]">
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '4px' }}>外国人宿泊比率 <span style={{ color: 'red' }}>*</span></label>
-                      <select
-                        name="ratio"
-                        value={ratio}
-                        onChange={(e) => setRatio(e.target.value)}
-                        required
-                        style={{ width: '100%', height: '36px', fontSize: '12px', border: '1px solid #ccc', padding: '0 8px', color: '#111', backgroundColor: '#fff', boxSizing: 'border-box', cursor: 'pointer' }}
-                      >
-                        <option value="" disabled>選択してください</option>
-                        {ratioOptions.map(opt => <option key={opt} value={opt}>{opt}%</option>)}
-                      </select>
+
+                    <div className="space-y-2">
+                      <Label className="text-xs font-semibold text-[#333] block">ここ1年で利用されたお客様の国籍（複数選択可）</Label>
+                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-3.5 gap-x-2 bg-[#f9f9f9] p-4 sm:p-5 border border-[#eee]">
+                        {nationalitiesList.map((country) => (
+                          <div key={country} className="flex items-center space-x-2.5">
+                            <Checkbox
+                              id={country}
+                              className="border-[#999] rounded-[2px] data-[state=checked]:bg-[#d95338] data-[state=checked]:text-white w-4 h-4"
+                              onCheckedChange={(checked) => handleNationalityChange(country, checked as boolean)}
+                            />
+                            <Label
+                              htmlFor={country}
+                              className="text-xs text-[#444] font-medium leading-none cursor-pointer"
+                            >
+                              {country}
+                            </Label>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
 
-                  <div>
-                    <label style={{ fontSize: '11px', fontWeight: 'bold', color: '#333333', display: 'block', marginBottom: '6px' }}>ここ1年で利用されたお客様の国籍（複数選択可）</label>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '8px 4px', backgroundColor: '#f9f9f9', padding: '10px', border: '1px solid #eee' }}>
-                      {nationalitiesList.map((country) => (
-                        <label key={country} style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer', fontSize: '10px', color: '#333' }}>
-                          <input
-                            type="checkbox"
-                            value={country}
-                            onChange={(e) => handleNationalityChange(country, e.target.checked)}
-                            style={{ accentColor: '#ed6a2b', width: '14px', height: '14px', cursor: 'pointer' }}
-                          />
-                          <span>{country}</span>
-                        </label>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div style={{ paddingTop: '8px' }}>
-                    <button
+                  <div className="pt-3">
+                    <Button
                       type="submit"
                       disabled={isSubmitting}
-                      style={{
-                        width: '100%',
-                        height: '42px',
-                        backgroundColor: isSubmitting ? '#999' : '#ed6a2b',
-                        color: '#ffffff',
-                        border: 'none',
-                        fontSize: '12px',
-                        fontWeight: 'bold',
-                        letterSpacing: '0.1em',
-                        cursor: isSubmitting ? 'not-allowed' : 'pointer',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: '8px'
-                      }}
+                      className="w-full bg-[#d95338] hover:bg-[#b83b23] text-white rounded-none h-14 text-sm sm:text-base tracking-[0.15em] font-medium uppercase transition-colors flex items-center justify-center gap-2 cursor-pointer"
                     >
-                      {isSubmitting ? '送信中...' : <><Download className="w-4 h-4" /> Inbound Boxをダウンロード</>}
-                    </button>
+                      {isSubmitting ? (
+                        '送信中...'
+                      ) : (
+                        <>
+                          <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+                          インバウンドBOXをダウンロード
+                        </>
+                      )}
+                    </Button>
                   </div>
                 </form>
-              </div>
+              </>
             )}
           </div>
-        </div>,
-        document.body
+        </div>
       )}
     </main>
   )
