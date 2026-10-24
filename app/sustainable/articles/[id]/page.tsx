@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import articlesData from "@/data/sustainablearticles.json";
 import "../articles.css";
 import ArticleDetailView, { ArticleItem } from "./ArticleDetailView";
-import SdgBottomNav from "../SdgBottomNav";
 
 export async function generateStaticParams() {
   const articles = articlesData as unknown as ArticleItem[];
@@ -30,6 +29,7 @@ export default async function SustainableArticlePage({
     notFound();
   }
 
+  // 軽量化はしつつ、本文の表示に必要なプロパティ（articleHtml, goal, etc）を維持する
   const lightArticles = articles.map((a: any) => ({
     id: String(a.id),
     title: a.title,
@@ -37,17 +37,13 @@ export default async function SustainableArticlePage({
     goalColor: a.goalColor,
     length: a.length,
     lead: a.lead,
-    articleHtml: String(a.id) === String(id) ? a.articleHtml : "",
+    articleHtml: String(a.id) === String(id) ? a.articleHtml : "", // 現在のページの本文だけを渡す
   })) as unknown as ArticleItem[];
 
   return (
-    <div className="pb-16 md:pb-0">
-      <ArticleDetailView
-        initialArticle={article}
-        allArticles={lightArticles}
-      />
-      {/* ★ スマホ用 SDGs ボトムナビ（個別ページから一覧へ遷移） ★ */}
-      <SdgBottomNav />
-    </div>
+    <ArticleDetailView
+      initialArticle={article}
+      allArticles={lightArticles}
+    />
   );
 }
