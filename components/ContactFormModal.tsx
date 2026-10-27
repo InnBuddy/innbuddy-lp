@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -51,37 +52,42 @@ export function ContactFormModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#fdfbf7]"
-      // 背景クリックでは閉じない
-      onClick={(e) => {
-        e.stopPropagation();
-      }}
+      className={`fixed inset-0 z-[70] flex items-center justify-center bg-[#fdfbf7] ${
+        isPage ? "p-0" : "p-3 sm:p-4"
+      }`}
+      onClick={(e) => e.stopPropagation()}
     >
       <div
-        className="relative bg-[#fdfbf7] w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-sm shadow-xl p-6 md:p-10"
+        className={`relative bg-[#fdfbf7] w-full max-w-2xl max-h-[92dvh] overflow-y-auto rounded-sm shadow-xl ${
+          isPage
+            ? "p-5 pt-6 sm:p-8 md:p-10"
+            : "p-5 pt-5 sm:p-8 md:p-10"
+        }`}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* 閉じるボタン */}
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label="閉じる"
-          className="absolute top-4 right-4 text-[#1b2e1b]/40 hover:text-[#1b2e1b] text-2xl transition-colors"
-        >
-          &times;
-        </button>
+        {/* 上部ナビゲーション */}
+        <div className="relative flex min-h-10 items-center justify-between gap-3 mb-5 sm:mb-6">
+          <button
+            type="button"
+            onClick={onClose}
+            className="inline-flex shrink-0 items-center gap-1 text-sm text-[#1b2e1b]/60 hover:text-[#1b2e1b] transition-colors"
+          >
+            <span aria-hidden="true">←</span>
+            <span>戻る</span>
+          </button>
 
-        {/* 戻るボタン */}
-        <button
-          type="button"
-          onClick={onClose}
-          className="absolute top-5 left-6 md:left-10 text-sm text-[#1b2e1b]/55 hover:text-[#1b2e1b] transition-colors flex items-center gap-1"
-        >
-          <span aria-hidden="true">←</span>
-          <span>戻る</span>
-        </button>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="閉じる"
+            className="inline-flex h-9 w-9 shrink-0 items-center justify-center text-3xl leading-none text-[#1b2e1b]/40 hover:text-[#1b2e1b] transition-colors"
+          >
+            &times;
+          </button>
+        </div>
 
-        <h2 className="font-serif font-light text-2xl md:text-3xl text-[#1b2e1b] mb-8 text-center">
+        {/* 見出し：スマートフォンだけ約1行分下げる */}
+        <h2 className="mx-auto mb-8 mt-6 max-w-full text-center font-serif font-light text-2xl leading-relaxed text-[#1b2e1b] sm:mb-10 sm:mt-1 sm:text-3xl">
           お問い合わせフォーム
         </h2>
 
@@ -115,7 +121,6 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
   ) => {
     setForm((prev) => {
       const arr = prev[key];
-
       const next = arr.includes(value)
         ? arr.filter((v) => v !== value)
         : [...arr, value];
@@ -156,10 +161,11 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
       });
 
       setSubmitted(true);
-    } catch (err: any) {
+    } catch (err: unknown) {
       setError(
-        err.message ||
-          "送信に失敗しました。もう一度お試しください。"
+        err instanceof Error
+          ? err.message
+          : "送信に失敗しました。もう一度お試しください。"
       );
     } finally {
       setLoading(false);
@@ -168,12 +174,12 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
   if (submitted) {
     return (
-      <div className="text-center py-16">
-        <h3 className="font-serif font-light text-2xl text-[#1b2e1b] mb-4">
+      <div className="py-16 text-center">
+        <h3 className="mb-4 font-serif font-light text-2xl text-[#1b2e1b]">
           お問い合わせありがとうございます
         </h3>
 
-        <p className="text-[#1b2e1b]/60 mb-8">
+        <p className="mb-8 text-[#1b2e1b]/60">
           担当者より2営業日以内にご連絡いたします。
         </p>
 
@@ -192,14 +198,14 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
     <form onSubmit={handleSubmit} className="space-y-8">
       {/* 施設名 */}
       <div>
-        <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+        <label className="mb-1 block text-sm text-[#1b2e1b]/70">
           施設名 *
         </label>
 
         <input
-          key="facility-name-input"
           type="text"
           inputMode="text"
+          autoComplete="organization"
           required
           value={form.facilityName}
           onChange={(e) =>
@@ -208,18 +214,19 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
               facilityName: e.target.value,
             }))
           }
-          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+          className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
         />
       </div>
 
       {/* ご担当者名 */}
       <div>
-        <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+        <label className="mb-1 block text-sm text-[#1b2e1b]/70">
           ご担当者名 *
         </label>
 
         <input
           type="text"
+          autoComplete="name"
           required
           value={form.name}
           onChange={(e) =>
@@ -228,19 +235,20 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
               name: e.target.value,
             }))
           }
-          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+          className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
         />
       </div>
 
       {/* メール・電話 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <div>
-          <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+          <label className="mb-1 block text-sm text-[#1b2e1b]/70">
             メールアドレス *
           </label>
 
           <input
             type="email"
+            autoComplete="email"
             required
             value={form.email}
             onChange={(e) =>
@@ -249,17 +257,18 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
                 email: e.target.value,
               }))
             }
-            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
           />
         </div>
 
         <div>
-          <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+          <label className="mb-1 block text-sm text-[#1b2e1b]/70">
             電話番号
           </label>
 
           <input
             type="tel"
+            autoComplete="tel"
             value={form.phone}
             onChange={(e) =>
               setForm((p) => ({
@@ -267,15 +276,15 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
                 phone: e.target.value,
               }))
             }
-            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
           />
         </div>
       </div>
 
       {/* 施設の種類・部屋数 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <div>
-          <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+          <label className="mb-1 block text-sm text-[#1b2e1b]/70">
             施設の種類 *
           </label>
 
@@ -288,10 +297,9 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
                 facilityType: e.target.value,
               }))
             }
-            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
           >
             <option value="">選択してください</option>
-
             {facilityTypes.map((t) => (
               <option key={t} value={t}>
                 {t}
@@ -301,7 +309,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
         </div>
 
         <div>
-          <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+          <label className="mb-1 block text-sm text-[#1b2e1b]/70">
             部屋数
           </label>
 
@@ -313,10 +321,9 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
                 roomCount: e.target.value,
               }))
             }
-            className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]"
+            className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
           >
             <option value="">選択してください</option>
-
             {roomCounts.map((t) => (
               <option key={t} value={t}>
                 {t}
@@ -328,7 +335,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
       {/* OTA */}
       <div>
-        <label className="block text-sm text-[#1b2e1b]/70 mb-2">
+        <label className="mb-2 block text-sm text-[#1b2e1b]/70">
           現在利用中のOTA（複数選択可）
         </label>
 
@@ -337,12 +344,11 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
             <button
               key={ota}
               type="button"
-              onClick={() =>
-                toggleArray("currentOtas", ota)
-              }
-              className={`px-3 py-1 text-xs border transition-all ${
+              onClick={() => toggleArray("currentOtas", ota)}
+              aria-pressed={form.currentOtas.includes(ota)}
+              className={`border px-3 py-2 text-xs transition-all ${
                 form.currentOtas.includes(ota)
-                  ? "border-[#1b2e1b] bg-[#1b2e1b]/5 text-[#1b2e1b] font-semibold"
+                  ? "border-[#1b2e1b] bg-[#1b2e1b]/5 font-semibold text-[#1b2e1b]"
                   : "border-[#e5e0d9] text-[#1b2e1b]/60"
               }`}
             >
@@ -354,26 +360,23 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
       {/* 相談内容 */}
       <div>
-        <label className="block text-sm text-[#1b2e1b]/70 mb-2">
-          ご相談内容 *（複数選択可）
+        <label className="mb-2 block text-sm text-[#1b2e1b]/70">
+          ご相談内容（複数選択可）
         </label>
 
-        <div className="space-y-2">
+        <div className="space-y-3">
           {concerns.map((c) => (
             <label
               key={c}
-              className="flex items-center gap-3 cursor-pointer text-sm text-[#1b2e1b]/80"
+              className="flex cursor-pointer items-start gap-3 text-sm leading-relaxed text-[#1b2e1b]/80"
             >
               <input
                 type="checkbox"
                 checked={form.concerns.includes(c)}
-                onChange={() =>
-                  toggleArray("concerns", c)
-                }
-                className="w-4 h-4 accent-[#1b2e1b]"
+                onChange={() => toggleArray("concerns", c)}
+                className="mt-0.5 h-4 w-4 shrink-0 accent-[#1b2e1b]"
               />
-
-              {c}
+              <span>{c}</span>
             </label>
           ))}
         </div>
@@ -381,7 +384,7 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
       {/* 詳細メッセージ */}
       <div>
-        <label className="block text-sm text-[#1b2e1b]/70 mb-1">
+        <label className="mb-1 block text-sm text-[#1b2e1b]/70">
           その他、詳細があればご記入ください
         </label>
 
@@ -394,13 +397,13 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
               message: e.target.value,
             }))
           }
-          className="w-full border-b border-[#e5e0d9] bg-transparent py-2 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b] resize-none"
+          className="w-full resize-y border-b border-[#e5e0d9] bg-transparent py-3 text-base text-[#1b2e1b] focus:border-[#1b2e1b] focus:outline-none"
         />
       </div>
 
       {/* 個人情報保護方針 */}
       <div>
-        <label className="flex items-start gap-3 cursor-pointer text-xs text-[#1b2e1b]/60 leading-relaxed">
+        <label className="flex cursor-pointer items-start gap-3 text-xs leading-relaxed text-[#1b2e1b]/60">
           <input
             type="checkbox"
             required
@@ -411,14 +414,13 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
                 agreed: e.target.checked,
               }))
             }
-            className="w-4 h-4 mt-0.5 accent-[#1b2e1b] flex-shrink-0"
+            className="mt-0.5 h-4 w-4 shrink-0 accent-[#1b2e1b]"
           />
 
           <span>
             <a
               href="/privacy-policy"
-              className="text-[#1b2e1b] underline hover:opacity-70 transition-opacity"
-              target="_self"
+              className="text-[#1b2e1b] underline transition-opacity hover:opacity-70"
             >
               個人情報保護方針
             </a>
@@ -429,17 +431,17 @@ function ContactFormContent({ onClose }: { onClose: () => void }) {
 
       {/* エラー */}
       {error && (
-        <p className="text-red-600 text-sm text-center">
+        <p role="alert" className="text-center text-sm text-red-600">
           {error}
         </p>
       )}
 
       {/* 送信ボタン */}
-      <div>
+      <div className="pb-2">
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-[#1b2e1b] text-white font-['Zen_Old_Mincho'] py-3 text-sm tracking-widest hover:bg-[#2d4a2d] transition-colors disabled:opacity-50"
+          className="w-full bg-[#1b2e1b] py-4 text-sm tracking-widest text-white transition-colors hover:bg-[#2d4a2d] disabled:opacity-50"
         >
           {loading ? "送信中..." : "送信する"}
         </button>

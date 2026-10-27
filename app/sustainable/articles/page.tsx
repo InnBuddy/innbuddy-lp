@@ -350,7 +350,7 @@ export default function SustainableArticlesHomePage() {
           HOTEL <span>×</span> SDGs 2030
         </Link>
         <Link href="/sustainable" className="nav-back-link">
-          ← 特設LPトップへ戻る
+          ← LPトップへ戻る
         </Link>
       </nav>
 

@@ -1,191 +1,197 @@
 'use client'
 
 import React, { useState } from 'react'
+import { submitDiagnostic, LeadFormData } from '@/lib/submitToSheet'
 import './ota.css'
+import './ota-mobile-fixes.css'
 
 /* ===================================================
-   売上期待値測定モーダル（完全内蔵型）
+   スマホ専用ボトムナビゲーション
+   5つすべて同じ丸枠デザイン（直径48px・黄色枠）で均等配置
 =================================================== */
-function RevenueDiagnosticModalView({ onClose }: { onClose: () => void }) {
-  const [roomCount, setRoomCount] = useState<string>('')
-  const [adr, setAdr] = useState<string>('')
-  const [occupancy, setOccupancy] = useState<number>(50)
-  const [selectedOtas, setSelectedOtas] = useState<string[]>([])
-
-  const otaList = [
-    '自社WEB', '楽天トラベル', 'じゃらん', '一休', 'Yahoo!トラベル',
-    'るるぶトラベル', 'Booking.com', 'Expedia', 'Agoda', 'Airbnb',
-    'Hotels.com', 'Trip.com', 'Meituan', 'Fliggy', 'Qunar', 'Klook', 'KKday',
-  ]
-
-  const toggleOta = (name: string) => {
-    if (selectedOtas.includes(name)) {
-      setSelectedOtas(selectedOtas.filter((x) => x !== name))
-    } else {
-      if (selectedOtas.length < 3) {
-        setSelectedOtas([...selectedOtas, name])
-      } else {
-        alert('メイン利用OTAは最大3つまで選択可能です。')
-      }
-    }
+function MobileBottomNav({ onOpenDiagnostic }: { onOpenDiagnostic: () => void }) {
+  const iconProps = {
+    viewBox: '0 0 24 24',
+    width: 18,
+    height: 18,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.6,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    'aria-hidden': true,
   }
 
   return (
-    <div className="rev-modal-container">
-      <div className="rev-modal-nav">
-        <button type="button" className="rev-back-btn" onClick={onClose}>
-          ← 前のページに戻る
+    <div className="ota-mobile-bottom-nav md:hidden fixed bottom-2 left-2 right-2 z-[100] pb-[env(safe-area-inset-bottom)]">
+      <style>{`
+        @media (max-width: 767px) {
+          .ota-mobile-bottom-nav .ota-nav-inner {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-evenly !important;
+            padding: 0 4px !important;
+          }
+          .ota-mobile-bottom-nav .ota-nav-item {
+            box-sizing: border-box !important;
+            flex: 0 0 48px !important;
+            width: 48px !important;
+            min-width: 48px !important;
+            height: 48px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 2px !important;
+            border-radius: 9999px !important;
+            border: 2px solid #FCAF17 !important;
+            background: transparent !important;
+            color: #334155 !important;
+            text-decoration: none !important;
+            font-family: inherit !important;
+            -webkit-appearance: none !important;
+            appearance: none !important;
+          }
+          .ota-mobile-bottom-nav .ota-nav-item:active { color: #0284c7 !important; }
+          .ota-mobile-bottom-nav .ota-nav-item svg { width: 18px !important; height: 18px !important; }
+          .ota-mobile-bottom-nav .ota-nav-item span {
+            font-size: 9px !important;
+            line-height: 1 !important;
+            font-weight: 700 !important;
+            white-space: nowrap !important;
+          }
+        }
+      `}</style>
+
+      <div className="ota-nav-inner w-full bg-[#E0F2FE]/95 backdrop-blur-xl border border-white/60 shadow-[0_4px_24px_rgba(14,165,233,0.15)] rounded-[2rem] h-[58px]">
+        {/* 問合せ */}
+        <a href="https://innbuddy-japan.com/contact" className="ota-nav-item">
+          <svg {...iconProps}>
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m2 6 10 7 10-7" />
+          </svg>
+          <span>問合せ</span>
+        </a>
+
+        {/* 私たち */}
+        <a href="https://innbuddy-japan.com/team" className="ota-nav-item">
+          <svg {...iconProps}>
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+          <span>私たち</span>
+        </a>
+
+        {/* ブランド */}
+        <a href="https://innbuddy-japan.com/" className="ota-nav-item">
+          <svg {...iconProps}>
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg>
+          <span>ブランド</span>
+        </a>
+
+        {/* メディア */}
+        <a href="https://innbuddy-japan.com/library" className="ota-nav-item">
+          <svg {...iconProps}>
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+          </svg>
+          <span>メディア</span>
+        </a>
+
+        {/* 無料診断：他の4つと同じ見た目（診断モーダルを開く） */}
+        <button
+          type="button"
+          onClick={onOpenDiagnostic}
+          aria-haspopup="dialog"
+          aria-label="無料診断"
+          className="ota-nav-item"
+        >
+          <svg {...iconProps}>
+            <path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z" />
+          </svg>
+          <span>無料診断</span>
         </button>
-        <button type="button" className="rev-close-icon" onClick={onClose} aria-label="閉じる">
-          ✕
-        </button>
-      </div>
-
-      <h2 className="rev-modal-heading">売上期待値測定</h2>
-
-      <div className="rev-modal-form">
-        <div className="rev-input-group">
-          <label className="rev-label">総客室数</label>
-          <input
-            type="number"
-            placeholder="例: 15"
-            value={roomCount}
-            onChange={(e) => setRoomCount(e.target.value)}
-            className="rev-underline-input"
-          />
-        </div>
-
-        <div className="rev-input-group">
-          <label className="rev-label">現在のADR（客室単価・円）</label>
-          <input
-            type="number"
-            placeholder="例: 18000"
-            value={adr}
-            onChange={(e) => setAdr(e.target.value)}
-            className="rev-underline-input"
-          />
-        </div>
-
-        <div className="rev-input-group">
-          <div className="rev-slider-header">
-            <span className="rev-label">現在の稼働率（%）:</span>
-            <span className="rev-slider-value">{occupancy}%</span>
-          </div>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={occupancy}
-            onChange={(e) => setOccupancy(Number(e.target.value))}
-            className="rev-range-slider"
-          />
-        </div>
-
-        <div className="rev-input-group">
-          <label className="rev-label">メイン利用OTA（最大3つ）</label>
-          <div className="rev-ota-tags">
-            {otaList.map((name) => {
-              const isSelected = selectedOtas.includes(name)
-              return (
-                <button
-                  key={name}
-                  type="button"
-                  onClick={() => toggleOta(name)}
-                  className={`rev-ota-tag-btn ${isSelected ? 'is-selected' : ''}`}
-                >
-                  {name}
-                </button>
-              )
-            })}
-          </div>
-        </div>
-
-        <div className="rev-modal-footer">
-          <a
-            href="https://innbuddy-japan.com/contact"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button red-neon-btn rev-submit-btn"
-          >
-            この条件で期待値を測定・無料相談する ＞
-          </a>
-        </div>
       </div>
     </div>
   )
 }
 
 /* ===================================================
-   SVG キービジュアル
+   SVG イラスト本体（PC・スマホ共通化）
 =================================================== */
-function HeroCenterBackdropIllustration() {
+function OtaIllustrationSvg({ className }: { className?: string }) {
   return (
-    <div className="hero-center-backdrop" aria-hidden="true">
-      <svg viewBox="0 0 540 440" className="hero-svg-backdrop" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="110" y="70" width="320" height="200" rx="8" fill="#2d3748" stroke="#111d2b" strokeWidth="3" />
-        <rect x="122" y="82" width="296" height="176" rx="4" fill="#ffffff" />
-        <path d="M245 270 L235 310 L305 310 L295 270 Z" fill="#718096" stroke="#111d2b" strokeWidth="2.5" />
-        <rect x="210" y="310" width="120" height="10" rx="3" fill="#4a5568" stroke="#111d2b" strokeWidth="2.5" />
-        <text x="140" y="145" fill="#4a5568" fontSize="38" fontWeight="900" fontFamily="Arial, sans-serif">OTA</text>
-        <rect x="200" y="210" width="26" height="36" fill="#fef3c7" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="238" y="190" width="26" height="56" fill="#fde68a" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="276" y="165" width="26" height="81" fill="#fcd34d" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="314" y="140" width="26" height="106" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <rect x="352" y="115" width="26" height="131" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
-        <path d="M140 220 Q 250 200 375 105" stroke="#FCAF17" strokeWidth="9" strokeLinecap="round" fill="none" />
-        <polygon points="375,90 395,115 365,120" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" />
-        <g transform="translate(60, 20)">
-          <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
-          <path d="M22 48 L22 26 L36 14 L50 26 L50 48 Z" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
-          <rect x="31" y="34" width="10" height="14" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
-          <line x1="36" y1="34" x2="36" y2="48" stroke="#111d2b" strokeWidth="1" />
-          <rect x="40" y="22" width="5" height="5" fill="#FCAF17" />
-          <rect x="27" y="22" width="5" height="5" fill="#FCAF17" />
-        </g>
-        <g transform="translate(400, 25)">
-          <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
-          <circle cx="36" cy="36" r="16" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
-          <circle cx="36" r="10" stroke="#cbd5e1" strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
-          <path d="M16 22 L16 34 M13 22 L13 28 Q13 32 16 34 M19 22 L19 28 Q19 32 16 34 M16 34 L16 50" stroke="#111d2b" strokeWidth="1.8" strokeLinecap="round" />
-          <path d="M56 22 Q52 26 52 30 Q52 35 56 36 L56 50 M56 22 Q60 26 60 30 Q60 35 56 36" stroke="#111d2b" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-        </g>
-        <g transform="translate(240, 290)">
-          <circle cx="34" cy="34" r="32" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
-          <path d="M16 44 L16 24 Q16 20 20 20 L48 20 Q52 20 52 24 L52 44" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
-          <rect x="18" y="32" width="32" height="10" fill="#FCAF17" stroke="#111d2b" strokeWidth="1.5" rx="1" />
-          <rect x="22" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
-          <rect x="36" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
-          <line x1="14" y1="44" x2="54" y2="44" stroke="#111d2b" strokeWidth="2.5" />
-        </g>
-        <g transform="translate(15, 120)">
-          <path d="M25 280 L40 180 Q65 140 110 145 L155 185 L165 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
-          <path d="M85 145 L100 210 L115 145" fill="#ffffff" stroke="#111d2b" strokeWidth="2" />
-          <polygon points="98,160 102,160 104,225 96,225" fill="#111d2b" />
-          <circle cx="102" cy="100" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
-          <path d="M72 95 Q85 65 115 70 Q135 75 130 92 Q125 78 105 78 Q85 80 75 105 Z" fill="#111d2b" />
-          <path d="M88 95 Q94 93 98 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M108 96 Q112 93 118 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <circle cx="94" cy="101" r="2" fill="#111d2b" />
-          <circle cx="112" cy="101" r="2" fill="#111d2b" />
-          <path d="M98 114 Q104 120 110 114" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M150 195 L158 135 Q160 120 166 120 Q172 120 172 135 L172 170" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
-        </g>
-        <g transform="translate(325, 120)">
-          <path d="M45 280 L35 185 Q75 140 125 155 L165 200 L155 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
-          <circle cx="95" cy="105" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
-          <path d="M68 95 Q80 65 115 72 Q130 78 128 95 Q120 78 100 80 Q80 82 72 105 Z" fill="#d97706" stroke="#111d2b" strokeWidth="2" />
-          <path d="M82 98 Q87 94 92 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M102 98 Q107 94 112 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <circle cx="87" cy="103" r="2" fill="#111d2b" />
-          <circle cx="107" cy="103" r="2" fill="#111d2b" />
-          <path d="M92 115 Q98 122 104 115" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M72 175 Q68 135 80 125 Q88 120 90 130 L90 150" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
-          <line x1="128" y1="70" x2="135" y2="55" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
-          <line x1="140" y1="80" x2="155" y2="72" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
-          <line x1="142" y1="95" x2="158" y2="98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
-        </g>
-      </svg>
-    </div>
+    <svg viewBox="0 0 540 440" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="110" y="70" width="320" height="200" rx="8" fill="#2d3748" stroke="#111d2b" strokeWidth="3" />
+      <rect x="122" y="82" width="296" height="176" rx="4" fill="#ffffff" />
+      <path d="M245 270 L235 310 L305 310 L295 270 Z" fill="#718096" stroke="#111d2b" strokeWidth="2.5" />
+      <rect x="210" y="310" width="120" height="10" rx="3" fill="#4a5568" stroke="#111d2b" strokeWidth="2.5" />
+      <text x="140" y="145" fill="#4a5568" fontSize="38" fontWeight="900" fontFamily="Arial, sans-serif">OTA</text>
+      <rect x="200" y="210" width="26" height="36" fill="#fef3c7" stroke="#111d2b" strokeWidth="2" rx="2" />
+      <rect x="238" y="190" width="26" height="56" fill="#fde68a" stroke="#111d2b" strokeWidth="2" rx="2" />
+      <rect x="276" y="165" width="26" height="81" fill="#fcd34d" stroke="#111d2b" strokeWidth="2" rx="2" />
+      <rect x="314" y="140" width="26" height="106" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
+      <rect x="352" y="115" width="26" height="131" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" rx="2" />
+      <path d="M140 220 Q 250 200 375 105" stroke="#FCAF17" strokeWidth="9" strokeLinecap="round" fill="none" />
+      <polygon points="375,90 395,115 365,120" fill="#FCAF17" stroke="#111d2b" strokeWidth="2" />
+      <g transform="translate(60, 20)">
+        <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
+        <path d="M22 48 L22 26 L36 14 L50 26 L50 48 Z" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
+        <rect x="31" y="34" width="10" height="14" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
+        <line x1="36" y1="34" x2="36" y2="48" stroke="#111d2b" strokeWidth="1" />
+        <rect x="40" y="22" width="5" height="5" fill="#FCAF17" />
+        <rect x="27" y="22" width="5" height="5" fill="#FCAF17" />
+      </g>
+      <g transform="translate(400, 25)">
+        <circle cx="36" cy="36" r="34" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
+        <circle cx="36" cy="36" r="16" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
+        <circle cx="36" r="10" stroke="#cbd5e1" strokeWidth="1.5" strokeDasharray="2 2" fill="none" />
+        <path d="M16 22 L16 34 M13 22 L13 28 Q13 32 16 34 M19 22 L19 28 Q19 32 16 34 M16 34 L16 50" stroke="#111d2b" strokeWidth="1.8" strokeLinecap="round" />
+        <path d="M56 22 Q52 26 52 30 Q52 35 56 36 L56 50 M56 22 Q60 26 60 30 Q60 35 56 36" stroke="#111d2b" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+      </g>
+      <g transform="translate(240, 290)">
+        <circle cx="34" cy="34" r="32" fill="#ffffff" stroke="#111d2b" strokeWidth="2.5" strokeDasharray="4 3" />
+        <path d="M16 44 L16 24 Q16 20 20 20 L48 20 Q52 20 52 24 L52 44" fill="#f8fafc" stroke="#111d2b" strokeWidth="2" />
+        <rect x="18" y="32" width="32" height="10" fill="#FCAF17" stroke="#111d2b" strokeWidth="1.5" rx="1" />
+        <rect x="22" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
+        <rect x="36" y="24" width="10" height="6" rx="2" fill="#e2e8f0" stroke="#111d2b" strokeWidth="1.5" />
+        <line x1="14" y1="44" x2="54" y2="44" stroke="#111d2b" strokeWidth="2.5" />
+      </g>
+      <g transform="translate(15, 120)">
+        <path d="M25 280 L40 180 Q65 140 110 145 L155 185 L165 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
+        <path d="M85 145 L100 210 L115 145" fill="#ffffff" stroke="#111d2b" strokeWidth="2" />
+        <polygon points="98,160 102,160 104,225 96,225" fill="#111d2b" />
+        <circle cx="102" cy="100" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
+        <path d="M72 95 Q85 65 115 70 Q135 75 130 92 Q125 78 105 78 Q85 80 75 105 Z" fill="#111d2b" />
+        <path d="M88 95 Q94 93 98 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        <path d="M108 96 Q112 93 118 96" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        <circle cx="94" cy="101" r="2" fill="#111d2b" />
+        <circle cx="112" cy="101" r="2" fill="#111d2b" />
+        <path d="M98 114 Q104 120 110 114" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        <path d="M150 195 L158 135 Q160 120 166 120 Q172 120 172 135 L172 170" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
+      </g>
+      <g transform="translate(325, 120)">
+        <path d="M45 280 L35 185 Q75 140 125 155 L165 200 L155 280 Z" fill="#FCAF17" stroke="#111d2b" strokeWidth="3" />
+        <circle cx="95" cy="105" r="32" fill="#FEEBD0" stroke="#111d2b" strokeWidth="2.5" />
+        <path d="M68 95 Q80 65 115 72 Q130 78 128 95 Q120 78 100 80 Q80 82 72 105 Z" fill="#d97706" stroke="#111d2b" strokeWidth="2" />
+        <path d="M82 98 Q87 94 92 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        <path d="M102 98 Q107 94 112 98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        <circle cx="87" cy="103" r="2" fill="#111d2b" />
+        <circle cx="107" cy="103" r="2" fill="#111d2b" />
+        <path d="M92 115 Q98 122 104 115" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        <path d="M72 175 Q68 135 80 125 Q88 120 90 130 L90 150" stroke="#111d2b" strokeWidth="3" fill="#FEEBD0" strokeLinejoin="round" />
+        <line x1="128" y1="70" x2="135" y2="55" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
+        <line x1="140" y1="80" x2="155" y2="72" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
+        <line x1="142" y1="95" x2="158" y2="98" stroke="#111d2b" strokeWidth="2.5" strokeLinecap="round" />
+      </g>
+    </svg>
   )
 }
 
@@ -229,6 +235,7 @@ function WorkflowIcon({ index }: { index: number }) {
   ]
   return <span className="workflow-icon-wrap">{icons[index]}</span>
 }
+
 
 const services = [
   ['アカウント・掲載情報', 'OTAアカウント管理|施設情報更新|客室情報更新|設備・アメニティ更新|アクセス情報更新|チェックイン・アウト情報|キャンセルポリシー|注意事項|OTAからの通知確認|OTA仕様変更への対応'],
@@ -300,45 +307,74 @@ function Arrow() {
 }
 
 export default function Page() {
-  const [openItems, setOpenItems] = useState<number[]>([])
-
   const [isDiagnosticOpen, setIsDiagnosticOpen] = useState(false)
   const [isInboundMenuOpen, setIsInboundMenuOpen] = useState(false)
-
-  const toggleItem = (i: number) => {
-    setOpenItems(prev =>
-      prev.includes(i) ? prev.filter(item => item !== i) : [...prev, i]
-    )
-  }
-
-  const leftServices = services.filter((_, i) => i % 2 === 0)
-  const rightServices = services.filter((_, i) => i % 2 !== 0)
 
   return (
     <main className="ota-page-root">
       {/* HEADER */}
-      <header className="site-header">
+      <header className="site-header" style={{ position: 'relative', zIndex: 100020, pointerEvents: 'auto' }}>
         <a href="#top" className="logo">
           InnBuddy<small>OTA</small>
         </a>
-        <nav>
+        <nav style={{ pointerEvents: 'auto' }}>
+          <button
+            type="button"
+            className="ota-shared-diagnostic-cta"
+            aria-haspopup="dialog"
+            aria-label="無料診断を開く"
+            onClick={(event) => {
+              event.preventDefault()
+              event.stopPropagation()
+              setIsDiagnosticOpen(true)
+            }}
+            onTouchStart={() => setIsDiagnosticOpen(true)}
+            onPointerUp={() => setIsDiagnosticOpen(true)}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              position: 'relative',
+              zIndex: 100020,
+              pointerEvents: 'auto',
+              touchAction: 'manipulation',
+              WebkitTapHighlightColor: 'transparent',
+              minHeight: 42,
+              padding: '8px 14px',
+              border: 0,
+              borderRadius: 999,
+              background: '#FCAF17',
+              color: '#111d2b',
+              fontSize: 12,
+              fontWeight: 800,
+              whiteSpace: 'nowrap',
+              cursor: 'pointer',
+            }}
+          >
+            無料診断 <span aria-hidden="true">↗</span>
+          </button>
           <a href="#services">対応業務</a>
           <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
             InnBuddyについて
           </a>
-          <a className="header-cta red-neon-btn" href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
-            相談する <Arrow />
-          </a>
         </nav>
       </header>
 
-      {/* HERO */}
-      <section id="top" className="hero">
-        <HeroCenterBackdropIllustration />
+      {/* 
+        HERO
+        スマホの時のみ max-md:!h-auto max-md:!pb-12 を指定し、ヒーローの高さ制限を解除。
+        スマホ版のみ、ヒーローの文字を右揃えにしています（max-md: のみ）。
+      */}
+      <section id="top" className="hero max-md:!h-auto max-md:!py-12">
+        
+        {/* === PC版イラスト（スマホ版では強力に非表示） === */}
+        <div className="max-md:!hidden hero-center-backdrop" aria-hidden="true">
+          <OtaIllustrationSvg className="hero-svg-backdrop" />
+        </div>
 
         <div className="wrap hero-2col-wrap">
-          <div className="hero-left-content">
-            <p className="eyebrow hero-script">ホテル・旅館のOTA運用代行</p>
+          <div className="hero-left-content max-md:!w-full max-md:!pt-0 max-md:!flex max-md:!flex-col max-md:!items-center max-md:!text-center">
+            <p className="eyebrow hero-script max-md:!self-center max-md:!mx-auto max-md:!w-fit max-md:!text-center max-md:!px-3 max-md:!py-1.5 max-md:!mt-0 max-md:!mb-4 max-md:!text-[12px] max-md:!leading-tight">ホテル・旅館のOTA運用代行</p>
             <h1>
               ホテル・旅館の<br />
               OTA運用を、<br />
@@ -351,21 +387,19 @@ export default function Page() {
               日々のOTA業務を、<br />
               InnBuddyがまとめてサポートします。
             </p>
-            <div className="hero-cta-box">
+            
+            {/* CTAボタン（スマホ版ではボトムナビがあるため強力に非表示） */}
+            <div className="max-md:!hidden md:block hero-cta-box">
               <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="button red-neon-btn">
                 OTA運用について相談する <Arrow />
               </a>
             </div>
           </div>
 
-          <div className="hero-editorial-panel-group">
+          {/* 右側の01〜03パネル（スマホ版では不要なため強力に非表示） */}
+          <div className="max-md:!hidden md:flex hero-editorial-panel-group">
             {/* ★ 01. ABOUT US */}
-            <a
-              href="https://innbuddy-japan.com/team"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="square-glass-panel panel-about"
-            >
+            <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer" className="square-glass-panel panel-about">
               <div className="panel-inner">
                 <div className="panel-meta-row">
                   <span className="panel-num">01</span>
@@ -379,11 +413,7 @@ export default function Page() {
             </a>
 
             {/* ★ 02. ONLINE CHECK */}
-            <button
-              type="button"
-              onClick={() => setIsDiagnosticOpen(true)}
-              className="square-glass-panel panel-check"
-            >
+            <button type="button" onClick={() => setIsDiagnosticOpen(true)} className="square-glass-panel panel-check">
               <div className="panel-inner">
                 <div className="panel-meta-row">
                   <span className="panel-num">02</span>
@@ -398,11 +428,7 @@ export default function Page() {
             </button>
 
             {/* ★ 03. INBOUND */}
-            <button
-              type="button"
-              onClick={() => setIsInboundMenuOpen(true)}
-              className="square-glass-panel panel-inbound"
-            >
+            <button type="button" onClick={() => setIsInboundMenuOpen(true)} className="square-glass-panel panel-inbound">
               <div className="panel-inner">
                 <div className="panel-meta-row">
                   <span className="panel-num">03</span>
@@ -417,8 +443,13 @@ export default function Page() {
           </div>
         </div>
 
-        {/* 修正３：ヒーロー内にスッキリ収まるSCROLL位置 */}
-        <div className="hero-index">
+        {/* === スマホ版イラスト（文字の下に独立して配置・他の操作を一切邪魔しない） === */}
+        <div className="md:hidden flex justify-center w-full mt-6 px-4">
+          <OtaIllustrationSvg className="w-full max-w-[320px] h-auto pointer-events-none" />
+        </div>
+
+        {/* スクロール位置（PC用） */}
+        <div className="hero-index max-md:!hidden md:block">
           SCROLL<br />
           <span>↓</span>
         </div>
@@ -462,14 +493,11 @@ export default function Page() {
         </div>
       )}
 
-      {/* 中央ポップアップ：売上期待値測定 */}
-      {isDiagnosticOpen && (
-        <div className="modal-overlay" onClick={() => setIsDiagnosticOpen(false)}>
-          <div className="modal-dialog rev-diagnostic-dialog" onClick={(e) => e.stopPropagation()}>
-            <RevenueDiagnosticModalView onClose={() => setIsDiagnosticOpen(false)} />
-          </div>
-        </div>
-      )}
+      {/* PC・スマートフォン共通の売上期待値測定モーダル */}
+      <RevenueDiagnosticModal
+        isOpen={isDiagnosticOpen}
+        onClose={() => setIsDiagnosticOpen(false)}
+      />
 
       {/* PROBLEM */}
       <section className="dark section problem">
@@ -492,81 +520,38 @@ export default function Page() {
         </div>
       </section>
 
-      {/* SCOPE OF WORK */}
+      {/* SCOPE OF WORK — 全11業務を常時表示し、タップ操作なしでも内容を確認できるカードデザイン */}
       <section id="services" className="light section services">
         <div className="wrap">
-          <h2>
-            InnBuddy OTAが<br />
-            <span>対応する11の業務</span>
-          </h2>
-          <p className="intro services-intro">
-            施設ごとに異なる客室構成・ターゲットを踏まえ、日々の細かな実務を引き受けます。
-          </p>
-
-          {/* 修正４：余白を詰めたガイド */}
-          <div className="services-action-guide">
-            <span className="services-guide-pill">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" className="guide-mouse-icon">
-                <rect x="5" y="2" width="14" height="20" rx="7" />
-                <line x1="12" y1="6" x2="12" y2="10" />
-              </svg>
-              クリックして詳細を見る
-            </span>
+          <div className="services-heading-row">
+            <div>
+              <p className="services-kicker">OUR SERVICES / 01—11</p>
+              <h2>InnBuddy OTAが<br /><span>対応する11の業務</span></h2>
+            </div>
+            <p className="intro services-intro">
+              施設ごとに異なる客室構成・ターゲットを踏まえ、OTA運用の準備から日々の実務、分析・改善まで一貫して支援します。
+            </p>
           </div>
 
-          <div className="service-grid">
-            <div className="service-column">
-              {leftServices.map(([title, items], idx) => {
-                const originalIndex = idx * 2
-                const isOpen = openItems.includes(originalIndex)
-                return (
-                  <div className={`service ${isOpen ? 'is-open' : ''}`} key={title}>
-                    <button onClick={() => toggleItem(originalIndex)} aria-expanded={isOpen}>
-                      <span className="service-num">{String(originalIndex + 1).padStart(2, '0')}</span>
-                      <ServiceIcon index={originalIndex} />
-                      <span className="service-title-text">{title}</span>
-                      <span className="plus">{isOpen ? '−' : '+'}</span>
-                    </button>
-                    {isOpen && (
-                      <div className="service-content">
-                        <ul>
-                          {items.split('|').map((x) => (
-                            <li key={x}>{x}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-
-            <div className="service-column">
-              {rightServices.map(([title, items], idx) => {
-                const originalIndex = idx * 2 + 1
-                const isOpen = openItems.includes(originalIndex)
-                return (
-                  <div className={`service ${isOpen ? 'is-open' : ''}`} key={title}>
-                    <button onClick={() => toggleItem(originalIndex)} aria-expanded={isOpen}>
-                      <span className="service-num">{String(originalIndex + 1).padStart(2, '0')}</span>
-                      <ServiceIcon index={originalIndex} />
-                      <span className="service-title-text">{title}</span>
-                      <span className="plus">{isOpen ? '−' : '+'}</span>
-                    </button>
-                    {isOpen && (
-                      <div className="service-content">
-                        <ul>
-                          {items.split('|').map((x) => (
-                            <li key={x}>{x}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
+          <div className="services-cards-grid">
+            {services.map(([title, items], idx) => (
+              <article className="service-detail-card" key={`service-detail-${idx}`}>
+                <div className="service-detail-card-top">
+                  <span className="service-detail-number">{String(idx + 1).padStart(2, '0')}</span>
+                  <span className="service-detail-icon"><ServiceIcon index={idx} /></span>
+                  {/* ＋マークはスマホ版のみ非表示（PCは今まで通り表示） */}
+                  <span className="service-detail-mark max-md:!hidden" aria-hidden="true">＋</span>
+                </div>
+                <h3>{title}</h3>
+                <ul>
+                  {items.split('|').map((item, itemIndex) => (
+                    <li key={`${idx}-${itemIndex}`}><span aria-hidden="true">✓</span>{item}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
           </div>
+          <p className="services-footnote">※ 対応範囲は施設の状況・ご契約内容に応じて調整します。</p>
         </div>
       </section>
 
@@ -742,7 +727,6 @@ export default function Page() {
             </p>
           </div>
           <div className="contact-split-right">
-            {/* 修正５：日本地図画像と完全一致させたCTA枠 */}
             <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="huge-contact-cta red-neon-btn">
               <div className="japan-map-watermark-img" aria-hidden="true" />
               <span className="huge-cta-sub">InnBuddyへの無料相談・お問い合わせ</span>
@@ -786,6 +770,254 @@ export default function Page() {
           </div>
         </div>
       </footer>
+
+      {/* スマホでナビゲーションがフッターに被らないための余白 */}
+      <div className="h-[100px] md:hidden"></div>
+
+      {/* スマホ専用グラスモーフィズム・ボトムナビゲーション */}
+      <MobileBottomNav onOpenDiagnostic={() => setIsDiagnosticOpen(true)} />
     </main>
   )
+}
+
+/* ===================================================
+   無料診断モーダル + 実際のLeadCaptureForm送信処理を統合
+   submitDiagnostic経由で既存のApps Script連携を使用
+=================================================== */
+
+const PREFECTURES = [
+  '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
+  '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
+  '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県',
+  '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県',
+  '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県',
+  '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県',
+  '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'
+];
+
+type LeadCaptureFormProps = {
+  diagnosticType: 'revenue' | 'hiring' | 'contact';
+  payload: Record<string, any>;
+  onClose: () => void;
+};
+
+function LeadCaptureForm({ diagnosticType, payload, onClose }: LeadCaptureFormProps) {
+  const [form, setForm] = useState({ facilityName: '', prefecture: '', contactName: '', email: '', phone: '', address: '' });
+  const [sending, setSending] = useState(false);
+  const [done, setDone] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (sending) return;
+    setSending(true);
+    setErrorMessage('');
+    try {
+      await submitDiagnostic({
+        ...form,
+        diagnosticType,
+        payload,
+      } as LeadFormData);
+      setDone(true);
+    } catch (error) {
+      console.error('無料診断の送信に失敗しました:', error);
+      setErrorMessage('送信に失敗しました。時間をおいて再度お試しください。');
+    } finally {
+      setSending(false);
+    }
+  };
+
+  if (done) {
+    return (
+      <div className="text-center py-10" role="status" aria-live="polite">
+        <p className="font-serif text-2xl text-[#1b2e1b] mb-4">送信完了</p>
+        <p className="text-sm text-[#1b2e1b]/60 mb-8">担当者よりご連絡いたします。</p>
+        <button type="button" onClick={onClose} className="text-sm underline text-[#1b2e1b] min-h-11 px-4">閉じる</button>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-5 text-left">
+      <div className="border-t border-[#e5e0d9] pt-6 mt-6">
+        <p className="text-xs tracking-[0.18em] text-[#9b7944] mb-2">NEXT STEP</p>
+        <h3 className="font-serif text-xl text-center mb-2 font-bold text-[#1b2e1b]">
+          診断結果を担当者に共有する
+        </h3>
+        <p className="text-sm text-center leading-6 text-[#1b2e1b]/60 mb-5">
+          入力内容とシミュレーション結果を送信すると、担当者からご連絡いたします。
+        </p>
+      </div>
+
+      <div>
+        <label htmlFor="lead-facility-name" className="block text-xs text-[#1b2e1b]/65 mb-1">施設名 *</label>
+        <input id="lead-facility-name" type="text" required value={form.facilityName} onChange={e => setForm({ ...form, facilityName: e.target.value })} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" autoComplete="organization" />
+      </div>
+
+      <div>
+        <label htmlFor="lead-prefecture" className="block text-xs text-[#1b2e1b]/65 mb-1">都道府県 *</label>
+        <select id="lead-prefecture" required value={form.prefecture} onChange={e => setForm({ ...form, prefecture: e.target.value })} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]">
+          <option value="">選択してください</option>
+          {PREFECTURES.map(pref => <option key={pref} value={pref}>{pref}</option>)}
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="lead-contact-name" className="block text-xs text-[#1b2e1b]/65 mb-1">担当者名 *</label>
+        <input id="lead-contact-name" type="text" required value={form.contactName} onChange={e => setForm({ ...form, contactName: e.target.value })} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" autoComplete="name" />
+      </div>
+
+      <div>
+        <label htmlFor="lead-email" className="block text-xs text-[#1b2e1b]/65 mb-1">メールアドレス *</label>
+        <input id="lead-email" type="email" required value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" autoComplete="email" />
+      </div>
+
+      <div>
+        <label htmlFor="lead-phone" className="block text-xs text-[#1b2e1b]/65 mb-1">電話番号（任意）</label>
+        <input id="lead-phone" type="tel" value={form.phone} onChange={e => setForm({ ...form, phone: e.target.value })} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" autoComplete="tel" />
+      </div>
+
+      {errorMessage && <p role="alert" className="text-sm text-red-700 bg-red-50 rounded-md p-3">{errorMessage}</p>}
+      <button type="submit" disabled={sending} className="w-full min-h-12 bg-[#1b2e1b] text-white font-medium py-3 px-4 text-sm tracking-widest hover:bg-[#2d4a2d] transition-colors disabled:opacity-50 disabled:cursor-wait rounded-md">
+        {sending ? '送信中...' : '診断結果を送信する'}
+      </button>
+      <p className="text-xs text-center leading-5 text-[#1b2e1b]/45">送信すると、入力内容と診断結果が送信先に共有されます。</p>
+    </form>
+  );
+}
+
+interface Props {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const otaOptions = [
+  '自社WEB', '楽天トラベル', 'じゃらん', '一休', 'Yahoo!トラベル', 'るるぶトラベル',
+  'Booking.com', 'Expedia', 'Agoda', 'Airbnb', 'Hotels.com', 'Trip.com',
+  'Meituan', 'Fliggy', 'Qunar', 'Klook', 'KKday', 'Traveloka', 'MakeMyTrip', 'その他'
+];
+
+function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
+  const [totalRooms, setTotalRooms] = useState('');
+  const [adr, setAdr] = useState('');
+  const [occ, setOcc] = useState(50);
+  const [selectedOta, setSelectedOta] = useState<string[]>([]);
+  const [primaryOta, setPrimaryOta] = useState('');
+  const [primaryOtaShare, setPrimaryOtaShare] = useState('');
+  const [adrUp, setAdrUp] = useState(500);
+  const [occUp, setOccUp] = useState(5);
+  const [showResult, setShowResult] = useState(false);
+
+  const toggleOta = (ota: string) => {
+    setSelectedOta(prev => prev.includes(ota) ? prev.filter(o => o !== ota) : (prev.length < 3 ? [...prev, ota] : prev));
+  };
+
+  const handleSubmit = () => {
+    if (!totalRooms || !adr || !primaryOta) return;
+    setShowResult(true);
+  };
+
+  const currentADR = adr ? parseInt(adr, 10) : 0;
+  const currentOCC = occ;
+  const newOCC = Math.min(100, currentOCC + occUp);
+  const newADR = currentADR + adrUp;
+  const currentAnnualRevenue = totalRooms ? (parseInt(totalRooms, 10) * 365 * (currentOCC / 100) * currentADR) : 0;
+  const newAnnualRevenue = totalRooms ? (parseInt(totalRooms, 10) * 365 * (newOCC / 100) * newADR) : 0;
+  const annualUpAmount = newAnnualRevenue - currentAnnualRevenue;
+  const formattedUpAmount = annualUpAmount.toLocaleString('ja-JP');
+
+  const handleBack = () => {
+    if (showResult) setShowResult(false);
+    else onClose();
+  };
+
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 z-[10010] flex items-center justify-center bg-[#fdfbf7]/95 p-3 sm:p-4" role="presentation" onClick={onClose}>
+      <div className="relative bg-[#fdfbf7] text-left w-full max-w-2xl max-h-[92dvh] overflow-y-auto p-5 sm:p-8 md:p-12 rounded-xl shadow-2xl border border-[#e5e0d9]" role="dialog" aria-modal="true" aria-labelledby="ota-diagnostic-title" onClick={e => e.stopPropagation()}>
+        <div className="relative z-10">
+          <div className="flex items-center justify-between mb-5">
+            <button type="button" onClick={handleBack} className="text-sm text-[#1b2e1b]/60 hover:text-[#1b2e1b] transition-colors min-h-11">
+              ← {showResult ? '入力画面に戻る' : '前のページに戻る'}
+            </button>
+            <button type="button" onClick={onClose} aria-label="診断を閉じる" className="text-[#1b2e1b]/50 hover:text-[#1b2e1b] text-3xl leading-none w-11 h-11 flex items-center justify-center rounded-full hover:bg-[#1b2e1b]/5">
+              ×
+            </button>
+          </div>
+
+          {!showResult ? (
+            <div className="space-y-7">
+              <div className="border-b border-[#e5e0d9] pb-5">
+                <p className="text-xs tracking-[0.2em] uppercase text-[#9b7944] mb-2">Free Revenue Diagnosis</p>
+                <h2 id="ota-diagnostic-title" className="font-serif font-light text-2xl md:text-3xl text-[#1b2e1b]">売上期待値測定</h2>
+                <p className="text-sm text-[#1b2e1b]/60 mt-2">現在の施設情報を入力して、売上改善の可能性をシミュレーションします。</p>
+              </div>
+              <div>
+                <label htmlFor="diag-total-rooms" className="block text-sm text-[#1b2e1b]/75 mb-1">総客室数</label>
+                <input id="diag-total-rooms" type="number" min="1" inputMode="numeric" value={totalRooms} onChange={e => setTotalRooms(e.target.value)} onWheel={e => (e.target as HTMLElement).blur()} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" placeholder="例：15" />
+              </div>
+              <div>
+                <label htmlFor="diag-adr" className="block text-sm text-[#1b2e1b]/75 mb-1">現在のADR（客室単価・円）</label>
+                <input id="diag-adr" type="number" min="0" inputMode="numeric" value={adr} onChange={e => setAdr(e.target.value)} onWheel={e => (e.target as HTMLElement).blur()} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" placeholder="例：18000" />
+              </div>
+              <div>
+                <div className="flex items-center justify-between mb-2"><label htmlFor="diag-occ" className="block text-sm text-[#1b2e1b]/75">現在の稼働率</label><span className="text-sm font-semibold text-[#1b2e1b]">{occ}%</span></div>
+                <input id="diag-occ" type="range" min="0" max="100" value={occ} onChange={e => setOcc(parseInt(e.target.value, 10))} className="w-full accent-[#1b2e1b]" />
+                <div className="flex justify-between text-xs text-[#1b2e1b]/40"><span>0%</span><span>100%</span></div>
+              </div>
+              <div>
+                <label className="block text-sm text-[#1b2e1b]/75 mb-3">メイン利用OTA（最大3つ）</label>
+                <div className="flex flex-wrap gap-2">
+                  {otaOptions.map(ota => (
+                    <button type="button" key={ota} aria-pressed={selectedOta.includes(ota)} onClick={() => toggleOta(ota)} className={`min-h-9 px-3 py-2 text-xs border rounded-full transition-all ${selectedOta.includes(ota) ? 'border-[#1b2e1b] bg-[#1b2e1b] text-white font-semibold' : 'border-[#e5e0d9] bg-white/60 text-[#1b2e1b]/70 hover:border-[#1b2e1b]/60'}`}>
+                      {ota}
+                    </button>
+                  ))}
+                </div>
+                <p className="text-xs text-[#1b2e1b]/45 mt-2">選択中：{selectedOta.length}/3</p>
+              </div>
+              <div>
+                <label htmlFor="diag-primary-ota" className="block text-sm text-[#1b2e1b]/75 mb-1">一番予約数の多いOTA</label>
+                <select id="diag-primary-ota" value={primaryOta} onChange={e => setPrimaryOta(e.target.value)} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]">
+                  <option value="">選択してください</option>
+                  {otaOptions.map(ota => <option key={ota} value={ota}>{ota}</option>)}
+                </select>
+              </div>
+              <div>
+                <label htmlFor="diag-ota-share" className="block text-sm text-[#1b2e1b]/75 mb-1">そのOTAの売上構成比（%）</label>
+                <input id="diag-ota-share" type="number" min="0" max="100" inputMode="numeric" value={primaryOtaShare} onChange={e => setPrimaryOtaShare(e.target.value)} onWheel={e => (e.target as HTMLElement).blur()} className="w-full border-b border-[#e5e0d9] bg-transparent py-3 text-[#1b2e1b] focus:outline-none focus:border-[#1b2e1b]" placeholder="例：45" />
+              </div>
+              <div className="pt-6 border-t border-[#e5e0d9]">
+                <p className="text-sm text-[#1b2e1b]/70 mb-4 font-semibold">改善シミュレーション</p>
+                <div className="mb-5"><label htmlFor="diag-adr-up" className="block text-xs mb-2 text-[#1b2e1b]/70">ADR上昇額：<strong>+{adrUp.toLocaleString()}円</strong></label><input id="diag-adr-up" type="range" min="0" max="30000" step="100" value={adrUp} onChange={e => setAdrUp(parseInt(e.target.value, 10))} className="w-full accent-[#1b2e1b]" /></div>
+                <div><label htmlFor="diag-occ-up" className="block text-xs mb-2 text-[#1b2e1b]/70">稼働率上昇：<strong>+{occUp}%</strong></label><input id="diag-occ-up" type="range" min="0" max="50" step="1" value={occUp} onChange={e => setOccUp(parseInt(e.target.value, 10))} className="w-full accent-[#1b2e1b]" /></div>
+              </div>
+              <button type="button" onClick={handleSubmit} disabled={!totalRooms || Number(totalRooms) <= 0 || !adr || Number(adr) < 0 || !primaryOta} className="w-full min-h-12 bg-[#1b2e1b] text-white font-medium rounded-md py-3 px-4 text-sm tracking-widest hover:bg-[#2d4a2d] disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
+                シミュレーション結果を見る
+              </button>
+            </div>
+          ) : (
+            <div className="text-center pt-3">
+              <p className="text-xs tracking-[0.2em] uppercase text-[#9b7944] mb-3">Your Revenue Potential</p>
+              <div className="py-8 sm:py-12 space-y-5">
+                <p className="text-4xl sm:text-6xl font-light text-[#1b2e1b] break-words">{formattedUpAmount}円</p>
+                <p className="text-xl text-[#1b2e1b]">年間売上UP（試算）</p>
+                <p className="text-sm text-[#1b2e1b]/60">稼働率 +{occUp}% ／ ADR +{adrUp.toLocaleString()}円</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto">
+                  <div className="rounded-lg border border-[#e5e0d9] p-4"><p className="text-xs text-[#1b2e1b]/55 mb-1">現在の年間売上（概算）</p><p className="text-lg font-semibold text-[#1b2e1b]">{Math.round(currentAnnualRevenue).toLocaleString('ja-JP')}円</p></div>
+                  <div className="rounded-lg border border-[#e5e0d9] p-4"><p className="text-xs text-[#1b2e1b]/55 mb-1">改善後の年間売上（概算）</p><p className="text-lg font-semibold text-[#1b2e1b]">{Math.round(newAnnualRevenue).toLocaleString('ja-JP')}円</p></div>
+                </div>
+                <p className="text-xs leading-6 text-[#1b2e1b]/50">※入力値をもとにした簡易試算です。実際の売上を保証するものではありません。</p>
+              </div>
+              <LeadCaptureForm diagnosticType="revenue" payload={{
+                totalRooms, adr, occ, selectedOta, primaryOta, primaryOtaShare, adrUp, occUp,
+                result: { annualUpAmount, formattedUpAmount, currentAnnualRevenue, newAnnualRevenue }
+              }} onClose={onClose} />
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 }

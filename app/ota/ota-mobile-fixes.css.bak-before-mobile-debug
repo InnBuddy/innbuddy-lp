@@ -1,0 +1,280 @@
+/* ===================================================
+   InnBuddy OTA 窶� MOBILE-ONLY FIXES
+   Imported after ota.css. Desktop styles are intentionally untouched.
+=================================================== */
+
+@media (max-width: 767px) {
+  .ota-page-root {
+    overflow-x: clip;
+    padding-bottom: calc(88px + env(safe-area-inset-bottom));
+  }
+
+  /* Hero: let the full headline and illustration flow naturally. */
+  .ota-page-root .hero {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: calc(88px + env(safe-area-inset-top)) 18px 36px !important;
+  }
+  .ota-page-root .hero .wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .ota-page-root .hero-2col-wrap {
+    display: block !important;
+    width: 100% !important;
+    gap: 0 !important;
+    text-align: left !important;
+  }
+  .ota-page-root .hero-left-content {
+    width: 100% !important;
+    align-items: flex-start !important;
+    min-width: 0 !important;
+  }
+  .ota-page-root .hero .eyebrow {
+    max-width: 100%;
+    font-size: 10px;
+    letter-spacing: .06em;
+    line-height: 1.5;
+    padding: 5px 9px;
+    margin-bottom: 14px;
+    white-space: normal;
+  }
+  .ota-page-root .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(27px, 7.4vw, 36px) !important;
+    line-height: 1.38 !important;
+    letter-spacing: -.035em;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+    margin: 0 0 16px !important;
+  }
+  .ota-page-root .hero-copy {
+    width: 100%;
+    font-size: 13px !important;
+    line-height: 1.85 !important;
+    margin-bottom: 0 !important;
+    overflow-wrap: anywhere;
+  }
+  .ota-page-root .hero > .md\:hidden {
+    margin-top: 18px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .ota-page-root .hero > .md\:hidden svg {
+    display: block;
+    width: min(100%, 300px) !important;
+    height: auto !important;
+    margin-inline: auto;
+  }
+
+  /* Mobile bottom nav: keep it on top, clickable, and high-contrast. */
+  .ota-page-root .ota-mobile-bottom-nav {
+    position: fixed !important;
+    z-index: 99999 !important;
+    pointer-events: auto !important;
+    isolation: isolate;
+  }
+  .ota-page-root .ota-mobile-bottom-nav > div {
+    position: relative;
+    z-index: 99999 !important;
+    pointer-events: auto !important;
+    background: rgba(224, 242, 254, .98) !important;
+  }
+  .ota-page-root .ota-mobile-bottom-nav button,
+  .ota-page-root .ota-mobile-bottom-nav a {
+    position: relative;
+    z-index: 100000 !important;
+    pointer-events: auto !important;
+    color: #0f172a !important;
+    opacity: 1 !important;
+    cursor: pointer !important;
+  }
+  .ota-page-root .ota-mobile-bottom-nav .ota-mobile-diagnostic-button {
+    background: transparent !important;
+    color: #0c4a6e !important;
+    font-weight: 800 !important;
+    -webkit-tap-highlight-color: rgba(14, 165, 233, .28);
+    touch-action: manipulation;
+  }
+
+  /* Mobile bottom nav remains above the safe area and has clear tap targets. */
+  .ota-page-root .fixed.bottom-2 {
+    bottom: calc(8px + env(safe-area-inset-bottom)) !important;
+  }
+  .ota-page-root .fixed.bottom-2 > div {
+    min-height: 68px;
+  }
+  .ota-page-root .fixed.bottom-2 a,
+  .ota-page-root .fixed.bottom-2 button {
+    min-width: 0;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(14, 165, 233, .18);
+  }
+
+  /* Service accordion: enforce visible, full-width details on mobile. */
+  .ota-page-root .services .service-grid {
+    display: block !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+  .ota-page-root .services .service-column,
+  .ota-page-root .services .service {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+  .ota-page-root .services .service {
+    margin-bottom: 10px;
+  }
+  .ota-page-root .services .service button {
+    display: grid !important;
+    grid-template-columns: 28px 24px minmax(0, 1fr) 18px !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 100% !important;
+    min-height: 58px;
+    padding: 14px 12px !important;
+    line-height: 1.45;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+  .ota-page-root .services .service-title-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .ota-page-root .services .service-content {
+    display: block !important;
+    padding: 0 12px 16px 44px !important;
+    visibility: visible !important;
+    height: auto !important;
+    max-height: none !important;
+    opacity: 1 !important;
+  }
+  .ota-page-root .services .service.is-open > .ota-mobile-service-content {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    max-height: none !important;
+    opacity: 1 !important;
+  }
+  .ota-page-root .services .ota-mobile-service-toggle {
+    pointer-events: auto !important;
+    position: relative;
+    z-index: 1;
+    cursor: pointer !important;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(14, 165, 233, .22);
+  }
+  .ota-page-root .services .service-content ul {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 12px !important;
+  }
+  .ota-page-root .services .service-content li {
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .ota-page-root .services-action-guide {
+    margin: 10px 0 12px !important;
+  }
+  .ota-page-root .services-guide-pill {
+    max-width: 100%;
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+
+  /* Contact CTA: card-style, readable, and comfortably tappable. */
+  .ota-page-root .contact.section {
+    padding: 54px 0 64px !important;
+  }
+  .ota-page-root .contact-grid-split {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 24px !important;
+    align-items: stretch !important;
+  }
+  .ota-page-root .contact-split-left {
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+  .ota-page-root .contact h2 {
+    font-size: clamp(25px, 6.4vw, 32px) !important;
+    line-height: 1.45 !important;
+    margin-bottom: 14px !important;
+    overflow-wrap: anywhere;
+  }
+  .ota-page-root .contact p {
+    font-size: 13px !important;
+    line-height: 1.9 !important;
+  }
+  .ota-page-root .contact-split-right {
+    width: 100%;
+  }
+  .ota-page-root .huge-contact-cta {
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 190px;
+    aspect-ratio: auto !important;
+    padding: 28px 18px !important;
+    border-radius: 16px !important;
+    gap: 5px;
+  }
+  .ota-page-root .huge-cta-sub {
+    font-size: 11px !important;
+    line-height: 1.6;
+    letter-spacing: .04em;
+  }
+  .ota-page-root .huge-cta-main {
+    font-size: clamp(19px, 5vw, 24px) !important;
+    line-height: 1.5 !important;
+    margin: 5px 0 8px !important;
+    overflow-wrap: anywhere;
+  }
+  .ota-page-root .huge-cta-arrow {
+    font-size: 26px !important;
+  }
+
+  /* Mobile two-tap link affordance: first tap focuses, second follows. */
+  .ota-page-root a.mobile-tap-armed {
+    outline: 2px solid rgba(252, 175, 23, .9) !important;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Keep modal contents within the viewport. */
+  .ota-page-root .modal-overlay {
+    padding: 12px !important;
+    align-items: center !important;
+    overflow-y: auto;
+  }
+  .ota-page-root .rev-diagnostic-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: calc(100dvh - 24px) !important;
+    overflow-y: auto !important;
+    padding: 22px 18px 24px !important;
+  }
+  .ota-page-root .rev-modal-heading {
+    font-size: 23px !important;
+    margin-bottom: 24px !important;
+  }
+  .ota-page-root .rev-modal-form {
+    gap: 24px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .ota-page-root .hero h1 { font-size: 26px !important; }
+  .ota-page-root .services .service button {
+    grid-template-columns: 24px 20px minmax(0, 1fr) 16px !important;
+    gap: 6px !important;
+    padding-inline: 9px !important;
+    font-size: 13px !important;
+  }
+}
