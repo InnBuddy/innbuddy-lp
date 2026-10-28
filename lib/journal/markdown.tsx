@@ -1,0 +1,5 @@
+import React from 'react';
+
+export function Markdown({ source }: { source: string }) {
+  return <div dangerouslySetInnerHTML={{ __html: source }} />;
+}

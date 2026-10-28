@@ -1,0 +1,275 @@
+/* app/wellbeing/wellbeing.module.css */
+
+/* スタイリッシュな明朝体フォント */
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&display=swap');
+
+.serifFont {
+  font-family: 'Shippori Mincho', serif;
+}
+
+/* スクロール出現アニメーション */
+.revealUp {
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.revealUpActive {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.delay100 { transition-delay: 100ms; }
+.delay200 { transition-delay: 200ms; }
+
+/* 浮遊アニメーション */
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* 回転アニメーション */
+.spinning {
+  animation: spin 18s linear infinite;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* マーキー（無限スクロール）アニメーション */
+.marqueeWrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+}
+.marqueeContent, .marqueeContentReverse {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  will-change: transform;
+}
+.marqueeContent {
+  animation: marquee 30s linear infinite;
+}
+.marqueeContentReverse {
+  animation: marqueeReverse 35s linear infinite;
+}
+.marqueeWrapper:hover .marqueeContent, 
+.marqueeWrapper:hover .marqueeContentReverse {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marqueeReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+/* ドット背景パターン */
+.dotPattern {
+  background-color: #fbfaf6;
+  background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* レンガの壁の線画パターン */
+.brickPattern {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='40' viewBox='0 0 80 40'%3E%3Cpath d='M0 0h80M0 20h80M0 40h80M0 0v20M80 0v20M40 20v20' fill='none' stroke='%233a5a40' stroke-opacity='0.08' stroke-width='1'/%3E%3C/svg%3E");
+  background-size: 80px 40px;
+}
+
+/* 深緑・緑・ライムグリーン・ブラウン・オレンジの入れ替わるグラデーション文字 */
+@keyframes fluidGradientMulti {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradientTextMulti {
+  background: linear-gradient(
+    90deg,
+    #1b3a24 0%,   
+    #3a5a40 20%,  
+    #d3e173 40%,  
+    #8c532b 60%,  
+    #e76f51 80%,  
+    #d3e173 90%,  
+    #1b3a24 100%  
+  );
+  background-size: 240% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fluidGradientMulti 7s ease-in-out infinite;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: clamp(1.2rem, 2.75vw, 3.2rem);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* ステップ ネオン点滅アニメーション */
+@keyframes neonPulseStep {
+  0%, 100% {
+    border-color: rgba(255, 255, 255, 0.4);
+    background-color: #fbfaf6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transform: translateY(0) scale(1);
+    color: #1a231c;
+  }
+  15%, 25% {
+    border-color: #d3e173;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(211, 225, 115, 0.8), 
+                0 0 40px rgba(255, 255, 255, 0.6), 
+                inset 0 0 12px rgba(211, 225, 115, 0.3);
+    transform: translateY(-5px) scale(1.02);
+    color: #3a5a40;
+  }
+}
+
+@keyframes neonPulseGoal {
+  0%, 100% {
+    border-color: #3a5a40;
+    background-color: #3a5a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(0) scale(1);
+  }
+  15%, 25% {
+    border-color: #ffffff;
+    background-color: #2b4531;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.9), 
+                0 0 50px rgba(211, 225, 115, 0.6), 
+                inset 0 0 15px rgba(255, 255, 255, 0.5);
+    transform: translateY(-6px) scale(1.03);
+  }
+}
+
+.neonStep { animation: neonPulseStep 4.8s infinite cubic-bezier(0.4, 0, 0.2, 1); }
+.neonGoal { animation: neonPulseGoal 4.8s infinite cubic-bezier(0.4, 0, 0.2, 1); }
+
+.neonDelay1 { animation-delay: 0.0s; }
+.neonDelay2 { animation-delay: 0.8s; }
+.neonDelay3 { animation-delay: 1.6s; }
+.neonDelay4 { animation-delay: 2.4s; }
+.neonDelay5 { animation-delay: 3.2s; }
+.neonDelay6 { animation-delay: 4.0s; }
+
+/* 1cm (38px) フッターバナー用 */
+.marqueeWrapperThin {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+  height: 38px;
+  align-items: center;
+}
+.marqueeContentThin {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-right: 3rem;
+  will-change: transform;
+  animation: marquee 50s linear infinite;
+}
+.marqueeWrapperThin:hover .marqueeContentThin {
+  animation-play-state: paused;
+}
+
+/* メタル風メダル（サーキュラープログレス） */
+.medalRingContainer {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: radial-gradient(ellipse at top left, #ffffff 0%, #e8eedd 40%, #c4d1b8 100%);
+  box-shadow: 
+    -4px -4px 10px rgba(255, 255, 255, 0.8),
+    4px 4px 15px rgba(58, 90, 64, 0.2),
+    inset -2px -2px 6px rgba(58, 90, 64, 0.1),
+    inset 2px 2px 6px rgba(255, 255, 255, 0.9);
+}
+.medalRingContainer:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 
+    -6px -6px 15px rgba(255, 255, 255, 0.9),
+    6px 6px 20px rgba(58, 90, 64, 0.3),
+    inset -2px -2px 6px rgba(58, 90, 64, 0.1),
+    inset 2px 2px 6px rgba(255, 255, 255, 0.9);
+}
+
+.progressCircle {
+  transition: stroke-dashoffset 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+@keyframes popUpText {
+  0% { opacity: 0; transform: scale(0.5); }
+  60% { transform: scale(1.15); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.popText {
+  animation: popUpText 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* スライドショーアニメーション */
+.slideshowContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slideDownImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: slideDownFade 6s infinite;
+}
+@keyframes slideDownFade {
+  0% { opacity: 0; transform: translateY(-5%); }
+  10% { opacity: 1; transform: translateY(0); }
+  33% { opacity: 1; transform: translateY(0); }
+  43% { opacity: 0; transform: translateY(5%); }
+  100% { opacity: 0; transform: translateY(5%); }
+}
+.slide1 { animation-delay: 0s; }
+.slide2 { animation-delay: 2s; }
+.slide3 { animation-delay: 4s; }
+
+.crossFadeImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: crossFade 10s infinite;
+}
+@keyframes crossFade {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  20% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}
+.cf1 { animation-delay: 0s; }
+.cf2 { animation-delay: 2s; }
+.cf3 { animation-delay: 4s; }
+.cf4 { animation-delay: 6s; }
+.cf5 { animation-delay: 8s; }
