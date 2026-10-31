@@ -3,6 +3,10 @@ import articlesData from "@/data/sustainablearticles.json";
 import "../articles.css";
 import ArticleDetailView, { ArticleItem } from "./ArticleDetailView";
 
+// ★ 完全静的化と不正パスでのSSR防止
+export const dynamic = 'force-static';
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const articles = articlesData as unknown as ArticleItem[];
   if (!Array.isArray(articles)) return [];

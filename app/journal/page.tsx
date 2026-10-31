@@ -6,6 +6,9 @@ import { getArticles } from "@/lib/journal/articles";
 import { categoryCards, featuredSets, heroTiles } from "@/lib/journal/home-data";
 import "./style.css";
 
+// ページ遷移時（詳細やカテゴリから戻った時）に再発動させないフラグ
+let hasShownOpening = false;
+
 const img = (name: string) => {
   if (!name) return "";
   const filename = name.split("/").pop() || name;
@@ -109,11 +112,12 @@ function CategorySection({
 }
 
 export default function JournalHome() {
+  // すでに訪問済みの場合は即座に "done"（0%のチラつきを完全に防止）
+  const [phase, setPhase] = useState<"ring" | "logo" | "done">(
+    hasShownOpening ? "done" : "ring"
+  );
   const [progress, setProgress] = useState(0);
   const [isBursting, setIsBursting] = useState(false);
-  const [showLogo, setShowLogo] = useState(false);
-  const [isFading, setIsFading] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
   const [articles, setArticles] = useState<any[]>([]);
 
   useEffect(() => {
@@ -124,65 +128,47 @@ export default function JournalHome() {
       console.error(e);
     }
 
-    // 初回訪問判定（同じタブを開いている間の再訪問ならアニメーションをスキップ）
-    const hasVisited =
-      typeof window !== "undefined" &&
-      sessionStorage.getItem("innbuddy_journal_visited");
-
-    if (hasVisited) {
-      setIsLoaded(true);
+    if (hasShownOpening) {
       return;
     }
 
-    // 初回のみエナジーリングを開始
+    // 0%からスムーズにカウントアップ
+    let current = 0;
     const interval = setInterval(() => {
-      setProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          return 100;
-        }
-        return prev + Math.floor(Math.random() * 5) + 1;
-      });
-    }, 35);
+      current += 2;
+
+      if (current >= 100) {
+        current = 100;
+        setProgress(100);
+        clearInterval(interval);
+
+        // 1. リングが弾ける
+        setIsBursting(true);
+
+        // 2. 「InnBuddy」大文字全画面ロゴを表示
+        setTimeout(() => {
+          setPhase("logo");
+
+          // 3. ロゴを見せた後、メイン画面へ展開
+          setTimeout(() => {
+            setPhase("done");
+            hasShownOpening = true;
+          }, 1200);
+        }, 350);
+      } else {
+        setProgress(current);
+      }
+    }, 20);
 
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    if (progress >= 100) {
-      setIsBursting(true);
-
-      // 1. リングが弾けた直後に「InnBuddy」大文字ロゴを表示
-      const logoTimer = setTimeout(() => {
-        setShowLogo(true);
-      }, 300);
-
-      // 2. ロゴをしっかり見せた後、ローダーをフェードアウト開始
-      const fadeTimer = setTimeout(() => {
-        setIsFading(true);
-      }, 1300);
-
-      // 3. ローダーを完了してヒーロー画面へ接続 ＆ 訪問済みフラグを保存
-      const completeTimer = setTimeout(() => {
-        setIsLoaded(true);
-        if (typeof window !== "undefined") {
-          sessionStorage.setItem("innbuddy_journal_visited", "true");
-        }
-      }, 1700);
-
-      return () => {
-        clearTimeout(logoTimer);
-        clearTimeout(fadeTimer);
-        clearTimeout(completeTimer);
-      };
-    }
-  }, [progress]);
-
   return (
     <>
-      {!isLoaded && (
-        <div className={`loader-container ${isFading ? "fade-out" : ""}`}>
-          {!showLogo ? (
+      {/* オープニング演出 */}
+      {phase !== "done" && (
+        <div className="loader-container">
+          {phase === "ring" && (
             <div className={`ring-wrapper ${isBursting ? "burst" : ""}`}>
               <svg className="ring-svg" viewBox="0 0 150 150">
                 <circle className="ring-circle-bg" cx="75" cy="75" r="65" />
@@ -196,11 +182,11 @@ export default function JournalHome() {
                   }}
                 />
               </svg>
-              <div className="progress-text">
-                {progress >= 100 ? 100 : progress}
-              </div>
+              <div className="progress-text">{progress}</div>
             </div>
-          ) : (
+          )}
+
+          {phase === "logo" && (
             <div className="splash-logo serif">
               InnBuddy
             </div>
@@ -208,7 +194,8 @@ export default function JournalHome() {
         </div>
       )}
 
-      <div id="lpView" style={{ display: isLoaded ? "block" : "none" }}>
+      {/* メイン画面 */}
+      <div id="lpView" style={{ display: phase === "done" ? "block" : "none" }}>
         <header className="container">
           <div className="logo serif">
             InnBuddy <span className="logo-pill">WEB X BRANDING OPERATION</span>

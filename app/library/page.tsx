@@ -11,14 +11,14 @@ const projects = [
  { num: '05', title: 'インバウンドBOX', image: '/images/library/inbound.png', museumImage: '/images/library/museum_05.png', description: '18言語対応の口コミ翻訳や接客指差しシートなど4点セット', status: 'active', aspect: '3/4', width: '35%', href: '/inbound' },
  { num: '06', title: 'SDGs', image: '/images/library/sdgs.png', museumImage: '/images/library/museum_06.png', description: '宿で実践できる世界のサステナブルな取り組み事例', status: 'active', aspect: '1/1', width: '25vw', href: '/sustainable' },
  { num: '07', title: '組織ウェルビーイング', image: '/images/library/wellbeing.png', museumImage: '/images/library/museum_07.png', description: '採用・組織づくり。スタッフが定着する環境づくりのヒント', status: 'coming_soon', aspect: '16/9', width: '36vw' },
- { num: '08', title: '宿とAI', image: '/images/library/ai.png', museumImage: '/images/library/museum_08.png', description: '日常業務で使えるAIサポートの基本', status: 'coming_soon', aspect: '3/4', width: '26vw' },
+ { num: '08', title: '宿とAI', image: '/images/library/ai.png', museumImage: '/images/library/museum_08.png', description: '日常業務で使えるAIサポートの基本', status: 'active', aspect: '3/4', width: '26vw', href: '/ai' },
  { num: '09', title: '宿とAI Pro', image: '/images/library/aipro.png', museumImage: '/images/library/museum_09.png', description: 'プロ向けAI活用術。より高度な運用と業務効率化を実現', status: 'coming_soon', aspect: '4/3', width: '32vw' },
- { num: '10', title: 'STORY', image: '/images/library/story.png', museumImage: '/images/library/museum_10.png', description: '世界の旅行者から届くリアルなインタビューメディア', status: 'active', href: '/story' },
+ { num: '10', title: 'STORY', image: '/images/library/story.png', museumImage: '/images/library/museum_10.png', description: '世界の旅行者から届くリアルなインタビューメディア', status: 'coming_soon' },
  { num: '11', title: 'Analysis', image: '/images/library/analysis.png', museumImage: '/images/library/museum_11.png', description: '専門的な分析データやマーケットレポートなど', status: 'coming_soon' },
  { num: '12', title: 'WAAI COMICS', image: '/images/library/comics.png', museumImage: '/images/library/museum_12.png', description: '短編漫画で宿の課題に気づき考えるケーススタディ', status: 'coming_soon', aspect: '3/4' },
  { num: '13', title: 'FOOD VISUAL', image: '/images/library/food.png', museumImage: '/images/library/museum_13.png', description: '忙しい料理人の考える時間を減らす、素材別料理アイデア', status: 'coming_soon', aspect: '1/1' },
  { num: '14', title: 'INTERIOR', image: '/images/library/interior.png', museumImage: '/images/library/museum_14.png', description: 'NO改装でおしゃれ宿に、サステナブルなインテリアアイデア', status: 'coming_soon', aspect: '16/9' },
- { num: '15', title: 'SHIRANGAKE', image: '/images/library/shirangake.png', museumImage: '/images/library/museum_15.png', description: '英語で知る日本の方言。インバウンド旅行客を地方へ導く', status: 'active', aspect: '16/9', href: '/shirangake' },
+ { num: '15', title: 'SHIRANGAKE', image: '/images/library/shirangake.png', museumImage: '/images/library/museum_15.png', description: '英語で知る日本の方言。インバウンド旅行客を地方へ導く', status: 'coming_soon', aspect: '16/9' },
 ]
 
 const ArrowUpRight = () => (
@@ -54,17 +54,17 @@ export default function Page() {
  const [sakuraParticles, setSakuraParticles] = useState<Particle[]>([])
  const [rainParticles, setRainParticles] = useState<Particle[]>([])
  const [leafParticles, setLeafParticles] = useState<Particle[]>([])
-  // スマホ用 2タップ遷移の状態管理
+ // スマホ用 2タップ遷移の状態管理
  const [mobileHoveredId, setMobileHoveredId] = useState<string | null>(null)
-  // 手動操作された時間を記録（自動再生との干渉を防ぐため）
+ // 手動操作された時間を記録（自動再生との干渉を防ぐため）
  const lastInteractionRef = useRef<number>(Date.now())
-  const mainRef = useRef<HTMLDivElement>(null)
+ const mainRef = useRef<HTMLDivElement>(null)
  const leavesRef = useRef<HTMLDivElement>(null)
  const sakuraRef = useRef<HTMLDivElement>(null)
  const rainRef = useRef<HTMLDivElement>(null)
  const carousel3dRef = useRef<HTMLDivElement>(null)
  const museumContainerRef = useRef<HTMLDivElement>(null)
-  const rotY = useRef(0)
+ const rotY = useRef(0)
  const targetRotY = useRef(0)
  const isDragging = useRef(false)
  const startX = useRef(0)
@@ -587,7 +587,11 @@ export default function Page() {
              <span style={{ fontSize: '9px', letterSpacing: '0.15em', color: '#777', textTransform: 'uppercase', margin: '10px 0 8px 0', display: 'block' }}>INTERVIEW MEDIA</span>
              <h2 style={{ fontSize: 'clamp(28px, 3vw, 42px)', fontWeight: 400, margin: '0 0 10px 0', letterSpacing: '-0.03em' }}>{item10.title}</h2>
              <p style={{ fontSize: '14px', lineHeight: 1.8, color: '#444', marginBottom: '15px', fontWeight: 500 }}>{item10.description}</p>
-             <Link href={item10.href || '#contact'} onClick={(e) => handleTwoClickUX(e, item10.num)} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <ArrowUpRight /></Link>
+             {item10.href ? (
+               <Link href={item10.href} onClick={(e) => handleTwoClickUX(e, item10.num)} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline', letterSpacing: '0.1em' }}>View story <ArrowUpRight /></Link>
+             ) : (
+               <span style={{ fontSize: '11px', fontWeight: 600, color: '#888', letterSpacing: '0.05em' }}>[ Coming Soon ]</span>
+             )}
            </div>
            <div style={{ display: 'grid', gridTemplateRows: '1fr 1fr', gap: '15px' }}>
              <div style={{ position: 'relative', width: '100%', height: '140px', borderRadius: '3px', overflow: 'hidden', boxShadow: '0 10px 20px rgba(0,0,0,0.08)' }}>
@@ -723,7 +727,11 @@ export default function Page() {
                )}
                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                  <span style={{ fontFamily: 'Georgia, serif', fontSize: '28px', color: '#aaa' }}>{item15.num}</span>
-                 <Link href={item15.href || '#contact'} onClick={(e) => handleTwoClickUX(e, item15.num)} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline' }}>View story <ArrowUpRight /></Link>
+                 {item15.href ? (
+                   <Link href={item15.href} onClick={(e) => handleTwoClickUX(e, item15.num)} style={{ fontSize: '11px', fontWeight: 600, color: '#10201a', textDecoration: 'underline' }}>View story <ArrowUpRight /></Link>
+                 ) : (
+                   <span style={{ fontSize: '10px', color: '#888', fontWeight: 600 }}>[ Coming Soon ]</span>
+                 )}
                </div>
                <h3 style={{ fontSize: '20px', fontWeight: 400, margin: '8px 0 6px 0' }}>{item15.title}</h3>
                <p style={{ fontSize: '12px', lineHeight: 1.7, color: '#666' }}>{item15.description}</p>
