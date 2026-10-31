@@ -1069,7 +1069,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-12">
             {/* Journal */}
             <Link
-              href="/library/journal"
+              href="/journal"
               aria-label="Journal：ホテル運営/ブランディングのデジタル専門誌を読む"
               className="group block rounded-[4px] border-2 border-[#E8B93C] bg-[#1c1712] hover:scale-[1.02] transition-transform duration-300 ease-out relative overflow-hidden"
             >
@@ -1092,57 +1092,54 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Story */}
+            {/* Sustainable */}
             <Link
-              href="/library/story"
-              aria-label="Story：世界の旅行者が語る日本体験ストーリーを読む"
+              href="/sustainable"
+              aria-label="Sustainable：ホテル・宿のサステナビリティ実践事例を読む"
               className="group block rounded-[4px] border-2 border-[#E8B93C] bg-[#1c1712] hover:scale-[1.02] transition-transform duration-300 ease-out relative overflow-hidden"
             >
               <div className="overflow-hidden">
                 <img
-                  src="/images/library/story_landscape.png"
-                  alt="歌舞伎役者と武将のイラスト、世界の旅行者が語る日本体験ストーリー"
+                  src="/images/library/sustainable_landscape.png"
+                  alt="ホテル・宿のサステナビリティ実践事例"
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
               <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">
-                  STORY
+                  SUSTAINABLE
                 </span>
               </div>
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
                 <h3 className="text-white text-sm leading-relaxed">
-                  世界から届くジャパントーク
+                  ホテル・宿のサステナビリティ実践事例
                 </h3>
               </div>
             </Link>
 
-            {/* Analysis */}
+            {/* Inbound */}
             <Link
-              href="/library/analysis"
-              aria-label="Analysis：マーケット分析レポートを見る"
+              href="/inbound"
+              aria-label="Inbound：インバウンド戦略マニュアルを見る"
               className="group block rounded-[4px] border-2 border-[#E8B93C] bg-[#1c1712] hover:scale-[1.02] transition-transform duration-300 ease-out relative overflow-hidden"
             >
               <div className="overflow-hidden">
                 <img
-                  src="/images/library/analysis_landscape.png"
-                  alt="森と分析グラフのイラスト、インバウンド市場の分析レポート"
+                  src="/images/library/inbound_landscape.png"
+                  alt="インバウンド戦略マニュアル"
                   className="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105 border-0"
                 />
               </div>
               <div className="absolute inset-0 bg-[#8A9A7B]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <span className="font-serif font-light text-3xl md:text-4xl text-white tracking-[0.15em]">
-                  ANALYSIS
+                  INBOUND
                 </span>
               </div>
               <div className="px-4 pt-3 pb-2 bg-[#1c1712] border-b-2 border-[#8A9A7B]">
                 <h3 className="text-white text-sm leading-relaxed">
-                  マーケット分析レポート
+                  インバウンド戦略マニュアル
                 </h3>
                 <div className="border-b-2 border-[#8A9A7B] my-2 -mx-4" />
-                <p className="text-white text-xs opacity-80">
-                  ※現在ASEAN&ESG関連レポートを更新中
-                </p>
               </div>
             </Link>
           </div>
