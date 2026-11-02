@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"無償宿泊と引き換えの紹介には、2023年10月から「広告である旨の明示」という法的な線が引かれました。明示を恐れない「コンテンツの提携」の進め方と、効果測定の3点を整理しました。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}

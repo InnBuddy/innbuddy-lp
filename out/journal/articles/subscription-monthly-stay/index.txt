@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:"$Sreact.suspense"
+5:I[20229,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
+:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
+0:{"P":null,"c":["","journal","articles","subscription-monthly-stay",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","subscription-monthly-stay","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+f:[]
+9:"$Wf"
+10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+:HL["/library/journal/ai_subscription-monthly-stay.jpg","image"]
+11:T275f,<p>「常連」を「たまに来る人」として待つのではなく、「毎月泊まる人」として設計する——それがサブスクリプション滞在です。月額3万円で毎月2泊、月額5万円で毎月4泊(価格は例です)。宿は「泊まる場所」から「通う場所」になり、都市のリモートワーカー、近隣のクリエイター、地域の醸造所や生産者と関わりたい人に、第二の家を提供します。本記事は、この仕組みの価格設計と上限、飽きさせない作法、始める前のルールを整理します。</p>
+
+<h2>頒布会 — 日本の蔵にあった「月額の商い」</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>事実</strong> — 酒蔵と酒販店の世界には「頒布会」という仕組みが長く続いています。前もって金を納めると、蔵や店が選んだ酒が季節に合わせて届く——自分で選ばず、選びを委ね、季節の楽しみを予約する会員の商いです。今は「日本酒のサブスクリプション」とも呼ばれます(日本名門酒会など各蔵・各店の頒布会案内による)。</div>
+
+<p>なぜ面白いか。定額で「通う・届く・委ねる」を作るこの商いが、サブスクという言葉よりずっと前から日本の蔵にあったことです。頒布会が売っているのは酒だけでなく、「次は何が届くだろう」という楽しみの予約です。宿の月額会員も同じものを売れます。会員が毎月受け取るのは部屋ではなく、その月だけの宿の顔——春の山菜、秋の月、蔵の仕込みの季節。<strong>選ばせない</strong>ことが、実は商品になります。今月の過ごし方は、宿が仕込んでおく。それは頒布会の「おまかせ」の宿版です。</p>
+
+<h2>3つの収益 — 安定・穴埋め・地域</h2>
+
+<p><strong>収益が安定する。</strong>10人が月額3万円なら、毎月30万円が空室率に左右されずに入ります(計算の例)。固定費の大きい宿泊業で、月額の固定収入は天気と季節の波から経営を守る柱になります。</p>
+
+<p><strong>空室の穴埋めになる。</strong>会員の泊数を平日・閑散期に限定すると、売りにくい日を先に埋められます。週末は通常のゲスト、平日は会員——棲み分けが作れた瞬間に、この仕組みは稼働率の道具になります。</p>
+
+<p><strong>地域との関係が深まる。</strong>毎月泊まる人は、回を重ねるうちに地域の人になります。醸造所の常連になり、祭りの日取りを覚える。宿が「地域への入口」になる構造は、体験や協業の設計(<a href="#regional-experience-program">地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計</a>)と同じ方向を向いています。</p>
+
+<h2>価格設計 — 3つの条件</h2>
+
+<p><strong>「月額+泊数」で作る。</strong>月額3万円で2泊、5万円で4泊、8万円で8泊。1泊あたりの単価は通常料金より2〜3割安くします(いずれも計算の例)。安くする理由は値下げではなく「通うための設計」です——毎月またぐための敷居を、単価で下げます。その旨を会員にも言葉で伝えます。「割引ではなく、通う人のための会員価格です」と。</p>
+
+<p><strong>平日か閑散期に限定する。</strong>会員の予約が取れる日を、週末・繁忙期の外に置きます。会員制度は「空いている日を埋める道具」として設計しないと、満室の日に一般客を断す制度に化けます。</p>
+
+<p><strong>地域の特典を付ける。</strong>会員の特典を宿の中(アップグレードやドリンク)ではなく地域に置きます。醸造所のビール1杯、味噌蔵の見学、祭りの案内。特典の原価は地域との連携で抑え、会員は地域の制度に入っていく。特典の設計は、<a href="#local-business-collaboration">近隣事業との連携 — 「予約につながる協業」の基本</a>と共通の作法です。</p>
+
+<h2>会員数の上限 — 空室が決める</h2>
+
+<p>会員を何人まで増やしていいかは、宿の稼働が決めます。計算の例で示します。10室の宿の平日が平均6室の稼働なら、平日の空室は月におよそ80室夜。会員15人が毎月2泊すれば30室夜——空室の4割弱を埋め、満室日はまだ生まれません。会員が40人を超えると、毎月80室夜で空室と同数になり、一般客を締め出す日が出始めます。つまり、上限は「普段の空室の半分まで」を目安に、満室が連続した時点で募集を止める——これが会員数の規律です(いずれも考え方のシミュレーションです)。</p>
+
+<h2>飽きさせない3つの仕組み — 毎月来る理由</h2>
+
+<p><strong>毎月の学びを置く。</strong>今月は醸造所でビールの注ぎ方、来月は味噌蔵、再来月は竹細工。地域のプロを講師に回す仕組みは、若手の学びの設計(<a href="#local-youth-learning-retention">地方の若手が定着する宿の「学び」の設計</a>)と同じ土台を会員版にしたものです。</p>
+
+<p><strong>毎月の変化を作る。</strong>ラウンジの本、朝食の一品、庭の花——宿のどこかを毎月少しずつ変えます。「今月はどうなっているか」を見に行きたくなる宿は、通う宿です。</p>
+
+<p><strong>会員同士のつながりを作る。</strong>月1回の会員の夕食会。顔が知り合うと、宿はコミュニティになり、コミュニティは解約しにくくなります。ただし、参加を強制しない。知り合える「機会」があるだけにします。</p>
+
+<h2>始める前に決めるルール</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>事実</strong> — 2021年12月に施行された特定商取引法の改正で、インターネットで申し込みを受ける定期購入やサブスクリプションでは、提供期間や利用回数、自動更新である旨、解約時の不利益などが広告に表示する義務となりました(消費者庁の解説による)。宿の月額会員を自社サイトで募集する場合も、この表示の考え方が参照になります(執筆時点)。</div>
+
+<p>制度を作る時に、書いておくべきルールが3つあります。<strong>解約の方法と言葉</strong>(いつでもやめられる会員ほど、やめない——解約のしやすさは隠すものでなく売るものです)。<strong>前受金の扱い</strong>(月額は「まだ働いていないお金」です。途中でやめた月の返し方を最初に決めておく)。<strong>予約の優先順位</strong>(連休や紅葉など取りたい日が会員に集中した時の順番を規約の1行にする)。</p>
+
+<h2>反対側 — 会員制度が宿を疲れさせるとき</h2>
+
+<ul>
+<li><strong>会員の「同じ部屋」</strong> — 毎月同じ部屋に通わせていないか。飽きは部屋から来ます。回ごとに部屋替えの提案をすることで、宿は「毎月違う顔」を見せられます。</li>
+<li><strong>一般客との公平</strong> — 会員だけが得をする構図が見えると、通常料金のゲストは不満を持ちます。会員の特典は「空いている日と地域」に置き、一般客の価値を削らない。</li>
+<li><strong>特典の原価</strong> — 地域の特典は、地域の負担で成り立たせません。醸造所に1杯を振る舞ってもらうなら、見返りの設計を含めて協業の条件として話す。</li>
+<li><strong>安さの固定化</strong> — 会員価格が「この宿の適正価格」と認識されると、通常料金が割高に見え始めます。会員価格は「通う約束があるから成り立つ価格」と、どこでも言葉をそろえる。</li>
+<li><strong>受け入れのキャパ</strong> — 朝食の席、駐車場、洗濯機。毎月来る会員の生活は、設備に静かに効きます。会員上限は部屋数だけでなく、朝食の席数でも決まります。</li>
+<li><strong>制度の法務</strong> — 表示義務は上の通り改正で拡充されています。制度を公開する前に、最新の公式情報(消費者庁の案内等)で確認を。</li>
+</ul>
+
+<p>最初の一歩は、すでに年3回以上来てくれるゲストの名前を3つ挙げることです。その3人に「毎月通う会員になりませんか」と直接相談する。会員制度は、広告で募集する前に、既存の常連3人で半年回す——頒布会も、贔屓客の輪から始まった商いです。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。価格・会員数・上限の数字はすべて計算の例・シミュレーションであり、実際の収益は各宿の条件により異なります。頒布会の記述は各蔵・各店の案内に基づきます(執筆時点)。制度の設計・表示は関係法令の最新の公式情報をご確認ください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#long-stay-monthly">長期・月単位利用 — 「1泊を1ヶ月にする」対応</a> — 通うのではなく「暮らす」滞在の話</li>
+<li><a href="#corporate-contract-guest">企業契約客 — 「週単位常連」の設計</a> — 個人でなく法人で通う客の話</li>
+<li><a href="#idea-workation-tourism-stay">ワーケーションツーリズムを宿に取り入れる — 働く・暮らす・休むが混ざる滞在アイデア</a> — 毎月泊まる人の働き方の話</li>
+<li><a href="#guest-data-basics">ゲストデータの基本 — 何を記録し、どう使うか</a> — 会員の好みを覚える記録の話</li>
+</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"children":["ARTICLE ","115"]}]]}],["$","h1",null,{"children":"サブスクリプション滞在 — 「毎月泊まる」常連の作り方"}],["$","p",null,{"className":"excerpt","children":"「泊まる」を「通う」に変える月額滞在。蔵の頒布会に学ぶ会員の商い、価格と会員数の上限の計算、飽きさせない3つの仕組みと、始める前に決めておくべきルール。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_subscription-monthly-stay.jpg","alt":"サブスクリプション滞在 — 「毎月泊まる」常連の作り方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.15"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+:HL["/library/journal/ai_pricing-basics.jpg","image"]
+:HL["/library/journal/ai_revenue-management-basics.jpg","image"]
+:HL["/library/journal/ai_revpar-18x-dynamic-pricing.jpg","image"]
+12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":"部屋単価の決め方 — プライシングの基礎"}]]}]]}],["$","$L10","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}]]}]]}],["$","$L10","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/rainy-day-experience","children":["← ","雨の日の体験 — 雨でも満足度が下がらない宿の設計"]}],["$","$L10",null,{"href":"/journal/articles/foreign-staff-japanese-20-phrases","children":["外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"," →"]}]]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"サブスクリプション滞在 — 「毎月泊まる」常連の作り方 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"「泊まる」を「通う」に変える月額滞在。蔵の頒布会に学ぶ会員の商い、価格と会員数の上限の計算、飽きさせない3つの仕組みと、始める前に決めておくべきルール。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

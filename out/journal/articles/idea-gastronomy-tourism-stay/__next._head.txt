@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"ガストロノミーツーリズムを宿に取り入れる — 地域の食の物語を味わう体験アイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"スペインのサン・セバスティアンは、人口18万人余りの街に星付きレストランが集中し、料理の大学まで作りました。山形・鶴岡は2014年、ユネスコの食文化都市に日本で初めて選ばれたのです。「食べる旅」を滞在全体に広げる設計のヒントを集めました。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}

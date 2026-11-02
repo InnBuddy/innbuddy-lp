@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_rainy-day-experience.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T2933,<p>雨の日になると満足度が下がる宿と、下がらない宿があります。違いは、天気ではありません。雨の日を「晴れの日の失敗版」として運営しているか、「もう1つの主力商品」として設計しているかです。本記事は、後者を作るための、体験・伝え方・価格・運営の全部を整理します。</p>
+
+<h2>雨は例外ではなく、3日に1日</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>事実</strong> — 気象庁は「1ミリ以上の降水があった日」を降水日数と数えます。総務省の統計ダッシュボードがまとめる都道府県の降水日数(気象庁の観測に基づく)は全国平均で年間約119日——およそ3日に1日は、雨(雪を含む)が降る日です(直近の公表値・執筆時点)。東京都でも年間100日を超えます。</div>
+
+<p>この数字の意味は、「雨の日に備える」では済まない大きさです。年間の3分の1を「想定外の日」にしている宿は、経営の3分の1を設計せずに放置していることになります。雨の日を「何もできない日」にするか「この宿でしかできない日」にするか——それは天気の問題ではなく、商品づくりの問題です。</p>
+
+<h2>満足度が下がる3つの理由</h2>
+
+<p>雨の日に満足度が下がる宿には、共通する3つの構造があります。</p>
+
+<ol>
+<li><strong>外の体験しか用意していない</strong> — 森のピクニック、畑の収穫、醸造所見学。晴れ前提の体験だけだと、雨で商品がゼロになります。雨でも成立する体験を1つ足すだけで、商品は途切れません。</li>
+<li><strong>「残念」の一言から始まる</strong> — 「あいにくの雨で…」という第一声は、ゲストに「損をした日」の認識を渡してしまいます。言葉で雨天の満足度は変わります。代わりの一言は後で示します。</li>
+<li><strong>雨の音を消している</strong> — 窓を閉め切って音楽を流すと、雨は「閉じ込められた感」になります。雨の音は、実は最も安価な館内演出です。縁側・軒・雨戸など、雨音を聞く建築の話は<a href="#idea-rainy-day-enjoy">雨の日の楽しみ方を伝える — 雨の音・雨の香り・雨の過ごし方を伝えるアイデア</a>が扱うので、ここでは省きます。</li>
+</ol>
+
+<h2>「濡れる」を前提にしたミュージアム</h2>
+
+<div class="stats"><span class="tag">CASE</span><strong>事例</strong> — 東京・豊洲のチームラボプラネッツは、「水に入るミュージアム」をうたい、膝下まで水に浸かる作品がある体験型ミュージアムです。濡れることは不具合として消されるのではなく、体験の前提として設計されている——館では靴を脱いで裸足で回り、ショートパンツとタオルの無料貸出が用意され、購入時の注意事項で濡れることがあらかじめ伝えられる(同館の案内による)。</div>
+
+<p>なぜ面白いか。このミュージアムは、多くの宿が「雨の日」に悩むのと同じ「濡れる・汚れる・冷える」を、消すのではなく前提に変えたことです。本質はこうです。不便の多くは、その不便が「前提にされていない」ことから生じる。前提にして伝え、道具を貸し、動線を作れば、不便は体験の側に移ります。</p>
+
+<p>宿の雨の日は、この3点セットをそのまま縮小できます。<strong>事前に伝える</strong>(予約完了の連絡に「雨の日の過ごし方」を1行添える)。<strong>道具を貸す</strong>(傘・長靴・タオルを玄関に置く)。<strong>動線を作る</strong>(濡れても大丈夫な席と、滑りにくいマットを先に敷く)。</p>
+
+<h2>雨の日メニュー1枚 — 聞く・囲む・作る</h2>
+
+<p>雨の日限定の過ごし方は、3方向あれば十分です。</p>
+
+<ul>
+<li><strong>聞く</strong> — ラウンジの一角に、雨の庭が見える席を作り、本とコーヒーを置く。「雨音ライブラリー」と名前を付けます。窓を少し開ければ、館内に雨の番組が流れます。</li>
+<li><strong>囲む</strong> — 薪ストーブ・囲炉裏・焚き火。火は雨の日にこそ心地よく、火を囲むと人は自然と話し始めます(この夜の設計は<a href="#idea-fire-circle-night">火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア</a>が扱います)。</li>
+<li><strong>作る</strong> — 味噌づくり、竹細工、ハーブティーの配合。持ち帰れるものができる体験は、雨の日と相性が良い(体験全体の設計は<a href="#regional-experience-program">地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計</a>へ)。</li>
+</ul>
+
+<p>この3つを「雨の日カード」1枚にまとめ、フロントに置きます。雨の日の満足度を支えるのは、設備でなく「提案が1枚にまとまっていること」です。スタッフが雨の日に何を言えばいいか迷わない——それが、雨天時の人手の問題の半分を解きます。</p>
+
+<h2>伝え方と価格 — 雨を「お得な日」にする</h2>
+
+<p><strong>チェックインの一言を変える。</strong>「あいにくの雨で」を禁句にして、「今日は雨の日プランの日です。雨音ライブラリーも、囲炉裏も、今日が本番です」と渡す。同じ雨でも、受け取り方は設計できます。</p>
+
+<p><strong>雨の日限定プランを作る。</strong>「雨音ライブラリー+囲炉裏のコーヒー+作る体験」を、たとえば500円追加で束ねる(価格は例です)。大切なのは値引きではなく「限定」であること。雨の日割引は「雨=損」というメッセージを固定しますが、雨の日限定プランは「雨=この宿の特別な日」という認識を作ります。晴れの日に来たゲストが「雨の日にまた来たい」と言い始めたら、成功です。</p>
+
+<p><strong>雨の日の写真を用意する。</strong>予約サイトに晴れの写真しか並んでいないと、雨の日の宿は「期待を下回る場所」に見えます。雨の庭、雨音ライブラリー、窓の水滴——雨の日の写真3枚は、年間100日のゲストの期待を裏切らないための保険です(写真全体の作り方は<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>が扱います)。</p>
+
+<h2>運営側の雨 — 見えないところの設計</h2>
+
+<p>雨の日は、実は裏方が一番忙しい日です。<strong>濡れた床</strong>は滑倒の最大の原因で、玄関からラウンジまでの清掃の頻度を晴れの日の倍にする前提で人を動かします。<strong>客室の湿気</strong>は、梅雨にカビとして返ってきます。換気と除湿の巡回を雨の日カードと同じ1枚にまとめておく。<strong>リネン</strong>は乾かず、乾燥機の回転数は雨の日の稼働率を裏から支える数字です。雨の日の設計は、ゲストの過ごし方と同じ重さで、この裏側にも必要です。</p>
+
+<h2>反対側 — 雨の日の設計が宿を傷めるとき</h2>
+
+<ul>
+<li><strong>安全の線</strong> — 濡れた床・階段・屋外の導線は、演出の前に安全です。マットと手すりと「濡れています」の1枚を先に。</li>
+<li><strong>清掃の負担</strong> — 雨の日企画は、フロントと清掃の両方に仕事を足します。追加の仕事に見合うか、月に何回雨の日プランを出すかを最初に決めておく。</li>
+<li><strong>カビと湿気</strong> — 演出で「窓を開ける」を増やす分、除湿・換気の見回りをセットにしないと、梅雨の終わりに宿が払います。</li>
+<li><strong>値下げの罠</strong> — 「雨なので安く」を続けると、晴れの料金が割高に見え始めます。割引ではなく限定で作る。</li>
+<li><strong>中止の判断</strong> — 雷・暴風・警報が出ている日に野外体験は出しません。雨の日の設計の最後は、「やめる判断を誰がいつするか」の1行です。</li>
+<li><strong>梅雨は「日」ではなく「月」</strong> — 3日に1日の雨と、1ヶ月続く梅雨では、企画の磨り減り方が違います。梅雨の間、同じ雨の日カードで通すのか、途中で入れ替えるのか。雨の多い季節の宿は、雨天企画に「棚替え」まで設計します。</li>
+</ul>
+
+<p>最初の一歩は、次の雨の日に、自分の宿の玄関から客室まで濡れた足で歩いてみることです。濡れた瞬間にどこに困るか——そこから雨の日の設計図は始まります。雨水を資源にする庭の話は、<a href="#idea-rainwater-garden">雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集</a>が次のページで待っています。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。降水日数は総務省統計ダッシュボード(気象庁の観測に基づく)の直近公表値(執筆時点)。チームラボプラネッツの記述は同館の案内によるもので、運営内容は変わることがあります。価格は例示です。気象警報等の発令時は安全を最優先してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-rainy-day-enjoy">雨の日の楽しみ方を伝える — 雨の音・雨の香り・雨の過ごし方を伝えるアイデア</a> — 雨を伝える案内の設計の話</li>
+<li><a href="#idea-rainwater-garden">雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集</a> — 雨を資源にする庭と設備の話</li>
+<li><a href="#idea-fire-circle-night">火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア</a> — 雨の日の「囲む」の中心の話</li>
+<li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 雨の日を含む写真戦略の話</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","114"]}]]}],["$","h1",null,{"children":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}],["$","p",null,{"className":"excerpt","children":"雨の日は「残念な日」ではなく、3日に1日来る「もう1つの主力商品」。降水日数の事実から、濡れるを前提にする設計、雨の日メニュー1枚、価格と写真、そして運営側の雨まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_rainy-day-experience.jpg","alt":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.14"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/press-release-local-media","children":["← ","地域メディアに取り上げられるプレスリリースの書き方"]}],["$","$L2",null,{"href":"/journal/articles/subscription-monthly-stay","children":["サブスクリプション滞在 — 「毎月泊まる」常連の作り方"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

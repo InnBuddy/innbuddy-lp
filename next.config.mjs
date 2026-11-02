@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  output: "export",
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -13,22 +14,6 @@ const nextConfig = {
       },
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: '/library/story',
-        destination: '/story',
-        permanent: true,
-      },
-      {
-        source: '/library/story/:path*',
-        destination: '/story/:path*',
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
-
-import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());

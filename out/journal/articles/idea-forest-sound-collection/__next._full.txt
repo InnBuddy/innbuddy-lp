@@ -1,0 +1,76 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:"$Sreact.suspense"
+5:I[20229,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
+:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
+0:{"P":null,"c":["","journal","articles","idea-forest-sound-collection",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-forest-sound-collection","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+f:[]
+9:"$Wf"
+10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+:HL["/library/journal/ai_idea-forest-sound-collection.jpg","image"]
+11:T28c1,<p>「静かで良いところですね」と、宿の紹介文に書きたくなったら、少し立ち止まってください。その静けさは、本当に静かなのでしょうか。エアコンの音、冷蔵庫のハム音、廊下のBGM、遠くの幹線道路——静けさとは「音がないこと」ではなく、<strong>聞こえるべきものが聞こえていること</strong>かもしれません。この記事では、森の音を客室で楽しむというテーマを、「聴く」「守る」「収める」の3つの設計に分けて考えます。</p>
+
+<h2>1. WORLD — 静寂を守るために、石を1つ置いた男</h2>
+<p>2005年、エミー賞を受賞したことのあるアメリカの音響生態学者、ゴードン・ヘンプトンが、ワシントン州オリンピック国立公園のホー雨林に小さな赤い石を1つ置きました。「One Square Inch of Silence（一平方インチの静寂）」——米国で最も静かな場所を、その名の通り約6.5平方センチの地点として定め、飛行機の航路変更を求める運動の象徴にしたのです。彼はこの旅を、2010年にジョン・グロスマンとの共著『One Square Inch of Silence』として書きました。</p>
+<div class="stats"><span class="tag">CASE</span><strong>「一平方インチの静寂」</strong> — 音響生態学者ゴードン・ヘンプトンが2005年、オリンピック国立公園ホー雨林に赤い石を置き、静寂の保存地点とした取り組み。ヘンプトンによれば、自然音だけが聞こえる静けさは米国でも希少になっている。彼の活動の面白さは「静けさを守る」という抽象を、たった一つの石という具体的な一点に変えたことだ。</div>
+<p>ヘンプトンの言葉に「静かな場所は、最も情報の多い場所だ」という趣旨のものがあります（CN Traveler誌のインタビュー）。鳥の声、風、雨、水——音の風景が豊かであることは、土地が生きている証拠です。宿の「静かさ」の正体も、実はこれではないでしょうか。無音ではなく、<strong>良い音が聞こえていること</strong>。</p>
+
+<h2>2. 考え方 — サウンドスケープという視点</h2>
+<p>音の風景を「サウンドスケープ」という概念にまとめたのが、カナダの作曲家・研究者R・マレー・シェーファーです。著書『世界の調律』（原書The Tuning of the World、1977年）で、彼は音環境を「ハイファイ」と「ローファイ」に分けました。ハイファイな音環境とは、個々の音が距離感をもってはっきり分離して聞こえる状態——森の中で、鳥の声、風、川がそれぞれの場所をもって聞こえます。ローファイとは、雑音が多くて音同士が混ざり、何が聞こえているか分からない状態です。都市の日常はどうしても後者に寄ります。</p>
+<p>ここから宿への翻訳は明快です。<strong>客室をハイファイな音環境に近づける</strong>。それは防音材を増やすことではなく、(1)邪魔な雑音を減らし、(2)届くべき自然音の通り道を確保することで達成されます。</p>
+
+<h2>3. RESEARCH — 森の音と回復の研究</h2>
+<div class="note"><span class="tag">RESEARCH</span>日本では1982年、当時の林野庁長官・秋山智英が「森林浴」という言葉を提唱しました。2003年には千葉大学の宮崎良文名誉教授（当時）が「科学的なエビデンスを持った森林浴」を意味する「森林セラピー」を提唱し、2018年までの森林セラピー基地構想の実験で、森林環境下でリラックスに関わる身体の変化が示されたと報告しています（政府広報オンラインの宮崎へのインタビューによる）。また、環境心理学には、自然が注意を回復させるという注意回復理論（Kaplan &amp; Kaplan、1989年の著書The Experience of Nature）があり、その中の「ソフトな魅力（soft fascination）」という概念——雲、水、葉音のように、努力しなくても注意をそっと引きつける対象——は、森の音の体験を設計する際の根拠として使えます。</div>
+<p>ただし、ここで線引きをしておきましょう。森林セラピーの研究は「医学的な効能を宿が売る根拠」ではありません。宿が使ってよいのは、設計原則としての側面です——<strong>努力しないで注意を預けられる音を、客室と時間帯の中に用意します</strong>。効能の告知ではなく、体験の設計です。</p>
+
+<h2>4. 実装①聴く — 「音の案内」と、耳のアイテム</h2>
+<p>最初にやるべきは、足すことではなく<strong>案内すること</strong>です。窓を開けられる客室に、1枚のカードを置きます。「早朝5時半、鳥の最初の声」「夕方、カエルと虫の交代」「雨の夜、屋根を打つ音」——その土地・その季節の音の時間割を、3行で構いませんので書きましょう。音は、案内された瞬間に「聞こえる」ようになります。</p>
+<p>アイテムは最小限で構いません。野鳥図鑑を1冊、ロビーに。名前を知ると、鳥の声は一気に近くなります。もう一歩進むなら、聴く動線を作りましょう——夜の散歩を5分だけ案内する「閉園後の音の時間」や、朝の「鳥の声を数える朝食前の10分」。ガイドは専門家でなくても構いません。スタッフが「名前は分からないけれど、毎朝これが聞こえます」と語る方が、よほど宿らしいものです。</p>
+
+<h2>5. 実装②守る — 音を守るのは、減らす仕事</h2>
+<p>森の音を商品にする宿は、同時に「音を壊さない宿」でなければなりません。点検のリストを書き出してみましょう。</p>
+<ul>
+<li>客室の冷蔵庫・エアコンの騒音（古い機種は案外うるさいものです。客室で1分、目を閉じて確認を）</li>
+<li>廊下・ロビーのBGM（特に夜。止める決断ができるか）</li>
+<li>深夜・早朝の掃除機・洗濯機・ドアの開閉音</li>
+<li>駐車場でのエンジン音・ドア音（夜は誘導を離す）</li>
+<li>給湯・ポンプの機械音（客室と機械室の位置関係）</li>
+</ul>
+<p>面白いのは、この点検が<strong>「何もしない」というサービス</strong>を生むことです。接客業は何かを足す仕事だと考えがちですが、音の設計では、減らすこと・止めることに価値が生まれます。「21時以降ロビーのBGMを消します」というルールは、案内カード1枚で「静けさを守る宿」の宣言になります。</p>
+
+<h2>6. 実装③収める — 録音と、雨の日の音</h2>
+<p>最後に、音を「収める」話をしましょう。スマートフォンでも、森の音はそれなりに録れます。宿主が季節ごとに録った音——6月の夕立、1月の雪の静けさ（雪は音を吸うので、録音はほぼ無音になります。これがまた面白いのです）、初夏のホトトギス——を、客室で聴けるようにしましょう。ただし正直に運用していただきたいのは、<strong>録音は本物の代わりにはなりません</strong>ということです。ですから用途は「予告」に限るのが良いでしょう（InnBuddy VIEW）。「これは昨夜、裏の沢で録った音です。今夜は本物が聞こえます」——録音が本物への案内として働くとき、客室のスピーカーは意味を持ちます。</p>
+
+<h2>7. どんな宿に向くか、限界はどこか</h2>
+<p>山地・渓流・海沿いの宿は、音の在庫からして恵まれています。幹線道路や幹線鉄道に近い宿は、まず「聞こえているもの」の棚卸しから始める必要があります——場合によっては、音の主役を「川のせせらぎ」から「雨の夜の屋根」に変えるといった、季節・時間帯の工夫で戦うことになります。都市型では、中庭・屋上の小さな緑に集まる虫の音を待つ、深夜の時間割を作る、といった縮小版もあるのです。</p>
+<p>限界も書いておきます。自然音は天候と季節に左右される商品で、保証ができません。だからこそ「いつ何が聞こえるか」の案内は、断定を避けて「この季節、よく聞こえます」という表現にとどめます。そして防音・遮音の工事は高くつくので、<strong>音の設計はまず「減らす・案内する」から</strong>。設備投資はその後で構いません。</p>
+
+<h2>むすび</h2>
+<p>ヘンプトンは静寂を守るために石を置きました。宿にできるのは、もう少し小さいことです——「今夜、窓の外で何が鳴くか」を知っていること。そして、その音が邪魔されずに客室へ届くようにすること。静けさとは、無音ではなく、良い音が聞こえている状態です。あなたの宿の客室で、今夜、何が聞こえているでしょうか。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-forest-scent-collection">森の香りを集める — 森の香り・葉・枝で作る宿の香りのアイデア</a> — 森の知覚を香りで考える</li>
+<li><a href="#idea-sound-memory-inbound">音で記憶に残る — 鐘・風鈴・川の音で記憶に残るアイデア</a> — 記憶に残る音の設計</li>
+<li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 五感全体の戦略</li>
+<li><a href="#idea-rainwater-garden">雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集</a> — 雨の音の設計</li>
+</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","129"]}]]}],["$","h1",null,{"children":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}],["$","p",null,{"className":"excerpt","children":"アメリカの音響生態学者は、国立公園の森に「一平方インチの静寂」を守る石を置きました。静けさが希少資源になった時代に、宿が森の音を聴く体験、守る設計、録音の活用を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-forest-sound-collection.jpg","alt":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.09"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L10","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L10","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/idea-small-farm-1tsubo","children":["← ","小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"]}],["$","$L10",null,{"href":"/journal/articles/idea-scrap-wood-signboard","children":["廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"," →"]}]]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"アメリカの音響生態学者は、国立公園の森に「一平方インチの静寂」を守る石を置きました。静けさが希少資源になった時代に、宿が森の音を聴く体験、守る設計、録音の活用を考えます。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

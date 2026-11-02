@@ -1,0 +1,52 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-terraced-rice-field.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T1f76,<p>棚田の写真は、里山のパンフレットの定番です。ですが、あの階段状の水田の正体を、観光地の風景としてだけ語るのはもったいないことです。棚田は、米を作る畑であると同時に、国土を守り、水を蓄え、生き物を育てる装置です——そして2019年、その保全のために専用の法律までできました。この記事は、棚田を法律と世界の事例と数字から読み直し、宿の風景として案内する方法を考えます。</p>
+
+<h2>1. 法律——棚田のために、法律ができました</h2>
+<p>2019年6月、「棚田地域振興法」が議員立法で成立し、同年8月に施行されました。前文はこう書き出しています——人口の減少、高齢化の進展等により、<strong>棚田が荒廃の危機に直面している</strong>。法律は、棚田地域の振興を「農産物の供給、国土の保全、水源の涵養、生物の多様性の確保、良好な景観の形成、伝統文化の継承等多面的機能の維持」を旨として行うと定め、国と都道府県の基本方針・計画と、多様な主体が参加する地域協議会の仕組みを作りました（内閣府・衆議院の資料による）。</p>
+<div class="stats"><span class="tag">FACT</span><strong>「米の畑」から「国土の装置」へ</strong> — 棚田地域振興法が列挙する棚田の多面的機能：農産物の供給／国土の保全／水源の涵養／生物多様性の確保／良好な景観の形成／伝統文化の継承。傾斜地に水を張り続けること自体が、土の流出を止め、雨を溜め、里の生き物の棲みかを作っている。棚田の風景が美しいのは、米だけではなく、この装置全体が働いているからである。</div>
+
+<h2>2. 世界——棚田を放っておけば、世界遺産でも荒れます</h2>
+<p>フィリピン・ルソン島北部の「コルディリェーラの棚田群」は、2000年前から受け継がれたとされる棚田で、1995年に世界遺産に登録されました。ですが2001年、浸食と後継者不足による耕作放棄、水利システムの停止などにより、<strong>世界遺産でありながら「危機遺産」リストに載りました</strong>。環境対策と内外の支援で2012年にリストからは外れましたが、この経過が教える事実は単純です——棚田は、耕され続けなければ、世界遺産でも荒れます。</p>
+<p>インドネシア・バリ島の棚田は、別の答えを持っています。2012年に世界遺産になった「スバック・システム」の正体は、水田そのものではなく、<strong>水を分け合う水利組合</strong>です。田植えの時期、水の分配、罰則まで、構成員の寄り合いで合意して決めます。バリの棚田の美しい景観の実体は、<strong>「水をめぐる話し合い」が2000年間続いた結果</strong>なのです（恵泉女学園大学の世界遺産解説等による）。</p>
+<p>この2つの事例を並べると、日本の棚田の案内の方向が見えてきます。棚田の物語とは、田んぼの物語ではなく、<strong>田んぼを続けてきた人と水の取り決めの物語</strong>です。棚田の見える宿は、水路と畦を見る目も案内しましょう。どこから水が来て、誰がいつ水を入れるのか——その一問が、棚田の風景に「仕組み」を重ねます。</p>
+
+<h2>3. 数字——一枚の田んぼは、三千食です</h2>
+<div class="stats"><span class="tag">SIMULATION</span><strong>1反（10アール）の田んぼで、ごはん何杯分か</strong> — 農林水産省の水稲の10a当たり平年収量は玄米で約535kg（令和3年産・ふるい目1.70mm基準）。玄米から白米におよそ9割が取れるとし、1食あたりのごはん150g（白米）として計算すると——約477kg÷150g＝およそ3,000食超。運動場1面の4分の1ほどの田んぼ一枚（1反）に、1日3食の人間の3年分のごはんが入っている。※収量は地域・年で変動する。単位を食数に置き換える試算である。</div>
+<p>この数字を一枚のカードにして棚田の見える場所に置くと、風景の見え方が変わるのです。「きれいな田んぼ」が「三千食の田んぼ」になります。数字の説明は、棚田の多面的機能の話（水を溜め、土を止める）にそのまま続きます。</p>
+
+<h2>4. 四季の時間割——一枚の田んぼの年間カレンダー</h2>
+<ul>
+<li><strong>春・水張り</strong> — 水が張られた田んぼは空を映す鏡になります。棚田写真のベストシーズン。代掻きの泥の匂い。</li>
+<li><strong>初夏・田植え</strong> — 緑の苗が整列します。田植え体験は、泥の感触と直線の美学が同時に味わえる数少ない農作業です。</li>
+<li><strong>夏・青</strong> — 稲が伸び、カエルと虫の音が田んぼを満たします。夜のビオトープ。</li>
+<li><strong>秋・稲刈り</strong> — 黄金色。刈った稲のはざ掛け、しめ縄作り（原テーマの実践そのものです）。</li>
+<li><strong>冬・雪</strong> — 雪の季節の棚田は、白い階段になります。農閑期の畦塗り・石積みの手入れの季節でもあります。</li>
+</ul>
+
+<h2>5. 実践と作法——畦は、境界です</h2>
+<p>体験は、棚田オーナー制度のような既存の仕組みにのるのが早道です（多くの棚田地域が受け入れ枠を持っています）。宿単独で企画するなら、田植え・稲刈り・しめ縄作りから始めましょう。子どもの泥遊びの要素は、田植えにはじめから備わっています。</p>
+<p>作法の中心は、畦です。畦は田んぼの境界であり、水を留める堤でもあります。<strong>畦を踏むと崩れます</strong>——散歩のルート案内では「畦の上を歩かない」を最初に書きましょう。農業用水は飲みません。農薬の散布時期は立ち入りを控えましょう。写真撮影で稲を踏み倒さないようにしましょう。棚田の名所では、農家と観光客の距離が、名所であり続ける条件です。</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>棚田の見える宿の案内に加えたいのは、風景の隣に<strong>「続いている」という事実</strong>です。コルディリェーラもバリも、棚田の価値は景色ではなく、耕し続けてきた時間にありました。この田んぼは、何年続いているのでしょうか。誰が耕しているのでしょうか。その2行を書けば、棚田の風景に歴史の層が一枚増えます。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 水辺での活動には、安全対策と服装・道具の準備を含めて設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-spring-water-taste">里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア</a> — 棚田の水の行き先</li>
+<li><a href="#idea-village-walk-path">集落の散歩道 — 集落の小径・水路・祠を巡る散歩マップのアイデア</a> — 田んぼの周りの道</li>
+<li><a href="#idea-farm-one-day">畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア</a> — 畑の1日の設計</li>
+<li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 畑の最小単位</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","152"]}]]}],["$","h1",null,{"children":"棚田のある風景 — 棚田・畦道・田んぼの四季を楽しむアイデア"}],["$","p",null,{"className":"excerpt","children":"棚田は米の畑ではなく、国土を守る装置です——2019年、棚田のために法律ができました。2000年前から続くフィリピンの棚田が危機遺産になった話、水を分け合う会議が景観の正体であるバリの話、そして一枚の田んぼが三千食であるという計算。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-terraced-rice-field.jpg","alt":"棚田のある風景 — 棚田・畦道・田んぼの四季を楽しむアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.01.01"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-port-town-stay","children":["← ","港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-tea-field-stay","children":["茶畑のある宿 — 茶摘み・茶揉み・茶の香りを体験にするアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

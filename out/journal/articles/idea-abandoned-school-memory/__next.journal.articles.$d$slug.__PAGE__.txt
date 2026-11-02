@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-abandoned-school-memory.jpg","image"]
+:HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
+:HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
+:HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
+3:T1cff,<p>廃校という言葉には、どこか終わりの響きがあります。ですが数字で見ると、この終わりは別の始まりに変わっています。文部科学省の調査では、少子化により全国で<strong>毎年約450校</strong>の公立学校が廃校となり、2002年度から2020年度の累計は8,580校。そして現存する廃校施設のうち<strong>約8割はすでに何らかの形で活用されています</strong>（2021年5月時点、みんなの廃校プロジェクト資料）。廃校は、日本でいちばん大量に、そして着実に再生が進んでいる建物なのです。この記事は、その再生の中で宿泊施設になった先例から、廃校の記憶——机・黒板・廊下——を消さずに使う作法を考えます。</p>
+
+<h2>1. 先例——廃校の宿は、もう半世紀の歴史があります</h2>
+<p>廃校を宿にする営みは、新しい流行ではありません。静岡県西伊豆町では、廃校となった大沢里小学校を改装した町営の宿泊施設「やまびこ荘」が、1976年から営業を続けてきました。半世紀近く前から、学校を宿に転用する実験は動いていたのです。</p>
+<p>もうひとつ、翻訳の参考になる例が群馬県みなかみ町の「さる小」です。2008年に廃校となった猿ヶ京小学校を改装した宿で、ピアノのある音楽室や昭和の本が並ぶ図書室がそのまま残され、給食を思わせる食事のプランや、校庭でのバーベキューが楽しめるといいます。<strong>学校の空間の文法——教室、音楽室、図書室、校庭、給食——を、宿の部屋数と施設で上書きせず、そのまま使います</strong>。これが、廃校の宿の一番の資産です。</p>
+<div class="stats"><span class="tag">CASE</span><strong>廃校活用の宿の共通項は「消さない」こと</strong> — 机の落書きを削らず、黒板を黒板のまま使い、廊下を廊下のまま残す。学校の記憶をリセットして新築の宿を作るなら、わざわざ校舎を使う理由は半分以下になる。残っているからこそ、宿は「かつて学校だった場所」でいられる。</div>
+
+<h2>2. 机と黒板——記憶を、使い続ける</h2>
+<p>廃校の備品は、なにより「使われ続けること」で保存されます。</p>
+<ul>
+<li><strong>机</strong> — 落書きのある机をラウンジに並べます。削って塗り直した瞬間、机は「新品の古い机」になり、物語を失うのです。落書きは個人の名前が書かれていることも多く、そのまま展示するときは「卒業生の落書きをそのまま残しています」とカードで明かします——書いた本人や同級生が、大人になって宿を訪れる日があります。</li>
+<li><strong>黒板</strong> — 黒板のいちばんの活用法は、教室的な使い方です。図書室のおすすめ本、星の名前、朝のメニュー——<strong>黒板に書くこと自体が、学校の記憶の続き</strong>になります。原テーマにあった「果物畑の看板を黒板にする」発想も、この文法の屋外版です。</li>
+<li><strong>廊下</strong> — 学校の廊下は、幅と長さと響きが記憶を呼ぶ装置です。廊下に昔の卒業写真を並べ、ベンチを置きます。靴音の響きは、消さないほうがいいでしょう。</li>
+</ul>
+
+<h2>3. 旧校舎を宿にするときの、現実の線</h2>
+<p>学校建築は「教育」に特化して作られた建物です。宿に転用するときの壁は、建物の構造と法規の側にあります。用途変更にともなう建築基準法上の手続き、旅館業法上の構造基準（客室の避難・換気・防音）、旧式の設備の更新——これらは、廃校の宿の物語の裏側にある現実です。また、過去の学校建築には、現代の基準で使えない建材（吹き付けアスベストなど）が残っている可能性があり、改修の前には専門家による調査が不可欠になるのです。体育館のような大空間は、宿としては運用しにくい面積になります。このあたりの実務は、廃校活用の実例を多く抱える自治体や、転用経験のある設計事務所の知見にあたるのが早道です。</p>
+
+<h2>4. 廃校の机を、1つだけ買う</h2>
+<p>ここまでの話は「校舎ごと」の再生ですが、原テーマにはもうひとつ、小さな入口がありました——<strong>廃校の机を1つ置く</strong>ことです。多くの自治体や施設で、廃校備品の譲渡や処分が行われています。ラウンジに廃校の机を1脚置き、「この机は、〇〇小学校で30年使われていました」というカードを添えましょう。学校の記憶は、校舎ごと借りなくても、机1脚の来歴として宿に入ることができます。このやり方なら、廃校のない地域の宿でも、近隣の学校の入れ替わりで出た机を迎えられるのです。</p>
+
+<h2>5. 集落の記憶装置として</h2>
+<p>学校が集落から消える意味は、建物のことだけではありません。学校は、子どもの声と行事で、集落の時間を刻む装置でした。朝の通学、運動会、卒業式——学校があった集落には、全員が参加する年間の予定表がありました。だから廃校の建物を残して使うことは、<strong>集落の記憶を保管する場所を残すこと</strong>でもあります。廃校の宿に集まる同窓会の多さは、偶然ではありません。卒業生にとってその建物は、自分の子ども時代が保管されている場所だからです。</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>廃校の再生で価値を作っているのは、新しい設備ではなく、<strong>「そこにあった時間」への敬意</strong>です。机の落書きを消すか残すか、黒板を使うか飾るか、廊下の響きを守るか——どの判断も、費用の問題ではなく態度の問題なのです。廃校は、大事にされるべきはモノではなく時間だったと教えてくれる教材です。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 建物や古材・道具を扱う場合は、構造と作業の安全を専門家と確認してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-empty-house-story">空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア</a> — 集落の記憶を残すもうひとつの場所</li>
+<li><a href="#idea-craftsman-handwork">職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア</a> — 校舎に残る手仕事を読む方法</li>
+<li><a href="#idea-village-walk-path">集落の散歩道 — 集落の小径・水路・祠を巡る散歩マップのアイデア</a> — 学校の周りの道を歩く設計</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","144"]}]]}],["$","h1",null,{"children":"廃校の記憶を活かす — 廃校の机・黒板・廊下を活かした空間アイデア"}],["$","p",null,{"className":"excerpt","children":"日本では毎年約450校の学校が役目を終え、その約8割が何らかの形で使われ続けています。1976年から廃校を宿にしてきた西伊豆の先例から、机・黒板・廊下を「消さずに使う」再生の作法と、旧校舎ならではの法規の現実まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-abandoned-school-memory.jpg","alt":"廃校の記憶を活かす — 廃校の机・黒板・廊下を活かした空間アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.24"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-craftsman-handwork","children":["← ","職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-empty-house-story","children":["空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

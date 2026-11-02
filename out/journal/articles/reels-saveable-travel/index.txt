@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:"$Sreact.suspense"
+5:I[20229,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
+:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
+0:{"P":null,"c":["","journal","articles","reels-saveable-travel",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","reels-saveable-travel","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+f:[]
+9:"$Wf"
+10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+:HL["/library/journal/ai_reels-saveable-travel.jpg","image"]
+11:T208f,<p>リールを上げても保存されない。理由の多くは、「綺麗な宿」を売っていることです。綺麗な映像は見られますが、旅の計画には入らない。保存されるのは綺麗でなく「旅に使える情報」——「雨の日に宿でできる3つのこと」「醸造所で買えるお土産」。本記事は、旅マエのゲストが保存したくなる3つの要素と、リール1本の作り方、保存から予約への導線を整理します。</p>
+
+<h2>旅マエの需要は、300年前に証明されている</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>事実</strong> — 『江戸名所図会』は、江戸の名所を紹介する絵入りの地誌。1834年と1836年(天保5年・7年)の2回に分けて全7巻20冊が刊行され、1,043か所の名所の沿革・由来を、絵師・長谷川雪旦の挿絵754点が添えて伝える。斎藤家の三代(長秋・県麻呂・月岑)が半世紀かけて実地調査を基に編纂した。多くは江戸の土産や行楽の手引きとして買い求められ、江戸から遠い土地の人々も買い求めたといいます(墨田区の企画展解説等による)。</div>
+
+<p>なぜ面白いか。これは江戸のガイドブックで、「旅マエに買って、旅の間持ち歩く本」として売れたのです。図会が載せたのは、名所の由来(物語)と、鳥瞰図の挿絵(行くとどう見えるか)と、その位置(旅の中に置けるか)。つまり300年前の旅人は、保存した冊子で旅を計画していた。今のゲストがスマホの保存フォルダで旅を計画するのと、行動は同じです。変わったのは、江戸の旅人が銀を払って冊子を買っていたところが、あなたの宿が無料で同じ役割を出せるところまでです。</p>
+
+<h2>保存される3つの要素 — やり方・リスト・地図</h2>
+
+<p>リールの中身は、次の3つのどれかである時に保存されます。</p>
+
+<ul>
+<li><strong>「やり方」が分かる</strong> — 綺麗な朝食の映像でなく「朝食の食べ方」「地ビールの注ぎ方」「薪ストーブのコーヒーの淹れ方」。やり方が分かると、自分もやってみたくなり、その方法は保存されます。</li>
+<li><strong>「リスト」になる</strong> — 「雨の日に宿でできる3つのこと」「醸造所で買えるお土産3つ」。数が告げられたリストは、旅の計画にそのまま組み込めるので保存されます。</li>
+<li><strong>「地図」になる</strong> — 「宿から醸造所までの行き方」「夕日の見える時間と場所」。旅の当日に使えるものは、旅が始まるまで取っておかれます。</li>
+</ul>
+
+<p>図会に重ねると分かりやすくなります。由来は「物語」、挿絵は「行ける場所の見え方」、位置は「自分の旅への接続」。リールの3要素はこの3つの現代語です。「綺麗な映像」だけのリールが保存されないのは、図会でいえば挿絵しかない本——眺めて終わるからです。</p>
+
+<h2>リール1本の設計 — 表紙・絵・奥付</h2>
+
+<p><strong>最初の3秒は「表紙」。</strong>冊子が手に取られるのは表紙で決まるのと同じく、リールが保存されるかは最初の3秒で決まります。「雨の日に宿でできる3つのこと」——保存する価値があることを、文字で大きく最初に告げます。</p>
+
+<p><strong>3〜20秒は「絵」。</strong>リストのそれぞれを、テロップ(大きく、ゆっくり)と現場の音で並べます。テンポの良いカットの連続は、図会の絵をめくる速度です。この時、売り文句を足しません。事実を並べるだけ。旅マエのゲストが欲しいのは宣伝でなく使える情報です。</p>
+
+<p><strong>20〜30秒は「奥付」。</strong>最後に「保存して、旅の計画に使ってください」の一言と、次の行動(プロフィールのリンク)を1つだけ置きます。保存を言葉で頼むことは、率を上げる最も単純な方法のひとつです。</p>
+
+<h2>保存から予約への導線</h2>
+
+<p><strong>ハイライトに「自宅に並べる図会」を作る。</strong>保存されたリールは、プロフィールのハイライトに「雨の日」「地ビール」「朝食」とテーマ別に並べます。保存したゲストが旅の計画を始める日に、あなたの宿の図会が棚に並んでいる状態を作ります。アカウント全体の設計(9マスの店頭化や、保存が表示の仕組みにどう効くか)は、<a href="#instagram-saveable-account">Instagramで「保存される」宿のアカウント設計</a>が扱います。</p>
+
+<p><strong>保存のお礼は、短く。</strong>保存に気づいたら「保存ありがとうございます。旅の計画の参考になれば嬉しいです」の一言。営業を足しません。保存は「興味」であって「予約の1歩前」ではないので、押すと消えます。</p>
+
+<p><strong>保存を集計する。</strong>どのリールが保存されたかを月1回記録する。保存されたテーマ=旅マエのゲストが求めている情報の、直接の声です。保存されていないテーマは、売りたいものではなく使えるものではなかったということ。</p>
+
+<h2>反対側 — 保存狙いが宿を疲れさせるとき</h2>
+
+<ul>
+<li><strong>綺麗の罠</strong> — 空撮の完璧な映像は心には残っても、旅の計画には入らない。綺麗はリールの結果であって、保存の理由にはなりません。</li>
+<li><strong>保存の強請いすぎ</strong> — 毎投稿「保存してください」を連呼すると、保存を頼むアカウントになります。頼むのは、リストと地図のリールだけに。</li>
+<li><strong>全部をリールにしない</strong> — やり方・リスト・地図のどれでもないもの(スタッフの日常、ただの景色)は、保存でなく「いいね」の世界の投稿です。混ぜると、何を保存していい宿か分からなくなります。</li>
+<li><strong>長すぎる</strong> — 30秒を超えると、リールは「視聴」のコンテンツになります。保存される長さには上限があります。</li>
+<li><strong>言葉の正確さ</strong> — 「3つのこと」と告げたら3つ載せる。「お土産3つ」に2つしかなければ、保存した人は旅の当日に裏切られます。図会が実地調査で作られたのと同じく、数は正確に。</li>
+<li><strong>継続のペース</strong> — 週1本を3ヶ月続けた13本の中から、保存される2〜3本が見つかれば十分です(イメージ例)。最初の1本で当てようとすると、内容が宣伝に寄ります。</li>
+</ul>
+
+<p>最初の一歩は、一番簡単な「リスト」の1本です。「雨の日に宿でできる3つのこと」——テロップ3枚、現場の音、最後に保存の一言。江戸名所図会は1,043か所を載せましたが、あなたの最初の1冊は3行でいい。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。江戸名所図会の記述は墨田区の企画展解説等の公開資料に基づきます(執筆時点)。フォロワー数・保存率の数字はイメージ例です。投稿に写る人物には承諾を、音源には利用規約の確認をお願いします。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#instagram-saveable-account">Instagramで「保存される」宿のアカウント設計</a> — 保存されるアカウント全体の設計の話</li>
+<li><a href="#tiktok-15sec-want-to-visit">TikTokで「行ってみたい」を作る — 15秒動画の3原則</a> — 保存でなく「検索に現れる」動画の話</li>
+<li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — 動画を始める最初の3本の話</li>
+<li><a href="#sns-want-to-visit">SNSで「行ってみたい」を作る</a> — 発信の全体設計の話</li>
+</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"SNS運用"}],["$","span",null,{"children":["ARTICLE ","118"]}]]}],["$","h1",null,{"children":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}],["$","p",null,{"className":"excerpt","children":"リールは「綺麗」ではなく「保存」で勝負する。旅の計画に使える3つの要素(やり方・リスト・地図)と、江戸のガイドブックが飛ぶように売れた理由に学ぶ、保存される30秒の設計。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_reels-saveable-travel.jpg","alt":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.18"}],["$","span",null,{"children":"SNS Marketing"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+:HL["/library/journal/ai_instagram-saveable-account.jpg","image"]
+:HL["/library/journal/ai_sns-want-to-visit-new.jpg","image"]
+:HL["/library/journal/ai_tiktok-15sec-want-to-visit.jpg","image"]
+12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","instagram-saveable-account",{"href":"/journal/articles/instagram-saveable-account","children":[["$","img",null,{"src":"/library/journal/ai_instagram-saveable-account.jpg","alt":"Instagramで「保存される」宿のアカウント設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.04"}],["$","h4",null,{"children":"Instagramで「保存される」宿のアカウント設計"}]]}]]}],["$","$L10","sns-want-to-visit",{"href":"/journal/articles/sns-want-to-visit","children":[["$","img",null,{"src":"/library/journal/ai_sns-want-to-visit-new.jpg","alt":"SNSで「行ってみたい」を作る"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.30"}],["$","h4",null,{"children":"SNSで「行ってみたい」を作る"}]]}]]}],["$","$L10","tiktok-15sec-want-to-visit",{"href":"/journal/articles/tiktok-15sec-want-to-visit","children":[["$","img",null,{"src":"/library/journal/ai_tiktok-15sec-want-to-visit.jpg","alt":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.12"}],["$","h4",null,{"children":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/vegan-menu-one-dish","children":["← ","ヴィーガン対応の基本 — 1品から始めるメニュー設計"]}],["$","$L10",null,{"href":"/journal/articles/influencer-collaboration-3-conditions","children":["インフルエンサーとの協業 — 宿泊提供の前に決める3つの条件"," →"]}]]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"保存されるリール動画 — 旅マエに選ばれる宿の作り方 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"リールは「綺麗」ではなく「保存」で勝負する。旅の計画に使える3つの要素(やり方・リスト・地図)と、江戸のガイドブックが飛ぶように売れた理由に学ぶ、保存される30秒の設計。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

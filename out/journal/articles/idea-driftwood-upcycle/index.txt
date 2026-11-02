@@ -1,0 +1,84 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:"$Sreact.suspense"
+5:I[20229,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
+:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
+0:{"P":null,"c":["","journal","articles","idea-driftwood-upcycle",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-driftwood-upcycle","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+f:[]
+9:"$Wf"
+10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+:HL["/library/journal/ai_idea-driftwood-upcycle.jpg","image"]
+11:T2e6d,<p>ホテルの客室には、新品の家具が並んでいます。それは正しいことです。ただ、新品にはひとつ欠点があります——<strong>履歴がありません</strong>。どこで作られ、誰が使い、何年を過ごしたのでしょうか。履歴のない美しさは、別のホテルの客室と交換しても気づかれません。</p>
+<p>流木と廃材の魅力は、サステナビリティという綺麗事の前に、ここにあるのです。履歴のある素材は、履歴のない素材にできないことを客室で果たします。この記事では、なぜそれが成立するのかをデザインと心理学の両面から確認してから、宿での実装方法——探し方、作り方、置き方、語り方——まで落とし込みます。</p>
+
+<h2>1. CASE — 「残り物の残り物」から作った家具が、高く売られます</h2>
+<p>オランダ・アイントホーフェンのデザイナー、ピート・ハイン・エーク。彼はデザインアカデミー・アイントホーフェンの卒業制作でスクラップ材の家具を発表しました。製品がみな完璧に仕上げられていた時代に、粗い質感の廃材を持ち込んだのは「まったく新しいことだった」と、本人は後のインタビューで語っています（デザインメディアDezeenの取材による）。</p>
+<p>その後彼は「Waste Waste 40×40」というシリーズを作ります。自社工場から出た端材——40ミリ角の角材——だけで組み上げた家具です。彼はこれを「残り物の、残り物から作った」と表現しました。廃材家具を作って、その廃材からさらに廃材が出ます。その二次的な廃材まで素材にする、という徹底ぶりです。</p>
+<p>そして皮肉な帰結が訪れます。これらの廃材の家具は、新品の量産品よりも高く売られるようになりました。デザイン専門メディアは「誰もが手が届く価格ではない」とその値段を評しています（Core77）。なぜ、捨てられるはずの物が、新しい物より高くなるのでしょうか。答えの半分は職人技とデザインにあります。ただ、残りの半分は、私たちの心の仕組みにあります。</p>
+
+<h2>2. RESEARCH — 人は「本物」と「触れた物」に価値を置きます</h2>
+<div class="note"><span class="tag">RESEARCH</span>心理学者ジョージ・ニューマンとポール・ブルームの実験（2012年、Journal of Experimental Psychology: General）では、完全な複製と「オリジナル」を並べて評価させると、人はオリジナルに高い価値を置くことが示されました。注目すべきは、作品の作家が無名でも傾向が変わらなかった点です。価値は「有名だから」ではなく、「本物だから」生まれます。さらにニューマンらの別の研究（2011年、Journal of Consumer Research）は、有名人が触れた物は、その接触の度合いが多いほど高く評価される「接触感染」の心理を報告しています。発達心理でも、3〜6歳の子どもの多くが、愛着のあるブランケットを「コピー機で複製した物」と交換することを嫌がりました（フッドとブルームの実験）。人は物に「歴史・接触・出自」を読み取り、それを価値として扱います。</div>
+<p>この研究の列を見て、気づくことがあるのです。流木には海の数年が、古材には、ある家の数十年が触れています。人が履歴ある物に価値を置くのは心理学のレベルで確かめられています——だとすれば、廃材の価値の一部は<strong>「物語の伝染」</strong>で説明がつくでしょう（ANALYSIS）。ここから実装の核心が導かれます。<strong>流木を磨く前に、履歴を訳す</strong>。磨き上げた形を置くだけでなく、その素材がどこから来たのかを、客室で一言にでも残しておくことです。</p>
+
+<h2>3. JAPAN — 傷を直して、傷を主役にする文化</h2>
+<p>同じ発想を、日本は数百年前から茶の湯の周辺で持っていました。金継ぎです。割れた器を漆で継ぎ、その継ぎ目を金で描くのです。傷を隠す修理ではなく、修理の履歴を器の顔にします。欧州の廃材デザインと、驚くほど似た発想です。さらに日本では、解体された蔵や家の古材が、昔から再利用の市場として取引されてきました。「物には、次の役割がある」という感覚は、日本の暮らしの中に長く続いてきた土壌なのです。</p>
+<p>では、この感覚を現代の宿でどう使いましょうか。実装の順番は「探す→作る→置く→語る」の4段階に分けられます。</p>
+
+<h2>4. 実装①探す——素材の調達と、知っておくべき手続き</h2>
+<p><strong>海辺の宿なら漂着流木</strong>。ただし、海岸の流木の持ち去りは、海岸法や公有水面の管理、自治体・漁協のルールに関わります。自然公園の区域では自然物の持ち出しが制限されることもあります。<strong>勝手に拾うのではなく、ビーチクリーンアップとして自治体や団体の活動に参加し、そこで出た漂着物を確認の上で譲り受ける</strong>——これが安全な手順です。流木を「拾う」行為自体を、宿と海の関係づくりの行事にしてしまうのが良いでしょう。</p>
+<p><strong>山や里の宿なら</strong>、自林の間伐材、解体業者から購入する古材、壊れた家具の部材。宿の中を棚卸ししてみると、意外なほど素材は眠っています。建具の建て替えで出た古材、蔵出しの酒箱——酒箱は加工なしで立派なトレーになります。</p>
+
+<h2>5. 実装②作る——「切りすぎない」のが作り方のこつ</h2>
+<p>流木は、すでに形を持っています。ですから作り方の原則は「切りすぎない、削りすぎない」です。作るというより、磨いて、座りを確かめて、仕上げます。</p>
+<ul>
+<li><strong>乾燥</strong> — 流木は塩分と水分を含みます。よく水洗いして数週間陰干ししましょう。虫卵の対策に、小物は煮沸やオーブンでの加熱処理を行う作り手もいます。</li>
+<li><strong>仕上げ</strong> — 紙やすりでささくれを取り、オイルで磨きましょう。食品に直接触れる用途（器、箸置き）にする場合は、安全性の確認できた仕上げ材に限ります。</li>
+<li><strong>安全処理</strong> — 角の面取り、重い物の壁面固定、可燃物としての防火配慮。照明と組み合わせるときは熱を持たないLEDに限ります。</li>
+</ul>
+<p>半日の工作で作れる最初の一品は、フロントのペントレイです。流木1本にくぼみを掘るか、削った面を作るか。それだけで「うちのフロントのペン置きには、海の記憶がある」ことになります。</p>
+
+<h2>6. 実装③置く・④語る——客室での使いどころ</h2>
+<p><strong>置きどころ</strong>の候補を列挙しましょう。フロントのペントレイと鍵の台。客室のメガネ置き。本棚のブックエンド。花器としての台。ウェルカムフルーツの皿の「台」。壁面の小さな飾り棚。ランプのベース（LEDと組み合わせる）。トレイ、サイン、フック。</p>
+<p><strong>語り方</strong>は、1行のカードで構いません。「この台は、○○浜のビーチクリーンで見つかった流木です」。冒頭の心理学研究を思い出してください——履歴の説明は、物の感じられる価値を高め得ます。ただし、ここに罠もあります。分からないことは、分からないまま書きましょう。「波に何年揉まれたかは分かりませんが、○○海岸で見つけました」で十分です。履歴を盛ると、それは別の物語——作り話になってしまいます。廃材の価値は本物性にあるのですから、盛ることが自分の首を絞めるのです。</p>
+
+<h2>7. 運営と安全——正直な注意</h2>
+<ul>
+<li><strong>清掃</strong> — 流木の凹凸には埃が溜まります。定期的なブラシかけ、取り外して丸洗いできる形での設計を。</li>
+<li><strong>衛生</strong> — 食器としての使用は避け、食品に触れる用途は安全性の確認できた仕上げ材で。</li>
+<li><strong>防火</strong> — 廃材・流木は可燃物。キャンドル等の火気と組み合わせません。照明はLED等の低発熱に限ります。</li>
+<li><strong>湿度</strong> — 浴場近くや結露する窓際は、カビと劣化を早めます。</li>
+</ul>
+<p><strong>向く宿</strong>は、海・山の立地、古民家や蔵のある宿、手仕事の温度を売る宿。向かないのは、均一の清潔さと無垢の白を売りにする新しい都市型——と書きたくなりますが、実はそうではありません。ピート・ハイン・エークの仕事が示す通り、「廃材×高い仕上げ」は高級の文脈でも成立します。分かれ目は立地でも価格帯でもなく、<strong>手入れする人と、物語を語る人がいるかどうか</strong>です。</p>
+
+<h2>8. InnBuddy VIEW — アップサイクルは「エコの証」ではありません</h2>
+<p>最近の宿づくりでは「SDGs」「アップサイクル」という言葉をよく見ます。ただ、廃材を本気で道具にすると分かることがあります。<strong>手間は、新品よりかかるのです</strong>。洗って、乾かして、磨いて、直して、語りましょう。アップサイクルが続くかどうかは、理念ではなく「この履歴を訳すのが誰か」で決まります。環境への配慮は結果であって、動機の中心に置きすぎない方が長く続きます——それが私たちの考え方です。</p>
+
+<h2>むすび</h2>
+<p>新品は、いつでも買えます。履歴は、買えません。あなたの宿の近くの海と山は、履歴の在庫です——ただし、拾い方には手順と安全があります。まずはフロントのペン置きから。次のビーチクリーンの日は、スタッフの行事にしてはどうでしょうか。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 水辺での活動には、安全対策と服装・道具の準備を含めて設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-scrap-wood-signboard">廃材で作る看板 — 古材・古道具で作る宿の看板アイデア</a> — 廃材を宿の「顔」にする発想</li>
+<li><a href="#idea-craftsman-handwork">職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア</a> — 素材の手技に触れる体験</li>
+<li><a href="#idea-empty-house-story">空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア</a> — 建物そのものの履歴</li>
+<li><a href="#idea-abandoned-school-memory">廃校の記憶を活かす — 廃校の机・黒板・廊下を活かした空間アイデア</a> — 場所の記憶の再生</li>
+</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","125"]}]]}],["$","h1",null,{"children":"流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"}],["$","p",null,{"className":"excerpt","children":"なぜ廃材の椅子は、新品より高く売れることがあるのでしょうか。オランダのデザイナーの仕事と「本物」を好む心理学的研究から、流木と廃材の価値の正体を読み解き、客室の小物から始める方法まで考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-driftwood-upcycle.jpg","alt":"流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.05"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+:HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
+:HL["/library/journal/ai_idea-compost-living.jpg","image"]
+:HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
+12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L10","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L10","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/idea-bamboo-living","children":["← ","竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"]}],["$","$L10",null,{"href":"/journal/articles/idea-spring-water-taste","children":["里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"," →"]}]]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"なぜ廃材の椅子は、新品より高く売れることがあるのでしょうか。オランダのデザイナーの仕事と「本物」を好む心理学的研究から、流木と廃材の価値の正体を読み解き、客室の小物から始める方法まで考えます。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

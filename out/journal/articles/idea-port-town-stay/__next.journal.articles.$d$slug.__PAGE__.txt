@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-port-town-stay.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T1d49,<p>日本でいちばん早く起きる街は、港です。夜明け前、魚を積んだ船が戻り、氷が振りかけられ、せりの声が上がります。この朝の風景は、宿が朝食前に案内できる、いちばん早く、いちばん生きた観光資源です。この記事は、港町の朝を体験にするための、時間割と作法と安全の線を扱います。</p>
+
+<h2>1. 数字——港の9割は、誰かの仕事場です</h2>
+<p>漁港法に基づく指定漁港は、全国で2,785港（2021年4月時点、国土交通省北海道開発局の集計）。そのうち第1種漁港——利用が地元の漁業を主とする港——が2,047港を占めます。<strong>港の9割以上は、地元の漁師さんの仕事場</strong>です。観光地向けに整備された港はごく一部で、ゲストが訪れる港のほとんどは、毎朝誰かの暮らしがかかった場所です。この事実は、港の案内の作法そのものを決めているのです。港は見学する場所であり、立ち入る場所ではありません。</p>
+<div class="stats"><span class="tag">FACT</span><strong>全国2,785港の内訳</strong> — 第1種（地元利用）2,047港／第2種（やや広域）525港／第3種（全国的利用）101港／特定第3種13港／第4種（離島・辺地）99港（2021年4月1日現在）。特定第3種はわずか13港——広域流通を担う大港と、地域を支える小港。港町の旅の中心になるのは、たいてい後者である。</div>
+
+<h2>2. 時間割——せりは、なぜ朝5時半なのでしょうか</h2>
+<p>東京・豊洲市場では、一般来場者は朝5時から入場でき、マグロのせりはおおむね5時30分から6時30分の1時間で終わります。開始を知らせる鐘が鳴り、せり人と仲買人の手信号だけで、数十キロから数百キロのマグロが次々に決まっていくのです。築地時代は人数限定だった見学も、豊洲では2階の見学者通路から誰でも見られます（豊洲市場の案内による）。</p>
+<p>せりが朝いちばんなのは、惰習ではありません。<strong>その日の魚を、その日のうちに店頭に並べるには、朝の数時間で価格を決め、さばき、流通に乗せるしかない</strong>からです。港の朝の時間割とは、鮮度という物理でできています。港町の宿の体験設計も、この時間割に合わせるしかありません——「港を見に行くなら6時です」と案内できる宿が、港町の宿です。水揚げとせりを見て戻ったゲストに、7時半の朝食で魚を出しましょう。この90分の流れが、港町の宿の黄金の朝です。</p>
+
+<h2>3. 漁師の話——話を聞くことは、記録を残すこと</h2>
+<p>港町の宿のもうひとつの財産は、漁師さんの話です。魚種の季節、海の荒れ方、漁具の変化、若い頃の話——これらは観光の素材ではなく、<strong>地域の漁業の口述記録</strong>です。話を冊子にする、ボードに書く、録音を残す（了承を得て）——聞き書きの形にすることで、話は「おもしろい話」から「この港の記録」になります。泊まりに来た子どもが漁師さんの話を聞く15分は、教科書に載らない水産業の授業です。</p>
+<p>道具も同じです。浮き、網、釣針、羅針盤、船具——廊下に飾るときは名札をつけましょう（<a href="#idea-craftsman-handwork">職人の手仕事</a>の記事で扱った原則の、海版です）。網の補修の実演が見られれば、網は「編み続けられている道具」だと分かります。</p>
+
+<h2>4. 制度——「海の駅」という、港の開け方</h2>
+<div class="stats"><span class="tag">CASE</span><strong>「海の駅」は、港を来訪者に開く制度である</strong> — 国土交通省が推進する「海の駅」は、船舶係留施設・ガイド・トイレの3つを備えたマリンレジャーの拠点で、2026年3月末時点で全国179か所が登録されている。道の駅が道路利用者のために生まれたように、海の駅は海と陸の接点として港を開いた。漁港そのものではないが、海の駅に登録された港では、来訪者を受け入れる準備が整っている——港町の宿が提携先を探すとき、まず当たるべき制度である。</div>
+
+<h2>5. 安全と衛生——港は、工場です</h2>
+<ul>
+<li><strong>立入禁止は、命の線</strong> — 漁港ではクレーン・フォークリフト・トラックが動き、地面は濡れて滑り、氷と海水で冷えます。「荷捌きエリアに入らない」「呼ばれない場所に行かない」を、案内の最初に書きましょう。</li>
+<li><strong>せり・市場の見学マナー</strong> — せりの間は声を出さない、写真はフラッシュなし（競りの士気を削がない）、通路を塞がないようにします。これも見学の作法です。</li>
+<li><strong>魚の衛生</strong> — さばき方体験や魚の試食では、温度管理と鮮度が主題です。生食の魚は氷で冷やし続け、時間が経ったら加熱に回します。体験の設計は、最初に所轄の保健所に相談するのが正しい順番です。</li>
+<li><strong>船に乗る体験</strong> — 釣りや潮干狩りの船を出すなら、遊漁船業の届出を受けた事業者・船に頼むのが基本です。ライフジャケットは大人にも。</li>
+<li><strong>天候で全部変わる</strong> — 水揚げは海の機嫌次第。「今日は何も上がりませんでした」もあります。港の体験案内は、成果を約束しない書き方にしておきましょう。</li>
+</ul>
+<div class="note"><span class="tag">InnBuddy VIEW</span>港町の宿の案内カードには、時間割を書きましょう。何時に船が戻り、何時にせりが始まり、何時に片付くのでしょうか。<strong>港の朝は毎日開かれる、予約不要の一大行事</strong>——時間を知っているだけで、誰でも見に行けます。港町の宿の実力は、ベッドの数ではなく、この時間割を案内できるかどうかで決まります。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 水辺での活動には、安全対策と服装・道具の準備を含めて設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 港の朝の続き</li>
+<li><a href="#seaside-resort-operations">海辺のリゾート運営 — 潮風と共に暮らす宿の設計</a> — 海辺の立地の運営</li>
+<li><a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a> — 海と山の食のつながり</li>
+<li><a href="#idea-beach-clean-art">海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア</a> — 海の環境を考える視点</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","151"]}]]}],["$","h1",null,{"children":"港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"}],["$","p",null,{"className":"excerpt","children":"全国の漁港は2,785。その9割超が「地元の港」です。マグロのせりが5時半に始まる理由から、港を来訪者に開く「海の駅」という制度、漁師の話の聞き書きまで。港町の朝は、宿が案内できる最も早い風景です。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-port-town-stay.jpg","alt":"港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.31"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-mountain-entrance-stay","children":["← ","山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-terraced-rice-field","children":["棚田のある風景 — 棚田・畦道・田んぼの四季を楽しむアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

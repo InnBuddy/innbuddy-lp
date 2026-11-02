@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"集客の基本 — 宿の「4つのチャネル」全体像 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"宿の集客はOTA・直結・SNS・オフラインの4チャネルで設計します。世界最大級の予約サイトは1996年の小さなスタートアップから始まった、まだ30年ほどのチャネルです。4つの水路の年齢と役割を知り、「新規はOTA・リピートは直結・候補化はSNS・地域はオフライン」の分担設計と月次の比率記録までを整理しました。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}

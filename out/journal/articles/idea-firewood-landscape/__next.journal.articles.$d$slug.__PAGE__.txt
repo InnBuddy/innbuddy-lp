@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
+:HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
+:HL["/library/journal/ai_idea-compost-living.jpg","image"]
+:HL["/library/journal/ai_idea-bamboo-living.jpg","image"]
+3:T1f94,<p>宿の敷地に、きちんと積まれた薪棚が立っています。ゲストはそこに何を見るのでしょう。「田舎風の置物」でしょうか。それとも、ひとつの約束——<strong>「ここには火を眺める夜がある」</strong>でしょうか。</p>
+<p>この記事の立論は単純です。薪を燃料としてではなく、滞在時間を生む風景として設計し直すと、宿の夜の経験は変わります。その根拠を、ヨーロッパの出版現象、テレビ放送の記録、そして心理学の実験から集めます。</p>
+
+<h2>1. CASE — 薪の本が70万部売れた国</h2>
+<p>ノルウェーの作家ラース・ミッティングが2011年に出版したのは、小説ではありません。薪割り・乾燥・積み方・焚き付けを扱う実用書『Hel ved』です。この本は世界で70万部以上売れ、22の言語に翻訳されました（著者サイトによる）。</p>
+<div class="stats"><span class="tag">CASE</span><strong>70万部以上・22言語</strong> — ラース・ミッティングの薪の実用書『Hel ved』（2011年、英語版タイトル Norwegian Wood）の部数と翻訳数（著者公表値）。なお著者は、暖かい国の読者から「これは実用書ではなく小説として読んだ」という手紙が届いたと語っている。</div>
+<p>暖房の選択肢が豊富な現代に、なぜ薪の本が世界で読まれるのでしょうか。ミッティング自身の分析はこうです——読者は薪割りの技術を求めていただけではなく、<strong>準備と待ち時間と自然のリズムが組み合わさった物語</strong>を求めていました。燃料の話に見えて、時間の話です。</p>
+
+<h2>2. WORLD — 12時間の焚き火放送と「樹皮論争」</h2>
+<p>2013年2月15日、ノルウェー国営放送NRKは「国民の薪の夜（Nasjonal vedkveld）」を放送しました。前半4時間は薪割りと積み方の番組、後半8時間は、暖炉で燃える火をただ映し続ける生放送です。</p>
+<p>視聴者は約100万人、国民の約2割にあたります。そして放送局には、約60通の抗議メッセージが届きました。その内訳がこの国の面白さを物語ります——半分は「番組で薪を樹皮を上にして積んでいた」、残りの半分は「樹皮は下にすべきだ」。<strong>ノルウェーを二分するのは、樹皮の向きです</strong>とミッティングは言い、この騒動はニューヨーク・タイムズ紙も報じました。</p>
+<p>私たちがここから引き取りたいのは、「薪の正しい積み方に国民が本気になる」ことの意味です。薪棚は単なる燃料庫ではなく、<strong>見る人が思わず意見を言いたくなる、参加型のオブジェ</strong>になり得ます。</p>
+
+<h2>3. RESEARCH — 火を眺めると、体はどうなるか</h2>
+<div class="note"><span class="tag">RESEARCH</span>米アラバマ大学の人類学者クリストファー・リンらの実験（2014年、Evolutionary Psychology誌）では、成人226名に暖炉の映像を視聴してもらい、前後で血圧を測定し、その結果、<strong>音付き</strong>の映像では血圧が平均して約5%低下し、長く見るほど低下幅が大きくなりました。一方、音を消した映像や、画面を逆さまにした映像では、血圧はむしろ上昇しました。リンは、火が視覚・聴覚・嗅覚・熱という多感覚の注意の的となり人を落ち着かせること、進化の過程で火を囲む時間が社会の結束に寄与した可能性がある、という仮説を述べています（あくまで仮説として）。</div>
+<p>この研究で宿側が注目すべきは「音付き」という条件です。炎の揺らぎだけでも十分に引きつけますが、<strong>パチパチという音が加わって初めて、リラックスの効果が観察されたのです</strong>。宿で火を扱うとき、BGMと焚き火の音を競合させてはいけません。火には、音ごと貸すのが正しいのです。</p>
+
+<h2>4. JAPAN — 囲炉裏という「火を中心に置く」暮らし</h2>
+<p>日本の伝統民家では、火は家の端ではなく中心に置かれました。囲炉裏です。炊事・暖房・照明・乾燥・会話が、同じ火の周りで同時に起こります。火を中心に置くと、人の居場所は自然と輪になり、時間は自然と遅くなるのです。</p>
+<p>現代の宿でこの配置を再現しようとすると、薪ストーブをロビーの中心に置く、囲炉裏や焚き火台を食事処の中心に置く、という形になります。大切なのは機材の性能ではなく、<strong>「火を中心に置く」という配置の決断</strong>です。火が壁際にある限り、それは暖房器具でしかありません。</p>
+
+<h2>5. 翻訳 — 薪を「風景」として設計する</h2>
+<ul>
+<li><strong>薪棚をファサードにする</strong> — 整然と積まれた薪棚は、看板より雄弁に「ここには火がある」と語ります。樹皮の向きは、意見を聞かれる覚悟で積みましょう（笑）。</li>
+<li><strong>火を眺める席を設計する</strong> — 火から2〜3メートル、煙の流れを考えた風上側。宿で一番良い席を、火に向けて配置します。</li>
+<li><strong>音と匂いを消さない</strong> — 効果があったのは「音付き」の火でした。夜のBGMは火の音と競合させません。</li>
+<li><strong>薪割りを見せる、そして体験として提案する</strong> — 朝の薪割りの音とリズムは、起きているゲストにとって最も誠実な「目覚まし」になります。体験は希望者限定で、斧の手入れ・安全距離・指導者の同席を前提にしてください。</li>
+</ul>
+
+<h2>6. 現実 — 燃料としての正直な計算</h2>
+<p>最後に、ロマンを帳簿で検算しておきたいと思います。薪は決して「安い燃料」ではありません。薪は一般に1年前後（硬い樹種では2年ほど）乾燥が必要で、屋根付きの保管場所と手間がかかります。薪ストーブ本体と煙突の設置費、日々の火入れと掃除、灰の処分、排煙と近隣への配慮も必要です。熱量あたりのコストを灯油やエアコンと単純比較すれば、割に合わないことも少なくありません。</p>
+<p>それでも薪を選ぶ理由は、燃料費の外側にあります。火を眺める時間・火を囲む会話・薪を割る朝の音——<strong>燃料としては割高でも、時間のデザインとしては他に代替が難しい領域</strong>です。宿が売れるのは、まさにこの「割引が効かない時間」の部分です。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 火を扱う場合は、消火の準備・風向き・火の管理を含めて設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-fire-circle-night">火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア</a> — 火を囲む夜の設計</li>
+<li><a href="#idea-nordic-stay-firewood-light">北欧の宿から考える — 薪・灯り・木のぬくもりのある宿のアイデア</a> — 火と灯りの文化</li>
+<li><a href="#idea-darkness-enjoy-stay">暗さを楽しむ宿 — 暗い夜・暗い部屋・暗さの中の灯りのアイデア</a> — 暗さの設計</li>
+<li><a href="#energy-saving-revenue">エネルギー削減 — 「収益の口座」としての基礎</a> — エネルギーコストの実務</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","123"]}]]}],["$","h1",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","p",null,{"className":"excerpt","children":"薪の実用書が世界70万部売れ、12時間の焚き火生放送に国民の2割が見入った国があるのです。火を眺めると血圧が下がるという研究もあります。薪割り・薪棚・焚き火を「設備」ではなく「滞在時間のデザイン」として考え直します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.03"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L2","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L2","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-compost-living","children":["← ","コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-bamboo-living","children":["竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

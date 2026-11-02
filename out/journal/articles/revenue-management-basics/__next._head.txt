@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"ADR・稼働率・RevPAR——この3つの数字は宿の健康を語る言語です。同じ部屋を違う価格で売る技術は、席が飛ぶと価値が消える航空業界で生まれ、宿泊業に移植されました。3つの定義と読み方、そして「月次3数字+仮説1つ」という最小の運用を整理しました。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}

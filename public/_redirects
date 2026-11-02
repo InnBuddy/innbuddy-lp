@@ -1,0 +1,2 @@
+/library/story /story 301
+/library/story/* /story/:splat 301

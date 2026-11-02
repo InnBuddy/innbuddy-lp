@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"ダークツーリズムを考える — 地域の記憶・災害の記憶を大切に伝える宿のアイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"「ダークツーリズム」という言葉は1996年、研究論文の中で生まれました。チェルノブイリの訪問者は2015年の8千人から2019年に10万人を超えました。岩手には、津波で浸水したホテルをそのまま保存し、自ら語り部になった宿があります。記憶を伝える宿の作法を集めました。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}

@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_foreign-staff-japanese-20-phrases.jpg","image"]
+:HL["/library/journal/ai_retention-team.jpg","image"]
+:HL["/library/journal/ai_foreign-staff-regional-cities.jpg","image"]
+:HL["/library/journal/ai_recruitment-showcase-pr.jpg","image"]
+3:T29a1,<p>外国人スタッフに「日本語を勉強してください」と言っても、続きません。教科書の文法から始めると、現場に立てるまでに月がかかります。しかし、よく見ると、宿の現場でその日から必要な日本語は、驚くほど限られています。「いらっしゃいませ」「かしこまりました」「少々お待ちください」——20フレーズが言えれば、チェックインも朝食も案内が回る。本記事は、その20フレーズをどう選び、どう教え、どう続けるかの設計です。</p>
+
+<h2>敬語を5つに分けた国の、教え方</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>事実</strong> — 日本語の敬語は、2007年2月に文化審議会が答申した「敬語の指針」で、尊敬語・謙譲語I・謙譲語II(丁重語)・丁寧語・美化語の5つに分類されています。従来の「尊敬語・謙譲語・丁寧語」の3分類を精密化したもので、例えば「いらっしゃる」は尊敬語、「伺う・申し上げる」は謙譲語I、「参る・申す」は謙譲語II、「です・ます」は丁寧語、「お酒・お料理」は美化語です(文化庁の公開資料による)。</div>
+
+<p>この分類を見て、まず気づくべきはねじれです。日本語の敬語は「5つに分類できる」ほどの体系を持つ。それなのに、日本人の新人が「いらっしゃいませ」を覚えた日は、誰も尊敬語の説明から始めませんでした。丸ごと、場面と声の調子で覚えたはずです。つまり、5分類は敬語を<strong>分析する</strong>ための地図であって、<strong>学ぶ順番</strong>ではない。茶の湯で最初に習うのが理屈ではなく点前の動きであるように、日本の現場の学びは昔から「型」から入ります。外国人スタッフの日本語教育も、この型の文化の側に置けばいい——理論を渡すのが遅れても、型を渡すのが遅れてはいけません。</p>
+
+<h2>20フレーズの選び方 — 現場で洗い出す</h2>
+
+<p>20フレーズは、教科書から選びません。<strong>宿の現場から選びます。</strong>チェックイン・朝食・清掃・案内の4つの場面で、それぞれ5フレーズずつ。しかも書くのは経営者でなく、現場のスタッフです。その宿で本当に使われる言葉だけが、20フレーズに入る。だから同じブランドの宿が2つあっても、20フレーズは別物になる——それで正しい。</p>
+
+<p>最初の5フレーズは、たいていの宿でこうなります。①「いらっしゃいませ」(入ってきた瞬間、笑顔でお辞儀)②「お名前をお願いできますか」(受付を見せながら)③「かしこまりました」(うなずいて、一度引き受ける)④「少々お待ちください」(手を軽く上げる——すぐ戻る合図)⑤「お待たせいたしました」(戻ったら、まずこの一言から)。カッコの中が大切です。フレーズは、場面とジェスチャーとセットで1つの型になります。言葉が届かなくても、お辞儀と手の動きは気持ちを先に届けます。</p>
+
+<h2>教え方の3ステップ</h2>
+
+<p><strong>ステップ1:型を見せる。</strong>教える側がその場面を演じてみせる。台本は5行でいい。見せることは、教えることの半分です。</p>
+
+<p><strong>ステップ2:一緒に言う。</strong>声に出して一緒に繰り返す。発音の完璧は求めません。第一の目標は「通じる」ことで、通じるには聞き手の存在が必要なので、教える側は必ず「通じた」という反応を返します。</p>
+
+<p><strong>ステップ3:4段階のリストに貼る。</strong>20フレーズを「見学→一緒に→1人で→教えられる」の4段階で壁に貼り、進んだフレーズに印を付ける。このリストの作り方と、進める時の5つの罠は、<a href="#local-youth-learning-retention">地方の若手が定着する宿の「学び」の設計</a>が扱っています——外国人スタッフでも、リストの意味は同じです。</p>
+
+<p>もう一つ、順番の原則があります。<strong>「言う」を先に、「聞く」は後。</strong>言語教育は聞く・話す・読む・書くの順で組まれることが多いのですが、現場では逆です。20フレーズを「言える」ことが先で、聞き取りは使いながら育ちます。語学教育では、定型表現を丸ごと先に覚えることが流暢さと自信を先に生むと考えられています——20フレーズは、まさにその定型表現のリストです。</p>
+
+<h2>意味の罠 — 教える側が先に知っておくこと</h2>
+
+<p>日本語には、外国人スタッフが一度つかむと危うい「罠の言葉」があります。<strong>「いいです」</strong>——多くの場合は「要らない」の意味で使われます。スタッフが「おかわり、いいですか?」と聞かれて「いいですよ」と答える分には問題ない。しかし「コーヒー、いかがですか」への「いいです」が「要らない」に聞こえるか「欲しい」に聞こえるかは、雲泥です。<strong>「だめです」</strong>——意味は通じても、響きが強すぎます。「申し訳ございません。ただいま〜」から始める型を代わりに教えます。<strong>「大丈夫です」</strong>——これも両義です。罠の言葉は、フレーズと同じように「場面つきで」先に教えておく。これが、教える側の一番の仕事かもしれません。そして<strong>安全の言葉を最優先</strong>に。「熱いので気をつけてください」「濡れています」——この系統のフレーズは、おもてなしの言葉より先に、最初の20に入れておきます。</p>
+
+<h2>継続の設計 — 週1の15分と「教えられる」</h2>
+
+<p>毎日の1時間の日本語教室は、どの宿でも続きません。<strong>週1回15分、今週の1フレーズ。</strong>15分という小ささが、教える側にも学ぶ側にも効きます(15分の回し方は、若手の学びの設計と共通です)。そして4段階の最後の「教えられる」に来たら、次に来る人の先生を頼む——教えることで学びは閉じ、教える側になった人の定着は一段上がります。</p>
+
+<p><strong>地域の人から学ぶ</strong>仕組みも足します。醸造所の人に「美味しい」を、味噌蔵の人に「ありがとう」を教わりに行く。地域の人が先生になる時、日本語の学びは地域とのつながりに変わります。現場で教えること全体の設計(見て盗めを翻訳する話や、質問を仕組みに変える話)は、<a href="#foreign-staff-retention-teaching">外国人スタッフが定着する宿の「教え方」</a>が扱っています。この記事は、その中の「日本語」という1ピースを担います。</p>
+
+<h2>反対側 — 教育が現場を疲れさせるとき</h2>
+
+<ul>
+<li><strong>発音の完璧主義</strong> — 完璧な発音を求めると、スタッフは黙ります。黙るのが一番の損失です。訛りのある「いらっしゃいませ」は、無言のフロントよりはるかに宿らしい。</li>
+<li><strong>日本語の強制</strong> — 母語は捨てさせるものでなく、宿の財産です。中国語が話せるスタッフは、そのまま中国語圏のゲスト対応ができる(多言語の看板の話は<a href="#multilingual-signage-minimum">多言語サイン・表示 — 「これで十分」の最低ライン</a>へ)。研修は「足す」のでなく「渡す」形に。</li>
+<li><strong>15分の労務</strong> — 週1の15分は「仕事」として労働時間に組み込む。研修を自主的にやらせる形は、続かない上に、責任の置き場所が曖昧になります。</li>
+<li><strong>教える側の焼き付き</strong> — 同じフレーズを毎年1から教え直していないか。1回教えたら、声の録音か動画を1本残す。教える側の負担は、仕組みで削ります。</li>
+<li><strong>間違いへの反応</strong> — 言い間違いを笑う職場では、誰も口を開かなくなります。間違いは直すものであり、笑うものではない——その文化を最初に日本語側のスタッフに伝えておく。</li>
+<li><strong>制度との距離</strong> — 在留資格や雇用のルールは、言葉の教育の外枠です。この記事が扱うのは言葉の教え方だけで、採用・手続きの設計は<a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a>が担います。</li>
+</ul>
+
+<p>最初の一歩は、今週、チェックインの場面の5フレーズを書き出すことです。外国人スタッフがいなくても意味があります——その5フレーズこそ、あなたの宿の言葉の標準の、最初の5行だからです。それが書けたら、次は英語側の同じ1枚を、<a href="#front-desk-english-20">フロントの基礎英語 — 最初に覚えるべき20フレーズ</a>が待っています。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。「敬語の指針」の記述は文化庁の公開資料(2007年の答申)に基づきます(執筆時点)。定型表現の学習に関する記述は語学教育の一般的な考え方としての紹介です。研修・雇用の設計は、各宿の雇用形態・在留資格に合わせて調整してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#foreign-staff-retention-teaching">外国人スタッフが定着する宿の「教え方」</a> — 日本語を含めた教え方全体の設計の話</li>
+<li><a href="#front-desk-english-20">フロントの基礎英語 — 最初に覚えるべき20フレーズ</a> — 鏡の記事——英語側の20フレーズの話</li>
+<li><a href="#local-youth-learning-retention">地方の若手が定着する宿の「学び」の設計</a> — 4段階リストと週1の15分の元の話</li>
+<li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 採用と暮らしの設計の話</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"children":["ARTICLE ","116"]}]]}],["$","h1",null,{"children":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}],["$","p",null,{"className":"excerpt","children":"敬語は5分類、でもそれは分析の地図であって学ぶ順番ではない——現場の日本語は「型」として丸ごと渡す。20フレーズの選び方、場面とジェスチャー、意味の罠、週1の15分の継続設計。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_foreign-staff-japanese-20-phrases.jpg","alt":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.16"}],["$","span",null,{"children":"HR & Hiring"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":"人材定着 — 「ここに働き続けたい」の3つの基本"}]]}]]}],["$","$L2","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}]]}]]}],["$","$L2","recruitment-showcase-pr",{"href":"/journal/articles/recruitment-showcase-pr","children":[["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.22"}],["$","h4",null,{"children":"採用に困らない宿がやっている「見せ方」採用広報"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/subscription-monthly-stay","children":["← ","サブスクリプション滞在 — 「毎月泊まる」常連の作り方"]}],["$","$L2",null,{"href":"/journal/articles/vegan-menu-one-dish","children":["ヴィーガン対応の基本 — 1品から始めるメニュー設計"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_vegan-menu-one-dish.jpg","image"]
+:HL["/library/journal/ai_breakfast-buffet-media-new.jpg","image"]
+:HL["/library/journal/ai_nature-drink-herb-tea.jpg","image"]
+:HL["/library/journal/ai_nature-food-farm-harvest.jpg","image"]
+3:T1ee0,<p>ヴィーガン対応を「メニュー全体を変える事業」と考えると、壁は高くなります。しかし、始める場所はもっと低いところにあります。朝食に1品、畑の野菜の一皿を足す。それで「対応」は始まります。本記事は、1品から始めるヴィーガンメニューの設計と、その1行の表示が何を拾うかを、「ヴィーガン」という言葉が生まれた1944年の話から整理します。</p>
+
+<h2>1944年 — 言葉が生まれた日</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>事実</strong> — 1944年11月、イギリスのドナルド・ワトソンが、乳製品を取らないベジタリアン5人と会合を開き、新しい会を創設しました。彼らは自分たちを呼ぶ新しい言葉を必要とし、候補のいくつかが却下された末に選ばれたのが「ヴィーガン」——「ベジタリアン」の始まりと終わりの文字から作られた言葉です(ワトソンは後に「ベジタリアニズムの始まりと終わり」と語ったとされる)。この会が現在も続く世界最古のヴィーガン団体で、11月1日の世界ヴィーガンの日の由来にもなります(同会の沿革による)。</div>
+
+<p>なぜ面白いか。この日、生まれたのは食習慣ではなく「名前」です。それまで散在していた実践——肉も魚も卵も乳も避けて生きる人々——に、共通の名前が付いた。名前が付いたことで、その生き方は探せるようになり、名乗れるようになり、届けられるようになった。言葉は、運動の入口そのものだったのです。</p>
+
+<p>宿の側でも、起きていることは同じです。ゲストは「ヴィーガン対応」という言葉を検索し、予約サイトの項目を探し、電話で1つ聞きます。その言葉があなたの宿に1行でもあるかどうか——1944年に生まれた名前と、あなたの宿が出会えるかどうかは、この1行の存在で決まります。対応はまず「言葉の1行」から始まります。</p>
+
+<h2>なぜ1品でいいのか</h2>
+
+<p><strong>ヴィーガンは「0か100か」ではない。</strong>完全なヴィーガンの方は、その土地のごく一部です。しかし、健康や環境を理由に野菜中心の食を選びたい人——朝食の1食くらい野菜でいい日がある人——は、その何倍もいます(一般的な考え方として)。1品の皿は、完全なヴィーガンのゲストのためだけでなく、その広い層のための商品です。</p>
+
+<p><strong>1品は原価の構造が有利。</strong>肉や魚を使わない皿は、畑の野菜・地元の豆・野草が主役になる。原価率を低く抑えやすい部門です(数字は計算の例として扱ってください)。</p>
+
+<p><strong>1品は失敗が小さい。</strong>全メニューの変更は、失敗すると宿全体が払います。1品なら、作って、出して、反応を見て、直す。宿の他の仕事と同じ改善のサイクルで回せます。</p>
+
+<h2>1品の設計 — 3つの条件</h2>
+
+<p><strong>畑の野菜を主役にする。</strong>珍しい代替食材を遠くから仕入れる必要はありません。今朝のトマト、間引きにんじん、地元の豆。畑の野菜は物語を持ち、「このトマトは今朝採れました」の1文が添えられる(畑と食卓の設計は、<a href="#farm-to-table-harvest">畑から直接 — アグリ×フードの収穫体験と一皿の物語</a>が扱います)。</p>
+
+<p><strong>見た目を美しくする。</strong>色とりどりの野菜、ハーブ、食用の花。美しい一皿はヴィーガンでないゲストにも「食べてみたい」を生み、写真に撮られます。</p>
+
+<p><strong>物語を語れるようにする。</strong>「この豆は、隣の農家さんが作ったものです」——スタッフが語りたくなる一皿は、ゲストに届きます。物語は美味しさの増幅装置です。</p>
+
+<h2>出し方 — 「選べる」ではなく「含める」</h2>
+
+<p>ヴィーガンの一皿を「有料オプション」として選べる形にすると、選ばれません。朝食の定番として全員に含める。ヴィーガンのゲストには「この一皿はヴィーガン対応です」と1行で伝える。これで、ヴィーガンのゲストは安心し、そうでないゲストは美味しい野菜の皿に出会います。使った野菜や豆を小さく持ち帰れる形で置けば、「旅の続き」の物販にもなります(室内販売の設計は、ミニバーと客室販売の記事が扱います)。</p>
+
+<h2>反対側 — 1品の対応が宿を傷めるとき</h2>
+
+<ul>
+<li><strong>「1品あれば十分」の思い上がり</strong> — ヴィーガンのゲストが夕食まで宿で過ごすなら、主菜1品では足りません。朝食の1品は入口であって到達点ではない。全食対応の選択肢設計は、<a href="#veg-menu-options">【ベジ対応メニュー】多様な食嗜好に応える宿の選択肢設計</a>が扱います。</li>
+<li><strong>交差汚染</strong> — 同じ鍋や油で調理すれば、「野菜の皿」はヴィーガンの皿でなくなります。器具を分ける意味をスタッフに説明することから始める(食品安全の設計も選択肢設計の記事へ)。</li>
+<li><strong>アレルギーとの混同</strong> — ヴィーガンは食の選択で、アレルギーは命の安全の問題です。同じ「対応」の言葉で雑に扱うと、後者で事故になります。分けて考えること。</li>
+<li><strong>原価の逆転</strong> — 珍しい代替食材を追いかけると、肉より高い皿になります。1品の美しさは、近くの畑の安さとセットで成立します。</li>
+<li><strong>物語の誇張</strong> — 「地元の○○農家さん」と書くなら、実際にその農家であること。名前は便利な道具ですが、嘘は農家とゲストの両方から返ってきます。</li>
+<li><strong>「無理です」の通路</strong> — 対応できない時に、誠実に断る1行を用意する。「申し訳ありません。当宿の対応は朝食の1品までです。近くに◯◯という店があります」——断り方の丁寧さも、対応のうちです。</li>
+</ul>
+
+<p>最初の一歩は、明日の朝食に1品を足すことです。そして今週、宿のサイトに「ヴィーガン対応(朝食1品)」の1行を置く。1944年に生まれた言葉は、あなたの宿のこの1行を、ずっと探しています。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。1944年の記述は同会の沿革資料に基づきます(執筆時点)。原価率・単価の数字は計算の例であり、実際の収益は各宿の条件により異なります。食の制約への対応は、アレルギー対応を含め各宿の判断と体制で設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#veg-menu-options">【ベジ対応メニュー】多様な食嗜好に応える宿の選択肢設計</a> — 1品の先の全メニュー設計の話</li>
+<li><a href="#muslim-inbound-segment">ムスリム・インバウンド — 日本の宿が狙う新しいセグメント</a> — 食の制約を持つ客人のもう一つの話</li>
+<li><a href="#farm-to-table-harvest">畑から直接 — アグリ×フードの収穫体験と一皿の物語</a> — 1品の材料の物語の話</li>
+<li><a href="#fnb-revenue-basics">F&B売上を上げる — 朝食・レストラン収益の基本</a> — 朝食を収益として読む話</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"フード＆ベバレッジ"}],["$","span",null,{"children":["ARTICLE ","117"]}]]}],["$","h1",null,{"children":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}],["$","p",null,{"className":"excerpt","children":"ヴィーガン対応は「全メニューを変える」ではなく「1品から始める」。1944年に「名前」が生まれた話から、1品の設計、朝食に含める理由、表示の1行が拾う需要まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_vegan-menu-one-dish.jpg","alt":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.17"}],["$","span",null,{"children":"F&B"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","breakfast-buffet-media",{"href":"/journal/articles/breakfast-buffet-media","children":[["$","img",null,{"src":"/library/journal/ai_breakfast-buffet-media-new.jpg","alt":"朝食をメディア化するビュッフェ設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.01.29"}],["$","h4",null,{"children":"朝食をメディア化するビュッフェ設計"}]]}]]}],["$","$L2","herb-tea-satoyama",{"href":"/journal/articles/herb-tea-satoyama","children":[["$","img",null,{"src":"/library/journal/ai_nature-drink-herb-tea.jpg","alt":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.25"}],["$","h4",null,{"children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}]]}]]}],["$","$L2","farm-to-table-harvest",{"href":"/journal/articles/farm-to-table-harvest","children":[["$","img",null,{"src":"/library/journal/ai_nature-food-farm-harvest.jpg","alt":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.27"}],["$","h4",null,{"children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/foreign-staff-japanese-20-phrases","children":["← ","外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"]}],["$","$L2",null,{"href":"/journal/articles/reels-saveable-travel","children":["保存されるリール動画 — 旅マエに選ばれる宿の作り方"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

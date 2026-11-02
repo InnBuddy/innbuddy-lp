@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"図書室のある宿 — 本・絵本・写真集が置かれた宿のアイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"ウェールズの人口約1,500人の町ヘイ・オン・ワイには、古書店が20軒以上並びます。1962年に一人の古書店主が始めた本の集積が、町を「本の町」に変えました。東京には2015年、本棚の中で眠る「泊まれる本屋」が生まれたのです。宿の本棚の設計を集めました。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}

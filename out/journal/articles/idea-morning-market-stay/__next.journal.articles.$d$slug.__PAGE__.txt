@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-morning-market-stay.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T222b,<p>宿に朝市を、と言うと、たいてい「規模の話」にすり替わります。何店も出店して、テントを並べて——という想像です。ですが、朝市の原形はもっと小さいのです。そしてもっと面白いものです。この記事は、朝市の歴史（販売の前に交換があったこと）、日本の直売の制度、宿の規模に合わせた3つの型、そして法律の線を扱います。結論を先に言えば、宿の朝市は<strong>テーブル1つ</strong>から始まります。</p>
+
+<h2>1. 朝市は「販売」より先に「交換」でした</h2>
+<p>石川県輪島の朝市は、地元では、奈良時代の後期から平安時代の初め頃、鳳至比古神社の祭礼日に人々が持ち寄った生産物を物々交換したことにルーツを持つと伝えられています。祭りの日が市になり、やがて定期的に開かれるようになりました。佐賀県呼子の朝市は大正時代、それまで行商をしていた人たちが商店街の軒先に出店するようになって形になったとされ、今日では輪島、飛騨高山と並ぶ日本三大朝市に数えられています（これらの見方は諸説ありますが、「産地と消費地のあいだの顔の見える交換」が朝市の核である点は共通しています）。</p>
+<p>ここに宿の朝市の本質があります。朝市とは、<strong>その朝の収穫を、顔の見える相手に渡す場所</strong>です。品揃えは不安定で、売り切れたら終わりで、値段は行き当たりばったり——その「不完全さ」こそが、朝市を生きたものにしているのです。畑が正直であることの証明を、市場は朝市の形でやってくれます。</p>
+
+<h2>2. 直売の制度——道の駅という発明</h2>
+<p>生産者が消費者に直接売る「直売」の文化を制度に乗せたのが、道の駅です。1991年に山口・岐阜・栃木で実験的にはじまり、1993年4月、全国103か所が正式登録されて制度がスタートしました。休憩施設（24時間使えるトイレと駐車場）、情報発信、地域連携——この3機能の組み合わせが登録の要件で、登録は現在1,200か所を超えます（国土交通省の登録制度）。農産物の直売所はその中核機能のひとつとして育ち、道の駅は「通り過ぎる場所」から「立ち寄る目的地」になりました。</p>
+<div class="stats"><span class="tag">DID YOU KNOW?</span>道の駅が最初に登録された1993年当時、103か所の「第一号」にはそれぞれに石碑が立てられた——全国に103本の「道の駅第一号」がある。制度とは、ひとつの始まりではなく、103の始まりだった。</div>
+<p>宿の朝市は、この道の駅の成功の核心を小さく借りられる、という話でもあります。道の駅が売ったのは農産物そのものでなく、<strong>「生産者の顔が見える」という信頼</strong>でした。宿が朝市を開くときも、売るものは朝採れの品ですが、実際に提供しているのは土地の暮らしとの接点です。</p>
+
+<h2>3. 宿の朝市、3つの型</h2>
+<ul>
+<li><strong>テーブル1つの市</strong> — その朝採れたものを、小さなテーブルに並べます。3品でもいいのです。パックに値段を書きましょう。朝食前の30分だけ開きます。品切れ御礼が美学の、最小の朝市です。</li>
+<li><strong>軽トラ市</strong> — 軽トラの荷台ごと並べる型。荷台は棚であり、看板であり、舞台でもあります。畑から着いたままの荷台は、「今朝取り」の証明書として写真にも映えます。</li>
+<li><strong>軒先市（正直の箱つき）</strong> — 宿の軒先に棚を置き、無人で売る型。英語圏の田舎には honesty box（正直の箱）と呼ばれる、代金を自己申告で箱に入れる無人販売の文化があります。英国の田舎を走ると、卵や野菜と、代金を入れる小さな箱が農家の軒先に置かれている光景に出会います——人を置かない販売は、「正直さを信頼する」という体験そのものを売っています。宿の軒先市は、この信頼の小さな翻訳です。</li>
+</ul>
+<p>子どもの店番は、朝市の隠れた主役です。品物を並べ、渡し、お釣りを数える——貨幣と交換の学びが、朝の30分に凝縮されます。朝市に子どもの仕事がある宿は、家族連れの記憶に残るのです。</p>
+
+<h2>4. 実務の線——保健所に相談するリスト</h2>
+<p>朝市を開くとき、法律の線はあらかじめ引いておきましょう。</p>
+<ul>
+<li><strong>自分で作った未加工の野菜・果物をそのまま売る</strong>場合は、原則として営業許可も届出も不要とされています（食品衛生法上、自ら生産した農産物の未加工販売は出荷と扱われます）。</li>
+<li><strong>ジャム・漬物などの加工品を作って売る</strong>場合は、営業許可または営業届出が必要になります。加工品の製造・販売は保健所の管轄なので、作り始める前に所轄の保健所へ相談するのが正しい順番です。</li>
+<li><strong>仕入れたものを売る</strong>（地域の生産者に出品してもらう形）場合も、食品の販売には食品衛生上の届出等が必要になります。主催者としての役割を保健所と整理しましょう。</li>
+<li><strong>表示と衛生</strong> — 生鮮品は直射日光を避け、持ち帰りの案内を添えましょう。トレイと袋の用意のような、小さな備品の準備が体験の質を決めます。</li>
+</ul>
+
+<h2>5. 朝市を朝食につなぐ</h2>
+<p>朝市が宿の一部になるのは、市で買ったものが朝食のテーブルに載るときです。逆も成り立ちます——朝食に出したジャムの原料が、軒先市に並んでいるとき、ゲストは土地の食の循環を目撃します。「今朝の市のトマトです」と朝食で一言添えるだけで、市と食卓は一本の線でつながります。この循環の設計は、<a href="#farm-to-table-harvest">畑から直接</a>や<a href="#breakfast-buffet-media">朝食をメディア化する</a>の記事とも地続きです。</p>
+
+<h2>6. 向く宿、向かない宿</h2>
+<p>朝市は万能ではありません。素直に向くのは、畑や果樹園を持ち、朝の人手に余裕のある宿、農家ネットワークのある地域の宿です。朝の業務がすでに満杯の宿では、市の当番は続きません——その場合は週末だけ、あるいは月に数回の「市の日」に絞る方が、毎日の疲れた市より長続きします。宿が畑を持たない場合は、地域の生産者に出品してもらう「場所の提供者」としての朝市が適任です。雨の日の退避場所（軒下、ホールの一角）を決めておくことも、続けるための設計のうちです。</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>朝市の価値は売上ではありません。<strong>朝の主役を、宿から土地に移すこと</strong>なのです。市が立つ朝、宿の敷地は「観光地」ではなく「地域の朝の一部」になります。その30分の風景を写真に撮ることが、どんな広告より強い宿の紹介になります。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 湧水や野生の植物・食品をゲストに提供する場合は、飲食の安全を必ず確認してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-morning-dew-mist">朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア</a> — 朝の体験の設計</li>
+<li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 畑の舞台</li>
+<li><a href="#idea-morning-english-story">朝の過ごし方を英語で伝える — 海外ゲストに伝わる朝の挨拶と朝食の物語アイデア</a> — 海外ゲストへの朝の伝え方</li>
+<li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 朝食の舞台設計</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","141"]}]]}],["$","h1",null,{"children":"朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"}],["$","p",null,{"className":"excerpt","children":"朝市は「販売」より先に「交換」でした。輪島の神社の物々交換、道の駅30年の制度、英国の正直の箱（honesty box）——そしてテーブル1つから始まる宿の朝市の作り方と、保健所に相談すべき線まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-morning-market-stay.jpg","alt":"朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.21"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-starry-light-pollution","children":["← ","星空を守る灯り — 光害を減らす灯りで星空体験を深めるアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-evening-cool-stay","children":["夕涼みのある宿 — 縁側・縁台・夕涼みの時間の設計アイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

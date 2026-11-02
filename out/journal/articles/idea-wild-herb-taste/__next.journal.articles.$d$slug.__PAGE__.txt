@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-wild-herb-taste.jpg","image"]
+:HL["/library/journal/ai_breakfast-buffet-media-new.jpg","image"]
+:HL["/library/journal/ai_nature-drink-herb-tea.jpg","image"]
+:HL["/library/journal/ai_nature-food-farm-harvest.jpg","image"]
+3:T28f4,<p>宿の周りに生えている草を、朝食に出す——この一文には、文化的な重さと、命に関わる危うさが、同時に載っています。この記事は、その両方を扱うのです。野草を「珍しい食材」ではなく<strong>土地の知識そのもの</strong>として味わう体験を、安全の設計とセットで考えるのが目的です。</p>
+
+<h2>1. CULTURE — 日本は野草を「食べる文化」として大事にしてきました</h2>
+<p>1月7日の朝、七草粥を食べる習慣をご存じでしょう。セリ、ナズナ、ゴギョウ、ハコベラ、ホトケノザ、スズナ、スズシロ——春の七草と呼ばれる野草を粥に入れて、新年の無事を祈ります。日本の食文化の中で、野草は「非常食」でも「珍味」でもなく、季節の節目を味わう装置として位置づけられてきました。山菜文化はさらに広く、フキ、タラの芽、コシアブラ、ウド、ゼンマイ——春の山の恵みを味わう季語として文学にすら組み込まれています。</p>
+<p>この文化には、実用的な裏付けがあります。冬の野菜が乏しかった時代、春の野草はビタミンを補う最初の緑でした。野草を識別する力は、暮らしの基礎教養だったのです。そして今、この知識は急速に失われつつあります。その意味で、宿が野草を扱うということは、食の提供であると同時に、<strong>地域の知識の保存</strong>でもあるのです。</p>
+
+<h2>2. WORLD — 野草採取が世界の料理を変えた、という話</h2>
+<p>2004年11月、コペンハーゲン。北欧諸国から集まった12人のシェフと食の関係者が「ニューノルディック料理のマニフェスト」に署名しました。10か条からなる簡潔な文書で、純粋さ、新鮮さ、季節の反映、北欧の気候と風土に根ざした素材を掲げたのです。署名者の中には、前年にコペンハーゲンで開業したばかりのレストラン「ノーマ」のシェフ、レネ・レゼピがいました。</p>
+<div class="stats"><span class="tag">CASE</span><strong>10か条のマニフェスト</strong> — 2004年11月、コペンハーゲンで12人の北欧シェフらが署名した「ニューノルディック料理マニフェスト」。興味深いのは、文書の10か条のどこにも「野草採取（フォアジェ）」という言葉は書かれていなかったことだ。それでも、この運動の顔となったのは、森や海岸で採れた素材を皿に載せるノーマの仕事だった。マニフェストは抽象を、現場の実践が具体に変えた。</div>
+<p>この動きが世界の料理に与えた影響は大きいものです。「その土地に生えているものを見直す」という姿勢は、各国のシェフに伝播し、レストランの外へも広がりました。ただ、ここで話を宿に戻す前に、正直な確認をしておかなければなりません。この華やかな物語の裏には、野草を扱うことの<strong>危険</strong>という、絶対に省略できない現実があります。</p>
+
+<h2>3. 安全の章 — 厚生労働省は「採らない、食べない」と呼びかけています</h2>
+<div class="note"><span class="tag">RESEARCH</span>厚生労働省のデータによると、2014年から2023年の10年間で、毒性植物による食中毒は合計220件、患者831人、うち17人が死亡しています（時事通信の医療報道による）。同省は、確実に見分けられない限り「採らない、食べない、売らない、人にあげない」と注意喚起しています。中毒の中心はトリカブトです。専門家の指摘では、トリカブトは食用のニリンソウと葉の形が似ており、しかも同じ場所に混生するため、ベテランでさえ間違えることがあります。ほかにも、ニラとスイセン、ギョウジャニンニクとイヌサフラン、オオバギボウシとバイケイソウという、そっくりさんの組み合わせが知られています。</div>
+<p>この数字を読んで、野草の話をやめるべきでしょうか。私たちは逆だと考えます（InnBuddy VIEW）。<strong>危険があるからこそ、「正しく扱う作法」ごと体験にできる</strong>からです。山菜文化が安全だったのは、知識を持つ人と一緒に山に入る仕組みがあったからです。宿がやるべきは、その仕組みの現代版なのです。</p>
+
+<h2>4. 実装 — 3つの安全レベルで設計する</h2>
+<p>野草の体験は、リスクの低い順に「茶にする」「染める」「食べる」の3層に分けて設計するとよいでしょう。</p>
+<p><strong>レベル1：野草茶（飲む）</strong>。よもぎ、どくだみ、スギナ、柿の葉——薬草茶として長い民間利用の歴史がある草から始めましょう。ただし、どの草も「特定のアレルギー・体調との組み合わせ」は他人事ではありませんので、初めての方は一口から、と案内します。用意するのは、乾燥させて茶にするだけの小さな器と説明カードです。乾燥は乾燥機がなくても、風通しの良い場所での陰干しでできます。まず宿のスタッフが自分たちで飲んでみることから。提供する草は、必ず<strong>確実に同定されたもの</strong>に限ります。同定は、図鑑と地域の薬草・山菜の専門家の両方で確認します。この「両方で」を省略しないでください。</p>
+<p><strong>レベル2：野草染め（染める）</strong>。食べ物ではないので、誤食のリスクがない分、宿の体験としては安全な入口になります。よもぎの緑、栗のいがと渋皮の茶色、たんぽぽの黄——草の色を布に移す体験は、季節ごとに顔が変わります。アルミ媒染などの道具は手芸店で揃い、マニュアルも出回っているのです。ただし染めた布を「食べるわけではないが肌に触れる」こと、使用する金属媒染剤の取り扱いには注意書きを添えます。</p>
+<p><strong>レベル3：食べる（天ぷら・和え物）</strong>。ここが一番気をつかう層です。原則はひとつです——<strong>ゲストに採らせず、専門家が同定したものだけを出します</strong>。食材として提供する山菜は、自ら確実に同定したもの、または信頼できる生産者から仕入れたものだけに限ります。採取体験をやるなら、地域の山菜案内人と同行し、「見る・匂う・触る」までに留め、食べるのは宿に戻ってから、が安全な線です。素人がその場で食べてよいのは、専門家が「これは」と言ったものだけです。</p>
+
+<h2>5. 採る前に確認すること——場所のルール</h2>
+<p>食べ物の安全と並んで、場所の安全があります。国内の野山は、ほぼすべて誰かの土地か、何らかの制度の対象です。次の確認は省かないでください。</p>
+<ul>
+<li><strong>土地の所有</strong> — 山でも林でも、土地には所有者がいます。勝手に入って採るのは、法的に問題になり得ます。</li>
+<li><strong>自然公園等の規制</strong> — 国立・国定公園では、指定植物の採取や、区域によっては植物の採集全般が制限されるのです。</li>
+<li><strong>道路・河川敷</strong> — 道路沿いは排気が付着します。河川敷は自治体・河川事務所の管理です。</li>
+<li><strong>農地・果樹園の隣</strong> — 農薬の飛散範囲にある草は避けます。</li>
+</ul>
+
+<h2>6. どんな宿から始められるか</h2>
+<p>田舎の宿は、裏山の薬草文化の聞き取りから始めるとよいでしょう。地域のお年寄りに「昔、何を飲んでいましたか」と尋ねるだけで、野草茶のメニューと郷土の記憶が同時に手に入ります。都市型の宿は、屋上や庭のコンテナでミントやレモンバームを育てるところから。育てたハーブを乾燥して茶にする——「畑のいちばん小さい版」です。温泉旅館なら、大浴場の後の一杯を野草茶にするだけで、湯上がりの体験に土地の風味が加わります。</p>
+<p>逆に、このテーマに向かない宿を正直に書くと、<strong>確認と記録を続けられない宿</strong>です。同定の記録、乾燥の日付、提供した量。野草の体験は、この事務的な手続きの上でしか美しくありません。</p>
+
+<h2>むすび</h2>
+<p>北欧のシェフたちは、マニフェストに「野草」と書きませんでした。現場が、言葉よりも先に実践したからだと私たちは読んでいます。宿が野草を味わうとは、草を皿に載せることではなく、土地の知識を継ぐ場所になることなのです。その第一歩は、安全な茶を一杯、自分たちで淹れることです。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 湧水や野生の植物・食品をゲストに提供する場合は、飲食の安全を必ず確認してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#herb-tea-satoyama">森のハーブティー — 里山の恵みをドリンクに翻訳する方法</a> — 里山の素材を飲み物にする設計</li>
+<li><a href="#farm-to-table-harvest">畑から直接 — アグリ×フードの収穫体験と一皿の物語</a> — 畑から食卓までの流れ</li>
+<li><a href="#idea-spring-water-taste">里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア</a> — 水を味わう視点</li>
+<li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 採取の安全と体験設計の両立</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"フード＆ベバレッジ"}],["$","span",null,{"children":["ARTICLE ","127"]}]]}],["$","h1",null,{"children":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}],["$","p",null,{"className":"excerpt","children":"野草採取が世界の高級料理を変えました——ただしマニフェストには「フォアジェ」という言葉はありませんでした。日本の山菜文化と、厚労省が「採らない、食べない」と警告する現実。野草茶から始める安全な設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-wild-herb-taste.jpg","alt":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.07"}],["$","span",null,{"children":"Food & Beverage"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","breakfast-buffet-media",{"href":"/journal/articles/breakfast-buffet-media","children":[["$","img",null,{"src":"/library/journal/ai_breakfast-buffet-media-new.jpg","alt":"朝食をメディア化するビュッフェ設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.01.29"}],["$","h4",null,{"children":"朝食をメディア化するビュッフェ設計"}]]}]]}],["$","$L2","herb-tea-satoyama",{"href":"/journal/articles/herb-tea-satoyama","children":[["$","img",null,{"src":"/library/journal/ai_nature-drink-herb-tea.jpg","alt":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.25"}],["$","h4",null,{"children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}]]}]]}],["$","$L2","farm-to-table-harvest",{"href":"/journal/articles/farm-to-table-harvest","children":[["$","img",null,{"src":"/library/journal/ai_nature-food-farm-harvest.jpg","alt":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.27"}],["$","h4",null,{"children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-spring-water-taste","children":["← ","里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-small-farm-1tsubo","children":["小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

@@ -1,0 +1,77 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:"$Sreact.suspense"
+5:I[20229,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
+:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
+0:{"P":null,"c":["","journal","articles","idea-starry-light-pollution",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-starry-light-pollution","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+f:[]
+9:"$Wf"
+10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+:HL["/library/journal/ai_idea-starry-light-pollution.jpg","image"]
+11:T20e1,<p>2016年、Science Advances誌に掲載された「人工夜空輝度の新しい世界アトラス」は、こう報じました——世界人口の80%超が光害のある空の下で暮らし、米国と欧州ではその割合が99%を超えます。そして<strong>人類の3分の1以上は、天の川を見ることができません</strong>。星が消えたのではありません。空が明るくなったのです。この記事は、その事実の意味と、宿の灯りを点検する基準と、暗さを体験に変える方法を扱います。</p>
+
+<h2>1. 空が明るくなると、何が起きるのでしょうか</h2>
+<p>光害の本体は、スカイグローと呼ばれる現象です。街灯や看板の光のうち上向きに漏れた分が大気中の分子やエアロゾルに散乱され、夜空全体がほんのりと光るのです。星の光は遠くから来る微かな光だから、この「空自体の明るさ」に埋もれてしまいます。肉眼で見える星の数は、空の明るさが少し上がるだけで桁違いに減るのです。つまり、宿の外灯ひとつの向きは、その宿の空の星の数に、実際に効いています。</p>
+
+<h2>2. 灯りの基準——漏らさない、暖色、必要なだけ</h2>
+<p>世界の基準を要約すると、屋外灯の原則は3つに絞られます。</p>
+<ul>
+<li><strong>上に漏らさない</strong> — 光源が上向きに光を出さない構造（フルカットオフ）。電球が遠くから見えるようでは、光が空へ逃げているのです。国際ダークスカイ協会（IDA）の基準では、上方への光束が0%であることが求められています。</li>
+<li><strong>暖色に替える</strong> — 青みの強い白い光（高色温度）は散乱しやすく、夜空を明るくし、睡眠ホルモンのメラトニンへの影響も指摘されています。IDAの基準は<strong>色温度3000K以下の電球色</strong>。電球を替えるだけなら、宿の手入れの範囲でできるのです。</li>
+<li><strong>必要な場所に、必要な時間だけ</strong> — 常夜灯ではなく人感センサーとタイマー。午後10時以降は半灯にする、といった運用も、設備より先に始められます。</li>
+</ul>
+<div class="stats"><span class="tag">FACT</span><strong>星空保護区という制度がある</strong> — 光害問題に取り組む国際ダークスカイ協会（IDA）は1988年、米国アリゾナ州で設立された。2001年に始まった認証プログラム（星空保護区）は、暗い夜空の保護への優れた取り組みを認める制度で、日本では2018年4月、西表石垣国立公園が国内初の星空保護区として認定された。認定には屋外照明の厳格な基準や住民の啓発活動が求められる。参考までに、パナソニックの光害対策型の道路灯・防犯灯が国内メーカーとして初めてIDAの認定を受けたのは2020年である。</div>
+
+<h2>3. 宿で点検する5か所</h2>
+<p>星空を守る灯りは、理屈より点検です。日が暮れてから、自分の宿を一度、外から見て回ると、5か所でたいてい見つかります。</p>
+<ul>
+<li><strong>外灯・門灯</strong> — 10メートル離れて立って、電球そのものが見えるなら、光が横と上に漏れています。笠をつけるか、下向きの器具に替えましょう。</li>
+<li><strong>看板の照明</strong> — 看板を下から照らすアップライトは、空への放電です。上から下へ、看板の幅だけを照らす照明へ。</li>
+<li><strong>テラス・縁側の灯り</strong> — 足元を照らす灯りは低い位置に。人は空を見上げるとき、灯りには背を向けます。</li>
+<li><strong>客室の窓</strong> — カーテンの隙間から漏れる室内灯も、敷地全体の明るさを作ります。就寝時の案内で「カーテンをお願いします」の一言を添える文化を作りましょう。</li>
+<li><strong>不要な常夜灯</strong> — 「なぜここに灯りがあるのか」に答えられない灯りを消しましょう。消すことは、星の数に直結します。</li>
+</ul>
+
+<h2>4. 暗さと安全は、対立しません</h2>
+<p>ここで必ず出る反対論に、正面から答えておきたいと思います。「暗くすると危険ではないか」。IDAの基準が教える通り、光害対策は<strong>暗くすることではなく、光の方向と量を制御すること</strong>です。足元、段差、階段、水辺、駐車場の車の動線——人が実際に足を置く場所は、下からしっかり照らしましょう。その一方で、空と人の目に入らない方向の光を切り詰めます。眩しさは、実は見えるものを見えなくします（まぶしさで足元が見えない歩道灯もあります）。星を見る暗さと、足を踏み外さない明るさは、灯りの「質」を上げることで両立するのです。</p>
+<p>防犯についても、常夜の強い灯りが必ずしも安全を意味しないとIDAは指摘しています。人感センサーで点く灯りは、動くものの存在をむしろ明確に知らせます。</p>
+
+<h2>5. 暗さを、体験にする</h2>
+<p>灯りを整えたら、暗さは宿の体験の主役になれます。</p>
+<ul>
+<li><strong>星空の席</strong> — 敷地内でいちばん空が広く見える場所に、椅子をふたつ。灯りから離れた場所の指定だけで、星の見える席ができるのです。</li>
+<li><strong>新月と満月の使い分け</strong> — 月齢は予定表にできます。新月の週は「星の週」、満月の夜は「月の夜」と、案内を切り替えましょう。この設計は<a href="#idea-moon-enjoy-stay">月を楽しむ宿</a>と共通です。</li>
+<li><strong>消灯の時間</strong> — 「23時、外灯を半灯にします。その後は星の時間です」と告知します。消灯は、宿の行事になりえます。</li>
+<li><strong>星の案内カード</strong> — その季節の目印の星を1つだけ書いたカード。星座早見盤の貸出でもよいでしょう。</li>
+</ul>
+
+<h2>6. 向く宿・向かない宿</h2>
+<p>この取り組みの価値は立地でほぼ決まります。山あい、離島、中山間地の宿は、灯りの点検だけで国内有数の星空を売れる立地にあるのです。逆に市街地の宿では、街の光害は宿の一存では消せません——それでも、テラスや屋上の自灯りを減らせば見える星は増えるし、部屋から見える空だけでも整える価値はあります。幹線道路沿いで交通安全上の灯りが必要な立地では、灯りの「量」より「方向と質」の見直しが主戦場となるのです。どこまで行っても、星は減点法で見えてきます。</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>星空を守る灯りの本質は、<strong>「光は、用がある方向にだけ使う」という礼儀</strong>です。灯りの点検は設備投資ではなく、日暮れ後の10分の散歩で始まります。その10分で、宿の空は確かに暗くなります。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-moon-enjoy-stay">月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア</a> — 月の暦と満月の夜の設計</li>
+<li><a href="#idea-stargazing-tourism-stay">星空ツーリズムを宿に取り入れる — 星空・月・夜の暗さを楽しむアイデア</a> — 星空を宿の主役にする考え方</li>
+<li><a href="#idea-night-stay-light-moon-star">夜の過ごし方を伝える — 夜の灯り・月・星で過ごす夜のアイデア</a> — 夜の灯り全体の設計</li>
+<li><a href="#energy-saving-revenue">エネルギー削減 — 「収益の口座」としての基礎</a> — 灯りの電気代という観点</li>
+</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","140"]}]]}],["$","h1",null,{"children":"星空を守る灯り — 光害を減らす灯りで星空体験を深めるアイデア"}],["$","p",null,{"className":"excerpt","children":"人類の3分の1は天の川を見られなくなりました——2016年の世界アトラスの数字から、灯りの基準（上に漏らさない・暖色・必要なだけ）、日本初の星空保護区・西表石垣の話、安全と暗さの両立まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-starry-light-pollution.jpg","alt":"星空を守る灯り — 光害を減らす灯りで星空体験を深めるアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.20"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L10","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L10","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/idea-forest-scent-collection","children":["← ","森の香りを集める — 森の香り・葉・枝で作る宿の香りのアイデア"]}],["$","$L10",null,{"href":"/journal/articles/idea-morning-market-stay","children":["朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"," →"]}]]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"星空を守る灯り — 光害を減らす灯りで星空体験を深めるアイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"人類の3分の1は天の川を見られなくなりました——2016年の世界アトラスの数字から、灯りの基準（上に漏らさない・暖色・必要なだけ）、日本初の星空保護区・西表石垣の話、安全と暗さの両立まで。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

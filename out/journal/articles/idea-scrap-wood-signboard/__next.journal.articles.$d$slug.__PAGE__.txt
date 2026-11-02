@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-scrap-wood-signboard.jpg","image"]
+:HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
+:HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
+:HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
+3:T2738,<p>旅人は、宿を何度目で「見つける」のでしょうか。駅前の道、曲がり角、門柱、そして看板。宿との最初の接触は、ロビーでも客室でもなく、その多くが<strong>入口の看板</strong>です。なのに、宿づくりの議論では看板は最後に考えられます。メーカーの既製品を発注して終わり——それが実態ではないでしょうか。この記事では、廃材と古材で看板を作るというテーマを、宿の「最初の一秒」を設計する話として考え直します。</p>
+
+<h2>1. 考え方 — 人はランドマークで土地を覚えます</h2>
+<p>都市計画の研究に、ケビン・リンチ『都市のイメージ』（The Image of the City、1960年）という古典があります。リンチは、人が街を頭の中の地図として描くとき、「道」「縁」「領域」「節点」、そして<strong>「ランドマーク」</strong>という5つの要素を使うと論じました。ランドマークとは、看板や塔、角の店など、目印になって方向を与えるものです。</p>
+<p>宿の看板は、まさにこのランドマークの役割を、単体で引き受けています。道を教わりながら近づくゲストの頭の中の地図に、あなたの看板は正しく刺さっているでしょうか。まずはこの問いから始めたいと思います。看板の仕事は、宿の名前を伝えることだけではありません。<strong>「もう着いた」という安心と、「ここから先は、この宿の時間」という切替え</strong>を渡すことです（ANALYSIS）。</p>
+
+<h2>2. CULTURE — 墨で書かれた文字が、材に履歴を残す</h2>
+<p>日本の大工は、木材に墨で印を書いてきました。継手・仕口の番号、部材の向き、棟札——墨字（すみじ）と呼ばれるそれらの痕跡は、解体された古材に今も残っています。規格化される前の木造建築では、墨字が建築の「組立図」でした。古材に残る薄い墨の数字を見つけたとき、多くの人は、そこに働いた誰かの手を感じ取るのです。</p>
+<div class="note"><span class="tag">DID YOU KNOW?</span>古材には、寸法や番号を示す大工の墨字、蟻や湿気の痕跡、かつての釘の孔など、「履歴」が文字や模様として残っています。新材にはないこの表情は、人が物に歴史を読み取る心理（本物のオリジナルを好む傾向）と相性が良いのです——看板に使ったとき、素材そのものが説明文として働きます。</div>
+<p>廃材で看板を作ることの本質は、エコのためではありません。<strong>履歴のある素材が、宿の来歴を預かる</strong>ことです。あなたの宿が50年前の建物なら、その建物と同世代の材で作られた看板は、どんな高価な新材よりも釣り合います（InnBuddy VIEW）。</p>
+
+<h2>3. 実装①素材を集める — 探し方と、見極め</h2>
+<p><strong>入手先</strong>は、身近に多くあります。解体予定の離れ・蔵・小屋（所有者と相談）、地域の解体業者・古材屋、廃家具、酒蔵から出る酒箱、出荷に使われた桟木やパレット。古材屋では、銘木と呼ばれる高級材だけでなく、節のある普通材の方が看板に向き、しかも安いのです。</p>
+<p><strong>見極めの3点</strong>を書いておきましょう。(1)腐り——白く軽く崩れる部分や、深い割れがある材は避けます。(2)異物——釘やビスは抜くか、打ち込みましょう。見えている金物は錆びて手を傷つけます。(3)薬剤——昔の屋外材には防腐・防蟻処理が施されていることがあり、切断時に粉塵を吸わないよう、屋外・マスク・手袋の作業を。判然としない処理材は、屋外の看板には使えても、触る機会の多い案内サインには使わない、といった使い分けをします。</p>
+
+<h2>4. 実装②作る — 文字を足しすぎません</h2>
+<p>看板の作り方で最も失敗しやすいのは、実は工事ではなく<strong>情報の詰め込みすぎ</strong>です。宿の名前、電話番号、営業時間、案内、価格まで書かれた看板は、車窓の0.5秒で読める情報量を超えています。看板に必要なのは、まず<strong>名前</strong>、そして場合により<strong>方向</strong>。それ以外は、立てる場所を一段奥にして別の案内に分けます。</p>
+<p>文字の入れ方には、廃材と相性の良い方法がいくつかあります。</p>
+<ul>
+<li><strong>彫る</strong>（チェンソー・ルーター・彫刻刀） — 材の硬さで難易度は変わりますが、文字が材に「住む」のです</li>
+<li><strong>焼く</strong>（コテ・バーナーによる焼印） — 焼き色は材の経年と同化します</li>
+<li><strong>書く</strong>（墨・ペンキ） — 地域の書家や、棟梁の墨文字に頼る案もあります</li>
+<li><strong>足す</strong>（文字板・ピクトグラム） — 1964年の東京オリンピックで本格導入されたピクトグラムのように、言語を問わず通じる絵を使います</li>
+</ul>
+<p>デザイン上のこつは、<strong>材の模様と競合させない</strong>ことです。節や墨字がにぎやかな材には、文字を大きく少なく。逆に無地に近い材には、履歴を足します（小さな焼印や、材の由来を一行、裏面に刻みます）。</p>
+
+<h2>5. 実装③立てる — 法規と、倒れなかった看板の話</h2>
+<p>ここは省略できません。<strong>屋外の看板は、法律の対象です</strong>。屋外広告物法（1965年）に基づき、多くの自治体が条例で屋外広告物の規制を定めており、設置できる場所・大きさ・高さ・方法がエリアごとに決まっています。景観地区・準景観地区では制限がさらに厳しく、道路に面した表示には道路交通上の制約も関わります。<strong>設置前に、自治体（担当課）への確認が必須</strong>です。この確認を怠った看板は、最悪の場合撤去を求められます。</p>
+<p>物理的な安全も同じくらい重要です。看板は風を受け続ける構造物です。</p>
+<ul>
+<li>支柱は材の重さと風圧に耐える太さ・深さで（土に直接埋める場合は腐りやすいので、ポスト基礎や金物の併用を）</li>
+<li>倒れて人・車に当たる場所では、ワイヤーでの補強</li>
+<li>高さは、車の視界（低い位置）か歩行者の視界（1.2〜1.5メートル前後）かを、通行者に合わせて選びます</li>
+<li>夜に読ませるなら、照明は看板に直接当てるより、足元から温かく照らす方法が光害にも優しいのです</li>
+</ul>
+
+<h2>6. 保守 — 廃材の看板は「育つ」前提で設計します</h2>
+<p>無塗装の屋外の木材は、数年で銀色に風化し、割れも出ます。これは欠点であると同時に、計画に入れておける性質でもあります。防腐塗装を選ぶなら、何年かに一度の塗り直しを誰がやるか決めておきましょう。風化を選ぶなら、文字が「彫り」や「焼き」で入っていれば、材が朽ちても文字は読めます。看板の保守点検（緩み・倒れ・文字の褪せ）を、館内巡回に1行加えるだけで、看板は10年単位で持ちこたえます。</p>
+
+<h2>7. 伝え方 — 看板は最初の写真です</h2>
+<p>最後に、看板は集客の入口でもあることを書いておきましょう。宿の紹介写真の最初の1枚に、入口の看板が映っていると、予約前のゲストは「着いたときの景色」を先に手に入れられます。古材の看板は、晴れの日より、雨に濡れて色が濃くなった朝に撮ると良いでしょう（撮りだめの1枚に加えておきたいところです）。OTAや公式サイトに載せる写真に、看板単体ではなく「看板とその風景」の1枚があると、宿の最初の一秒を、まだ来ていない人にも届けられます。</p>
+
+<h2>むすび</h2>
+<p>廃材で看板を作るとは、宿の履歴を入口に立てることです。解体された蔵の梁が、50年後に、またゲストを迎える仕事に就く——素材の再雇用とでも言いましょうか。最初の一秒を預かるものに、新品の無個性ではなく、少し使われた木をあててみましょう。それが、看板について考え直す、ということです。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 建物や古材・道具を扱う場合は、構造と作業の安全を専門家と確認してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-driftwood-upcycle">流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア</a> — 履歴のある素材の魅力</li>
+<li><a href="#idea-craftsman-handwork">職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア</a> — 手仕事に触れる体験</li>
+<li><a href="#idea-illustrated-map-local">地域の地図を絵で描く — 絵地図・イラストマップで地域を伝えるアイデア</a> — 案内の全体設計</li>
+<li><a href="#idea-empty-house-story">空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア</a> — 建物の来歴を扱う視点</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","130"]}]]}],["$","h1",null,{"children":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}],["$","p",null,{"className":"excerpt","children":"都市計画の古典は、人が土地を覚える要素のひとつに「ランドマーク」を挙げました。宿の看板は、ゲストが最初に目にする接点であり、最後に見る記憶です。古材と古道具で看板を作る方法と、知っておくべき法規を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-scrap-wood-signboard.jpg","alt":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-forest-sound-collection","children":["← ","森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-morning-dew-mist","children":["朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

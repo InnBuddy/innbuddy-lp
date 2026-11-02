@@ -1,0 +1,54 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-village-walk-path.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T1fce,<p>宿の施設で、最も安く、最も効果的なものは何かと問われたら、この記事はこう答えます——<strong>散歩道</strong>です。作り方もシンプルで、集落の道を歩き、時間を測り、地図に描きます。それだけの「施設」ができます。ですが、そのシンプルさに騙されてはいけません。道には作法があり、歴史があり、世界遺産になった道すらあります。この記事は、集落の小径・水路・祠を巡る散歩道を、観光のオプションではなく、集落との関係を編む道具として設計します。</p>
+
+<h2>1. 道が世界遺産になります——熊野古道の逆説</h2>
+<p>2004年、「紀伊山地の霊場と参詣道」が世界文化遺産に登録されました。登録の対象には熊野三山や高野山といった霊場と、そこへ至る参詣道——熊野古道——が含まれ、<strong>道が世界遺産になった日本で初めての例</strong>となりました（世界全体でも、道の世界遺産はスペインのサンティアゴ・デ・コンポステーラの巡礼路に次ぎます）。</p>
+<p>ところが、この登録には注目すべき例外があります。古道の一部の「紀伊路」は、登録対象から外されました。理由は、近代以降も交通路として使われ続け、道路の改良が進んだ結果、参詣道としての歴史的な面影を保てなくなったからだとされています。ここに散歩道の本質を突く逆説があるのです。<strong>道は、使われなさすぎても失われ（草に呑まれ）、使われすぎても失われます（舗装に呑まれる）</strong>。道が道であり続けるには、適切な速度で歩かれ続けることが必要です。宿の散歩道は、集落の道を「歩く速度で」使い続ける装置なのです。</p>
+
+<h2>2. 歩道のバレエ——道の安全は「街の目」が作ります</h2>
+<p>1961年、ジェイン・ジェイコブズは『アメリカ大都市の死と生』で、街の安全性は警察でも照明でもなく、<strong>「街の目」——通りに面して暮らす人々の自然な視線</strong>が作ると論じました。店の人、窓から外を見る住民、通りで立ち話をする隣人。彼女はこの日常の営みを、朝から晩まで刻々と編まれる「歩道のバレエ」と呼びました。誰かが見ている道は安全で、誰も見ない道は危険になる——この原理は、大都市の歩道と里山の小径で変わりません。散歩マップを作るとき、ルート選びの第一基準は、実は景色ではなく、<strong>暮らしの目のある道かどうか</strong>です。畑仕事の人、水路の見回りの人、縁側のお茶——そんな視線とすれ違う道を選びます。散歩の安全は、集落が毎日保証してくれています。</p>
+
+<h2>3. マップの作り方——距離ではなく、時間で書く</h2>
+<p>散歩マップの作成は、宿の側の散歩から始まります。コツをいくつか。</p>
+<ul>
+<li><strong>分（ぷん）で書く</strong> — 「800m」より「徒歩10分」。散歩の単位は距離ではなく時間です。実際に歩いて測り、行きと帰りで違う道があれば、周回ルートにしましょう。</li>
+<li><strong>見どころの階層を書く</strong> — 集落の散歩の見どころは3層あります。小径（道そのものの表情）、水路（音と光）、祠・石仏（集落の信仰の痕跡）。水路の音は耳で確認する場所として書けますし、祠は「集落のどこに、どんな祈りが置かれているか」の見どころになります。道祖神やお地蔵さんが村の境界や道の安全を見守るために祀られてきた、という信仰の形は、土地によって様々です——その土地の言い伝えを、地元の人に聞いて書くのが正攻法なのです。</li>
+<li><strong>危険と境界を書く</strong> — 車の飛ぶ幹線道路の横断箇所、崩れやすい法面、畑の中の農道（農家の生産地であること）、水路に落ちやすい箇所。注意喚起の赤字は、地図の信頼感を作ります。</li>
+<li><strong>季節版を作る</strong> — 同じ道でも、朝露のルート（<a href="#idea-morning-dew-mist">朝露と朝霧</a>）、螢のルート、紅葉のルートと、季節で表紙を替えられます。散歩マップは刷りっぱなしの地図ではなく、季節ごとに書き替わる旅の予定表です。</li>
+</ul>
+
+<h2>4. マナーは、地図に書きます</h2>
+<p>散歩のマナーは、宿の口頭ではなく、地図の隅に書いて渡すのが一番伝わります。</p>
+<ul>
+<li><strong>畑と畦道は、農家さんの仕事場</strong> — 畦道は農道です。作物に触れない、農機を優先する、収穫前の実は撮影のみ。</li>
+<li><strong>祠は信仰の対象</strong> — お参りの一礼を。写真は控えめに、乱雑に扱いません。</li>
+<li><strong>水路に降りない</strong> — 水路は生活と農業のインフラです。子どもの飛び込みは事故になります。</li>
+<li><strong>ごみは持って帰りましょう。挨拶をしましょう</strong> — 「こんにちは」の一言が、次のゲストが歓迎される道を作ります。</li>
+</ul>
+
+<h2>5. 道を貸してもらっている、という視点</h2>
+<p>最後に、この記事でいちばん大事なことを書きます。散歩マップに載せる道のほとんどは、私有地か、集落の生活道路です。宿は、集落の道を「貸してもらって」ゲストに案内しています。だからマップを作る前には、ルート沿いの家にあいさつ回りをしましょう。散歩客が増えることが、住民にとっては生活道路を通行者と共有することの負担でもあるからです。プライバシー（寝室の窓の前を通るルート）、事故（農道での車とのすれ違い）、プライベートな時間（洗濯物や農作業の最中）——負担の種を聞いて、ルートと案内を調整しましょう。この手順を飛ばした散歩マップは、いずれ集落から返されます。この手順を踏んだ散歩マップは、住民が「あの宿の地図ね」と案内してくれる、集落共通の道具になります。</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>散歩道の設計とは、地図を描くことではなく、<strong>歩く関係を描くこと</strong>です。ジェイコブズの言う歩道のバレエは、見知らぬ通行人が加わっても踊り続けられる——そのためには、通行人が踊りを乱さない作法を知っている必要があります。マップに書くマナーは、ゲストを制限する文字ではなく、集落の踊りに加わるための台本です。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-morning-dew-mist">朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア</a> — 散歩のベストシーズンの朝</li>
+<li><a href="#idea-spring-water-taste">里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア</a> — 水路の先にある水の話</li>
+<li><a href="#idea-empty-house-story">空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア</a> — 散歩の先にある集落の記憶</li>
+<li><a href="#idea-forest-sound-collection">森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア</a> — 歩きながら聞こえる音の設計</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","146"]}]]}],["$","h1",null,{"children":"集落の散歩道 — 集落の小径・水路・祠を巡る散歩マップのアイデア"}],["$","p",null,{"className":"excerpt","children":"道そのものが世界遺産になったのが熊野古道です——ただし、使われすぎた道は登録から外れました。歩道のバレエを説いたジェイン・ジェイコブズの眼と、時間で測る散歩マップの作り方、「道を貸してもらう」視点まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-village-walk-path.jpg","alt":"集落の散歩道 — 集落の小径・水路・祠を巡る散歩マップのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.26"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-empty-house-story","children":["← ","空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-festival-preparation","children":["祭りの準備に参加する — 祭りの準備・片付け・直会を体験にするアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

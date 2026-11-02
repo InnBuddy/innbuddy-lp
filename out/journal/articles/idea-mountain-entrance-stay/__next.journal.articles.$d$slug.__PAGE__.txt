@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-mountain-entrance-stay.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T1a65,<p>山の旅の宿が預かるのは、山そのものではありません。山の「前」と「後」です。登山前の晩の過ごし方と、下山した後の時間——山の旅の記憶の大半は、実は山の中ではなく、その前後の宿で作られます。この記事は、山の入り口としての宿の設計を、数字と制度と実務から考えます。</p>
+
+<h2>1. 数字——山は、人が多いものです</h2>
+<p>環境省は2005年から、富士山の4つの登山道（吉田・須走・御殿場・富士宮）のそれぞれ八合目に赤外線カウンターを設置し、登山者数を調べています。2023年の夏期（開山日から9月10日まで）の全ルート合計は約22万1,000人、2024年は20万4,316人で、コロナ前の2019年（約23万5,000人）の87%でした。環境省が同時に伝えているのは、低体温症・高山病・ケガの救助要請が毎年相次いでいることです。山の入り口の宿は、この「20万人と遭難」の両方に接する場所にあるのです。宿の案内の質は、山の安全に直結しています。</p>
+
+<h2>2. 登山口は、聖地の門でした</h2>
+<p>日本の山の入り口には、しばしば鳥居や小さな堂が立っています。日本の山は、古くは遊びの場ではなく信仰の対象だったからです。山岳信仰と修験道の世界では、山に入ることは修行であり、登山口は聖なる領域への門でした。娯楽としての登山——山岳会やクラブ活動としての山歩き——が日本に入ってきたのは明治期以降です。この歴史は、山の入り口の宿の案内にそのまま使えます。登山口の鳥居の写真と「山に入る前の作法」の1枚カードは、ハイキングの案内を、土地の祈りの物語につなげるのです。</p>
+
+<h2>3. 道を憲法で守る国——スイス</h2>
+<div class="stats"><span class="tag">CASE</span><strong>6万5千キロの道網を、国が守る</strong> — スイスの標識つきハイキングコースは延べ約6万5,000キロメートル（地球一周の1.6倍に相当）。道標は1930年代に全国で整備・統一された。さらにスイスは、歩道とハイキングコースを良好で安全な状態に保つことを連邦憲法に定めた、世界でもまれな国である。整備は州と自治体の管轄で、約1,500人のボランティアが枝の伐採や道標の調整を支えている（スイス政府放送SWIの解説による）。</div>
+<p>スイスの事例が教えるのは、山を資源と考える国は、山への「入口」——道と案内——にまで制度を作るということです。宿も同じといえます。山の入り口としての宿の質は、ベッドの数ではなく、<strong>道・案内・人という入口のセット</strong>で決まります。道の整備は宿の仕事ではありませんが、道を知り、案内し、話せる人は、宿の仕事なのです。</p>
+
+<h2>4. 実務——前・朝・後の3つの時間</h2>
+<ul>
+<li><strong>前夜</strong> — 早朝出発に合わせた朝食の相談（前夜のうちに用意するか、3時の軽食か）。弁当の注文（山の上で食べる食事は、山の記憶の主役になります）。天気とルートの情報。登山計画書の文化——行程を家族と宿に残していく登山者を、宿が褒めるだけで文化は根づきます。ヘッドライトやレインウェアの貸出。</li>
+<li><strong>朝</strong> — 見送りの一言。体調の確認を挨拶に混ぜましょう（頭痛は高山病の初期症状——「顔色が優れないですね」の一言が、山での事故を止めることがあります）。</li>
+<li><strong>下山後</strong> — いちばん先に用意するのは風呂です。次に欲しいのは温かい汁物。そして濡れた靴とレインウェアを一晩で乾かす乾燥室——登山客の心を掴む定番の設備です。山の道具の展示（ザイル、ランプ、古い地図）と、山の本のコーナーは、下山後の夜の話の種になります。</li>
+</ul>
+<p>山の話を聞ける人がいること——これが山の宿の最大の設備です。下山した夜、宿の主人がその日のルートの話（どこが混んでいたか、どこの展望が開いていたか）をできる宿は、翌日の登山者の計画まで支えます。</p>
+
+<h2>5. 責任——入山の判断を、担う</h2>
+<p>山の入り口の宿には、宿ならではの責任があります。悪天候の日には「今日は山をやめます」と言える宿であること——登山の安全管理のかなめは、入山の判断にあるのです。売上を気にして登らせる宿は、山の入口としての信頼を失います。地域の登山ガイドや山小屋との連携（天候情報、ルート情報、緊急時の連絡先）を作っておきましょう。長期天気予報と登山者の体力レベルの両方を聞いた上での助言は、宿の稼ぎ時である以上に、宿の使命です。</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>山の入り口としての宿の価値を決めるのは、設備の充実ではなく、<strong>「山から帰ってくる人を見る目」</strong>です。行ってらっしゃいを言い、無事に戻った顔を見て、風呂と食事と話を用意します。山の旅の成功は、頂上ではなく下山後の宿で確定します。</div>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 山や雪の季節の活動には、天候と装備の確認を含めて設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-village-walk-path">集落の散歩道 — 集落の小径・水路・祠を巡る散歩マップのアイデア</a> — 山の麓の集落を歩く設計</li>
+<li><a href="#idea-ecotourism-stay">エコツーリズムを宿に取り入れる — 森・川・海の観察を宿の体験に</a> — 山の観察を体験にする方法</li>
+<li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 山の需要を読む季節の設計</li>
+<li><a href="#idea-spring-water-taste">里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア</a> — 山の水を味わう視点</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","150"]}]]}],["$","h1",null,{"children":"山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"}],["$","p",null,{"className":"excerpt","children":"富士山の夏は20万人超が登ります。スイスは6万5千kmのハイキング道網を憲法で守ります。山の旅の記憶は、山の中ではなくその前後の宿で作られるのです——早朝朝食・弁当・乾燥室・山の話という実務と、入山の判断という責任。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-mountain-entrance-stay.jpg","alt":"山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.30"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-river-living","children":["← ","川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-port-town-stay","children":["港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

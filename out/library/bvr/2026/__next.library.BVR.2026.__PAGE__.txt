@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+3:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["/_next/static/chunks/15a8lobw4xcwu.css","style"]
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"page-module__FqPpIq__page","children":[["$","div",null,{"className":"page-module__FqPpIq__topBar","children":[["$","$L2",null,{"href":"/library/bvr","children":"← BRAND VISION REPORT"}],["$","span",null,{"children":"2026"}]]}],["$","iframe",null,{"src":"/library/bvr/2026/index.html","title":"BRAND VISION REPORT 2026","className":"page-module__FqPpIq__book"}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/15a8lobw4xcwu.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+5:null

@@ -1,0 +1,81 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:"$Sreact.suspense"
+5:I[20229,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
+:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
+0:{"P":null,"c":["","journal","articles","idea-bamboo-living",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-bamboo-living","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+f:[]
+9:"$Wf"
+10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+:HL["/library/journal/ai_idea-bamboo-living.jpg","image"]
+11:T2f6f,<p>竹という素材の、宿における立場を考えてみると、不思議なほど貧しいものです。「和風」という一語で片付けられ、エントランスの竹筒に花が一本挿されて、それで役割を終えています。ただ実は——竹は今、世界の建築界が注目する素材であり、同時に日本で最も余っている資源でもあります。この二つの事実を同時に抱えている素材は、ほかにありません。</p>
+<p>この記事では、①日本の竹が置かれている現状、②世界で竹が何を生んでいるか、③日本が持つ竹の手技文化、そして④それを宿でどう使うか、の順に考えます。</p>
+
+<h2>1. まず問題から——日本で竹は「余っている」</h2>
+<p>林野庁の統計では、日本の竹林面積は1981年の約14万ヘクタールから2012年には約16万ヘクタールへと拡大しました（日本経済新聞の報道による）。近年の民間集計では17万ヘクタールを超えるともされ、竹林の3分の2は管理されていないとする推計すらあります。</p>
+<div class="stats"><span class="tag">FACT</span><strong>約16万ha → 17万ha超</strong> — 林野庁統計で1981年約14万haだった竹林面積は2012年に約16万haへ拡大（日経報道）。近年は民間集計で17万haを超えるともされる。正確な「放置」面積の把握は難しい。</div>
+<p>竹は地下茎で毎年隣接する山林や農地へ侵入します。手入れを失った竹林は耕地を呑み、獣害の温床となり、「竹害」と呼ばれる地域課題に変わります。かつてはタケノコと竹材の需要で管理されていた竹林が、食生活と材料の変化で放置されてきました。</p>
+<p>ここで発想を逆にしてみましょう。<strong>日本では、上質な素材が「問題」の形で大量に眠っている</strong>ということです。地元の竹林所有者や自治体、森林組合と組める宿にとって、竹は仕入れ先を探す必要すらない資源になり得ます（ANALYSIS）。</p>
+
+<h2>2. WORLD — 竹で学校を丸ごと建てた人々</h2>
+<p>インドネシア・バリ島に「グリーンスクール」という学校があります。2008年の開校で、校舎のほとんどが竹の構造でできています。卒業生のエルラ・ハーディは、ニューヨークのファッション業界でデザイナーとして働いた後、2010年にバリへ戻って設計事務所IBUKUを立ち上げ、東南アジアとアフリカで90棟を超える竹の建築を手がけてきました（同事務所・本人の公表による）。彼女は2015年にTEDで竹の建築について講演し、世界中にこの動きを伝えました。</p>
+<div class="note"><span class="tag">CASE</span>グリーンスクールの竹造りで興味深いのは、竹の欠点を隠していない点です。竹は曲がる・割れる・虫が付きやすいものです。IBUKUの建築は、曲がるからこそアーチと曲面をつくり、防腐・防虫のための薬剤処理（硼素系）を工程の前提に組み込みました。素材の性質とまっすぐ向き合った上でデザインしています。</div>
+<p>ここから引き取りたいのは、設計の順序です。竹で「木の家の形」を作ろうとすると失敗します。竹の性質——しなる、軽い、中空、節がある、割れる——から形を引き出すと、竹にしかできない建築になります。宿が竹を使うときも同じで、<strong>竹で既製品の代用品を作る</strong>のではなく、<strong>竹の性質そのものを体験に使う</strong>のが正しい順序です（InnBuddy VIEW）。</p>
+
+<h2>3. JAPAN — 世界が建築で追いかけた素材を、日本は「編み」で極めた</h2>
+<p>バリの建築家たちが竹の構造の可能性を切り開いている一方で、日本は竹の「編み」の手技を数百年かけて極めてきました。大分県別府市の別府竹細工は、同県で唯一、経済産業大臣指定の伝統的工芸品です。四つ目編み、六つ目編み、網代編み——竹を裂いてひごにし、編み上げる技術は、道具からアート作品までを作ります。</p>
+<div class="stats"><span class="tag">FACT</span><strong>マダケ生産量 日本一</strong> — 大分県はマダケ竹材の生産量が全国1位、竹林面積は全国2位とされる（大分県の観光物産案内による）。別府竹細工は大分県で唯一の経済産業大臣指定伝統的工芸品。</div>
+<p>日本の暮らしの中の竹を数え上げると、その覆う範囲の広さに驚きます。正月の門松。茶の湯の茶筅。簾と簀戸。笹団子の葉。竹皮の弁当包み。竹串、竹筒、花入れ。竹は日本の生活の全域を支えてきた「影の主役」であり、しかもマダケは条件が良ければ1日に1メートル近く伸びるとも言われる、再生の速い植物です。</p>
+<p>面白いのは、この非対称です。世界は竹を<strong>建築</strong>で、日本は竹を<strong>工芸</strong>で追いかけてきました。だとすれば、両方の知見を持つ日本の宿には、竹の使い方の選択肢が元々多い——そう考えることもできます。</p>
+
+<h2>4. 宿で竹を使う——眺める・使う・作るの3層</h2>
+<p>実装の話をしましょう。竹の使い方を「眺める」「使う」「作る・触れる」の3層に分けて考えると、どの宿からでも入っていけます。</p>
+<p><strong>①眺める——竹林を、光と音の庭にしましょう。</strong>竹の魅力の半分は風景にあります。竹簾（すだれ）越しに落ちる光は夏の客室の空気を変えるし、竹葉のざわめきは他の木々と違う、乾いた高音の音色を持ちます。裏山に竹林がある宿にとって、最初の一歩は「使う」ことではなく<strong>間伐すること</strong>かもしれません。密集した竹林は光を拒むが、間伐された竹林は光と風が通う庭になります。放置竹林の整理は、地域課題への参画であると同時に、宿の借景の再生です。</p>
+<p><strong>②使う——竹細工の小物を、客室に入れます。</strong>アメニティを載せるかご、リネンを運ぶかご、朝食の小皿、箸置き、茶こし——まず1室だけ、アメニティのかごを竹細工に替えてみましょう。産地（別府をはじめ各地の竹細工産地）の職人品は、今では直接入手もできます。竹細工は「和」の文脈に収まらないこともお伝えしたいところです。竹はアジア全域の素材であり、東南アジアのリゾートの語彙とも自然に噛み合います。</p>
+<p><strong>③作る・触れる——竹を切り、編み、灯しましょう。</strong>竹切りと小物作りの体験（コースター、竹トンボ、花入れ）は、鋸と軍手で30分から始められます。産地なら職人による竹細工体験をプログラム化できるのです。夜は竹あかりです——竹に穴を開けて灯を入れる「竹灯籠」のイベントは、ここ数年、各地の町おこしで定番になりつつあります。宿の庭の一角であれば、竹数十本と灯りだけで夜の風景が作れるのです。</p>
+<div class="stats"><span class="tag">SIMULATION</span><strong>はじめ方の参考例</strong> — アメニティかご1個を竹細工に替える（職人品なら数千円〜、参考価格）、裏山の間伐体験は森林組合等との相談から、竹あかりは竹の入手と火気でない光源（LEDろうそく等）の組み合わせから。いずれも「1室・1回・1角落」から始められる規模である。</div>
+
+<h2>5. 運営の現実——竹の欠点とどう付き合うか</h2>
+<p>良い記事は、素材の欠点から目を逸らしません。竹の欠点を整理しましょう。</p>
+<ul>
+<li><strong>虫とカビ</strong> — 竹はでんぷん質を含み、虫が付きやすいものです。職人の品は燻しや乾燥などの処理が済んでいるが、自家製の竹材をそのまま客室に使うのはリスクがあります。生竹を小物に使うなら、油抜き（火で炙る）と十分な乾燥が必要で、素人が作る場合は「飾り」の範囲までを安全圏と考えます。</li>
+<li><strong>水に弱い</strong> — 竹細工の多くは水洗い不可。清掃は乾拭きが基本になります。浴室まわりの小物には向きません。</li>
+<li><strong>日光で劣化する</strong> — 窓際の直射日光が当たり続く場所では色褪せや脆化が早くなります。</li>
+<li><strong>割れる・ささくれ</strong> — 竹は繊維方向に鋭く割れるのです。ゲストが手にする小物は、面取りと仕上げが済んだ製品に限ります。</li>
+<li><strong>燃えやすい</strong> — 竹や籐は可燃物です。照明と組み合わせるときは低発熱のLEDに限ります。</li>
+<li><strong>体験の安全管理</strong> — 竹切り体験は刃物管理・指導者の同席・保険が前提です。間伐は林地所有者の許可と、切り倒す側の安全管理（残した竹が跳ね返る危険など）があります。必ず地元の林業・森林組合の指導を受けてください。</li>
+</ul>
+
+<h2>6. どんな宿に、どんな形で</h2>
+<p>竹林や里山に接する宿は、間伐体験・竹あかり・竹素材の空間まで視野に入ります。温泉旅館なら、竹かごでタオルを運び、浴場の小物に竹を使うだけで「その土地の素材」の話が生まれます。都市型の宿でも、竹細工の器とかごから始められます——必要なのは産地とのつながりだけで、規模は問いません。</p>
+<p>逆に向かない宿があるとすれば、それは「竹を置くだけで終わる宿」です。竹細工は埃と乾燥に弱く、放置すれば1〜2年で魅力が落ちます。<strong>手入れする人と、その物語を語る人がいるか</strong>——この2点が、竹を使える宿とそうでない宿の分かれ目になります（InnBuddy VIEW）。</p>
+
+<h2>むすび——竹は「和風」でも「エコ」でもありません</h2>
+<p>速く育ち、曲がり、割れ、編める——竹の魅力は、性質そのものが設計の余地になっていることです。放置竹林という日本の課題と、別府の職人の手技と、バリの建築。この3点を結ぶ線上に、あなたの宿の竹の使い方があるかもしれません。最初の一歩は、裏山の竹の種類（マダケか、モウソウチクか）を調べることでも、アメニティかごを1個替えることでも構いません。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-bamboo-charcoal-living">竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア</a> — 竹を燃やさずに活かす発想</li>
+<li><a href="#idea-scrap-wood-signboard">廃材で作る看板 — 古材・古道具で作る宿の看板アイデア</a> — 廃材と素材の物語</li>
+<li><a href="#idea-craftsman-handwork">職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア</a> — 素材の手技を体験にする方法</li>
+<li><a href="#idea-wind-feel-room">風を感じる客室 — 風鈴・風の抜け方・窓の開け方で作る涼のアイデア</a> — 竹簾の風と光</li>
+</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","124"]}]]}],["$","h1",null,{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","p",null,{"className":"excerpt","children":"竹は「和風の装飾」ではありません——世界の建築界が注目する素材であり、日本で最も余っている資源でもあります。放置竹林が課題になる時代に、竹を眺め、使い、作る宿の設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.04"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[8,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+:HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
+:HL["/library/journal/ai_idea-compost-living.jpg","image"]
+:HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
+12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L10","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L10","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}]]}]]}]
+13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/idea-firewood-landscape","children":["← ","薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"]}],["$","$L10",null,{"href":"/journal/articles/idea-driftwood-upcycle","children":["流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"," →"]}]]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"竹は「和風の装飾」ではありません——世界の建築界が注目する素材であり、日本で最も余っている資源でもあります。放置竹林が課題になる時代に、竹を眺め、使い、作る宿の設計を考えます。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

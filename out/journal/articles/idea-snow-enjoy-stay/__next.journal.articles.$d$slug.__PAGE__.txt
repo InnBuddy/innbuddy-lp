@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/library/journal/ai_idea-snow-enjoy-stay.jpg","image"]
+:HL["/library/journal/ai_regional-experience-program.jpg","image"]
+:HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
+:HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
+3:T268f,<p>雪国の宿で雪の話をすると、たいてい二つの声が同時に返ってきます。「雪はうちの冬の一番の売りです」と、「雪の日は業務が回りません」。どちらも本当であり、この記事はその両方を扱います。雪の夜がなぜ静かなのか、雪の朝がなぜ鳴くのかという知覚の話から、かまくらと雪あかりという二つの行事の本質、そして雪を体験に変える小さな手と、雪と付き合う業務の現実まで。雪を資産として扱う宿は、雪のコストを知っている宿です。</p>
+
+<h2>雪の夜が静かで、雪の朝が鳴く理由</h2>
+<p>雪の夜の静けさには、理由があるのです。降りたての新雪は空気をたくさん含み、その多孔質な構造が音を吸収します。だから大雪の翌朝は、世界の音が一段小さくなります。これは雪を体験する宿にとって、最初から使える「何もしない演出」です——BGMも照明もいりません。静かになったこと自体を、カード一枚で言語化するだけで構いません。</p>
+<div class="stats"><span class="tag">RESEARCH</span><strong>「鳴き雪」——雪の踏み音には、名前がなかった</strong> — 北海道大学低温科学研究所の前野紀一さんは、雪を踏む音を科学的に調べ、履物の種類、踏み方、雪質、温度によって「ザックザック」「サクッサクッ」「キュッキュッ」と音が変わることを示した。この現象を表す言葉が日本語にも外国語にも存在しなかったため、前野さんは「鳴き雪」という名前を提案したという（日本雪氷学会北海道支部のエッセイによる）。</div>
+<p>雪の踏み音は、乾いた砂浜が鳴るのと同じように、雪の粒どうしがこすれ合って出ると説明されています。雪粒の表面が溶けている0℃近くでは音が出にくく、硬く乾いた低温の雪ではキュッキュッと高い音が出ます。つまり<strong>雪の音は、その朝の気温を読める音</strong>です。「今朝の雪はよく鳴きますね——冷え込みました」という会話は、宿の朝の温度計になります。</p>
+
+<h2>雪見の座り方——日本建築の発明</h2>
+<p>雪を見るためだけに、日本の建築は専用の装置を発明してきました。<strong>雪見障子</strong>は、掃き出し窓の上半分を格子に、下半分をはめ外しできる腰障子にした窓で、腰障子を外せば、寒い部屋の中に座ったまま、雪の庭を妨げられずに眺められます。雪を見るために窓を開け、しかし風雪から身体を守る——この「隔たりの中の見晴らし」という発想は、雪見の座り方そのものです。川端康成の『雪国』が「国境の長いトンネルを抜けると雪国であった。夜の底は白くなった。」で始まるのも、暗いトンネル（隔たり）から白い雪国（見晴らし）へ切り替わる一行です。</p>
+<p>宿への翻訳は、雪見障子がなくてもできます。<strong>ガラス一枚を隔てて雪を見せる席</strong>を、客室や食堂にひとつだけ指定すること。暖房で温まった部屋から、落ち着いて雪を見る——それだけのことですが、「この席から雪の庭が見えます」と一言添えられた席は、雪見の席になります。照明を一段落とせば、雪面に映る光が部屋に入ります。</p>
+
+<h2>かまくら——子どもが主人になる、雪の客室</h2>
+<p>秋田県横手市の「かまくら」は、約450年の歴史を持つ小正月の行事とされています。雪でつくったかまくらの中に水神様を祀り、子どもたちがそこに座って、通りがかった人を中に招き、甘酒や餅をふるまうのです。かつては旧暦1月14日に行われていましたが、1954年からは2月の「横手の雪まつり」として開催され、市内に約60基のかまくらと、多数のミニかまくらが並びます（横手市・横手市観光協会の発表による）。</p>
+<p>この行事の本質は、雪室が「客室」であり、その主人が<strong>子ども</strong>であるところなのです。大人が雪の部屋を作って見せるのではありません——子どもが主体で、来客をもてなします。宿でこの本質を翻訳するなら、かまくらづくりは「宿が作って見せるもの」ではなく、「ゲストが作って、誰かをもてなすもの」に近いのです。小さい子どものいる家族に、雪だるまではなく、自分たちの茶屋を作ってもらいます。中に座って、温かい湯を一杯ふるまいます。かまくらの大きさは直径2メートルもいりません。子どもの背が丸まる程度の雪室で、行事の核心は再現できます。</p>
+
+<h2>雪あかり——巨大な雪像ではなく、灯りの数</h2>
+<p>北海道小樽市で毎年2月に開かれる「小樽雪あかりの路」は、1999年に始まった雪とろうそくの祭りで、小樽運河周辺を中心に、ろうそくの灯りが雪の上に並びます。開催にはおよそ12万本ものろうそくが使われ（NHKアーカイブス）、そのほとんどが地元の材料による手づくりで、ボランティアが支えているのです。「参加型」「手作り」を貫く姿勢は、この祭りの最初からの方針とされています。</p>
+<p>雪国の祭りというと巨大な雪像を想像しがちですが、小樽の本質は逆です。<strong>単位が小さく、数が多い</strong>。雪の上に並ぶ一つひとつの灯りは、誰かの手で作られた雪の器に立てられたろうそくであり、それが数万と積み重なります。宿への翻訳は、この「数の集積」から始めましょう。庭に雪の灯りを10個——雪をくり抜いてろうそくを立てる「雪洞（せっとう）」なら、子どもでも作れます。10個の灯りは、12万本の物語の最初の10ページです。</p>
+
+<h2>雪を体験にする小さな手と、最重の業務</h2>
+<p>雪を体験にする手は、小さいもので十分です。</p>
+<ul>
+<li><strong>雪見の席</strong> — ガラス一枚を隔てた席の指定。照明を落として、雪面の反射を生かします。</li>
+<li><strong>雪の灯り</strong> — 雪洞を10個から。夜の庭の見え方が変わります。</li>
+<li><strong>鳴き雪の散歩</strong> — 「雪の音を聞く」ことを目的にした、短い散歩の提案。</li>
+<li><strong>雪の家具</strong> — 雪のテーブル、雪の椅子。完成品より、作る過程そのものが体験。</li>
+<li><strong>雪の朝食</strong> — 窓の外が白一色の朝に、白いものを一品（豆腐、白粥、牛乳）添えます。</li>
+</ul>
+<p>そして、その裏側にある業務の重さを、この記事は隠しません。総務省消防庁のまとめでは、2025年冬（2025年11月〜2026年2月末の速報）に雪による被害で全国の死者は68人に上り、そのうち屋根の雪下ろしなど除雪作業中の死者が57人と最も多く、65歳以上が49人を占めました。令和元年以降の冬で死者が最多だったのは、大雪となった令和4〜5年シーズンの110人です（いずれも執筆時点の速報値）。</p>
+<div class="note"><span class="tag">FACT</span>雪を「体験」にする宿は、雪を「業務」にする宿でもあります。屋根の雪下ろしと除雪の計画（誰が・いつ・どこまで。高所作業には安全策を、可能なら業者との契約を）、歩道の凍結対策とスパイク靴の貸出、雪洞にかぶさる落雪への注意、ろうそくの火の管理と就寝前の消灯——体験は、このリストが回っていて初めて成り立ちます。</div>
+
+<h2>雪が降らない冬のために</h2>
+<p>最後に、雪の少ない地域の宿に問いかけたいと思います——あなたの宿に、雪の話はありますか。雪は予告できません。だからこそ「降ったら」の企画が作れます。降った朝だけの特別な朝食、降った朝だけのはがき（「今朝、宿は初雪でした」）、数年に一度の積雪を、宿の歴史の一行として記録しておくこと。南の宿のゲストにとって、雪は体験でなくても、冬の物語の主役になれます。</p>
+
+<div class="note">この記事はアイデア共有を目的としています。事例・数字は公開資料に基づく、執筆時点の概算です。実施にあたっては、安全・法令・近隣への配慮を含め、各宿の判断で設計してください。 山や雪の季節の活動には、天候と装備の確認を含めて設計してください。</div>
+
+<h2>次に読む</h2>
+<ul>
+<li><a href="#idea-firewood-landscape">薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア</a> — 雪国の夜を温める設計</li>
+<li><a href="#idea-fire-circle-night">火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア</a> — 雪の夜と火を囲む組み合わせ</li>
+<li><a href="#idea-nordic-stay-firewood-light">北欧の宿から考える — 薪・灯り・木のぬくもりのある宿のアイデア</a> — 冬の灯りと木のぬくもりの思想</li>
+<li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 冬の需要そのものを読む話</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","132"]}]]}],["$","h1",null,{"children":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}],["$","p",null,{"className":"excerpt","children":"雪の夜が静かで、雪の朝が鳴く理由から、横手のかまくらと小樽の雪あかりの本質、雪見の座り方まで。雪を「最重の業務」という現実と両立させながら、雪を体験に変える雪国の宿の設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-snow-enjoy-stay.jpg","alt":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.12"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
+5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-morning-dew-mist","children":["← ","朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-moon-enjoy-stay","children":["月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"," →"]}]]}]
+6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null
