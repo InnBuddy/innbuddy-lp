@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 
 export interface ArticleItem {
@@ -27,7 +27,7 @@ const FILTER_GOALS = [
   { label: "GOAL 8", value: "GOAL 8", color: "#A21942" },
   { label: "GOAL 10", value: "GOAL 10", color: "#DD1367" },
   { label: "GOAL 12", value: "GOAL 12", color: "#BF8B2E" },
-  { label: "GOAL 14", value: "GOAL 14", color: "#0A97D9" },
+  { label: "GOAL 14", value: "GOAL 14", color: "#0A9709" },
   { label: "GOAL 15", value: "GOAL 15", color: "#56C02B" },
 ];
 
@@ -38,97 +38,46 @@ export default function ArticleDetailView({
   initialArticle: ArticleItem;
   allArticles: ArticleItem[];
 }) {
-  // 現在表示中の記事ID
-  const [currentId, setCurrentId] = useState(initialArticle.id);
+  const current = initialArticle;
 
   // 検索パネルの状態
   const [query, setQuery] = useState("");
   const [selectedGoal, setSelectedGoal] = useState("ALL");
 
-  const articleContentRef = useRef<HTMLElement>(null);
-
-  // 現在の記事オブジェクトを取得
-  const current = useMemo(() => {
-    return (
-      allArticles.find((a) => String(a.id) === String(currentId)) ||
-      initialArticle
-    );
-  }, [allArticles, currentId, initialArticle]);
-
-  // 現在の記事インデックスと前後の記事
+  // 前後の記事を特定
   const currentIndex = useMemo(() => {
-    return allArticles.findIndex((a) => String(a.id) === String(currentId));
-  }, [allArticles, currentId]);
+    return allArticles.findIndex((a) => String(a.id) === String(current.id));
+  }, [allArticles, current.id]);
 
   const prev = currentIndex > 0 ? allArticles[currentIndex - 1] : null;
-  const next =
-    currentIndex !== -1 && currentIndex < allArticles.length - 1
-      ? allArticles[currentIndex + 1]
-      : null;
+  const next = currentIndex !== -1 && currentIndex < allArticles.length - 1 ? allArticles[currentIndex + 1] : null;
 
-  // 検索パネルで絞り込まれた記事一覧（下部に表示するリスト）
+  // 検索パネルの絞り込み
   const filteredList = useMemo(() => {
     const q = query.trim().toLowerCase();
     return allArticles.filter((article) => {
       const matchesQuery =
-        !q ||
         String(article.id ?? "").toLowerCase().includes(q) ||
         (article.title ?? "").toLowerCase().includes(q) ||
         (article.lead ?? "").toLowerCase().includes(q) ||
         (article.goal ?? "").toLowerCase().includes(q);
-
       const matchesGoal =
-        selectedGoal === "ALL" ||
-        (article.goal ?? "").includes(selectedGoal);
-
+        selectedGoal === "ALL" || (article.goal ?? "").includes(selectedGoal);
       return matchesQuery && matchesGoal;
     });
   }, [allArticles, query, selectedGoal]);
 
-  // ページ移動（リロード）を伴わずに記事を瞬時に切り替え、URL（Slug）を同期する関数
-  const switchArticle = (id: string) => {
-    if (String(id) === String(currentId)) return;
-
-    setCurrentId(id);
-    // ブラウザのURL（Slug）をリロードなしで書き換え
-    window.history.pushState(null, "", `/sustainable/articles/${id}`);
-
-    // 左側の記事スクロールをトップへ戻す
-    if (articleContentRef.current) {
-      const topOffset =
-        articleContentRef.current.getBoundingClientRect().top +
-        window.pageYOffset -
-        90;
-      window.scrollTo({ top: topOffset, behavior: "smooth" });
-    }
-  };
-
-  // ブラウザの「戻る」「進む」ボタンへの対応
-  useEffect(() => {
-    const handlePopState = () => {
-      const pathParts = window.location.pathname.split("/");
-      const idFromUrl = pathParts[pathParts.length - 1];
-      if (idFromUrl && allArticles.some((a) => String(a.id) === idFromUrl)) {
-        setCurrentId(idFromUrl);
-      }
-    };
-    window.addEventListener("popstate", handlePopState);
-    return () => window.removeEventListener("popstate", handlePopState);
-  }, [allArticles]);
-
   return (
     <div
       className="articles-portal"
-      style={
-        {
-          "--article-goal-color": current.goalColor || "#17201d",
-        } as React.CSSProperties
-      }
+      style={{
+        "--article-goal-color": current.goalColor || "#17201d",
+      } as React.CSSProperties}
     >
       {/* フローティングナビ */}
       <nav className="floating-sub-nav">
         <Link href="/sustainable" className="brand-tag">
-          HOTEL <span>×</span> SDGs 2030
+          HOTEL <span>x</span> SDGs 2030
         </Link>
         <Link href="/sustainable/articles" className="nav-back-link">
           ← レポート目次一覧へ
@@ -137,10 +86,9 @@ export default function ArticleDetailView({
 
       {/* 2カラムレイアウト */}
       <div className="detail-layout-container">
-        
-        {/* 左側：記事本文シート */}
+        {/* 左側: 記事本文シート */}
         <main className="detail-main-content">
-          <article className="detail-sheet" ref={articleContentRef}>
+          <article className="detail-sheet">
             <header>
               <div className="detail-kicker-row">
                 <span
@@ -160,12 +108,10 @@ export default function ArticleDetailView({
                     letterSpacing: "0.06em",
                   }}
                 >
-                  #{current.id} · {current.length}
+                  #{current.id} {current.length}
                 </span>
               </div>
-
               <h1 className="detail-h1">{current.title}</h1>
-
               {current.lead && (
                 <div className="detail-lead-box">{current.lead}</div>
               )}
@@ -187,42 +133,39 @@ export default function ArticleDetailView({
 
             <div
               className="article-body"
-              dangerouslySetInnerHTML={{ __html: current.articleHtml }}
+              dangerouslySetInnerHTML={{ __html: current.articleHtml || "" }}
             />
           </article>
 
-          {/* 前後の事例ナビカード（クリックでリロードなし切り替え） */}
+          {/* 前後の事例ナビカード */}
           <nav className="pager-grid" aria-label="前後の事例">
             {prev ? (
-              <button
-                type="button"
-                onClick={() => switchArticle(prev.id)}
+              <Link
+                href={`/sustainable/articles/${prev.id}`}
                 className="pager-card text-left"
               >
-                <span className="pager-eyebrow">← 前の事例 (#{prev.id})</span>
+                <span className="pager-eyebrow">← 前の事例(#{prev.id})</span>
                 <span className="pager-title">{prev.title}</span>
-              </button>
+              </Link>
             ) : (
               <div />
             )}
-
             {next && (
-              <button
-                type="button"
-                onClick={() => switchArticle(next.id)}
+              <Link
+                href={`/sustainable/articles/${next.id}`}
                 className="pager-card text-right"
               >
-                <span className="pager-eyebrow">次の事例 (#{next.id}) →</span>
+                <span className="pager-eyebrow">次の事例(#{next.id}) →</span>
                 <span className="pager-title">{next.title}</span>
-              </button>
+              </Link>
             )}
           </nav>
         </main>
 
-        {/* 右側：事例を探す ＆ 合致した記事一覧パネル */}
+        {/* 右側: 事例を探す & 一覧パネル */}
         <aside className="detail-sidebar-wrap" aria-label="事例検索サイドバー">
           <div className="sidebar-search-card">
-            <h3 className="sidebar-search-heading">事例を探す</h3>
+            <h3 className="sidebar-search-heading">🔍 事例を探す</h3>
 
             {/* キーワード入力 */}
             <div className="sidebar-input-group">
@@ -246,7 +189,7 @@ export default function ArticleDetailView({
                 <input
                   id="sidebar-keyword"
                   type="search"
-                  placeholder="例：食品ロス、001"
+                  placeholder="例: 食品ロス、001"
                   className="sidebar-search-input"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
@@ -277,14 +220,14 @@ export default function ArticleDetailView({
               </div>
             </div>
 
-            {/* パネル下部：選択した項目の記事一覧（スクロールエリア） */}
+            {/* パネル下部: 選択した項目の記事一覧 */}
             <div className="sidebar-matched-section">
               <div className="sidebar-matched-head">
                 <span className="sidebar-matched-title">
                   {selectedGoal !== "ALL"
                     ? `${selectedGoal} の事例`
                     : query.trim()
-                    ? `"${query.trim()}" の結果`
+                    ? `"${query.trim()}"の結果`
                     : "すべての事例"}
                 </span>
                 <span className="sidebar-matched-count">
@@ -295,12 +238,11 @@ export default function ArticleDetailView({
               <div className="sidebar-matched-scroll-box">
                 {filteredList.length > 0 ? (
                   filteredList.map((item) => {
-                    const isSelected = String(item.id) === String(currentId);
+                    const isSelected = String(item.id) === String(current.id);
                     return (
-                      <button
+                      <Link
                         key={item.id}
-                        type="button"
-                        onClick={() => switchArticle(item.id)}
+                        href={`/sustainable/articles/${item.id}`}
                         className={`sidebar-article-item ${
                           isSelected ? "is-active" : ""
                         }`}
@@ -317,7 +259,7 @@ export default function ArticleDetailView({
                           </span>
                         </div>
                         <span className="sidebar-item-title">{item.title}</span>
-                      </button>
+                      </Link>
                     );
                   })
                 ) : (
@@ -339,15 +281,16 @@ export default function ArticleDetailView({
             </div>
           </div>
         </aside>
-
       </div>
 
       <footer className="archive-footer">
         <Link href="/sustainable" className="footer-brand">
-          HOTEL <span>×</span> SDGs 2030
+          HOTEL <span>x</span> SDGs 2030
         </Link>
         <p>Knowledge for a more sustainable hospitality industry.</p>
-        <span className="footer-copyright">RESEARCH · INSIGHT · ACTION</span>
+        <span className="footer-copyright">
+          RESEARCH · INSIGHT · ACTION
+        </span>
       </footer>
     </div>
   );

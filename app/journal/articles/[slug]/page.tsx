@@ -4,6 +4,12 @@ import { getArticleBySlug, getArticles, getImage, formatDate } from "@/lib/journ
 import { Markdown } from "@/lib/journal/markdown";
 import "../../style.css";
 
+const getVal = (obj: any, lang: 'ja' | 'en' | 'zh') => {
+  if (!obj) return "";
+  if (typeof obj === "string") return obj;
+  return obj[lang] || obj.ja || "";
+};
+
 function resolveJournalImage(item: any): string {
   if (!item) return "";
   let raw = "";
@@ -34,28 +40,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const a = getArticleBySlug(slug);
   if (!a) return {};
-  
   const titleText = typeof a.title === "string" ? a.title : a.title?.ja || "";
   const excerptText =
     a.meta?.excerpt?.ja ||
     (typeof a.excerpt === "string" ? a.excerpt : a.excerpt?.ja) ||
     "";
-
-  return { 
-    title: `${titleText} | InnBuddy JOURNAL`, 
-    description: excerptText
+  return {
+    title: `${titleText} | InnBuddy JOURNAL`,
+    description: excerptText,
   };
 }
 
-export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function ArticlePage({ params }: any) {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
   const all = typeof getArticles === "function" ? getArticles() : [];
   const idx = all.findIndex((a: any) => a.slug === article.slug);
-  
   const currentCat = article.meta?.cat || article.cat || article.category;
+  
   const related = all
     .filter(
       (a: any) =>
@@ -63,110 +67,150 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         (a.meta?.cat === currentCat || a.cat === currentCat || a.category === currentCat)
     )
     .slice(0, 3);
-
+    
   const prev = idx > 0 ? all[idx - 1] : null;
   const next = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
-
-  const articleTitle = typeof article.title === "string" ? article.title : article.title?.ja || "";
+  
   const articleDate = article.meta?.date || article.date;
   const categoryName = article.meta?.cat ?? article.cat ?? article.category ?? "JOURNAL";
   const categoryEn = article.meta?.catEn ?? article.catEn ?? "JOURNAL";
-  const excerptText =
-    article.meta?.excerpt?.ja ||
-    (typeof article.excerpt === "string" ? article.excerpt : article.excerpt?.ja) ||
-    null;
-  const bodyText = typeof article.body === "string" ? article.body : article.body?.ja || "";
 
   return (
     <div id="articleView">
+      <script dangerouslySetInnerHTML={{ __html: `
+        (function() {
+          try {
+            var params = new URLSearchParams(window.location.search);
+            var lang = params.get('lang');
+            if (!lang) {
+              lang = localStorage.getItem('journal_lang') || 'ja';
+              var newUrl = new URL(window.location.href);
+              newUrl.searchParams.set('lang', lang);
+              window.history.replaceState({}, '', newUrl);
+            } else {
+              localStorage.setItem('journal_lang', lang);
+            }
+            document.documentElement.setAttribute('data-lang', lang);
+          } catch(e) {}
+        })();
+      `}} />
+      <style dangerouslySetInnerHTML={{ __html: `
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+      `}} />
+
       <header className="article-headbar container">
         <Link className="logo serif" href="/journal">
           InnBuddy <span className="logo-pill">JOURNAL</span>
         </Link>
         <div className="head-right">
           <Link className="back" href="/journal">
-            ← JOURNAL
+            - JOURNAL
           </Link>
           <div className="lang">
-            <button className="on" type="button">日本語</button>
-            <button type="button">EN</button>
-            <button type="button">中文</button>
+            <a href="?lang=ja"><button type="button" className="lang-ja" style={{ pointerEvents: 'none' }}>日本語</button></a>
+            <a href="?lang=en"><button type="button" className="lang-en" style={{ pointerEvents: 'none' }}>EN</button></a>
+            <a href="?lang=zh"><button type="button" className="lang-zh" style={{ pointerEvents: 'none' }}>中文</button></a>
           </div>
         </div>
       </header>
-
+      
       <main className="container">
         <article className="article">
           <div className="kicker">
             <span className="chip">{categoryName}</span>
-            <span>ARTICLE {String(Math.max(1, idx + 1)).padStart(3, "0")}</span>
+            <span className="ARTICLE">{String(Math.max(1, idx + 1)).padStart(3, "0")}</span>
           </div>
-
-          <h1>{articleTitle}</h1>
-
-          {excerptText && <p className="excerpt">{excerptText}</p>}
-
+          
+          <h1>
+            <span className="ja-only">{getVal(article.title, 'ja')}</span>
+            <span className="en-only">{getVal(article.title, 'en')}</span>
+            <span className="zh-only">{getVal(article.title, 'zh')}</span>
+          </h1>
+          
+          {getVal(article.meta?.excerpt || article.excerpt, 'ja') && (
+            <p className="excerpt">
+              <span className="ja-only">{getVal(article.meta?.excerpt || article.excerpt, 'ja')}</span>
+              <span className="en-only">{getVal(article.meta?.excerpt || article.excerpt, 'en')}</span>
+              <span className="zh-only">{getVal(article.meta?.excerpt || article.excerpt, 'zh')}</span>
+            </p>
+          )}
+          
           <div className="hero-img">
-            <img src={resolveJournalImage(article)} alt={articleTitle} />
+            <img src={resolveJournalImage(article)} alt={getVal(article.title, 'ja')} />
           </div>
-
+          
           <div className="meta-row">
             <span>{typeof formatDate === "function" && articleDate ? formatDate(articleDate) : articleDate}</span>
             <span>{categoryEn}</span>
-            <span>{Math.max(1, Math.ceil((bodyText.length || 700) / 700))}分で読めます</span>
+            <span>{Math.max(1, Math.ceil((getVal(article.body, 'ja').length || 700) / 700))}分で読めます</span>
           </div>
-
+          
           <div className="body">
-            <Markdown source={bodyText} />
+            <div className="ja-only"><Markdown source={getVal(article.body, 'ja')} /></div>
+            <div className="en-only"><Markdown source={getVal(article.body, 'en')} /></div>
+            <div className="zh-only"><Markdown source={getVal(article.body, 'zh')} /></div>
           </div>
-
+          
           <div className="rel">
-            <div className="rel-label">RELATED — 同じテーマの記事</div>
+            <div className="rel-label">
+              <span className="ja-only">RELATED 同じテーマの記事</span>
+              <span className="en-only">RELATED Articles on the same theme</span>
+              <span className="zh-only">RELATED 同主题文章</span>
+            </div>
             <div className="rel-grid">
               {related.map((r: any) => {
-                const rTitle = typeof r.title === "string" ? r.title : r.title?.ja || "";
                 const rDate = r.meta?.date || r.date;
                 return (
                   <Link href={`/journal/articles/${r.slug}`} key={r.slug}>
-                    <img src={resolveJournalImage(r)} alt={rTitle} />
+                    <img src={resolveJournalImage(r)} alt={getVal(r.title, 'ja')} />
                     <div className="t">
                       <div className="d">
                         {typeof formatDate === "function" && rDate ? formatDate(rDate) : rDate}
                       </div>
-                      <h4>{rTitle}</h4>
+                      <h4>
+                        <span className="ja-only">{getVal(r.title, 'ja')}</span>
+                        <span className="en-only">{getVal(r.title, 'en')}</span>
+                        <span className="zh-only">{getVal(r.title, 'zh')}</span>
+                      </h4>
                     </div>
                   </Link>
                 );
               })}
             </div>
           </div>
-
+          
           <div className="pager">
             {prev ? (
               <Link href={`/journal/articles/${prev.slug}`}>
-                ← {typeof prev.title === "string" ? prev.title : prev.title?.ja}
+                - <span className="ja-only">{getVal(prev.title, 'ja')}</span>
+                  <span className="en-only">{getVal(prev.title, 'en')}</span>
+                  <span className="zh-only">{getVal(prev.title, 'zh')}</span>
               </Link>
-            ) : (
-              <span />
-            )}
+            ) : <span />}
             {next ? (
               <Link href={`/journal/articles/${next.slug}`}>
-                {typeof next.title === "string" ? next.title : next.title?.ja} →
+                  <span className="ja-only">{getVal(next.title, 'ja')}</span>
+                  <span className="en-only">{getVal(next.title, 'en')}</span>
+                  <span className="zh-only">{getVal(next.title, 'zh')}</span> -
               </Link>
-            ) : (
-              <span />
-            )}
+            ) : <span />}
           </div>
         </article>
       </main>
-
+      
       <footer>
         <div className="f1">InnBuddy</div>
-        <div className="f2">WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。</div>
+        <div className="f2">WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。</div>
         <div className="f3">© 2026 InnBuddy</div>
-        <div className="f4">
-          記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。
-        </div>
+        <div className="f4">記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。</div>
       </footer>
     </div>
   );

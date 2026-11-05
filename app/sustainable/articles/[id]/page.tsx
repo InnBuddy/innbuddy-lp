@@ -3,7 +3,6 @@ import articlesData from "@/data/sustainablearticles.json";
 import "../articles.css";
 import ArticleDetailView, { ArticleItem } from "./ArticleDetailView";
 
-// ★ 完全静的化と不正パスでのSSR防止
 export const dynamic = 'force-static';
 export const dynamicParams = false;
 
@@ -33,7 +32,7 @@ export default async function SustainableArticlePage({
     notFound();
   }
 
-  // 軽量化はしつつ、本文の表示に必要なプロパティ（articleHtml, goal, etc）を維持する
+  // サイドバーや前後ナビ用の目次リスト（本文や警告等の重いHTMLは削ぎ落としてCPU・メモリを最小化）
   const lightArticles = articles.map((a: any) => ({
     id: String(a.id),
     title: a.title,
@@ -41,11 +40,18 @@ export default async function SustainableArticlePage({
     goalColor: a.goalColor,
     length: a.length,
     lead: a.lead,
-    articleHtml: String(a.id) === String(id) ? a.articleHtml : "", // 現在のページの本文だけを渡す
+    articleHtml: "",
+    warnHtml: null,
+    chkHtml: null,
+    sameHtml: null,
+    anchor: "",
+    group: "",
+    meta: "",
   })) as unknown as ArticleItem[];
 
   return (
     <ArticleDetailView
+      key={article.id}
       initialArticle={article}
       allArticles={lightArticles}
     />
