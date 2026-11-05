@@ -11,7 +11,7 @@ export interface LeadFormData {
 }
 
 // Apps Script の Web App URL（本番環境のURLに差し替えてください）
-const APPS_SCRIPT_URL = process.env.NEXT_PUBLIC_APPS_SCRIPT_URL || 'https://script.google.com/macros/s/XXXXX/exec';
+const APPS_SCRIPT_URL = process.env.NEXT_PUBLIC_APPS_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyCAJFO27j_De7jI5oMGYjwSZZtpAAQHwUJOw8A7k8AWH-wpS2W90pIRoQuRXHXdpXs/exec';
 
 export async function submitDiagnostic(data: LeadFormData) {
   const res = await fetch(APPS_SCRIPT_URL, {
