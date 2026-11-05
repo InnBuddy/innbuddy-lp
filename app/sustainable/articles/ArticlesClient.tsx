@@ -74,7 +74,6 @@ function ArticlesContent() {
   const filtered = useMemo(() => {
     if (!Array.isArray(articles)) return [];
     const q = query.toLowerCase().trim();
-
     return articles.filter((article) => {
       const matchesQuery =
         !q ||
@@ -82,16 +81,13 @@ function ArticlesContent() {
         (article.title ?? "").toLowerCase().includes(q) ||
         (article.lead ?? "").toLowerCase().includes(q) ||
         (article.goal ?? "").toLowerCase().includes(q);
-
       const matchesGoal =
         selectedGoal === "ALL" || (article.goal ?? "").includes(selectedGoal);
-
       return matchesQuery && matchesGoal;
     });
   }, [articles, query, selectedGoal]);
 
   const featuredIds = new Set(featuredArticles.map((article) => article.id));
-
   const listedArticles = !hasActiveFilter
     ? filtered.filter((article) => !featuredIds.has(article.id))
     : filtered;
@@ -155,7 +151,6 @@ function ArticlesContent() {
                       }}
                     />
                   </div>
-
                   <div className="featured-content">
                     <div className="featured-meta">
                       <span>CASE {article.id}</span>
@@ -168,14 +163,12 @@ function ArticlesContent() {
                         {article.goal}
                       </span>
                     </div>
-
                     <h3 className="featured-title">{article.title}</h3>
                     {article.lead && (
                       <p className="featured-summary">{article.lead}</p>
                     )}
-
                     <span className="featured-read">
-                      事例を読む <span aria-hidden="true">↗</span>
+                      事例を読む <span aria-hidden="true">→</span>
                     </span>
                   </div>
                 </Link>
@@ -197,8 +190,7 @@ function ArticlesContent() {
             </p>
           </div>
           <span className="archive-total">
-            {filtered.length.toLocaleString("ja-JP")} /{" "}
-            {articles.length.toLocaleString("ja-JP")}
+            {filtered.length.toLocaleString("ja-JP")} / {articles.length.toLocaleString("ja-JP")}
           </span>
         </div>
 
@@ -207,7 +199,6 @@ function ArticlesContent() {
             <label className="search-label" htmlFor="article-search">
               キーワードで探す
             </label>
-
             <div className="search-input-box">
               <svg
                 fill="none"
@@ -222,19 +213,17 @@ function ArticlesContent() {
                   d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                 />
               </svg>
-
               <input
                 id="article-search"
                 type="search"
-                placeholder="例：食品ロス、太陽光、水循環、001"
+                placeholder="例: 食品ロス、太陽光、水循環、001"
                 className="portal-search-input"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
               />
             </div>
 
-            <div className="filter-label">SDGsゴールから探す</div>
-
+            <div className="filter-label">SDGs ゴールから探す</div>
             <div className="goal-filter-pills">
               {FILTER_GOALS.map((goal) => (
                 <button
@@ -261,7 +250,6 @@ function ArticlesContent() {
           <span>
             <strong>{filtered.length.toLocaleString("ja-JP")}</strong> 件の事例
           </span>
-
           {hasActiveFilter && (
             <button
               type="button"
@@ -283,11 +271,9 @@ function ArticlesContent() {
                 key={article.id}
                 href={`/sustainable/articles/${article.id}`}
                 className="editorial-card"
-                style={
-                  {
-                    "--card-goal-color": article.goalColor || "#17201d",
-                  } as React.CSSProperties
-                }
+                style={{
+                  "--card-goal-color": article.goalColor || "#17201d",
+                } as React.CSSProperties}
               >
                 <div className="card-content">
                   <div className="card-meta-head">
@@ -301,18 +287,15 @@ function ArticlesContent() {
                       {article.goal}
                     </span>
                   </div>
-
                   <h3 className="card-headline">{article.title}</h3>
-
                   {article.lead && (
                     <p className="card-summary">{article.lead}</p>
                   )}
                 </div>
-
                 <div className="card-meta-foot">
                   <span>{article.length}</span>
                   <span className="card-arrow-link">
-                    READ REPORT <span aria-hidden="true">↗</span>
+                    READ REPORT <span aria-hidden="true">→</span>
                   </span>
                 </div>
               </Link>
@@ -344,9 +327,27 @@ function ArticlesContent() {
 export default function ArticlesClient() {
   return (
     <div className="articles-portal">
+      {/* 外部CSS（style.css）による文字崩れ・巨大化を完全にブロックするスタイル保護 */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        .portal-hero h1.portal-title {
+          font-size: clamp(2rem, 5vw, 3.5rem) !important;
+          line-height: 1.25 !important;
+          margin: 1rem 0 !important;
+          letter-spacing: -0.02em !important;
+        }
+        .portal-hero {
+          position: relative;
+          z-index: 1;
+        }
+        .archive-footer a:hover {
+          opacity: 1 !important;
+          text-decoration: underline !important;
+        }
+      `}} />
+
       <nav className="floating-sub-nav" aria-label="サイトナビゲーション">
         <Link href="/sustainable" className="brand-tag">
-          HOTEL <span>×</span> SDGs 2030
+          HOTEL <span>x</span> SDGs 2030
         </Link>
         <Link href="/sustainable" className="nav-back-link">
           ← LPトップへ戻る
@@ -359,10 +360,21 @@ export default function ArticlesClient() {
 
       <footer className="archive-footer">
         <Link href="/sustainable" className="footer-brand">
-          HOTEL <span>×</span> SDGs 2030
+          HOTEL <span>x</span> SDGs 2030
         </Link>
+        
+        {/* 白文字で見やすく配置した4大リンク */}
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px 24px", margin: "16px 0", fontSize: "13px" }}>
+          <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>InnBuddyとは</a>
+          <a href="https://innbuddy-japan.com/team/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>運営組織</a>
+          <a href="https://innbuddy-japan.com/library/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>メディア一覧</a>
+          <a href="https://innbuddy-japan.com/contact/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>お問い合わせ</a>
+        </div>
+
         <p>Knowledge for a more sustainable hospitality industry.</p>
-        <span className="footer-copyright">RESEARCH · INSIGHT · ACTION</span>
+        <span className="footer-copyright">
+          RESEARCH · INSIGHT · ACTION
+        </span>
       </footer>
     </div>
   );

@@ -74,6 +74,23 @@ export default function ArticleDetailView({
         "--article-goal-color": current.goalColor || "#17201d",
       } as React.CSSProperties}
     >
+      {/* 外部CSSからのスタイル汚染を完全に遮断するスタイル指定 */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        .detail-sheet h1.detail-h1 {
+          font-size: 26px !important;
+          line-height: 1.4 !important;
+          margin: 12px 0 16px 0 !important;
+          font-weight: 700 !important;
+          color: #1a1a1a !important;
+          letter-spacing: -0.01em !important;
+          word-break: break-word !important;
+        }
+        .detail-sheet {
+          position: relative;
+          z-index: 1;
+        }
+      `}} />
+
       {/* フローティングナビ */}
       <nav className="floating-sub-nav">
         <Link href="/sustainable" className="brand-tag">
@@ -287,6 +304,12 @@ export default function ArticleDetailView({
         <Link href="/sustainable" className="footer-brand">
           HOTEL <span>x</span> SDGs 2030
         </Link>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px 24px", margin: "16px 0", fontSize: "13px" }}>
+          <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>InnBuddyとは</a>
+          <a href="https://innbuddy-japan.com/team/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>運営組織</a>
+          <a href="https://innbuddy-japan.com/library/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>メディア一覧</a>
+          <a href="https://innbuddy-japan.com/contact/" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "none", opacity: 0.9 }}>お問い合わせ</a>
+        </div>
         <p>Knowledge for a more sustainable hospitality industry.</p>
         <span className="footer-copyright">
           RESEARCH · INSIGHT · ACTION

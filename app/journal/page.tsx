@@ -58,7 +58,6 @@ function ViewMore({ href }: { href: string }) {
   );
 }
 
-// 記事の全データと照合して翻訳を適用する仕組みに変更
 function FeaturedCard({ item, lang, allArticles }: { item: any, lang: 'ja'|'en'|'zh', allArticles: any[] }) {
   const [slug, image, meta, title, excerpt] = item;
   const matched = allArticles.find(a => a.slug === slug);
@@ -79,7 +78,6 @@ function FeaturedCard({ item, lang, allArticles }: { item: any, lang: 'ja'|'en'|
   );
 }
 
-// 記事の全データと照合して翻訳を適用する仕組みに変更
 function NewsCard({ item, lang, allArticles }: { item: any, lang: 'ja'|'en'|'zh', allArticles: any[] }) {
   const [slug, image, date, title] = item;
   const matched = allArticles.find(a => a.slug === slug);
@@ -128,7 +126,6 @@ export default function JournalHome() {
     }
     setLang(current as 'ja' | 'en' | 'zh');
 
-    // リングアニメーション制御（同じタブでは1回のみ）
     const hasShown = sessionStorage.getItem('journal_has_shown_opening');
     if (hasShown) {
       setPhase("done");
@@ -176,6 +173,61 @@ export default function JournalHome() {
 
   return (
     <>
+      <style dangerouslySetInnerHTML={{ __html: `
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      `}} />
+
       {phase !== "done" && (
         <div className="loader-container">
           {phase === "ring" && (
@@ -339,6 +391,29 @@ export default function JournalHome() {
             />
           </section>
         </main>
+        
+        <footer>
+          <div className="f1">InnBuddy</div>
+          <div className="f2">WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。</div>
+          
+          <div className="f-nav">
+            <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+              {lang === 'en' ? 'About InnBuddy' : lang === 'zh' ? '关于InnBuddy' : 'InnBuddyとは'}
+            </a>
+            <a href="https://innbuddy-japan.com/team/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+              {lang === 'en' ? 'Our Team' : lang === 'zh' ? '运营组织' : '運営組織'}
+            </a>
+            <a href="https://innbuddy-japan.com/library/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+              {lang === 'en' ? 'Media List' : lang === 'zh' ? '媒体一览' : 'メディア一覧'}
+            </a>
+            <a href="https://innbuddy-japan.com/contact/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+              {lang === 'en' ? 'Contact' : lang === 'zh' ? '联系我们' : 'お問い合わせ'}
+            </a>
+          </div>
+
+          <div className="f3">© 2026 InnBuddy</div>
+          <div className="f4">記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。</div>
+        </footer>
       </div>
     </>
   );

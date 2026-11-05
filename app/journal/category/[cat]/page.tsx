@@ -130,6 +130,59 @@ export default async function CategoryPage({ params }: any) {
         html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
           background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
         }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
       `}} />
 
       <header className="article-headbar container">
@@ -213,6 +266,30 @@ export default async function CategoryPage({ params }: any) {
       <footer>
         <div className="f1">InnBuddy</div>
         <div className="f2">WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。</div>
+        
+        <div className="f-nav">
+          <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+            <span className="ja-only">InnBuddyとは</span>
+            <span className="en-only">About InnBuddy</span>
+            <span className="zh-only">关于InnBuddy</span>
+          </a>
+          <a href="https://innbuddy-japan.com/team/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+            <span className="ja-only">運営組織</span>
+            <span className="en-only">Our Team</span>
+            <span className="zh-only">运营组织</span>
+          </a>
+          <a href="https://innbuddy-japan.com/library/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+            <span className="ja-only">メディア一覧</span>
+            <span className="en-only">Media List</span>
+            <span className="zh-only">媒体一览</span>
+          </a>
+          <a href="https://innbuddy-japan.com/contact/" target="_blank" rel="noopener noreferrer" className="journal-clean-link">
+            <span className="ja-only">お問い合わせ</span>
+            <span className="en-only">Contact</span>
+            <span className="zh-only">联系我们</span>
+          </a>
+        </div>
+
         <div className="f3">© 2026 InnBuddy</div>
         <div className="f4">記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。</div>
       </footer>

@@ -11,23 +11,23 @@ const goals = [
   ['04', '質の高い教育をみんなに', '技術と文化を次の世代へ'],
   ['05', 'ジェンダー平等を実現しよう', '誰もが力を発揮できる現場'],
   ['06', '安全な水とトイレを世界中に', '水の循環を見える化する'],
-  ['07', 'エネルギーをみんなに', '光熱費を、未来への投資に'],
+  ['07', 'エネルギーをみんなに そしてクリーンに', '光熱費を、未来への投資に'],
   ['08', '働きがいも経済成長も', '宿から始まる地域の雇用'],
-  ['09', '産業と技術革新の基盤を', '小さな宿の改善をデータで'],
+  ['09', '産業と技術革新の基盤をつくろう', '小さな宿の改善をデータで'],
   ['10', '人や国の不平等をなくそう', '旅を、ひらかれた体験に'],
   ['11', '住み続けられるまちづくりを', '観光と暮らしが共存する場所'],
-  ['12', 'つくる責任、つかう責任', '仕入れから廃棄まで測る'],
+  ['12', 'つくる責任 つかう責任', '仕入れから廃棄まで測る'],
   ['13', '気候変動に具体的な対策を', '排出量を知り、変えていく'],
   ['14', '海の豊かさを守ろう', '海の恵みを、海へ返す'],
   ['15', '陸の豊かさも守ろう', '森と土を旅の背景にしない'],
   ['16', '平和と公正をすべての人に', '信頼される運営をつくる'],
-  ['17', 'パートナーシップで目標を達成', '一軒ではなく、地域全体で'],
+  ['17', 'パートナーシップで目標を達成しよう', '一軒ではなく、地域全体で'],
 ]
 
 const valuePhotos = [
   ['山と朝霧', 'photo-1469474968028-56623f02e42e'],
   ['森の小道', 'photo-1511497584788-876760111969'],
-  ['湖畔の光', 'photo-1470770841072-f978cf4d019e'],
+  ['湖畔の光', 'photo-1470770841072-1978cf4d019e'],
   ['苔と木漏れ日', 'photo-1441974231531-c6227db76b6e'],
   ['海辺の崖', 'photo-1507525428034-b723cf961d3e'],
   ['棚田の風景', 'photo-1500534623283-312aade485b7'],
@@ -45,16 +45,16 @@ const valuePhotos = [
 ]
 
 const auditItems = [
-  '電気・水道・廃棄物の量を把握している',
-  '食品廃棄量を計測している',
-  '仕入れ先と、生産者の顔が見えている',
-  '地元の食材を30％以上使用している',
-  'スタッフが誇りを持って働ける環境がある',
-  '従業員の労働時間・有給取得率を把握している',
-  '地域にお金が循環する仕組みがある',
-  '廃棄物の分別・リサイクル率を把握している',
-  'CO₂排出量（Scope 1,2）を試算したことがある',
-  '取り組みを、お客様に伝えている',
+  '電気・水道・廃棄物の量を把握している。',
+  '食品廃棄量を計測している。',
+  '仕入れ先と、生産者の顔が見えている。',
+  '地元の食材を30%以上使用している。',
+  'スタッフが誇りを持って働ける環境がある。',
+  '従業員の労働時間・有給取得率を把握している。',
+  '地域にお金が循環する仕組みがある。',
+  '廃棄物の分別・リサイクル率を把握している。',
+  'CO2排出量（Scope 1, 2）を試算したことがある。',
+  '取り組みを、お客様に伝えている。',
 ]
 
 export default function SustainableClient() {
@@ -69,11 +69,13 @@ export default function SustainableClient() {
       document.documentElement.style.setProperty('--scroll', `${Math.min(100, y * 100)}%`)
     }
     window.addEventListener('scroll', onScroll, { passive: true })
+
     const revealObserver = new IntersectionObserver(
       (entries) => entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add('is-visible')),
       { threshold: 0.08 }
     )
     document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element))
+
     return () => {
       window.removeEventListener('scroll', onScroll)
       revealObserver.disconnect()
@@ -90,11 +92,11 @@ export default function SustainableClient() {
       {/* ナビゲーション */}
       <nav className="floating-nav" aria-label="ナビゲーション">
         <a className="brand-mark" href="#earth">
-          HOTEL <span>×</span> SDGs
+          HOTEL <span>x</span> SDGS
         </a>
         <div className="nav-actions">
           <Link href="/sustainable/articles" className="nav-main-cta">
-            <span className="spark-icon">✦</span> 世界の500の事例を見る
+            <span className="spark-icon"></span> 世界の500の事例を見る
           </Link>
           <a
             className="nav-pill-btn"
@@ -102,7 +104,7 @@ export default function SustainableClient() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            お問い合わせ ↗
+            お問い合わせ
           </a>
           <a
             className="nav-pill-btn"
@@ -110,14 +112,14 @@ export default function SustainableClient() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            相談する ↗
+            相談する
           </a>
         </div>
       </nav>
 
       {/* ヒーロー */}
       <section id="earth" className="hero chapter-dark">
-        <div className="hero-video" role="img" aria-label="森、海、雲、光がタイムラプスのように重なり移ろう、地球環境の背景映像">
+        <div className="hero-video" role="img" aria-label="森、海、雲、光がタイムラプスのよう に重なり移ろう、地球環境の背景映像">
           <span className="hero-frame frame-forest" />
           <span className="hero-frame frame-water" />
           <span className="hero-frame frame-cloud" />
@@ -126,7 +128,7 @@ export default function SustainableClient() {
         </div>
         <div className="hero-grain" />
         <div className="hero-content wrapper reveal">
-          <p className="kicker">HOTEL × SDGs 2030 / A VISUAL JOURNEY</p>
+          <p className="kicker">HOTEL SDGs 2030 / A VISUAL JOURNEY</p>
           <h1>
             <span>宿は、地球の上にある。</span>Earth<br />
             <em className="hero-to-word">to</em> Hotel
@@ -161,7 +163,7 @@ export default function SustainableClient() {
                 これは、SDGsを学ぶためのサイトではありません。地球から始まり、地域を通り、最後に自分の宿へ戻ってくる旅です。
               </span>
             </p>
-            <p className="hand-note">— 地球から始まって、最後に自分の宿に戻ってくる旅 —</p>
+            <p className="hand-note">地球から始まって、最後に自分の宿に戻ってくる旅</p>
           </div>
         </div>
         <div className="wrapper image-ribbon compact-ribbon" aria-label="自然と宿の風景">
@@ -175,28 +177,26 @@ export default function SustainableClient() {
       <section className="basics-section section-blue-concept reveal">
         <div className="wrapper">
           <div className="basics-head">
-            <p className="kicker kicker-cyan">SDGSとは何か / MDGSとSDGS / 2030年 / ESG / CSR / CARBON NEUTRAL</p>
+            <p className="kicker kicker-cyan">SDGSとは何か / MDGSとSDGS / 2030年 / ESG / CSR CARBON NEUTRAL</p>
             <h2 className="basics-title">
               基礎を3分で整理 <i>SDGs / ESG / CSR / Carbon Neutral</i>
             </h2>
           </div>
-
           <div className="basics-grid">
             <div className="basics-card">
               <div className="basics-card-head">
                 <span className="basics-lead-label">OVERVIEW</span>
-                <h3>SDGsとは？ / 2030年</h3>
+                <h3>SDGsとは? / 2030年</h3>
               </div>
               <p className="basics-card-text">
-                2015年国連サミットで採択された2030年までの世界共通目標。17目標・169ターゲット・232指標。MDGs（途上国中心の8目標）から全世界・全セクターへ拡大し「誰一人取り残さない」を掲げる。2030年はゴールではなく、通過点。そこから2035年60%、2040年73%、2050年NET ZEROへ続く。
+                2015年国連サミットで採択された2030年までの世界共通目標。17目標 169ターゲット・232指標。MDGs(途上国中心の8目標) から全世界・全セクターへ拡大し「誰一人取り残さない」を掲げる。2030年はゴールではなく、通過点。そこから2035年60%、2040年73%、2050年NET ZEROへ続く。
               </p>
               <div className="basics-tags">
-                <span>• 2030 AGENDA</span>
-                <span>• 17 GOALS / 169 TARGETS</span>
-                <span>• CARBON NEUTRAL 2050</span>
+                <span>2030 AGENDA</span>
+                <span>17 GOALS / 169 TARGETS</span>
+                <span>CARBON NEUTRAL 2050</span>
               </div>
             </div>
-
             <div className="basics-card">
               <div className="basics-card-head">
                 <span className="basics-lead-label">FRAMEWORK</span>
@@ -205,7 +205,7 @@ export default function SustainableClient() {
               <div className="basics-table">
                 <div className="table-row">
                   <div className="table-th">CSR</div>
-                  <div className="table-td">企業の社会的責任（貢献活動）</div>
+                  <div className="table-td">企業の社会的責任(貢献活動)</div>
                 </div>
                 <div className="table-row">
                   <div className="table-th">ESG</div>
@@ -319,7 +319,6 @@ export default function SustainableClient() {
                 数字になれば、改善できる。
               </p>
             </div>
-
             <div className="sdg-index-cards-wrap">
               <div className="sdg-dashboard-card">
                 <div className="sdg-card-top-row">
@@ -336,10 +335,9 @@ export default function SustainableClient() {
                   rel="noopener noreferrer"
                   className="sdg-ext-link-cue"
                 >
-                  （世界ランキングを見る）↗
+                  （世界ランキングを見る） ↗
                 </a>
               </div>
-
               <div className="sdg-dashboard-card">
                 <div className="sdg-card-top-row">
                   <span className="sdg-card-title">SDG Index Score</span>
@@ -365,12 +363,11 @@ export default function SustainableClient() {
                   rel="noopener noreferrer"
                   className="sdg-ext-link-cue"
                 >
-                  （日本の達成率詳細を見る）↗
+                  （日本の達成率詳細を見る） ↗
                 </a>
               </div>
             </div>
           </div>
-
           <div className="three-metrics">
             <div>
               <span>01</span>
@@ -391,7 +388,6 @@ export default function SustainableClient() {
               </p>
             </div>
           </div>
-
           <div className="measure-narrative-box">
             <p className="measure-narrative-text">
               これからの旅に選ばれる力。<br />
@@ -417,9 +413,12 @@ export default function SustainableClient() {
               <i>宿の物語にする。</i>
             </h2>
             <p className="body-copy compact-supply-body">
-              FARM → FISHERY → PRODUCER → SUPPLIER → HOTEL → GUEST。仕入れは単なるコストではない。地域にお金と誇りを残す、最初の接点です。
+              仕入れは単なるコストではない。地域にお金と誇りを残す、最初の接点です。
             </p>
-            <div className="local-note">LOCAL MONEY / LOCAL PRIDE</div>
+            <div className="local-note">
+              <span>FARM / FISHERY</span> → <span>PRODUCER</span> → <span>HOTEL</span> → <span>GUEST</span>
+              <div style={{ marginTop: '8px' }}>LOCAL MONEY / LOCAL PRIDE</div>
+            </div>
           </div>
         </div>
       </section>
@@ -443,7 +442,7 @@ export default function SustainableClient() {
           </h2>
           <p>価格だけでは説明できない「泊まる理由」がある。</p>
           <a className="text-link" href="#value">
-            AND WHAT ABOUT TRAVELERS FROM OVERSEAS? ↘
+            AND WHAT ABOUT TRAVELERS FROM OVERSEAS?
           </a>
         </div>
       </section>
@@ -452,7 +451,11 @@ export default function SustainableClient() {
       <section id="value" className="value-section section-dark">
         <div className="value-album" aria-label="17の自然をめぐる17枚の写真">
           {valuePhotos.map(([alt, id], index) => (
-            <img key={`${id}-${index}`} src={`https://images.unsplash.com/${id}?auto=format&fit=crop&w=500&q=88`} alt={alt} />
+            <img
+              key={`${id}-${index}`}
+              src={`https://images.unsplash.com/${id}?auto=format&fit=crop&w=500&q=80`}
+              alt={alt}
+            />
           ))}
         </div>
         <div className="value-album-wash" />
@@ -461,13 +464,13 @@ export default function SustainableClient() {
           <p className="kicker">COST GENERATES A NEW JOURNEY</p>
           <div className="value-stack">
             <span>COST</span>
-            <i>↓</i>
+            <i>→</i>
             <span>MANAGEMENT</span>
-            <i>↓</i>
+            <i>→</i>
             <span className="accent">VALUE</span>
-            <i>↓</i>
+            <i>→</i>
             <span>STORY</span>
-            <i>↓</i>
+            <i>→</i>
             <span>BOOKING</span>
           </div>
           <p className="value-copy">
@@ -484,13 +487,12 @@ export default function SustainableClient() {
           <header className="greenwashing-head">
             <p className="kicker kicker-gold">GREENWASHING</p>
             <h2 className="greenwashing-title">
-              「SDGsをやる＝何でも良い」ではない <i>GREENWASHING</i>
+              「SDGsをやる=何でも良い」ではない <i>GREENWASHING</i>
             </h2>
             <p className="greenwashing-sub-title">
               「サステナブルと名乗ること」ではなく<b>「何をして、何が変わったのか」</b>が重要です。
             </p>
           </header>
-
           <div className="greenwashing-grid">
             <div className="gw-card gw-bad-refined">
               <div className="gw-card-header">
@@ -507,14 +509,13 @@ export default function SustainableClient() {
                 <p>数字や具体的な対象プロセスの提示がない</p>
               </div>
             </div>
-
             <div className="gw-card gw-good-refined">
               <div className="gw-card-header">
                 <span className="gw-badge-amber">BEST PRACTICE</span>
                 <h4 className="gw-card-headline">事実に基づく開示</h4>
               </div>
               <ul className="gw-list">
-                <li>数字を出す（kWh、L、kg、%）</li>
+                <li>数字を出す (kWh、L、kg...)</li>
                 <li>何を測っているか示す</li>
                 <li>何を改善したか示す</li>
                 <li>第三者基準があれば明示する</li>
@@ -525,7 +526,6 @@ export default function SustainableClient() {
                 <p>現状の課題と計測値を誠実に共有する姿勢</p>
               </div>
             </div>
-
             <div className="gw-card gw-core-refined">
               <div className="gw-card-header">
                 <span className="gw-badge-core">THE ESSENCE</span>
@@ -536,7 +536,7 @@ export default function SustainableClient() {
               </p>
               <div className="gw-example-box">
                 <span className="example-tag">EXAMPLE STATEMENT</span>
-                <p>前年比で食品廃棄物を28%削減（月間850kg→612kg）。地元の有機契約農家・田中農園からの直接仕入れ比率42%。</p>
+                <p>前年比で食品廃棄物を28%削減(月間850kg→612kg)。地元の有機契約農家・田中農園からの直接仕入れ比率42%。</p>
                 <small>数値と具体的な生産者名を明示した発信事例</small>
               </div>
             </div>
@@ -555,7 +555,6 @@ export default function SustainableClient() {
                 className="window-photo"
               />
             </div>
-
             <div className="window-cell cell-content cell-tr">
               <div className="cell-pad">
                 <p className="kicker checkin-theme-text">A QUIET CHECK-IN</p>
@@ -568,7 +567,6 @@ export default function SustainableClient() {
                 </p>
               </div>
             </div>
-
             <div className="window-cell cell-content cell-bl">
               <div className="cell-pad audit-wide-pad">
                 <div className="compact-audit-box">
@@ -581,7 +579,6 @@ export default function SustainableClient() {
                     </div>
                     <strong className="checkin-percent-text">{progress}%</strong>
                   </div>
-
                   <div className="compact-check-columns">
                     <div className="check-col">
                       {auditItems.slice(0, 5).map((item, idx) => {
@@ -599,7 +596,6 @@ export default function SustainableClient() {
                         )
                       })}
                     </div>
-
                     <div className="check-col">
                       {auditItems.slice(5, 10).map((item, idx) => {
                         const index = idx + 5
@@ -612,21 +608,19 @@ export default function SustainableClient() {
                             />
                             <span className="checkin-theme-text">{item}</span>
                             <small className="checkin-theme-text">
-                              {index + 1 < 10 ? `0${index + 1}` : `${index + 1}`}
+                              {index + 1 < 10 ? `0${index + 1}` : index + 1}
                             </small>
                           </label>
                         )
                       })}
                     </div>
                   </div>
-
                   <div className="check-bar">
                     <i style={{ width: `${progress}%` }} />
                   </div>
                 </div>
               </div>
             </div>
-
             <div className="window-cell cell-image cell-br">
               <img
                 src="/library/sustainable/桜舞う九面水鏡の鯉池.png"
@@ -638,13 +632,12 @@ export default function SustainableClient() {
         </div>
       </section>
 
-      {/* from EARTH to HOTEL */}
+      {/* From EARTH to HOTEL */}
       <section className="final-section compact-final reveal">
         <div className="wrapper final-editorial-container">
           <div className="final-top-banner">
             <h3 className="from-earth-title">from EARTH to HOTEL</h3>
           </div>
-
           <div className="final-split-grid aligned-bottom-grid">
             <div className="final-left-col">
               <h2 className="dest-main-title">
@@ -659,7 +652,6 @@ export default function SustainableClient() {
                 </p>
               </div>
             </div>
-
             <div className="final-right-col sync-bottom-col">
               <div className="three-lines-block">
                 <h4 className="flow-step-single-line">
@@ -674,10 +666,9 @@ export default function SustainableClient() {
               </div>
             </div>
           </div>
-
           <div className="final-actions final-bar-actions">
             <Link className="button button-dark highlight-final-btn" href="/sustainable/articles">
-              500の事例を見る →
+              500の事例を見る
             </Link>
             <a
               className="button button-line"
@@ -693,26 +684,82 @@ export default function SustainableClient() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              OTA改善を相談する ↗
+              OTA改善を相談する
             </a>
           </div>
         </div>
       </section>
 
       {/* フッター */}
-      <footer>
-        <div className="wrapper footer-flex">
-          <b className="footer-brand">InnBuddy</b>
-          <span className="footer-slogan">持続的に選ばれる宿を、共に。</span>
-          <a
-            href="https://innbuddy-japan.com/team"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-about-link"
+      <footer style={{ borderTop: 'none', paddingTop: '40px', paddingBottom: '32px' }}>
+        {/* ネオン発光用CSS */}
+        <style dangerouslySetInnerHTML={{ __html: `
+          .footer-neon-link {
+            color: #F36C21;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: all 0.25s ease;
+            display: inline-block;
+          }
+          .footer-neon-link:hover {
+            color: #ffffff !important;
+            text-shadow: 0 0 6px #F36C21, 0 0 14px #F36C21, 0 0 24px rgba(243, 108, 33, 0.9);
+            box-shadow: 0 0 12px rgba(243, 108, 33, 0.45);
+          }
+        `}} />
+
+        <div
+          className="wrapper"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '20px 32px',
+          }}
+        >
+          {/* 左：ロゴ */}
+          <b className="footer-brand" style={{ margin: 0, fontSize: '24px' }}>InnBuddy</b>
+
+          {/* 中央：4大リンク（ホバー時にネオン発光） */}
+          <div
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '12px 24px',
+              fontSize: '13px',
+            }}
           >
-            InnBuddyについて ↗
-          </a>
-          <small className="footer-copy">HOTEL × SDGs 2030 / © InnBuddy</small>
+            <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="footer-neon-link">InnBuddyについて</a>
+            <a href="https://innbuddy-japan.com/team/" target="_blank" rel="noopener noreferrer" className="footer-neon-link">運営組織</a>
+            <a href="https://innbuddy-japan.com/library/" target="_blank" rel="noopener noreferrer" className="footer-neon-link">メディア一覧</a>
+            <a href="https://innbuddy-japan.com/contact/" target="_blank" rel="noopener noreferrer" className="footer-neon-link">お問い合わせ</a>
+          </div>
+
+          {/* 右：スローガン（2行） */}
+          <span
+            className="footer-slogan"
+            style={{
+              lineHeight: '1.4',
+              textAlign: 'right',
+              fontSize: '13px',
+              color: 'rgba(255, 255, 255, 0.75)',
+              margin: 0,
+            }}
+          >
+            from EARTH to HOTEL<br />Destination Design
+          </span>
+        </div>
+
+        {/* 下部コピーライト */}
+        <div style={{ textAlign: 'center', marginTop: '24px' }}>
+          <small className="footer-copy" style={{ color: 'rgba(255, 255, 255, 0.4)', fontSize: '11px' }}>
+            HOTEL SDGS 2030 / InnBuddy
+          </small>
         </div>
       </footer>
     </main>
