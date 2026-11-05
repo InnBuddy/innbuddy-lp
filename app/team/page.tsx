@@ -48,7 +48,7 @@ const experiences = [
   {
     number: "07",
     title: "グローバルな視点",
-    headline: "海外3カ国・5年以上の居住経験、約80カ国の渡航経験",
+    headline: "海外3カ国 5年以上の居住経験、約80カ国の渡航経験",
     text: "日本国内だけの視点ではなく、さまざまな国や地域で生活・仕事・旅行を経験してきたからこそ見える、世界の旅行者の価値観や感覚を支援に取り入れています。",
   },
 ];
@@ -109,7 +109,7 @@ export default function TeamPage() {
         <span className="bg-circle bg-circle-02" />
       </div>
 
-      {/* 30%サイズ縮小 & 右端に寄せて背面に配置した炎 */}
+      {/* 30%サイズ縮小を右端に寄せて背面に配置した炎 */}
       <div
         style={{
           position: "fixed",
@@ -134,24 +134,20 @@ export default function TeamPage() {
             <i />
             <span>TEAM</span>
           </div>
-
           <h1>
             InnBuddy
             <br />
             運営チームについて
           </h1>
-
           <p className="hero-lead">
             私たち自身が、
             <br className="mobile-only" />
             宿泊施設の課題に向き合います。
           </p>
-
           <div className="hero-copy">
             <p>
               InnBuddyは、観光・OTA運用・採用・組織づくり・経営分析・マーケティング・グローバル事業など、それぞれ異なる領域で経験を積んできた2名の共同創業者によって運営しています。
             </p>
-
             <p>
               私たちが大切にしているのは、単にWeb上の集客を増やしたり、目先の売上を伸ばしたりすることだけではありません。
             </p>
@@ -176,17 +172,14 @@ export default function TeamPage() {
               </h2>
             </div>
           </div>
-
           <div className="approach-layout">
             <div className="approach-side">
               <span>REAL PROBLEMS</span>
             </div>
-
             <div className="approach-content">
               <p>
                 宿泊施設には、OTAの販売戦略だけでは解決できないさまざまな課題があります。
               </p>
-
               <div className="quote-list">
                 <div>「予約は増えたけれど、利益が残らない」</div>
                 <div>「集客したいけれど、現場の人手が足りない」</div>
@@ -197,17 +190,14 @@ export default function TeamPage() {
                   「日々の運営に追われ、中長期的な経営について考える時間がない」
                 </div>
               </div>
-
               <p>
                 私たちは、こうした悩みを理解したうえで、集客・収益・現場・経営を切り離さずに考えることを大切にしています。
               </p>
-
               <p>
                 まずはOTA運用という身近な課題から、一つひとつ改善を積み重ねる。そして、その先にある宿泊施設の持続的な成長まで一緒に考える。
               </p>
-
               <p className="emphasis">
-                それが、私たちInnBuddyのスタンスです。
+                それが、私たち InnBuddyのスタンスです。
               </p>
             </div>
           </div>
@@ -231,21 +221,17 @@ export default function TeamPage() {
               </h2>
             </div>
           </div>
-
           <p className="section-intro">
             2名それぞれが異なる領域で経験を積んできたからこそ、一つの視点だけでは見えにくい宿泊施設の課題を、多角的に捉えることができます。
           </p>
-
           <div className="experience-list">
             {experiences.map((item) => (
               <article className="experience-item" key={item.number}>
                 <div className="experience-number">{item.number}</div>
-
                 <div className="experience-title">
                   <span>{item.title}</span>
                   <strong>{item.headline}</strong>
                 </div>
-
                 <p>{item.text}</p>
               </article>
             ))}
@@ -270,7 +256,6 @@ export default function TeamPage() {
               </h2>
             </div>
           </div>
-
           <div className="strength-list">
             {strengths.map((strength) => (
               <article className="strength-item" key={strength.number}>
@@ -278,7 +263,6 @@ export default function TeamPage() {
                   <span className="strength-number">{strength.number}</span>
                   <h3>{strength.title}</h3>
                 </div>
-
                 <div className="strength-body">
                   {strength.paragraphs.map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>
@@ -307,7 +291,6 @@ export default function TeamPage() {
               </h2>
             </div>
           </div>
-
           <div className="vision-layout">
             <div className="vision-statement">
               <span>WHAT WE DO</span>
@@ -317,22 +300,15 @@ export default function TeamPage() {
                 宿の未来を変えていく。
               </strong>
             </div>
-
             <div className="vision-copy">
               <p>InnBuddyがまず取り組むのは、宿泊施設のOTA運用です。</p>
-
               <p>
                 日々の販売状況を分析し、プランや料金、掲載内容、販売戦略を改善する。一つひとつは小さな改善かもしれません。
               </p>
-
               <p>
                 しかし、その積み重ねによって、宿泊施設の魅力がより正しく旅行者に伝わり、選ばれる機会が増えていく。
               </p>
-
-              <p>
-                私たちは、そんな「小さな改善の積み重ね」を大切にしています。
-              </p>
-
+              <p>私たちは、そんな「小さな改善の積み重ね」を大切にしています。</p>
               <p>
                 そして、OTA運用を通じて得られる現場の知見を将来的には、OTAやWeb上の集客だけにとどまらず、施設そのものの体験や地域とのつながりまで含めて、宿泊施設の価値を高める支援へと領域を広げていきたいと考えています。
               </p>
@@ -347,32 +323,26 @@ export default function TeamPage() {
       {/* DESTINATION DESIGN */}
       <section className="destination-section grid-royal">
         <div className="destination-line" aria-hidden="true" />
-
         <div className="team-container">
           <div className="destination-label">FUTURE VISION</div>
-
           <h2>
             グローバル
             <br />
             デスティネーションデザインへ
           </h2>
-
           <p className="destination-lead">
             持続的に選ばれる「目的地」になるためには、
             <br className="desktop-only" />
             一つの施策だけでは十分ではありません。
           </p>
-
           <div className="destination-copy">
             <p>
               宿泊施設の魅力を磨き、旅行者に伝え、実際の体験につなげる。そして、その施設がある地域そのものの魅力も含めて、国内外の旅行者に届けていく。
             </p>
-
             <p>
-              InnBuddyでは将来的に、日本と海外のネットワークを活用しながら、国内外の市場調査・戦略策定、多言語での情報発信、OTA集客、Webデザイン＆マーケティング、D2C販売戦略、さらに施設での体験設計やデザインまで、オンラインとオフラインの両面から、段階的に支援領域を広げていく構想を持っています。
+              InnBuddyでは将来的に、日本と海外のネットワークを活用しながら、国内外の市場調査・戦略策定、多言語での情報発信、OTA集客、Webデザイン&マーケティング、D2C販売戦略、さらに施設での体験設計やデザインまで、オンラインとオフラインの両面から、段階的に支援領域を広げていく構想を持っています。
             </p>
           </div>
-
           <div className="destination-philosophy">
             <span>WORLD × LOCAL</span>
             <strong>世界を理解し、地域を尊重する。</strong>
@@ -380,7 +350,6 @@ export default function TeamPage() {
               世界の視点と地域への理解を掛け合わせ、宿泊施設と地域が持つ本来の魅力を、まだ知らない旅行者へ届ける。
             </p>
           </div>
-
           <div className="destination-name">
             <span>INNBUDDY</span>
             <strong>Destination Design</strong>
@@ -405,7 +374,6 @@ export default function TeamPage() {
               </h2>
             </div>
           </div>
-
           <div className="team-intro">
             <p>
               私たちは、まだ大きな組織ではありません。
@@ -413,7 +381,6 @@ export default function TeamPage() {
               だからこそ、実際にお客様と向き合うのは、私たち自身です。
             </p>
           </div>
-
           <div className="team-points">
             <div>OTA運用の現場を知る経験。</div>
             <div>観光・旅行を知る経験。</div>
@@ -422,12 +389,10 @@ export default function TeamPage() {
             <div>経営とデータ分析を考える視点。</div>
             <div>そして、世界各地で見て、聞いて、感じてきた経験。</div>
           </div>
-
           <div className="team-conclusion">
             <p>
               異なる経験を持つ2人だからこそ、一つの視点だけでは見えない宿泊施設の課題を一緒に考えることができます。
             </p>
-
             <p className="team-promise">
               宿の未来について、経営者の方と同じ目線で考える。
               <br />
@@ -440,19 +405,76 @@ export default function TeamPage() {
       {/* ガラス調青線 */}
       <div className="glass-divider" aria-hidden="true" />
 
-      {/* FOOTER */}
-      <footer className="team-footer">
-        <div className="team-container footer-inner">
-          <div className="footer-brand">InnBuddy</div>
+      {/* FOOTER（運営組織を除いた3リンク・スリム配置） */}
+      <footer className="team-footer" style={{ padding: "18px 0" }}>
+        <style dangerouslySetInnerHTML={{ __html: `
+          .team-footer-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px 28px;
+          }
+          .team-footer-link {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: color 0.2s ease, transform 0.2s ease;
+            display: inline-block;
+          }
+          .team-footer-link:hover {
+            color: #ffffff !important;
+            transform: translateY(-1px);
+          }
+        `}} />
+        <div
+          className="team-container footer-inner"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            gap: "14px 20px",
+          }}
+        >
+          {/* 左：ロゴ */}
+          <div className="footer-brand" style={{ margin: 0, fontSize: "16px", fontWeight: 700 }}>
+            InnBuddy
+          </div>
 
-          <nav className="footer-nav">
-            <a href="/contact" className="footer-contact">
-              <span>ご相談はこちら</span>
-              <span className="footer-arrow">→</span>
+          {/* 中央：3大リンク */}
+          <nav className="team-footer-links" aria-label="フッターナビゲーション">
+            <a
+              href="https://innbuddy-japan.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="team-footer-link"
+            >
+              InnBuddyとは
+            </a>
+            <a
+              href="https://innbuddy-japan.com/library/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="team-footer-link"
+            >
+              メディア一覧
+            </a>
+            <a
+              href="https://innbuddy-japan.com/contact/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="team-footer-link"
+            >
+              ご相談はこちら
             </a>
           </nav>
 
-          <div className="copyright">© InnBuddy</div>
+          {/* 右：コピーライト */}
+          <div className="copyright" style={{ margin: 0, fontSize: "12px", color: "rgba(255, 255, 255, 0.45)" }}>
+            © InnBuddy
+          </div>
         </div>
       </footer>
     </main>
