@@ -8,15 +8,81 @@ a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-
 c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
-0:{"P":null,"c":["","journal","articles","hotel-scent-branding",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","hotel-scent-branding","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"P":null,"c":["","journal","articles","hotel-scent-branding",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","hotel-scent-branding","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Wjs50aw9q7KwJzs198_KL"}
 f:[]
 9:"$Wf"
-10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+10:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      6:["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$10"}}],["$","header",null,{"className":"article-headbar container","children":["$L11","$L12"]}],"$L13","$L14"]}]
+15:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
 :HL["/library/journal/ai_hotel-scent-branding.jpg","image"]
-11:T1e9b,<p>宿のブランド設計は「見た目」で考えられがちです。ロゴ、写真、内装。しかし、写真を閉じた後に残り、半年後に突然戻ってくるのは、匂いです。ヒノキの香りからあの宿の朝を、薪の匂いからあの夜を思い出す——匂いは、宿が時間を超えて届く唯一の形です。香りが記憶を呼び起こす仕組みは「香りで記憶に残る」の記事に、いつ香りいつ静かにするかという時間の設計は「香りと音楽」の記事に譲って、本記事はその核心——香りの<strong>選定と配置</strong>を扱います。</p>
+11:["$","$L15",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}]
+12:["$","div",null,{"className":"head-right","children":[["$","$L15",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]
+16:T1e9b,<p>宿のブランド設計は「見た目」で考えられがちです。ロゴ、写真、内装。しかし、写真を閉じた後に残り、半年後に突然戻ってくるのは、匂いです。ヒノキの香りからあの宿の朝を、薪の匂いからあの夜を思い出す——匂いは、宿が時間を超えて届く唯一の形です。香りが記憶を呼び起こす仕組みは「香りで記憶に残る」の記事に、いつ香りいつ静かにするかという時間の設計は「香りと音楽」の記事に譲って、本記事はその核心——香りの<strong>選定と配置</strong>を扱います。</p>
 
 <h2>匂いに名前があった時代</h2>
 
@@ -65,13 +131,98 @@ f:[]
 <li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 香りと音の時間の設計の話</li>
 <li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 1つに絞ることの全体設計の話</li>
 <li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 到着の最初の場面の設計の話</li>
-</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","120"]}]]}],["$","h1",null,{"children":"宿の香り — 記憶に残る香りのブランド設計"}],["$","p",null,{"className":"excerpt","children":"宿のブランドは見た目で考えがちだが、最後まで残るのは匂い。平安の貴族が匂いに名前を付けた文化に学ぶ、香りの選定と配置——名前、3つの場面、1つに絞る理由。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hotel-scent-branding.jpg","alt":"宿の香り — 記憶に残る香りのブランド設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.20"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+</ul>13:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"120"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"宿の香り — 記憶に残る香りのブランド設計"}],["$","span",null,{"className":"en-only","children":"Hotel Scent: Designing a Memorable Olfactory Brand"}],["$","span",null,{"className":"zh-only","children":"旅馆的香味——令人难忘的香味的品牌设计"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"宿のブランドは見た目で考えがちだが、最後まで残るのは匂い。平安の貴族が匂いに名前を付けた文化に学ぶ、香りの選定と配置——名前、3つの場面、1つに絞る理由。"}],["$","span",null,{"className":"en-only","children":"Inn branding tends to be thought of in visuals, but what lasts to the very end is scent. From the culture of Heian nobles who gave their fragrances names — choosing and placing a scent: the name, the three scenes, and why it must come down to one."}],["$","span",null,{"className":"zh-only","children":"香水是给人留下持久印象的品牌。旅馆的设计令人难忘的不是视觉，而是气味，以及气味带来重复光顾的机制。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hotel-scent-branding.jpg","alt":"宿の香り — 記憶に残る香りのブランド設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.20"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17","$L18"]}],"$L19","$L1a"]}]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L10","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L10","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/influencer-collaboration-3-conditions","children":["← ","インフルエンサーとの協業 — 宿泊提供の前に決める3つの条件"]}],["$","$L10",null,{"href":"/journal/articles/idea-rainwater-garden","children":["雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"," →"]}]]}]
-14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+1b:T1e00,<p>The brand design of an inn tends to be thought of as "how it looks" — logo, photographs, interiors. But what remains after the photographs close, and comes back suddenly half a year later, is scent. The hinoki cypress fragrance recalls that inn's morning; the smell of firewood recalls that night — scent is the only form in which an inn reaches across time. The mechanism by which scent calls up memory is left to the "remain in memory with scent" article, and the design of time — when to scent, when to stay quiet — to the "scent and sound" article; this article takes the core: the <strong>selection and placement</strong> of scent.</p>
+
+<h2>The age when fragrances had names</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>Fact</strong> — The nobles of the Heian period blended their own nerikō ("blended incense") — powdered aromatics kneaded with honey or plum flesh — and held gatherings called takimono-awase in which they competed over the blends. The finest blends were passed to later generations, and the recipes are recorded in a Heian-period text, the Kunshū Ruishō. The representative set is the six classic takimono: "Baika" (plum blossom), "Kayō" (lotus leaf), "Jijū," "Kikka" (chrysanthemum), "Rakuyō" (fallen leaves), and "Kurobō." In the "Umegae" chapter of The Tale of Genji, a scene depicts the blending of incense for Lady Akashi's bridal trousseau (according to materials on incense culture).</div>
+
+<p>Why is this interesting? At the center of this culture lies, more than the fragrances themselves, the "name." Each noble's blend carried a name; a named fragrance was remembered, spoken of, and written down. The moment a fragrance has a name, it becomes "that person's own" — it becomes self-expression, that is, a brand. The Heian nobles wore their fragrances, and were remembered together with the fragrance's name. The design of an inn's scent starts from here, too. <strong>A scent with no name cannot be remembered.</strong></p>
+
+<h2>Selection — giving the inn's scent a name</h2>
+
+<p>First, give your inn's scent a name. Not "the scent of hinoki" but "the scent of morning bath water," "the scent of XX water" — a name that holds the inn's name and place. Once the name is set, three things happen. Guests can write it into reviews ("the inn with that XX fragrance"). Staff can explain it ("this scent is made from the hinoki on the hill behind"). And the scent becomes something that can be sold as a souvenir (the take-home form is the fragrance sachet, which has existed since the Heian period; the experience of making scent sachets and the story of local materials are covered in <a href="#idea-scent-memory-inbound">Remain in Memory with Scent - Ideas for Remaining in Memory for Overseas Guests with Scent, Tea, Incense</a>).</p>
+
+<p>Choose the material not from purchased aromas but from the region: hinoki cypress, cedar, citrus, herbs, firewood. The reason is simple — the materials of that place can be had only in that place. Spread a scent that can be bought anywhere, and the fragrance holds no place to bond with memory. Only when name and place mesh does scent first become a brand.</p>
+
+<h2>Placement — the three scenes</h2>
+
+<p>Where to place scent is decided not by "where" but by "at which scene."</p>
+
+<ul>
+<li><strong>The scent of the entrance (the encounter)</strong> — One touch of scent at the moment of passing from the front door into the lounge. The scene of first impression. A natural scent, never too strong. This is the scent that makes a guest think "this is the place" the instant they arrive.</li>
+<li><strong>The scent of the room (the stay)</strong> — The guest room is the scene of "ease." Hinoki chips at the bedside, the faint scent of herbs laid with the linen. Too strong, and no one sleeps; too weak, and it vanishes. A subtlety noticed during the stay is the right answer.</li>
+<li><strong>The scent of memory (after the return home)</strong> — Hand it over at check-out in a form that can be taken home. Every time the guest smells it at home, the inn comes back once. Scent is the only souvenir that sells "the continuation of the journey."</li>
+</ul>
+
+<h2>Bring it down to one — the craft of subtraction</h2>
+
+<p>The temptation to add more fragrances is always there. Citrus in the lobby, lavender in the rooms, eucalyptus in the spa — but only one scent can hold a name. Everything-at-once becomes nothing-remembered. Narrow the inn's scent to one, and lay the same scent over the three scenes of entrance, room, and take-home. Meeting the same scent every time is what binds name and memory. The whole way of thinking about brand subtraction is covered in <a href="#branding-subtraction">If You Keep Only One: The Subtraction of Brand</a> — scent is the smallest implementation of that subtraction.</p>
+
+<h2>The other side — when scent design hurts the inn</h2>
+
+<ul>
+<li><strong>Forcing fragrance</strong> — For some guests, fragrance itself is a pain (people sensitive to chemicals, expectant mothers, or people who simply dislike it). Prepare one line at booking: "a fragrance-free room is available." Having the choice is part of the design.</li>
+<li><strong>The arrogance of concentration</strong> — A scent you can smell from far away is the inn pleasing itself. The moment the scent gets a name, the management of concentration begins too — "noticeable, and no more" is the ceiling.</li>
+<li><strong>The blind spot of habituation</strong> — Residents stop noticing the smell of their own inn. Build one question into the standard check-in: "What did you smell at the entrance?" A first-time nose is the most accurate instrument there is.</li>
+<li><strong>Order versus hygiene</strong> — Add scent before cutting the source of a bad smell, and the fragrance turns into "a smell of cover-up." Only where the cleaning is finished may scent be placed.</li>
+<li><strong>The seasons change it</strong> — With damp and with heating, the same scent smells different in each season. Inspect twice a year, before the rainy season and before a mild winter.</li>
+<li><strong>Fire and smoke</strong> — If you burn incense, managing the flame and considering people who dislike smoke come first. A form without burning — chips, sachets — can carry a name all the same.</li>
+</ul>
+
+<p>The first step is to write three candidate names on paper. Have the staff and three of this week's guests choose. Once the name is set: one line on the website, one line on the room card, one character on the take-home bag. As the nobles did a thousand years ago — a scent, once it has a name, is the one that stays in memory.</p>
+
+<div class="note">This article is intended for sharing ideas. The description of takimono-awase and the six classic takimono follows public materials on incense culture (as of writing). Use scent with attention to concentration, hygiene, and allergy consideration, and start small. Handle essential oils and the like according to the products' cautions.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-scent-memory-inbound">Remain in Memory with Scent - Ideas for Remaining in Memory for Overseas Guests with Scent, Tea, Incense</a> — how scent and memory work, and local materials</li>
+<li><a href="#scent-music-five-senses">Scent & Sound — A Stay the Five Senses Remember</a> — designing the hours of scent and sound</li>
+<li><a href="#branding-subtraction">If You Keep Only One: The Subtraction of Brand</a> — the whole design of narrowing to one</li>
+<li><a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a> — designing the first scene of arrival</li>
+</ul>17:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}]
+1c:T169b,<p>当谈到旅馆品牌时，我们往往会从它的外观来考虑。标志、照片、室内装饰。但最难忘的是<strong>“香味”</strong>。人们更多地通过嗅觉而不是视觉来回忆记忆。当我闻到柏树的香味时，我想起了旅馆的那个早晨。当我闻到柴火的味道时，我想起了客栈的那个夜晚。气味是一个“记忆开关”。在这篇文章中，我们将解释如何设计一家可以通过嗅觉而不是视觉记住的旅馆，以及气味如何创造重复光顾。品牌塑造就是“减法”，而香水是最有力的减法工具。</p>
+
+<h2>1、为什么要闻香？记忆是如何运作的</h2>
+<ul>
+<li><strong>嗅觉与记忆直接相关：</strong>视觉信息通过大脑的思想存储，但嗅觉信息直接进入控制记忆和情绪的边缘系统。所以当我闻到香味的时候，我就想起了当时的感受。那种香味让人想起“那家旅馆闻起来有丝柏的味道，我还想再去那里。”</li>
+<li><strong>气味之所以浓烈，是因为它“难以描述”：</strong>“这是一家美丽的旅馆”很容易用言语表达，但“旅馆闻起来有柏树的味道”却很难用言语表达。越是难以用语言表达的东西，就越是令人难忘。气味营造出一种“我无法解释，但我想再去一次”的感觉。</li>
+<li><strong>香水可以带回家：</strong>你不能把风景带回家，但可以把气味带回家。香精油、柏木片和木柴片。当我把香味带回家时，每次在家里闻到它的味道，我就会想起客栈。香气出售旅程的延续。</li>
+</ul>
+
+<h2>2.香味设计——三种香味</h2>
+<ol>
+<li><strong>“入口气味”——第一印象气味：</strong>当你进入入口或休息室的那一刻就闻到了香味。扁柏、雪松、柑橘、香草。入口处的香味决定了客栈的第一印象。自然的香味，不太浓也不太淡。使用当地原料（丝柏、柑橘、香草）而不是化学香料讲述当地故事（参见品牌文章）。</li>
+<li><strong>“房间气味”——令人安心的气味：</strong>房间里的香味。薰衣草，丝柏，无香。房间里的气味“令人安心”很重要。如果太强我就睡不着。如果太弱的话，就不会被记住。将丝柏碎片放在枕头旁边或在床单上添加草药香囊，营造出微妙的香味。</li>
+<li><strong>“记忆的气味”——您可以带回家的气味：</strong>退房时可以带回家的香味。芳香柏树油、袋装当地草药和木柴。记忆的味道成为回家后仍能想起旅馆的开关。把香味带回家会给你一个回归的理由。</li>
+</ol>
+
+<h2>3. 香味品牌——减法与延续</h2>
+<ul>
+<li><strong>将你的气味缩小到只有一种：</strong>如果你添加太多的气味，它就不会留在你的记忆中。专注于您的旅馆的一种气味。 “我们是一家柏树旅馆。”“我们是一家柑橘旅馆。”通过将其范围缩小到只有一种气味，它就成为您的品牌。品牌不是“加法”，而是“减法”。</li>
+<li><strong>香水由“当地材料”制成：</strong>不用购买化学香料，而是用当地原料创造香味。扁柏、雪松、柑橘、香草、木柴。由当地材料制成的香味成为该地区的故事。有故事的香味让我们的员工想要讲述它。</li>
+<li><strong>香气“继续”：</strong>仅经历过一次之后，这种气味就不会留在我的记忆中。它会留在你的记忆中，因为每次闻起来都是一样的。入口处的气味，房间里的气味，还有你可以带回家的气味。通过每次使用相同的气味，您将有理由不断回来，“我想再次闻到那种气味。”</li>
+</ul>
+
+<div class="stats"><span class="tag">计算示例</span><strong>例如，若施策前的“还想再来”的反馈为30%（10人中3人），则提高约23%至37%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 气味是“令人难忘的”品牌。可以通过嗅觉而不是视觉记住的住宿将被重复。判断效果时，请用相同的统计方法记录并比较施策前后30天的提到“香气”的点评与回头率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>香水的价值是<strong>《记忆开关》</strong>。当我闻到柏树的香味时，我想起了旅馆的那个早晨。气味营造出一种“我无法解释，但我想再去一次”的感觉。为您的旅馆选择一种气味，用当地原料制成，并坚持使用。气味是最强大的品牌工具。</div>
+
+<h2>对话列表</h2>
+<ul>
+<li><strong>问题1：您的住宿“气味”是什么？</strong> ——你能用语言描述一下你一进门就感受到的香气吗？丝柏、柑橘、香草、木柴。你能把范围缩小到一个吗？</li>
+<li><strong>问题2：香水是用当地原料制成的吗？</strong> — 由当地柏树、柑橘、香草和木柴制成，而不是化学香料？这是一个地区故事吗？</li>
+<li><strong>问题3：我可以把香水带回家吗？</strong> — 有没有可以带回家的香味，让客人回家后也能记住这家旅馆？香薰油、香袋、薯片等</li>
+<li><strong>问题4：每次的气味都一样吗？</strong> — 每次使用相同的气味会帮助您更好地记住它。如果每次的气味都不一样，它就不会留在你的记忆中。你还在继续吗？</li>
+<li><strong>问题5：工作人员可以讲述香味的故事吗？</strong> —“这棵柏树来自当地的山区。”“这种柑橘类水果是隔壁农民种植的。”讲述故事的气味成为品牌。</li>
+</ul>18:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}]
+19:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L15","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L15","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L15","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+1a:["$","div",null,{"className":"pager","children":[["$","$L15",null,{"href":"/journal/articles/influencer-collaboration-3-conditions","children":["- ",["$","span",null,{"className":"ja-only","children":"インフルエンサーとの協業 — 宿泊提供の前に決める3つの条件"}],["$","span",null,{"className":"en-only","children":"Influencer Collaboration: 3 Conditions to Decide Before Offering Stay"}],["$","span",null,{"className":"zh-only","children":"与有影响力的人合作——提供住宿之前需要决定的 3 个条件"}]]}],["$","$L15",null,{"href":"/journal/articles/idea-rainwater-garden","children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]," -"]}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 d:[["$","title","0",{"children":"宿の香り — 記憶に残る香りのブランド設計 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"宿のブランドは見た目で考えがちだが、最後まで残るのは匂い。平安の貴族が匂いに名前を付けた文化に学ぶ、香りの選定と配置——名前、3つの場面、1つに絞る理由。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

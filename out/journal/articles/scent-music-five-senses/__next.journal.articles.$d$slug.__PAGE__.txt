@@ -1,15 +1,176 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_guest-journey-map.jpg","image"]
-3:T1ab0,<p>最も忘れられやすく、最も強く記憶に残る感覚は「香り」と「音」です。写真のマーケティング(予約サイト・SNS)が伝えるのは視覚です。だからこそ<strong>写真に写らない感覚こそ、差別化</strong>になります。本記事は、香りと音——この2つを運営に組み込む設計を整理します。香りが記憶を呼び起こす仕組み(嗅覚だけが理性の関所を通らず、感情と記憶に直接届く経路を持つこと)は「香りで記憶に残る」の記事で詳しく扱ったので、ここでは繰り返しません。本記事の主題は、もう一歩先——<strong>香りと音を「どう設計するか」</strong>です。</p><h2>香りを「聞く」— 香道が教える時間のデザイン</h2><p>日本の香道の世界では、香りを<strong>「聞く」</strong>と言います。「かぐ」ではなく「聞く」。この動詞の選択には、深い理由があります。香道でたきしめる香りは、立ち上り、変化し、消えていく。絵や彫刻のように「いつ見てもそこにある」芸術ではなく、<strong>音楽と同じ構造——始まりと終わりがある時間芸術</strong>として、香りは扱われてきました。組香という、香りを聞き分けて楽しむ遊びが生まれた文化です。</p><p>ここに、宿のヒントがあります。多くの宿の香りと音は「流しっぱなし」です。アロマの噴霧、ロビーのBGM——一度入れると、誰も止めない。しかし香りの本質が時間にあるなら、設計すべきは「いつ香り、いつ鳴り、いつ静かか」という<strong>時間の設計</strong>です。香道の「聞く」は、香りを背景でなく主役にする視点のことです。</p><h2>香りの設計 — 3つの基本</h2><ul><li><strong>ひとつの香り</strong> — 固形石鹸の香りではなく、宿そのものの香りを1つ。混ざらないこと。選定と配置の詳細は「宿の香り」の記事で扱います。</li><li><strong>集中配置</strong> — ロビー・廊下・客室入口。散らばらせず、記憶に残る場所に置く。香道が香りを「一期一会」の場に置いたのと同じ発想です。</li><li><strong>安全と配慮</strong> — 濃度の管理と、香りが苦手なゲストへの代替(無香料の部屋・換気)。アレルギー対応の考え方は食の対応と共通です。</li></ul><h2>音の設計 — 3つの基本と、静寂</h2><ul><li><strong>ひとつの音</strong> — 「BGMを流している」のではなく、宿の音を持つ。曲の系統を1つに絞る。</li><li><strong>ボリュームのゾーン</strong> — 受付は活気、客室は静寂、レストランは温かさ。場所ごとに音量の帯を決める。</li><li><strong>到着の音</strong> — ドアのチャイム、最初の挨拶。体験の最初の5秒の音は、記憶に残る音になります。</li></ul><p>そして忘れてはならないのが<strong>静寂の設計</strong>です。何も流さない客室も、設計された音です。日本の生活文化は、虫の音を「声」として聴き、風鈴の音で涼を作る——音を消すのではなく、音を選んで聴く感性を持ってきました。静かさは空白ではなく、<strong>選ばれた静けさ</strong>であるとき、体験のピークを守ることにもつながります(ピークの時間に接客が引く考え方と同じです)。</p><h2>伝達 — 写真に写らないものを言葉で</h2><p>香りと音は、写真では伝わりません。だからこそ、言葉で伝える価値があります。客室のカードとSNSで「この宿の香り」「この宿の音」を1行ずつ書く。「朝は鳥の声で始まります」「廊下の先に、ひのきの香りがあります」——<strong>写らないものを言語化する宿は、五感すべてを管理している印象</strong>をゲストに与えます。レビューで「あの香り」「あの静けさ」と語られ始めたら、設計は機能しています。</p><h2>反対側 — 感覚の設計が宿を疲れさせるとき</h2><ul><li><strong>香りの押し付け</strong> — 敏感なゲストには芳香そのものが不満です。無香料という選択肢を、予約時に選べるようにする。</li><li><strong>音の強制</strong> — 客室の音楽は、消せる仕様であること。かけがえのない静けさを望むゲストに、BGMは障害物です。</li><li><strong>慣れの盲点</strong> — スタッフは自分の宿の香りに慣れて、気づかなくなります。月1回、初日の人に「何が香りましたか」と聞く。</li><li><strong>高価=設計の誤解</strong> — 香りの設計は選択と配置の設計であって、高価なアロマの設計ではありません。1つの香りを正しく置く方が、10種をばらまくより強い。</li><li><strong>営業時間の音</strong> — 深夜の掃除機、早朝の準備の音。音の設計は、ゲストの時間を守る設計でもあります。</li><li><strong>録音の虫の音</strong> — 本物の風鈴、本物の鳥の声の方が、スピーカーからの音より記憶に残ります。設備で足す前に、窓を開けることから。</li></ul><p>最初の一歩は、今週、目を閉じて自分の宿を10分歩くことです。メモに書くのは、香り3つと音3つ。予想より多くの音に気づき、予想より少ない香りに気づくはずです。それが棚卸しです。香りと音は「写真に撮れないブランド」です。視覚を写真で伝え、香りと音で記憶を作る——五感の設計は、その2行から始まります。</p><div class="note">この記事はアイデア共有を目的としています。香道・聞香の慣行は日本の伝統文化の一般論としての紹介です。香りの使用は濃度・衛生・アレルギー配慮の上、小さく始めてください。</div><h2>次に読む</h2><ul><li><a href="#idea-scent-memory-inbound">香りで記憶に残る — 香り・お茶・お香で海外ゲストの記憶に残るアイデア</a> — 香りと記憶の仕組みの話</li><li><a href="#hotel-scent-branding">宿の香り — 記憶に残る香りのブランド設計</a> — 香りの選定と配置の話</li><li><a href="#idea-wind-feel-room">風を感じる客室 — 風鈴・風の抜け方・窓の開け方で作る涼のアイデア</a> — 音で涼を作る話</li><li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 朝の音と香りを並べる話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","065"]}]]}],["$","h1",null,{"children":"香りと音楽 — 五感で覚えられる宿"}],["$","p",null,{"className":"excerpt","children":"香道の世界では、香りを「聞く」と言います——香りは立ち上り、消える時間芸術。流しっぱなしでなく、始まりと終わりを設計する。写真に写らない2つの感覚の運営設計。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.03.05"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","guest-journey-map",{"href":"/journal/articles/guest-journey-map","children":[["$","img",null,{"src":"/library/journal/ai_guest-journey-map.jpg","alt":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.23"}],["$","h4",null,{"children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/regional-hotel-media","children":["← ","地方ホテルがメディアに取り上げられる術"]}],["$","$L2",null,{"href":"/journal/articles/ota-commission-visibility","children":["OTA手数料を可視化する"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1ab0,<p>最も忘れられやすく、最も強く記憶に残る感覚は「香り」と「音」です。写真のマーケティング(予約サイト・SNS)が伝えるのは視覚です。だからこそ<strong>写真に写らない感覚こそ、差別化</strong>になります。本記事は、香りと音——この2つを運営に組み込む設計を整理します。香りが記憶を呼び起こす仕組み(嗅覚だけが理性の関所を通らず、感情と記憶に直接届く経路を持つこと)は「香りで記憶に残る」の記事で詳しく扱ったので、ここでは繰り返しません。本記事の主題は、もう一歩先——<strong>香りと音を「どう設計するか」</strong>です。</p><h2>香りを「聞く」— 香道が教える時間のデザイン</h2><p>日本の香道の世界では、香りを<strong>「聞く」</strong>と言います。「かぐ」ではなく「聞く」。この動詞の選択には、深い理由があります。香道でたきしめる香りは、立ち上り、変化し、消えていく。絵や彫刻のように「いつ見てもそこにある」芸術ではなく、<strong>音楽と同じ構造——始まりと終わりがある時間芸術</strong>として、香りは扱われてきました。組香という、香りを聞き分けて楽しむ遊びが生まれた文化です。</p><p>ここに、宿のヒントがあります。多くの宿の香りと音は「流しっぱなし」です。アロマの噴霧、ロビーのBGM——一度入れると、誰も止めない。しかし香りの本質が時間にあるなら、設計すべきは「いつ香り、いつ鳴り、いつ静かか」という<strong>時間の設計</strong>です。香道の「聞く」は、香りを背景でなく主役にする視点のことです。</p><h2>香りの設計 — 3つの基本</h2><ul><li><strong>ひとつの香り</strong> — 固形石鹸の香りではなく、宿そのものの香りを1つ。混ざらないこと。選定と配置の詳細は「宿の香り」の記事で扱います。</li><li><strong>集中配置</strong> — ロビー・廊下・客室入口。散らばらせず、記憶に残る場所に置く。香道が香りを「一期一会」の場に置いたのと同じ発想です。</li><li><strong>安全と配慮</strong> — 濃度の管理と、香りが苦手なゲストへの代替(無香料の部屋・換気)。アレルギー対応の考え方は食の対応と共通です。</li></ul><h2>音の設計 — 3つの基本と、静寂</h2><ul><li><strong>ひとつの音</strong> — 「BGMを流している」のではなく、宿の音を持つ。曲の系統を1つに絞る。</li><li><strong>ボリュームのゾーン</strong> — 受付は活気、客室は静寂、レストランは温かさ。場所ごとに音量の帯を決める。</li><li><strong>到着の音</strong> — ドアのチャイム、最初の挨拶。体験の最初の5秒の音は、記憶に残る音になります。</li></ul><p>そして忘れてはならないのが<strong>静寂の設計</strong>です。何も流さない客室も、設計された音です。日本の生活文化は、虫の音を「声」として聴き、風鈴の音で涼を作る——音を消すのではなく、音を選んで聴く感性を持ってきました。静かさは空白ではなく、<strong>選ばれた静けさ</strong>であるとき、体験のピークを守ることにもつながります(ピークの時間に接客が引く考え方と同じです)。</p><h2>伝達 — 写真に写らないものを言葉で</h2><p>香りと音は、写真では伝わりません。だからこそ、言葉で伝える価値があります。客室のカードとSNSで「この宿の香り」「この宿の音」を1行ずつ書く。「朝は鳥の声で始まります」「廊下の先に、ひのきの香りがあります」——<strong>写らないものを言語化する宿は、五感すべてを管理している印象</strong>をゲストに与えます。レビューで「あの香り」「あの静けさ」と語られ始めたら、設計は機能しています。</p><h2>反対側 — 感覚の設計が宿を疲れさせるとき</h2><ul><li><strong>香りの押し付け</strong> — 敏感なゲストには芳香そのものが不満です。無香料という選択肢を、予約時に選べるようにする。</li><li><strong>音の強制</strong> — 客室の音楽は、消せる仕様であること。かけがえのない静けさを望むゲストに、BGMは障害物です。</li><li><strong>慣れの盲点</strong> — スタッフは自分の宿の香りに慣れて、気づかなくなります。月1回、初日の人に「何が香りましたか」と聞く。</li><li><strong>高価=設計の誤解</strong> — 香りの設計は選択と配置の設計であって、高価なアロマの設計ではありません。1つの香りを正しく置く方が、10種をばらまくより強い。</li><li><strong>営業時間の音</strong> — 深夜の掃除機、早朝の準備の音。音の設計は、ゲストの時間を守る設計でもあります。</li><li><strong>録音の虫の音</strong> — 本物の風鈴、本物の鳥の声の方が、スピーカーからの音より記憶に残ります。設備で足す前に、窓を開けることから。</li></ul><p>最初の一歩は、今週、目を閉じて自分の宿を10分歩くことです。メモに書くのは、香り3つと音3つ。予想より多くの音に気づき、予想より少ない香りに気づくはずです。それが棚卸しです。香りと音は「写真に撮れないブランド」です。視覚を写真で伝え、香りと音で記憶を作る——五感の設計は、その2行から始まります。</p><div class="note">この記事はアイデア共有を目的としています。香道・聞香の慣行は日本の伝統文化の一般論としての紹介です。香りの使用は濃度・衛生・アレルギー配慮の上、小さく始めてください。</div><h2>次に読む</h2><ul><li><a href="#idea-scent-memory-inbound">香りで記憶に残る — 香り・お茶・お香で海外ゲストの記憶に残るアイデア</a> — 香りと記憶の仕組みの話</li><li><a href="#hotel-scent-branding">宿の香り — 記憶に残る香りのブランド設計</a> — 香りの選定と配置の話</li><li><a href="#idea-wind-feel-room">風を感じる客室 — 風鈴・風の抜け方・窓の開け方で作る涼のアイデア</a> — 音で涼を作る話</li><li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 朝の音と香りを並べる話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"065"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"香道の世界では、香りを「聞く」と言います——香りは立ち上り、消える時間芸術。流しっぱなしでなく、始まりと終わりを設計する。写真に写らない2つの感覚の運営設計。"}],["$","span",null,{"className":"en-only","children":"In the world of kōdō, the way of incense, a fragrance is \"listened to\" — scent is an art of time: it rises, changes, and fades. Not left running, but designed with a beginning and an end. The operational design of the two senses a photograph cannot capture."}],["$","span",null,{"className":"zh-only","children":"针对“气味”和“声音”这两种最容易被遗忘的感官进行操作设计。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.03.05"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1b0e,<p>The senses most easily forgotten, and most strongly remembered, are scent and sound. What photographic marketing (booking sites, social media) conveys is sight. Which is exactly why <strong>the senses a photograph cannot capture become the differentiation</strong>. This article organizes the design that builds these two — scent and sound — into operations. How scent summons memory (that smell alone holds a path reaching emotion and memory directly, without passing the checkpoint of reason) was treated in detail in the "remain in memory with scent" article, so it is not repeated here. This article’s subject is one step further — <strong>how to design scent and sound</strong>.</p>
+
+<h2>"Listening" to a fragrance — the design of time that kōdō teaches</h2>
+
+<p>In the world of Japan’s kōdō, the way of incense, a fragrance is said to be <strong>"listened to"</strong> — kiku, "to listen" — not "smelled." There is a deep reason for the choice of this verb. The fragrances burned in kōdō rise, change, and fade. Incense has been treated not as an art that "is there whenever you look," like a painting or a sculpture, but as having <strong>the same structure as music — an art of time, with a beginning and an end</strong>. It is the culture that gave birth to kumikō, the game of listening to fragrances and telling them apart.</p>
+
+<p>Here is a hint for properties. At most properties, scent and sound are "left running." The aroma diffuser, the lobby background music — once switched on, no one ever stops them. But if the essence of fragrance lies in time, what should be designed is <strong>the design of time</strong> — when it scents, when it sounds, when it is quiet. The "listening" of kōdō is precisely this viewpoint: making the fragrance not the background but the protagonist.</p>
+
+<h2>Designing scent — 3 basics</h2>
+
+<ul>
+<li><strong>One fragrance</strong> — Not the scent of a bar of soap, but one fragrance that is the property itself. Do not let them blend. The details of selection and placement are handled in the "hotel scent" article.</li>
+<li><strong>Concentrated placement</strong> — The lobby, the corridor, the room entrance. Do not scatter it; place it where it will be remembered. The same thinking with which kōdō set its fragrance in the place of "one time, one meeting."</li>
+<li><strong>Safety and consideration</strong> — Managing concentration, and alternatives for guests sensitive to fragrance (fragrance-free rooms, ventilation). The thinking on allergies is shared with the food-accommodation article.</li>
+</ul>
+
+<h2>Designing sound — 3 basics, and silence</h2>
+
+<ul>
+<li><strong>One sound</strong> — Not "playing background music," but having the property’s own sound. Narrow the family of pieces to one.</li>
+<li><strong>Volume zones</strong> — Lively at the front desk, silent in the rooms, warm in the restaurant. Set the band of volume for each place.</li>
+<li><strong>The sound of arrival</strong> — The chime of the door, the first greeting. The sound of the first five seconds of the experience becomes the sound that is remembered.</li>
+</ul>
+
+<p>And what must not be forgotten is <strong>the design of silence</strong>. A room where nothing plays is also a designed sound. Japan’s living culture has listened to the voices of insects as voices, and made coolness with the sound of wind chimes — a sensibility not of erasing sound but of choosing which sounds to listen to. When quietness is not blank space but <strong>chosen quietness</strong>, it connects also to protecting the peak of the experience (the same thinking as pulling service back at peak moments).</p>
+
+<h2>Telling it — what a photograph cannot capture, in words</h2>
+
+<p>Scent and sound do not come through in photographs. Which is exactly why they are worth conveying in words. On the room card and on social, write one line each of "this property’s fragrance" and "this property’s sound." "Mornings begin with the voices of birds." "At the end of the corridor, the scent of hinoki cypress." <strong>A property that puts into words what cannot be photographed gives guests the impression of managing all five senses.</strong> When reviews begin to speak of "that fragrance" and "that quietness," the design is working.</p>
+
+<h2>The other side — when designing the senses exhausts the property</h2>
+
+<ul>
+<li><strong>Pushing fragrance on guests</strong> — For sensitive guests, the fragrance itself is the complaint. Make the fragrance-free option selectable at booking.</li>
+<li><strong>Forcing sound</strong> — In-room music must be switchable off. For guests seeking an irreplaceable quietness, background music is an obstacle.</li>
+<li><strong>The blind spot of habituation</strong> — Staff grow used to the property’s own scent and stop noticing. Once a month, ask someone on their first day: "What did you smell?"</li>
+<li><strong>The mistake "expensive = designed"</strong> — The design of scent is a design of choice and placement, not of expensive aromatics. One fragrance correctly placed is stronger than ten kinds scattered about.</li>
+<li><strong>The sounds of working hours</strong> — The vacuum at midnight, the sounds of early-morning preparation. The design of sound is also a design that protects the guest’s hours.</li>
+<li><strong>Recorded insect voices</strong> — A real wind chime, the real voices of birds stay in memory more than sound from a speaker. Before adding equipment, start by opening the window.</li>
+</ul>
+
+<p>The first step is, this week, to walk your own property for ten minutes with your eyes closed. What you write in the memo: three scents and three sounds. You should notice more sounds than expected, and fewer scents. That is the inventory. Scent and sound are "the brand a camera cannot shoot." Convey the visual in photographs, build memory with scent and sound — the design of the five senses begins from those two lines.</p>
+
+<div class="note">This article is intended for sharing ideas. The practices of kōdō and "listening" to incense are introduced as a general account of Japanese traditional culture. Please start small with fragrances, with attention to concentration, hygiene, and allergy considerations.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-scent-memory-inbound">Remain in Memory with Scent - Ideas for Remaining in Memory for Overseas Guests with Scent, Tea, Incense</a> — how scent and memory work</li>
+<li><a href="#hotel-scent-branding">Hotel Scent: Designing a Memorable Olfactory Brand</a> — selecting and placing the scent</li>
+<li><a href="#idea-wind-feel-room">Room Feeling Wind - Ideas for Coolness Made with Wind Chimes, Ventilation, Window Opening</a> — making coolness with sound</li>
+<li><a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a> — arranging the morning’s sounds and scents</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tfb9,<p>最容易忘记、最难忘的感官是“气味”和“声音”。本文将解释两种无法通过照片传达的感觉——将它们融入操作的设计。</p>
+<h2>1. 为什么是“气味”和“声音”？</h2>
+<p>照片营销（OTA/SNS）传达“视觉性”。<strong>照片中看不到的感觉正是我们的与众不同之处。</strong>。气味与记忆直接相关（前列腺现象），声音影响情绪和氛围。评论中经常提到“那种气味”和“那种音乐”，展示了这两者的力量。</p>
+<h2>2.香味设计</h2>
+<ul>
+<li><strong>与您的品牌相匹配的“一种香味”</strong> ——不是肥皂的香味，而是旅馆本身的香味。</li>
+<li><strong>集中投放</strong> — 大堂/走廊/客房入口。让它成为一个令人难忘的地方，但又不会显得杂乱。</li>
+<li><strong>安全与考虑</strong> — 浓度控制，过敏的替代方案。</li>
+</ul>
+<h2>3.声音设计</h2>
+<ul>
+<li><strong>与您的品牌相匹配的“一个声音”</strong> ——不只是“播放背景音乐”，而是旅馆的“声音”。</li>
+<li><strong>体积区</strong> ——接待=热闹，客房=安静，餐厅=温馨。</li>
+<li><strong>《到来的声音》</strong> ——门铃响起，问候。声音的前 5 秒。</li>
+</ul>
+<h2>4. 传输</h2>
+<ul>
+<li>通过客房卡和SNS传达“气味和声音”——用文字来说是“不能拍照的东西”。</li>
+<li>示例：评论中提及“气味”和“音乐”，重复率增加（参考值）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>与五年前相比，客人对“香与乐——五种感官都能记住的住宿”的期望已经发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>体验设计举措增加了整个地区的价值，而不仅仅是住宿本身。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>一</b><span>香味（与品牌相符）</span></div><div class="stat"><b>一</b><span>声音（与品牌相符）</span></div><div class="stat"><b>增加</b><span>（数值示例）提及“气味/音乐”</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>气味和声音是“无法拍摄的品牌”。然而，这些都是客人“凭记忆回忆起”的第一件事。通过照片传达视觉，通过气味和声音创造“记忆”——这就是五种感官的设计。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：盘点当前的“气味”和“声音”（正在流动的东西）</li>
+<li>第 2 周：选择适合您品牌的“一款香水”</li>
+<li>第三周：选择“一个声音”（播放列表）+区域设计</li>
+<li>第4周：客房卡和SNS沟通</li>
+<li>每月：监控评论中提及“香水/音乐”的情况</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","guest-journey-map",{"href":"/journal/articles/guest-journey-map","children":[["$","img",null,{"src":"/library/journal/ai_guest-journey-map.jpg","alt":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.23"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","span",null,{"className":"en-only","children":"The Whole Guest Experience: Mapping the Touchpoints"}],["$","span",null,{"className":"zh-only","children":"宾客体验的全貌——如何在地图上查看“接触点”"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/regional-hotel-media","children":["- ",["$","span",null,{"className":"ja-only","children":"地方ホテルがメディアに取り上げられる術"}],["$","span",null,{"className":"en-only","children":"How Regional Hotels Get Featured in the Media"}],["$","span",null,{"className":"zh-only","children":"当地酒店如何在媒体上亮相"}]]}],["$","$L8",null,{"href":"/journal/articles/ota-commission-visibility","children":[["$","span",null,{"className":"ja-only","children":"OTA手数料を可視化する"}],["$","span",null,{"className":"en-only","children":"Making OTA Commissions Visible"}],["$","span",null,{"className":"zh-only","children":"可视化 OTA 费用"}]," -"]}]]}]
+10:null

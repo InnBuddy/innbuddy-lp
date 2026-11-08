@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-small-farm-1tsubo.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T2407,<p>宿に畑を持つ話をすると、たいてい「うちは農家ではないので」という返事が返ってきます。畑というと、広い土地と、農機具と、作物の専門知識を想像してしまうからです。そこで、この記事ではあえて小さく考えましょう。<strong>1坪。約3.3平方メートル。畳2畳分</strong>。この面積なら、ほとんどの宿の庭の一角、駐車場の端、空いた花壇から捻出できます。そして、この小ささにこそ、宿の畑の本質があります。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2407,<p>宿に畑を持つ話をすると、たいてい「うちは農家ではないので」という返事が返ってきます。畑というと、広い土地と、農機具と、作物の専門知識を想像してしまうからです。そこで、この記事ではあえて小さく考えましょう。<strong>1坪。約3.3平方メートル。畳2畳分</strong>。この面積なら、ほとんどの宿の庭の一角、駐車場の端、空いた花壇から捻出できます。そして、この小ささにこそ、宿の畑の本質があります。</p>
 
 <h2>1. なぜ1坪なのか — 「見せる農」の最小単位</h2>
 <p>宿の畑の目的は、収量ではありません。食材が生まれる過程を、ゲストの目の前に置くことです。収量を追うなら1坪はあまりに小さいものの、過程を見せるなら1坪は十分に大きいのです。種が土に入っていて、芽が出ており、育ちきっていないものがあります。収穫された後の土が見えます——1坪あれば、この「時間の断面」をぜんぶ見せられます。</p>
@@ -49,10 +114,68 @@ a:"$Sreact.suspense"
 <li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 朝食を舞台にする方法</li>
 <li><a href="#idea-wild-herb-taste">野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア</a> — 育てた草を味わう視点</li>
 <li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 地域の食の風景</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","128"]}]]}],["$","h1",null,{"children":"小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"}],["$","p",null,{"className":"excerpt","children":"1坪＝3.3平方メートル。この、ほんの小さな面積が「見せる農」の最小単位になり得ます。ニューヨーク郊外の農場レストランと日本の農家民宿制度から、宿の畑の設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-small-farm-1tsubo.jpg","alt":"小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.08"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-wild-herb-taste","children":["← ","野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-forest-sound-collection","children":["森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"128"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Small Farm - Farm Ideas Starting from 1 Tsubo"}],["$","span",null,{"className":"zh-only","children":"田地小旅馆——用一坪（1坪）田地开旅馆的想法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"1坪＝3.3平方メートル。この、ほんの小さな面積が「見せる農」の最小単位になり得ます。ニューヨーク郊外の農場レストランと日本の農家民宿制度から、宿の畑の設計を考えます。"}],["$","span",null,{"className":"en-only","children":"One tsubo = 3.3 square meters. This tiny area can be the smallest unit of \"farming that shows.\" From a farm restaurant in the New York suburbs and Japan’s farm-guesthouse system — designing the inn’s field."}],["$","span",null,{"className":"zh-only","children":"1坪田、种植园中的香草、1排果田。这是一系列想法，将从一个小农场开始，丰富您旅馆的膳食和体验。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-small-farm-1tsubo.jpg","alt":"小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.08"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T217c,<p>When you talk about an inn having a field, the reply is usually "we aren’t farmers." The word "field" summons images of wide land, of farm machinery, of expert knowledge of crops. So this article thinks small on purpose. <strong>One tsubo. About 3.3 square meters. Two tatami mats.</strong> An area of this size can be found in the corner of most inns’ gardens, at the edge of a parking lot, or in an unused flowerbed. And in this smallness lies the essence of the inn’s field.</p>
+
+<h2>1. Why one tsubo — the smallest unit of "farming that shows"</h2>
+
+<p>The purpose of an inn’s field is not yield. It is to set the process by which food is born before the guest’s eyes. Chasing yield, one tsubo is far too small; showing process, one tsubo is plenty big. Seeds are in the soil. Sprouts are up. Some things stand half-grown. The soil after harvest is visible — with one tsubo, this "cross-section of time" can all be shown.</p>
+
+<p>Think about it: for a guest, which leaves more of a memory — a "perfectly arranged flowerbed" in the inn’s garden, or "something now halfway through growing"? Things halfway through growing exert a pull that makes you want to come look again tomorrow. Before the inn’s field is a story of food, it is a story of <strong>a garden where time is visible</strong> (ANALYSIS).</p>
+
+<h2>2. The system — Japan in fact has a frame called the "farm guesthouse"</h2>
+
+<div class="note"><span class="tag">FACT</span>In Japan, rural-stay tourism — "green tourism" — has been promoted by policy since the 1990s. In 1992 the Ministry of Agriculture, Forestry and Fisheries published an interim report of its green-tourism study group, and the systems were built on that basis. In 1995, under the "Act on the Promotion of Infrastructure Development for Leisure Activities in Rural Areas," a registration system for farming-experience guesthouses (the so-called farm guesthouses) began — minshuku that offer rice planting, harvest, and other farm experiences, and processing experiences such as soba-making, together with lodging (per the act and municipalities’ explanations).</div>
+
+<p>This system is a frame for "farmers running an inn," but the idea can be used in reverse — <strong>an inn runs a part of the farming.</strong> There is no need to do all of it. One tsubo of field, the sowing of seeds, the breakfast of harvest. Design only the "experience" of the farm experience, from the lodging side.</p>
+
+<h2>3. WORLD — a restaurant, inn-like, that set its table in the middle of a farm</h2>
+
+<p>One example from abroad. In spring 2004, in Pocantico Hills, New York, a restaurant called Blue Hill at Stone Barns opened. The chef is Dan Barber. The place is inside the grounds of Stone Barns Center, a nonprofit farm with agricultural education as its mission, and the building was once the farm’s dairy barn. The restaurant’s ingredients grow on this farm, and the meal itself becomes an education in farming — so it was designed. Barber later reopened the question of what lies beyond farm-to-table in the book "The Third Plate" (2014), and even founded a seed company (Row 7 Seed Co.).</p>
+
+<p>What the inn should learn here is not the scale but the <strong>composition</strong>. Shorten the distance between field and table, physically and psychologically. Shrink the Stone Barns composition onto one tsubo of the inn and translate it — that is the core of this article’s proposal (InnBuddy VIEW).</p>
+
+<h2>4. Implementation — designing and running one tsubo</h2>
+
+<p><strong>What to grow.</strong> The criteria are three: fast, visibly changing, edible as is. Radishes (hatsuka-daikon) can generally be harvested in 20 to 30 days, and the cotyledons are up by the third day from sowing — the speed of change becomes, just as it is, a thing to watch during a stay. Leaf vegetables (komatsuna, mizuna, salad greens) take 30 to 40 days. Mini tomatoes and edible flowers (nasturtium, viola) carry as far as garnishing a plate. Herbs are hard to kill and suit the first tsubo especially well.</p>
+
+<p><strong>How to divide it.</strong> Two beds in one tsubo, with a walking path between. The beds should mind the height a guest wants to touch (reached standing, or seen bending down). Pile old timber or brick from a demolition site along the edge, and the boundary between "field" and "garden" softens.</p>
+
+<p><strong>How to make it an experience.</strong> Show the field in the morning. Make watering the morning task of guests who wish. What can be harvested is added to that day’s breakfast plate as "picked this morning." How it goes on the menu is crucial: with just the one phrase "komatsuna from the field, blanched," the green of the breakfast connects to the field. A seed-sowing experience becomes a chance to invite a return visit around sprouting time — a single postcard saying "the seeds you sowed have sprouted" is the plainest form of return-visit promotion there is (as a SIMULATION-like example of use).</p>
+
+<div class="stats"><span class="tag">SIMULATION</span><strong>A reference example of running it</strong> — Seeds: a bag of radish or leaf-vegetable seeds runs under a few hundred yen (reference price). With soil and frame material included, initial costs start around a few thousand yen. Daily labor is minutes of watering. But summer watering is twice a day, morning and evening, and days when staff are away need a duty roster — the hard part of a one-tsubo field is not making it but keeping it going.</div>
+
+<h2>5. The reality of operations — small techniques for keeping it going</h2>
+
+<ul>
+<li><strong>Put watering on a rota</strong> — A summer field dries in a day. A duty roster, or simple drip irrigation (from plastic bottles or hose).</li>
+<li><strong>Design for no agricultural chemicals</strong> — A field guests touch is easiest to explain under a no-chemicals policy. In exchange, leaves with insect bites will appear. Whether you can tell those as "proof the insects ate first" is the dividing line.</li>
+<li><strong>Against birds and beasts</strong> — Depending on the region, birds, deer, boar. Netting and fencing go into the budget from the start.</li>
+<li><strong>The hygiene boundary</strong> — If harvests go into cooking, consult the health office with jurisdiction about washing and storage hygiene, and about the line between a home kitchen garden and "serving as business."</li>
+<li><strong>Design the dying season in</strong> — The winter tsubo can become green manure (a crop for resting the soil) or a compost heap. Can you guide a bare field as "a field at rest"? Draw the year’s script in advance.</li>
+</ul>
+
+<h2>6. Which inns it suits</h2>
+
+<p>An inn serving meals can build the story connecting field and table most easily. Experience-based and long-stay inns can build the weeks from sowing to harvest into the design of the stay. Conversely, at an inn serving no meals, it lasts longer to commit to the one tsubo as "a garden to look at" rather than "sharing the harvest." For an urban hotel, a row of herb pots on the roof or balcony is "the urban version of one tsubo."</p>
+
+<h2>Closing</h2>
+
+<p>What a one-tsubo field sells is not vegetables but "the process in between." The soil before sprouting, the green halfway through growing, the bed after harvest. What stays in the guest’s memory is not the finished form but a landscape that makes them think about tomorrow. Could you not prepare two tatami mats’ worth of "in between" on your inn’s grounds?</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling farmland or fields, do so on the premise of consultation with the farmer or owner.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a> — designing the experience from harvest to table</li>
+<li><a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a> — making breakfast a stage</li>
+<li><a href="#idea-wild-herb-taste">Taste Wild Herbs - Ideas for Wild Herb Tea, Dyeing, Tempura</a> — the perspective of tasting what grew</li>
+<li><a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a> — the food landscape of the region</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1194,<p>本文分享一些可供尝试的想法。小田地有的旅馆是一坪田，有的旅馆是一排果田，有的旅馆是种植园里的药草。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>即使你没有大片土地，你也可以从 1 坪土地或花盆中种植草药开始。拥有一个小农场，会让客栈的餐食和体验更加丰富一些。我们收集了一些关于为您的旅馆开设小农场的想法。</p><h2>小田地住宿创意集合</h2><ul><li><strong>从 1 坪字段开始</strong> — 在花园的一角开辟一块 1 坪（约 3.3 平方米）的小田地。为什么不从香草、樱桃番茄、蓝莓和其他容易种植且不需要太多努力的东西开始呢？在一家旅馆，他们在早餐沙拉中使用在 1 坪（1 坪）田里种植的香草，并以“在 1 坪（1 坪）田里种植”的方式介绍它们。即使是在小田里，也能产生故事。</li><li><strong>种植者药草田</strong> — 即使在无法种植田地的旅馆中，您也可以从种植园中种植草药开始。这个想法是在花盆中种植迷迭香、薄荷和罗勒等芳香草本植物，并将它们用作早餐或茶。在一间旅馆，客房窗边的花盆里摆放着香草，让客人可以闻到香味。</li><li><strong>把一排果田变成客栈田</strong> — 有果田的客栈，可将一排果田作为客栈的田地。一间旅馆将一排蓝莓田变成了旅馆的田地，并以带有采摘体验的套装的形式推出。即使是一排果田，也能创造出一个客栈的田地故事。</li><li><strong>田间收获体验</strong> — 将收割小田地变成儿童的一次小体验。采摘香草、收获樱桃番茄的经历将留在孩子们的记忆中。如果人们能当场品尝自己收获的果实或者把它带回家，他们会很高兴。</li><li><strong>从田间到餐桌的故事</strong> — 小板和卡片上介绍了如何在田间收获食物并在餐桌上享用食物的故事。在一家旅馆，早餐附有一张卡片，上面写着：“今天沙拉的香草是从花园里 10 英亩的田地里采摘的。”从田地到餐桌的短暂距离传达了新鲜感和故事性。</li></ul><h2>海外住宿案例——小场地住宿的想法</h2><p>在斯堪的纳维亚农场旅馆中，小田野是生活的中心。我们在菜肴中使用自家一坪田种植的香草，并向客人讲述香草的故事。小农场的存在丰富了旅馆的用餐选择。澳大利亚的乡村客栈，以一排果田作为客栈的场地，体验中包含了一次收获体验。</p><p>你们客栈里的一块小田地是什么样的地方？为什么不从花盆里种植草药开始呢？</p><h2>果田和小田地结合的想法</h2><p>在设有果园的旅馆中，将小农场与果园结合起来，打造出可以感受到里山恩惠的餐桌。一家旅馆在蓝莓田旁边建造了一个药草园，并提供蓝莓和药草一起作为早餐。蓝莓和薄荷的组合非常适合夏季早餐。</p><p>即使您的旅馆没有果园，您仍然可以在花盆中种植果树。为什么不从柠檬树或盆栽蓝莓开始呢？即使是小果树也能创造一个果园故事。</p><div class="stats"><span class="tag">模拟示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约18%的数字仅为趋势示意，并不保证效果）。</strong> — 一块小田地可能会为你的餐桌带来丰富。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。设置和运营场地时，请检查当地规则和卫生状况，并咨询专家。使用农药时请充分考虑安全性。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>创建1坪场</strong> — 从花园一角的一小块1坪田开始，从容易种植的香草、樱桃番茄等开始。</li><li><strong>将草药放入花盆中</strong> — 添加迷迭香、薄荷和罗勒等香草</li><li><strong>利用一排果田作为住宿地</strong> — 一排蓝莓田为一组，有采摘体验</li><li><strong>计划一次田间收获体验</strong> ——摘自给孩子采摘草药的经历</li><li><strong>从田间到餐桌制作卡片</strong> — 我收到一张卡片，上面写着今天沙拉的香草是在我花园里的 1 坪（1 坪）田地里收获的。</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-wild-herb-taste","children":["- ",["$","span",null,{"className":"ja-only","children":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}],["$","span",null,{"className":"en-only","children":"Taste Wild Herbs - Ideas for Wild Herb Tea, Dyeing, Tempura"}],["$","span",null,{"className":"zh-only","children":"品尝野花 — 野花茶、野花染色和野花天妇罗的创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-forest-sound-collection","children":[["$","span",null,{"className":"ja-only","children":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}],["$","span",null,{"className":"en-only","children":"Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room"}],["$","span",null,{"className":"zh-only","children":"收集森林的声音——在客房享受森林、河流和风的声音的想法"}]," -"]}]]}]
+10:null

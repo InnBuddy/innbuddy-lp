@@ -8,15 +8,81 @@ a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-
 c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
-0:{"P":null,"c":["","journal","articles","idea-firewood-landscape",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-firewood-landscape","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"P":null,"c":["","journal","articles","idea-firewood-landscape",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-firewood-landscape","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Wjs50aw9q7KwJzs198_KL"}
 f:[]
 9:"$Wf"
-10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+10:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      6:["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$10"}}],["$","header",null,{"className":"article-headbar container","children":["$L11","$L12"]}],"$L13","$L14"]}]
+15:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
 :HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
-11:T1f94,<p>宿の敷地に、きちんと積まれた薪棚が立っています。ゲストはそこに何を見るのでしょう。「田舎風の置物」でしょうか。それとも、ひとつの約束——<strong>「ここには火を眺める夜がある」</strong>でしょうか。</p>
+11:["$","$L15",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}]
+12:["$","div",null,{"className":"head-right","children":[["$","$L15",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]
+16:T1f94,<p>宿の敷地に、きちんと積まれた薪棚が立っています。ゲストはそこに何を見るのでしょう。「田舎風の置物」でしょうか。それとも、ひとつの約束——<strong>「ここには火を眺める夜がある」</strong>でしょうか。</p>
 <p>この記事の立論は単純です。薪を燃料としてではなく、滞在時間を生む風景として設計し直すと、宿の夜の経験は変わります。その根拠を、ヨーロッパの出版現象、テレビ放送の記録、そして心理学の実験から集めます。</p>
 
 <h2>1. CASE — 薪の本が70万部売れた国</h2>
@@ -57,13 +123,104 @@ f:[]
 <li><a href="#idea-nordic-stay-firewood-light">北欧の宿から考える — 薪・灯り・木のぬくもりのある宿のアイデア</a> — 火と灯りの文化</li>
 <li><a href="#idea-darkness-enjoy-stay">暗さを楽しむ宿 — 暗い夜・暗い部屋・暗さの中の灯りのアイデア</a> — 暗さの設計</li>
 <li><a href="#energy-saving-revenue">エネルギー削減 — 「収益の口座」としての基礎</a> — エネルギーコストの実務</li>
-</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","123"]}]]}],["$","h1",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","p",null,{"className":"excerpt","children":"薪の実用書が世界70万部売れ、12時間の焚き火生放送に国民の2割が見入った国があるのです。火を眺めると血圧が下がるという研究もあります。薪割り・薪棚・焚き火を「設備」ではなく「滞在時間のデザイン」として考え直します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.03"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+</ul>13:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"className":"ARTICLE","children":"123"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"薪の実用書が世界70万部売れ、12時間の焚き火生放送に国民の2割が見入った国があるのです。火を眺めると血圧が下がるという研究もあります。薪割り・薪棚・焚き火を「設備」ではなく「滞在時間のデザイン」として考え直します。"}],["$","span",null,{"className":"en-only","children":"In one country, a practical book about firewood sold 700,000 copies, and a fifth of the nation watched a 12-hour live broadcast of a fire. There is even research finding that watching fire lowers blood pressure. Rethinking wood-splitting, the woodshed, and the fire — not as \"equipment\" but as the design of time spent."}],["$","span",null,{"className":"zh-only","children":"有一个国家，一本关于柴火的实用书全球卖出70万册，一场12小时的壁炉直播让全国两成人看得入迷。还有研究表明，凝视火焰会让血压下降。重新把劈柴、柴棚与篝火看作“时间的设计”，而非取暖设备。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.03"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17","$L18"]}],"$L19","$L1a"]}]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
 :HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
 :HL["/library/journal/ai_idea-compost-living.jpg","image"]
 :HL["/library/journal/ai_idea-bamboo-living.jpg","image"]
-12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L10","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L10","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]]}]]}]]}]]}]
-13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/idea-compost-living","children":["← ","コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"]}],["$","$L10",null,{"href":"/journal/articles/idea-bamboo-living","children":["竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"," →"]}]]}]
-14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+1b:T1d80,<p>On an inn’s grounds stands a woodshed, neatly stacked. What does the guest see there? "A rustic ornament"? Or one promise — <strong>"here there are nights of watching fire"</strong>?</p>
+
+<p>This article’s argument is simple. Redesign firewood not as fuel but as a landscape that generates time spent, and the inn’s nightly experience changes. For the grounds, we gather evidence from a publishing phenomenon in Europe, a television record, and an experiment in psychology.</p>
+
+<h2>1. CASE — the country where a book about firewood sold 700,000 copies</h2>
+
+<p>What the Norwegian writer Lars Mytting published in 2011 was not a novel. It was Hel ved, a practical book on splitting, seasoning, stacking, and lighting firewood. The book has sold more than 700,000 copies worldwide and been translated into 22 languages (according to the author’s site).</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>More than 700,000 copies, 22 languages</strong> — the print run and translation count of Lars Mytting’s practical book on firewood, Hel ved (2011; English title Norwegian Wood) (the author’s published figures). The author, for the record, has said that letters arrived from readers in warm countries saying they read it not as a practical book but as a novel.</div>
+
+<p>In an age rich with heating choices, why is a book about firewood read around the world? Mytting’s own analysis goes like this — the readers were seeking not only the technique of splitting wood but <strong>a story in which preparation, waiting, and the rhythm of nature are combined</strong>. It looks like a book about fuel; it is a book about time.</p>
+
+<h2>2. WORLD — the 12-hour fire broadcast and "the bark dispute"</h2>
+
+<p>On February 15, 2013, Norway’s public broadcaster NRK aired "Nasjonal vedkveld" — the National Wood Evening. The first four hours were a program on splitting and stacking; the eight hours after were a live broadcast simply showing a fire burning in a hearth.</p>
+
+<p>The viewers numbered about one million — around a fifth of the nation. And about sixty messages of protest reached the broadcaster. Their breakdown tells the flavor of the country: half said "the program stacked the wood bark-up," and the other half, "the bark should face down." <strong>What divides Norway in two is the direction of the bark</strong>, says Mytting, and the commotion was reported by The New York Times as well.</p>
+
+<p>What we want to take from this is the meaning of "a nation getting serious about the right way to stack firewood." The woodshed is not a mere fuel store — it can become <strong>a participatory object that makes viewers want to offer an opinion</strong>.</p>
+
+<h2>3. RESEARCH — what happens to the body while watching fire</h2>
+
+<div class="note"><span class="tag">RESEARCH</span>In an experiment by the anthropologist Christopher Lynn and colleagues at the University of Alabama (2014, the journal Evolutionary Psychology), 226 adults watched video of a hearth fire, with blood pressure measured before and after. With the video <strong>with sound</strong>, blood pressure fell by about 5% on average, and the longer the viewing, the larger the drop. With the sound muted, or the image turned upside down, blood pressure rather rose. Lynn offers the hypotheses — as hypotheses — that fire becomes a multisensory focus of attention (sight, hearing, smell, heat) that calms people, and that time around fire may have contributed to social cohesion over evolution.</div>
+
+<p>What the inn side should note in this research is the condition "with sound." The flicker of flames alone is compelling enough, but <strong>only when the crackle is added did the relaxing effect appear</strong>. When an inn handles fire, background music must not compete with the sound of the fire. Lending the fire its sound with it is the right way.</p>
+
+<h2>4. JAPAN — the irori: a life with fire at the center</h2>
+
+<p>In the traditional Japanese farmhouse, fire sat not at the edge of the house but at its center: the irori hearth. Cooking, heating, lighting, drying, and conversation all happened at once around the same fire. Place fire at the center and people’s places naturally form a circle, and time naturally slows.</p>
+
+<p>To reproduce this placement in a modern inn takes the shape of putting the wood stove at the center of the lobby, or the irori or fire pit at the center of the dining room. What matters is not the performance of the equipment but <strong>the decision of placement: putting fire at the center</strong>. As long as the fire stands by the wall, it is only a heater.</p>
+
+<h2>5. Translation — designing firewood as landscape</h2>
+
+<ul>
+<li><strong>Make the woodshed the facade</strong> — a neatly stacked woodshed says "there is fire here" more eloquently than any signboard. Stack the bark in whichever direction, ready to hear opinions (smile).</li>
+<li><strong>Design the seats for watching fire</strong> — two to three meters from the fire, on the upwind side with the smoke’s flow in mind. Turn the best seat in the inn toward the fire.</li>
+<li><strong>Do not erase the sound and the smell</strong> — it was fire "with sound" that showed the effect. Never let the evening’s background music compete with the fire’s sound.</li>
+<li><strong>Show the splitting, and offer it as experience</strong> — the sound and rhythm of morning wood-splitting is the most honest "alarm clock" there is for a guest already awake. Offer the experience only to those who wish, on the premises of a maintained axe, safe distances, and an instructor present.</li>
+</ul>
+
+<h2>6. Reality — the honest arithmetic of firewood as fuel</h2>
+
+<p>Finally, let us check the romance against the ledger. Firewood is by no means "cheap fuel." Wood generally needs about a year to season (hardwoods around two), and it takes roofed storage and labor. There are the costs of the stove itself and the chimney’s installation, the daily lighting and cleaning, the disposal of ash, and consideration of smoke for the neighbors. Compared simply by cost per unit of heat against kerosene or air conditioning, it often does not pay.</p>
+
+<p>And yet the reason to choose firewood lies outside the fuel bill. The time of watching fire, the conversation around it, the morning sound of splitting — <strong>expensive as fuel, this is a territory hard to replace as the design of time</strong>. What the inn sells is precisely this part: "the time no discount can touch."</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling fire, design for readiness to extinguish, wind direction, and the management of the flames.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-fire-circle-night">Night Surrounding Fire - Ideas for Gathering Night with Bonfire, Irori, Wood Stove</a> — designing the night around fire</li>
+<li><a href="#idea-nordic-stay-firewood-light">Learn from Nordic Inn - Ideas for An inn with Firewood, Light, Warmth of Wood</a> — the culture of fire and light</li>
+<li><a href="#idea-darkness-enjoy-stay">Inn Enjoying Darkness - Ideas for Dark Night, Dark Room, Light in Darkness</a> — designing darkness</li>
+<li><a href="#energy-saving-revenue">Energy Saving: The Basics of a "Revenue Account"</a> — the practice of energy costs</li>
+</ul>17:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}]
+1c:T167d,<p>旅馆的院子里立着一座码放整齐的柴棚。客人在其中看到什么？是“乡村风的摆设”，还是一句承诺——<strong>“这里有可以看火的夜晚”</strong>？</p>
+<p>本文的立论很简单：把柴火不再当作燃料，而是当作“制造时间的风景”来重新设计，旅馆的夜晚体验就会改变。证据来自欧洲的出版现象、一场电视直播，以及一项心理学实验。</p>
+
+<h2>1. CASE——一本柴火书卖出70万册的国家</h2>
+<p>2011年，挪威作家拉斯·米廷（Lars Mytting）出版的不是小说，而是一本讲劈柴、干燥、堆放方法的实用书《Hel ved》。这本书在全世界卖出70万册以上，被翻译成22种语言（作者官网数据）。</p>
+<div class="stats"><span class="tag">CASE</span><strong>70万册以上·22种语言</strong> — 拉斯·米廷的柴火实用书《Hel ved》（2011年，英文版书名 Norwegian Wood）的销量与翻译数（作者公布值）。据作者所述，还有温暖地区的读者来信说“把这本书当小说读了”。</div>
+<p>在取暖手段丰富的现代，为什么一本柴火书会被全世界阅读？米廷自己的分析是：读者寻求的不只是技术，还有<strong>由准备、等待与自然节奏交织而成的物语</strong>。看似燃料的书，其实是关于时间的书。</p>
+
+<h2>2. WORLD——12小时的篝火直播与“树皮之争”</h2>
+<p>2013年2月15日，挪威国家广播电台NRK播出了“国民柴火之夜”（Nasjonal vedkveld）。前4小时是劈柴与堆柴的节目，后8小时，则只是直播壁炉里燃烧的火焰。</p>
+<p>观众约100万人，相当于国民的两成。随后电台收到约60条抗议留言，其构成恰恰说明这个国家的有趣之处——一半人抗议“节目里把树皮朝上堆了”，另一半则主张“树皮应该朝下”。米廷说：“真正让挪威分裂的，是树皮的朝向。”这场争论连《纽约时报》都做了报道。</p>
+<p>我们想从这里带走的是“国民会为柴火的正确堆法较真”的含义：柴棚不只是燃料库，它可以是<strong>让人忍不住想发表意见的参与型装置</strong>。</p>
+
+<h2>3. RESEARCH——凝视火焰时，身体会发生什么</h2>
+<div class="note"><span class="tag">RESEARCH</span>美国阿拉巴马大学人类学家克里斯托弗·林（Christopher Lynn）等人的实验（2014年，Evolutionary Psychology杂志）让226名成人观看壁炉影像，并在前后测量血压。结果，<strong>带声音</strong>的影像使血压平均下降约5%，且看得越久降幅越大；而消音影像与上下颠倒的影像，血压反而上升。林提出的假说是：火是一种集视觉、听觉、嗅觉、温度于一体的多感官注意焦点，能使人平静；在演化过程中，围火的时间可能有助于群体凝聚——这仍是一个假说。</div>
+<p>这项研究中，住宿业者最该注意的是“带声音”这个条件。仅有火苗的摇曳虽已足够吸引目光，但<strong>只有加上噼啪声，才观察到放松效果</strong>。在旅馆处理火时，不要让背景音乐与篝火竞争。火，要连声音一起借给客人。</p>
+
+<h2>4. JAPAN——围炉裏：把火放在中心的居住方式</h2>
+<p>日本传统民居把火安置在家的中心，而不是角落——这就是围炉裏。做饭、取暖、照明、干燥、交谈，都发生在同一团火的周围。把火放在中心，人的座位自然围成圈，时间自然变慢。</p>
+<p>在现代旅馆里重现这种布局，就是“把柴炉放在大堂中央”“把围炉裏或火盆放在餐厅中心”。重要的不是设备性能，而是<strong>“把火放在中心”这个布置上的决断</strong>。火只要贴着墙，它就只是取暖器。</p>
+
+<h2>5. 翻译——把柴火设计成风景</h2>
+<ul>
+<li><strong>把柴棚做成门面</strong>——码放整齐的柴棚比招牌更雄辩地诉说着“这里有火”。至于树皮朝向，请做好被人发表意见的心理准备（笑）。</li>
+<li><strong>设计看火的座位</strong>——距离火2～3米、避开烟的上风处。把旅馆最好的座位，朝向火配置。</li>
+<li><strong>不要消除声音与气味</strong>——产生效果的是“带声音”的火。夜晚的背景音乐不要与火声竞争。</li>
+<li><strong>展示劈柴，并作为体验提供</strong>——清晨劈柴的声音与节奏，是对已醒来客人最诚实的“晨钟”。体验仅限自愿者，并以工具保养、安全距离与指导者在场为前提。</li>
+</ul>
+
+<h2>6. 现实——作为燃料的诚实账本</h2>
+<p>最后用账簿检验一下浪漫。柴火绝不是“便宜的燃料”。柴一般需要约一年（硬木约两年）干燥，需要带顶棚的存放空间和劳力；还有柴炉与烟囱的安装费、每天的生火与清扫、灰烬处理、排烟与对邻里的照顾。按热量单价与煤油、空调简单比较，不划算的情况并不少见。</p>
+<p>即便如此仍选择柴火的理由，在燃料费之外：看火的时间、围火的交谈、清晨劈柴的声音——<strong>作为燃料偏贵，却是难以替代的“时间的设计”</strong>。旅馆能出售的，恰恰是这段“折扣无法触及的时间”。</p>
+
+<h2>读完这篇，接下来</h2>
+<p>围炉之夜的设计见<a href="#idea-fire-circle-night">围火之夜——篝火·围炉裏·柴炉</a>；火与灯的文化可深挖<a href="#idea-nordic-stay-firewood-light">从北欧旅馆思考——柴与光</a>；黑暗的设计见<a href="#idea-darkness-enjoy-stay">享受黑暗的旅馆</a>；能源成本的实务见<a href="#energy-saving-revenue">能源削减</a>。</p>18:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}]
+19:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L15","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}]]}]]}],["$","$L15","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}]]}]]}],["$","$L15","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience"}],["$","span",null,{"className":"zh-only","children":"与竹共生——体验竹林、竹工艺品、竹工具的创意"}]]}]]}]]}]]}]]}]
+1a:["$","div",null,{"className":"pager","children":[["$","$L15",null,{"href":"/journal/articles/idea-compost-living","children":["- ",["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}],["$","$L15",null,{"href":"/journal/articles/idea-bamboo-living","children":[["$","span",null,{"className":"ja-only","children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience"}],["$","span",null,{"className":"zh-only","children":"与竹共生——体验竹林、竹工艺品、竹工具的创意"}]," -"]}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 d:[["$","title","0",{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"薪の実用書が世界70万部売れ、12時間の焚き火生放送に国民の2割が見入った国があるのです。火を眺めると血圧が下がるという研究もあります。薪割り・薪棚・焚き火を「設備」ではなく「滞在時間のデザイン」として考え直します。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_foreign-staff-japanese-20-phrases.jpg","image"]
 :HL["/library/journal/ai_retention-team.jpg","image"]
 :HL["/library/journal/ai_foreign-staff-regional-cities.jpg","image"]
 :HL["/library/journal/ai_recruitment-showcase-pr.jpg","image"]
-3:T29a1,<p>外国人スタッフに「日本語を勉強してください」と言っても、続きません。教科書の文法から始めると、現場に立てるまでに月がかかります。しかし、よく見ると、宿の現場でその日から必要な日本語は、驚くほど限られています。「いらっしゃいませ」「かしこまりました」「少々お待ちください」——20フレーズが言えれば、チェックインも朝食も案内が回る。本記事は、その20フレーズをどう選び、どう教え、どう続けるかの設計です。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T29a1,<p>外国人スタッフに「日本語を勉強してください」と言っても、続きません。教科書の文法から始めると、現場に立てるまでに月がかかります。しかし、よく見ると、宿の現場でその日から必要な日本語は、驚くほど限られています。「いらっしゃいませ」「かしこまりました」「少々お待ちください」——20フレーズが言えれば、チェックインも朝食も案内が回る。本記事は、その20フレーズをどう選び、どう教え、どう続けるかの設計です。</p>
 
 <h2>敬語を5つに分けた国の、教え方</h2>
 
@@ -61,10 +126,101 @@ a:"$Sreact.suspense"
 <li><a href="#front-desk-english-20">フロントの基礎英語 — 最初に覚えるべき20フレーズ</a> — 鏡の記事——英語側の20フレーズの話</li>
 <li><a href="#local-youth-learning-retention">地方の若手が定着する宿の「学び」の設計</a> — 4段階リストと週1の15分の元の話</li>
 <li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 採用と暮らしの設計の話</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"children":["ARTICLE ","116"]}]]}],["$","h1",null,{"children":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}],["$","p",null,{"className":"excerpt","children":"敬語は5分類、でもそれは分析の地図であって学ぶ順番ではない——現場の日本語は「型」として丸ごと渡す。20フレーズの選び方、場面とジェスチャー、意味の罠、週1の15分の継続設計。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_foreign-staff-japanese-20-phrases.jpg","alt":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.16"}],["$","span",null,{"children":"HR & Hiring"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":"人材定着 — 「ここに働き続けたい」の3つの基本"}]]}]]}],["$","$L2","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}]]}]]}],["$","$L2","recruitment-showcase-pr",{"href":"/journal/articles/recruitment-showcase-pr","children":[["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.22"}],["$","h4",null,{"children":"採用に困らない宿がやっている「見せ方」採用広報"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/subscription-monthly-stay","children":["← ","サブスクリプション滞在 — 「毎月泊まる」常連の作り方"]}],["$","$L2",null,{"href":"/journal/articles/vegan-menu-one-dish","children":["ヴィーガン対応の基本 — 1品から始めるメニュー設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"className":"ARTICLE","children":"116"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}],["$","span",null,{"className":"en-only","children":"Japanese Training for Foreign Staff: How to Teach 20 Usable Phrases"}],["$","span",null,{"className":"zh-only","children":"面向外籍员工的日语教育——如何教授现场可用的20个短语"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"敬語は5分類、でもそれは分析の地図であって学ぶ順番ではない——現場の日本語は「型」として丸ごと渡す。20フレーズの選び方、場面とジェスチャー、意味の罠、週1の15分の継続設計。"}],["$","span",null,{"className":"en-only","children":"Honorifics fall into five classes — but that map is for analysis, not the order of learning. Workplace Japanese is handed over whole, as a kata form. How to choose the 20 phrases, scenes and gestures, the traps of meaning, and the design of a weekly 15 minutes that lasts."}],["$","span",null,{"className":"zh-only","children":"仅仅要求外籍员工“学习日语”并不能让他们坚持下去。我们设计了一种不会增加教师负担的教育，重点关注当今该领域可以使用的 20 个短语。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_foreign-staff-japanese-20-phrases.jpg","alt":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.16"}],["$","span",null,{"children":"HR & Hiring"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T28c2,<p>Telling foreign staff "please study Japanese" does not keep. Start from textbook grammar, and it takes months before they can stand in the workplace. Look closely, though, and the Japanese needed at a lodging's front line from that very day is astonishingly limited. "Irasshaimase." "Kashikomarimashita." "Shōshō omachi kudasai." — with 20 phrases, check-in, breakfast, and guiding all go round. This article is the design of how to choose those 20 phrases, how to teach them, and how to keep them going.</p>
+
+<h2>A country that sorts honorifics into five — and how it teaches anyway</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>Fact</strong> — Japanese honorifics are sorted into five classes by the "Guidelines for Honorifics" (Keigo no Shishin), which the Council for Cultural Affairs put forward in February 2007: respectful language (sonkeigo), humble language I (kenjōgo I), humble language II / courteous language (kenjōgo II), polite language (teineigo), and beautification language (bikago). It refines the traditional three-way sorting of "respectful, humble, polite" — for example, "irassharu" is respectful; "ukagau" and "mōshiageru" are humble I; "mairu" and "mōsu" are humble II; "desu/masu" is polite; "o-sake" and "o-ryōri" are beautification (according to the Agency for Cultural Affairs' published materials).</div>
+
+<p>What to notice first in this classification is the twist. Japanese honorifics have a system elaborate enough to be sorted into five. And yet, on the day a Japanese newcomer learned "Irasshaimase," nobody began with an explanation of the respectful class. They learned it whole — with the scene and the tone of voice. In other words, the five classes are a map for <strong>analyzing</strong> honorifics, not the <strong>order for learning them</strong>. Just as what you first learn in the way of tea is not theory but the movements of the temae, learning at Japanese workplaces has always entered through the kata, the form. Japanese education for foreign staff can be placed on the side of this culture of forms — being late to hand over the theory is fine; being late to hand over the form is not.</p>
+
+<h2>Choosing the 20 phrases — wash them out of the workplace</h2>
+
+<p>The 20 phrases are not chosen from a textbook. <strong>They are chosen from the inn's workplace.</strong> Four scenes — check-in, breakfast, housekeeping, guiding — with five phrases each. And the ones who write them are not the owners but the staff on the floor. Only the words actually used at that inn enter the 20. That is why even two inns of the same brand end up with different lists of 20 — and that is how it should be.</p>
+
+<p>The first five phrases, at most inns, will go like this. (1) "Irasshaimase" (the moment a guest enters, with a bow and a smile). (2) "Onamae o onegai dekimasu ka" ("May I have your name, please?" — showing the register). (3) "Kashikomarimashita" (nodding, taking it on once). (4) "Shōshō omachi kudasai" (a light raise of the hand — the sign of "back soon"). (5) "Omatase itashimashita" (on returning, these words come first). What is inside the parentheses matters. A phrase becomes one kata form as a set with its scene and its gesture. Even where the words do not reach, the bow and the movement of the hand carry the feeling ahead of them.</p>
+
+<h2>Three steps of teaching</h2>
+
+<p><strong>Step 1: show the form.</strong> The teacher acts the scene out. A script of five lines is enough. Showing is half of teaching.</p>
+
+<p><strong>Step 2: say it together.</strong> Repeat it aloud, together. Do not demand perfect pronunciation. The first goal is "getting through," and getting through needs a listener — so the teacher always returns the reaction that it got through.</p>
+
+<p><strong>Step 3: pin it to the four-stage list.</strong> Pin the 20 phrases on the wall in the four stages of "watch → do together → do alone → can teach," and mark each phrase that advances. How to build this list, and the five traps that appear while working through it, are covered in <a href="#local-youth-learning-retention">How Local Youth Stay: Designing Learning in Rural Hotels</a> — for foreign staff, the meaning of the list is the same.</p>
+
+<p>There is one more principle of order. <strong>"Saying" first, "listening" later.</strong> Language courses are often built in the order listening, speaking, reading, writing, but the workplace is the reverse. Being able to say the 20 phrases comes first; listening comprehension grows through using them. In language education, memorizing set expressions whole, ahead of time, is understood to breed fluency and confidence early — the 20 phrases are exactly that list of set expressions.</p>
+
+<h2>Traps of meaning — what the teaching side should know first</h2>
+
+<p>Japanese has "trap words" that become shaky the moment foreign staff grab them. <strong>"Ii desu"</strong> — most often used to mean "no, thank you." When a staff member is asked "Okawari, ii desu ka?" ("May I have a refill?") and answers "Ii desu yo" ("Certainly"), there is no problem. But whether the "ii desu" given in reply to "Kōhī, ikaga desu ka" ("How about some coffee?") sounds like "no, thank you" or "yes, please" is a world of difference. <strong>"Dame desu"</strong> — the meaning gets through, but the sound is too strong. Teach the form that starts instead with "Mōshiwake gozaimasen. Tadaima…" ("I'm very sorry; right away…"). <strong>"Daijōbu desu"</strong> — this too cuts both ways. Trap words, exactly like the phrases, are taught in advance "with their scenes attached." That may be the biggest job of all on the teaching side. And <strong>put the words of safety first</strong>. "Atsui node ki o tsukete kudasai" ("It's hot — please be careful"). "Nurete imasu" ("It's wet"). — phrases of this family go into the first 20 before any words of hospitality do.</p>
+
+<h2>The design of keeping it going — 15 minutes a week, and "can teach"</h2>
+
+<p>A daily one-hour Japanese class does not keep at any inn. <strong>Once a week, 15 minutes, one phrase for the week.</strong> The smallness of the 15 minutes works on both the teaching side and the learning side (how to run the 15 minutes is shared with the learning design for young staff). And when someone reaches the last stage, "can teach," ask them to be the teacher of the next arrival — teaching closes the loop of learning, and the person who becomes a teacher moves up one level in putting down roots.</p>
+
+<p>Add a mechanism of <strong>learning from the people of the region</strong>. Go learn "oishii" from the people of the brewery, "arigatō" from the people of the miso kura. When the region's people become the teachers, the learning of Japanese turns into a tie with the region. The design of teaching at the workplace as a whole — translating "steal with your eyes," turning questions into systems — is covered in <a href="#foreign-staff-retention-teaching">The "Teaching Method" Behind Foreign Staff Who Stay</a>. This article carries the single piece of it called "Japanese."</p>
+
+<h2>The other side — when the training exhausts the workplace</h2>
+
+<ul>
+<li><strong>Perfectionism about pronunciation</strong> — Demand perfect pronunciation and the staff fall silent. Silence is the greatest loss of all. An "Irasshaimase" with an accent is far more inn-like than a silent front desk.</li>
+<li><strong>Forcing Japanese</strong> — The mother tongue is not something to discard but an asset of the inn. A staff member who speaks Chinese can, as is, receive guests from the Chinese-speaking world (for the signage side, see <a href="#multilingual-signage-minimum">Multilingual Signage: The Just-Enough Minimum Line</a>). Training should take the form of "handing over," not "adding."</li>
+<li><strong>The labor of the 15 minutes</strong> — The weekly 15 minutes is "work," counted inside working hours. Leaving training to "voluntary effort" neither keeps going nor leaves anywhere to place the responsibility.</li>
+<li><strong>Burnout on the teaching side</strong> — Are you reteaching the same phrases from zero every year? Once taught, leave a recording of the voice, or a single video. Cut the teacher's burden with systems.</li>
+<li><strong>Reaction to mistakes</strong> — In a workplace that laughs at slips of the tongue, no one opens their mouth again. Mistakes are for correcting, not for laughing at — tell that culture to the Japanese-side staff first.</li>
+<li><strong>Distance from the rules</strong> — Status of residence and the rules of employment form the outer frame of language education. What this article covers is only how to teach the words; the design of hiring and paperwork is carried by <a href="#foreign-staff-regional-cities">Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design</a>.</li>
+</ul>
+
+<p>The first step: this week, write out the five phrases of the check-in scene. It has meaning even at an inn with no foreign staff yet — those five phrases are the first five lines of your inn's standard of words. Once they are written, the same single page on the English side is waiting in <a href="#front-desk-english-20">Front-Desk English Basics: The 20 Phrases to Learn First</a>.</p>
+
+<div class="note">This article is intended for sharing ideas. The description of the "Guidelines for Honorifics" follows the Agency for Cultural Affairs' published materials (the report of 2007; as of writing). The remarks on learning set expressions are an introduction of general thinking in language education. Adjust the design of training and employment to each inn's forms of employment and statuses of residence.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#foreign-staff-retention-teaching">The "Teaching Method" Behind Foreign Staff Who Stay</a> — the design of teaching as a whole, Japanese included</li>
+<li><a href="#front-desk-english-20">Front-Desk English Basics: The 20 Phrases to Learn First</a> — the mirror article: the English-side 20 phrases</li>
+<li><a href="#local-youth-learning-retention">How Local Youth Stay: Designing Learning in Rural Hotels</a> — the origin of the four-stage list and the weekly 15 minutes</li>
+<li><a href="#foreign-staff-regional-cities">Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design</a> — the design of hiring and daily life</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T169d,<p>如果你对外籍员工说“请学日语”，他们就不会继续。如果从课本语法开始，需要三个月的时间才能在现场使用。然而，现场所需的日语实际上是<strong>20 个短语</strong>对于80%来说就足够了。 “欢迎光临”、“对不起”、“请稍等”。如果您能说出这 20 个短语，我们就能引导您办理入住和早餐。本文以当今领域中可以使用的20个短语为中心，整理了不增加导师负担的日语教育设计。</p>
+
+<h2>1. 为什么是 20 个短语——现场日语</h2>
+<ul>
+<li><strong>该领域所需的日语水平有限：</strong>酒店需要的日本人80%都是客户服务陈词滥调。 “欢迎光临。”“请问您的名字吗？”“早餐从七点开始。”如果你先教完这 80%，从今天起你就可以开始在田间工作了。剩下的20%是在工作中学到的。</li>
+<li><strong>用短语教学，而不是语法：</strong>如果你教他们语法，“Irasshaimase 是一种礼貌的说法，‘Irasaru...’”，他们就不会记住。 “Irasshaimase 是顾客过来时说的话”，并根据情况教导学生。一旦你记住了一个场景，就很难忘记。</li>
+<li><strong>在“听”之前先“说”：</strong>日语教育通常按照“听、说、读、写”的顺序进行教学，但在现场，“说”是第一位的。首先，学习说 20 个短语。即使你能说出来，现在再听还不算太晚。</li>
+</ul>
+
+<h2>2. 如何选择和教授 20 个短语 — 3 个步骤</h2>
+<ol>
+<li><strong>识别职场中的 20 个短语：</strong>总共识别了 20 个短语，其中四种情况各有 5 个短语：入住、早餐、清洁和引导。示例：签到：``欢迎。我可以知道你的名字吗？非常感谢。这是你的房间钥匙。请不要拘谨。”一旦您与现场工作人员确认了这些短语，它们就会成为您在现场实际使用的短语。</li>
+<li><strong>“场景+短语+手势”教学：</strong>我们不仅教授短语，还教授场景和手势。微笑着鞠躬表示“欢迎”； “请稍等”举起手。即使没有言语，也可以通过手势来传达感情。教导外籍员工，包括参考文章和使用肢体语言。</li>
+<li><strong>用“待办事项列表”进行可视化：</strong>参考学习设计文章，20个短语被可视化为4个阶段：观察→一起说→单独说→被教导。将其粘贴在墙上，并在您创建的短语上贴上贴纸。当你能像游戏一样看到成长时，学习就会变得有趣。</li>
+</ol>
+
+<h2>3. 延续机制——超过20个短语</h2>
+<ul>
+<li><strong>第一周 15 分钟学习：</strong>每天一小时的日语课是不会持续的。每周一次，只需 15 分钟，决定“本周的短语”。本周的主题是“Kashikomarimashita”。 15分钟练习“场景+短语+手势”。 15分钟对老师来说负担较小。</li>
+<li><strong>学习到被教导的程度：</strong>四个阶段中的最后一个阶段是“可教的”。当他能够教新外籍员工20个短语时，他就实现了个人成长并站稳了脚跟。教学使学习得以坚持。</li>
+<li><strong>“向当地人学习”：</strong>向当地人学习，而不仅仅是在旅馆里。啤酒厂的人教我什么是“美味”，味噌啤酒厂的人教我如何说“谢谢”。通过向当地人学习，您不仅可以学习日语，还可以与当地社区建立联系。当当地人成为教师时，外籍员工就成为当地人。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，传统课本式培训需要6周才能独立上岗的话，“快约2.5周”就是3.5周即可上岗的读法。3个月留任率也可以用“60%的旅馆提高到76%”这样的前后对比来确认（均为示意示例）。</strong> — 日语不仅是学习的东西，而且是可以在现场使用的工具。立即使用 20 个短语开始该领域的工作。判断效果时，请用相同的统计方法记录并比较施策前后30天的首次独立上岗天数与3个月留任率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>日语教育的价值是<strong>“从今天开始，你就可以在现场使用它了。”</strong>。请使用情境、短语和手势进行教学，而不是语法。如果您能说 20 个短语，我们就可以引导您办理入住和早餐。从 20 个短语开始。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第 1 周：识别 20 个短语</strong> — 识别总共 20 个短语，四种情况各 5 个短语：入住、早餐、清洁和引导。一旦您与现场工作人员识别这些短语，它们将成为您在现场实际使用的短语。</li>
+<li><strong>第 2 周：创建场景 + 短语 + 手势</strong> — 为 20 个短语中的每一个短语附加一个场景和手势。微笑着鞠躬表示“欢迎”； “请稍等”举起手。用照片和视频记录。</li>
+<li><strong>第 3 周：列出您可以做的事情并开始每周学习 15 分钟。</strong> — 分 4 个阶段想象 20 个短语：观察 → 一起说 → 单独说 → 被教导。将其粘贴在墙上，并在您创建的短语上贴上贴纸。确定本周的一个短语并在 15 分钟内练习。</li>
+<li><strong>第四周：向当地人学习</strong> — 请求啤酒厂、味噌啤酒厂和当地居民“教我日语”。当当地人成为教师时，外籍员工就成为当地人。您还可以与当地社区联系。</li>
+<li><strong>继续：直到教导</strong> — 继续下去，直到您可以教 20 个短语。一旦他们能够教学，他们就会经历成长并站稳脚跟。只有在学会了前 20 个短语后，您才能继续学习接下来的 20 个短语（高级）。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","span",null,{"className":"en-only","children":"Staff Retention: The Three Basics of \"Wanting to Keep Working Here\""}],["$","span",null,{"className":"zh-only","children":"留住人力资源：“我想继续在这里工作”的三个基础"}]]}]]}]]}],["$","$L8","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","span",null,{"className":"en-only","children":"Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design"}],["$","span",null,{"className":"zh-only","children":"地方城市的外籍员工——与城市地区的差异及保留设计"}]]}]]}]]}],["$","$L8","recruitment-showcase-pr",{"href":"/journal/articles/recruitment-showcase-pr","children":[["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","span",null,{"className":"en-only","children":"The \"Show, Don't Post\" Hiring Playbooks of Lodges That Never Struggle to Staff"}],["$","span",null,{"className":"zh-only","children":"招人不成问题的旅馆进行“如何秀”招人宣传"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/subscription-monthly-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"サブスクリプション滞在 — 「毎月泊まる」常連の作り方"}],["$","span",null,{"className":"en-only","children":"Subscription Stays: How to Create Regulars Who Stay Monthly"}],["$","span",null,{"className":"zh-only","children":"订阅停留——如何培养“每月停留”的常客"}]]}],["$","$L8",null,{"href":"/journal/articles/vegan-menu-one-dish","children":[["$","span",null,{"className":"ja-only","children":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}],["$","span",null,{"className":"en-only","children":"Vegan Basics: Menu Design Starting From One Dish"}],["$","span",null,{"className":"zh-only","children":"素食友好基础知识——菜单设计从一项开始"}]," -"]}]]}]
+10:null

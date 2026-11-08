@@ -1,15 +1,174 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_hotel-photos-90.jpg","image"]
-3:T22bd,<p>宿がある「地域」を、その宿のブランドにどう「翻訳」するか。この問いに取り組む前に、典型的な失敗を2つ、名前をつけておきます。<strong>「詰め込み」の失敗</strong>——海も山も歴史も食もある、と全部入れると、ゲストはどれも覚えてくれない。<strong>「どこでも」の失敗</strong>——地域との関係のないブランド。東京でも大阪でも成立してしまい、「行く理由になる場所」が存在しない。地域ブランディングとは、多くの資産の中から<strong>ひとつの「オンリーワン」を選び、ゲストの体験に翻訳する</strong>作業です。今回は、その成功例として、ベトナム・ニャチャンの入り江にある宿を見に行きます。</p><h2>事例 — ボートでしか行けない、58室の宿</h2><p>ベトナム中部のビーチリゾート都市ニャチャン。その沖の半島の入り江に、シックスセンシズ・ニンヴァンベイ(Six Senses Ninh Van Bay)という宿があります。2004年に開業したこの宿への道のりは、独特です。空港から車で約60分、専用の桟橋から、さらにボートで約20分——<strong>アクセスはボートしかありません</strong>。</p><div class="stats"><span class="tag">CASE</span><strong>シックスセンシズ・ニンヴァンベイ(ベトナム・ニャチャン): 2004年開業。山に囲まれた静かな入り江に全58室のヴィラを構え、アクセスは専用ボートのみ(空港から車で約60分+ボートで約20分)。ヴィラは地形に沿って建てられ、海際の岩の上、山の中腹、ビーチの前と、それぞれ造りが異なる。木材と茅葺き屋根、木のバスタブ、麻の紐で巻かれたコードなど、素材の徹底した統一で知られる</strong> — 世界のエコリゾートの先駆けとされる、地域性を丸ごとブランドにした宿。</div><h2>なぜ面白いか — 不便と制約を「看板」に変えている</h2><p>この宿を現場の目で見ると、面白さは3つに集約されます。第一に、<strong>最大の不便(ボートでしか行けない)を、到着の体験に変えている</strong>。通常の発想なら「アクセスが悪い」は隠す欠点ですが、この宿では船で入り江へ渡る時間が、旅の境界線の儀式になっている。第二に、<strong>地形の制約を、客室の個性に変えている</strong>。平らな土地に建てれば全室同じ間取りにもできるのに、岩の上、山腹、海際と、ヴィラごとに造りが違う——凹凸は、量産できない「この部屋しかない部屋」を生む材料になっています。第三に、<strong>素材の徹底</strong>。茅葺きの屋根、木のバスタブ、麻の紐——一部屋から備品まで、世界観が素材で貫かれています。</p><h2>本質 — 地域性の翻訳とは「足す」ではなく「変換する」こと</h2><p>ここから読み取れる本質は一つです。地域性の翻訳とは、<strong>その土地にしかない制約と素性を、他の土地では真似できない体験に変換すること</strong>です。ボートの20分は「遠い」という事実のままでは欠点ですが、「水の上で旅の境界を渡る体験」に変換されれば、どの都市のホテルも持てない財産になる。足りないものを外から足すのではなく、そこにしかないものの見方を替える——翻訳とはこの視点の替え方のことです。</p><h2>4ステップ — 方法論として持ち帰る</h2><p>この視点を、日本の宿で実行に移す4つのステップに整理します。</p><ol><li><strong>地域資産の棚卸し</strong> — 宿の周辺にあるものを全部書き出す。人・食・自然・歴史・生産・行事。この段階で判断は不要——宝石を見落とさないことが目的です。制約(雪道・階段・電波の悪さ)も、ここでは「資産」の欄に書きます。</li><li><strong>「オンリーワン」の選択</strong> — 3つの基準で1つに絞ります。①世界では珍しく、地域では普通(ここでは普通で、ゲストには特別なもの)②体験できる(メニューやプログラム、空間に変換できるか)③続けられる(安定して供給できるか。一発のイベントでないか)。</li><li><strong>ゲストの体験への翻訳</strong> — 選んだひとつを、3つの媒体に載せます。メニュー(軸を語る食材・料理)、空間(軸を語る素材・色・眺め)、スタッフのスクリプト(軸についての30秒で覚えられるひとことストーリー)。</li><li><strong>証拠で証明する</strong> — 軸が語られたレビューの文言、軸が写った写真、軸を報じるメディア。証拠のないブランドはスローガンです。<strong>ゲストの言葉が「軸の言葉」を使い始めたら、翻訳は完成</strong>です。</li></ol><h2>日本の宿で、実際にできること</h2><ul><li><strong>「制約の看板化」から始める</strong> — 車でしか行けない山の宿は、その道程を到着の儀式として案内する(最後の500mの風景、入り江ならぬ峠の話)。エレベーターなしの宿は「荷物はお運びします。階段はこの宿の景色の一部です」と、先に書く。</li><li><strong>客室の違いを個性として売る</strong> — 角部屋・谷向き・階段の下の小さな部屋。間取りがバラバラなのは、地方の小さな宿では「欠点」ではなく「1室ごとに違う理由」です。ニャチャンの岩の上のヴィラと同じ構造を、説明の設計で作れる。</li><li><strong>素材を3つに絞る</strong> — 木材・茅・麻の代わりに、木・和紙・麻、あるいは漆喰・土・綿。備品の素材表を3行で書き切る宿の世界観は、62行の設備一覧より貫かれて見えます。</li></ul><h2>向く宿と、向かない宿</h2><p>この方法が向くのは、立地に何か「強い個性」(不便・地形・気候・素材)のある宿、客室が揃っていない宿、地場の素材に触れている宿です。逆に、立地の中立性を強みにする宿(駅前で機能する宿)が無理に軸を作ると、作為が透けて見えます。まずは選択から——翻訳は、選んだ宿にだけ起きます。</p><h2>反対側 — 翻訳が失敗するとき</h2><ul><li><strong>制約の看板化は、実態が支える</strong> — 「船旅の20分」が快適であるのは、運航と待合の設計があるからです。看板にした不便が改善されていなければ、体験ではなく苦痛が記憶に残ります。</li><li><strong>「オンリーワン」を選ばないと全部になる</strong> — 棚卸しで書き出した資産を全部使いたくなるのが人情です。ここで絞らないと、冒頭の「詰め込み」に戻ります。引き算の規律が腕の見せ所です。</li><li><strong>素材の統一は維持のコスト</strong> — 世界観の徹底は、補修・交換・調達の手間とセットです(清掃と維持の設計と一体で考える)。</li><li><strong>脚本の棒読み</strong> — スタッフのひとことストーリーが「言わされている感」を出した瞬間、翻訳は嘘に変わります。自分の言葉で語れる長さに留める。</li></ul><p>最初の一歩は、制約を含めた棚卸しです。今夜、ホワイトボードに宿の周辺と宿自身の「ここにしかないもの」を書き出し——便利なものも不便なものも区別なく——3つの基準でひとつに印を付ける。地域性の翻訳は、その印から始まります。</p><div class="note">この記事はアイデア共有を目的としています。事例の詳細は公表資料・宿の公式情報に基づき、宿泊予約や最新の施設情報は公式サイトをご確認ください。</div><h2>次に読む</h2><ul><li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 絞る規律の話</li><li><a href="#spatial-design-local-high-price">【空間デザイン】地方都市で高単価を実現した新しい滞在のかたち</a> — 素材で貫く話</li><li><a href="#story-branding-exhibition">“物語で選ばれる宿” — 展示が示すブランディングの力</a> — 物語を見せる話</li><li><a href="#regional-experience-program">地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計</a> — 地域を体験にする話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","041"]}]]}],["$","h1",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","p",null,{"className":"excerpt","children":"ベトナム・ニャチャンの入り江に、ボートでしか行けない宿がある。不便と制約を看板に変えた実在の事例から、地域性をブランドに翻訳する4ステップを整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.06.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","hotel-photos-90",{"href":"/journal/articles/hotel-photos-90","children":[["$","img",null,{"src":"/library/journal/ai_hotel-photos-90.jpg","alt":"「写真が9割」— 予約が入るホテル写真の共通点"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.10"}],["$","h4",null,{"children":"「写真が9割」— 予約が入るホテル写真の共通点"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/spatial-design-local-high-price","children":["← ","【空間デザイン】地方都市で高単価を実現した新しい滞在のかたち"]}],["$","$L2",null,{"href":"/journal/articles/direct-booking-42","children":["直予約比率を42%まで上げた3つの仕掛け"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T22bd,<p>宿がある「地域」を、その宿のブランドにどう「翻訳」するか。この問いに取り組む前に、典型的な失敗を2つ、名前をつけておきます。<strong>「詰め込み」の失敗</strong>——海も山も歴史も食もある、と全部入れると、ゲストはどれも覚えてくれない。<strong>「どこでも」の失敗</strong>——地域との関係のないブランド。東京でも大阪でも成立してしまい、「行く理由になる場所」が存在しない。地域ブランディングとは、多くの資産の中から<strong>ひとつの「オンリーワン」を選び、ゲストの体験に翻訳する</strong>作業です。今回は、その成功例として、ベトナム・ニャチャンの入り江にある宿を見に行きます。</p><h2>事例 — ボートでしか行けない、58室の宿</h2><p>ベトナム中部のビーチリゾート都市ニャチャン。その沖の半島の入り江に、シックスセンシズ・ニンヴァンベイ(Six Senses Ninh Van Bay)という宿があります。2004年に開業したこの宿への道のりは、独特です。空港から車で約60分、専用の桟橋から、さらにボートで約20分——<strong>アクセスはボートしかありません</strong>。</p><div class="stats"><span class="tag">CASE</span><strong>シックスセンシズ・ニンヴァンベイ(ベトナム・ニャチャン): 2004年開業。山に囲まれた静かな入り江に全58室のヴィラを構え、アクセスは専用ボートのみ(空港から車で約60分+ボートで約20分)。ヴィラは地形に沿って建てられ、海際の岩の上、山の中腹、ビーチの前と、それぞれ造りが異なる。木材と茅葺き屋根、木のバスタブ、麻の紐で巻かれたコードなど、素材の徹底した統一で知られる</strong> — 世界のエコリゾートの先駆けとされる、地域性を丸ごとブランドにした宿。</div><h2>なぜ面白いか — 不便と制約を「看板」に変えている</h2><p>この宿を現場の目で見ると、面白さは3つに集約されます。第一に、<strong>最大の不便(ボートでしか行けない)を、到着の体験に変えている</strong>。通常の発想なら「アクセスが悪い」は隠す欠点ですが、この宿では船で入り江へ渡る時間が、旅の境界線の儀式になっている。第二に、<strong>地形の制約を、客室の個性に変えている</strong>。平らな土地に建てれば全室同じ間取りにもできるのに、岩の上、山腹、海際と、ヴィラごとに造りが違う——凹凸は、量産できない「この部屋しかない部屋」を生む材料になっています。第三に、<strong>素材の徹底</strong>。茅葺きの屋根、木のバスタブ、麻の紐——一部屋から備品まで、世界観が素材で貫かれています。</p><h2>本質 — 地域性の翻訳とは「足す」ではなく「変換する」こと</h2><p>ここから読み取れる本質は一つです。地域性の翻訳とは、<strong>その土地にしかない制約と素性を、他の土地では真似できない体験に変換すること</strong>です。ボートの20分は「遠い」という事実のままでは欠点ですが、「水の上で旅の境界を渡る体験」に変換されれば、どの都市のホテルも持てない財産になる。足りないものを外から足すのではなく、そこにしかないものの見方を替える——翻訳とはこの視点の替え方のことです。</p><h2>4ステップ — 方法論として持ち帰る</h2><p>この視点を、日本の宿で実行に移す4つのステップに整理します。</p><ol><li><strong>地域資産の棚卸し</strong> — 宿の周辺にあるものを全部書き出す。人・食・自然・歴史・生産・行事。この段階で判断は不要——宝石を見落とさないことが目的です。制約(雪道・階段・電波の悪さ)も、ここでは「資産」の欄に書きます。</li><li><strong>「オンリーワン」の選択</strong> — 3つの基準で1つに絞ります。①世界では珍しく、地域では普通(ここでは普通で、ゲストには特別なもの)②体験できる(メニューやプログラム、空間に変換できるか)③続けられる(安定して供給できるか。一発のイベントでないか)。</li><li><strong>ゲストの体験への翻訳</strong> — 選んだひとつを、3つの媒体に載せます。メニュー(軸を語る食材・料理)、空間(軸を語る素材・色・眺め)、スタッフのスクリプト(軸についての30秒で覚えられるひとことストーリー)。</li><li><strong>証拠で証明する</strong> — 軸が語られたレビューの文言、軸が写った写真、軸を報じるメディア。証拠のないブランドはスローガンです。<strong>ゲストの言葉が「軸の言葉」を使い始めたら、翻訳は完成</strong>です。</li></ol><h2>日本の宿で、実際にできること</h2><ul><li><strong>「制約の看板化」から始める</strong> — 車でしか行けない山の宿は、その道程を到着の儀式として案内する(最後の500mの風景、入り江ならぬ峠の話)。エレベーターなしの宿は「荷物はお運びします。階段はこの宿の景色の一部です」と、先に書く。</li><li><strong>客室の違いを個性として売る</strong> — 角部屋・谷向き・階段の下の小さな部屋。間取りがバラバラなのは、地方の小さな宿では「欠点」ではなく「1室ごとに違う理由」です。ニャチャンの岩の上のヴィラと同じ構造を、説明の設計で作れる。</li><li><strong>素材を3つに絞る</strong> — 木材・茅・麻の代わりに、木・和紙・麻、あるいは漆喰・土・綿。備品の素材表を3行で書き切る宿の世界観は、62行の設備一覧より貫かれて見えます。</li></ul><h2>向く宿と、向かない宿</h2><p>この方法が向くのは、立地に何か「強い個性」(不便・地形・気候・素材)のある宿、客室が揃っていない宿、地場の素材に触れている宿です。逆に、立地の中立性を強みにする宿(駅前で機能する宿)が無理に軸を作ると、作為が透けて見えます。まずは選択から——翻訳は、選んだ宿にだけ起きます。</p><h2>反対側 — 翻訳が失敗するとき</h2><ul><li><strong>制約の看板化は、実態が支える</strong> — 「船旅の20分」が快適であるのは、運航と待合の設計があるからです。看板にした不便が改善されていなければ、体験ではなく苦痛が記憶に残ります。</li><li><strong>「オンリーワン」を選ばないと全部になる</strong> — 棚卸しで書き出した資産を全部使いたくなるのが人情です。ここで絞らないと、冒頭の「詰め込み」に戻ります。引き算の規律が腕の見せ所です。</li><li><strong>素材の統一は維持のコスト</strong> — 世界観の徹底は、補修・交換・調達の手間とセットです(清掃と維持の設計と一体で考える)。</li><li><strong>脚本の棒読み</strong> — スタッフのひとことストーリーが「言わされている感」を出した瞬間、翻訳は嘘に変わります。自分の言葉で語れる長さに留める。</li></ul><p>最初の一歩は、制約を含めた棚卸しです。今夜、ホワイトボードに宿の周辺と宿自身の「ここにしかないもの」を書き出し——便利なものも不便なものも区別なく——3つの基準でひとつに印を付ける。地域性の翻訳は、その印から始まります。</p><div class="note">この記事はアイデア共有を目的としています。事例の詳細は公表資料・宿の公式情報に基づき、宿泊予約や最新の施設情報は公式サイトをご確認ください。</div><h2>次に読む</h2><ul><li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 絞る規律の話</li><li><a href="#spatial-design-local-high-price">【空間デザイン】地方都市で高単価を実現した新しい滞在のかたち</a> — 素材で貫く話</li><li><a href="#story-branding-exhibition">“物語で選ばれる宿” — 展示が示すブランディングの力</a> — 物語を見せる話</li><li><a href="#regional-experience-program">地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計</a> — 地域を体験にする話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"041"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"ベトナム・ニャチャンの入り江に、ボートでしか行けない宿がある。不便と制約を看板に変えた実在の事例から、地域性をブランドに翻訳する4ステップを整理しました。"}],["$","span",null,{"className":"en-only","children":"On an inlet in Nha Trang, Vietnam, there is a property you can reach only by boat. From this real case — one that turned inconvenience and constraint into a signboard — here are the four steps of translating regional identity into a brand."}],["$","span",null,{"className":"zh-only","children":"将区域特色转化为品牌的方法论，正如芽庄的新基地所见。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.06.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T22f9,<p>How do you "translate" the region a property stands in into that property’s brand? Before taking up this question, let us name two typical failures. <strong>The failure of "cramming it all in"</strong> — the sea, the mountains, the history, the food; put in everything and the guest remembers none of it. <strong>The failure of "anywhere"</strong> — a brand with no relation to the region; it would stand up equally well in Tokyo or Osaka, and "a place that becomes a reason to go" does not exist. Regional branding is the work of <strong>choosing one "one-and-only" from among many assets and translating it into the guest’s experience</strong>. As a success story, this time we travel to a property on an inlet in Nha Trang, Vietnam.</p>
+
+<h2>The case — reachable only by boat, 58 rooms</h2>
+
+<p>Nha Trang, a beach-resort city in central Vietnam. On an inlet off the peninsula across the water sits a property called Six Senses Ninh Van Bay. The journey to this property, opened in 2004, is distinctive. About 60 minutes by car from the airport, then from a private jetty about 20 minutes more by boat — <strong>the only access is by boat</strong>.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>Six Senses Ninh Van Bay (Nha Trang, Vietnam): opened in 2004. Built on a quiet inlet surrounded by mountains, with 58 villas in all, reachable only by private boat (about 60 minutes by car from the airport plus about 20 minutes by boat). The villas follow the terrain — perched on rocks at the water’s edge, on the mountainside, in front of the beach — each built differently. It is known for the thoroughgoing unity of its materials: wood and thatched roofs, wooden bathtubs, cords wound with hemp twine</strong> — Regarded as a pioneer of the world’s eco-resorts, a property that made regional identity into a brand, whole.</div>
+
+<h2>Why it is interesting — inconvenience and constraint turned into the "signboard"</h2>
+
+<p>Seen with a practitioner’s eye, the interest of this property condenses into three things. First, <strong>its greatest inconvenience — reachable only by boat — has been turned into the arrival experience</strong>. Under ordinary thinking, "poor access" is a defect to hide; at this property, the time crossing the water to the inlet has become the ritual of the journey’s threshold. Second, <strong>the constraints of the terrain have been turned into the individuality of the rooms</strong>. Built on flat land, every room could have had the same layout — yet on the rocks, on the mountainside, at the water’s edge, each villa is built differently — the bumps and hollows become the material for "the room that is the only one of its kind," the unmass-producible. Third, <strong>the thoroughness of the materials</strong>. Thatched roofs, wooden bathtubs, hemp twine — from a single room to the amenities, the worldview is carried through by material.</p>
+
+<h2>The essence — translating regional identity is not "adding" but "converting"</h2>
+
+<p>The essence to be read from this is one thing. Translating regional identity means <strong>converting the constraints and the character that exist only in that land into an experience no other land can imitate</strong>. The 20 minutes by boat, left as the fact "it’s far," is a defect; converted into "the experience of crossing the journey’s threshold on the water," it becomes an asset no city hotel can hold. Not adding what is missing from outside, but changing how you see what is only there — "translation" is this change of viewpoint.</p>
+
+<h2>The 4 steps — taking it home as method</h2>
+
+<p>Let us organize this viewpoint into four steps to put into practice at a Japanese property.</p>
+
+<ol>
+<li><strong>Inventory the regional assets</strong> — Write out everything around the property. People, food, nature, history, production, events. No judgment needed at this stage — the aim is not to miss a gem. Constraints (snowbound roads, staircases, poor signal) are also written in the "assets" column here.</li>
+<li><strong>Choose the "one-and-only"</strong> — Narrow to one by three criteria: (1) rare in the world, ordinary in the region (what is ordinary here, and special to the guest); (2) experienceable (can it be converted into a menu, a program, a space?); (3) sustainable (can it be supplied steadily? is it not a one-off event?).</li>
+<li><strong>Translate into the guest’s experience</strong> — Put the chosen one onto three media: the menu (ingredients and dishes that speak the axis), the space (materials, colors, views that speak the axis), and the staff’s script (a 30-second, memorizable one-line story about the axis).</li>
+<li><strong>Prove it with evidence</strong> — Review wording that speaks the axis, photographs that show the axis, media coverage that reports the axis. A brand without evidence is a slogan. <strong>When the guest’s own words begin using the "words of the axis," the translation is complete.</strong></li>
+</ol>
+
+<h2>What a Japanese property can actually do</h2>
+
+<ul>
+<li><strong>Start with "signboarding your constraints"</strong> — A mountain property reachable only by car guides the journey itself as the arrival ritual (the scenery of the last 500 meters, the story of the pass instead of an inlet). A property with no elevator writes, up front, "We will carry your luggage. The stairs are part of this property’s scenery."</li>
+<li><strong>Sell the differences between rooms as individuality</strong> — The corner room, the one facing the valley, the small room under the stairs. Uneven room layouts, at a small regional property, are not "defects" but "a reason each room is different." The same structure as the villa on the rocks in Nha Trang can be built with the design of explanation.</li>
+<li><strong>Narrow the materials to three</strong> — In place of wood, thatch, and hemp: wood, washi paper, and linen; or plaster, clay, and cotton. A property whose materials list is written in three lines looks more carried-through than one with a 62-line equipment inventory.</li>
+</ul>
+
+<h2>Properties it suits, and properties it doesn’t</h2>
+
+<p>This method suits properties whose location carries some "strong character" (inconvenience, terrain, climate, materials), properties whose rooms are not uniform, properties in touch with local materials. Conversely, when a property whose strength is the neutrality of its location (a property that functions in front of a station) forces an axis, the artifice shows through. It begins with choosing — translation happens only for properties that have chosen.</p>
+
+<h2>The other side — when the translation fails</h2>
+
+<ul>
+<li><strong>The signboard must be backed by reality</strong> — The "20-minute boat journey" is comfortable because the boat operations and the waiting area are designed. If the inconvenience you have signboarded remains unimproved, what stays in the memory is not an experience but pain.</li>
+<li><strong>Choose no "one-and-only" and everything creeps in</strong> — Wanting to use every asset written in the inventory is only human. Fail to narrow here and you return to the "cramming" of the opening. The discipline of subtraction is where the craft shows.</li>
+<li><strong>Unity of materials is the cost of upkeep</strong> — Thoroughness of worldview comes as a set with the labor of repair, replacement, and procurement (think it together with the design of cleaning and maintenance).</li>
+<li><strong>A scripted line read flat</strong> — The moment the staff’s one-line story gives off "I was told to say this," the translation turns into a lie. Keep it to a length people can tell in their own words.</li>
+</ul>
+
+<p>The first step is the inventory, constraints included. Tonight, on a whiteboard, write out the "things that exist only here" around your property and in the property itself — convenient and inconvenient alike, without distinction — and mark one with the three criteria. The translation of regional identity begins from that mark.</p>
+
+<div class="note">This article is intended for sharing ideas. The details of the case are based on published materials and the property’s official information; for bookings and the latest facility information, please check the official website.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#branding-subtraction">If You Keep Only One: The Subtraction of Brand</a> — the discipline of narrowing</li>
+<li><a href="#spatial-design-local-high-price">Spatial Design: A New Stay Format That Commands Premium Rates in Regional Cities</a> — carrying through by material</li>
+<li><a href="#story-branding-exhibition">"The Stay Chosen by Its Story" — What the Exhibition Reveals About Branding</a> — showing the story</li>
+<li><a href="#regional-experience-program">Regional Experience Programs: The Basics for Extending Inbound Stays</a> — turning the region into experience</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Td3c,<p>客栈所在的“地区”如何翻译成该客栈的品牌？我们将结合东南亚某城市（芽庄）“新基地”项目的模式，阐述将地域性转化为品牌的四步法。</p>
+<h2>为什么要“翻译”？局部性的两次失败</h2>
+<p>在本地品牌建设方面存在两个典型错误：</p>
+<ul>
+<li><strong>“临时抱佛脚”失败</strong> —“我们有海洋、山脉、历史和食物。”如果您包含所有内容，您的客人将不会记住任何内容。</li>
+<li><strong>“任何地方”的失败</strong> — 与当地没有联系的品牌。它将在东京和大阪设立。没有“让你有理由去的地方”。</li>
+</ul>
+<p>区域品牌是指从众多资产中发展区域品牌。<strong>选择一个“独一无二”并将其转化为宾客体验</strong>这是工作。</p>
+<h2>步骤一：盘点“本地资产”</h2>
+<p>写下您旅馆周围的所有事物。人、食物、自然、历史、生产和事件。在这个阶段没有必要进行判断——目标是不忽略任何宝石。</p>
+<h2>第二步：选择“仅一个”</h2>
+<p>根据三个标准从列表中选择一个：</p>
+<ol>
+<li><strong>世界罕见，地区常见</strong> —“这里很正常，但对客人来说很特别”</li>
+<li><strong>你可以体验一下</strong> — 可以转换成菜单/程序/空间吗？</li>
+<li><strong>可以继续</strong> ——能否稳定供应？ （这是一次性活动吗？）</li>
+</ol>
+<p>例如：如果是海滨城市，列表可能包括大海、渔业、椰子和殖民遗产。如果选择“海”作为一根轴，则房间视图、菜单、员工故事和调色板都将在一根轴上对齐。</p>
+<h2>第三步：转化为宾客体验</h2>
+<p>将选定的“一”翻译成三种媒体：</p>
+<ul>
+<li><strong>菜单</strong> — 讲述核心的食材和菜肴</li>
+<li><strong>空间</strong> — 讲述故事的材料、颜色、艺术和视图</li>
+<li><strong>员工脚本</strong> — 30​​秒就能记住的关于轴的“一句话故事”</li>
+</ul>
+<h2>第四步：用证据证明</h2>
+<p>没有证据的品牌只是口号。用“证据”标明轴。评论（谈论轴的文字）、照片（轴在房间里的证据）和媒体（报道轴的故事）。<strong>当客人的话语开始使用“核心词”时，翻译就完成了</strong>。</p>
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，若施策前的满意度为70%，则提高约18%至83%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 小设计，大影响。判断效果时，请用相同的统计方法记录并比较施策前后30天的点评评分与回头率。</div><div class="note"><span class="tag">InnBuddy 笔记</span>区域品牌推广中最常见的错误是“临时抱佛脚”。 “减法”的纪律是你大显身手的地方。您选择的“独一无二”将成为“客人选择这家旅馆的原因”和“他们会谈论它的原因”。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：区域资产盘点（与整个团队进行研讨会形式）</li>
+<li>第 2 周：根据 3 个标准进行选择</li>
+<li>第 3-6 周：翻译成菜单/空间/员工脚本</li>
+<li>第 7-12 周：积累证据（评论、照片、媒体）</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","hotel-photos-90",{"href":"/journal/articles/hotel-photos-90","children":[["$","img",null,{"src":"/library/journal/ai_hotel-photos-90.jpg","alt":"「写真が9割」— 予約が入るホテル写真の共通点"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「写真が9割」— 予約が入るホテル写真の共通点"}],["$","span",null,{"className":"en-only","children":"\"The Photo Is 90%\": What Bookable Hotel Photos Have in Common"}],["$","span",null,{"className":"zh-only","children":"“90%照片”——预订酒店照片的共同点"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/spatial-design-local-high-price","children":["- ",["$","span",null,{"className":"ja-only","children":"【空間デザイン】地方都市で高単価を実現した新しい滞在のかたち"}],["$","span",null,{"className":"en-only","children":"Spatial Design: A New Stay Format That Commands Premium Rates in Regional Cities"}],["$","span",null,{"className":"zh-only","children":"【空间设计】实现区域城市高单价的新入住形态"}]]}],["$","$L8",null,{"href":"/journal/articles/direct-booking-42","children":[["$","span",null,{"className":"ja-only","children":"直予約比率を42%まで上げた3つの仕掛け"}],["$","span",null,{"className":"en-only","children":"Three Mechanisms That Raised Our Direct Booking Ratio to 42%"}],["$","span",null,{"className":"zh-only","children":"三大机制将直订率提升至42%"}]," -"]}]]}]
+10:null

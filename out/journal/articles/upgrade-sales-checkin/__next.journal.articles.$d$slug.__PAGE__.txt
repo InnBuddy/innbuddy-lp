@@ -1,15 +1,173 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_upgrade-sales-checkin.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T2057,<p>アップグレード販売は<strong>「売り込み」ではなく「一番良い選択肢を見せる」</strong>ことです。海が見える部屋、山が見える部屋、広い部屋——ゲストは、それが<strong>あることを知らないだけ</strong>です。「海側に空きがある」と知れば、多くのゲストは「じゃあ、そちらに」と言います。本記事は、チェックイン時のこの一手を設計する基礎編です(選択肢の並べ方が人の選択を変える科学とデコイ効果の話は、<a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a>が扱います。ここはチェックインの瞬間と、客室という在庫の話です)。</p><h2>書院造 — 部屋は序列でできていた</h2><p>日本の伝統建築には、部屋の序列を建築で示す作法がありました。書院造の代表例・二条城二の丸御殿の大広間は、最も格の高い<strong>上段の間</strong>——床を一段上げ、床の間・違棚・付書院を備えた将軍の座所——から、二の間、三の間へと、序列の順に並んでいます。大名はどの間に通されるかで、自らの位置を知った。つまりこの国の建築では、<strong>「どの部屋に通されるか」そのものが、メッセージ</strong>だったのです。</p><div class="stats"><span class="tag">FACT</span><strong>書院造の客殿では、最も格の高い部屋「上段の間」が床を一段上げて設えられ、そこから二の間・三の間へと部屋が序列的に並びました(二条城二の丸御殿・大広間など)。座敷飾りの基本(床の間・違棚・付書院)は、現代の和室にまで続いています</strong> — 部屋の序列は、わざわざ言葉にしなくても伝わる形で建築に組み込まれていた</div><h2>翻訳 — 宿の序列を、1行で見せる</h2><p>あなたの宿の客室にも、序列はあります。見える部屋、広い部屋、静かな部屋、一番いい時刻に光が入る部屋。問題は、その序列が<strong>価格表の中に眠っている</strong>だけなことです。アップグレード販売とは、新しく何かを売ることではなく——書院造が建物でやっていたことを、受付の1行でやること。<strong>既にある序列を、その人に見せる</strong>のです。</p><p>見せる相手は選びます。当日、良い部屋が空いていること。目の前のゲストが、その部屋を喜びそうなこと(海側の部屋は、山に来た人には見えない)。この2つが揃った時だけ、1行が生まれます。</p><h2>在庫の視点 — 今夜しか売れない良い部屋</h2><p>アップグレードが他の販売と違うのは、<strong>集客がゼロで客単価だけが上がる</strong>ことです。客室は既に建っていて、掃除の違いはわずか。差額の大部分が粗利になります。しかも良い部屋の空きは、今夜しか売れません——明日には価値が消える在庫です。空いた上の部屋を1泊だけでも上に流すことは、値付けの設計と同じ収益の話です(土台は、<a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a>と<a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a>)。</p><h2>3要素 — タイミング・言葉・1つだけ</h2><ol><li><strong>タイミング</strong> — 荷物を置き、一息ついた時。チェックインで焦っている時、疲れている時はしません。「そういえば」の自然な一拍が、売り込みと情報の境界です。</li><li><strong>言葉</strong> — 「今日は海側の部屋に空きがあり、多くのゲストが喜ばれています」。売り文句ではなく<strong>情報</strong>として伝える。情報は選択を残し、勧誘は選択を奪います。</li><li><strong>1つだけ</strong> — AかBかCかを選ばせない。「それにしようか、やめておこうか」の2択にすることが、選びやすさの設計です。二つ上は高く、一つ下は安く見えるだけ。<strong>「一つ上」だけが、手の届く別世界</strong>を作ります。</li></ol><h2>定番の2品</h2><ul><li><strong>一つ上の部屋</strong> — 最も単価が高く、粗利も高い一手。当日の空きと、その人の好みを読んで、1つだけ。</li><li><strong>レイトチェックアウト</strong> — 翌日が空いている時の、追加コストほぼゼロのもう一品。「明日は空いておりますので、11時までゆっくり」(清掃の順番との調整は、<a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a>が扱います)。</li></ul><p>朝食の追加や客室内のコマースなど、チェックイン以外の場面のもう一押しは、アップセルの記事がまとめています。この記事の守備範囲は、チェックインの瞬間と客室——<strong>宿の中で最も序列が見える場所</strong>です。</p><h2>反対側 — 一手が宿を傷つけるとき</h2><ul><li><strong>押し売り</strong> — 断られたら「かしこまりました」で終わり。深追いの1文が、宿全体の印象を書き換えます。断る速さも、売る側の作法です。</li><li><strong>無料アップグレードの濫用</strong> — ただで上げ続けると、「上がって当然」の期待が育ち、上げなかった夜が不満になります。無料は、何かの理由のある夜だけ。</li><li><strong>価格の整合</strong> — 表の客室差額と釣り合わないアップグレード料は、「足元を見られた」印象を作ります。差額の近くに置く。</li><li><strong>毎回の勧め</strong> — 常連に毎回同じ1行は、やがて「また言われた」になります。2回に1回、本当に良い部屋が空いた夜だけ。</li><li><strong>ないものを売る</strong> — 空いてもいない部屋を「人気です」と言った瞬間、その言葉は二度と戻りません。見せるのは、実際に空いている部屋だけ。</li></ul><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>上段の間の「床を一段上げる」は、身分差を示す演出でした。現代の宿の「一つ上の部屋」は、身分でなく選択の話——同じ料金表の中で、その人だけが選べる一段上がある</strong> — 序列が強制だった時代から、序列が選択になった時代へ</div><p>最初の一歩は、明日のチェックインで1行だけ言うことです。「今日は海側のお部屋に空きがございます」。言われたゲストの何割かは「じゃあ、お願いします」と言い、残りは「いえ、大丈夫です」と言います。どちらも正しい答えです。<strong>どちらの答えでも気持ちよく泊まってもらえる</strong>——その状態を作れたとき、アップグレード販売は売り込みではなく、おもてなしの1行になります。</p><div class="note">この記事はアイデア共有を目的としています。書院造・上段の間の記述は文化庁の文化遺産オンライン等の公開資料に基づきます(執筆時点)。価格は例示です。表示・説明は特定商取引や景品表示のルールに沿ってください。</div><h2>次に読む</h2><ul><li><a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a> — 選択肢の並べ方の科学の話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 一手の次の5分の話</li><li><a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a> — 価格の土台の話</li><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — レイトチェックアウトと清掃の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","083"]}]]}],["$","h1",null,{"children":"アップグレード販売 — チェックイン時の「一つ上の部屋」"}],["$","p",null,{"className":"excerpt","children":"アップグレードは「売り込み」ではなく「一番良い選択肢を見せる」。書院造の部屋が序列でできていたように、宿の客室の序列を1行で見せる——チェックイン時の一手を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_upgrade-sales-checkin.jpg","alt":"アップグレード販売 — チェックイン時の「一つ上の部屋」"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.06"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/dayuse-hourly-stay","children":["← ","デーユースと時間制 — 「泊まらない売上」の基本"]}],["$","$L2",null,{"href":"/journal/articles/welcome-amenity-5min","children":["ウェルカムアメニティ — 「最初の5分」の設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2057,<p>アップグレード販売は<strong>「売り込み」ではなく「一番良い選択肢を見せる」</strong>ことです。海が見える部屋、山が見える部屋、広い部屋——ゲストは、それが<strong>あることを知らないだけ</strong>です。「海側に空きがある」と知れば、多くのゲストは「じゃあ、そちらに」と言います。本記事は、チェックイン時のこの一手を設計する基礎編です(選択肢の並べ方が人の選択を変える科学とデコイ効果の話は、<a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a>が扱います。ここはチェックインの瞬間と、客室という在庫の話です)。</p><h2>書院造 — 部屋は序列でできていた</h2><p>日本の伝統建築には、部屋の序列を建築で示す作法がありました。書院造の代表例・二条城二の丸御殿の大広間は、最も格の高い<strong>上段の間</strong>——床を一段上げ、床の間・違棚・付書院を備えた将軍の座所——から、二の間、三の間へと、序列の順に並んでいます。大名はどの間に通されるかで、自らの位置を知った。つまりこの国の建築では、<strong>「どの部屋に通されるか」そのものが、メッセージ</strong>だったのです。</p><div class="stats"><span class="tag">FACT</span><strong>書院造の客殿では、最も格の高い部屋「上段の間」が床を一段上げて設えられ、そこから二の間・三の間へと部屋が序列的に並びました(二条城二の丸御殿・大広間など)。座敷飾りの基本(床の間・違棚・付書院)は、現代の和室にまで続いています</strong> — 部屋の序列は、わざわざ言葉にしなくても伝わる形で建築に組み込まれていた</div><h2>翻訳 — 宿の序列を、1行で見せる</h2><p>あなたの宿の客室にも、序列はあります。見える部屋、広い部屋、静かな部屋、一番いい時刻に光が入る部屋。問題は、その序列が<strong>価格表の中に眠っている</strong>だけなことです。アップグレード販売とは、新しく何かを売ることではなく——書院造が建物でやっていたことを、受付の1行でやること。<strong>既にある序列を、その人に見せる</strong>のです。</p><p>見せる相手は選びます。当日、良い部屋が空いていること。目の前のゲストが、その部屋を喜びそうなこと(海側の部屋は、山に来た人には見えない)。この2つが揃った時だけ、1行が生まれます。</p><h2>在庫の視点 — 今夜しか売れない良い部屋</h2><p>アップグレードが他の販売と違うのは、<strong>集客がゼロで客単価だけが上がる</strong>ことです。客室は既に建っていて、掃除の違いはわずか。差額の大部分が粗利になります。しかも良い部屋の空きは、今夜しか売れません——明日には価値が消える在庫です。空いた上の部屋を1泊だけでも上に流すことは、値付けの設計と同じ収益の話です(土台は、<a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a>と<a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a>)。</p><h2>3要素 — タイミング・言葉・1つだけ</h2><ol><li><strong>タイミング</strong> — 荷物を置き、一息ついた時。チェックインで焦っている時、疲れている時はしません。「そういえば」の自然な一拍が、売り込みと情報の境界です。</li><li><strong>言葉</strong> — 「今日は海側の部屋に空きがあり、多くのゲストが喜ばれています」。売り文句ではなく<strong>情報</strong>として伝える。情報は選択を残し、勧誘は選択を奪います。</li><li><strong>1つだけ</strong> — AかBかCかを選ばせない。「それにしようか、やめておこうか」の2択にすることが、選びやすさの設計です。二つ上は高く、一つ下は安く見えるだけ。<strong>「一つ上」だけが、手の届く別世界</strong>を作ります。</li></ol><h2>定番の2品</h2><ul><li><strong>一つ上の部屋</strong> — 最も単価が高く、粗利も高い一手。当日の空きと、その人の好みを読んで、1つだけ。</li><li><strong>レイトチェックアウト</strong> — 翌日が空いている時の、追加コストほぼゼロのもう一品。「明日は空いておりますので、11時までゆっくり」(清掃の順番との調整は、<a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a>が扱います)。</li></ul><p>朝食の追加や客室内のコマースなど、チェックイン以外の場面のもう一押しは、アップセルの記事がまとめています。この記事の守備範囲は、チェックインの瞬間と客室——<strong>宿の中で最も序列が見える場所</strong>です。</p><h2>反対側 — 一手が宿を傷つけるとき</h2><ul><li><strong>押し売り</strong> — 断られたら「かしこまりました」で終わり。深追いの1文が、宿全体の印象を書き換えます。断る速さも、売る側の作法です。</li><li><strong>無料アップグレードの濫用</strong> — ただで上げ続けると、「上がって当然」の期待が育ち、上げなかった夜が不満になります。無料は、何かの理由のある夜だけ。</li><li><strong>価格の整合</strong> — 表の客室差額と釣り合わないアップグレード料は、「足元を見られた」印象を作ります。差額の近くに置く。</li><li><strong>毎回の勧め</strong> — 常連に毎回同じ1行は、やがて「また言われた」になります。2回に1回、本当に良い部屋が空いた夜だけ。</li><li><strong>ないものを売る</strong> — 空いてもいない部屋を「人気です」と言った瞬間、その言葉は二度と戻りません。見せるのは、実際に空いている部屋だけ。</li></ul><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>上段の間の「床を一段上げる」は、身分差を示す演出でした。現代の宿の「一つ上の部屋」は、身分でなく選択の話——同じ料金表の中で、その人だけが選べる一段上がある</strong> — 序列が強制だった時代から、序列が選択になった時代へ</div><p>最初の一歩は、明日のチェックインで1行だけ言うことです。「今日は海側のお部屋に空きがございます」。言われたゲストの何割かは「じゃあ、お願いします」と言い、残りは「いえ、大丈夫です」と言います。どちらも正しい答えです。<strong>どちらの答えでも気持ちよく泊まってもらえる</strong>——その状態を作れたとき、アップグレード販売は売り込みではなく、おもてなしの1行になります。</p><div class="note">この記事はアイデア共有を目的としています。書院造・上段の間の記述は文化庁の文化遺産オンライン等の公開資料に基づきます(執筆時点)。価格は例示です。表示・説明は特定商取引や景品表示のルールに沿ってください。</div><h2>次に読む</h2><ul><li><a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a> — 選択肢の並べ方の科学の話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 一手の次の5分の話</li><li><a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a> — 価格の土台の話</li><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — レイトチェックアウトと清掃の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"083"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップグレード販売 — チェックイン時の「一つ上の部屋」"}],["$","span",null,{"className":"en-only","children":"Upgrade Sales: One Room Up at Check-In"}],["$","span",null,{"className":"zh-only","children":"升级销售——登记入住时“升级一个房间”"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"アップグレードは「売り込み」ではなく「一番良い選択肢を見せる」。書院造の部屋が序列でできていたように、宿の客室の序列を1行で見せる——チェックイン時の一手を整理します。"}],["$","span",null,{"className":"en-only","children":"An upgrade is not \"a sales pitch\" but \"showing the best option.\" As the rooms of shoin architecture were built in rank, show the rank of your rooms in one line — the single move at check-in."}],["$","span",null,{"className":"zh-only","children":"升级不是“推销”，而是“展示最佳选择”。关于办理登机手续时要说的话的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_upgrade-sales-checkin.jpg","alt":"アップグレード販売 — チェックイン時の「一つ上の部屋」"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.06"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1e8e,<p>Upgrade sales are <strong>not "a sales pitch" but "showing the best option."</strong> A room that sees the sea, a room that sees the mountains, a wider room — guests <strong>simply do not know it exists</strong>. Told that "a sea-side room is open tonight," most guests will say, "then that one, please." This article designs that single move at check-in (the science of how the arrangement of options changes choices, and the decoy effect, are handled by <a href="#upselling-front-desk">Upselling: The Basics of the "One More Push" at the Front Desk</a>. Here: the moment of check-in, and the inventory called rooms).</p>
+
+<h2>Shoin-zukuri — rooms were built in rank</h2>
+
+<p>Traditional Japanese architecture had a manner of showing a room’s rank in the building itself. In the Ōhiroma grand hall of the Ninomaru Palace of Nijō Castle, a canonical example of shoin-zukuri, the rooms run in order of rank from the highest — the <strong>jōdan no ma</strong>, the shogun’s seat, its floor raised a step, furnished with tokonoma alcove, staggered shelves, and a built-in desk — through the second and third rooms. A daimyo knew his place by which room he was shown into. In this country’s architecture, <strong>"which room you are shown into" was itself the message</strong>.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>In the guest palaces of shoin-zukuri, the highest-ranked room, the "jōdan no ma," was set with its floor raised a step, and the rooms ran in rank from there — the second room, the third (as in the Ōhiroma of the Ninomaru Palace, Nijō Castle). The basics of room decoration — the tokonoma alcove, staggered shelves, the built-in desk — continue into the modern Japanese room</strong> — The rank of rooms was built into the architecture, in a form that carried without a single word. (Based on public materials such as the Agency for Cultural Affairs’ Cultural Heritage Online.)</div>
+
+<h2>Translation — show your rank in one line</h2>
+
+<p>Your property’s rooms have a rank too. The room with the view, the wider room, the quieter room, the room where the light comes in at the best hour. The problem is only that the rank <strong>lies asleep inside the price list</strong>. Upgrade sales is not selling something new — it is doing, in one line at the front desk, what shoin architecture did with the building: <strong>showing the rank that already exists, to that person.</strong></p>
+
+<p>Choose whom to show it to. That a good room is actually open tonight. That the guest in front of you seems likely to delight in that room (a sea-side room is invisible to someone who came for the mountains). Only when both align does the line get born.</p>
+
+<h2>The inventory view — a good room that can only be sold tonight</h2>
+
+<p>What makes upgrades different from other sales: <strong>customer acquisition is zero, and only the spend per guest rises.</strong> The rooms are already built; the difference in cleaning is slight. Most of the price difference becomes gross profit. And a good room’s vacancy can only be sold tonight — inventory whose value disappears tomorrow. Moving an empty upper room upward, even for one night, is the same revenue story as the design of pricing (the foundations are <a href="#pricing-fundamentals">How to Set Room Rates: Pricing Fundamentals</a> and <a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a>).</p>
+
+<h2>3 elements — timing, words, and only one</h2>
+
+<ol>
+<li><strong>Timing</strong> — When the bags are down and the guest has breathed. Not in the rush of check-in, not in exhaustion. The natural beat of "come to think of it" is the boundary between information and selling.</li>
+<li><strong>Words</strong> — "Tonight a sea-side room is open, and many guests are delighted with it." Convey it as <strong>information</strong>, not as a sales line. Information leaves the choice; solicitation takes it.</li>
+<li><strong>Only one</strong> — Do not offer A or B or C. Reduce it to two choices — "take it, or leave it" — and choosing becomes easy. Two steps up only looks expensive; one step down only looks cheap. <strong>Only "one step up" creates a reachable other world.</strong></li>
+</ol>
+
+<h2>The 2 standards</h2>
+
+<ul>
+<li><strong>One room up</strong> — The move with the highest price and the highest gross profit. With tonight’s vacancy and that person’s taste read, one only.</li>
+<li><strong>Late checkout</strong> — The other item, at nearly zero extra cost, when tomorrow is open. "Tomorrow is free, so take your time until 11" (adjusting with the cleaning order is handled by <a href="#room-turnover-flow">Room Turnover: Cutting Guest Wait with Cleaning Flow</a>).</li>
+</ul>
+
+<p>Breakfast add-ons and in-room commerce — the "one more push" in scenes other than check-in — are gathered in the upselling article. This article’s territory is the moment of check-in and the guest room: <strong>the place in the property where rank shows most plainly</strong>.</p>
+
+<h2>The other side — when the move hurts the property</h2>
+
+<ul>
+<li><strong>Pushing</strong> — Declined, and it ends with "certainly." One sentence of pursuit rewrites the impression of the whole property. The speed of accepting a no is also the seller’s manner.</li>
+<li><strong>Overusing free upgrades</strong> — Keep giving them free, and an expectation of "free is normal" grows, until the night you do not upgrade becomes a complaint. Free, only on nights with a reason.</li>
+<li><strong>Price coherence</strong> — An upgrade fee out of line with the published room differential creates the impression of being sized up. Keep it near the difference.</li>
+<li><strong>Pitching every time</strong> — The same line to a regular every stay becomes "they said it again" before long. Every other time; only on nights a truly good room is open.</li>
+<li><strong>Selling what is not there</strong> — The moment you call a room "popular" when it is not even open, those words never come back. Show only rooms actually open.</li>
+</ul>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>The jōdan no ma’s raised floor was staging that showed differences of rank. The modern property’s "one room up" is not a matter of rank but of choice — within the same price list, a step up that only that person can choose</strong> — From an era when rank was imposed, to an era when rank is chosen.</div>
+
+<p>The first step is saying one line at tomorrow’s check-in. "Tonight we have a sea-side room open." Some fraction of the guests told will say "then, please," and the rest will say "no, we’re fine." Both are correct answers. <strong>That either answer leaves the guest comfortable</strong> — when you have built that state, the upgrade stops being a pitch and becomes one line of omotenashi.</p>
+
+<div class="note">This article is intended for sharing ideas. The accounts of shoin-zukuri and the jōdan no ma are based on public materials such as the Agency for Cultural Affairs’ Cultural Heritage Online (as of writing). Prices are examples. Please keep display and explanation in line with the rules on specified commercial transactions and premium representation.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#upselling-front-desk">Upselling: The Basics of the "One More Push" at the Front Desk</a> — the science of arranging options</li>
+<li><a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a> — the five minutes after the move</li>
+<li><a href="#pricing-fundamentals">How to Set Room Rates: Pricing Fundamentals</a> — the foundations of price</li>
+<li><a href="#room-turnover-flow">Room Turnover: Cutting Guest Wait with Cleaning Flow</a> — late checkout and cleaning</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T199b,<p>升级销售<strong>不是“销售”，而是“展示最佳选择”</strong>。海景房、山景房、靠近安静的咖啡馆式休息室的房间——客人根本不知道它们的存在。当很多客人发现有靠海的房间时，他们会说：“我想住在那里。”即使你不卖，只要提供信息就可以出售升级。本文将概述如何在不成为咄咄逼人的卖家的情况下销售升级的基本知识，只需在办理登机手续时询问某人即可。</p>
+
+<h2>1.三要素——时机、言语、一</h2>
+<ol>
+<li><strong>时机——当我放下东西喘口气的时候。赶时间时不要这样做：</strong>要求升舱的时机是客人放下行李休息的时候。如果您在客人办理入住时匆忙或疲倦时向他们喊话，他们会觉得您想推销他们。最自然的做法是在您放下行李并在休息室稍事休息后，或者在您被带到客房后说“顺便说一句”。</li>
+<li><strong>文字 - “我们今天在海边有一间房间可供使用，许多客人对此感到满意。”信息，而不是销售宣传：</strong>将升级作为信息提供，而不是推销。通过传达诸如“今天我们有一间海边房间，很多客人对此感到高兴”或“山边房间很受欢迎，因为他们可以享受美丽的早晨阳光和美味的早餐”等信息，客人会觉得他们得到了很好的信息，而不是“推销”。</li>
+<li><strong>只有一件事——我只推荐一件事。不允许选择A、B或C：</strong>仅建议升级一次。如果你提出A、B、C等多个选项，客人会很难选择。通过仅推荐一种选项，客人将有两种选择：“我会选择它，或者我会跳过它。”这将使客人更容易选择。我推荐的一件事是提升销售的基础知识。</li>
+</ol>
+
+<h2>2. 三大标配——房间、早餐、延迟退房</h2>
+<ul>
+<li><strong>房间升级——海景/山景/大房间：</strong>对于客房升级，我们仅向客人推荐一间“更好的房间”，例如海景房、山景房或更大的房间。我们根据客人的喜好仅推荐一间客房，例如面向大海的房间、面向山的房间或大房间。客房升级是最昂贵、毛利率最高的升级。</li>
+<li><strong>额外早餐——邀请添加一项：</strong>对于没有添加早餐的客人，我们仅建议额外提供一份早餐。 “早餐时，用当地蔬菜制成的汤很受欢迎。”“早餐配有用田间种植的蔬菜制成的沙拉。”只告诉他们有关早餐的一件事。增加早餐是一种低成本、高毛利率的升级。</li>
+<li><strong>延迟退房 - 第二天（如果有）：</strong>如果第二天有空的话，我只推荐一次延迟退房。解释延迟退房的吸引力，例如，“明天我有空，所以你可以放松到 11 点。”延迟退房是一种升级，可以通过调整清洁时间来免费提供。</li>
+</ul>
+
+<h2>3. 不要做三件事——从推销、多重优惠和折扣开始</h2>
+<ul>
+<li><strong>咄咄逼人的销售（如果拒绝立即终止）：</strong>如果您拒绝升级，它将立即关闭。重要的是要以“我明白了，这很酷”来结束对话，并且不要过多参与。如果你试图把事情做得太过分，客人会觉得自己被“卖给”了，这会给整个酒店留下不好的印象。升级销售的礼仪是，如果被拒绝，立即结束销售。</li>
+<li><strong>多个演示：</strong>如果您提供多次升级，客人会觉得选择太多。我不会建议 A、B 或 C 等多种选项，而是只推荐一种。通过仅推荐一种选项，客人将有两种选择：“我会选择它，或者我会跳过它。”这将使客人更容易选择。</li>
+<li><strong>从折扣开始（降低价值）：</strong>如果您以折扣价开始升级，则价值会下降。不要说“您愿意支付 3,000 日元，而不是通常的 5,000 日元吗？”，而应该说“我们有一间海边房间，很多客人都对此感到满意。我们可以为您提供 5,000 日元的房间。”只有当客人说房间很贵时才会使用折扣。</li>
+</ul>
+
+<div class="stats"><span class="tag">参考示例</span><strong>例如，若施策前的升级率为10%（每10次推荐成交1次），则约3.2倍（即32%）可作为“施策见效”的判断参考。例如，若施策前的客单价为12,000日元，则提高约12%至13,440日元可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — —升级不是“卖”，而是“展示最好的选择”。一件事是，如果你及时传达信息，你就可以在不急于求成的情况下进行销售。判断效果时，请用相同的统计方法记录并比较施策前后30天的升级率（推荐中的成交数）与客单价。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>升级是<strong>“服务”</strong>。根据您是否觉得见到您对我有帮助，接待处的气氛会发生变化。与其试图强迫销售，您可以在客人放下行李休息一下后只向他们提供一条信息，这样他们就会觉得自己获得了很好的信息。如果您被拒绝，立即结束请求是礼貌的做法。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：决定三个项目的“一个词”</strong> — 客房升级、额外早餐、延迟退房这三项各选一个词。确定要传达的信息的词语，例如“我们今天有一间位于海边的房间可用，许多客人对此感到满意。”</li>
+<li><strong>第二周：员工分享+角色扮演</strong> — 与员工分享这三个项目的“一个词”，并通过角色扮演进行练习。一旦你放下东西并喘口气，练习只推荐一件事。包括如果被拒绝就立即结束的做法。</li>
+<li><strong>第三周：开始每天一次</strong> — 开始每天请求一次升级。起初，每天一次就足够了。一旦习惯了，就可以增加到每天2到3次。记录通话次数和升级率。</li>
+<li><strong>第 4 周：记录升级率和客户支出</strong> — 记录升级呼叫次数、升级率以及每个客户的平均支出。确认升级率正在增加，每位客户的平均支出正在增加，并继续进行改进。</li>
+<li><strong>继续：升级即服务</strong> — 将升级定位为“服务”而不是“推销”。我们将根据客人是否觉得“看到这个对我有帮助”来继续销售升级。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/dayuse-hourly-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"デーユースと時間制 — 「泊まらない売上」の基本"}],["$","span",null,{"className":"en-only","children":"Day Use and Hourly: Basics of Non-Stay Revenue"}],["$","span",null,{"className":"zh-only","children":"日用、计时制——“不过夜销售”的基础"}]]}],["$","$L8",null,{"href":"/journal/articles/welcome-amenity-5min","children":[["$","span",null,{"className":"ja-only","children":"ウェルカムアメニティ — 「最初の5分」の設計"}],["$","span",null,{"className":"en-only","children":"Welcome Amenity: Designing the First Five Minutes"}],["$","span",null,{"className":"zh-only","children":"欢迎礼品——“前 5 分钟”设计"}]," -"]}]]}]
+10:null

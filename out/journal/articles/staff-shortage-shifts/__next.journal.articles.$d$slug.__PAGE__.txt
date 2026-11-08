@@ -1,15 +1,193 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_staff-shortage-shifts-new.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T1c71,<p>人手不足は、この業界の構造的な条件です。しかし「人が足りない」の中にも、設計で変えられる部分があります。本記事は、少人数のチームでも回るシフトの設計を——まず、その前提にある現実の数字から始めます。</p><div class="stats"><span class="tag">FACT</span><strong>厚生労働省の就労条件総合調査(令和7年)では、年次有給休暇の取得率が宿泊業・飲食サービス業で50.7%と全産業中最も低く(調査計66.9%)、週の所定労働時間も40時間02分と最も長い(調査計39時間24分)。人材定着の記事で見た令和4年の取得率44.3%から改善してはいるものの、依然として最下位が続いている(執筆時点)</strong> — 休みの取りにくさは、感覚ではなく統計として実在する。</div><h2>本質 — 休みはシフト表に書くもの</h2><p>この数字を読むとき、陥りやすい読み方は「うちのスタッフが休みを申し出ればいい」という読みです。しかし取得率が業界全体で最下位ということは、<strong>個人の勇気の問題ではなく、体制の問題</strong>だということです。休みは、取る人の努力でなく、<strong>シフト表の中に最初から書いておくもの</strong>。人手不足のシフト設計とは、人を削る技術ではなく——休める体制を作る技術です。休みが取れる宿に人が残る。この好循環の入口は、採用でも熱意でもなく、シフトの設計にあります。</p><h2>診断 — 「仕事監査」</h2><p>出発点は、シフト表ではなく仕事の棚卸しです。宿のすべての仕事をリストにし、4つに分類します。</p><ol><li><strong>A:人に必ず必要</strong> — ゲストとのやり取り、判断を要する仕事。</li><li><strong>B:人にできるが標準化可能</strong> — 手順書・チェックリストにできる仕事。</li><li><strong>C:自動化できる</strong> — 手続き的な受付、チャット、精算など。</li><li><strong>D:なくせる</strong> — 誰の価値にもなっていない仕事。</li></ol><p>この分類が終わると、多くの宿で意外なことが起きます。<strong>「人が足りない」と思っていた時間の中に、CとDが混ざっていた</strong>ことに気づく。人手不足の正体の一部は、人数ではなく仕事の中身です。</p><h2>「人時」の原則</h2><ul><li><strong>AとBにだけ「人時」を割り当てる</strong> — 人の価値が生きる仕事に人を。Aの時間こそ、ゲストの記憶に残る時間です。</li><li><strong>Cは自動化・外注</strong> — セルフチェックイン、チャットの自動応答、外部の洗濯。ただしCは「機械でいい仕事」ではなく「手続きにできる仕事」と定義すること。ゲストとの会話まで自動化した瞬間、Aを削っていることに気づく。</li><li><strong>Dは減らす</strong> — 「前からやっている」以外に理由のない仕事を、やめる決断のために監査はあります。</li></ul><h2>シフト設計の3つ</h2><ul><li><strong>ピークへの集中</strong> — 忙しい時間帯(朝食・チェックインの波)に人を積み増し、谷間の時間に業務を寄せる。</li><li><strong>クロストレーニング</strong> — 1人が複数の業務を担えるようにする。日本の小さな旅館は、もともと全員が兼務する文化の中で回ってきました。これを「仕方なく」ではなく「設計として」行う。</li><li><strong>「最小稼働チーム」の計画</strong> — 人が足りない日の、最低限の体制を先に決めておく。</li></ul><p>3つ目が、この記事の核心です。<strong>多くの宿は「理想のシフト」を書き、欠員のたびに崩れています。逆をやってください</strong>。最初に書くのは、最悪の日——風邪、退職、連休の重なり——でも回れる「最小稼働チーム」の体制です。フロント1・清掃2・厨房1で、何をやり、何を諦め、何を事前に知らせるかを決めておく。通常のシフトは、その最小体制に1枚足すだけの設計にします。逆順に書かれたシフト表は崩れません。崩れる前提で書かれているからです。そして、この表は「人手不足の対応表」であると同時に、<strong>スタッフが休みを取れる根拠</strong>になります——最悪の日でも回る目処がある宿は、休みの承認を勇気に頼らなくてよい。</p><h2>反対側 — 設計が現場を疲れさせるとき</h2><ul><li><strong>Dの誤認</strong> — ゲストの体験を作る仕事を「なくせる仕事」と判断するのが、最も危険な監査です。Dは「誰の価値にもならない」仕事だけ。削る候補は、常にスタッフと一緒に見る。</li><li><strong>クロストレーニングの代償</strong> — 全員が何でもできる宿は、誰も専門を持たない宿にもなります。核になる専門(清掃・料理・接客)は、ぞれぞれ誰かの「主戦場」として残す。</li><li><strong>表の美しさと実態</strong> — 空白のないシフト表が、残業の少なさを意味しない。月1回、実労働時間と表を突き合わせる。その差がスタッフの信用を削ります。</li><li><strong>自動化の顔</strong> — セルフチェックインを導入した夜、困ったゲストの隣に人がいない。Cを増やすほど、残るAの質が問われます。</li><li><strong>「意味のある仕事」の担保</strong> — 人時をAに寄せる設計が本旨です。CとDを増やすことで人が暇になるのではなく、Aに人が立てるようになる——この順序を守らないと、設計はただの削減になります。</li></ul><p>最初の一歩は、来週、仕事の4分類を1枚に書くことです。リストの左にAからDの記号を振り、Cを2つ、Dを2つ選ぶ。自動化する1つと、やめる1つを今月中に動かす。人手不足と闘う道具は、求人票よりも先に、この1枚です。</p><div class="note">この記事はアイデア共有を目的としています。統計は厚生労働省の公表値(執筆時点)です。シフトの設計は労働基準法(労働時間・休日・36協定等)をご確認の上で行ってください。</div><h2>次に読む</h2><ul><li><a href="#staff-retention-basics">人材定着 — 「ここに働き続けたい」の3つの基本</a> — 休みの先の定着の話</li><li><a href="#cleaning-checklist-experience">清掃を「コスト」から「体験」に変えるチェックリスト</a> — 清掃の人時を設計する話</li><li><a href="#recruitment-showcase-pr">採用に困らない宿がやっている「見せ方」採用広報</a> — 人を増やす側の話</li><li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 採用の選択肢を広げる話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","060"]}]]}],["$","h1",null,{"children":"人手不足でも回るシフトの作り方"}],["$","p",null,{"className":"excerpt","children":"宿泊・飲食の有給取得率は50.7%で全産業最低、週の所定労働時間は40時間02分で最も長い——休みは個人の我慢でなく、シフト表に書くものです。仕事監査と「最小稼働チーム」の逆順設計。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_staff-shortage-shifts-new.jpg","alt":"人手不足でも回るシフトの作り方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.04.30"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/cleaning-checklist-experience","children":["← ","清掃を「コスト」から「体験」に変えるチェックリスト"]}],["$","$L2",null,{"href":"/journal/articles/ai-chat-night-ops","children":["AIチャットで深夜対応を自動化"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1c71,<p>人手不足は、この業界の構造的な条件です。しかし「人が足りない」の中にも、設計で変えられる部分があります。本記事は、少人数のチームでも回るシフトの設計を——まず、その前提にある現実の数字から始めます。</p><div class="stats"><span class="tag">FACT</span><strong>厚生労働省の就労条件総合調査(令和7年)では、年次有給休暇の取得率が宿泊業・飲食サービス業で50.7%と全産業中最も低く(調査計66.9%)、週の所定労働時間も40時間02分と最も長い(調査計39時間24分)。人材定着の記事で見た令和4年の取得率44.3%から改善してはいるものの、依然として最下位が続いている(執筆時点)</strong> — 休みの取りにくさは、感覚ではなく統計として実在する。</div><h2>本質 — 休みはシフト表に書くもの</h2><p>この数字を読むとき、陥りやすい読み方は「うちのスタッフが休みを申し出ればいい」という読みです。しかし取得率が業界全体で最下位ということは、<strong>個人の勇気の問題ではなく、体制の問題</strong>だということです。休みは、取る人の努力でなく、<strong>シフト表の中に最初から書いておくもの</strong>。人手不足のシフト設計とは、人を削る技術ではなく——休める体制を作る技術です。休みが取れる宿に人が残る。この好循環の入口は、採用でも熱意でもなく、シフトの設計にあります。</p><h2>診断 — 「仕事監査」</h2><p>出発点は、シフト表ではなく仕事の棚卸しです。宿のすべての仕事をリストにし、4つに分類します。</p><ol><li><strong>A:人に必ず必要</strong> — ゲストとのやり取り、判断を要する仕事。</li><li><strong>B:人にできるが標準化可能</strong> — 手順書・チェックリストにできる仕事。</li><li><strong>C:自動化できる</strong> — 手続き的な受付、チャット、精算など。</li><li><strong>D:なくせる</strong> — 誰の価値にもなっていない仕事。</li></ol><p>この分類が終わると、多くの宿で意外なことが起きます。<strong>「人が足りない」と思っていた時間の中に、CとDが混ざっていた</strong>ことに気づく。人手不足の正体の一部は、人数ではなく仕事の中身です。</p><h2>「人時」の原則</h2><ul><li><strong>AとBにだけ「人時」を割り当てる</strong> — 人の価値が生きる仕事に人を。Aの時間こそ、ゲストの記憶に残る時間です。</li><li><strong>Cは自動化・外注</strong> — セルフチェックイン、チャットの自動応答、外部の洗濯。ただしCは「機械でいい仕事」ではなく「手続きにできる仕事」と定義すること。ゲストとの会話まで自動化した瞬間、Aを削っていることに気づく。</li><li><strong>Dは減らす</strong> — 「前からやっている」以外に理由のない仕事を、やめる決断のために監査はあります。</li></ul><h2>シフト設計の3つ</h2><ul><li><strong>ピークへの集中</strong> — 忙しい時間帯(朝食・チェックインの波)に人を積み増し、谷間の時間に業務を寄せる。</li><li><strong>クロストレーニング</strong> — 1人が複数の業務を担えるようにする。日本の小さな旅館は、もともと全員が兼務する文化の中で回ってきました。これを「仕方なく」ではなく「設計として」行う。</li><li><strong>「最小稼働チーム」の計画</strong> — 人が足りない日の、最低限の体制を先に決めておく。</li></ul><p>3つ目が、この記事の核心です。<strong>多くの宿は「理想のシフト」を書き、欠員のたびに崩れています。逆をやってください</strong>。最初に書くのは、最悪の日——風邪、退職、連休の重なり——でも回れる「最小稼働チーム」の体制です。フロント1・清掃2・厨房1で、何をやり、何を諦め、何を事前に知らせるかを決めておく。通常のシフトは、その最小体制に1枚足すだけの設計にします。逆順に書かれたシフト表は崩れません。崩れる前提で書かれているからです。そして、この表は「人手不足の対応表」であると同時に、<strong>スタッフが休みを取れる根拠</strong>になります——最悪の日でも回る目処がある宿は、休みの承認を勇気に頼らなくてよい。</p><h2>反対側 — 設計が現場を疲れさせるとき</h2><ul><li><strong>Dの誤認</strong> — ゲストの体験を作る仕事を「なくせる仕事」と判断するのが、最も危険な監査です。Dは「誰の価値にもならない」仕事だけ。削る候補は、常にスタッフと一緒に見る。</li><li><strong>クロストレーニングの代償</strong> — 全員が何でもできる宿は、誰も専門を持たない宿にもなります。核になる専門(清掃・料理・接客)は、ぞれぞれ誰かの「主戦場」として残す。</li><li><strong>表の美しさと実態</strong> — 空白のないシフト表が、残業の少なさを意味しない。月1回、実労働時間と表を突き合わせる。その差がスタッフの信用を削ります。</li><li><strong>自動化の顔</strong> — セルフチェックインを導入した夜、困ったゲストの隣に人がいない。Cを増やすほど、残るAの質が問われます。</li><li><strong>「意味のある仕事」の担保</strong> — 人時をAに寄せる設計が本旨です。CとDを増やすことで人が暇になるのではなく、Aに人が立てるようになる——この順序を守らないと、設計はただの削減になります。</li></ul><p>最初の一歩は、来週、仕事の4分類を1枚に書くことです。リストの左にAからDの記号を振り、Cを2つ、Dを2つ選ぶ。自動化する1つと、やめる1つを今月中に動かす。人手不足と闘う道具は、求人票よりも先に、この1枚です。</p><div class="note">この記事はアイデア共有を目的としています。統計は厚生労働省の公表値(執筆時点)です。シフトの設計は労働基準法(労働時間・休日・36協定等)をご確認の上で行ってください。</div><h2>次に読む</h2><ul><li><a href="#staff-retention-basics">人材定着 — 「ここに働き続けたい」の3つの基本</a> — 休みの先の定着の話</li><li><a href="#cleaning-checklist-experience">清掃を「コスト」から「体験」に変えるチェックリスト</a> — 清掃の人時を設計する話</li><li><a href="#recruitment-showcase-pr">採用に困らない宿がやっている「見せ方」採用広報</a> — 人を増やす側の話</li><li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 採用の選択肢を広げる話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"060"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"人手不足でも回るシフトの作り方"}],["$","span",null,{"className":"en-only","children":"Building Shifts That Run on a Staff-Short Team"}],["$","span",null,{"className":"zh-only","children":"即使人手短缺，如何安排班次"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"宿泊・飲食の有給取得率は50.7%で全産業最低、週の所定労働時間は40時間02分で最も長い——休みは個人の我慢でなく、シフト表に書くものです。仕事監査と「最小稼働チーム」の逆順設計。"}],["$","span",null,{"className":"en-only","children":"In accommodation and food services, the rate of paid leave taken is 50.7%, the lowest of all industries, and scheduled weekly hours are the longest at 40 hours 2 minutes — days off are not an individual’s endurance but something written into the shift table. A job audit and the reverse-order design of the \"minimum operating team.\""}],["$","span",null,{"className":"zh-only","children":"设计“需要有人在场的工作”和“不需要人就可以完成的工作”。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_staff-shortage-shifts-new.jpg","alt":"人手不足でも回るシフトの作り方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.04.30"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1c19,<p>Staff shortage is a structural condition of this industry. But within "not enough people," there is a part that design can change. This article organizes the design of shifts that run even on a small team — beginning with the real numbers underneath.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>In the Ministry of Health, Labour and Welfare’s General Survey on Working Conditions (2025), the rate of annual paid leave taken in accommodation and food services was 50.7%, the lowest of all industries (survey average 66.9%), and scheduled weekly working hours were also the longest, at 40 hours and 2 minutes (survey average 39 hours 24 minutes). Though improved from the fiscal 2022 rate of 44.3% seen in the staff-retention article, the industry remains in last place (as of writing)</strong> — The difficulty of taking days off exists not as a feeling but as statistics.</div>
+
+<h2>The essence — days off are written into the shift table</h2>
+
+<p>When reading this number, the reading you easily fall into is "our staff just need to ask for days off." But an industry-wide last place in leave taken means this is <strong>not a matter of individual courage but of structure</strong>. A day off is not the taker’s effort; it is <strong>something written into the shift table from the start</strong>. Shift design under staff shortage is not the craft of cutting people — it is the craft of building a structure in which people can rest. Properties where days off can be taken keep their people. The entrance to this virtuous cycle lies not in hiring or in enthusiasm, but in the design of the shifts.</p>
+
+<h2>Diagnosis — the "job audit"</h2>
+
+<p>The starting point is not the shift table but an inventory of the work. List every job in the property and sort it into four classes.</p>
+
+<ol>
+<li><strong>A: must be done by a person</strong> — Interaction with guests, work requiring judgment.</li>
+<li><strong>B: can be done by a person, but is standardizable</strong> — Work that can be turned into manuals and checklists.</li>
+<li><strong>C: can be automated</strong> — Procedural reception, chat, settlement, and the like.</li>
+<li><strong>D: can be eliminated</strong> — Work that serves no one’s value.</li>
+</ol>
+
+<p>When this sorting is done, something surprising happens at many properties. <strong>Inside the hours thought to be "short of people," C and D were mixed in.</strong> Part of the true identity of staff shortage lies not in headcount but in the content of the work.</p>
+
+<h2>The "person-hour" principle</h2>
+
+<ul>
+<li><strong>Assign person-hours only to A and B</strong> — People to the work where people’s value lives. The hours of A are precisely the hours that stay in guests’ memories.</li>
+<li><strong>C is for automation and outsourcing</strong> — Self check-in, automated chat replies, external laundry. But define C not as "work a machine may do" but as "work that can be made procedural." The moment you automate even the conversation with guests, you are cutting A.</li>
+<li><strong>D is to be reduced</strong> — The audit exists for the decision to stop the work whose only reason is "we’ve always done it."</li>
+</ul>
+
+<h2>The 3 designs of shifts</h2>
+
+<ul>
+<li><strong>Concentration on the peaks</strong> — Stack people into the busy hours (the breakfast and check-in waves) and gather tasks into the troughs.</li>
+<li><strong>Cross-training</strong> — Make it so one person can cover several jobs. Japan’s small ryokan have always run inside a culture where everyone holds concurrent duties. Do it not "because there’s no choice" but "as design."</li>
+<li><strong>Planning the "minimum operating team"</strong> — Decide in advance the minimum staffing for days when people are short.</li>
+</ul>
+
+<p>The third is this article’s core. <strong>Most properties write the "ideal shift," and watch it collapse with every vacancy. Do the reverse.</strong> What you write first is the staffing of the worst day — a cold going around, a resignation, holidays overlapping — a "minimum operating team" that runs even then. With front desk 1, housekeeping 2, kitchen 1: decide what you do, what you give up, and what you announce in advance. The ordinary shift then becomes a design that adds one layer onto that minimum. A shift table written in reverse order does not collapse, because it is written on the assumption of collapsing. And this table is at once a "staff-shortage contingency table" and <strong>the grounds on which staff can take days off</strong> — a property with a line of sight to running even on the worst day need not rely on courage to approve a day off.</p>
+
+<h2>The other side — when the design exhausts the floor</h2>
+
+<ul>
+<li><strong>Misjudging D</strong> — The most dangerous audit judges work that creates the guest’s experience to be "eliminable." D is only work that "serves no one’s value." Look at the candidates for cutting together with the staff, always.</li>
+<li><strong>The price of cross-training</strong> — A property where everyone can do everything is also a property where no one holds a specialty. Keep the core specialties (cleaning, cooking, service) as someone’s "main battlefield" in each.</li>
+<li><strong>The beauty of the table versus the reality</strong> — A shift table with no blank spaces does not mean little overtime. Once a month, compare actual working hours with the table. That gap is what shaves the staff’s trust.</li>
+<li><strong>The face of automation</strong> — On the night self check-in is introduced, there is no person beside the guest in trouble. The more you add C, the more the quality of the remaining A is questioned.</li>
+<li><strong>Securing "meaningful work"</strong> — The design’s true intent is shifting person-hours toward A. Not "people become idle because C and D increase," but "people can be stood into A" — hold this order, or the design becomes mere reduction.</li>
+</ul>
+
+<p>The first step is, next week, to write the four-way job sorting on one sheet. Mark A through D down the left of the list, and choose two Cs and two Ds. Move one automation and one elimination within this month. The tool for fighting staff shortage is, before the job listing, this one sheet.</p>
+
+<div class="note">This article is intended for sharing ideas. The statistics are MHLW published values (as of writing). Please design shifts after checking the Labor Standards Act (working hours, holidays, the Article 36 agreement, and the like).</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#staff-retention-basics">Staff Retention: The Three Basics of "Wanting to Keep Working Here"</a> — retention beyond days off</li>
+<li><a href="#cleaning-checklist-experience">Turning Housekeeping From "Cost" Into "Experience": A Checklist</a> — designing cleaning person-hours</li>
+<li><a href="#recruitment-showcase-pr">The "Show, Don't Post" Hiring Playbooks of Lodges That Never Struggle to Staff</a> — the side that adds people</li>
+<li><a href="#foreign-staff-regional-cities">Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design</a> — widening the hiring options</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tfaa,<p>劳动力短缺是整个行业的结构性问题。本文解释了即使是小团队也可以完成的轮班设计框架：“哪些工作对人们来说是必要的，哪些工作是不必要的？”</p>
+<h2>1.诊断：“工作审核”</h2>
+<p>列出您的所有任务并将其分为 4 种类型：</p>
+<ol>
+<li><strong>答：人们肯定需要它。</strong> — 与客人互动并做出决定。</li>
+<li><strong>B：可以由人类完成但可以标准化</strong> — 可以制作成清单的工作。</li>
+<li><strong>C：可以自动化</strong> — 接待、聊天、洗衣等</li>
+<li><strong>D：可以消除</strong> — 不必要的工作。</li>
+</ol>
+<p>这种分类是轮班设计的起点。</p>
+<h2>2.“人类时间”原则</h2>
+<ul>
+<li><strong>仅将“人员时间”分配给 A 和 B</strong> — 让人们从事对他们有价值的工作。</li>
+<li><strong>C是自动化/外包</strong> — AI聊天、自助入住、外部清洁。</li>
+<li><strong>D 被排除</strong> — 减少对任何人都没有价值的工作。</li>
+<li>例：作业审核工时减少20%（参考值）。</li>
+</ul>
+<h2>3、换档设计</h2>
+<ul>
+<li><strong>聚焦高峰</strong> — 在繁忙时间增加拥挤（前餐厅）。</li>
+<li><strong>交叉训练（多技能）</strong> — 一个人负责多项任务。</li>
+<li><strong>“最小运营团队”计划</strong> — 人力短缺时的最低限度制度。</li>
+</ul>
+<h2>4、效果</h2>
+<ul>
+<li>降低劳动力成本（例如降低 15%）。</li>
+<li>维持评论分数（例如 4.5 或更高）。</li>
+<li>减少员工流动率（人们正在做有意义的工作）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“如何在人员短缺的情况下安排轮班”是客人的期望与五年前相比发生了变化的问题。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>住宿运营的举措提升的不只是单个旅馆，也包括整个地区的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>减少 15%</b><span>（数值示例）人员费用</span></div><div class="stat"><b>4.5+</b><span>（数值示例）审查维护</span></div><div class="stat"><b>20%</b><span>（数值示例）减少人事时间（工作审核）</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>我们的目标不是“减少人员数量”，而是“将人员分配到需要他们的工作岗位”。工作审核是做出这种判断的工具。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第 1 周：列出所有任务（4 类）</li>
+<li>第 2 周：识别 C（自动化）和 D（消除）</li>
+<li>第 3 周：设计峰值浓度变化</li>
+<li>第 4 周：交叉训练计划</li>
+<li>第 5 周：制定“最小工作团队”计划</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/cleaning-checklist-experience","children":["- ",["$","span",null,{"className":"ja-only","children":"清掃を「コスト」から「体験」に変えるチェックリスト"}],["$","span",null,{"className":"en-only","children":"Turning Housekeeping From \"Cost\" Into \"Experience\": A Checklist"}],["$","span",null,{"className":"zh-only","children":"将清洁从“成本”变为“体验”的清单"}]]}],["$","$L8",null,{"href":"/journal/articles/ai-chat-night-ops","children":[["$","span",null,{"className":"ja-only","children":"AIチャットで深夜対応を自動化"}],["$","span",null,{"className":"en-only","children":"Automating Late-Night Guest Care With AI Chat"}],["$","span",null,{"className":"zh-only","children":"通过 AI 聊天自动提供深夜支持"}]," -"]}]]}]
+10:null

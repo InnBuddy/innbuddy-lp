@@ -1,15 +1,172 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_dayuse-hourly-stay.jpg","image"]
 :HL["/library/journal/ai_pricing-basics.jpg","image"]
 :HL["/library/journal/ai_revenue-management-basics.jpg","image"]
 :HL["/library/journal/ai_revpar-18x-dynamic-pricing.jpg","image"]
-3:T1c41,<p>デーユースと時間制は<strong>「空室の時間を売る」</strong>ことです。海や山が見える部屋、静かなラウンジは、泊まらなくても「3時間使いたい」需要があります。本記事は、泊まらない売上を作るデーユースと時間制の基礎編です。</p><h2>昼の部と、夜の部</h2><p>歌舞伎や寄席の興行には、<strong>昼夜二部制</strong>があります。同じ劇場、同じ座席を、「昼の部」と「夜の部」で1日に2回売る。お客様は入れ替わり、幕間に舞台が整えられ、夜の部が始まる。劇場という建物を1日に2回興行する——これは江戸以来、続いてきた興行の知恵です。</p><p>この知恵は、そのまま客室に使えます。<strong>同じ部屋を、昼と夜の2回売る。清掃が幕間。</strong>客室の「夜の部」は宿泊。では「昼の部」は?——平日の昼間、その部屋は誰のものでもありません。デーユースとは、あなたの宿の昼の部の設計なのです。</p><h2>3つの需要 — 昼の部の客</h2><ol><li><strong>リモートワーカー</strong> — カフェでは周りの音が気になる、家では集中できない。Wi-Fiとデスクと静けさのある客室で、3時間だけ仕事をする。平日の昼に来る客です。</li><li><strong>観光の合間のカップル・家族</strong> — チェックインの前、チェックアウトの後。荷物を置いて、シャワーを浴びて、一息ついて、また出かける。旅の途中の数時間の居場所です。</li><li><strong>近隣の人</strong> — おしゃれなビルではなく、自然の中で作業したい人。日常の中の3時間の非日常として、宿の昼の部を使います。</li></ol><h2>設計の3点</h2><ul><li><strong>時間 — 3時間と6時間の2パターン</strong> — 10〜13時、13〜18時など。3時間は「作業と休憩」、6時間は「半日の滞在」。時間帯を決めて示すことが、用途を伝える第一歩です。</li><li><strong>価格 — 1泊の50%〜70%を目安に</strong> — 1泊1万円の部屋なら3時間5,000円、6時間7,000円、のように(参考値)。50%を大きく切ると、「泊まり」の価値が崩れ始めます。昼の部の価格は、夜の部の世界を壊さない範囲で(価格の土台は、<a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a>)。</li><li><strong>含むもの — コーヒー・水・Wi-Fi込みで見せる</strong> — 「3時間5,000円、コーヒー・水・Wi-Fi込み」。含まれるものを先に見せることが、追加料金への不安を消します。</li></ul><h2>幕間の設計 — 清掃は1日2回の転換</h2><p>昼の部が入ると、宿の1日は変わります。清掃は1日1回の準備でなく、<strong>昼の部と夜の部のあいだの幕間</strong>を2回こなす回転になります。順番の決め方、時間の見積り、「15時にお部屋を」という待ち時間の設計は、<a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a>が扱います。ここで守るべきは1つだけ——<strong>昼の部の後の清掃も、通常と同じチェックリスト</strong>で回すこと。簡略化した清掃は、夜の部の最初のお客様が必ず見つけます。</p><h2>在庫の境界 — 両方の部を売り切る</h2><p>昼の部の設計で最も難しいのは、実は在庫です。昼の部を売った部屋は、その日の夜の直前予約に使えません。満室に見える日が、実は売れる部屋を減らした日になる。これを避けるのが<strong>締切時刻の設計</strong>です。例えば「昼の部の受付は前日の18時まで」。夜の部の予約が伸びる時間帯を削らずに、昼の部を売る。両方の部を売り切ることが、二部制の宿の収益管理です(動的な値付けの考え方は、<a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a>が扱います)。</p><h2>伝える — 用途を具体的に</h2><p>案内には「デーユース可」ではなく、用途を書きます。<strong>「テレワーク・休憩・お着替え・シャワーに」</strong>——用途が具体的だと、読む人は自分をそこに置けます。昼の部の客は、自分が「使っていい客」であることに気づいていないことが多いのです。</p><h2>反対側 — 昼の部が宿を疲れさせるとき</h2><ul><li><strong>清掃の挟み撃ち</strong> — 幕間が2回になることは、清掃の体力も2回に近づくこと。受入数の上限(1日1〜2室)を決めて始める。</li><li><strong>「休憩」だけの1行</strong> — 用途を書かない案内は、宿の印象を勝手に変えていきます。どんな客に来てほしいかを、言葉で選ぶ。</li><li><strong>法律と税の境界</strong> — 泊まらない利用の扱いは、営業許可の区分や宿泊税の課税対象など、自治体ごとに確認が必要な事項です。始める前に1回、窓口で。</li><li><strong>駐車場の回転</strong> — 昼の部の車が夜の部の駐車場を埋めると、両方のお客様が困ります。時間の境界を駐車場にも示す。</li><li><strong>住民との距離</strong> — 近隣の人が使う場になるほど、宿は地域の施設に近づきます。歓迎であることは、距離の設計であることでもあります。</li></ul><p>最初の一歩は、平日の昼、1室、3時間。それだけの「昼の部」を、来週の水曜日に1回だけ上演してみてください。終わったら幕間(清掃)の所要時間を書き留め、夜の部に影響がなかったかを確かめる。上演を重ねるうちに、あなたの宿の昼の部の看板が、1行で書けるようになります。客室は夜のためにあるのではない——<strong>1日2回、幕間を挟んで上演される舞台</strong>なのです。</p><div class="note">この記事はアイデア共有を目的としています。歌舞伎・寄席の昼夜二部制は現在も続く興行形式として紹介しています(一般知識)。価格・時間帯は例示(参考値)です。泊まらない利用の提供可否・課税については、営業許可の区分と併せて自治体の窓口にご確認ください。</div><h2>次に読む</h2><ul><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — 幕間(清掃)の設計の話</li><li><a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a> — 価格の土台の話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 在庫と値付けの話</li><li><a href="#corporate-contract-guest">企業契約客 — 「週単位常連」の設計</a> — 平日の需要のもう一つの形の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"children":["ARTICLE ","082"]}]]}],["$","h1",null,{"children":"デーユースと時間制 — 「泊まらない売上」の基本"}],["$","p",null,{"className":"excerpt","children":"デーユースは「空室の時間貸し」。芝居小屋が同じ座席を昼の部と夜の部の2回売ったように、同じ客室を1日2回売る——清掃が幕間になる設計を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_dayuse-hourly-stay.jpg","alt":"デーユースと時間制 — 「泊まらない売上」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.05"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":"部屋単価の決め方 — プライシングの基礎"}]]}]]}],["$","$L2","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}]]}]]}],["$","$L2","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/corporate-contract-guest","children":["← ","企業契約客 — 「週単位常連」の設計"]}],["$","$L2",null,{"href":"/journal/articles/upgrade-sales-checkin","children":["アップグレード販売 — チェックイン時の「一つ上の部屋」"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1c41,<p>デーユースと時間制は<strong>「空室の時間を売る」</strong>ことです。海や山が見える部屋、静かなラウンジは、泊まらなくても「3時間使いたい」需要があります。本記事は、泊まらない売上を作るデーユースと時間制の基礎編です。</p><h2>昼の部と、夜の部</h2><p>歌舞伎や寄席の興行には、<strong>昼夜二部制</strong>があります。同じ劇場、同じ座席を、「昼の部」と「夜の部」で1日に2回売る。お客様は入れ替わり、幕間に舞台が整えられ、夜の部が始まる。劇場という建物を1日に2回興行する——これは江戸以来、続いてきた興行の知恵です。</p><p>この知恵は、そのまま客室に使えます。<strong>同じ部屋を、昼と夜の2回売る。清掃が幕間。</strong>客室の「夜の部」は宿泊。では「昼の部」は?——平日の昼間、その部屋は誰のものでもありません。デーユースとは、あなたの宿の昼の部の設計なのです。</p><h2>3つの需要 — 昼の部の客</h2><ol><li><strong>リモートワーカー</strong> — カフェでは周りの音が気になる、家では集中できない。Wi-Fiとデスクと静けさのある客室で、3時間だけ仕事をする。平日の昼に来る客です。</li><li><strong>観光の合間のカップル・家族</strong> — チェックインの前、チェックアウトの後。荷物を置いて、シャワーを浴びて、一息ついて、また出かける。旅の途中の数時間の居場所です。</li><li><strong>近隣の人</strong> — おしゃれなビルではなく、自然の中で作業したい人。日常の中の3時間の非日常として、宿の昼の部を使います。</li></ol><h2>設計の3点</h2><ul><li><strong>時間 — 3時間と6時間の2パターン</strong> — 10〜13時、13〜18時など。3時間は「作業と休憩」、6時間は「半日の滞在」。時間帯を決めて示すことが、用途を伝える第一歩です。</li><li><strong>価格 — 1泊の50%〜70%を目安に</strong> — 1泊1万円の部屋なら3時間5,000円、6時間7,000円、のように(参考値)。50%を大きく切ると、「泊まり」の価値が崩れ始めます。昼の部の価格は、夜の部の世界を壊さない範囲で(価格の土台は、<a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a>)。</li><li><strong>含むもの — コーヒー・水・Wi-Fi込みで見せる</strong> — 「3時間5,000円、コーヒー・水・Wi-Fi込み」。含まれるものを先に見せることが、追加料金への不安を消します。</li></ul><h2>幕間の設計 — 清掃は1日2回の転換</h2><p>昼の部が入ると、宿の1日は変わります。清掃は1日1回の準備でなく、<strong>昼の部と夜の部のあいだの幕間</strong>を2回こなす回転になります。順番の決め方、時間の見積り、「15時にお部屋を」という待ち時間の設計は、<a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a>が扱います。ここで守るべきは1つだけ——<strong>昼の部の後の清掃も、通常と同じチェックリスト</strong>で回すこと。簡略化した清掃は、夜の部の最初のお客様が必ず見つけます。</p><h2>在庫の境界 — 両方の部を売り切る</h2><p>昼の部の設計で最も難しいのは、実は在庫です。昼の部を売った部屋は、その日の夜の直前予約に使えません。満室に見える日が、実は売れる部屋を減らした日になる。これを避けるのが<strong>締切時刻の設計</strong>です。例えば「昼の部の受付は前日の18時まで」。夜の部の予約が伸びる時間帯を削らずに、昼の部を売る。両方の部を売り切ることが、二部制の宿の収益管理です(動的な値付けの考え方は、<a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a>が扱います)。</p><h2>伝える — 用途を具体的に</h2><p>案内には「デーユース可」ではなく、用途を書きます。<strong>「テレワーク・休憩・お着替え・シャワーに」</strong>——用途が具体的だと、読む人は自分をそこに置けます。昼の部の客は、自分が「使っていい客」であることに気づいていないことが多いのです。</p><h2>反対側 — 昼の部が宿を疲れさせるとき</h2><ul><li><strong>清掃の挟み撃ち</strong> — 幕間が2回になることは、清掃の体力も2回に近づくこと。受入数の上限(1日1〜2室)を決めて始める。</li><li><strong>「休憩」だけの1行</strong> — 用途を書かない案内は、宿の印象を勝手に変えていきます。どんな客に来てほしいかを、言葉で選ぶ。</li><li><strong>法律と税の境界</strong> — 泊まらない利用の扱いは、営業許可の区分や宿泊税の課税対象など、自治体ごとに確認が必要な事項です。始める前に1回、窓口で。</li><li><strong>駐車場の回転</strong> — 昼の部の車が夜の部の駐車場を埋めると、両方のお客様が困ります。時間の境界を駐車場にも示す。</li><li><strong>住民との距離</strong> — 近隣の人が使う場になるほど、宿は地域の施設に近づきます。歓迎であることは、距離の設計であることでもあります。</li></ul><p>最初の一歩は、平日の昼、1室、3時間。それだけの「昼の部」を、来週の水曜日に1回だけ上演してみてください。終わったら幕間(清掃)の所要時間を書き留め、夜の部に影響がなかったかを確かめる。上演を重ねるうちに、あなたの宿の昼の部の看板が、1行で書けるようになります。客室は夜のためにあるのではない——<strong>1日2回、幕間を挟んで上演される舞台</strong>なのです。</p><div class="note">この記事はアイデア共有を目的としています。歌舞伎・寄席の昼夜二部制は現在も続く興行形式として紹介しています(一般知識)。価格・時間帯は例示(参考値)です。泊まらない利用の提供可否・課税については、営業許可の区分と併せて自治体の窓口にご確認ください。</div><h2>次に読む</h2><ul><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — 幕間(清掃)の設計の話</li><li><a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a> — 価格の土台の話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 在庫と値付けの話</li><li><a href="#corporate-contract-guest">企業契約客 — 「週単位常連」の設計</a> — 平日の需要のもう一つの形の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"className":"ARTICLE","children":"082"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"デーユースと時間制 — 「泊まらない売上」の基本"}],["$","span",null,{"className":"en-only","children":"Day Use and Hourly: Basics of Non-Stay Revenue"}],["$","span",null,{"className":"zh-only","children":"日用、计时制——“不过夜销售”的基础"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"デーユースは「空室の時間貸し」。芝居小屋が同じ座席を昼の部と夜の部の2回売ったように、同じ客室を1日2回売る——清掃が幕間になる設計を整理します。"}],["$","span",null,{"className":"en-only","children":"Day use is \"renting out empty rooms by the hour.\" As playhouses sold the same seats twice — matinee and evening — sell the same room twice a day: the design where cleaning becomes the intermission."}],["$","span",null,{"className":"zh-only","children":"日间使用是“按小时出租空置房间”。无需过夜即可进行销售的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_dayuse-hourly-stay.jpg","alt":"デーユースと時間制 — 「泊まらない売上」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.05"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1b27,<p>Day use and hourly stays are <strong>"selling the empty room’s hours."</strong> A room with a view of sea or mountains, a quiet lounge — even without staying the night, there is demand to "use it for three hours." This article is the foundation of day use and hourly plans: revenue from guests who do not stay.</p>
+
+<h2>The matinee, and the evening show</h2>
+
+<p>Kabuki and yose vaudeville performances have <strong>the two-show day</strong>. The same theater, the same seats, sold twice a day — the matinee and the evening show. The audiences change over; between the acts the stage is set; the evening show begins. Running the building called a theater twice a day — show-business wisdom continued since Edo.</p>
+
+<p>This wisdom transfers, as is, to guest rooms. <strong>Sell the same room twice, day and night. Cleaning is the intermission.</strong> The room’s "evening show" is the stay. Then what is the "matinee"? On weekday daytime, that room belongs to no one. Day use is the design of your property’s matinee.</p>
+
+<h2>3 demands — the matinee’s audience</h2>
+
+<ol>
+<li><strong>Remote workers</strong> — In cafés the surrounding noise bothers; at home, focus fails. Three hours of work in a room with Wi-Fi, a desk, and quiet. The guest who comes on weekday daytime.</li>
+<li><strong>Couples and families between the sights</strong> — Before check-in, after check-out. Put down the bags, take a shower, breathe, and go back out. A place for the few hours in the middle of a trip.</li>
+<li><strong>People from the neighborhood</strong> — Those who would rather work in nature than in a stylish building. Three hours of the extraordinary inside the ordinary, using the property’s matinee.</li>
+</ol>
+
+<h2>3 points of design</h2>
+
+<ul>
+<li><strong>Hours — two patterns, 3 and 6 hours</strong> — 10 a.m.–1 p.m., 1–6 p.m., and so on. Three hours for "work and rest"; six for "a half-day stay." Deciding and stating the time bands is the first step in conveying the use.</li>
+<li><strong>Price — a guide of 50–70% of one night</strong> — For a ¥10,000 room: three hours at ¥5,000, six at ¥7,000, for instance (reference values). Cut much below 50%, and the value of "staying" starts to crumble. The matinee’s price, within the range that does not break the evening show’s world (the foundations of price are in <a href="#pricing-fundamentals">How to Set Room Rates: Pricing Fundamentals</a>).</li>
+<li><strong>Included — show it with coffee, water, and Wi-Fi in</strong> — "Three hours, ¥5,000, coffee, water, and Wi-Fi included." Showing what is included first erases the anxiety about extra charges.</li>
+</ul>
+
+<h2>Designing the intermission — cleaning as a twice-daily conversion</h2>
+
+<p>Once the matinee goes in, the property’s day changes. Cleaning is no longer a once-daily preparation but a rotation that handles <strong>two intermissions</strong> — between matinee and evening show, and after the evening show. How to set the order, how to estimate the time, the design of waiting — "the room at 3 p.m." — are handled by <a href="#room-turnover-flow">Room Turnover: Cutting Guest Wait with Cleaning Flow</a>. Only one thing must be guarded here: <strong>the cleaning after the matinee runs on the same checklist as always.</strong> Simplified cleaning will surely be found by the evening show’s first guest.</p>
+
+<h2>The boundary of inventory — selling both shows out</h2>
+
+<p>The hardest part of the matinee design is, in fact, inventory. A room sold for the matinee cannot be used for that night’s last-minute bookings. A day that looks full becomes, in truth, a day with fewer rooms to sell. What avoids this is <strong>the cutoff-time design</strong>. For example: "matinee bookings close at 6 p.m. the previous day." Sell the matinee without shaving the hours when evening-show bookings grow. Selling both shows out is the two-show property’s revenue management (the thinking of dynamic pricing is handled by <a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a>).</p>
+
+<h2>Telling — make the use concrete</h2>
+
+<p>In the flyer, write not "day use available" but the uses. <strong>"For remote work, a rest, changing clothes, a shower"</strong> — with concrete uses, the reader can place themselves there. The matinee’s guest often does not realize that they are "a guest allowed to use" the property at all.</p>
+
+<h2>The other side — when the matinee exhausts the property</h2>
+
+<ul>
+<li><strong>Cleaning caught in crossfire</strong> — Two intermissions means the cleaning stamina approaching twice over. Start with a cap on acceptance (one to two rooms a day).</li>
+<li><strong>The single word "rest"</strong> — A flyer that does not state its uses remakes the property’s image on its own. Choose, in words, which guests you want to come.</li>
+<li><strong>The legal and tax boundary</strong> — How non-staying use is treated — the classification of the business permit, whether the accommodation tax applies — differs by municipality and must be confirmed. Once, at the counter, before starting.</li>
+<li><strong>Parking rotation</strong> — Matinee cars filling evening-show parking troubles both sets of guests. Show the time boundary to the parking lot too.</li>
+<li><strong>Distance from the neighbors</strong> — The more the neighborhood uses the property, the closer it comes to being a local facility. Being welcoming is also being deliberate about distance.</li>
+</ul>
+
+<p>The first step: one room, three hours, on a weekday. Stage just that one "matinee," once, next Wednesday. When it ends, note how long the intermission (cleaning) took, and check that the evening show came to no harm. As the performances repeat, you will be able to write your property’s matinee billing in a single line. The guest room does not exist for the night alone — it is <strong>a stage performed twice a day, with an intermission between</strong>.</p>
+
+<div class="note">This article is intended for sharing ideas. The two-show day of kabuki and yose is introduced as a performance form continuing to the present (general knowledge). Prices and time bands are examples (reference values). Whether non-staying use can be offered, and its taxation, please confirm with your municipality, together with your business permit classification.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#room-turnover-flow">Room Turnover: Cutting Guest Wait with Cleaning Flow</a> — designing the intermission (cleaning)</li>
+<li><a href="#pricing-fundamentals">How to Set Room Rates: Pricing Fundamentals</a> — the foundations of price</li>
+<li><a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a> — inventory and pricing</li>
+<li><a href="#corporate-contract-guest">Corporate Contract Guests: Designing Weekly Regulars</a> — another shape of weekday demand</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T193c,<p>日用、计时制<strong>“出卖你的空闲时间”</strong>。对于想要在那里度过三个小时（即使不过夜）的人来说，可以看到海景或山景的房间以及看起来像一家很酷的咖啡馆的休息室很受欢迎。远程工作者希望在一个安静的地方工作，希望在观光旅行之间休息和淋浴，并希望在大自然中工作，而他们的邻居不在豪华建筑中。通过不仅满足一晚的需求，还满足“几个小时”的需求，您可以将空置房间时间转化为利润，而不浪费它。本文将组织日间使用和每小时设计，以产生无需过夜住宿的销售。</p>
+
+<h2>1. 谁使用日间使用？三大诉求</h2>
+<ul>
+<li><strong>远程工作者——在安静的地方工作 3 小时：</strong>我在咖啡馆里被周围的声音困扰，在家里也无法集中注意力。这样的远程工作者希望在旅馆安静的客房里工作三个小时。配备 Wi-Fi、办公桌和咖啡，是您工作 3 小时的理想场所。许多远程工作人员在工作日白天工作，这使其成为填补工作日空缺的理想选择。</li>
+<li><strong>情侣/家庭 — 观光期间休息/淋浴：</strong>游览旅游目的地的情侣和家庭希望在观光旅行之间休息一下并洗澡。如果您在入住前或退房后能在房间里休息几个小时，可以缓解观光的疲劳。活动后对淋浴的需求很高，尤其是在海边或山区附近。</li>
+<li><strong>邻居——在大自然中工作的地方，而不是在豪华建筑中：</strong>邻居们想要一个在大自然中工作的地方，而不是一座豪华的建筑。旅馆的休息室和客房是您可以在大自然中工作的宝贵场所。通过为附近的人们提供日常使用作为在大自然中工作的场所，您可以满足新的需求。</li>
+</ul>
+
+<h2>2. 设计三点——时间、价格、内容</h2>
+<ol>
+<li><strong>时间 — 有 2 种模式：3 小时和 6 小时：</strong>日间使用时间有两种易于理解的模式：3 小时和 6 小时。例如：10-13:00、13-18:00、10-16:00 等。3 小时将用于“短暂休息或工作”，6 小时将用于“半天停留”。通过明确时间，客人可以更轻松地了解他们可以做什么。</li>
+<li><strong>价格 — 一晚住宿的 50% 至 70%（参考值/示例）：</strong>日间使用的价格为一晚价格的 50% 至 70%。例如：每晚10,000日元的房间，3小时5,000日元，6小时7,000日元等。价格仅供参考，可能会根据地区和季节进行调整。通过明确价格，客人可以更轻松地决定是否获得优惠。</li>
+<li><strong>包括 — 咖啡、水、Wi-Fi 包括：</strong>日间使用价格包括咖啡、水和 Wi-Fi。通过显示“5,000日元3小时，含咖啡、水、Wi-Fi”，可以让客人更容易理解其中的内容。通过明确包含的内容，客人可以放心“不收取额外费用”。</li>
+</ol>
+
+<h2>3. 清洁、沟通和收益管理</h2>
+<ul>
+<li><strong>清洁 — 日常使用后定期清洁的相同清单：</strong>日间使用后的清洁工作与常规入住后的清洁清单相同。如果仅仅因为它是日间使用的房产而简化清洁工作，那么下一位客人就会不太满意。清洁清单将与常规住宿相同，但清洁时间将减少 15 分钟。</li>
+<li><strong>如何沟通——具体写出目的，例如“远程办公、休息、换衣服”等：</strong>通过具体写下当天的使用目的，客人更容易了解是否可以使用。具体写下目的，例如“远程办公、休息、换衣服或洗澡”。如果目的明确，客人就会认为自己也可以使用。</li>
+<li><strong>收入管理——记录日使用次数和毛利率：</strong>每月记录一次使用天数和毛利润。想象一下通过“出售空置房间时间”，白天的使用对利润的贡献有多少。日间使用收入与常规住宿收入分开管理，以可视化日间使用的价值。</li>
+</ul>
+
+<div class="stats"><span class="tag">计算示例</span><strong>例如，若施策前的平日入住率为40%，则提高约23%至49%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 日间使用是一个“出售空房间时间”的系统。即使每天只提供一间客房，每月的毛利润也会有所不同。判断效果时，请用相同的统计方法记录并比较施策前后30天的平日入住率与小时房收入。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>日间使用是<strong>“不要扔掉空房间”</strong>这是它的工作原理。对于想要在那里度过三个小时（即使不过夜）的人来说，可以看到海景或山景的房间以及看起来像一家很酷的咖啡馆的休息室很受欢迎。通过提供 3 小时和 6 小时住宿 2 种模式，一晚价格的 50% 至 70%，并包括咖啡、水和 Wi-Fi，您可以将空闲房间时间转化为利润，而不浪费它。即使每天只有一个房间也会改变您每月的毛利润。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：决定一间可供日间使用的客房。</strong> — 决定一间可供日间使用的客房。理想情况下，可以看到海景或山景的房间，或者带有安静的咖啡馆式休息室的房间是理想的选择。像往常一样使用相同的清洁清单。</li>
+<li><strong>第二周：3 小时和 6 小时价格，全部包含在一张门票中</strong> — 在一张纸上总结两种模式的价格和所含内容（咖啡、水、Wi-Fi）：3 小时和 6 小时。价格定为一晚住宿的 50% 至 70%。</li>
+<li><strong>第 3 周：发布在您的网站和 Google 商家资料上</strong> — 在您的公司网站和 Google 商家资料上发布日常使用信息。具体写下目的，例如“远程办公、休息、换衣服或洗澡”。</li>
+<li><strong>第 4 周：创建清洁和收入管理系统</strong> — 日常使用后的清洁使用与常规清洁相同的检查表。创建了一个系统，每月记录一次使用天数和毛利润。</li>
+<li><strong>延续：建立销售空置房间时间的机制</strong> — 建立日间使用作为“出售空置房间时间”的机制。即使每天只有一个房间，也会对每月毛利润产生影响。用作工作日填补空置房间的机制。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"部屋単価の決め方 — プライシングの基礎"}],["$","span",null,{"className":"en-only","children":"How to Set Room Rates: Pricing Fundamentals"}],["$","span",null,{"className":"zh-only","children":"如何确定房间的单价 — 定价基础知识"}]]}]]}]]}],["$","$L8","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","span",null,{"className":"en-only","children":"Revenue Management Basics: How to Read ADR, Occupancy, and RevPAR"}],["$","span",null,{"className":"zh-only","children":"收益管理基础知识 — 如何解读 ADR、入住率和 RevPAR"}]]}]]}]]}],["$","$L8","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","span",null,{"className":"en-only","children":"RevPAR Up 1.8×: Pricing From \"Gut Feeling\" to \"Design\""}],["$","span",null,{"className":"zh-only","children":"每间可用房收入 (RevPAR) 增加了 1.8 倍。将定价从“感觉”转向“设计”"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/corporate-contract-guest","children":["- ",["$","span",null,{"className":"ja-only","children":"企業契約客 — 「週単位常連」の設計"}],["$","span",null,{"className":"en-only","children":"Corporate Contract Guests: Designing Weekly Regulars"}],["$","span",null,{"className":"zh-only","children":"企业合约客户——“周常”设计"}]]}],["$","$L8",null,{"href":"/journal/articles/upgrade-sales-checkin","children":[["$","span",null,{"className":"ja-only","children":"アップグレード販売 — チェックイン時の「一つ上の部屋」"}],["$","span",null,{"className":"en-only","children":"Upgrade Sales: One Room Up at Check-In"}],["$","span",null,{"className":"zh-only","children":"升级销售——登记入住时“升级一个房间”"}]," -"]}]]}]
+10:null

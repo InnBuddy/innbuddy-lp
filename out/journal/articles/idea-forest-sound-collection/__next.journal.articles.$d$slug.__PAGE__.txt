@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-forest-sound-collection.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T28c1,<p>「静かで良いところですね」と、宿の紹介文に書きたくなったら、少し立ち止まってください。その静けさは、本当に静かなのでしょうか。エアコンの音、冷蔵庫のハム音、廊下のBGM、遠くの幹線道路——静けさとは「音がないこと」ではなく、<strong>聞こえるべきものが聞こえていること</strong>かもしれません。この記事では、森の音を客室で楽しむというテーマを、「聴く」「守る」「収める」の3つの設計に分けて考えます。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T28c1,<p>「静かで良いところですね」と、宿の紹介文に書きたくなったら、少し立ち止まってください。その静けさは、本当に静かなのでしょうか。エアコンの音、冷蔵庫のハム音、廊下のBGM、遠くの幹線道路——静けさとは「音がないこと」ではなく、<strong>聞こえるべきものが聞こえていること</strong>かもしれません。この記事では、森の音を客室で楽しむというテーマを、「聴く」「守る」「収める」の3つの設計に分けて考えます。</p>
 
 <h2>1. WORLD — 静寂を守るために、石を1つ置いた男</h2>
 <p>2005年、エミー賞を受賞したことのあるアメリカの音響生態学者、ゴードン・ヘンプトンが、ワシントン州オリンピック国立公園のホー雨林に小さな赤い石を1つ置きました。「One Square Inch of Silence（一平方インチの静寂）」——米国で最も静かな場所を、その名の通り約6.5平方センチの地点として定め、飛行機の航路変更を求める運動の象徴にしたのです。彼はこの旅を、2010年にジョン・グロスマンとの共著『One Square Inch of Silence』として書きました。</p>
@@ -54,10 +119,76 @@ a:"$Sreact.suspense"
 <li><a href="#idea-sound-memory-inbound">音で記憶に残る — 鐘・風鈴・川の音で記憶に残るアイデア</a> — 記憶に残る音の設計</li>
 <li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 五感全体の戦略</li>
 <li><a href="#idea-rainwater-garden">雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集</a> — 雨の音の設計</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","129"]}]]}],["$","h1",null,{"children":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}],["$","p",null,{"className":"excerpt","children":"アメリカの音響生態学者は、国立公園の森に「一平方インチの静寂」を守る石を置きました。静けさが希少資源になった時代に、宿が森の音を聴く体験、守る設計、録音の活用を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-forest-sound-collection.jpg","alt":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.09"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-small-farm-1tsubo","children":["← ","小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-scrap-wood-signboard","children":["廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"129"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}],["$","span",null,{"className":"en-only","children":"Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room"}],["$","span",null,{"className":"zh-only","children":"收集森林的声音——在客房享受森林、河流和风的声音的想法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"アメリカの音響生態学者は、国立公園の森に「一平方インチの静寂」を守る石を置きました。静けさが希少資源になった時代に、宿が森の音を聴く体験、守る設計、録音の活用を考えます。"}],["$","span",null,{"className":"en-only","children":"An American acoustic ecologist placed a stone in a national park forest to protect \"one square inch of silence.\" In an age when quiet has become a scarce resource — designing the experience of listening to the forest at an inn, the design of protecting it, and the use of recordings."}],["$","span",null,{"className":"zh-only","children":"森林、河流、风和鸟的声音。我们收集了一些关于享受乡村声音的小想法，并在您的客房或门廊上享受它们，为您提供加深在旅馆的时光的提示。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-forest-sound-collection.jpg","alt":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.09"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T253c,<p>When you are tempted to write "a quiet, pleasant place" in an inn’s description, stop for a moment. Is that quiet truly quiet? The air conditioner’s hum, the refrigerator’s drone, the BGM in the corridor, the distant trunk road — quiet may be not "the absence of sound" but <strong>the presence of everything that should be heard</strong>. In this article, the theme of enjoying the sounds of the forest in the guest room is sorted into three designs: listen, protect, record.</p>
+
+<h2>1. WORLD — the man who placed a single stone to protect silence</h2>
+
+<p>In 2005, the American acoustic ecologist Gordon Hempton — a winner of the Emmy Award — placed a small red stone in the Hoh Rain Forest of Olympic National Park, Washington. "One Square Inch of Silence" — he defined the quietest place in the United States as a spot of roughly 6.5 square centimeters, just as the name says, and made it the symbol of a campaign asking for flight routes to be changed. He wrote up the journey in the 2010 book "One Square Inch of Silence," co-authored with John Grossman.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>"One Square Inch of Silence"</strong> — the undertaking in which the acoustic ecologist Gordon Hempton placed a red stone in the Hoh Rain Forest of Olympic National Park in 2005 and made it a preservation point for silence. By Hempton’s account, quiet in which only natural sounds can be heard has grown scarce even in the United States. What is interesting in his activity is the conversion of the abstraction "protecting quiet" into a single concrete point — one stone.</div>
+
+<p>Among Hempton’s words is one to the effect that "the quietest places are also the most informative" (in an interview with CN Traveler). Birdsong, wind, rain, water — a rich soundscape is evidence that the land is alive. Is this not, in fact, the true identity of an inn’s "quietness"? Not silence, but <strong>good sounds being heard</strong>.</p>
+
+<h2>2. The way of thinking — the perspective of the soundscape</h2>
+
+<p>It was the Canadian composer and researcher R. Murray Schafer who gathered the landscape of sound into the concept of the "soundscape." In his book "The Tuning of the World" (1977), he divided sound environments into "hi-fi" and "lo-fi." A hi-fi sound environment is a state in which individual sounds are heard clearly, separated with a sense of distance — in a forest, the birds, the wind, and the river each heard in its own place. Lo-fi is a state in which noise is so heavy the sounds blend and you cannot tell what is being heard. The everyday city inevitably leans toward the latter.</p>
+
+<p>From here the translation to the inn is clear. <strong>Bring the guest rooms closer to a hi-fi sound environment.</strong> That is achieved not by adding soundproofing but by (1) cutting obstructive noise, and (2) securing the path by which the natural sounds that should arrive, arrive.</p>
+
+<h2>3. RESEARCH — research on forest sounds and recovery</h2>
+
+<div class="note"><span class="tag">RESEARCH</span>In Japan in 1982, Akiyama Tomohide, then the administrative head of the Forestry Agency, proposed the word "shinrin-yoku" (forest bathing). In 2003, Miyazaki Yoshifumi, then a professor at Chiba University, proposed "forest therapy," meaning "forest bathing with scientific evidence," and in the experiments of the forest-therapy-base concept up to 2018, his group reported that bodily changes related to relaxation were observed in forest environments (per the government’s online interview with Miyazaki). Environmental psychology also holds the attention restoration theory — that nature restores attention (Kaplan and Kaplan, the 1989 book The Experience of Nature) — and within it, the concept of "soft fascination," objects that gently draw attention without effort, like clouds, water, and the sound of leaves, can serve as grounds for designing the experience of forest sound.</div>
+
+<p>But a line must be drawn here. The research on forest therapy is not "grounds for an inn to sell medical efficacy." What the inn may use is its aspect as a design principle — <strong>prepare, within the rooms and the hours of the day, sounds to which attention can be entrusted without effort.</strong> Not the advertising of efficacy but the design of experience.</p>
+
+<h2>4. Implementation (1) listen — the "sound guide," and items for the ear</h2>
+
+<p>The first thing to do is not to add but to <strong>guide</strong>. In the rooms whose windows open, place a single card. "Around 5:30 in the morning, the first voices of the birds." "At dusk, the frog-and-insect changeover." "On a rainy night, the sound on the roof" — the timetable of that place’s and that season’s sounds, three lines is enough. A sound becomes "heard" the moment it is guided.</p>
+
+<p>The items can be minimal. One wild-bird guidebook in the lobby. Learn a name, and the bird’s voice draws suddenly near. One step further is to build a route for listening — an "after-closing hour of sound" guiding a five-minute night walk, or "ten minutes before breakfast, counting the birds’ voices" in the morning. The guide need not be an expert. A staff member saying "I don’t know its name, but we hear this every morning" is far more inn-like.</p>
+
+<h2>5. Implementation (2) protect — protecting sound is the work of subtraction</h2>
+
+<p>An inn that makes the forest’s sounds its product must at once be "an inn that does not break the sounds." Let us write out the inspection list.</p>
+
+<ul>
+<li>Noise of the room refrigerator and air conditioner (old models are surprisingly loud. One minute in the room, eyes closed, to confirm)</li>
+<li>BGM in corridors and lobby (especially at night. Can you decide to stop it?)</li>
+<li>Vacuum cleaners, washing machines, and door sounds late at night and early morning</li>
+<li>Engines and door slams in the parking lot (at night, direct cars to park apart)</li>
+<li>Mechanical sound of water heating and pumps (the placement of rooms against the machine room)</li>
+</ul>
+
+<p>What is interesting is that this inspection gives birth to <strong>a service of "doing nothing."</strong> Hospitality is apt to be thought of as the work of adding, but in sound design, value is born in subtracting and stopping. The rule "after 9 p.m. we turn off the lobby BGM" becomes, with one guidance card, the declaration of "an inn that protects its quiet."</p>
+
+<h2>6. Implementation (3) record — recordings, and the sounds of rainy days</h2>
+
+<p>Finally, "recording" the sounds. Even a smartphone records forest sound passably well. Let the innkeeper’s season-by-season recordings — a June evening shower, the silence of January snow (snow absorbs sound, so the recording turns out to be almost pure silence, which is its own interest), the lesser cuckoo of early summer — be listenable in the rooms. But one thing to run honestly: <strong>a recording is no replacement for the real thing.</strong> So its use is best confined to "advance notice" (InnBuddy VIEW). "This is the sound we recorded last night at the stream behind the inn. Tonight you will hear the real thing" — when the recording works as a guide to the real thing, the speaker in the room has meaning.</p>
+
+<h2>7. Which inns it suits, and where the limits are</h2>
+
+<p>Mountain, streamside, and seaside inns are blessed in their stock of sound. Inns near trunk roads or rail lines need to begin with an inventory of "what is being heard" — at times they will have to fight with the devices of season and hour, changing the lead sound from "the murmur of the river" to "the roof on a rainy night." The urban version is smaller: waiting for the insect sounds that gather in the small green of a courtyard or roof, or building a late-night timetable.</p>
+
+<p>The limits, written plainly: natural sound is a product at the mercy of weather and season, and cannot be guaranteed. That is exactly why the guidance on "what is heard when" avoids certainty and stays with expressions like "often heard in this season." And soundproofing work is expensive — so <strong>sound design begins with "subtract and guide."</strong> The capital investment can come after.</p>
+
+<h2>Closing</h2>
+
+<p>Hempton placed a stone to protect the silence. What an inn can do is a little smaller: to know "what will be calling tonight outside the window," and to let that sound reach the rooms unbroken. Quiet is not silence — it is the state of good sounds being heard. Tonight, in your inn’s rooms, what is being heard?</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-forest-scent-collection">Collect Forest Scents - Ideas for Inn Scent Made from Forest Aroma, Leaves, Branches</a> — the forest’s senses through scent</li>
+<li><a href="#idea-sound-memory-inbound">Remain in Memory with Sound - Ideas for Remaining in Memory with Bell, Wind Chime, River Sound</a> — designing sounds that stay in memory</li>
+<li><a href="#scent-music-five-senses">Scent & Sound — A Stay the Five Senses Remember</a> — the strategy of the five senses as a whole</li>
+<li><a href="#idea-rainwater-garden">Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn</a> — designing the sound of rain</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T10e8,<p>本文分享一些可供尝试的想法。一些旅馆将森林的声音用作早晨的叫醒服务，用作在果田干活时的背景音乐，还有一些旅馆则将森林的声音用作儿童寻宝的灵感。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>早上有鸟声，下午有风声，晚上有河水声。里山的声音随着季节和时间而变化，为旅馆的时间增添了色彩。我们收集了这些声音，并收集了可以在客房或阳台上享受的小创意，为您提供加深在旅馆的时光的提示。</p><h2>收集森林声音的想法集合</h2><ul><li><strong>创造一个可以听到声音的地方</strong> — 将长凳和椅子放置在可以听到森林或河流声音的地方，并将其介绍为可以欣赏声音的地方。一家旅馆在果田旁边引入了一个长凳，作为“鸟声长凳”，让您可以聆听从果田对面森林传来的鸟鸣声。</li><li><strong>晨间语音导览</strong> — 在小卡片或板上介绍您早上听到的声音。按一天中的不同时间引入声音，例如“早上 6 点，我听到日本蝉的声音”和“早上 7 点，我听到在果田里工作的人的声音”，会让早起变得更加愉快。</li><li><strong>风铃和声音的风景</strong> — 将风铃或其他用树枝制成的工具放在门廊或花园上，以享受风的声音。每当风一吹，声音就发出声音的景色成为夏季的传统，让你感到凉爽。一家客栈在果田门口挂着竹子制成的风铃，让人们通过听风声知道果田在哪里。</li><li><strong>创建声音映射</strong> — 通过在地图上标记您在旅馆周围听到的声音来创建“声音地图”。您可以通过在地图上绘制每个地点的声音，例如森林的声音、河流的声音、果园的声音、村庄的声音，让您的散步变得更加愉快。作为“声音寻宝”活动的一部分，一家旅馆正在向孩子们分发声音地图。</li><li><strong>享受夜晚的声音</strong> — 创建一个您可以享受夜间听到的声音的地方。河水声、虫鸣声、风声等夜间的声音与白天的样子不同。一家旅馆将晚上在门廊聆听河水声的时间称为“夜音时间”。</li></ul><h2>以下是如何度过海外时光 - 可以享受声音的住宿创意</h2><p>在北欧森林旅馆，声音是生活的一部分。早晨在鸟鸣中醒来，白天在森林中漫步听风，晚上在河水声中入睡。与声音一起生活可以丰富您在旅馆的时光。在东南亚的岛屿旅馆中，可以听到海浪声的地方被视为一天中最安静的地方。</p><p>声音在您的酒店中具有怎样的存在感？您只需放置一个风铃即可创建音景。</p><h2>果田和合理的想法</h2><p>在有果田的客栈，声音也是果田的风景。一家旅馆将在蓝莓田里听鸟鸣的体验介绍为“蓝莓与鸟鸣”。这是一种可以享受鸟儿来吃蓝莓的声音的体验。</p><p>即使你没有果园，你仍然可以在花园里享受鸟语花香和风吹过树的声音。为什么不从小声音开始呢？</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约15%的数字仅为趋势示意，并不保证效果）。</strong> — 音景可以创造轻松的时光。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。声音体验会根据周围环境和季节而变化。请大家在享受的同时注意安全。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>将长凳放在可以听到声音的地方</strong> — 一个可以听到森林和河流声音的地方</li><li><strong>制作早晨声卡</strong> — 一张小卡片，介绍您在不同时间听到的声音。</li><li><strong>放置风铃</strong> — 作为在阳台或果园入口处欣赏风声的工具</li><li><strong>创建声音映射</strong> — 一张声音地图，绘制了旅馆周围听到的声音。</li><li><strong>介绍享受夜晚声音的地方</strong> — 阳台上可以听到河水声和虫鸣声，是夜声的时刻。</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-small-farm-1tsubo","children":["- ",["$","span",null,{"className":"ja-only","children":"小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Small Farm - Farm Ideas Starting from 1 Tsubo"}],["$","span",null,{"className":"zh-only","children":"田地小旅馆——用一坪（1坪）田地开旅馆的想法"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-scrap-wood-signboard","children":[["$","span",null,{"className":"ja-only","children":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}],["$","span",null,{"className":"en-only","children":"Signboard Made from Scrap Wood - Ideas for Inn Signboard Made from Reclaimed Wood and Old Tools"}],["$","span",null,{"className":"zh-only","children":"用废木头制成的招牌——用旧木头和旧工具制成的旅馆招牌创意"}]," -"]}]]}]
+10:null

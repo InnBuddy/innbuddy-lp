@@ -1,15 +1,175 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_ota-commission-visibility-new.jpg","image"]
 :HL["/library/journal/ai_pricing-basics.jpg","image"]
 :HL["/library/journal/ai_revenue-management-basics.jpg","image"]
 :HL["/library/journal/ai_revpar-18x-dynamic-pricing.jpg","image"]
-3:T16be,<p>OTAの手数料は「感覚で分からない」数字です。契約書には「15〜25%」のような比率で書かれ、売上報告には金額で現れる。しかし<strong>1泊ごとにいくら失われているか</strong>を、即答できる経営者は少ない。本記事は、手数料を「比率」から「金額」に変える計算表の作り方と、それが変える3つの意思決定を整理します。</p><h2>大福帳 — 書かれない数字は誰のものにもならない</h2><p>江戸の商家は、すべての取引を<strong>大福帳</strong>と呼ぶ帳簿に書き留めました。日々の売り買いを書き、締めのときに全集計する。帳簿が「大福」(大きな福)と呼ばれたのは、書き続けること自体が商家の繁栄の規律だったからです。この文化が教えるのは単純なことです——<strong>書かれない数字は、誰のものにもならない</strong>。手数料も同じです。年間で数十万、数百万単位で動くのに、契約書の率のまま放置されている。可視化とは、新しい工夫ではなく、商家の基本作法の現代版です。</p><h2>計算表の3つの数字</h2><ol><li><strong>1泊あたりの手数料</strong> — 平均室単価(ADR)×手数料率。1泊ごとの「失っている金額」。この1行が、すべての始まりです。</li><li><strong>売上に占める手数料の比率</strong> — 売上の何%が手数料か。売上規模が変わっても比較できる数字。</li><li><strong>直結なら浮く金額</strong> — その予約が直結だった場合に浮くお金。手数料の機会費用です。</li></ol><p>この3つが揃って、手数料は「比率」から「金額」になります。</p><div class="stats"><span class="tag">SIMULATION</span><strong>平均室単価1.5万円・手数料率18%(契約により異なる・概算)の宿では、1泊あたりの手数料は2,700円。年間のOTA経由が600泊なら、年間162万円。週に直せば約3万円が、毎週「運ばれて」いる計算になる——いずれも考え方を示すシミュレーション例で、実際の数字は契約と宿泊数により異なる</strong> — 比率は感覚に残らないが、金額は残る。</div><h2>可視化が変える3つの意思決定</h2><ul><li><strong>価格設計</strong> — 手数料込みの利益で価格を見直す。「安く見えるプラットフォーム」が、実質いくらの売上を宿に残すか。価格を設計に変える話は、動的プライシングの記事が扱っています。</li><li><strong>直結戦略</strong> — ゲストに還元できる特典の予算が見える。直予約の特典に原価幾らまで投じられるかは、この機会費用が根拠になります(直予約の記事と接続)。</li><li><strong>チャネルミックス</strong> — 「うちはOTA依存すぎないか」の問いに、感覚でなく比率で答える。チャネルの選び方は、OTA選択の記事が扱っています。</li></ul><h2>運用 — 週次の3行レポート</h2><p>運用は小さくて構いません。<strong>週に1回、3行を書く</strong>——今週のOTA経由宿泊数、手数料の合計、直結なら浮いた金額。表計算でも手書きでもいい。大福帳のすごさは体裁ではなく、書き続けたことにありました。月に1回は、この3行を見ながら3つの意思決定(価格・直結・チャネル)のどれかを1つだけ見直す。</p><h2>反対側 — 可視化が宿を疲れさせるとき</h2><ul><li><strong>手数料ゼロの幻想</strong> — 数字を見て「OTAをやめよう」となるのが最も危険な反応です。直結にも費用とかかりません(サイト維持・決済・人件費)。手数料は「需要を獲得するためのコスト」です。</li><li><strong>敵視からの総量縮小</strong> — OTAを減らして直結を増やす動きが、売上の総量を縮めた例は多い。可視化の目的は「知ること」であって「ゼロにすること」ではありません。</li><li><strong>数字の迷信</strong> — 1ヶ月の増減で契約を変えない。宿泊数は季節と出来事で大きく揺れます。見るのは3ヶ月の傾きです。</li><li><strong>レポートの形骸化</strong> — 週次が続かなそうなら、最初から月次にする。書けない体裁のレポートは、大福帳ではなく通知です。</li><li><strong>率の勘違い</strong> — 15%と25%は別の商いです。まず自分の契約書を開いて、実際の率を1つの数字に確定させる(契約によってはプランや時期で変わります)。</li></ul><p>最初の一歩は、今晚、電卓を1回押すことです。平均室単価×手数料率。その数字が「1泊あたり〇〇円」です。それを書いた1行が、あなたの宿の大福帳の最初の行になります。可視化されたコストは、管理できるコストです。</p><div class="note">この記事はアイデア共有を目的としています。手数料率は宿とOTAの契約により異なります。掲載の数値はシミュレーション例です。契約条件の確認はご自身の契約書にてお願いします。</div><h2>次に読む</h2><ul><li><a href="#direct-booking-42">直予約比率を42%まで上げた3つの仕掛け</a> — 浮く金の使い道の話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 価格設計の話</li><li><a href="#ota-channel-priority">どのOTAを優先する？ — チャネル選択の判断基準</a> — チャネルミックスの話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"children":["ARTICLE ","066"]}]]}],["$","h1",null,{"children":"OTA手数料を可視化する"}],["$","p",null,{"className":"excerpt","children":"江戸の商家は、すべての取引を大福帳に書き留めました——書かれない数字は、誰のものにもならない。手数料を「比率」から「金額」に変える3つの数字と、週次の計算表。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_ota-commission-visibility-new.jpg","alt":"OTA手数料を可視化する"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.02.20"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":"部屋単価の決め方 — プライシングの基礎"}]]}]]}],["$","$L2","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}]]}]]}],["$","$L2","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/scent-music-five-senses","children":["← ","香りと音楽 — 五感で覚えられる宿"]}],["$","$L2",null,{"href":"/journal/articles/foreign-staff-retention-teaching","children":["外国人スタッフが定着する宿の「教え方」"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T16be,<p>OTAの手数料は「感覚で分からない」数字です。契約書には「15〜25%」のような比率で書かれ、売上報告には金額で現れる。しかし<strong>1泊ごとにいくら失われているか</strong>を、即答できる経営者は少ない。本記事は、手数料を「比率」から「金額」に変える計算表の作り方と、それが変える3つの意思決定を整理します。</p><h2>大福帳 — 書かれない数字は誰のものにもならない</h2><p>江戸の商家は、すべての取引を<strong>大福帳</strong>と呼ぶ帳簿に書き留めました。日々の売り買いを書き、締めのときに全集計する。帳簿が「大福」(大きな福)と呼ばれたのは、書き続けること自体が商家の繁栄の規律だったからです。この文化が教えるのは単純なことです——<strong>書かれない数字は、誰のものにもならない</strong>。手数料も同じです。年間で数十万、数百万単位で動くのに、契約書の率のまま放置されている。可視化とは、新しい工夫ではなく、商家の基本作法の現代版です。</p><h2>計算表の3つの数字</h2><ol><li><strong>1泊あたりの手数料</strong> — 平均室単価(ADR)×手数料率。1泊ごとの「失っている金額」。この1行が、すべての始まりです。</li><li><strong>売上に占める手数料の比率</strong> — 売上の何%が手数料か。売上規模が変わっても比較できる数字。</li><li><strong>直結なら浮く金額</strong> — その予約が直結だった場合に浮くお金。手数料の機会費用です。</li></ol><p>この3つが揃って、手数料は「比率」から「金額」になります。</p><div class="stats"><span class="tag">SIMULATION</span><strong>平均室単価1.5万円・手数料率18%(契約により異なる・概算)の宿では、1泊あたりの手数料は2,700円。年間のOTA経由が600泊なら、年間162万円。週に直せば約3万円が、毎週「運ばれて」いる計算になる——いずれも考え方を示すシミュレーション例で、実際の数字は契約と宿泊数により異なる</strong> — 比率は感覚に残らないが、金額は残る。</div><h2>可視化が変える3つの意思決定</h2><ul><li><strong>価格設計</strong> — 手数料込みの利益で価格を見直す。「安く見えるプラットフォーム」が、実質いくらの売上を宿に残すか。価格を設計に変える話は、動的プライシングの記事が扱っています。</li><li><strong>直結戦略</strong> — ゲストに還元できる特典の予算が見える。直予約の特典に原価幾らまで投じられるかは、この機会費用が根拠になります(直予約の記事と接続)。</li><li><strong>チャネルミックス</strong> — 「うちはOTA依存すぎないか」の問いに、感覚でなく比率で答える。チャネルの選び方は、OTA選択の記事が扱っています。</li></ul><h2>運用 — 週次の3行レポート</h2><p>運用は小さくて構いません。<strong>週に1回、3行を書く</strong>——今週のOTA経由宿泊数、手数料の合計、直結なら浮いた金額。表計算でも手書きでもいい。大福帳のすごさは体裁ではなく、書き続けたことにありました。月に1回は、この3行を見ながら3つの意思決定(価格・直結・チャネル)のどれかを1つだけ見直す。</p><h2>反対側 — 可視化が宿を疲れさせるとき</h2><ul><li><strong>手数料ゼロの幻想</strong> — 数字を見て「OTAをやめよう」となるのが最も危険な反応です。直結にも費用とかかりません(サイト維持・決済・人件費)。手数料は「需要を獲得するためのコスト」です。</li><li><strong>敵視からの総量縮小</strong> — OTAを減らして直結を増やす動きが、売上の総量を縮めた例は多い。可視化の目的は「知ること」であって「ゼロにすること」ではありません。</li><li><strong>数字の迷信</strong> — 1ヶ月の増減で契約を変えない。宿泊数は季節と出来事で大きく揺れます。見るのは3ヶ月の傾きです。</li><li><strong>レポートの形骸化</strong> — 週次が続かなそうなら、最初から月次にする。書けない体裁のレポートは、大福帳ではなく通知です。</li><li><strong>率の勘違い</strong> — 15%と25%は別の商いです。まず自分の契約書を開いて、実際の率を1つの数字に確定させる(契約によってはプランや時期で変わります)。</li></ul><p>最初の一歩は、今晚、電卓を1回押すことです。平均室単価×手数料率。その数字が「1泊あたり〇〇円」です。それを書いた1行が、あなたの宿の大福帳の最初の行になります。可視化されたコストは、管理できるコストです。</p><div class="note">この記事はアイデア共有を目的としています。手数料率は宿とOTAの契約により異なります。掲載の数値はシミュレーション例です。契約条件の確認はご自身の契約書にてお願いします。</div><h2>次に読む</h2><ul><li><a href="#direct-booking-42">直予約比率を42%まで上げた3つの仕掛け</a> — 浮く金の使い道の話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 価格設計の話</li><li><a href="#ota-channel-priority">どのOTAを優先する？ — チャネル選択の判断基準</a> — チャネルミックスの話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"className":"ARTICLE","children":"066"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"OTA手数料を可視化する"}],["$","span",null,{"className":"en-only","children":"Making OTA Commissions Visible"}],["$","span",null,{"className":"zh-only","children":"可视化 OTA 费用"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"江戸の商家は、すべての取引を大福帳に書き留めました——書かれない数字は、誰のものにもならない。手数料を「比率」から「金額」に変える3つの数字と、週次の計算表。"}],["$","span",null,{"className":"en-only","children":"The merchants of Edo wrote every transaction into the daifuku-chō ledger — a number that is never written down belongs to no one. The three numbers that turn commissions from \"a percentage\" into \"an amount,\" and the weekly three-line calculation sheet."}],["$","span",null,{"className":"zh-only","children":"根据夜晚的不同而变化的费用计算表。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_ota-commission-visibility-new.jpg","alt":"OTA手数料を可視化する"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.02.20"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T16dc,<p>OTA commissions are numbers "not understood by feel." The contract states them as a rate, "15–25%," and the sales report shows them as an amount. Yet few owners can answer instantly <strong>how much is being lost on each night’s stay</strong>. This article organizes how to build a calculation sheet that turns commissions from "a percentage" into "an amount," and the three decisions it changes.</p>
+
+<h2>The daifuku-chō — a number that is never written down belongs to no one</h2>
+
+<p>The merchants of Edo recorded every transaction in a ledger called the <strong>daifuku-chō</strong>. The daily buying and selling was written in, and totaled at each closing. That the ledger was named "great fortune" (daifuku) is because the act of writing on and on was itself the discipline of a merchant house’s prosperity. What this culture teaches is simple — <strong>a number that is never written down belongs to no one</strong>. Commissions are the same. They move in the hundreds of thousands, the millions of yen a year, and yet sit untouched in the contract’s percentage form. Making them visible is not a new ingenuity; it is the modern edition of the merchant’s basic manner.</p>
+
+<h2>The calculation sheet’s 3 numbers</h2>
+
+<ol>
+<li><strong>Commission per night</strong> — Average daily rate (ADR) × commission rate. The "amount being lost" on each night. This one line is the beginning of everything.</li>
+<li><strong>Commission as a share of revenue</strong> — What percent of revenue goes to commissions. A number comparable even as the scale of revenue changes.</li>
+<li><strong>What would be saved if direct</strong> — The money that would be freed had that booking come direct. The opportunity cost of commissions.</li>
+</ol>
+
+<p>With these three in place, the commission turns from "a percentage" into "an amount."</p>
+
+<div class="stats"><span class="tag">SIMULATION</span><strong>At a property with an average daily rate of ¥15,000 and a commission rate of 18% (differs by contract; an approximation), the commission per night is ¥2,700. With 600 OTA-origin guest-nights a year, that is ¥1.62 million a year. Put weekly, the calculation becomes about ¥30,000 being "carried away" every week — all of this is a simulation example for showing the approach; actual figures differ by contract and by the number of stays</strong> — A percentage does not stay in the mind; an amount does.</div>
+
+<h2>The 3 decisions visibility changes</h2>
+
+<ul>
+<li><strong>Price design</strong> — Re-examine prices with the profit after commissions. How much revenue a "cheaper-looking platform" actually leaves with the property. The story of turning pricing into design is handled in the dynamic-pricing article.</li>
+<li><strong>Direct strategy</strong> — The budget for benefits that can be returned to guests becomes visible. How much cost can go into direct-booking benefits finds its grounds in this opportunity cost (connected to the direct-booking article).</li>
+<li><strong>Channel mix</strong> — To the question "aren’t we too OTA-dependent?", answer with a percentage, not a feeling. The choice of channels is handled in the OTA-selection article.</li>
+</ul>
+
+<h2>Operation — the weekly 3-line report</h2>
+
+<p>The operation can be small. <strong>Once a week, write three lines</strong> — this week’s OTA-origin guest-nights, the total commissions, what would have been saved if direct. A spreadsheet or handwriting, either is fine. The greatness of the daifuku-chō lay not in its format but in the fact that it was written on and on. Once a month, while looking at these three lines, revisit just one of the three decisions (price, direct, channels).</p>
+
+<h2>The other side — when visibility exhausts the property</h2>
+
+<ul>
+<li><strong>The fantasy of zero commission</strong> — Looking at the numbers and deciding to "quit the OTAs" is the most dangerous reaction. Direct has its costs too (site maintenance, payment fees, labor). A commission is "the cost of acquiring demand."</li>
+<li><strong>Shrinking the total out of enmity</strong> — There are many cases where the move to cut OTAs and grow direct shrank the total of revenue. The purpose of visibility is "to know," not "to make it zero."</li>
+<li><strong>Superstition about numbers</strong> — Do not change contracts on one month’s rise or fall. Guest-nights swing widely with the seasons and events. What to watch is the slope over three months.</li>
+<li><strong>The report becoming a hollow shell</strong> — If weekly will not hold, start monthly from the beginning. A report in a format you cannot keep writing is not a daifuku-chō but a notification.</li>
+<li><strong>Mistaking the rate</strong> — 15% and 25% are different businesses. First, open your own contract and fix the actual rate as a single number (under some contracts it varies by plan and by season).</li>
+</ul>
+
+<p>The first step is, tonight, to press the calculator once. Average daily rate × commission rate. That number is "¥XX per night." The line you write it on becomes the first line of your property’s daifuku-chō. A cost made visible is a cost that can be managed.</p>
+
+<div class="note">This article is intended for sharing ideas. Commission rates differ by the contract between the property and the OTA. The figures given are simulation examples. Please check contract terms against your own contract documents.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#direct-booking-42">Three Mechanisms That Raised Our Direct Booking Ratio to 42%</a> — where the freed money goes</li>
+<li><a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a> — designing the price</li>
+<li><a href="#ota-channel-priority">Which OTA First? The Decision Criteria for Channel Selection</a> — the channel mix</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te9d,<p>OTA 费用是一个你无法“理解”的数字，但一旦你想象它们，它就会改变你每晚的看法。本文解释了如何创建费用“计算表”以及它将改变的三个决定。</p>
+<h2>1. 为什么需要“可视化”？</h2>
+<p>“15-25%佣金”是一个比例，而不是一个金额。人脑无法感知比例。只有当您将其转换为“您每晚损失 ¥X”时，您才能看到具体的损失。</p>
+<h2>2.计算表上的三个数字</h2>
+<ol>
+<li><strong>每晚费用</strong> — ADR x 佣金率。您每晚损失的金额。</li>
+<li><strong>佣金与销售额比率</strong> — 佣金占销售额的百分比是多少？</li>
+<li><strong>直接连接更省钱</strong> — 直连的机会成本（通过直连可以节省多少钱）。</li>
+</ol>
+<p>当这三件事结合在一起时，费用就从“比例”变成了“金额”。</p>
+<h2>3. 可视化改变决策的三种方式</h2>
+<ul>
+<li><strong>价格设计</strong> — OTA价格真的是最优的吗（根据利润（包括费用）进行审查）？</li>
+<li><strong>直接策略</strong> — 您可以在福利上投资多少（费用的机会成本）。</li>
+<li><strong>渠道组合</strong> — 理想的比例是多少（OTA：直连）？</li>
+</ul>
+<h2>4. 操作示例</h2>
+<ul>
+<li>每周“费用报告”（3 份）。</li>
+<li>示例：实现销售额40%为OTA费用，直连比例提升10个点（参考值）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>客人对“OTA费用可视化”的期望较五年前发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>提高盈利能力的努力将增加整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>3</b><span>数字（1 晚/比率/机会成本）</span></div><div class="stat"><b>每周</b><span>费用报告</span></div><div class="stat"><b>+10分</b><span>（数值示例）提高直连率</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>费用是“获取需求的成本”。目标不是“将其归零”，而是“知道您支付了多少钱”。可见成本是可以控制的成本。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第 1 周：计算 ADR x 佣金率的“每晚佣金”</li>
+<li>第 2 周：计算销售额比率</li>
+<li>第 3 周：计算直接机会成本</li>
+<li>第四周：周报运行开始</li>
+<li>每月：三项决策因素（价格、直连、渠道）审核</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"部屋単価の決め方 — プライシングの基礎"}],["$","span",null,{"className":"en-only","children":"How to Set Room Rates: Pricing Fundamentals"}],["$","span",null,{"className":"zh-only","children":"如何确定房间的单价 — 定价基础知识"}]]}]]}]]}],["$","$L8","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","span",null,{"className":"en-only","children":"Revenue Management Basics: How to Read ADR, Occupancy, and RevPAR"}],["$","span",null,{"className":"zh-only","children":"收益管理基础知识 — 如何解读 ADR、入住率和 RevPAR"}]]}]]}]]}],["$","$L8","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","span",null,{"className":"en-only","children":"RevPAR Up 1.8×: Pricing From \"Gut Feeling\" to \"Design\""}],["$","span",null,{"className":"zh-only","children":"每间可用房收入 (RevPAR) 增加了 1.8 倍。将定价从“感觉”转向“设计”"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/scent-music-five-senses","children":["- ",["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}],["$","$L8",null,{"href":"/journal/articles/foreign-staff-retention-teaching","children":[["$","span",null,{"className":"ja-only","children":"外国人スタッフが定着する宿の「教え方」"}],["$","span",null,{"className":"en-only","children":"The \"Teaching Method\" Behind Foreign Staff Who Stay"}],["$","span",null,{"className":"zh-only","children":"留有外籍员工的旅馆“如何授课”"}]," -"]}]]}]
+10:null

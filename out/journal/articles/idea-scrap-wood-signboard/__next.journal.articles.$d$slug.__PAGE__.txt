@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-scrap-wood-signboard.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T2738,<p>旅人は、宿を何度目で「見つける」のでしょうか。駅前の道、曲がり角、門柱、そして看板。宿との最初の接触は、ロビーでも客室でもなく、その多くが<strong>入口の看板</strong>です。なのに、宿づくりの議論では看板は最後に考えられます。メーカーの既製品を発注して終わり——それが実態ではないでしょうか。この記事では、廃材と古材で看板を作るというテーマを、宿の「最初の一秒」を設計する話として考え直します。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2738,<p>旅人は、宿を何度目で「見つける」のでしょうか。駅前の道、曲がり角、門柱、そして看板。宿との最初の接触は、ロビーでも客室でもなく、その多くが<strong>入口の看板</strong>です。なのに、宿づくりの議論では看板は最後に考えられます。メーカーの既製品を発注して終わり——それが実態ではないでしょうか。この記事では、廃材と古材で看板を作るというテーマを、宿の「最初の一秒」を設計する話として考え直します。</p>
 
 <h2>1. 考え方 — 人はランドマークで土地を覚えます</h2>
 <p>都市計画の研究に、ケビン・リンチ『都市のイメージ』（The Image of the City、1960年）という古典があります。リンチは、人が街を頭の中の地図として描くとき、「道」「縁」「領域」「節点」、そして<strong>「ランドマーク」</strong>という5つの要素を使うと論じました。ランドマークとは、看板や塔、角の店など、目印になって方向を与えるものです。</p>
@@ -59,10 +124,82 @@ a:"$Sreact.suspense"
 <li><a href="#idea-craftsman-handwork">職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア</a> — 手仕事に触れる体験</li>
 <li><a href="#idea-illustrated-map-local">地域の地図を絵で描く — 絵地図・イラストマップで地域を伝えるアイデア</a> — 案内の全体設計</li>
 <li><a href="#idea-empty-house-story">空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア</a> — 建物の来歴を扱う視点</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","130"]}]]}],["$","h1",null,{"children":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}],["$","p",null,{"className":"excerpt","children":"都市計画の古典は、人が土地を覚える要素のひとつに「ランドマーク」を挙げました。宿の看板は、ゲストが最初に目にする接点であり、最後に見る記憶です。古材と古道具で看板を作る方法と、知っておくべき法規を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-scrap-wood-signboard.jpg","alt":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-forest-sound-collection","children":["← ","森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-morning-dew-mist","children":["朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"130"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}],["$","span",null,{"className":"en-only","children":"Signboard Made from Scrap Wood - Ideas for Inn Signboard Made from Reclaimed Wood and Old Tools"}],["$","span",null,{"className":"zh-only","children":"用废木头制成的招牌——用旧木头和旧工具制成的旅馆招牌创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"都市計画の古典は、人が土地を覚える要素のひとつに「ランドマーク」を挙げました。宿の看板は、ゲストが最初に目にする接点であり、最後に見る記憶です。古材と古道具で看板を作る方法と、知っておくべき法規を整理します。"}],["$","span",null,{"className":"en-only","children":"A classic of urban planning listed the \"landmark\" among the elements by which people remember a place. An inn’s sign is the first point of contact the guest sees, and the last memory they keep. How to build a sign from reclaimed wood and old tools — and the regulations to know."}],["$","span",null,{"className":"zh-only","children":"旧材料、废旧材料、旧工具。这是一些本来应该被扔掉的东西的创意集合，但经过一些修改，它们可以重生为旅馆的招牌或果园的信息板。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-scrap-wood-signboard.jpg","alt":"廃材で作る看板 — 古材・古道具で作る宿の看板アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T23b7,<p>At which sight does the traveler "find" the inn? The road from the station, the corner, the gatepost — and the sign. An inn’s first contact is mostly not the lobby or the room but <strong>the sign at the entrance</strong>. And yet, in discussions of inn-making, the sign is considered last. Order a maker’s ready-made product and be done — is that not the reality? In this article, the theme of building a sign from scrap and reclaimed wood is rethought as a story of designing the inn’s "first second."</p>
+
+<h2>1. The way of thinking — people remember a place by its landmarks</h2>
+
+<p>In urban-planning research there is a classic: Kevin Lynch’s "The Image of the City" (1960). Lynch argued that when people draw a town as a map in their heads, they use five elements: "paths," "edges," "districts," "nodes," and <strong>"landmarks."</strong> A landmark is a thing — a sign, a tower, a shop on a corner — that serves as a mark and gives direction.</p>
+
+<p>An inn’s sign takes on exactly this landmark role, single-handed. On the in-head map of a guest approaching with directions, is your sign truly planted where it belongs? Start with this question. The work of a sign is not only to convey the inn’s name. It is to hand over <strong>the ease of "we’ve arrived," and the switching of "from here, it is this inn’s time"</strong> (ANALYSIS).</p>
+
+<h2>2. CULTURE — characters written in ink leave their history in the wood</h2>
+
+<p>Japanese carpenters have long marked timber in ink. The numbers of joints, the orientation of members, the ridge-tag — traces called sumiji remain in reclaimed timber even now. In wooden construction before standardization, the ink characters were the building’s "assembly drawing." When you find faint inked numbers on old timber, most people sense there the hands of someone who worked.</p>
+
+<div class="note"><span class="tag">DID YOU KNOW?</span>Reclaimed timber carries its "history" as characters and patterns: carpenters’ ink marks giving dimensions and numbers, the traces of ants and damp, the holes of old nails. This expression, absent from new wood, sits well with the psychology by which people read history into things (the preference for the genuine original) — used in a signboard, the material itself works as the explanation.</div>
+
+<p>The essence of making a sign from scrap is not being green. It is that <strong>a material with history takes custody of the inn’s own history</strong>. If your inn’s building is fifty years old, a sign made of timber from that same generation balances with it better than any expensive new wood (InnBuddy VIEW).</p>
+
+<h2>3. Implementation (1) gather materials — where to look, and how to judge</h2>
+
+<p><strong>Sources</strong> are close at hand: a detached house, kura storehouse, or shed awaiting demolition (in consultation with the owner); local demolition contractors and old-timber dealers; dead furniture; sake crates from a brewery; the skid timber and pallets used for shipping. At the timber dealer, not the premium wood called meiboku but ordinary boards with knots suit a sign better — and cost less.</p>
+
+<p>Three points for <strong>judging material</strong>: (1) Rot — avoid wood that crumbles white and light, or with deep splits. (2) Foreign objects — pull nails and screws out, or drive them in. Visible hardware rusts and cuts hands. (3) Chemicals — old outdoor timber is often treated against rot and insects; when cutting, work outdoors with mask and gloves so as not to breathe the dust. Treated wood of uncertain history can be used for an outdoor sign, but not for guidance signs people touch often — make that distinction.</p>
+
+<h2>4. Implementation (2) build — do not add too many words</h2>
+
+<p>The most common failure in sign-making is in fact not the construction but <strong>cramming in too much information</strong>. A sign carrying the inn’s name, phone number, hours, directions, and prices exceeds what can be read in half a second from a car window. What a sign needs is, first, the <strong>name</strong>, and where needed, the <strong>direction</strong>. Everything else should be split off to a separate notice placed one step deeper.</p>
+
+<p>For putting on the letters, several methods sit well with scrap wood.</p>
+
+<ul>
+<li><strong>Carve</strong> (chainsaw, router, chisel) — the difficulty changes with the wood’s hardness, but the letters "live" in the material</li>
+<li><strong>Brand</strong> (burning with an iron or burner) — the scorched color merges with the wood’s aging</li>
+<li><strong>Write</strong> (ink, paint) — one option is to ask a local calligrapher, or the master carpenter’s ink hand</li>
+<li><strong>Add</strong> (letter plates, pictograms) — like the pictograms introduced in earnest at the 1964 Tokyo Olympics, use pictures that pass across languages</li>
+</ul>
+
+<p>The design tip is <strong>not to compete with the wood’s pattern</strong>. On wood busy with knots and ink marks, make the letters large and few. On wood close to plain, add history instead (a small brand mark, or one line on the back recording where the wood came from).</p>
+
+<h2>5. Implementation (3) raise it — the law, and the story of signs that did not fall</h2>
+
+<p>This cannot be skipped. <strong>An outdoor sign is subject to law.</strong> Under the Outdoor Advertisement Act (1965), most municipalities set ordinances regulating outdoor advertising: where signs may stand, their size, height, and method, decided area by area. In landscape and quasi-landscape districts the limits tighten further, and signs facing a road meet traffic-safety constraints as well. <strong>Before installing, confirmation with the municipality (the responsible section) is mandatory.</strong> The sign that skips this can, at worst, be ordered removed.</p>
+
+<p>Physical safety matters just as much. A sign is a structure that takes the wind continuously.</p>
+
+<ul>
+<li>Posts of a thickness and depth that bear the wood’s weight and wind pressure (wood buried directly in soil rots easily; combine with a concrete post footing or metal)</li>
+<li>Where falling would strike people or cars, reinforcement with wire</li>
+<li>Choose the height for the traffic — at drivers’ eye level (low) or pedestrians’ (around 1.2 to 1.5 meters)</li>
+<li>To be read at night, lighting that warms upward from the foot is kinder to the night sky than light aimed straight at the sign</li>
+</ul>
+
+<h2>6. Maintenance — design a scrap-wood sign on the premise that it "matures"</h2>
+
+<p>Uncoated outdoor wood silvers over in a few years and splits appear. That is a defect — and at once a property you can plan for. If you choose preservative coating, decide in advance who repaints it, every few years. If you choose weathering, then with the letters carved or branded, they stay readable as the wood ages. Add one line to the inn’s rounds — check the sign for looseness, lean, and fading — and the sign holds out on the scale of ten years.</p>
+
+<h2>7. How to tell it — the sign is the first photograph</h2>
+
+<p>Finally, write down that the sign is also an entrance for winning guests. When the first of an inn’s introduction photographs shows the entrance sign, the guest before booking has already received "the view on arrival." A reclaimed-wood sign photographs better not on a sunny day but on a morning when the rain has darkened its color (add one to your stock of photographs). If the photos on the OTAs and your own site include not the sign alone but one shot of "the sign and its landscape," you can deliver the inn’s first second to people who have not yet come.</p>
+
+<h2>Closing</h2>
+
+<p>To make a sign of scrap wood is to stand the inn’s history at its entrance. A beam from a dismantled kura, fifty years on, takes a job again — receiving guests. Call it the re-employment of materials. For what guards the first second, try not the faceless new but a piece of slightly used wood. That is what it means to rethink the sign.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling buildings, old timber, and tools, confirm structural and work safety with specialists.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-driftwood-upcycle">Driftwood and Scrap Upcycle - Ideas for Room Accessories Made from Sea and Mountain Materials</a> — the appeal of materials with history</li>
+<li><a href="#idea-craftsman-handwork">Touch Craftsman's Handwork - Ideas for Showing Handwork of Carpenter, Plasterer, Joiner, Tatami</a> — experiences that touch handwork</li>
+<li><a href="#idea-illustrated-map-local">Draw Local Map with Pictures - Ideas for Conveying Region with Illustrated Map</a> — the overall design of guidance</li>
+<li><a href="#idea-empty-house-story">Tell Story of Empty House - Ideas for Exhibiting History, Tools, Photos of Empty House</a> — handling the history of buildings</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1125,<p>本文分享一些可供尝试的想法。用废木材制成的标牌在一些旅馆被用作果园的标志，在另一些旅馆被用作客房的名称，在另一些旅馆则被用作儿童工艺品的材料。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>来自被拆除的谷仓的木板、未使用的桌面和旧配件。本来应该扔掉的东西，通过一些改变，就能变成酒店的招牌。这样的招牌的故事可能会留在您的客人的记忆中。</p><h2>用废旧材料制作招牌的创意集合</h2><ul><li><strong>老木果田标志</strong> — 用旧木头制作一个水果农场的标志。利用老木头的质感，手写“蓝莓田”、“柑橘田”等字样，营造出温馨的氛围。有一家旅馆用旧谷仓板做了一个水果农场的招牌，上面写着一个小故事，上面写着“这个招牌是用旧谷仓板做的”。果园标志背后有一个故事，让果园看起来更有吸引力。</li><li><strong>用废木料为客房命名</strong> — 用废木头为客房命名。这个想法是在旧木头上写下房间的名称或使用旧工具作为房间的名称。有些旅馆的客房以“橘子”、“蓝莓”、“柚子”等水果命名，招牌也用这些果树的废木制成。</li><li><strong>用旧工具当招牌</strong> ——以旧农具、农具为标志。这个想法是使用旧木梯作为招牌衣架或旧木箱作为招牌。一家旅馆用一个旧水果篮作为招牌，上面写着“这个篮子曾经是用来收获水果的”。</li><li><strong>与孩子们一起制作标语</strong> — 使用废木料制作小标牌对孩子来说是一种体验。在废木头上画画、写名字的经历将留在孩子们的记忆中。为了安全起见，最好把边角圆化或者准备小材料。</li><li><strong>讲述标志的故事</strong> — 一块小板将讲述该标志的来源以及它如何成为标志的故事。一家旅馆的果园招牌旁边有一个小故事，上面写着：“这个招牌是用旧谷仓板制成的。”有一个故事会让人对这个招牌产生依恋。</li></ul><h2>海外住宿案例——带有废木招牌的旅馆创意</h2><p>在北欧的乡村旅馆里，用废木料制作的招牌已经成为生活的一部分。古木制成的招牌，营造出旅馆的风景。在东南亚岛屿上的旅馆中，用废木制成的招牌赋予了旅馆独特的个性。由废弃材料制成的招牌作为展示可持续生活的想法在海外引起了关注。</p><p>您的住处是否有任何应该扔掉的物品？通过查看旧材料和旧工具，您也许能够想出新标志的想法。</p><h2>果田和废木标志创意</h2><p>在设有果园的旅馆里，用废木制作的招牌是传达果园魅力的工具。在一家旅馆，果园的招牌完全是用废木料制成的，招牌的背面写着一个小故事，叫做“这块招牌的故事”。有些旅馆收集招牌上的故事，把它们编成一本小书。</p><p>即使您的旅馆内没有果园，您仍然可以使用废木料为花园中的树木和花卉制作标志。为什么不从一个小标志开始呢？</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — —废木招牌的故事，或许会勾起对客栈的回忆。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。在收集或处理废料之前，请检查安全和当地法规并咨询专家。加工时请充分注意安全。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>用旧木头为果田制作一个小标志</strong> — 旧板上手绘的标志，例如“蓝莓田”</li><li><strong>用废木头创造一个客房名称</strong> — 在旧木头等上写下水果的名称。</li><li><strong>用旧工具当招牌</strong> — 将旧水果篮和木箱变成标志</li><li><strong>为标志写一个故事</strong> — 一个关于废木头从何而来以及如何成为标志的小故事。</li><li><strong>策划儿童标牌制作项目</strong> ——来自在废木头上作画的经验</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-forest-sound-collection","children":["- ",["$","span",null,{"className":"ja-only","children":"森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア"}],["$","span",null,{"className":"en-only","children":"Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room"}],["$","span",null,{"className":"zh-only","children":"收集森林的声音——在客房享受森林、河流和风的声音的想法"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-morning-dew-mist","children":[["$","span",null,{"className":"ja-only","children":"朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Enjoy Morning Dew and Mist - Ideas for Making Early Morning Satoyama into Experience"}],["$","span",null,{"className":"zh-only","children":"享受晨露和晨雾——清晨里山体验的创意"}]," -"]}]]}]
+10:null

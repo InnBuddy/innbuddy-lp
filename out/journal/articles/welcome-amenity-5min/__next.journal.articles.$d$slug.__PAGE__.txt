@@ -1,15 +1,168 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_welcome-amenity-5min.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1cdc,<p>ウェルカムアメニティは<strong>「最初の5分の設計」</strong>です。お茶とお菓子、ではなく。ゲストが到着してからの最初の5分で、宿の印象の大部分は決まります。本記事は、その5分を設計する基礎編です(お迎えの言葉と所作——立ち方、お辞儀、最初の一言——は、<a href="#omotenashi-arrival-departure">「お迎え」と「お見送り」— 日本的なおもてなしサービスの2点</a>が扱います。ここは、手に持つものと体のほうの5分です)。</p><h2>旅籠は、旅人の最初の5分を知っていた</h2><p>江戸の旅人が旅籠に着いたとき、最初に何をしたでしょうか。『東海道中膝栗毛』(1802年)の戸塚の宿の場面では、女中がまず<strong>足すすぎのたらいに湯</strong>をくんできて荷物を座敷へ運び、弥次さん喜多さんはたらいの湯で足と脚絆をすすぎ、それから座敷に上がって茶を出させます。広重の東海道五十三次にも、たらいで足をすすぐ旅人の姿が描かれています。</p><div class="stats"><span class="tag">FACT</span><strong>江戸の旅籠で、旅人が到着してまず行ったのは「足を洗うこと」だった——女中が足すすぎのたらいに湯をくみ、旅人は足と脚絆を洗ってから座敷に上がり、茶を受けた。『東海道中膝栗毛』の宿泊の場面や広重の浮世絵に、その光景が描かれている</strong> — 旅籠の最初の数分は、物でなく「体への対応」から始まっていた</div><p>ここには、現代のウェルカムアメニティの設計がほとんどそのまま入っています。旅は<strong>体で来る</strong>——足は歩き、喉は渇き、肌は汗をかいている。旅籠は旅人の心より先に、体に対応した。足を洗う湯(移動の疲れ)、手拭い(汗と埃)、茶(渇き)。最初の5分とは、おもてなしの気持ちを示す場ではなく、<strong>体を元に戻す5分</strong>だったのです。</p><h2>3秒と5分</h2><p>宿の第一印象は、到着して3秒でざっくり決まると言われます(玄関の香り、明るさ、人の顔)。そしてその印象が、体験に変わるか消えるかを分けるのが、このあとの5分です。3秒の印象を5分の体験に延ばす——その延長線上に、ウェルカムアメニティがあります。到着までの不安を解く設計は、<a href="#guest-journey-map">ゲスト体験の全体像 — 「接点」をmapで見る方法</a>が、客室に入った瞬間の香りの設計は、<a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a>が扱います。ここは、その間の5分の話です。</p><h2>設計の3点 — 冷たい・一口・物語</h2><ol><li><strong>冷たい一杯</strong> — 到着した体は、たいてい渇いています。季節と到着のしかたで選ぶ——暑い日は冷たいお茶やハーブティー、寒い日は温かい一杯。旅籠のたらいの湯と同じで、「今の体」に合わせることが、一番の気付きに見えます。</li><li><strong>一口のお菓子</strong> — 一口で食べられるもの。クッキー、和菓子、ドライフルーツ。大きな菓子は、最初の5分に「食べる作業」を増やします。</li><li><strong>物語の1行</strong> — 「このお茶は、隣の農家さんのものです」。1行で十分です。最初の5分は説明を詰め込む時間ではありません。</li></ol><h2>運用の3点 — 1人分・5分以内・状況</h2><ul><li><strong>1人分ずつ</strong> — 大皿ではなく、小さな器に1人分。人数分が並んだ器を見たとき、人は「自分のために用意してくれた」を感じます。</li><li><strong>5分以内</strong> — 15時に到着が集中する宿では、「5分以内」が最も破綻しやすい約束です。忙しい時間帯は、お盆に載せておく、客室の前にあらかじめ置いておく——仕組みで守る。</li><li><strong>状況に合わせる</strong> — 子連れには子ども向けの一口を。雨の日には、濡れた荷物を受け取るタオルを。移動の種類を読む——歩いて来た人、車で来た人、自転車やバイクで来た人では、渇きと疲れの場所が違います。旅籠が草鞋の足を見たように、<strong>到着のしかたを見る</strong>ことから、気付きは始まります。</li></ul><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>おしぼりで迎える習慣は、旅籠が旅人に差し出した手拭いの文化の流れを汲む、日本の接客の風景とされます</strong> — 汗を拭くという「体への対応」が、そのまま歓迎のあいさつになった</div><h2>反対側 — 5分が宿を疲れさせるとき</h2><ul><li><strong>記念品化</strong> — 高級菓子の盛り合わせは、もらい物で終わります。最初の5分で語られるべきは、宿の格式でなく体への気づきです。</li><li><strong>衛生と表示</strong> — 食べ物には期限と原材料の1行を。生ものと夏場の扱いには、特に。一口のお菓子にも、アレルギーの客人には説明が要ります。</li><li><strong>物語の詰め込み</strong> — 生産者、製法、こだわりを最初の5分に語ると、お茶は冷め、客は疲れます。物語は1行。続きは食事の時間に。</li><li><strong>手作りの重荷</strong> — 毎日用意できないものを毎日出すと、3日目に現場が壊れます。続けられる形を最初から選ぶ。</li><li><strong>放っておく優しさ</strong> — 深夜着、疲れ切った帰りの一組には、そっと置いて引くことが正解のときがあります。気付きとは、言葉の量ではありません。</li></ul><p>最初の一歩は、明日の15時に間に合わせる3点です。冷たい一杯、一口のお菓子、1行の物語。旅籠がたらいの湯で旅人の足を洗ったように、最初の5分は<strong>体から入る</strong>——それが何百年も前から変わらない、この国の宿の迎え方なのです。</p><div class="note">この記事はアイデア共有を目的としています。旅籠の「足洗い」は『東海道中膝栗毛』の描写や広重の浮世絵に基づく、江戸の旅文化の一般的な知見として紹介しています(執筆時点)。食品の提供には食品衛生法等の指針(アレルギー表示を含む)に沿ってください。</div><h2>次に読む</h2><ul><li><a href="#omotenashi-arrival-departure">「お迎え」と「お見送り」— 日本的なおもてなしサービスの2点</a> — 言葉と所作のお迎えの話</li><li><a href="#guest-journey-map">ゲスト体験の全体像 — 「接点」をmapで見る方法</a> — 到着前の不安の話</li><li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 客室の香りと音の話</li><li><a href="#upgrade-sales-checkin">アップグレード販売 — チェックイン時の「一つ上の部屋」</a> — チェックインの一手の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","084"]}]]}],["$","h1",null,{"children":"ウェルカムアメニティ — 「最初の5分」の設計"}],["$","p",null,{"className":"excerpt","children":"最初の5分で「この宿、好き」が決まる。江戸の旅籠が旅人の第一に足を洗う湯を用意したように、体から入る最初の5分の設計を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_welcome-amenity-5min.jpg","alt":"ウェルカムアメニティ — 「最初の5分」の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.07"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/upgrade-sales-checkin","children":["← ","アップグレード販売 — チェックイン時の「一つ上の部屋」"]}],["$","$L2",null,{"href":"/journal/articles/sleep-experience-pillow","children":["睡眠体験 — 「ピロウメニュー」の基本"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1cdc,<p>ウェルカムアメニティは<strong>「最初の5分の設計」</strong>です。お茶とお菓子、ではなく。ゲストが到着してからの最初の5分で、宿の印象の大部分は決まります。本記事は、その5分を設計する基礎編です(お迎えの言葉と所作——立ち方、お辞儀、最初の一言——は、<a href="#omotenashi-arrival-departure">「お迎え」と「お見送り」— 日本的なおもてなしサービスの2点</a>が扱います。ここは、手に持つものと体のほうの5分です)。</p><h2>旅籠は、旅人の最初の5分を知っていた</h2><p>江戸の旅人が旅籠に着いたとき、最初に何をしたでしょうか。『東海道中膝栗毛』(1802年)の戸塚の宿の場面では、女中がまず<strong>足すすぎのたらいに湯</strong>をくんできて荷物を座敷へ運び、弥次さん喜多さんはたらいの湯で足と脚絆をすすぎ、それから座敷に上がって茶を出させます。広重の東海道五十三次にも、たらいで足をすすぐ旅人の姿が描かれています。</p><div class="stats"><span class="tag">FACT</span><strong>江戸の旅籠で、旅人が到着してまず行ったのは「足を洗うこと」だった——女中が足すすぎのたらいに湯をくみ、旅人は足と脚絆を洗ってから座敷に上がり、茶を受けた。『東海道中膝栗毛』の宿泊の場面や広重の浮世絵に、その光景が描かれている</strong> — 旅籠の最初の数分は、物でなく「体への対応」から始まっていた</div><p>ここには、現代のウェルカムアメニティの設計がほとんどそのまま入っています。旅は<strong>体で来る</strong>——足は歩き、喉は渇き、肌は汗をかいている。旅籠は旅人の心より先に、体に対応した。足を洗う湯(移動の疲れ)、手拭い(汗と埃)、茶(渇き)。最初の5分とは、おもてなしの気持ちを示す場ではなく、<strong>体を元に戻す5分</strong>だったのです。</p><h2>3秒と5分</h2><p>宿の第一印象は、到着して3秒でざっくり決まると言われます(玄関の香り、明るさ、人の顔)。そしてその印象が、体験に変わるか消えるかを分けるのが、このあとの5分です。3秒の印象を5分の体験に延ばす——その延長線上に、ウェルカムアメニティがあります。到着までの不安を解く設計は、<a href="#guest-journey-map">ゲスト体験の全体像 — 「接点」をmapで見る方法</a>が、客室に入った瞬間の香りの設計は、<a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a>が扱います。ここは、その間の5分の話です。</p><h2>設計の3点 — 冷たい・一口・物語</h2><ol><li><strong>冷たい一杯</strong> — 到着した体は、たいてい渇いています。季節と到着のしかたで選ぶ——暑い日は冷たいお茶やハーブティー、寒い日は温かい一杯。旅籠のたらいの湯と同じで、「今の体」に合わせることが、一番の気付きに見えます。</li><li><strong>一口のお菓子</strong> — 一口で食べられるもの。クッキー、和菓子、ドライフルーツ。大きな菓子は、最初の5分に「食べる作業」を増やします。</li><li><strong>物語の1行</strong> — 「このお茶は、隣の農家さんのものです」。1行で十分です。最初の5分は説明を詰め込む時間ではありません。</li></ol><h2>運用の3点 — 1人分・5分以内・状況</h2><ul><li><strong>1人分ずつ</strong> — 大皿ではなく、小さな器に1人分。人数分が並んだ器を見たとき、人は「自分のために用意してくれた」を感じます。</li><li><strong>5分以内</strong> — 15時に到着が集中する宿では、「5分以内」が最も破綻しやすい約束です。忙しい時間帯は、お盆に載せておく、客室の前にあらかじめ置いておく——仕組みで守る。</li><li><strong>状況に合わせる</strong> — 子連れには子ども向けの一口を。雨の日には、濡れた荷物を受け取るタオルを。移動の種類を読む——歩いて来た人、車で来た人、自転車やバイクで来た人では、渇きと疲れの場所が違います。旅籠が草鞋の足を見たように、<strong>到着のしかたを見る</strong>ことから、気付きは始まります。</li></ul><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>おしぼりで迎える習慣は、旅籠が旅人に差し出した手拭いの文化の流れを汲む、日本の接客の風景とされます</strong> — 汗を拭くという「体への対応」が、そのまま歓迎のあいさつになった</div><h2>反対側 — 5分が宿を疲れさせるとき</h2><ul><li><strong>記念品化</strong> — 高級菓子の盛り合わせは、もらい物で終わります。最初の5分で語られるべきは、宿の格式でなく体への気づきです。</li><li><strong>衛生と表示</strong> — 食べ物には期限と原材料の1行を。生ものと夏場の扱いには、特に。一口のお菓子にも、アレルギーの客人には説明が要ります。</li><li><strong>物語の詰め込み</strong> — 生産者、製法、こだわりを最初の5分に語ると、お茶は冷め、客は疲れます。物語は1行。続きは食事の時間に。</li><li><strong>手作りの重荷</strong> — 毎日用意できないものを毎日出すと、3日目に現場が壊れます。続けられる形を最初から選ぶ。</li><li><strong>放っておく優しさ</strong> — 深夜着、疲れ切った帰りの一組には、そっと置いて引くことが正解のときがあります。気付きとは、言葉の量ではありません。</li></ul><p>最初の一歩は、明日の15時に間に合わせる3点です。冷たい一杯、一口のお菓子、1行の物語。旅籠がたらいの湯で旅人の足を洗ったように、最初の5分は<strong>体から入る</strong>——それが何百年も前から変わらない、この国の宿の迎え方なのです。</p><div class="note">この記事はアイデア共有を目的としています。旅籠の「足洗い」は『東海道中膝栗毛』の描写や広重の浮世絵に基づく、江戸の旅文化の一般的な知見として紹介しています(執筆時点)。食品の提供には食品衛生法等の指針(アレルギー表示を含む)に沿ってください。</div><h2>次に読む</h2><ul><li><a href="#omotenashi-arrival-departure">「お迎え」と「お見送り」— 日本的なおもてなしサービスの2点</a> — 言葉と所作のお迎えの話</li><li><a href="#guest-journey-map">ゲスト体験の全体像 — 「接点」をmapで見る方法</a> — 到着前の不安の話</li><li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 客室の香りと音の話</li><li><a href="#upgrade-sales-checkin">アップグレード販売 — チェックイン時の「一つ上の部屋」</a> — チェックインの一手の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"084"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"ウェルカムアメニティ — 「最初の5分」の設計"}],["$","span",null,{"className":"en-only","children":"Welcome Amenity: Designing the First Five Minutes"}],["$","span",null,{"className":"zh-only","children":"欢迎礼品——“前 5 分钟”设计"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"最初の5分で「この宿、好き」が決まる。江戸の旅籠が旅人の第一に足を洗う湯を用意したように、体から入る最初の5分の設計を整理します。"}],["$","span",null,{"className":"en-only","children":"\"I like this place\" is decided in the first five minutes. As Edo’s hatago inns first offered travelers a basin of hot water to wash their feet, the design of the first five minutes — entering through the body."}],["$","span",null,{"className":"zh-only","children":"您将在前5分钟内决定是否喜欢这家旅馆。有关迎宾设施设计的基础文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_welcome-amenity-5min.jpg","alt":"ウェルカムアメニティ — 「最初の5分」の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.07"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1c7c,<p>The welcome amenity is <strong>"the design of the first five minutes."</strong> Not the tea and the sweets as such. In the first five minutes after a guest arrives, the greater part of the property’s impression is decided. This article is the foundation for designing those five minutes (the words and gestures of the welcome — how to stand, how to bow, the first sentence — are handled by <a href="#omotenashi-arrival-departure">Omotenashi Arrival and Departure: Two Points of Japanese Hospitality</a>. Here it is the five minutes of what the hands hold, and of the body).</p>
+
+<h2>The hatago knew the traveler’s first five minutes</h2>
+
+<p>When an Edo traveler reached a hatago inn, what did they do first? In the Totsuka post station scene of the "Tōkaidōchū Hizakurige" (1802), the serving maid first brings <strong>a basin of hot water for rinsing the feet</strong> and carries the luggage to the room; Yaji-san and Kita-san rinse their feet and gaiters in the basin, and only then go up into the room and have tea served. Hiroshige’s Fifty-three Stations of the Tōkaidō also depicts travelers rinsing their feet in a basin.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>At Edo hatago inns, what a traveler did first on arriving was "wash the feet" — the maid drew hot water into a rinsing basin, and the traveler washed feet and gaiters before going up to the room and receiving tea. The scene appears in the lodging passages of the "Tōkaidōchū Hizakurige" and in Hiroshige’s ukiyo-e</strong> — The first minutes of the hatago began not with things but with "care of the body."</div>
+
+<p>Here, almost intact, is the design of the modern welcome amenity. A trip <strong>arrives in the body</strong> — the feet have walked, the throat is dry, the skin has sweated. The hatago cared for the traveler’s body before their heart. Hot water for the feet (the fatigue of travel), a hand towel (sweat and dust), tea (thirst). The first five minutes were not a stage for showing hospitality’s sentiment, but <strong>five minutes for putting the body back</strong>.</p>
+
+<h2>3 seconds, and 5 minutes</h2>
+
+<p>A property’s first impression is said to be roughly decided within three seconds of arrival (the entrance’s scent, the brightness, a person’s face). And what decides whether that impression becomes an experience or vanishes is the five minutes after it. Stretching the three-second impression into a five-minute experience — on that line lies the welcome amenity. The design that dissolves anxiety before arrival is handled by <a href="#guest-journey-map">The Whole Guest Experience: Mapping the Touchpoints</a>, and the design of scent at the moment of entering the room by <a href="#scent-music-five-senses">Scent & Sound — A Stay the Five Senses Remember</a>. Here: the five minutes in between.</p>
+
+<h2>3 points of design — cold, one bite, one line of story</h2>
+
+<ol>
+<li><strong>One cold drink</strong> — The arrived body is usually thirsty. Choose by season and by the manner of arrival — cold tea or herbal tea on a hot day, a warm cup on a cold one. As with the hatago’s basin, matching "the body right now" is what looks most like kizuki.</li>
+<li><strong>One bite of sweets</strong> — Something eaten in a single bite. A cookie, a Japanese sweet, dried fruit. A large sweet only adds "the work of eating" to the first five minutes.</li>
+<li><strong>One line of story</strong> — "This tea is from the farm next door." One line is enough. The first five minutes are not the time to pack in explanations.</li>
+</ol>
+
+<h2>3 points of operation — per person, within 5 minutes, by situation</h2>
+
+<ul>
+<li><strong>One serving per person</strong> — Not a large shared plate, but a small dish per guest. Seeing the dishes lined up by headcount, a person feels "this was prepared for me."</li>
+<li><strong>Within 5 minutes</strong> — At properties where arrivals concentrate at 3 p.m., "within five minutes" is the promise most easily broken. For busy hours, guard it with mechanism: set it on a tray, place it in front of the room beforehand.</li>
+<li><strong>Match the situation</strong> — A child’s bite for the family with children. On a rainy day, a towel for taking the wet luggage. Read the manner of arrival — the person who came walking, by car, by bicycle or motorcycle: the place of thirst and fatigue differs. As the hatago looked at straw-sandaled feet, <strong>kizuki begins with watching how the guest arrives</strong>.</li>
+</ul>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>The custom of welcoming with an oshibori (a damp rolled towel) is counted as a scene of Japanese service descending from the hand-towel culture the hatago offered travelers</strong> — Care of the body — wiping sweat — became, as it was, the greeting of welcome.</div>
+
+<h2>The other side — when the five minutes exhaust the property</h2>
+
+<ul>
+<li><strong>Becoming a gift set</strong> — An arrangement of luxury sweets ends as a present received. What the first five minutes should speak of is not the property’s formality but notice of the body.</li>
+<li><strong>Hygiene and display</strong> — For food, one line of expiry and ingredients. Especially for fresh items and in summer. Even a one-bite sweet needs its explanation for guests with allergies.</li>
+<li><strong>Packing in the story</strong> — Tell the producer, the method, the particularity in the first five minutes, and the tea goes cold and the guest tires. The story, one line. The rest, at mealtime.</li>
+<li><strong>The weight of handmade</strong> — Serve what cannot be prepared daily, every day, and on the third day the floor breaks. Choose a sustainable form from the start.</li>
+<li><strong>The kindness of leaving alone</strong> — For a late-night arrival, a couple worn out from the journey home, quietly placing it and withdrawing can be the right answer. Kizuki is not a matter of the volume of words.</li>
+</ul>
+
+<p>The first step is the three items to have ready by 3 p.m. tomorrow. One cold drink, one bite of sweets, one line of story. As the hatago washed the traveler’s feet with a basin of hot water, the first five minutes <strong>enter through the body</strong> — that is this country’s unchanged way of welcoming, unchanged for hundreds of years.</p>
+
+<div class="note">This article is intended for sharing ideas. The hatago’s "foot-washing" is introduced as general knowledge of Edo travel culture, based on the depiction in the "Tōkaidōchū Hizakurige" and Hiroshige’s ukiyo-e (as of writing). Please serve food along the guidance of the Food Sanitation Act and related rules (including allergen labeling).</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#omotenashi-arrival-departure">Omotenashi Arrival and Departure: Two Points of Japanese Hospitality</a> — the welcome in words and gesture</li>
+<li><a href="#guest-journey-map">The Whole Guest Experience: Mapping the Touchpoints</a> — the anxiety before arrival</li>
+<li><a href="#scent-music-five-senses">Scent & Sound — A Stay the Five Senses Remember</a> — the room’s scent and sound</li>
+<li><a href="#upgrade-sales-checkin">Upgrade Sales: One Room Up at Check-In</a> — the one move at check-in</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T16cf,<p>欢迎礼品<strong>“前 5 分钟进行设计”</strong>。许多旅馆将迎宾小品视为“茶和糖果”，并认为提供这些就可以了。然而，如果你从不同的角度来看，迎宾设施是为“前五分钟”设计的。客人到达您的旅馆后的前五分钟将决定他们对您的旅馆的印象。迎宾礼品是一种让客人在入住五分钟内感受到“这家酒店在为我着想”的工具。本文整理了如何设计迎宾礼品，不仅仅是茶和糖果，而是前 5 分钟。</p>
+
+<h2>1. 为什么前5分钟——3秒和5分钟的第一印象</h2>
+<ul>
+<li><strong>第一印象在 3 秒内形成：</strong>客人对酒店的第一印象是在抵达后 3 秒内形成的。无论是入口处的香味、工作人员的笑容，还是休息室的明亮度，只需3秒就能决定这家酒店好看与否。迎宾礼品是一种将 3 秒的第一印象延长为 5 分钟的体验的工具。</li>
+<li><strong>在前 5 分钟内让他们感觉“这家酒店正在考虑我”：</strong>重要的是要让客人在到达旅馆后的五分钟内感觉到“这家旅馆正在为他们着想”。迎宾礼品是一种让人们在前五分钟内感觉“人们在想着我”的工具。例如：“谢谢你的辛勤工作。请喝点冷茶。” “一定很热。请喝点凉凉茶。”通过提供符合客人情况的信息，客人会感觉到您在为他们着想。</li>
+<li><strong>前5分钟讲述“客栈的故事”：</strong>迎宾礼品也是一个在前五分钟内讲述客栈故事的工具。例如：“这茶是隔壁农民做的”，或者“这甜品是用当地啤酒厂的啤酒做的。”通过添加故事，客人可以了解“旅馆的故事”。</li>
+</ul>
+
+<h2>2.设计三点——冷、咬、故事</h2>
+<ol>
+<li><strong>寒冷——抵达的客人口渴：</strong>客人抵达客栈，长途跋涉都口渴了。提供冷饮，如冷茶、花草茶或果汁，会让您的客人感到“焕发活力”。冷饮是在前五分钟内安抚客人的好方法。</li>
+<li><strong>咬一口——一口就能吃完的甜食：</strong>迎宾甜食应该是可以一口吃完的甜食。客人可能会发现很难吃大蛋糕或需要咬几口的糖果。客人觉得可以一口气吃完的零食（例如饼干、日式点心、干果等）很容易吃。</li>
+<li><strong>故事——关于当地材料和生产者的一句话：</strong>用迎宾礼品讲述一个故事。客人可以通过添加当地食材和有关生产者的台词来“品味故事”，例如“这茶是隔壁农民制作的”或“这种糖果是用当地啤酒厂的啤酒制成的”。</li>
+</ol>
+
+<h2>3、操作——一次1人，5分钟内，根据客人情况量身定制</h2>
+<ul>
+<li><strong>准备一份：</strong>将为每位客人提供迎宾礼品。通过将单独的部分盛在小盘子或杯子上而不是盛在大盘子上，您的客人会觉得食物是专门为他们准备的。为每个人准备食物是待客之道的基础。</li>
+<li><strong>5 分钟内上菜：</strong>客人抵达后 5 分钟内将提供迎宾礼品。如果超过5分钟，客人就会觉得还没有结束。 5分钟内提供服务，让客人感觉立即得到服务。</li>
+<li><strong>适应客人情况：</strong>根据客人的情况提供迎宾礼品。例如：热天的冷茶、冷天的热茶、给带孩子的客人准备儿童糖果等等。通过适应客人的情况，让客人感觉你在为他们着想。</li>
+</ul>
+
+<div class="stats"><span class="tag">数值示例</span><strong>例如，若施策前的“员工很棒”的点评为每月10条，则提高约32%至每月13条可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — —欢迎的礼物不是“茶和糖果”，而是“前5分钟的设计”。前五分钟要设计一个冷酷、咬人的故事。判断效果时，请用相同的统计方法记录并比较施策前后30天的“员工很棒”的点评与回头率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>迎宾礼品的精髓<strong>“前5分钟”</strong>。在最初的5分钟内让人们有“这家旅馆在想我”的感觉，会导致重复入住。用冷饮、小份零食以及当地食材和生产商的故事来设计您的前五分钟。待客之道的基础是在 5 分钟内为每位客人提供服务，并根据每位客人的情况量身定制。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：与员工讨论当前的迎宾礼品问题</strong> — 与工作人员讨论我们当前迎宾礼品的冷度、份量和故事。检查客人是否会说“味道好极了”或“我很高兴”之类的话。</li>
+<li><strong>第 2 周：根据三点选择新的迎宾礼品：寒冷、美味和故事。</strong> — 新增三款迎宾礼品：冷饮（茶、花草茶、果汁等）、一口甜食（饼干、日式点心、干果等）以及当地食材和制作者的故事。</li>
+<li><strong>第 3 周：练习单独准备一份食物并在 5 分钟内上菜。</strong> — 在单独的盘子或杯子上准备新的迎宾礼品，并练习在客人抵达后五分钟内提供这些礼品。包括适应客人情况的练习。</li>
+<li><strong>第 4 周：向员工传达欢迎礼仪作为“设计的前 5 分钟”</strong> — 与员工沟通，迎宾礼品不仅仅是“茶和糖果”，而是“前 5 分钟的设计”。在前五分钟内，向客人解释让客人感觉到酒店正在为他们着想，这一点很重要。</li>
+<li><strong>延续：继续设计前5分钟</strong> ——不断完善“首个五分钟设计”的迎宾体验。我们继续根据客人的情况设计前五分钟三点：冷、咬、故事。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/upgrade-sales-checkin","children":["- ",["$","span",null,{"className":"ja-only","children":"アップグレード販売 — チェックイン時の「一つ上の部屋」"}],["$","span",null,{"className":"en-only","children":"Upgrade Sales: One Room Up at Check-In"}],["$","span",null,{"className":"zh-only","children":"升级销售——登记入住时“升级一个房间”"}]]}],["$","$L8",null,{"href":"/journal/articles/sleep-experience-pillow","children":[["$","span",null,{"className":"ja-only","children":"睡眠体験 — 「ピロウメニュー」の基本"}],["$","span",null,{"className":"en-only","children":"Sleep Experience: Basics of the Pillow Menu"}],["$","span",null,{"className":"zh-only","children":"睡眠体验——“枕头菜单”的基础"}]," -"]}]]}]
+10:null

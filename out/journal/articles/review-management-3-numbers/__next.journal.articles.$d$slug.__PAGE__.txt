@@ -1,15 +1,185 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_review-management.jpg","image"]
 :HL["/library/journal/ai_guest-data-river.jpg","image"]
 :HL["/library/journal/ai_instagram-cold-start.jpg","image"]
 :HL["/library/journal/ai_landing-page-3-seconds.jpg","image"]
-3:T2240,<p>同じ宿なのに、数字の見せ方で全く違う宿に見える——それがレビューの面白さです。スコアは4.8なのに件数が8件の宿と、スコア4.3で件数480件の宿。旅人はどちらを選ぶでしょうか。答えは、もう一つの数字「新しさ」で変わります。この記事は、レビューを「スコア・件数・新しさ」の3つの数字で読み、運用する基本の話です。そして最後に、3つ目より大事な、第4の数字を提案します。</p><h2>研究が示す — レビューは値付けの材料である</h2><p>まず、数字の重さを裏付ける研究を一つ。2012年、コーネル大学ホテル経営大学院のクリス・アンダーソンが、レビューと宿の売上の関係を初めて包括的に定量分析した研究を発表しました。その中で、米国の予約サイトの取引データから、5点満点のレビュースコアが1点上がると(例えば3.3から4.3へ)、価格を約11.2%上げても同じ占有率(選ばれる確率)を維持できると試算されています。さらに、評判指標と宿の売上データを突き合わせると、評判スコアが1%上がるごとに、平均単価が最大0.89%、稼働率が最大0.54%、RevPARが最大1.42%上がるという関係も報告されました。</p><div class="stats"><span class="tag">RESEARCH</span><strong>コーネル大学ホテル経営大学院の研究(アンダーソン、2012)は、5点満点のレビュースコアが1点上がると、価格を約11.2%上げても同じ占有率を維持できると試算。評判スコア1%の上昇は、平均単価最大0.89%・稼働率最大0.54%・RevPAR最大1.42%の上昇と関係すると報告した</strong> — レビューは宿の評判ではなく、値付けの材料である。</div><p>この数字の意味は、「良いレビューを集めると得」ではありません。レビューのスコアが、宿が値段を決める根拠の一部になる、ということです。4.5や4.7というラインが「価格を引き上げるシグナル」と言われる理由の裏付けです。ただし、この研究は米国のデータに基づく相関関係の分析であり、日本の小さな宿にそのまま当てはまる保証はない。読み方は「方向の信頼性」と「大きさの目安」です。</p><h2>3つの数字の各論</h2><ol><li><strong>スコア — 品質の線</strong> — 運用の目安として、4.5が標準のライン、4.7以上が「価値を認められる線」と読まれます(あくまで運用上の目安)。ただし、スコアそのものより次のゲストに見えるのは「低評価への返信」です。返信の言葉の作法は、レビュー返信の記事に譲ります。</li><li>件数 — <strong>実績の厚み</strong> — 件数は信頼の厚さです。おおむね100件で「実績あり」、500件で「厚い」と読まれる(これも運用の目安)。件数は「積み上げ」でしか増えません。焦って依頼を増やしても、質の薄いレビューは厚みになりません。</li><li><strong>新しさ — 今もそう、の証拠</strong> — 旅人は直近のレビューを読みます。3年前の高評価より、先月の普通の声。ここに、興味深い研究があります。2011年、オーストラリアの研究者たち(スパークスとブラウニング)は、ホテルのレビューと予約意向の関係を実験で調べ、最近のポジティブなレビューの存在が、ネガティブなレビューの集まりの影響を緩和し得ることを報告しました。つまり「新しさ」は、過去の傷を今日の声で上書きできる、数少ない武器です。</li></ol><div class="stats"><span class="tag">RESEARCH</span><strong>スパークスとブラウニングの研究(2011、Tourism Management)は、最近のポジティブなレビューの存在が、ネガティブなレビュー群の予約意向への影響を緩和し得ることを実験で示した</strong> — 「直近30日に新しい良い声があるか」は、印象論ではなく読み方の根拠を持つ。</div><h2>運用のサイクル — 依頼・返信・予防</h2><p>3つの数字を回すのは、次のサイクルです。①依頼——チェックアウトの直後に、感想を伺う(QRコード一枚で良い。満足が残っている時間に)。②全件返信——72時間以内に、低評価ほど丁寧に。③低評価の予防——多くの低評価は、写真と実際の乖離、総額の見え方、待ち時間の3点に集まります。予防はそれぞれ専門の記事があります。</p><h2>低評価の3分類</h2><p>低評価が来たら、まず3つに分けます。<strong>事実の指摘</strong>(設備の不具合、清掃の漏れ)は、改善して返信に「〜しました」と書く——返信は過去の客でなく未来の客への報告です。<strong>好みの違い</strong>(静かすぎる、田舎すぎる)は、受容し、事実だけ補足する——直せないものを直そうとしない。<strong>安全・衛生の指摘</strong>は、正式な謝罪と対応の報告が必要で、これはクレーム対応(サービスリカバリー)の記事の領域です。</p><h2>第4の数字 — 返信率</h2><p>最後に提案です。スコア・件数・新しさの3つは、すべてゲストが作る数字です。宿は直接的には動かせない。しかし、もう一つ、宿だけが作れる数字があります。返信率です。全レビューのうち、何割に宿が返信しているか。この数字だけは、今日から100%にできます。そして返信は、次に読むすべての旅人への宿の声明文です。スコアが4.3でも、返信率100%の宿は、4.8で放置されている宿より信頼されます——これは誇張ではなく、返信が「読まれるコンテンツ」である以上、自然な帰結です。</p><h2>レビュー運営の反対側</h2><ul><li><strong>依頼の押し付け</strong> — チェックアウトの満足を、数字の回収の場にしない。依頼は一度、笑顔で。「書いていただけると嬉しい」まで。</li><li><strong>偽レビューと報酬</strong> — レビューへの報酬や自作自演は、予約サイトでも地図でも規約違反です。見つかった時の信頼の失い方は、低評価の一つとは比べ物になりません。</li><li><strong>低評価への長い言い訳</strong> — 言い訳は未来の客への説明ではなく、過去の客との喧嘩の記録として読まれます。返信は3行で足りる。</li><li><strong>件数の競争</strong> — 件数は結果であって目標ではない。件数を増やすために泊まり心地を削る本末転倒は、起きていないでしょうか。</li><li><strong>スコアだけを見る経営</strong> — 4.8の宿も、良いレビューが1年前で止まれば新しさで崩れます。3数字は常に3つ一緒に見る。</li><li><strong>数字への依存</strong> — 紹介した研究は相関の分析で、効果の保証ではありません。数字は道具であり、宿の本体は泊まる体験です。</li></ul><p>今月やることは、3つの数字を書き出すことです。スコア・件数・直近30日の声。電卓も何も要らない、レビューページを開いて10分。そして返信がまだなら、一番新しいレビューに3行、返事を書く。第4の数字は、そこから今日100%になります。</p><div class="note">この記事はアイデア共有を目的としています。記載の研究は米国・オーストラリアのデータに基づく分析の紹介であり、日本の宿の効果を保証するものではありません。数字の目安(4.5、100件、72時間等)は運用上の参考値です。</div><h2>次に読む</h2><ul><li><a href="#review-replies-trust">感謝のメッセージが届きました — レビュー返信で信頼を積む</a> — 返信の言葉の作法の話</li><li><a href="#service-recovery-basics">サービスリカバリー — クレームを信頼に変える「一手」</a> — 安全・衛生の指摘への対応の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 依頼のタイミングを作る体験の話</li><li><a href="#inbound-reviews-reading">インバウンドレビュー — 英語レビューの読み方と返信の基本</a> — 海外のゲストの声を読む話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"children":["ARTICLE ","015"]}]]}],["$","h1",null,{"children":"レビュー運営 — 「スコア・件数・新しさ」の基本"}],["$","p",null,{"className":"excerpt","children":"レビューは「スコア・件数・新しさ」の3つの数字で読まれます。コーネル大学の研究では、レビュースコアが5点満点で1点上がると、価格を約11.2%上げても同じ占有率を保てると試算されました。3数字の意味と運用サイクル、低評価の3分類、そして宿だけが作れる第4の数字「返信」までを整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_review-management.jpg","alt":"レビュー運営 — 「スコア・件数・新しさ」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.17"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":"ゲストデータの基本 — 何を記録し、どう使うか"}]]}]]}],["$","$L2","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}]]}]]}],["$","$L2","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/booking-listing-basics","children":["← ","Booking.comで選ばれるには — Listing最適化の基礎"]}],["$","$L2",null,{"href":"/journal/articles/room-photography-guide","children":["客室の写真の撮り方 — 構図と光の2点"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2240,<p>同じ宿なのに、数字の見せ方で全く違う宿に見える——それがレビューの面白さです。スコアは4.8なのに件数が8件の宿と、スコア4.3で件数480件の宿。旅人はどちらを選ぶでしょうか。答えは、もう一つの数字「新しさ」で変わります。この記事は、レビューを「スコア・件数・新しさ」の3つの数字で読み、運用する基本の話です。そして最後に、3つ目より大事な、第4の数字を提案します。</p><h2>研究が示す — レビューは値付けの材料である</h2><p>まず、数字の重さを裏付ける研究を一つ。2012年、コーネル大学ホテル経営大学院のクリス・アンダーソンが、レビューと宿の売上の関係を初めて包括的に定量分析した研究を発表しました。その中で、米国の予約サイトの取引データから、5点満点のレビュースコアが1点上がると(例えば3.3から4.3へ)、価格を約11.2%上げても同じ占有率(選ばれる確率)を維持できると試算されています。さらに、評判指標と宿の売上データを突き合わせると、評判スコアが1%上がるごとに、平均単価が最大0.89%、稼働率が最大0.54%、RevPARが最大1.42%上がるという関係も報告されました。</p><div class="stats"><span class="tag">RESEARCH</span><strong>コーネル大学ホテル経営大学院の研究(アンダーソン、2012)は、5点満点のレビュースコアが1点上がると、価格を約11.2%上げても同じ占有率を維持できると試算。評判スコア1%の上昇は、平均単価最大0.89%・稼働率最大0.54%・RevPAR最大1.42%の上昇と関係すると報告した</strong> — レビューは宿の評判ではなく、値付けの材料である。</div><p>この数字の意味は、「良いレビューを集めると得」ではありません。レビューのスコアが、宿が値段を決める根拠の一部になる、ということです。4.5や4.7というラインが「価格を引き上げるシグナル」と言われる理由の裏付けです。ただし、この研究は米国のデータに基づく相関関係の分析であり、日本の小さな宿にそのまま当てはまる保証はない。読み方は「方向の信頼性」と「大きさの目安」です。</p><h2>3つの数字の各論</h2><ol><li><strong>スコア — 品質の線</strong> — 運用の目安として、4.5が標準のライン、4.7以上が「価値を認められる線」と読まれます(あくまで運用上の目安)。ただし、スコアそのものより次のゲストに見えるのは「低評価への返信」です。返信の言葉の作法は、レビュー返信の記事に譲ります。</li><li>件数 — <strong>実績の厚み</strong> — 件数は信頼の厚さです。おおむね100件で「実績あり」、500件で「厚い」と読まれる(これも運用の目安)。件数は「積み上げ」でしか増えません。焦って依頼を増やしても、質の薄いレビューは厚みになりません。</li><li><strong>新しさ — 今もそう、の証拠</strong> — 旅人は直近のレビューを読みます。3年前の高評価より、先月の普通の声。ここに、興味深い研究があります。2011年、オーストラリアの研究者たち(スパークスとブラウニング)は、ホテルのレビューと予約意向の関係を実験で調べ、最近のポジティブなレビューの存在が、ネガティブなレビューの集まりの影響を緩和し得ることを報告しました。つまり「新しさ」は、過去の傷を今日の声で上書きできる、数少ない武器です。</li></ol><div class="stats"><span class="tag">RESEARCH</span><strong>スパークスとブラウニングの研究(2011、Tourism Management)は、最近のポジティブなレビューの存在が、ネガティブなレビュー群の予約意向への影響を緩和し得ることを実験で示した</strong> — 「直近30日に新しい良い声があるか」は、印象論ではなく読み方の根拠を持つ。</div><h2>運用のサイクル — 依頼・返信・予防</h2><p>3つの数字を回すのは、次のサイクルです。①依頼——チェックアウトの直後に、感想を伺う(QRコード一枚で良い。満足が残っている時間に)。②全件返信——72時間以内に、低評価ほど丁寧に。③低評価の予防——多くの低評価は、写真と実際の乖離、総額の見え方、待ち時間の3点に集まります。予防はそれぞれ専門の記事があります。</p><h2>低評価の3分類</h2><p>低評価が来たら、まず3つに分けます。<strong>事実の指摘</strong>(設備の不具合、清掃の漏れ)は、改善して返信に「〜しました」と書く——返信は過去の客でなく未来の客への報告です。<strong>好みの違い</strong>(静かすぎる、田舎すぎる)は、受容し、事実だけ補足する——直せないものを直そうとしない。<strong>安全・衛生の指摘</strong>は、正式な謝罪と対応の報告が必要で、これはクレーム対応(サービスリカバリー)の記事の領域です。</p><h2>第4の数字 — 返信率</h2><p>最後に提案です。スコア・件数・新しさの3つは、すべてゲストが作る数字です。宿は直接的には動かせない。しかし、もう一つ、宿だけが作れる数字があります。返信率です。全レビューのうち、何割に宿が返信しているか。この数字だけは、今日から100%にできます。そして返信は、次に読むすべての旅人への宿の声明文です。スコアが4.3でも、返信率100%の宿は、4.8で放置されている宿より信頼されます——これは誇張ではなく、返信が「読まれるコンテンツ」である以上、自然な帰結です。</p><h2>レビュー運営の反対側</h2><ul><li><strong>依頼の押し付け</strong> — チェックアウトの満足を、数字の回収の場にしない。依頼は一度、笑顔で。「書いていただけると嬉しい」まで。</li><li><strong>偽レビューと報酬</strong> — レビューへの報酬や自作自演は、予約サイトでも地図でも規約違反です。見つかった時の信頼の失い方は、低評価の一つとは比べ物になりません。</li><li><strong>低評価への長い言い訳</strong> — 言い訳は未来の客への説明ではなく、過去の客との喧嘩の記録として読まれます。返信は3行で足りる。</li><li><strong>件数の競争</strong> — 件数は結果であって目標ではない。件数を増やすために泊まり心地を削る本末転倒は、起きていないでしょうか。</li><li><strong>スコアだけを見る経営</strong> — 4.8の宿も、良いレビューが1年前で止まれば新しさで崩れます。3数字は常に3つ一緒に見る。</li><li><strong>数字への依存</strong> — 紹介した研究は相関の分析で、効果の保証ではありません。数字は道具であり、宿の本体は泊まる体験です。</li></ul><p>今月やることは、3つの数字を書き出すことです。スコア・件数・直近30日の声。電卓も何も要らない、レビューページを開いて10分。そして返信がまだなら、一番新しいレビューに3行、返事を書く。第4の数字は、そこから今日100%になります。</p><div class="note">この記事はアイデア共有を目的としています。記載の研究は米国・オーストラリアのデータに基づく分析の紹介であり、日本の宿の効果を保証するものではありません。数字の目安(4.5、100件、72時間等)は運用上の参考値です。</div><h2>次に読む</h2><ul><li><a href="#review-replies-trust">感謝のメッセージが届きました — レビュー返信で信頼を積む</a> — 返信の言葉の作法の話</li><li><a href="#service-recovery-basics">サービスリカバリー — クレームを信頼に変える「一手」</a> — 安全・衛生の指摘への対応の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 依頼のタイミングを作る体験の話</li><li><a href="#inbound-reviews-reading">インバウンドレビュー — 英語レビューの読み方と返信の基本</a> — 海外のゲストの声を読む話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"className":"ARTICLE","children":"015"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"レビュー運営 — 「スコア・件数・新しさ」の基本"}],["$","span",null,{"className":"en-only","children":"Review Management: The Basics of Score, Count, and Recency"}],["$","span",null,{"className":"zh-only","children":"评论管理——“分数、数量、新鲜度”的基础"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"レビューは「スコア・件数・新しさ」の3つの数字で読まれます。コーネル大学の研究では、レビュースコアが5点満点で1点上がると、価格を約11.2%上げても同じ占有率を保てると試算されました。3数字の意味と運用サイクル、低評価の3分類、そして宿だけが作れる第4の数字「返信」までを整理しました。"}],["$","span",null,{"className":"en-only","children":"Reviews are read through three numbers: score, count, and recency. In Cornell University research, a one-point rise in review score on a five-point scale was estimated to let a property raise prices by about 11.2% while keeping the same share. Here are the meaning of the three numbers, the operating cycle, the three classes of low ratings — and the fourth number only a property can build: replies."}],["$","span",null,{"className":"zh-only","children":"评论由三个数字决定：分数、评论数量和新近度。组织目标值和操作的基础文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_review-management.jpg","alt":"レビュー運営 — 「スコア・件数・新しさ」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.17"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1fa1,<p>The same inn can look like a completely different inn depending on how the numbers are shown — that is what makes reviews interesting. An inn with a 4.8 score and 8 reviews, and an inn with 4.3 and 480. Which does the traveler choose? The answer changes with one more number: recency. This article is the basics of reading and running reviews through the three numbers — score, count, and recency. And at the end, a proposal for a fourth number that matters more than the third.</p>
+
+<h2>What the research shows — reviews are material for pricing</h2>
+
+<p>First, one study to back the weight of the numbers. In 2012, Chris Anderson of Cornell University's School of Hotel Administration published the first comprehensive quantitative analysis of the relationship between reviews and hotel revenue. Within it, from transaction data of U.S. booking sites, a one-point rise in review score on a five-point scale (say, 3.3 to 4.3) was estimated to allow a price increase of about 11.2% while maintaining the same share (the probability of being chosen). Further, matching reputation metrics with hotel revenue data, a 1% rise in reputation score was reported to relate to rises of up to 0.89% in average rate, 0.54% in occupancy, and 1.42% in RevPAR.</p>
+
+<div class="stats"><span class="tag">RESEARCH</span><strong>The Cornell School of Hotel Administration study (Anderson, 2012) estimated that a one-point rise in review score on a five-point scale allows a price increase of about 11.2% while maintaining the same share, and reported that a 1% rise in reputation score relates to increases of up to 0.89% in average rate, 0.54% in occupancy, and 1.42% in RevPAR</strong> — A review is not merely an inn's reputation; it is material for pricing.</div>
+
+<p>The meaning of these numbers is not "collect good reviews and gain." It is that the review score becomes part of the basis on which the inn sets its prices — the backing for why the lines of 4.5 and 4.7 are spoken of as "signals for raising rates." Note, though: this research is a correlation analysis on U.S. data, with no guarantee it applies as-is to a small Japanese inn. Read it as "reliability of direction" and "a sense of magnitude."</p>
+
+<h2>The three numbers, one by one</h2>
+
+<ol>
+<li><strong>Score — the line of quality</strong> — As a working guideline, 4.5 reads as the standard line and 4.7 and above as "the line of recognized value" (a practical rule of thumb only). But what the next guest sees more than the score itself is "the replies to low ratings." The craft of those words is left to the review-replies article.</li>
+<li>Count — <strong>the thickness of track record</strong> — Count is the thickness of trust. Roughly 100 reads as "proven," 500 as "thick" (again, working guidelines). Count grows only by accumulation. Push the requests, and thin reviews still make no thickness.</li>
+<li><strong>Recency — proof it is still so</strong> — Travelers read the most recent reviews. An ordinary voice from last month over a rave from three years ago. Here is an interesting study. In 2011, Australian researchers (Sparks and Browning) experimentally examined the relationship between hotel reviews and booking intention, and reported that the presence of recent positive reviews can mitigate the influence of a cluster of negative ones. In other words, "recency" is one of the few weapons that can overwrite past wounds with today's voices.</li>
+</ol>
+
+<div class="stats"><span class="tag">RESEARCH</span><strong>The Sparks and Browning study (2011, Tourism Management) used experiments to show that the presence of recent positive reviews can mitigate the impact of a cluster of negative reviews on booking intention</strong> — "Is there a new, good voice in the last thirty days?" has a basis in method, not just impression.</div>
+
+<h2>The operating cycle — request, reply, prevent</h2>
+
+<p>What turns the three numbers is the following cycle. (1) Request — right after checkout, ask for impressions (a single QR code is enough; while the satisfaction still lingers). (2) Reply to all — within 72 hours, the more carefully the lower the rating. (3) Prevent low ratings — most of them gather into three points: the gap between photos and reality, how the total price reads, and waiting times. Prevention for each has its own article.</p>
+
+<h2>The three classes of low ratings</h2>
+
+<p>When a low rating arrives, first sort it into three. <strong>Pointed facts</strong> (a fixture out of order, a missed spot in the cleaning): fix it, and write "we have done so" in the reply — the reply is a report to future guests, not to the past one. <strong>Differences of taste</strong> (too quiet, too rural): accept them, and supplement with facts only — do not try to fix what cannot be fixed. <strong>Safety and hygiene points</strong> call for a formal apology and a report of the response; that is the territory of the service recovery article.</p>
+
+<h2>The fourth number — the reply rate</h2>
+
+<p>Finally, a proposal. Score, count, recency — all three are numbers the guests make. The inn cannot move them directly. But there is one more number that only the inn can make: the reply rate. Of all reviews, what share has the inn replied to? This number alone can be brought to 100% starting today. And a reply is the inn's statement to every traveler who reads next. An inn at 4.3 with a 100% reply rate is trusted more than an inn at 4.8 left unattended — not an exaggeration, but a natural consequence of replies being "content that gets read."</p>
+
+<h2>The other side of review management</h2>
+
+<ul>
+<li><strong>Pushing the request</strong> — Do not turn the satisfaction of checkout into a collection point for numbers. Ask once, with a smile. "We would be glad if you wrote one" is the limit.</li>
+<li><strong>Fake reviews and rewards</strong> — Rewarding reviews or writing your own violates the terms of the booking sites and the map alike. The way trust is lost when it comes to light compares to nothing a single low rating can do.</li>
+<li><strong>Long excuses to low ratings</strong> — An excuse is read not as an explanation to future guests but as the record of a quarrel with a past one. Three lines are enough for a reply.</li>
+<li><strong>Competing on count</strong> — Count is a result, not a target. Is the inversion — shaving the comfort of the stay to grow the count — happening anywhere?</li>
+<li><strong>Management that watches only the score</strong> — Even a 4.8 inn collapses on recency if the good reviews stopped a year ago. Always read the three numbers together, all three.</li>
+<li><strong>Dependence on the numbers</strong> — The studies introduced are correlation analyses, not guarantees of effect. Numbers are tools; the substance of an inn is the experience of staying.</li>
+</ul>
+
+<p>What to do this month: write out the three numbers. Score, count, the voices of the last thirty days. No calculator needed — ten minutes with the review page open. And if the replies are not yet written, write three lines to the newest review. The fourth number becomes 100% today, starting there.</p>
+
+<div class="note">This article is intended for sharing ideas. The studies cited are analyses based on U.S. and Australian data and do not guarantee effects for Japanese inns. The numeric guidelines (4.5, 100 reviews, 72 hours, and so on) are practical reference values.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#review-replies-trust">A Thank-You Note Arrived — Building Trust Through Review Replies</a> — the craft of the reply's words</li>
+<li><a href="#service-recovery-basics">Service Recovery: The "One Move" That Turns a Complaint Into Trust</a> — responding to safety and hygiene points</li>
+<li><a href="#small-experiences-5-touchpoints">The "Small Experiences" Guests Talk About After Checkout</a> — the experience that creates the timing of the request</li>
+<li><a href="#inbound-reviews-reading">Reading Inbound Reviews: How to Read English Reviews and Reply Basics</a> — reading overseas guests' voices</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tf1f,<p>评论是<strong>三个数字：分数、案例数、新鲜度</strong>这就决定了如何解读客栈。本文是一篇基础文章，整理了各个数字的目标值和操作。 （以下数字为参考值和示例。）</p>
+<h2>1. 分数——目标线</h2>
+<ul>
+<li><strong>4.5为标准线</strong>，4.7或更高是“涨价信号”。</li>
+<li>从分数来看<strong>“回复低评分”</strong>下一位客人可以看到（请参阅评论回复文章）。</li>
+</ul>
+<h2>2. 案例数量——信任“记录”</h2>
+<ul>
+<li>100 个案例被解读为“具有良好的业绩记录”，500 个案例被解读为“具有良好的业绩记录”。</li>
+<li>案件数量只能通过“积累”来增加（不要着急）。</li>
+</ul>
+<h2>3.新颖性——“还是一样”的证据</h2>
+<ul>
+<li>客人是<strong>最新评论</strong>读。</li>
+<li>印象将取决于过去30天内是否有“新好声音”。</li>
+</ul>
+<h2>4. 3个数字的运算</h2>
+<ol>
+<li><strong>要求</strong> — 结帐后立即二维码（请参阅小经验文章）。</li>
+<li><strong>全部回复</strong> — 72 小时内（对于低评级，请参阅投诉文章）。</li>
+<li><strong>防止低收视率</strong> — 三点：照片、总额、等待时间（见每篇文章）。</li>
+</ol>
+<h2>5、三类低收视率</h2>
+<ul>
+<li><strong>指出事实</strong> — 回复改进（“我做到了”）。</li>
+<li><strong>口味差异</strong> — 仅接受并添加事实。</li>
+<li><strong>安全卫生</strong> — 正式道歉+报告（参见回复模板）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>关于“点评管理——评分、点评数量、新鲜度的基础”，客人的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>在网上吸引顾客的努力增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>4.5</b><span>（数值示例）标准线</span></div><div class="stat"><b>30天</b><span>“新声音”指南</span></div><div class="stat"><b>72小时</b><span>全部回复的标准</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>评审管理的目的是<strong>不是“提高分数”而是“可视化事实”</strong>。 3数字是一种语言，用来向客人传达旅馆的现状。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第 1 周：记录当前 3 个数字</li>
+<li>第 2 周：设置 QR 请求</li>
+<li>第三周：建立全员回复制度（72小时）</li>
+<li>每月：3个数字+3个低评级类别的汇总</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","span",null,{"className":"en-only","children":"Guest Data Basics: What to Record, and How to Use It"}],["$","span",null,{"className":"zh-only","children":"访客数据基础知识——记录什么以及如何使用它"}]]}]]}]]}],["$","$L8","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","span",null,{"className":"en-only","children":"Hotel Instagram: The Zero-to-Ten Post Plan for Starting Now"}],["$","span",null,{"className":"zh-only","children":"Hotel Instagram — 计划从现在开始从“0 条帖子到 10 条帖子”"}]]}]]}]]}],["$","$L8","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","span",null,{"className":"en-only","children":"Landing Page Design: What to Say in the First \"Three Seconds\""}],["$","span",null,{"className":"zh-only","children":"登陆页面设计——前“3秒”要传达什么"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/booking-listing-basics","children":["- ",["$","span",null,{"className":"ja-only","children":"Booking.comで選ばれるには — Listing最適化の基礎"}],["$","span",null,{"className":"en-only","children":"Being Chosen on Booking.com: Listing Optimisation Basics"}],["$","span",null,{"className":"zh-only","children":"如何被 Booking.com 选中 — 列表优化基础知识"}]]}],["$","$L8",null,{"href":"/journal/articles/room-photography-guide","children":[["$","span",null,{"className":"ja-only","children":"客室の写真の撮り方 — 構図と光の2点"}],["$","span",null,{"className":"en-only","children":"How to Photograph Guest Rooms: The Two Points of Composition and Light"}],["$","span",null,{"className":"zh-only","children":"客房照片如何拍——两点：构图和光线"}]," -"]}]]}]
+10:null

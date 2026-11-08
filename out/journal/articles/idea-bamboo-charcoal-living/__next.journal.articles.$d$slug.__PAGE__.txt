@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-bamboo-charcoal-living.jpg","image"]
 :HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
 :HL["/library/journal/ai_idea-compost-living.jpg","image"]
 :HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
-3:T2128,<p>宿の玄関や靴箱に、麻の袋に入った竹炭が置いてある——そんな光景はもう珍しくありません。ですが、この小さな黒い塊は、置くだけの消臭剤として片付けるには、もったいない来歴を持っています。炭は、<strong>大気の炭素を土に戻す</strong>という、いま世界が注目する技術の原形であり、日本の里山では竹の利用策のひとつでもあるのです。この記事は、竹炭のしくみと正直な限界、土と炭の世界史、そして宿での実践と安全を並べていきます。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2128,<p>宿の玄関や靴箱に、麻の袋に入った竹炭が置いてある——そんな光景はもう珍しくありません。ですが、この小さな黒い塊は、置くだけの消臭剤として片付けるには、もったいない来歴を持っています。炭は、<strong>大気の炭素を土に戻す</strong>という、いま世界が注目する技術の原形であり、日本の里山では竹の利用策のひとつでもあるのです。この記事は、竹炭のしくみと正直な限界、土と炭の世界史、そして宿での実践と安全を並べていきます。</p>
 
 <h2>まず、しくみ——竹炭は「焼かれた海綿」です</h2>
 <p>竹を窯に入れ、空気を制限しながら高温で焼くと、水分と揮発成分が抜けて、炭素の骨格だけが残るのです。もともと竹の内部には、水を運ぶ無数の導管が走っています。炭化してもこの構造は崩れないので、<strong>竹炭の断面は、顕微鏡レベルで無数の孔に満ちています</strong>。匂いの分子や湿気を一時的に抱え込むのは、この多孔質の構造です。いわば竹炭は、竹の形をした、細かい穴の海綿なのです。</p>
@@ -46,10 +111,61 @@ a:"$Sreact.suspense"
 <li><a href="#idea-compost-living">コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア</a> — 土を作る循環</li>
 <li><a href="#idea-touch-soil-stay">土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア</a> — 土に触れる滞在の設計</li>
 <li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 畑の舞台</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","138"]}]]}],["$","h1",null,{"children":"竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア"}],["$","p",null,{"className":"excerpt","children":"竹炭は「置くだけの消臭剤」に見えて、その実、土に炭素を戻す世界の技術の親戚です。多孔質のしくみ、消臭・調湿の正直な限界、アマゾンの黒い土テラプレタ、そして窯の火と粉塵の安全まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-bamboo-charcoal-living.jpg","alt":"竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.18"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L2","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L2","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-beach-clean-art","children":["← ","海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-forest-scent-collection","children":["森の香りを集める — 森の香り・葉・枝で作る宿の香りのアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"className":"ARTICLE","children":"138"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo Charcoal - Ideas for Bamboo Charcoal, Charcoal Making, Utilization"}],["$","span",null,{"className":"zh-only","children":"与竹炭一起生活 — 使用竹炭、木炭烧烤和木炭的想法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"竹炭は「置くだけの消臭剤」に見えて、その実、土に炭素を戻す世界の技術の親戚です。多孔質のしくみ、消臭・調湿の正直な限界、アマゾンの黒い土テラプレタ、そして窯の火と粉塵の安全まで。"}],["$","span",null,{"className":"en-only","children":"Bamboo charcoal looks like \"a deodorizer you merely set out,\" but in fact it is a cousin of a technology the world is now watching — returning carbon to the soil. The porous mechanism, the honest limits of deodorizing and humidity control, the black earth of the Amazon called terra preta, and the safety of the kiln’s fire and dust."}],["$","span",null,{"className":"zh-only","children":"竹炭、木炭烧烤以及木炭的使用。这是一些小想法的集合，可以帮助您通过竹炭生活来感受里山的循环。这个想法也可用于整地和为果田除臭。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-bamboo-charcoal-living.jpg","alt":"竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.18"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T207c,<p>Bamboo charcoal in a linen bag placed by an inn’s entrance or in the shoe cabinet — the sight is no longer rare. But this small black lump has a history too good to file away as a set-and-forget deodorizer. Charcoal is <strong>the prototype of a technology the world now watches — returning atmospheric carbon to the soil</strong> — and in Japan’s satoyama it is one of the answers for using bamboo. This article lines up the mechanism of bamboo charcoal and its honest limits, the world history of soil and charcoal, and the practice and safety at the inn.</p>
+
+<h2>First, the mechanism — bamboo charcoal is "a fired sponge"</h2>
+
+<p>Put bamboo in a kiln and fire it at high temperature with the air restricted, and the water and volatile components leave, so that only the carbon skeleton remains. Inside living bamboo run countless vessels for carrying water. Carbonization does not collapse this structure, so <strong>the cross-section of bamboo charcoal is, at the microscopic level, filled with countless pores.</strong> What temporarily holds the molecules of odor and moisture is this porous structure. Bamboo charcoal is, so to speak, a fine-holed sponge in the shape of bamboo.</p>
+
+<p>Knowing this mechanism makes the principles of use visible. The pores are finite. Used long, they saturate with the held molecules, and the effect gradually weakens. So bamboo charcoal’s deodorizing and humidity control should be handled not as "set-and-forget magic" but as <strong>a physical tool with a replacement schedule.</strong> Sun-drying is widely said to regenerate it, though some note the effect has limits — when in doubt, the sure course is to run it on the premise of seasonal replacement. It is also worth knowing that in adsorptive power it does not match activated carbon, whose pores are deliberately opened with chemicals or high heat. Bamboo charcoal is not all-purpose; it is a tool that works modestly.</p>
+
+<h2>The black earth of the Amazon — charcoal keeps fertilizing for centuries</h2>
+
+<p>The idea of mixing charcoal into soil lies, in fact, deep in world history. Across the Amazon basin, "terra preta" — dark earth — is scattered: fertile soils left by Indigenous peoples. Thought to have been made between about 450 BCE and 950 CE by mixing charcoal with bone, crushed pottery, and compost, this earth — in Amazonian soils whose nutrients tend to be washed away by the fierce rains — <strong>still keeps its fertility after centuries.</strong> Analyses reporting several times the phosphorus of the surrounding soil, and tens of times the charcoal, have been published.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>Charcoal returns to the soil the carbon that had left it</strong> — Burn wood or bamboo and the carbon returns to the atmosphere as carbon dioxide. But make it charcoal and mix it into soil, and the carbon stays long in the earth in a form slow to decompose. This ancient knowledge has been revived in the present as "biochar," one of the technologies of soil improvement and carbon sequestration (negative emissions), and it appears in the discussions of the IPCC’s climate-change assessments too. The small satoyama practice of crushing bamboo charcoal into a field is a very small cousin of this world technology.</div>
+
+<p>The translation to the inn is made as a story of circulation. Bamboo thinned from an abandoned grove → charcoal in the kiln → crushed into the field’s soil → the field’s crop to breakfast — if you can draw this single line on one picture-map, the bag of bamboo charcoal turns from "a deodorizer" into "a piece of the inn’s circulation."</p>
+
+<h2>Bamboo charcoal as an outlet for bamboo — but the kiln is a professional’s apparatus</h2>
+
+<p>Japan’s bamboo groves, losing their tending, are beginning to eat into the satoyama (the realities of bamboo were treated in <a href="#idea-bamboo-living">Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience</a>). Bamboo charcoal is one way to make an "outlet" for that bamboo. But, written honestly: charcoal-burning is a professional’s apparatus. It takes a kiln, the skill and labor of watching fire for days, and a relationship with the neighbors over smoke. An inn owning its own kiln is exceptional; what is realistic for most inns is <strong>teaming with a local charcoal-maker.</strong> Kiln visits (the firing day is a sight), the experience of bagging charcoal, a share of the finished product — borrowing a corner of the artisan’s craft into the inn’s experience is the right distance.</p>
+
+<h2>Practice — five uses of bamboo charcoal</h2>
+
+<ul>
+<li><strong>Bamboo charcoal in the rooms</strong> — In a linen bag, with a card of provenance and replacement timing. "This charcoal is mōsō bamboo from the grove behind; replaced on the first of each month."</li>
+<li><strong>Mix into the soil</strong> — Crushed, modestly, into field or orchard soil. Do not rush the effect; start with one bed. Charcoal is generally alkaline, so watch the soil’s response as you increase the amount.</li>
+<li><strong>Kiln visiting and bagging experiences</strong> — In partnership with an artisan. The experience begins with "watching" and "bagging." The kiln firing itself is specialist work.</li>
+<li><strong>Drawing with bamboo charcoal powder</strong> — Crushed charcoal becomes black pigment. Pictures of the orchard, pictures of the inn. A child’s charcoal drawing becomes a room’s individuality.</li>
+<li><strong>Shoe cabinet, entrance, toilet</strong> — Without overconfidence, together with a card stating the replacement date.</li>
+</ul>
+
+<h2>Safety and regulation — fire, dust, and the line of "eating"</h2>
+
+<ul>
+<li><strong>The kiln’s fire is the inn’s biggest fire-work</strong> — A charcoal fire burns on the scale of days. Outdoor ventilation, restricting children’s access, and confirming the fire is fully out (embers re-ignite more quietly than a bonfire). The risk of carbon monoxide poisoning reaches the outdoor kiln area on the same logic as indoors or in tents.</li>
+<li><strong>Dust</strong> — Bagging bamboo charcoal raises fine powder. Mask and ventilation for the work.</li>
+<li><strong>"Edible" bamboo charcoal has a food line</strong> — If you plan to serve bread or sweets containing bamboo-charcoal powder, confirm through your supplier that the charcoal fits the positioning of a food additive. For an inn to advertise health effects such as "detox" should also be avoided from the standpoint of the Pharmaceuticals and Medical Devices Act.</li>
+<li><strong>Keep claims modest</strong> — Deodorizing and humidity control included, bamboo charcoal’s effects depend on conditions. What goes on the card stops at the facts (material, replacement date); write no exaggeration of effect.</li>
+</ul>
+
+<div class="note"><span class="tag">InnBuddy VIEW</span>The appeal of bamboo charcoal lies not in efficacy but in <strong>provenance</strong>. That the black lump in the linen bag is bamboo from behind the inn, fired when and by whom — at an inn where that one sentence can be read, bamboo charcoal is not a deodorizer but an entrance to the story of the inn’s land.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling fire, design for readiness to extinguish, wind direction, and management of the flames.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-bamboo-living">Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience</a> — the bamboo itself as an asset, and the state of the groves</li>
+<li><a href="#idea-compost-living">An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil</a> — the circulation that makes soil</li>
+<li><a href="#idea-touch-soil-stay">Stay Touching Soil - Material Ideas for Inn from Earthen Wall, Dirt Floor, Soil of Field</a> — designing a stay that touches the soil</li>
+<li><a href="#idea-small-farm-1tsubo">An inn with Small Farm - Farm Ideas Starting from 1 Tsubo</a> — the stage of the field</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T10aa,<p>本文分享一些可供尝试的想法。在一家旅馆，竹炭被用作除臭工具；在另一家旅馆，竹炭被用作果园的造土材料；在另一家旅馆，竹炭被用作孩子们尝试制作木炭的材料。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>竹炭是用竹子燃烧而成的，炭烟的香气，以及木炭的用途。与竹炭一起生活，是感受里山循环的时刻。我们从竹炭生活的小创意中收集了一些提示，帮助您感受里山的循环。</p><h2>竹炭生活创意集</h2><ul><li><strong>竹炭除臭和湿度控制</strong> — 在客房、卫生间、鞋柜等处放置竹炭，起到除臭、控湿的作用。通过用小卡片介绍竹炭的功效，可以传达竹炭的魅力。一家旅馆将竹炭装在客房的黄麻袋里，并介绍说“这种竹炭是用旅馆后面的竹林里的竹子制成的”。</li><li><strong>为竹炭制作土壤</strong> — 将竹炭粉碎后与田间、果田土壤混合，用于整地。通过在小板上介绍竹炭如何改善土壤排水和通气的故事，可以看到竹炭的循环。在一家旅馆，竹炭被压碎并与蓝莓田的土壤混合，并被称为“在竹炭土壤中种植的蓝莓”。</li><li><strong>小型木炭烧烤体验</strong> — 让竹炭和木炭烧烤成为一种小体验。出于安全考虑，孩子们将能够参观木炭窑，并尝试亲手将竹炭装进袋子里，这将留在孩子们的记忆中。一家旅馆正在计划在当地木炭制造商的帮助下进行竹炭制作之旅。</li><li><strong>竹炭和果园的想法</strong> — 在设有果园的旅馆中，竹炭用于为果园准备土壤。在一家旅馆里，一块牌讲述了如何将竹炭粉碎并与柑橘田的土壤混合以改善柑橘的味道。竹炭与果田的结合，让你感受里山的循环。</li><li><strong>竹炭艺术及配件</strong> — 用竹炭画画和用竹炭制作配饰的想法。用竹炭绘制的图画和填充竹炭的小装饰品为客房增添了特色。有的客栈在客房里挂有竹炭画的果田图。</li></ul><h2>海外住宿案例——竹炭住宿创意</h2><p>木炭是北欧森林旅馆生活的一部分。我们用木炭取暖，我们用木炭做饭，我们展示木炭如何在日常生活中使用。与木炭一起生活，让您在旅馆的时光更加丰富。即使是日本的里山旅馆，也可以通过向人们展示如何使用竹炭生活来传达里山的循环。</p><p>竹炭在您的酒店中有着怎样的存在？为什么不先放一块竹炭呢？</p><h2>从小竹炭入手的技巧</h2><p>即使没有木炭炉，也可以先放一块竹炭。一家旅馆开始在客房的黄麻袋中放置竹炭，客人表示空气感觉更清新。即使是小小的竹炭，也能感受到里山的循环。</p><p>如果你住在有果园的旅馆里，为什么不先用竹炭为你的果园准备土壤呢？通过粉碎竹炭并将其与土壤混合，您可以丰富果园中的土壤。</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约18%的数字仅为趋势示意，并不保证效果）。</strong> — 与竹炭一起生活也许可以传达里山的循环。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。处理木炭烧烤或竹炭时，请特别注意安全并咨询专业人士。处理火灾时请小心。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>在客房放置竹炭</strong> —将其放入麻袋中，并附上一张介绍其作为除臭剂和加湿器的小卡片。</li><li><strong>将竹炭粉碎，混入田地、果田的土壤中。</strong> — 用于整地并作为在竹炭土壤中种植的水果引入</li><li><strong>计划一次木炭烧烤之旅</strong> — 向当地木炭制造商学习并参观窑炉</li><li><strong>用竹炭艺术装饰</strong> ——客房竹炭画的果田图</li><li><strong>制作竹炭和果田招牌</strong> — 一块招牌讲述着竹炭土里种植的果实的故事</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}]]}]]}],["$","$L8","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}]]}]]}],["$","$L8","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-beach-clean-art","children":["- ",["$","span",null,{"className":"ja-only","children":"海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"}],["$","span",null,{"className":"en-only","children":"Think from Marine Debris - Ideas for Stay with Beach Clean and Driftwood Art"}],["$","span",null,{"className":"zh-only","children":"从海洋垃圾中思考——海滩清洁和浮木艺术保持理念"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-forest-scent-collection","children":[["$","span",null,{"className":"ja-only","children":"森の香りを集める — 森の香り・葉・枝で作る宿の香りのアイデア"}],["$","span",null,{"className":"en-only","children":"Collect Forest Scents - Ideas for Inn Scent Made from Forest Aroma, Leaves, Branches"}],["$","span",null,{"className":"zh-only","children":"收集森林的气味——利用森林的气味、树叶和树枝为您的旅馆创造气味的想法"}]," -"]}]]}]
+10:null

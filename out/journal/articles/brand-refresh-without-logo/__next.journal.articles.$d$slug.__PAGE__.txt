@@ -1,15 +1,167 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_brand-refresh-without-logo-new.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T1567,<p>フルのブランド・リデザインは、高コスト・高リスクです。看板が変われば、全チャネルへの再説明が始まり、積み上げた認識との間に隙間ができます。そしてロゴは、ブランドの「氷山の一角」に過ぎません。<strong>ロゴを変えなくても、ブランドは大きく動きます</strong>。本記事は、その作法を、日本の老舗が数百年やってきたことから読み解きます。</p><h2>のれんの思想 — 守るのは名前ではなく期待の連続性</h2><p>老舗の世界では、のれんは本体です。そして「のれん分け」という制度があります——本家が信用を認めた相手に、同じのれんを掲げることを許す。のれんとは、登録商標のような図案ではなく、<strong>客の期待の連続性そのもの</strong>を指します。だから老舗は、のれんを変えずに、料理を替え、内装を改め、接客を刷新し続けてきた。変えるのは中身、守るのは期待の連続性——これが「ロゴを変えずにブランドを刷新する」の昔からの実装です。ブランドとはロゴではなく、全ゲストの体験の総和——その原則の最も古い日本語版が、のれんなのです。</p><h2>ブランドを動かす5要素</h2><ol><li><strong>言語</strong> — 紹介文とキャッチコピーの書き換え。最も安く、最も速く効く要素です。全部の媒体で同じ言葉に揃える。</li><li><strong>ビジュアル・コンテンツ</strong> — 写真のスタイルと色の系統(ロゴは不変)。写真が予約を決める重さは、写真の記事が扱いました。</li><li><strong>体験(タッチポイント)</strong> — 客室内の小さなもの。アメニティ、香り、音楽、置き方。</li><li><strong>ストーリー</strong> — ワンソースストーリーの更新。誰が・なぜ・何を守り・何を届けるかの4行を書き直す(物語の記事参照)。</li><li><strong>チャネル</strong> — 伝える「場所」の比率調整。SNS・予約サイト・直結の配分を見直す。</li></ol><h2>実施の順番 — コストとリスクの低い順</h2><p>順番は、<strong>言語 → ビジュアル → 体験 → ストーリー → チャネル</strong>。理由は2つあります。第一に、コストとリスクの低いものから始めることで、失敗しても宿は無傷です。第二に、言葉が先に決まると、その後の写真も体験も、同じ言葉に向かって揃えられる。<strong>言語は、残りの4つの設計図</strong>です。各要素を「ひと月で1つ」進めると、負担が分散され、各ステップの前後で同じ指標(予約転換・レビューの言葉・問い合わせ)を見られます。</p><h2>反対側 — 刷新が宿を疲れさせるとき</h2><ul><li><strong>のれんが古くなる病</strong> — 名前だけが残り、中身が空になるのは、刷新を怠った老舗の末路です。「変えない」は「何もしない」の言い換えではありません。5要素のどれかは、常に動いている状態を保つ。</li><li><strong>言葉だけ新しい</strong> — 紹介文を書き換えたのに、体験が昔のまま。言葉と実態の乖離は、リピーターを最も失望させます(リピーターこそ、前の言葉を覚えている人たちです)。</li><li><strong>5要素を一斉に</strong> — 一度に全部を変えると、何が効いたか分からないうえに、現場が置いていかれます。ひと月1つの規律は、効果測定のためでもあります。</li><li><strong>統一の行き過ぎ</strong> — ビジュアルを統一しすぎると、SNSが単調になります。統一すべきは「系統」であって「同一」ではありません(アカウント設計の記事参照)。</li><li><strong>リピーターへの一言</strong> — 刷新を告知するとき、「何も変わりません」という安心も同時に伝える。常連が一番気にするのは、好きだった部分が残っているかです。</li></ul><p>最初の一歩は、今月、紹介文を1段落だけ書き直すことです。のれんはそのまま、言葉だけ新しくする——老舗の刷新は、いつもそこから始まりました。5つの要素を5ヶ月で動かす。その間、ロゴは一ミリも動かさなくていい。ブランドは動いています。</p><div class="note">この記事はアイデア共有を目的としています。のれん分けなどの制度は商慣行の一般論としての紹介です。刷新の効果は、各ステップの前後で同じ指標を記録してご確認ください。</div><h2>次に読む</h2><ul><li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 何を守るかの話</li><li><a href="#story-branding-exhibition">“物語で選ばれる宿” — 展示が示すブランディングの力</a> — ストーリーの更新の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — ビジュアルの重さの話</li><li><a href="#landing-page-3-seconds">ランディングページの設計 — 初見の「3秒」で何を伝えるか</a> — 言葉の着地の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","062"]}]]}],["$","h1",null,{"children":"ロゴを変えずにブランドを刷新する"}],["$","p",null,{"className":"excerpt","children":"老舗はのれんを変えずに、料理も内装も接客も刷新し続けてきました——守るのは名前でなく「期待の連続性」。ロゴを変えずにブランドを動かす5要素と順番。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_brand-refresh-without-logo-new.jpg","alt":"ロゴを変えずにブランドを刷新する"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.04.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/ai-chat-night-ops","children":["← ","AIチャットで深夜対応を自動化"]}],["$","$L2",null,{"href":"/journal/articles/sns-want-to-visit","children":["SNSで「行ってみたい」を作る"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1567,<p>フルのブランド・リデザインは、高コスト・高リスクです。看板が変われば、全チャネルへの再説明が始まり、積み上げた認識との間に隙間ができます。そしてロゴは、ブランドの「氷山の一角」に過ぎません。<strong>ロゴを変えなくても、ブランドは大きく動きます</strong>。本記事は、その作法を、日本の老舗が数百年やってきたことから読み解きます。</p><h2>のれんの思想 — 守るのは名前ではなく期待の連続性</h2><p>老舗の世界では、のれんは本体です。そして「のれん分け」という制度があります——本家が信用を認めた相手に、同じのれんを掲げることを許す。のれんとは、登録商標のような図案ではなく、<strong>客の期待の連続性そのもの</strong>を指します。だから老舗は、のれんを変えずに、料理を替え、内装を改め、接客を刷新し続けてきた。変えるのは中身、守るのは期待の連続性——これが「ロゴを変えずにブランドを刷新する」の昔からの実装です。ブランドとはロゴではなく、全ゲストの体験の総和——その原則の最も古い日本語版が、のれんなのです。</p><h2>ブランドを動かす5要素</h2><ol><li><strong>言語</strong> — 紹介文とキャッチコピーの書き換え。最も安く、最も速く効く要素です。全部の媒体で同じ言葉に揃える。</li><li><strong>ビジュアル・コンテンツ</strong> — 写真のスタイルと色の系統(ロゴは不変)。写真が予約を決める重さは、写真の記事が扱いました。</li><li><strong>体験(タッチポイント)</strong> — 客室内の小さなもの。アメニティ、香り、音楽、置き方。</li><li><strong>ストーリー</strong> — ワンソースストーリーの更新。誰が・なぜ・何を守り・何を届けるかの4行を書き直す(物語の記事参照)。</li><li><strong>チャネル</strong> — 伝える「場所」の比率調整。SNS・予約サイト・直結の配分を見直す。</li></ol><h2>実施の順番 — コストとリスクの低い順</h2><p>順番は、<strong>言語 → ビジュアル → 体験 → ストーリー → チャネル</strong>。理由は2つあります。第一に、コストとリスクの低いものから始めることで、失敗しても宿は無傷です。第二に、言葉が先に決まると、その後の写真も体験も、同じ言葉に向かって揃えられる。<strong>言語は、残りの4つの設計図</strong>です。各要素を「ひと月で1つ」進めると、負担が分散され、各ステップの前後で同じ指標(予約転換・レビューの言葉・問い合わせ)を見られます。</p><h2>反対側 — 刷新が宿を疲れさせるとき</h2><ul><li><strong>のれんが古くなる病</strong> — 名前だけが残り、中身が空になるのは、刷新を怠った老舗の末路です。「変えない」は「何もしない」の言い換えではありません。5要素のどれかは、常に動いている状態を保つ。</li><li><strong>言葉だけ新しい</strong> — 紹介文を書き換えたのに、体験が昔のまま。言葉と実態の乖離は、リピーターを最も失望させます(リピーターこそ、前の言葉を覚えている人たちです)。</li><li><strong>5要素を一斉に</strong> — 一度に全部を変えると、何が効いたか分からないうえに、現場が置いていかれます。ひと月1つの規律は、効果測定のためでもあります。</li><li><strong>統一の行き過ぎ</strong> — ビジュアルを統一しすぎると、SNSが単調になります。統一すべきは「系統」であって「同一」ではありません(アカウント設計の記事参照)。</li><li><strong>リピーターへの一言</strong> — 刷新を告知するとき、「何も変わりません」という安心も同時に伝える。常連が一番気にするのは、好きだった部分が残っているかです。</li></ul><p>最初の一歩は、今月、紹介文を1段落だけ書き直すことです。のれんはそのまま、言葉だけ新しくする——老舗の刷新は、いつもそこから始まりました。5つの要素を5ヶ月で動かす。その間、ロゴは一ミリも動かさなくていい。ブランドは動いています。</p><div class="note">この記事はアイデア共有を目的としています。のれん分けなどの制度は商慣行の一般論としての紹介です。刷新の効果は、各ステップの前後で同じ指標を記録してご確認ください。</div><h2>次に読む</h2><ul><li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 何を守るかの話</li><li><a href="#story-branding-exhibition">“物語で選ばれる宿” — 展示が示すブランディングの力</a> — ストーリーの更新の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — ビジュアルの重さの話</li><li><a href="#landing-page-3-seconds">ランディングページの設計 — 初見の「3秒」で何を伝えるか</a> — 言葉の着地の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"062"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"ロゴを変えずにブランドを刷新する"}],["$","span",null,{"className":"en-only","children":"Refreshing a Brand Without Changing the Logo"}],["$","span",null,{"className":"zh-only","children":"无需更改徽标即可更新您的品牌"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"老舗はのれんを変えずに、料理も内装も接客も刷新し続けてきました——守るのは名前でなく「期待の連続性」。ロゴを変えずにブランドを動かす5要素と順番。"}],["$","span",null,{"className":"en-only","children":"The long-established houses have kept renewing their food, their interiors, their service without ever changing the noren — what they protect is not the name but \"the continuity of expectation.\" The five elements that move a brand without touching the logo, and their order."}],["$","span",null,{"className":"zh-only","children":"无需更改徽标即可提升品牌形象的 5 个要素。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_brand-refresh-without-logo-new.jpg","alt":"ロゴを変えずにブランドを刷新する"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.04.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1487,<p>A full brand redesign is high-cost, high-risk. Change the signboard and the re-explaining to every channel begins, and a gap opens with the recognition built up over years. And the logo is only the "tip of the iceberg" of a brand. <strong>Without changing the logo, a brand can move a great deal.</strong> This article deciphers the craft of doing so from what Japan’s long-established houses have practiced for centuries.</p>
+
+<h2>The philosophy of the noren — protect not the name but the continuity of expectation</h2>
+
+<p>In the world of the long-established, the noren curtain is the body itself. And there is an institution called "noren-wake" — the head house granting, to a party whose trust it has recognized, the right to hang the same noren. The noren refers not to a design like a registered trademark but to <strong>the continuity of the guests’ expectation itself</strong>. That is why the old houses, without changing the noren, have kept changing the food, renewing the interiors, refreshing the service. Change the contents, protect the continuity of expectation — this is the long-standing implementation of "refreshing a brand without changing the logo." A brand is not a logo but the sum of all guests’ experiences — and the oldest Japanese edition of that principle is the noren.</p>
+
+<h2>The 5 elements that move a brand</h2>
+
+<ol>
+<li><strong>Language</strong> — Rewriting the description and the copy. The cheapest element, and the fastest to work. Align the same words across every medium.</li>
+<li><strong>Visual content</strong> — The style of the photographs and the family of colors (the logo unchanging). The weight photographs carry in deciding bookings was handled in the photos article.</li>
+<li><strong>Experience (touchpoints)</strong> — The small things in the room. Amenities, scent, music, how things are placed.</li>
+<li><strong>Story</strong> — Updating the one-source story. Rewrite the four lines of who, why, what is protected, what is delivered (see the story article).</li>
+<li><strong>Channels</strong> — Adjusting the ratios of the "places" that tell. Rebalance the allocation across social, booking sites, and direct.</li>
+</ol>
+
+<h2>The order of implementation — from low cost and low risk</h2>
+
+<p>The order is <strong>language → visuals → experience → story → channels</strong>. There are two reasons. First, by starting with what is low in cost and risk, the property stays unharmed even in failure. Second, once the words are fixed first, the photographs and the experiences that follow can all be aligned toward the same words. <strong>Language is the blueprint for the remaining four.</strong> Advance the elements "one per month," and the load spreads out, and the same metrics (booking conversion, the words in reviews, inquiries) can be watched before and after each step.</p>
+
+<h2>The other side — when the refresh exhausts the property</h2>
+
+<ul>
+<li><strong>The disease of the noren growing old</strong> — Only the name remaining while the contents empty out is the end of the long-established house that neglected renewal. "Not changing" is not a paraphrase of "doing nothing." Keep some one of the five elements always in motion.</li>
+<li><strong>Only the words new</strong> — The description rewritten while the experience stays as it was. The gap between words and reality disappoints repeaters most (repeaters are precisely the people who remember the previous words).</li>
+<li><strong>All five elements at once</strong> — Change everything at once and, beyond not knowing what worked, the floor is left behind. The one-per-month discipline exists also for measuring effect.</li>
+<li><strong>Uniformity taken too far</strong> — Unify the visuals too strictly and the social feed goes monotonous. What should be unified is the "family," not the "identical" (see the account-design article).</li>
+<li><strong>A word to repeaters</strong> — When announcing a refresh, convey at the same time the reassurance that "nothing else changes." What regulars care about most is whether the parts they loved remain.</li>
+</ul>
+
+<p>The first step is, this month, to rewrite just one paragraph of your description. The noren stays as it is; only the words are made new — the refresh of the old houses always began there. Move the five elements over five months. In the meantime, the logo need not move a millimeter. The brand is moving.</p>
+
+<div class="note">This article is intended for sharing ideas. Institutions such as noren-wake are introduced as a general account of business custom. To check the effects of a refresh, record the same metrics before and after each step.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#branding-subtraction">If You Keep Only One: The Subtraction of Brand</a> — choosing what to protect</li>
+<li><a href="#story-branding-exhibition">"The Stay Chosen by Its Story" — What the Exhibition Reveals About Branding</a> — updating the story</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — the weight of the visual</li>
+<li><a href="#landing-page-3-seconds">Landing Page Design: What to Say in the First "Three Seconds"</a> — where the words land</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Teb2,<p>全面的品牌重新设计成本高、风险高。本文介绍了五个可以在不改变徽标的情况下移动您的品牌的元素。</p>
+<h2>1、为什么“不改标志”？</h2>
+<p>徽标变更会带来跨所有渠道重新沟通的成本和风险。您的徽标只是您品牌的“冰山一角”。<strong>您的品牌可以在不改变徽标的情况下做出重大改变。</strong>。</p>
+<h2>2. 驱动品牌的 5 个要素</h2>
+<ol>
+<li><strong>语言（副本）</strong> — 重写了“关于”口号。</li>
+<li><strong>视觉内容</strong> — 照片风格、调色板（徽标保持不变）。</li>
+<li><strong>经验（接触点）</strong> — 房间里的小东西（便利设施、气味、音乐）。</li>
+<li><strong>故事</strong> — 更新了 One Source 故事（谁、为什么、受保护的内容、提供的内容）。</li>
+<li><strong>渠道</strong> — 调整沟通“场所”的比例（SNS、OTA、直连）。</li>
+</ol>
+<h2>3. 实施顺序</h2>
+<ul>
+<li><strong>语言→视觉→体验→故事→频道</strong> — 从成本和风险较低的开始。</li>
+<li>“每月一步”推进每个要素可以分散负担。</li>
+</ul>
+<h2>4、效果</h2>
+<ul>
+<li>视觉更新后预订转化率提高（例如 +20%）。</li>
+<li>提高点击率（统一照片风格）。</li>
+<li>品牌的“一致性”体现在评论和SNS上。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“在不改变标志的情况下更新品牌”是客人期望与五年前相比的变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>品牌推广工作增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>+20%</b><span>（数值示例）预订转化率（视觉更新后）</span></div><div class="stat"><b>增加</b><span>（数值示例）CTR（统一照片）</span></div><div class="stat"><b>5</b><span>元素（徽标不变）</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>品牌不是一个标志，而是所有宾客体验的总和。在不改变徽标的情况下改变语言、视觉效果、体验、故事和渠道是最具成本效益的创新类型。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一个月：重写语言（关于/流行语）</li>
+<li>第二个月：视觉效果统一（照片风格/调色板）</li>
+<li>第三个月：体验更新（接触点）</li>
+<li>第四个月：故事更新</li>
+<li>第5个月：渠道比例调整</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/ai-chat-night-ops","children":["- ",["$","span",null,{"className":"ja-only","children":"AIチャットで深夜対応を自動化"}],["$","span",null,{"className":"en-only","children":"Automating Late-Night Guest Care With AI Chat"}],["$","span",null,{"className":"zh-only","children":"通过 AI 聊天自动提供深夜支持"}]]}],["$","$L8",null,{"href":"/journal/articles/sns-want-to-visit","children":[["$","span",null,{"className":"ja-only","children":"SNSで「行ってみたい」を作る"}],["$","span",null,{"className":"en-only","children":"Making People Say \"I Want to Go\" on Social"}],["$","span",null,{"className":"zh-only","children":"在SNS上创建“我想去”"}]," -"]}]]}]
+10:null

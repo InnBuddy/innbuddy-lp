@@ -1,5 +1,5 @@
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
 :HL["https://images.microcms-assets.io/assets/8f557fdecb934376b963d6d0ae610f94/36779298deec462695102c22ecea3410/Gemini_Generated_Image_l4fc07l4fc07l4fc.jpeg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"story","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"yoshinoyama-oku-senbonzakura","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"story","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"yoshinoyama-oku-senbonzakura","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Wjs50aw9q7KwJzs198_KL"}

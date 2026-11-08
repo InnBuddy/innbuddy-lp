@@ -1,15 +1,154 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_group-incident-response.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T1f9e,<p>グループでの事故対応は<strong>「1人の20倍」ではなく「20人の1つの不快」</strong>です。修学旅行のバスが遅れる。団体の部屋の湯が張られていない。食事の提供が1時間遅れる——20人が同時に不快なとき、必要なのは20回の謝罪ではなく、20人に同時に届く1つの対応です。本記事は、その同時対応の基礎編です(1人へのクレーム対応の基本の型は、<a href="#service-recovery-basics">サービスリカバリー — クレームを信頼に変える「一手」</a>が扱います。ここは、人数が増えたときに変わる部分の話です)。</p><h2>混乱の最大の毒は「分からない」</h2><p>江戸の町火消しは、火事場に駆けつけると、真っ先に<strong>纏(まとい)</strong>を立てました。組の印を高く掲げ、どこに誰の組が入っているかを見えるようにする。火消しの仕事は水をかけることだけでなく、<strong>混沌の中に「見える順序」を作ること</strong>でもあったのです。纏持ちが旗を振る姿が場の中心になる——混乱とは、火事だけが作るものではありません。</p><div class="stats"><span class="tag">FACT</span><strong>江戸の町火消しは、火事場に着くとまず組の印「纏(まとい)」を高く掲げた。どの組がどこで消火に当たっているかを現場に見せる、混沌の中の「見える化」の装置でした</strong> — 集団の混乱を鎮める第一歩は、水でも謝罪でもなく「見える1つの印」</div><p>20人が同時に不快なとき、宿で最初に起きることは、火事と同じ<strong>情報の火の手</strong>です。「どうしてくれんだ」「まだか」「誰に言えばいい」——これらは、事実がなければ、それぞれの頭の中で勝手に育ちます。1人のクレームと集団のクレームが違うのは、<strong>不満が空気中で増幅される</strong>こと。対処の順序は、そこから決まります。</p><h2>最初の3分 — 旗を立てる</h2><ol><li><strong>事実の1行</strong> — 「お風呂の給湯に不具合があり、復旧の見込みは30分後です」。<strong>分かっていること</strong>を、先に言う。推測を言わない。</li><li><strong>対応の1行</strong> — 「それまでロビーでお茶をご用意します」。分からないことばかりの中、対応の1行だけでも、場の緊張は変わります。</li><li><strong>次の連絡の時刻</strong> — 「30分後の○時に、改めてご案内します」。連絡の時刻を切る——これが一番効く1行です(待ち時間の心理は、ターンオーバーの記事が扱っています)。</li></ol><h2>3ステップ — 受容・修正・一手(グループ版)</h2><ul><li><strong>受容(全体に)</strong> — 「皆様にご不便をおかけし、申し訳ございません」。まず全体へのひと言。1人ずつ謝り始めると、その間に残り19人の不満が熟します。</li><li><strong>修正(代表者に具体的に)</strong> — 幹事・添乗員・引率の先生。旗の近くに立つ人に、具体的な対応と時刻を伝えます。ただし<strong>代表者だけに伝えて終わりにしない</strong>——19人が置いていかれたままだと、代表者まで巻き込んで炎上します。</li><li><strong>一手(全体に)</strong> — 期待を超える1つを、全員に。ラウンジでの茶の提供、休憩時間の延長、次の日程の調整。1人のときの「一手」を、全員に同時に届ける形に翻訳します。</li></ul><h2>場の分断 — 不満の連鎖を切る</h2><p>集団の不満には、物理的な広がりがあります。廊下での不満の声は、通りがかった別の宿泊客にも伝染します。可能なら、<strong>対応の場を1つ用意する</strong>(ロビーの一角、宴会場の隣室)。20人を1つの場に集めることは、不満の広がりを止めると同時に、<strong>解決の瞬間も全員が同時に見る</strong>ことになります。集団への謝罪は、個別の積み上げでなく<strong>同時配布</strong>が原則。順番は、集団→個別です(逆にすると、先に聞いた人と後に聞いた人で情報がずれ、新たな不満が生まれます)。</p><h2>記録と共有 — 次のグループの資産</h2><ul><li>何が・なぜ・どう直したか、当日中に1枚に記録します。</li><li>スタッフで共有し、マニュアルの1行として足す。<strong>グループ対応の事例は、チームの資産</strong>——同じ失敗を2回目も「初めて」で迎えないための仕組みです。</li><li>グループを受け入れる宿なら、<strong>受け入れ前の「旗の準備」</strong>を。幹事の名前と連絡先、到着時刻、部屋割り、食事の時間——事前に1枚にまとめることが、事故が起きたときの対応表になります(団体の受け入れ側の設計は、<a href="#meeting-banquet-revenue">会議・バンケット収益 — 「客室＋会議」の基本</a>が扱います)。</li></ul><h2>反対側 — 集団対応が現場を疲れさせるとき</h2><ul><li><strong>全員は集まらない</strong> — 到着前の事故、すでに街へ出た後の事故では、集団は一堂に会しません。代表者への連絡と、帰着後の全体へのひと言で対応します。</li><li><strong>幹事の面目</strong> — 幹事は、メンバーからも責められる立場にあります。謝罪の場で幹事をさらに責めない。対等に、情報を共有する相手として遇すること。</li><li><strong>一手の過剰</strong> — お詫びの商品や返金が大きすぎると、「事故を期待する」奇妙な経済が生まれます。一手は気持ちで、金額は規定に。</li><li><strong>SNSの速さ</strong> — 20人のうち1人が撮影し、3分で拡散します。最初の1行(旗)を立てる速さが、その後の評判を作ると考えること(<a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a>と共通の原理)。</li><li><strong>「全員が謝る」混乱</strong> — 対応する人を1人に絞る。全員が謝罪に回ると、事実がぶれて、混乱に拍車がかかります。旗は1本だけ。</li></ul><p>最初の一歩は、グループを受け入れる前に、<strong>「最初の3分の1行」</strong>を書いておくことです。「事実+対応+次の連絡時刻」——空欄のままでも、この3つの枠を書いた1枚があるかないかで、いざというときの最初の3分は別物になります。火消しが纏を用意していたように、宿も旗を用意しておく。それが集団対応の、いちばん小さな始まりです。</p><div class="note">この記事はアイデア共有を目的としています。町火消しの纏は江戸の消防文化の一般知識として紹介しています(執筆時点)。事故対応の具体は、宿の規模・体制・保険の範囲に合わせて設計し、法令上の対応が必要な事故は所定の窓口にご相談ください。</div><h2>次に読む</h2><ul><li><a href="#service-recovery-basics">サービスリカバリー — クレームを信頼に変える「一手」</a> — 1人のときの型の話</li><li><a href="#meeting-banquet-revenue">会議・バンケット収益 — 「客室＋会議」の基本</a> — 団体を受け入れる側の設計の話</li><li><a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a> — 評判が動く仕組みの話</li><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — 連絡の時刻が待ちを変える話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","090"]}]]}],["$","h1",null,{"children":"グループでの事故対応 — 「20人が同時に不快」の基本"}],["$","p",null,{"className":"excerpt","children":"グループの事故は「1人の20倍」ではなく「20人の1つの不快」。混乱の最大の毒は「分からない」——町火消しが真っ先に纏を立てたように、最初の3分で1行の旗を立てる設計を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_group-incident-response.jpg","alt":"グループでの事故対応 — 「20人が同時に不快」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.13"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/omotenashi-arrival-departure","children":["← ","「お迎え」と「お見送り」— 日本的なおもてなしサービスの2点"]}],["$","$L2",null,{"href":"/journal/articles/safety-patrol-night","children":["安全パトロール — 誰も見ていない「見る」の基本"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1f9e,<p>グループでの事故対応は<strong>「1人の20倍」ではなく「20人の1つの不快」</strong>です。修学旅行のバスが遅れる。団体の部屋の湯が張られていない。食事の提供が1時間遅れる——20人が同時に不快なとき、必要なのは20回の謝罪ではなく、20人に同時に届く1つの対応です。本記事は、その同時対応の基礎編です(1人へのクレーム対応の基本の型は、<a href="#service-recovery-basics">サービスリカバリー — クレームを信頼に変える「一手」</a>が扱います。ここは、人数が増えたときに変わる部分の話です)。</p><h2>混乱の最大の毒は「分からない」</h2><p>江戸の町火消しは、火事場に駆けつけると、真っ先に<strong>纏(まとい)</strong>を立てました。組の印を高く掲げ、どこに誰の組が入っているかを見えるようにする。火消しの仕事は水をかけることだけでなく、<strong>混沌の中に「見える順序」を作ること</strong>でもあったのです。纏持ちが旗を振る姿が場の中心になる——混乱とは、火事だけが作るものではありません。</p><div class="stats"><span class="tag">FACT</span><strong>江戸の町火消しは、火事場に着くとまず組の印「纏(まとい)」を高く掲げた。どの組がどこで消火に当たっているかを現場に見せる、混沌の中の「見える化」の装置でした</strong> — 集団の混乱を鎮める第一歩は、水でも謝罪でもなく「見える1つの印」</div><p>20人が同時に不快なとき、宿で最初に起きることは、火事と同じ<strong>情報の火の手</strong>です。「どうしてくれんだ」「まだか」「誰に言えばいい」——これらは、事実がなければ、それぞれの頭の中で勝手に育ちます。1人のクレームと集団のクレームが違うのは、<strong>不満が空気中で増幅される</strong>こと。対処の順序は、そこから決まります。</p><h2>最初の3分 — 旗を立てる</h2><ol><li><strong>事実の1行</strong> — 「お風呂の給湯に不具合があり、復旧の見込みは30分後です」。<strong>分かっていること</strong>を、先に言う。推測を言わない。</li><li><strong>対応の1行</strong> — 「それまでロビーでお茶をご用意します」。分からないことばかりの中、対応の1行だけでも、場の緊張は変わります。</li><li><strong>次の連絡の時刻</strong> — 「30分後の○時に、改めてご案内します」。連絡の時刻を切る——これが一番効く1行です(待ち時間の心理は、ターンオーバーの記事が扱っています)。</li></ol><h2>3ステップ — 受容・修正・一手(グループ版)</h2><ul><li><strong>受容(全体に)</strong> — 「皆様にご不便をおかけし、申し訳ございません」。まず全体へのひと言。1人ずつ謝り始めると、その間に残り19人の不満が熟します。</li><li><strong>修正(代表者に具体的に)</strong> — 幹事・添乗員・引率の先生。旗の近くに立つ人に、具体的な対応と時刻を伝えます。ただし<strong>代表者だけに伝えて終わりにしない</strong>——19人が置いていかれたままだと、代表者まで巻き込んで炎上します。</li><li><strong>一手(全体に)</strong> — 期待を超える1つを、全員に。ラウンジでの茶の提供、休憩時間の延長、次の日程の調整。1人のときの「一手」を、全員に同時に届ける形に翻訳します。</li></ul><h2>場の分断 — 不満の連鎖を切る</h2><p>集団の不満には、物理的な広がりがあります。廊下での不満の声は、通りがかった別の宿泊客にも伝染します。可能なら、<strong>対応の場を1つ用意する</strong>(ロビーの一角、宴会場の隣室)。20人を1つの場に集めることは、不満の広がりを止めると同時に、<strong>解決の瞬間も全員が同時に見る</strong>ことになります。集団への謝罪は、個別の積み上げでなく<strong>同時配布</strong>が原則。順番は、集団→個別です(逆にすると、先に聞いた人と後に聞いた人で情報がずれ、新たな不満が生まれます)。</p><h2>記録と共有 — 次のグループの資産</h2><ul><li>何が・なぜ・どう直したか、当日中に1枚に記録します。</li><li>スタッフで共有し、マニュアルの1行として足す。<strong>グループ対応の事例は、チームの資産</strong>——同じ失敗を2回目も「初めて」で迎えないための仕組みです。</li><li>グループを受け入れる宿なら、<strong>受け入れ前の「旗の準備」</strong>を。幹事の名前と連絡先、到着時刻、部屋割り、食事の時間——事前に1枚にまとめることが、事故が起きたときの対応表になります(団体の受け入れ側の設計は、<a href="#meeting-banquet-revenue">会議・バンケット収益 — 「客室＋会議」の基本</a>が扱います)。</li></ul><h2>反対側 — 集団対応が現場を疲れさせるとき</h2><ul><li><strong>全員は集まらない</strong> — 到着前の事故、すでに街へ出た後の事故では、集団は一堂に会しません。代表者への連絡と、帰着後の全体へのひと言で対応します。</li><li><strong>幹事の面目</strong> — 幹事は、メンバーからも責められる立場にあります。謝罪の場で幹事をさらに責めない。対等に、情報を共有する相手として遇すること。</li><li><strong>一手の過剰</strong> — お詫びの商品や返金が大きすぎると、「事故を期待する」奇妙な経済が生まれます。一手は気持ちで、金額は規定に。</li><li><strong>SNSの速さ</strong> — 20人のうち1人が撮影し、3分で拡散します。最初の1行(旗)を立てる速さが、その後の評判を作ると考えること(<a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a>と共通の原理)。</li><li><strong>「全員が謝る」混乱</strong> — 対応する人を1人に絞る。全員が謝罪に回ると、事実がぶれて、混乱に拍車がかかります。旗は1本だけ。</li></ul><p>最初の一歩は、グループを受け入れる前に、<strong>「最初の3分の1行」</strong>を書いておくことです。「事実+対応+次の連絡時刻」——空欄のままでも、この3つの枠を書いた1枚があるかないかで、いざというときの最初の3分は別物になります。火消しが纏を用意していたように、宿も旗を用意しておく。それが集団対応の、いちばん小さな始まりです。</p><div class="note">この記事はアイデア共有を目的としています。町火消しの纏は江戸の消防文化の一般知識として紹介しています(執筆時点)。事故対応の具体は、宿の規模・体制・保険の範囲に合わせて設計し、法令上の対応が必要な事故は所定の窓口にご相談ください。</div><h2>次に読む</h2><ul><li><a href="#service-recovery-basics">サービスリカバリー — クレームを信頼に変える「一手」</a> — 1人のときの型の話</li><li><a href="#meeting-banquet-revenue">会議・バンケット収益 — 「客室＋会議」の基本</a> — 団体を受け入れる側の設計の話</li><li><a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a> — 評判が動く仕組みの話</li><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — 連絡の時刻が待ちを変える話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"090"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"グループでの事故対応 — 「20人が同時に不快」の基本"}],["$","span",null,{"className":"en-only","children":"Group Incident Response: When 20 Are Unhappy at Once"}],["$","span",null,{"className":"zh-only","children":"应对群体事故——“20人同时感到不舒服”的基础"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"グループの事故は「1人の20倍」ではなく「20人の1つの不快」。混乱の最大の毒は「分からない」——町火消しが真っ先に纏を立てたように、最初の3分で1行の旗を立てる設計を整理します。"}],["$","span",null,{"className":"en-only","children":"A group incident is not \"one person’s trouble ×20\" but \"one unhappiness shared by 20.\" The greatest poison of confusion is \"not knowing\" — as Edo firemen first raised their matoi standard, the design of raising a one-line flag in the first 3 minutes."}],["$","span",null,{"className":"zh-only","children":"团体事故不是“一个人不舒服20倍”，而是“20个人不舒服”。一篇关于如何将同时发生的事件带来的不适转化为信任的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_group-incident-response.jpg","alt":"グループでの事故対応 — 「20人が同時に不快」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.13"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1de1,<p>Group incident response is <strong>not "20 times one person" but "one unhappiness of 20 people."</strong> The school-trip bus runs late. The group’s baths are not drawn. Dinner service is an hour behind — when 20 people are uncomfortable at once, what is needed is not 20 apologies but one response that reaches all 20 at once. This article is the foundation of that simultaneous response (the basic pattern for responding to one person’s complaint is handled by <a href="#service-recovery-basics">Service Recovery: The "One Move" That Turns a Complaint Into Trust</a>. Here: what changes when the count grows).</p>
+
+<h2>The greatest poison of confusion is "not knowing"</h2>
+
+<p>Edo’s town fire brigades, arriving at a fire, first raised the <strong>matoi</strong> standard. They hoisted the brigade’s emblem high, making visible where, and whose, brigade was working. The firemen’s work was not only pouring water — it was also <strong>creating "visible order" inside the chaos</strong>. The standard-bearer waving the flag becomes the center of the scene. Confusion is not something only fire makes.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Edo’s town fire brigades, on reaching a fire, first hoisted their brigade’s emblem, the "matoi" standard. It was a device of visibility within chaos — showing the scene at a glance which brigade was fighting fire where</strong> — The first step in calming a crowd’s confusion is neither water nor apology, but "one visible sign."</div>
+
+<p>When 20 people are uncomfortable at once, what happens first in the property is, like a fire, <strong>a blaze of information</strong>. "What are you going to do about this," "not yet?", "who do I even tell" — without facts, each of these grows wild in each head. What makes a group complaint different from an individual one is that <strong>dissatisfaction amplifies in the air</strong>. The order of response follows from that.</p>
+
+<h2>The first 3 minutes — raise the flag</h2>
+
+<ol>
+<li><strong>One line of fact</strong> — "There is a fault in the hot-water supply; restoration is expected in 30 minutes." State <strong>what is known</strong>, first. Do not state guesses.</li>
+<li><strong>One line of response</strong> — "Until then, we will serve tea in the lobby." In a fog of unknowns, one line of response alone changes the tension of the scene.</li>
+<li><strong>The time of the next update</strong> — "At ○ o’clock, 30 minutes from now, we will announce again." Cutting in a time for the next word — this is the most effective line of all (the psychology of waiting is handled in the turnover article).</li>
+</ol>
+
+<h2>3 steps — accept, correct, one move (group version)</h2>
+
+<ul>
+<li><strong>Accept (to everyone)</strong> — "We are sorry for the inconvenience to you all." First, one word to the whole. Begin apologizing person by person, and the remaining nineteen ripen meanwhile.</li>
+<li><strong>Correct (concretely, to the representative)</strong> — The organizer, the tour conductor, the leading teacher. To the person standing near the flag, convey the concrete response and its time. But <strong>do not end with the representative alone</strong> — leave the other nineteen behind, and the blaze swallows the representative too.</li>
+<li><strong>One move (to everyone)</strong> — One thing beyond expectations, to all: tea in the lounge, an extended rest, an adjusted next schedule. Translate the individual’s "one move" into a form delivered to everyone at once.</li>
+</ul>
+
+<h2>Partitioning the scene — cutting the chain of discontent</h2>
+
+<p>Group discontent has a physical spread. Voices in the corridor infect other guests passing by. Where possible, <strong>prepare one place for the response</strong> (a corner of the lobby, the room beside the banquet hall). Gathering the 20 in one place stops the spread of discontent and, at the same time, means <strong>everyone sees the moment of resolution simultaneously</strong>. Apology to a group is, as a principle, <strong>simultaneous distribution</strong>, not a stacking of individuals. The order is group first, individuals after (reversed, the early-heard and late-heard receive different information, and new discontent is born).</p>
+
+<h2>Recording and sharing — assets for the next group</h2>
+
+<ul>
+<li>What happened, why, how it was fixed — on one sheet, the same day.</li>
+<li>Share it with the staff and add it as a line of the manual. <strong>Group-response cases are team assets</strong> — the mechanism for not meeting the same failure "for the first time" a second time.</li>
+<li>If you accept groups, prepare <strong>the flag before acceptance</strong>. The organizer’s name and contact, arrival time, room assignments, meal times — gathered on one sheet beforehand, this becomes the response sheet when an incident happens (the receiving side of group design is handled by <a href="#meeting-banquet-revenue">Meeting and Banquet Revenue: Rooms Plus Meeting Basics</a>).</li>
+</ul>
+
+<h2>The other side — when group response exhausts the floor</h2>
+
+<ul>
+<li><strong>Not everyone can gather</strong> — For incidents before arrival, or after the group has gone into town, the group never assembles. Respond with a call to the representative and one word to everyone at their return.</li>
+<li><strong>The organizer’s face</strong> — The organizer stands to be blamed by the members as well. Do not blame the organizer further at the apology. Treat them as an equal, an information-sharing partner.</li>
+<li><strong>Excess of the one move</strong> — Make the amends goods or the refund too big, and a strange economy of "expecting incidents" is born. The one move is a gesture; amounts follow the rules.</li>
+<li><strong>The speed of social media</strong> — One of the 20 films it and spreads it in 3 minutes. The speed of raising the first line (the flag) makes the reputation that follows (a principle shared with <a href="#review-management-3-numbers">Review Management: The Basics of Score, Count, and Recency</a>).</li>
+<li><strong>The confusion of "everyone apologizing"</strong> — Narrow the responders to one. With everyone going around apologizing, the facts waver and the confusion accelerates. One flag only.</li>
+</ul>
+
+<p>The first step, before accepting a group, is writing <strong>the "one line of the first 3 minutes"</strong> in advance. "Fact + response + time of next update" — even with the blanks empty, whether one sheet with these three frames exists changes the first three minutes entirely. As the firemen kept their matoi ready, the property keeps a flag ready. That is the smallest beginning of group response.</p>
+
+<div class="note">This article is intended for sharing ideas. The fire brigades’ matoi is introduced as general knowledge of Edo fire culture (as of writing). Please design incident response to your property’s scale, structure, and insurance coverage; for incidents requiring statutory response, consult the appropriate authorities.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#service-recovery-basics">Service Recovery: The "One Move" That Turns a Complaint Into Trust</a> — the pattern for one person</li>
+<li><a href="#meeting-banquet-revenue">Meeting and Banquet Revenue: Rooms Plus Meeting Basics</a> — the receiving side of groups</li>
+<li><a href="#review-management-3-numbers">Review Management: The Basics of Score, Count, and Recency</a> — how reputation moves</li>
+<li><a href="#room-turnover-flow">Room Turnover: Cutting Guest Wait with Cleaning Flow</a> — how a time for the next word changes the wait</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te69,<p>团体事故应对<strong>“20人1次不适”而不是“1人20次”</strong>。如果20个人同时感到不舒服，你不需要一一向每个人道歉，而是需要以一种方式回应，同时与所有20个人沟通。本文是一篇关于如何将多个同时发生的事件带来的不适转化为信任的基础文章。</p><h2>1. 团体性质——代表与全体</h2><ul><li><strong>代表</strong> — 首先，告诉组织者、导游或老师。</li><li><strong>所有的</strong> — 同时将代表的答复传达给整个小组（不要遗漏）。</li><li><strong>20人同时感到不舒服</strong> — 延迟回应一个人将会导致 20 个人不满意。</li></ul><h2>2. 3个步骤——接受、纠正和移动（团体版）</h2><ol><li><strong>验收（总体）</strong> —“对于这可能给您带来的任何不便，我们深表歉意，”他对所有人说。</li><li><strong>更正（特别针对代表）</strong> — 具体告诉代表您将从现在到____之间做出回应。</li><li><strong>一招（整体）</strong> — 全程超出预期（例如在休息室提供茶水、延长下次休息时间）。</li></ol><h2>3. 记录并分享——为您的下一组。</h2><ul><li>记录修复的内容、原因和方式，并与员工分享。</li><li>“20 个人同时感到不舒服”的一个例子就是团队资产。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>``团体事故应对-'20人同时感到不舒服''''客人的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>住宿运营的举措提升的不只是单个旅馆，也包括整个地区的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>20人</b><span>同时感到不适</span></div><div class="stat"><b>3步</b><span>接受、纠正、第一步</span></div><div class="stat"><b>1人</b><span>最先传达信息的代表</span></div></div><div class="note"><span class="tag">InnBuddy 笔记</span>在团体支持下谁会获胜？<strong>“一句话代表整体，具体代表代表。”</strong>。建立信任的捷径不是一次与 20 个人打交道。</div><h2>行动清单</h2><ul><li>第 1 周：与员工分享团体支持的 3 个步骤</li><li>第 2 周：角色扮演如何向代表和整个小组传达信息</li><li>第 3 周：创建录制格式（什么、为什么以及如何修复）</li><li>每月：回顾团体支持的例子</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/omotenashi-arrival-departure","children":["- ",["$","span",null,{"className":"ja-only","children":"「お迎え」と「お見送り」— 日本的なおもてなしサービスの2点"}],["$","span",null,{"className":"en-only","children":"Omotenashi Arrival and Departure: Two Points of Japanese Hospitality"}],["$","span",null,{"className":"zh-only","children":"“迎宾”与“送别”——日本式待客服务的两点"}]]}],["$","$L8",null,{"href":"/journal/articles/safety-patrol-night","children":[["$","span",null,{"className":"ja-only","children":"安全パトロール — 誰も見ていない「見る」の基本"}],["$","span",null,{"className":"en-only","children":"Safety Patrol: The Basics of Watching When No One Watches"}],["$","span",null,{"className":"zh-only","children":"安全巡逻——无人监视时“看到”的基本知识"}]," -"]}]]}]
+10:null

@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-moon-enjoy-stay.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T233b,<p>「満月の夜、うちの宿から月が見えます」——この案内文には、もったいないところがひとつあります。月が「満月の夜のもの」であるかのように聞こえる点です。実際には、月は毎晩昇り、毎晩形が変わり、日本では古くから、そのひとつひとつの夜に名前がつけられていました。月を楽しむ宿とは、満月の夜に照準を合わせる宿ではなく、<strong>毎晩、別の月を案内できる宿</strong>です。この記事は、そのための暦の知識、月光の性質、対岸の事例、睡眠の研究を順に並べていきます。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T233b,<p>「満月の夜、うちの宿から月が見えます」——この案内文には、もったいないところがひとつあります。月が「満月の夜のもの」であるかのように聞こえる点です。実際には、月は毎晩昇り、毎晩形が変わり、日本では古くから、そのひとつひとつの夜に名前がつけられていました。月を楽しむ宿とは、満月の夜に照準を合わせる宿ではなく、<strong>毎晩、別の月を案内できる宿</strong>です。この記事は、そのための暦の知識、月光の性質、対岸の事例、睡眠の研究を順に並べていきます。</p>
 
 <h2>毎晩、別の名前の月が昇る</h2>
 <p>国立天文台の解説によれば、月の出・月の入りの時刻は平均すると1日に約50分ずつ遅くなっていきます（実際のずれは日によって30分から1時間10分と幅があります）。月が地球のまわりを約29.5日で一周するためです。この遅れの積み重ねによって、理科年表の欄が空白になる「月の出がない日」さえ生じます。</p>
@@ -44,10 +109,62 @@ a:"$Sreact.suspense"
 <li><a href="#idea-night-stay-light-moon-star">夜の過ごし方を伝える — 夜の灯り・月・星で過ごす夜のアイデア</a> — 夜全体の灯りの設計</li>
 <li><a href="#idea-stargazing-tourism-stay">星空ツーリズムを宿に取り入れる — 星空・月・夜の暗さを楽しむアイデア</a> — 星空を体験の主役にする考え方</li>
 <li><a href="#starlight-dinner-experience">星空ディナー — 夜の自然を舞台にした食の演出</a> — 夜の食の演出</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","133"]}]]}],["$","h1",null,{"children":"月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"}],["$","p",null,{"className":"excerpt","children":"月の出は毎日約50分ずつ遅れます。十六夜、立待月、居待月——毎晩別の名前の月を案内する宿になるための、暦の知識と月光の性質、ムガルの月光庭園と満月の夜の睡眠研究まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-moon-enjoy-stay.jpg","alt":"月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.13"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-snow-enjoy-stay","children":["← ","雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-wind-feel-room","children":["風を感じる客室 — 風鈴・風の抜け方・窓の開け方で作る涼のアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"133"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"}],["$","span",null,{"className":"en-only","children":"Inn Enjoying Moon - Ideas for Moon Viewing, Moonrise, Moonlight Night"}],["$","span",null,{"className":"zh-only","children":"赏月旅馆 — 赏月、月出、月光夜的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"月の出は毎日約50分ずつ遅れます。十六夜、立待月、居待月——毎晩別の名前の月を案内する宿になるための、暦の知識と月光の性質、ムガルの月光庭園と満月の夜の睡眠研究まで。"}],["$","span",null,{"className":"en-only","children":"Moonrise slips about 50 minutes later each day. Izayoi, tachimachi-zuki, imachi-zuki — the calendar knowledge and the properties of moonlight for becoming an inn that guides a differently named moon every night, plus Mughal moonlight gardens and the research on sleep around the full moon."}],["$","span",null,{"className":"zh-only","children":"赏月、月出、月光、观月台。我们收集了一些享受月相的小创意，让您在旅馆的夜晚更加丰富。果田里的月夜也是一道美丽的风景。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-moon-enjoy-stay.jpg","alt":"月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.13"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T2305,<p>"On the night of the full moon, you can see the moon from our inn" — this piece of guidance has one wasteful thing about it: it sounds as if the moon belongs to "the night of the full moon." In reality the moon rises every night and changes shape every night, and in Japan, each of those nights has long carried its own name. An inn that enjoys the moon is not one that aims at the full-moon night, but <strong>an inn that can guide a different moon every night</strong>. This article lines up, in order, the calendar knowledge for that, the properties of moonlight, a case from the far shore, and the research on sleep.</p>
+
+<h2>A differently named moon rises every night</h2>
+
+<p>By the National Astronomical Observatory of Japan’s explanation, the times of moonrise and moonset grow later, on average, by about 50 minutes a day (the actual shift ranges from 30 minutes to an hour and ten by the day), because the moon circles the earth in about 29.5 days. The accumulation of this delay even produces "days with no moonrise," where the column in the scientific almanac goes blank.</p>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>The night after the harvest full moon is "izayoi" — a name meaning "to hesitate"</strong> — The moon that rises one night later than full was called by the ancients "izayofu" (to hesitate). The night after is the "tachimachi-zuki," waited for standing; next the "imachi-zuki," waited for sitting; then the "nemachi-zuki" and the "kōmachi-zuki" continue the series. In the materials of the NAOJ’s Calendar and Ephemeris Computation Office, around the harvest full moon of autumn the intervals between moonrises shorten sharply, the moon rising at nearly the same time day after day — the season said to be best for "moon-waiting."</div>
+
+<p>This chain of "names for ways of waiting" becomes, as it is, the inn’s guidance. If the full-moon night clouds over, the next night holds the izayoi. The night after that holds the tachimachi-zuki. An inn that knows the timetable of the moon’s names never needs a "full-moon plan" that weather can cancel. The moon’s place is decided by its phase — the full moon (around moon age 15) rises around sunset and stays in the sky until morning; the last quarter (around moon age 22) rises at midnight and climbs high toward dawn. Know which hours of night hold a moon, and you can guide the moon by the night’s timetable: "moon-viewing after dinner," "the moon at daybreak."</p>
+
+<h2>The value of moonlight — why the full moon is special</h2>
+
+<p>Moonlight is far dimmer than imagined. The full moon’s illuminance at the ground is about 0.2 lux — one four-hundred-thousandth of sunlight (about 100,000 lux). More interesting still, a half moon is said to be only about 8% as bright as a full one — because the sand of the lunar surface returns light strongly toward the direction of the full moon, the moon brightens abruptly around full. In other words, "the full moon is special" has a physical backing. On a full-moon night, once the eye dark-adapts, the outlines of fields can be read and a white road told apart. A night that needs no lantern — that is the level of the full moon’s brightness.</p>
+
+<p>The translation to the inn runs like this. The value of the full-moon night is not "bright" but <strong>that there is natural light enough not to need lamps</strong>. So the staging of a full-moon night should be thought in the direction of subtraction. Put out the garden lights. White walls, white sand, the surface of water — leave just one material that shines when the moon lights it. Moonlight is lighting that chooses its object.</p>
+
+<h2>Moonlight gardens on the far shore — seeing something by the moon’s light</h2>
+
+<p>In Agra, India, across the Yamuna River from the Taj Mahal, there is a Mughal-era garden called Mehtab Bagh ("the moonlight garden"). It takes the char bagh form, quartered by cross-shaped water channels, and is said to have been a place for viewing, on full-moon nights, the white marble mausoleum lit by the moon from across the river. The garden’s remains have been restored and are now open to the public.</p>
+
+<p>The essence of this case is that it is not "looking at the moon." <strong>It is seeing something by the moon’s light.</strong> Not the moon itself, but what becomes visible only when moonlight falls — the white building, the moon reflected on water, the moonlit garden — for these, the distance of the far bank, the mirror of water, and the frame of the quartered garden were designed. The translation to a Japanese inn is not to add ornament but to re-choose "what the moon will light." Set one moon on the water of a basin. Lay white sand where the moon strikes. By the pond, one chair for moonlit nights only. The moon-viewing platform and the engawa are the Japanese versions of the same idea.</p>
+
+<h2>Sleep on full-moon nights — what the research says</h2>
+
+<div class="stats"><span class="tag">RESEARCH</span><strong>A report that markers of deep sleep fell on nights around the full moon</strong> — A team at the University of Basel, Switzerland, reported in 2013 that in a re-analysis of sleep-lab records, on nights 0 to 4 days around the full moon, an EEG marker of deep sleep fell by about 30%, time to fall asleep ran an average of 5 minutes longer, and total sleep was about 20 minutes shorter (the journal Current Biology). The participants could not see the moon and had not been told the phase. In 2021, a team at the University of Washington reported, in villages living without electricity and in urban students alike, a tendency for bedtime to run later and sleep shorter in the three to five days before the full moon (the journal Science Advances).</div>
+
+<p>These studies, however, remain under debate over reproducibility, and it is not at a stage where "you can’t sleep because it’s a full moon" can be asserted. The meaning for the inn is more practical. On full-moon nights, it is good for the rooms to offer <strong>both options</strong>: a room where moonlight enters the window, and a room where blackout curtains can shut it out. "Tonight is the full moon. Watch the moon before you sleep, or draw the curtain and sleep — either is fine" — guidance that asserts nothing is also the correct handling of the research.</p>
+
+<h2>Becoming an inn that guides the moon</h2>
+
+<p>Practice begins with one line of the calendar.</p>
+
+<ul>
+<li><strong>One line of "tonight’s moon"</strong> — The moon’s age and the time of moonrise can be checked in the calendars of the National Astronomical Observatory and the like. Put a line like "Tonight’s moon is the izayoi; it rises around 8 p.m." at the front desk or at breakfast.</li>
+<li><strong>Seats and tools for moon-viewing</strong> — A window facing the moonrise, the engawa, a garden chair. On the harvest full moon, dango dumplings and susuki pampas grass. That the harvest moon is also called the "potato harvest moon," from the taro once offered, makes seasonal conversation.</li>
+<li><strong>The division of night labor</strong> — Moonlight erases the stars. So you can guide it: the full moon’s night is the moon’s night; the new moon’s night is the stars’ night. A calendar of moon phases is also a guide to the starry sky.</li>
+<li><strong>For cloudy nights</strong> — Know the timetable of the moon’s names (izayoi, tachimachi-zuki, imachi-zuki…), and even when the full moon is hidden you can continue: "Tomorrow is the tachimachi-zuki."</li>
+<li><strong>Night safety</strong> — Add warm clothing and footing guidance to the moon-viewing walk. Keep garden lighting at the minimum needed for security (it can coexist with a design that lets moonlight work).</li>
+</ul>
+
+<p>The moon rises every night whether or not the inn prepares for it. All that is needed is for the inn’s side to know the hour and the name of its rising.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-starry-light-pollution">Lights Protecting Starry Sky - Ideas for Deepening Starry Experience with Lights Reducing Light Pollution</a> — the stars that moonlight erases</li>
+<li><a href="#idea-night-stay-light-moon-star">Tell How to Spend Night - Ideas for Night Spending with Night Light, Moon, Stars</a> — designing the night’s lighting as a whole</li>
+<li><a href="#idea-stargazing-tourism-stay">Incorporate Stargazing Tourism into Inn - Ideas for Enjoying Starry Sky, Moon, Darkness at Night</a> — putting the stars in the lead role</li>
+<li><a href="#starlight-dinner-experience">Starlight Dinner: Food Staging with Night Nature as Stage</a> — staging food in the night</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tfe5,<p>本文分享一些可供尝试的想法。有的客栈是赏月之夜，有的客栈是果田收割的时节，有的客栈是孩子们观察的时节。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>月圆之夜，月光照亮了果田，阳台上看到了月出。欣赏月亮的盈亏，会让你在旅馆的夜晚变得更加丰富。我们收集了一些赏月的小创意和丰富您在旅馆的夜晚的小贴士。</p><h2>赏月住宿创意集锦</h2><ul><li><strong>开辟一个赏月的地方</strong> — 将长凳和椅子放置在能看到美丽月亮的地方，并介绍这是一个可以欣赏月亮的地方。一家旅馆搭建了一个眺望果田的赏月台，并介绍为“赏月凳”。月光照射在果田上，有着与白天不同的美感。</li><li><strong>享受月出</strong> — 在小板和卡片上介绍月出的时间和方向。建议找个时间一边喝茶一边看月出会让您的夜晚更加丰富。一家旅馆制作了月出日历，并推出月圆之夜作为赏月之夜。</li><li><strong>月光漫步</strong> — 介绍在月圆之夜散步作为一种特殊的体验。漫步在月光照射下的果田里，沿着乡村小路漫步，与白天漫步有着不同的魅力。为了您的安全，请准备好手电筒并选择光线充足的路径。</li><li><strong>月亮和果田的想法</strong> ——有果田的客栈，月亮也是果田的风景。一家旅馆将月圆之夜的蓝莓田称为“月光蓝莓田”，并正在计划在月光下收获蓝莓的体验。月光照射下的果实，有着与白天不同的美丽。</li><li><strong>赏月小笼包和茶</strong> — 在赏月之夜供应小饺子和茶的想法。为什么不推荐通过制作月见团子或月见茶来享受月夜的方法呢？一些客栈还推出赏月之夜，在阳台上吃月饺、喝茶。</li></ul><h2>以下是如何度过在国外的时光 - 赏月住宿的建议</h2><p>在北欧森林客栈里，月亮是夜晚的光。月光下在森林里散步，月光下读书。与月光一起生活，创造了旅馆的夜晚。在东南亚岛屿上的旅馆里，满月之夜被认为是特别的夜晚，人们珍惜一边欣赏月出一边享用晚餐的时间。</p><p>月亮在你的旅馆里有什么样的存在？为什么不从能看到月亮的地方开始呢？</p><h2>果田和月亮的想法</h2><p>对于有果田的酒店来说，月亮也是果田丰收的指南。在一家旅馆，在月圆之夜收获的水果被介绍为“月圆水果”，并有一块木板解释了月相与水果收获之间的关系。通过了解月相与果田的关系，您将能够看到里山的生活。</p><p>即使您的住宿没有果园，您仍然可以享受月光照亮花园里的树木和月出。为什么不从小型赏月体验开始呢？</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — 有关如何度过这个月的建议可能会带来更丰富的夜晚。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。夜间散步时，请注意安全，合理散步。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>开辟一个赏月的地方</strong> — 在能看到美丽月亮的地方放置长凳，并介绍为赏月长凳</li><li><strong>制作月出日历</strong> — 一个小日历，将满月之夜介绍为赏月之夜。</li><li><strong>计划一次满月之夜散步</strong> — 体验在月光照亮的果园和乡村小道中漫步的体验。</li><li><strong>提供赏月饺子和茶</strong> — 赏月之夜，是在廊下吃赏月饺子、喝茶的好时机。</li><li><strong>制作月亮和果田招牌</strong> — 设立一个招牌，介绍在月圆之夜收获的水果作为月圆水果。</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-snow-enjoy-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}],["$","span",null,{"className":"en-only","children":"Inn Enjoying Snow - Ideas for Snow Viewing, Kamakura, Snow Lights"}],["$","span",null,{"className":"zh-only","children":"能享受雪的旅馆——赏雪、镰仓、雪灯的创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-wind-feel-room","children":[["$","span",null,{"className":"ja-only","children":"風を感じる客室 — 風鈴・風の抜け方・窓の開け方で作る涼のアイデア"}],["$","span",null,{"className":"en-only","children":"Room Feeling Wind - Ideas for Coolness Made with Wind Chimes, Ventilation, Window Opening"}],["$","span",null,{"className":"zh-only","children":"能感受到微风的客房——利用风铃营造清凉氛围的创意、风的逃逸方式、窗户的打开方法"}]," -"]}]]}]
+10:null

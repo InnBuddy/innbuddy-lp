@@ -16,6 +16,7 @@ interface Article {
   reader: string;
   wb_theme: string;
   mg_theme: string;
+  markdown?: string;
   html: string;
 }
 
@@ -30,7 +31,7 @@ function convertKanjiNumbers(text: string): string {
   });
 }
 
-// 静的パス事前生成（SSG用）
+// 静的パス事前生成(SSG用)
 export async function generateStaticParams() {
   const articles = articlesData as Article[];
   return articles.map((article) => ({
@@ -43,7 +44,6 @@ export default async function ArticleDetailPage(props: {
 }) {
   const params = await Promise.resolve(props.params);
   const slug = params.slug;
-
   const articles = articlesData as Article[];
   const article = articles.find((a) => a.base_id === slug);
 
@@ -51,7 +51,7 @@ export default async function ArticleDetailPage(props: {
     notFound();
   }
 
-  // カテゴリごとに記事をグループ化（サイドバー用）
+  // カテゴリごとに記事をグループ化 (サイドバー用)
   const groupedByCategory = articles.reduce((acc, a) => {
     const cat = a.category || 'その他';
     if (!acc[cat]) acc[cat] = [];
@@ -64,7 +64,7 @@ export default async function ArticleDetailPage(props: {
   const options: HTMLReactParserOptions = {
     replace: (domNode) => {
       if (domNode instanceof Element) {
-        // 1. 指定された「この記事は InnBuddy...」の blockquote を完全削除
+        // 1. 指定された「この記事は InnBuddy...」のblockquote を完全削除
         if (domNode.name === 'blockquote') {
           let textContent = '';
           const extractText = (node: any) => {
@@ -77,7 +77,7 @@ export default async function ArticleDetailPage(props: {
           }
         }
 
-        // 2. 「NEXT READ」およびそれに続くリストをキャッチしてカード化（重複を完全防止）
+        // 2. 「NEXT READ」 およびそれに続くリストをキャッチしてカード化
         if (domNode.name === 'p') {
           let textContent = '';
           const getPText = (node: any) => {
@@ -85,7 +85,6 @@ export default async function ArticleDetailPage(props: {
             if (node.children) node.children.forEach(getPText);
           };
           getPText(domNode);
-
           if (textContent.includes('NEXT READ')) {
             return (
               <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mt-12 mb-4 bg-gray-100 px-3 py-1 inline-block rounded">
@@ -94,9 +93,9 @@ export default async function ArticleDetailPage(props: {
             );
           }
 
-          // IDコード（例: RC025）を含む段落全体をカードリンクへ置換
+          // IDコード(例: RC025) を含む段落全体をカードリンクへ置換
           const articleIdRegex = /([A-Z]{2}\d{3})/;
-          if (textContent.match(articleIdRegex) && (textContent.includes('•') || textContent.includes('・'))) {
+          if (textContent.match(articleIdRegex) && (textContent.includes('・') || textContent.includes('...'))) {
             const match = textContent.match(articleIdRegex);
             if (match) {
               const targetId = match[1];
@@ -125,65 +124,168 @@ export default async function ArticleDetailPage(props: {
 
         // 3. 各タグのタイポグラフィ調整
         if (domNode.name === 'a') {
+          const href = domNode.attribs?.href || '#';
+
+          // 内部の .md リンク (例: A003-RC003.md) を Next.js のルートへ変換
+          if (href.endsWith('.md')) {
+            const cleanSlug = href.replace(/\.md$/, '').replace(/^\.\//, '');
+            return (
+              <Link
+                href={`/wellbeing/articles/${cleanSlug}`}
+                className="text-[#3a5a40] hover:underline font-bold break-words"
+              >
+                {/* @ts-ignore */}
+                {domToReact(domNode.children, options)}
+              </Link>
+            );
+          }
+
+          // 外部Webサイトへのリンク
+          if (href.startsWith('http://') || href.startsWith('https://')) {
+            return (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#3a5a40] underline underline-offset-2 hover:opacity-80 font-medium break-all"
+              >
+                {/* @ts-ignore */}
+                {domToReact(domNode.children, options)}
+              </a>
+            );
+          }
+
           return (
-            <Link href={domNode.attribs.href || '#'} className="text-[#3a5a40] hover:underline font-bold">
+            <Link href={href} className="text-[#3a5a40] hover:underline font-bold break-words">
               {/* @ts-ignore */}
               {domToReact(domNode.children, options)}
             </Link>
           );
         }
+
         if (domNode.name === 'hr') {
           return <hr className="border-t-2 border-[#E2DDD5] my-10" />;
         }
 
         const className = domNode.attribs?.class || '';
 
+        // ▼ 記事タイトル（H1）: 背景 #e8eedd、文字色 #3a5a40 に変更
         if (className.includes('art-h1') || domNode.name === 'h1') {
           // @ts-ignore
-          return <h1 className="text-2xl md:text-3xl font-bold text-[#1a231c] leading-tight mb-8 pb-4 border-b-2 border-[#3a5a40]/10 tracking-tight">{domToReact(domNode.children, options)}</h1>;
+          return (
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#3a5a40] bg-[#e8eedd] p-5 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl leading-snug sm:leading-tight mb-8 tracking-tight break-words shadow-sm">
+              {domToReact(domNode.children, options)}
+            </h1>
+          );
         }
+
         if (className.includes('art-h2') || domNode.name === 'h2') {
           // @ts-ignore
-          return <h2 className="text-xl md:text-2xl font-bold text-[#3a5a40] leading-snug mt-12 mb-6 tracking-tight flex items-center gap-3"><span className="w-1.5 h-6 bg-[#D3E173] rounded-full inline-block"></span>{domToReact(domNode.children, options)}</h2>;
+          return (
+            <h2 className="text-xl md:text-2xl font-bold text-[#3a5a40] leading-snug mt-12 mb-6 tracking-tight flex items-center gap-3 break-words">
+              <span className="w-1.5 h-6 bg-[#D3E173] rounded-full inline-block shrink-0"></span>
+              {domToReact(domNode.children, options)}
+            </h2>
+          );
         }
+
         if (className.includes('art-h3') || domNode.name === 'h3') {
           // @ts-ignore
-          return <h3 className="text-lg md:text-xl font-bold text-[#1a231c] mt-10 mb-4">{domToReact(domNode.children, options)}</h3>;
+          return (
+            <h3 className="text-lg md:text-xl font-bold text-[#1a231c] mt-10 mb-4 break-words">
+              {domToReact(domNode.children, options)}
+            </h3>
+          );
         }
+
         if (className.includes('art-p') || domNode.name === 'p') {
           // @ts-ignore
-          return <p className="text-[15px] md:text-base text-gray-700 leading-[1.9] mb-6 tracking-wide">{domToReact(domNode.children, options)}</p>;
+          return (
+            <p className="text-[15px] md:text-base text-gray-700 leading-[1.9] mb-6 tracking-wide break-words">
+              {domToReact(domNode.children, options)}
+            </p>
+          );
         }
+
         if (className.includes('quote-box') || domNode.name === 'blockquote') {
           // @ts-ignore
-          return <blockquote className="bg-[#f8f9fa] border-l-4 border-[#3a5a40] p-6 md:p-8 rounded-r-xl my-8 text-gray-700 italic shadow-sm">{domToReact(domNode.children, options)}</blockquote>;
+          return (
+            <blockquote className="bg-[#f8f9fa] border-l-4 border-[#3a5a40] p-4 sm:p-6 md:p-8 rounded-r-xl my-8 text-gray-700 italic shadow-sm break-words">
+              {domToReact(domNode.children, options)}
+            </blockquote>
+          );
         }
+
+        // 出典などの番号付きリスト
+        if (domNode.name === 'ol') {
+          // @ts-ignore
+          return (
+            <ol className="list-decimal pl-6 mb-8 text-[14px] md:text-[15px] text-gray-600 leading-[1.8] space-y-3 marker:text-[#3a5a40] marker:font-bold break-words">
+              {domToReact(domNode.children, options)}
+            </ol>
+          );
+        }
+
         if (className.includes('art-ul') || domNode.name === 'ul') {
           // @ts-ignore
-          return <ul className="list-disc pl-6 mb-8 text-[15px] md:text-base text-gray-700 leading-[1.8] space-y-2 marker:text-[#3a5a40]">{domToReact(domNode.children, options)}</ul>;
+          return (
+            <ul className="list-disc pl-6 mb-8 text-[15px] md:text-base text-gray-700 leading-[1.8] space-y-2 marker:text-[#3a5a40] break-words">
+              {domToReact(domNode.children, options)}
+            </ul>
+          );
         }
+
         if (domNode.name === 'li') {
           // @ts-ignore
-          return <li className="pl-1 leading-relaxed">{domToReact(domNode.children, options)}</li>;
+          return (
+            <li className="pl-1 leading-relaxed break-words">
+              {domToReact(domNode.children, options)}
+            </li>
+          );
         }
       }
 
-      // 4. テキスト内の漢数字を算用数字に変換
+      // 4. テキスト内の漢数字変換 & URLの自動リンク化
       if (domNode instanceof Text) {
         if (domNode.data.trim() === '') return;
+
+        const urlRegex = /(https?:\/\/[^\s（）()]+)/g;
+        if (urlRegex.test(domNode.data)) {
+          const parts = domNode.data.split(urlRegex);
+          return (
+            <>
+              {parts.map((part: string, i: number) =>
+                urlRegex.test(part) ? (
+                  <a
+                    key={i}
+                    href={part}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#3a5a40] underline underline-offset-2 break-all hover:opacity-80 font-medium"
+                  >
+                    {part}
+                  </a>
+                ) : (
+                  convertKanjiNumbers(part)
+                )
+              )}
+            </>
+          );
+        }
+
         return <>{convertKanjiNumbers(domNode.data)}</>;
       }
     },
   };
 
   return (
-    <div className="bg-[#f4f5f4] min-h-screen text-[#1a231c] font-sans flex flex-col">
-      {/* ★ #C7DC68 のアクセントヘッダー */}
-      <header className="bg-[#C7DC68] sticky top-0 z-50 shadow-sm border-b border-[#3a5a40]/15 py-3.5 px-6">
+    <div className="w-full max-w-full overflow-x-hidden bg-[#f4f5f4] min-h-screen text-[#1a231c] font-sans flex flex-col">
+      {/* #C7DC68 のアクセントヘッダー */}
+      <header className="w-full bg-[#C7DC68] sticky top-0 z-50 shadow-sm border-b border-[#3a5a40]/15 py-3.5 px-4 sm:px-6">
         <div className="max-w-[1200px] mx-auto flex items-center justify-between">
-          <Link 
-            href="/wellbeing/articles" 
-            className="text-xs md:text-sm font-bold text-[#1a231c] hover:text-[#3a5a40] flex items-center gap-1.5 transition-colors bg-white/70 hover:bg-white px-3.5 py-1.5 rounded-full shadow-sm"
+          <Link
+            href="/wellbeing/articles"
+            className="text-xs md:text-sm font-bold text-[#1a231c] hover:text-[#3a5a40] flex items-center gap-1.5 transition-colors bg-white/70 hover:bg-white px-3.5 py-1.5 rounded-full shadow-sm shrink-0"
           >
             <span>←</span> 記事一覧へ戻る
           </Link>
@@ -195,60 +297,59 @@ export default async function ArticleDetailPage(props: {
         </div>
       </header>
 
-      {/* メインレイアウト（左: 記事本体 / 右: カテゴリ別アコーディオン） */}
-      <div className="max-w-[1200px] mx-auto px-6 mt-8 mb-24 flex flex-col lg:flex-row gap-8 items-start flex-grow">
-        
-        {/* 左側：記事コンテンツ */}
-        <main className="w-full lg:w-[72%] bg-white rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 xl:p-16">
-          <div className="flex flex-wrap items-center gap-3 mb-10 pb-8 border-b border-gray-100">
-            <span className="text-xs font-bold text-white px-4 py-1.5 bg-[#3a5a40] rounded-full shadow-sm">
+      {/* メインレイアウト(左: 記事本体 / 右:カテゴリ別アコーディオン) */}
+      <div className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 mt-6 sm:mt-8 mb-24 flex flex-col lg:flex-row gap-8 items-start flex-grow">
+        {/* 左側: 記事コンテンツ */}
+        <main className="w-full min-w-0 lg:w-[72%] bg-white rounded-2xl sm:rounded-3xl shadow-sm border border-gray-100 p-5 sm:p-8 md:p-12 xl:p-16">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-8 sm:mb-10 pb-6 sm:pb-8 border-b border-gray-100">
+            <span className="text-xs font-bold text-white px-3 sm:px-4 py-1.5 bg-[#3a5a40] rounded-full shadow-sm">
               {article.category}
             </span>
-            <span className="text-xs font-bold text-gray-600 px-4 py-1.5 bg-[#f4f1de] rounded-full">
+            <span className="text-xs font-bold text-gray-600 px-3 sm:px-4 py-1.5 bg-[#f4f1de] rounded-full">
               {article.subcategory}
             </span>
-            <div className="ml-auto flex items-center gap-4 text-[11px] font-medium text-gray-400">
+            <div className="w-full sm:w-auto sm:ml-auto flex flex-wrap items-center gap-3 sm:gap-4 text-[11px] font-medium text-gray-400 mt-2 sm:mt-0">
               <span className="flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0"></span>
                 {article.type}
               </span>
               <span className="flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                対象: {article.reader}
+                <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0"></span>
+                対象:{article.reader}
               </span>
             </div>
           </div>
-          
-          <div className="article-content">
+
+          <div className="article-content w-full min-w-0 break-words [overflow-wrap:anywhere]">
             {parse(article.html, options)}
           </div>
         </main>
 
-        {/* 右側：サイドバー（アコーディオン） */}
-        <aside className="w-full lg:w-[28%] lg:sticky lg:top-[88px] self-start">
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-6 md:p-7">
+        {/* 右側: サイドバー (アコーディオン) */}
+        <aside className="w-full min-w-0 lg:w-[28%] lg:sticky lg:top-[88px] self-start">
+          <div className="bg-white rounded-2xl sm:rounded-3xl shadow-sm border border-gray-100 p-5 sm:p-6 md:p-7">
             <h3 className="text-sm font-bold text-[#3a5a40] mb-5 flex items-center gap-2 border-b border-gray-100 pb-3">
-              <svg className="w-4 h-4 text-[#3a5a40]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              <svg className="w-4 h-4 text-[#3a5a40] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
               </svg>
               カテゴリから探す
             </h3>
             <div className="space-y-2">
               {categories.map((cat) => {
-                const catArticles = groupedByCategory[cat] || [];
+                const catArticles = groupedByCategory[cat];
                 const isCurrentCat = cat === article.category;
                 return (
-                  <details 
-                    key={cat} 
+                  <details
+                    key={cat}
                     open={isCurrentCat}
                     className="group border-b border-gray-100 last:border-0 pb-2"
                   >
                     <summary className="cursor-pointer list-none flex items-center justify-between py-2 text-xs font-bold text-gray-700 hover:text-[#3a5a40] transition-colors select-none">
-                      <span className="flex items-center gap-2">
-                        <span className={`w-1.5 h-1.5 rounded-full ${isCurrentCat ? 'bg-[#3a5a40]' : 'bg-gray-300'}`}></span>
-                        {cat}
+                      <span className="flex items-center gap-2 min-w-0">
+                        <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${isCurrentCat ? 'bg-[#3a5a40]' : 'bg-gray-300'}`}></span>
+                        <span className="truncate">{cat}</span>
                       </span>
-                      <span className="text-gray-400 text-[10px] transition-transform duration-200 group-open:rotate-180">▼</span>
+                      <span className="text-gray-400 text-[10px] transition-transform duration-200 group-open:rotate-180 shrink-0">▼</span>
                     </summary>
                     <ul className="pl-3.5 border-l-2 border-[#e8eedd] space-y-1.5 mt-2 mb-3 max-h-60 overflow-y-auto">
                       {catArticles.map((a) => {
@@ -275,11 +376,10 @@ export default async function ArticleDetailPage(props: {
             </div>
           </div>
         </aside>
-
       </div>
 
-      {/* フッター (LPと共通) */}
-      <footer className="bg-[#3a5a40] text-white pt-16 pb-14 px-6 relative mt-auto overflow-hidden">
+      {/* フッター */}
+      <footer className="w-full bg-[#3a5a40] text-white pt-16 pb-14 px-6 relative mt-auto overflow-hidden">
         <div className="absolute right-[-40px] md:right-8 bottom-[-20px] w-[340px] md:w-[480px] h-[300px] md:h-[400px] pointer-events-none opacity-15 select-none z-0">
           <svg viewBox="0 0 400 320" fill="none" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
             <path d="M200 320 V110" />
@@ -299,7 +399,6 @@ export default async function ArticleDetailPage(props: {
             <path d="M10 320 C100 300, 250 310, 390 320" strokeWidth="1" opacity="0.6" />
           </svg>
         </div>
-
         <div className="max-w-[1400px] mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
@@ -314,7 +413,6 @@ export default async function ArticleDetailPage(props: {
               &copy; 2026 InnBuddy Well-being. All rights reserved.
             </div>
           </div>
-          
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-8 text-xs font-semibold">
             <div>
               <h4 className="font-bold text-[#f4f1de] mb-4 uppercase tracking-wider border-b border-[#f4f1de]/30 pb-2 inline-block">MENU</h4>

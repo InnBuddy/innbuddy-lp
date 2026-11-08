@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-compost-living.jpg","image"]
 :HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
 :HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
 :HL["/library/journal/ai_idea-bamboo-living.jpg","image"]
-3:T1dba,<p>宿で出た生ごみは、どこへ行くのでしょうか。大半の宿では、夜のうちに袋に詰められ、夜明け前にトラックで運ばれ、ゲストが目にするのは「整えられた朝食のテーブル」までです。循環の後半は、徹底して見えません。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1dba,<p>宿で出た生ごみは、どこへ行くのでしょうか。大半の宿では、夜のうちに袋に詰められ、夜明け前にトラックで運ばれ、ゲストが目にするのは「整えられた朝食のテーブル」までです。循環の後半は、徹底して見えません。</p>
 <p>しかし最近の飲食・宿泊業には、この「見えない部分」をあえて見せる動きがあります。環境対策として始まったはずの循環が、施設の個性や説明力になっている事例を、海外と日本から見ていきましょう。</p>
 
 <h2>1. CASE — ゴミ箱のないレストラン「Silo」</h2>
@@ -45,10 +110,95 @@ a:"$Sreact.suspense"
 <li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 循環を畑で考える話</li>
 <li><a href="#sourcing-sustainability">自然の恵みを守る — 仕入れとサステナビリティを語る</a> — 仕入れから考える循環</li>
 <li><a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a> — 伝え方の落とし穴</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","122"]}]]}],["$","h1",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","p",null,{"className":"excerpt","children":"イギリスには「ゴミ箱のないレストラン」があります。日本の食品ロスは年間461万トン。京都には館内の生ごみを24時間で堆肥にする複合施設があります。宿の生ごみを「夜明け前に消えるもの」から「ゲストに見せる価値観」に変える考え方をご紹介します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.02"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L2","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}],["$","$L2","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-rainwater-garden","children":["← ","雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"]}],["$","$L2",null,{"href":"/journal/articles/idea-firewood-landscape","children":["薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"className":"ARTICLE","children":"122"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"イギリスには「ゴミ箱のないレストラン」があります。日本の食品ロスは年間461万トン。京都には館内の生ごみを24時間で堆肥にする複合施設があります。宿の生ごみを「夜明け前に消えるもの」から「ゲストに見せる価値観」に変える考え方をご紹介します。"}],["$","span",null,{"className":"en-only","children":"In Britain there is a restaurant with no trash bin. Japan’s food loss is 4.61 million tons a year. In Kyoto, one building turns its kitchen waste into compost in about 24 hours. A way of thinking that changes an inn’s scraps from \"what vanishes before dawn\" into \"a value the guest can see.\""}],["$","span",null,{"className":"zh-only","children":"英国有一家“没有垃圾桶的餐厅”。日本每年的食品浪费高达461万吨。京都有一种设施能在24小时内把馆内的厨余变成堆肥。让旅馆的厨余从“天亮前消失的东西”变成“客人看得见的价值观”。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.02"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1c03,<p>Where do an inn’s kitchen scraps go? At most inns, they are bagged during the night, carried off by truck before dawn, and what the guest ever sees is the arranged breakfast table and nothing more. The second half of the loop is thoroughly invisible.</p>
+
+<p>But recently, in restaurants and lodging, there is a move to deliberately show this "invisible part." Cases where a circulation that began as an environmental measure has become the facility’s individuality and power of explanation — from overseas and from Japan.</p>
+
+<h2>1. CASE — Silo, the restaurant with no trash bin</h2>
+
+<p>In Brighton, Britain, in 2014, the chef Douglas McMaster opened the restaurant "Silo," which declared itself "a restaurant with no trash bin" from the day it opened. Ingredients were exchanged with suppliers in reusable containers; mushrooms were grown on coffee grounds; surplus food was preserved by fermentation and pickling; and the leftovers that truly could not be used went into an aerobic digester affectionately named "Bertha."</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>Up to 60 kg in 24 hours</strong> — the amount of kitchen waste Silo’s aerobic digester "Bertha" turned into compost. The compost went back to partner farms. The plates, for the record, were recycled plastic, and the tableware was made from crushed glass bottles (reporting on the 2014 Brighton opening; the restaurant moved to London in 2019).</div>
+
+<p>What is interesting is that McMaster himself has said plainly, "I didn’t get rich from zero waste." Circulation-based operations are not easy as a business. And yet the reason this restaurant drew attention worldwide is that the story — <strong>a restaurant that designed even the place where things are thrown away</strong> — was as strong as the food itself.</p>
+
+<h2>2. In numbers — Japan’s food loss and where "dining out and lodging" sits</h2>
+
+<p>Japan’s food loss (food thrown away though it could have been eaten) is estimated at 4.61 million tons a year (the estimate for fiscal 2024) by the Ministry of Agriculture, Forestry and Fisheries and the Ministry of the Environment. Of this, the business sector accounts for 2.37 million tons and the household sector 2.24 million, and within the business sector, about 700,000 tons come from the eating-out industry. Converted per person, it works out to throwing away one rice ball a day (by the government’s public-relations calculation).</p>
+
+<p>An inn’s breakfast, banquets, and restaurant sit on top of those 700,000 tons. <strong>The inn is an "exit" of food loss — and, depending on how it shows things, a position that can become an "entrance" to circulation.</strong></p>
+
+<h2>3. JAPAN — the "24-hour loop" in Kyoto</h2>
+
+<p>GOOD NATURE STATION in Nakagyo Ward, Kyoto, holds processing equipment that ferments and decomposes the kitchen waste from the dining places inside the building into compost in about 24 hours, by the power of microorganisms. The compost is carried to the farmer Sonoda in Shiga Prefecture, where it grows rice and vegetables that are served again in the building’s restaurants. Through this "food-loss compost" loop, it works with a number of facilities — companies, schools, hospitals, hotels.</p>
+
+<p>What is offered here is not only the cooking. It is <strong>"this vegetable was grown from the kitchen waste that left this building"</strong> — the whole of a circulation that is normally invisible. In other words, circulation is not "a good deed to be done quietly"; it can become "an experience design the guest can be told."</p>
+
+<h2>4. THINK — why "show" it?</h2>
+
+<p>The greatest misunderstanding about introducing compost is placing it as "SDGs equipment." What has meaning for the guest is not the process of returning to soil itself, but <strong>the fact that "this inn has thought even about how it discards."</strong> It can become the same kind of "ground of ease" as a thoroughly cleaned room or a breakfast with its place of origin written in.</p>
+
+<p>There is also an order we should honestly lay out. The priority of waste handling is, first, "reduce" before anything is generated; next, reuse; and only after that, recycle. Composting is the last bastion — the original order is to cut the waste itself through the design of purchasing and prep. An inn whose explanation can speak to that order carries an unadorned persuasive power.</p>
+
+<h2>5. Translation — how to start at an inn (small, and honest)</h2>
+
+<ul>
+<li><strong>First, for one week, record what you throw away</strong> — pin one sheet of paper in the kitchen and write the item, the amount, and the reason (made too much / left over / over-purchased). Reduction begins with measurement. No processor, no equipment needed yet.</li>
+<li><strong>Ask your current waste contractor where the scraps go</strong> — under the food recycling law’s system, recycling of kitchen waste from food businesses into fertilizer and feed is the base. Just knowing where it actually goes becomes material for "a circulation you can tell."</li>
+<li><strong>Make one circulation you can tell</strong> — carry the coffee grounds to a nearby farmer or the garden; pair with a regional composting hub; connect it to the inn’s kitchen garden. Build not a machine but a relationship.</li>
+<li><strong>Explain on a single card</strong> — "The vegetable scraps from breakfast return to the soil of XX’s fields." When you write it, do not exaggerate. Write only what you can do.</li>
+</ul>
+
+<h2>6. Limits — odor, cost, and greenwashing</h2>
+
+<p>Processing machines are by no means cheap. Odor, hygiene, and measures against insects and rats are also needed, and maintenance takes hands. And the deepest pitfall is staging that only "decorates" with a compost box. A pretended circulation always stands, in the end, on borrowed trust that will collapse. As McMaster of Silo says he "didn’t get rich," circulation is not a stylish signboard but the work of daily operations. First reduction, next reuse, and only beyond that compost and the design of "showing" — an inn that keeps this order speaks the strongest words at the very end.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. If you handle compost, design for hygiene and for the management of where it is placed.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#food-loss-kitchen">Food Loss: Reducing Prep in the Kitchen</a> — thinking the loop through ingredients</li>
+<li><a href="#idea-small-farm-1tsubo">An inn with Small Farm - Farm Ideas Starting from 1 Tsubo</a> — thinking the loop through a field</li>
+<li><a href="#sourcing-sustainability">Protecting Nature's Gifts — Talking Through Procurement & Sustainability</a> — the loop considered from purchasing</li>
+<li><a href="#zero-waste-communication">Is Zero Waste Really Possible? Communicating Sustainable Operations</a> — the pitfalls of how you tell it</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T15a9,<p>旅馆产生的厨余去了哪里？大多数情况下，它们夜里被装袋，天亮前被卡车运走，客人看到的只有摆好的早餐桌。循环的后半段，被彻底地藏了起来。</p>
+<p>但近年餐饮与住宿业出现了反其道而行的动向：刻意“展示”这个看不见的后半段。本应始于环保的循环，正在变成设施的个性与讲述力。本文从海外与日本的案例谈起。</p>
+
+<h2>1. CASE——没有垃圾桶的餐厅「Silo」</h2>
+<p>2014年，厨师道格拉斯·麦克马斯特在英国布莱顿开设的餐厅「Silo」，开业起便以“没有垃圾桶的餐厅”自我标榜。食材通过与供应商之间的可循环容器交接；咖啡渣用来种蘑菇；多余的食材靠发酵与腌渍保存；实在剩下的残食，则投入昵称“Bertha”的好氧发酵机。</p>
+<div class="stats"><span class="tag">CASE</span><strong>24小时最多60公斤</strong> — Silo的好氧发酵机“Bertha”将厨余转化为堆肥的处理量，堆肥会返还给合作农户。餐盘由再生塑料、餐具由碎玻璃瓶制成（据2014年布莱顿开业时的报道；该店2019年迁往伦敦）。</div>
+<p>耐人寻味的是，麦克马斯特本人坦率地说过：“零浪费并没有让我变富。”循环型经营作为生意并不轻松。即便如此，这家店仍赢得了全球关注——因为<strong>“连丢弃方式都设计过的餐厅”</strong>这个故事，与料理本身同样有力量。</p>
+
+<h2>2. 用数字看——日本的食品浪费与“餐饮·住宿”的位置</h2>
+<p>据日本农林水产省与环境省估算，日本一年的食品浪费（本可食用却被丢弃的食物）约为461万吨（2024年度推算）。其中事业类237万吨、家庭类224万吨；事业类中，餐饮产业约占70万吨。按国民人均换算，相当于每人每天丢掉一个饭团（日本政府宣传中的试算）。</p>
+<p>旅馆的早餐、宴会、餐厅正处在这70万吨之上。<strong>住宿设施既是食品浪费的“出口”，也是——取决于展示方式——循环的“入口”</strong>。</p>
+
+<h2>3. JAPAN——京都的“24小时循环”</h2>
+<p>京都市中京区的「GOOD NATURE STATION」馆内设有处理设备，用微生物在约24小时内将餐饮店的厨余发酵分解为堆肥。堆肥被送往滋贺县的农户园田先生那里，种出大米和蔬菜，再次提供给馆内的餐厅——通过“食品浪费堆肥”的循环，与公司、学校、医院、酒店等多家设施展开合作。</p>
+<p>这里提供的并不只是料理，还有<strong>“这些蔬菜，是用这栋楼里产生的厨余种出来的”</strong>——通常看不见的循环全程。也就是说，循环不是“默默做的好事”，而可以被设计成“向客人讲述的体验”。</p>
+
+<h2>4. THINK——为什么要“展示”？</h2>
+<p>最常见的误解，是把堆肥装置当成“SDGs的设备”摆在那里。对客人而言有意义的，不是分解的过程，而是它暗示的事实：<strong>“这家旅馆连丢弃的方式都想过。”</strong>它与一尘不染的客房、写着产地名字的早餐属于同一种“安心的依据”。</p>
+<p>还有一点想坦率地摆出来：废弃物处理的优先顺序，是先在产生之前削减（Reduce），其次是再利用，最后才是再生利用（Recycle）。堆肥化是最后一道防线——本来的顺序，是先靠采购与备料的设计减少废弃本身。连这个顺序都能讲清楚的旅馆，其说明具有不加修饰的说服力。</p>
+
+<h2>5. 翻译——旅馆的起步方式（从小做起、诚实地做）</h2>
+<ul>
+<li><strong>先记录一周的废弃</strong>——在厨房贴一张纸，写下品目、数量、理由（做多了／吃剩了／进多了）。削减从测量开始。此刻还不需要任何设备。</li>
+<li><strong>问一问签约回收商：厨余到底去了哪</strong>——依据日本《食品循环资源再生利用等促进法》，食品相关事业者的厨余原则上应再生为肥料·饲料。了解真实去向，本身就是“可讲述的循环”素材。</li>
+<li><strong>打造一个可讲述的循环</strong>——把咖啡渣送去附近的农家，与地区堆肥据点合作，或连接旅馆自己的小菜园。要建立的不是设备，而是关系。</li>
+<li><strong>用一张卡片说明</strong>——“这份早餐的蔬菜边角料，会回到〇〇农场的土壤里。”写作时切勿夸大，只写真正做得到的事。</li>
+</ul>
+
+<h2>6. 限制——气味、成本与“漂绿”</h2>
+<p>处理机绝不便宜。气味、卫生、防虫防鼠的对策也少不了，维护费时费力。而最大的陷阱，是“装饰性”的堆肥箱——只用于展示、并未真正运转的循环，迟早会崩塌为失信。正如麦克马斯特那句“没有变富”所示，循环不是漂亮的招牌，而是日复一日的运营。先削减、再利用，之后才有堆肥与“展示”的设计——守住这个顺序的旅馆，最后说出口的话最有力量。</p>
+
+<h2>读完这篇，接下来</h2>
+<p>从食材角度想循环，可读<a href="#food-loss-kitchen">食品浪费——记录废弃的旅馆厨房</a>与<a href="#idea-small-farm-1tsubo">有小菜园的旅馆</a>；从采购角度可读<a href="#sourcing-sustainability">守护自然的恩惠——采购与可持续</a>；传达时的陷阱则在<a href="#zero-waste-communication">零浪费真的可能吗？</a>中讨论。</p>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}]]}]]}],["$","$L8","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}]]}]]}],["$","$L8","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience"}],["$","span",null,{"className":"zh-only","children":"与竹共生——体验竹林、竹工艺品、竹工具的创意"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-rainwater-garden","children":["- ",["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-firewood-landscape","children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]," -"]}]]}]
+10:null

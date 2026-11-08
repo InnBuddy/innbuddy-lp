@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-snow-enjoy-stay.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T268f,<p>雪国の宿で雪の話をすると、たいてい二つの声が同時に返ってきます。「雪はうちの冬の一番の売りです」と、「雪の日は業務が回りません」。どちらも本当であり、この記事はその両方を扱います。雪の夜がなぜ静かなのか、雪の朝がなぜ鳴くのかという知覚の話から、かまくらと雪あかりという二つの行事の本質、そして雪を体験に変える小さな手と、雪と付き合う業務の現実まで。雪を資産として扱う宿は、雪のコストを知っている宿です。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T268f,<p>雪国の宿で雪の話をすると、たいてい二つの声が同時に返ってきます。「雪はうちの冬の一番の売りです」と、「雪の日は業務が回りません」。どちらも本当であり、この記事はその両方を扱います。雪の夜がなぜ静かなのか、雪の朝がなぜ鳴くのかという知覚の話から、かまくらと雪あかりという二つの行事の本質、そして雪を体験に変える小さな手と、雪と付き合う業務の現実まで。雪を資産として扱う宿は、雪のコストを知っている宿です。</p>
 
 <h2>雪の夜が静かで、雪の朝が鳴く理由</h2>
 <p>雪の夜の静けさには、理由があるのです。降りたての新雪は空気をたくさん含み、その多孔質な構造が音を吸収します。だから大雪の翌朝は、世界の音が一段小さくなります。これは雪を体験する宿にとって、最初から使える「何もしない演出」です——BGMも照明もいりません。静かになったこと自体を、カード一枚で言語化するだけで構いません。</p>
@@ -48,10 +113,68 @@ a:"$Sreact.suspense"
 <li><a href="#idea-fire-circle-night">火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア</a> — 雪の夜と火を囲む組み合わせ</li>
 <li><a href="#idea-nordic-stay-firewood-light">北欧の宿から考える — 薪・灯り・木のぬくもりのある宿のアイデア</a> — 冬の灯りと木のぬくもりの思想</li>
 <li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 冬の需要そのものを読む話</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","132"]}]]}],["$","h1",null,{"children":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}],["$","p",null,{"className":"excerpt","children":"雪の夜が静かで、雪の朝が鳴く理由から、横手のかまくらと小樽の雪あかりの本質、雪見の座り方まで。雪を「最重の業務」という現実と両立させながら、雪を体験に変える雪国の宿の設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-snow-enjoy-stay.jpg","alt":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.12"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-morning-dew-mist","children":["← ","朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-moon-enjoy-stay","children":["月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"132"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}],["$","span",null,{"className":"en-only","children":"Inn Enjoying Snow - Ideas for Snow Viewing, Kamakura, Snow Lights"}],["$","span",null,{"className":"zh-only","children":"能享受雪的旅馆——赏雪、镰仓、雪灯的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"雪の夜が静かで、雪の朝が鳴く理由から、横手のかまくらと小樽の雪あかりの本質、雪見の座り方まで。雪を「最重の業務」という現実と両立させながら、雪を体験に変える雪国の宿の設計を考えます。"}],["$","span",null,{"className":"en-only","children":"From why a snowy night is silent and a snowy morning creaks, to the essence of Yokote’s kamakura and Otaru’s snow candles, to the way of sitting for snow-viewing — the design of a snow-country inn that turns snow into experience while squaring it with the reality of snow as \"the heaviest of workloads.\""}],["$","span",null,{"className":"zh-only","children":"赏雪、镰仓、雪灯、雪声。我们收集了享受雪生活的小创意以及丰富您冬季住宿时间的小贴士。果田的雪景也是值得期待的。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-snow-enjoy-stay.jpg","alt":"雪を楽しむ宿 — 雪見・かまくら・雪の灯りのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.12"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T2495,<p>When you bring up snow at a snow-country inn, two voices usually return at once: "Snow is our biggest seller in winter," and "On snowy days, the work drowns us." Both are true, and this article treats both. From the story of the senses — why a snowy night is quiet and a snowy morning creaks — to the essence of two festivals, the kamakura and the snow candle path, then to the small touches that turn snow into experience, and the reality of running an inn alongside snow. An inn that treats snow as an asset is an inn that knows snow’s costs.</p>
+
+<h2>Why a snowy night is silent, and a snowy morning creaks</h2>
+
+<p>The quiet of a snowy night has a reason. Fresh snow holds a great deal of air, and its porous structure absorbs sound. That is why the morning after a heavy snowfall, the world’s sounds are one notch smaller. For an inn that offers snow, this is a ready-made staging of "doing nothing" — no BGM, no lighting needed. It is enough to put the fact of the quiet into words on a single card.</p>
+
+<div class="stats"><span class="tag">RESEARCH</span><strong>"Naki-yuki" — the sound of trodden snow had no name</strong> — Maeno Kiyoshi of the Institute of Low Temperature Science, Hokkaido University, studied the sound of walking on snow scientifically, showing that the sound shifts — "zakku-zakku," "saku-saku," "kyu-kyu" — with the type of footwear, the way of stepping, the quality of the snow, and the temperature. Because no word for the phenomenon existed in Japanese or in any foreign language, Maeno proposed the name "naki-yuki" (crying snow) (per an essay of the Hokkaido branch of the Japanese Society of Snow and Ice).</div>
+
+<p>The sound of trodden snow is explained as arising, like a dry singing beach, from the grains of snow rubbing together. Near 0°C, where the grain surfaces are partly melted, the sound comes hard; in hard, dry, low-temperature snow it rings out high, "kyu-kyu." In other words, <strong>the sound of snow is a sound from which that morning’s temperature can be read.</strong> "The snow is really crying this morning — it froze hard" — that conversation becomes the inn’s morning thermometer.</p>
+
+<h2>The way of sitting for snow-viewing — an invention of Japanese architecture</h2>
+
+<p>Just for looking at snow, Japanese architecture invented a dedicated device. The <strong>yukimi shōji</strong>, the snow-viewing screen, is a window whose upper half is lattice and whose lower half is a waist-high panel that can be lifted out; remove the panel, and you can watch the snowy garden unobstructed while sitting inside the cold-protected room. Open the window to see the snow, and yet keep the body out of the wind and storm — this idea of "the view from within an enclosure" is itself the way of sitting for snow-viewing. That Kawabata Yasunari’s "Snow Country" opens with "The train came out of the long tunnel into the snow country. The earth lay white under the night sky" is also a line of switching — from the dark tunnel (the enclosure) to the white snow country (the view).</p>
+
+<p>The translation to the inn can be made without any yukimi shōji. Designate, in a room or the dining room, just one <strong>seat for watching snow through a single pane of glass</strong>. To watch the snow at ease from a room warmed by the heating — it is only that, but a seat with the one added phrase "from this seat you can see the snow garden" becomes a snow-viewing seat. Drop the lighting one step, and the light reflected on the snow enters the room.</p>
+
+<h2>Kamakura — the snow guest room where children are the hosts</h2>
+
+<p>The "kamakura" of Yokote City, Akita Prefecture, is a festival of Little New Year said to carry about 450 years of history. Inside a hut built of snow, the water deity is enshrined, and children sit inside, inviting passersby in and serving sweet amazake and mochi. Once held on the 14th day of the old first month, since 1954 it has run in February as the "Yokote Snow Festival," with about sixty kamakura plus a great many mini-kamakura standing around the city (per announcements of Yokote City and its tourism association).</p>
+
+<p>The essence of this festival is that the snow chamber is a "guest room," and its host is the <strong>child</strong>. It is not adults building a snow room to show — the child takes the lead and entertains the visitor. Translated at an inn, kamakura-building is not "something the inn builds to show" but something close to "something the guests build, and entertain someone with." Have a family with small children build not a snowman but their own tea hut. Sit inside, and serve a warm cup. A kamakura needs no two-meter diameter. A snow hut just big enough for a child’s back to round recreates the heart of the festival.</p>
+
+<h2>Yuki-akari — not a giant snow statue, but the number of lights</h2>
+
+<p>The "Otaru Snow Light Path," held every February in Otaru, Hokkaido, is a festival of snow and candles that began in 1999; centered on the Otaru Canal, candlelight lines the snow. About 120,000 candles are used for the event (NHK archives), nearly all of them handmade from local materials and supported by volunteers. The posture of "participatory" and "handmade" has been the festival’s policy from its first year.</p>
+
+<p>A snow-country festival calls to mind giant snow statues, but Otaru’s essence is the opposite: <strong>the unit is small, and the number is vast.</strong> Each light standing on the snow is a candle set in a snow vessel made by someone’s hands, multiplied into the tens of thousands. The inn’s translation begins from this "accumulation of numbers." Ten snow lights in the garden — with a "setto" snow candle, a hole hollowed in the snow for a candle, even children can make them. Ten lights are the first ten pages of the story of 120,000.</p>
+
+<h2>The small touches that turn snow into experience, and the heaviest of workloads</h2>
+
+<p>The touches that turn snow into experience can be small.</p>
+
+<ul>
+<li><strong>Snow-viewing seats</strong> — Designate the seats behind a single pane. Drop the light and use the snow’s reflection.</li>
+<li><strong>Snow lights</strong> — From ten setto. The night garden changes its face.</li>
+<li><strong>A naki-yuki walk</strong> — A short walk proposed with the purpose of "listening to the snow."</li>
+<li><strong>Snow furniture</strong> — A snow table, snow chairs. Less the finished piece than the making itself as experience.</li>
+<li><strong>A snow breakfast</strong> — On a morning when the window is all white, add one white dish (tofu, white porridge, milk).</li>
+</ul>
+
+<p>And this article does not hide the weight of the work behind them. In the Fire and Disaster Management Agency’s tally, in the winter of 2025 (the preliminary count for November 2025 through the end of February 2026), snow-related deaths nationwide reached 68; of these, the most — 57 — came during snow-removal work such as clearing roofs, and 49 were people aged 65 or over. The winter with the most deaths since Reiwa 1 was the heavy-snow season of Reiwa 4–5, with 110 (all preliminary figures as of writing).</p>
+
+<div class="note"><span class="tag">FACT</span>An inn that turns snow into "experience" is also an inn that turns snow into "work." The plan for roof-clearing and snow removal (who, when, how far; safety measures for work at heights, and contracts with contractors where possible), anti-icing for walkways and the lending of spike shoes, attention to snow dropping onto the snow candles, and the management of candle flames and their extinguishing before bed — the experience stands, for the first time, on this list running.</div>
+
+<h2>For the winters when snow does not fall</h2>
+
+<p>Finally, a question for inns in regions of little snow — does your inn have a story of snow? Snow cannot be announced in advance. That is exactly why "when it falls" programs can be made. A special breakfast only on the morning it falls; a postcard only on that morning ("This morning, the inn had its first snow"); recording the once-in-several-years snowfall as one line of the inn’s history. For the guest of a southern inn, snow — even unexperienced — can be the lead of winter’s story.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. For activities in mountains and in the season of snow, design with confirmation of weather and equipment.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-firewood-landscape">Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove</a> — designing the warmth of a snow-country night</li>
+<li><a href="#idea-fire-circle-night">Night Surrounding Fire - Ideas for Gathering Night with Bonfire, Irori, Wood Stove</a> — pairing a snowy night with a circle of fire</li>
+<li><a href="#idea-nordic-stay-firewood-light">Learn from Nordic Inn - Ideas for An inn with Firewood, Light, Warmth of Wood</a> — the thought of winter light and the warmth of wood</li>
+<li><a href="#seasonal-inbound-demand">Seasonal Inbound Demand: The Basics of When to Prepare What</a> — reading winter demand itself</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1042,<p>本文分享一些可供尝试的想法。在一些客栈里，雪是冬天的风景，在另一些客栈里，雪是果园休息的时光，在另一些客栈里，雪是孩子们搭建雪屋的材料。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>白雪覆盖的果田，雪中的脚印，雪中阳光的温暖。生活在雪中，让冬天的脚步变得更慢。我们收集了一些享受雪景的小想法和一些提示，以丰富您在冬季住宿的时间。</p><h2>可以享受雪景的住宿创意合集</h2><ul><li><strong>打造一个赏雪的地方</strong> — 在雪景优美的地方设置长凳和椅子，介绍为可以观赏雪景的地方。有的旅馆在可以看到果田雪景的地方设置了长凳，并被称为“雪长凳”。被雪覆盖的果田有与夏天不同的美。</li><li><strong>镰仓和雪灯</strong> — 在您的花园或果田旁边建造一个镰仓，并在夜间享受雪光。在镰仓内放置蜡烛或制作雪灯笼将成为冬夜的传统。一家旅馆将镰仓内的茶体验称为“镰仓茶屋”。</li><li><strong>享受雪的声音</strong> — 创建一个可以欣赏雪落在雪上或踩在雪上的声音的地方。雪夜吸收声音，有一种不同于白天的安静。一家旅馆将雪夜在门廊上听雪声的时光描述为“雪夜的寂静”。</li><li><strong>果园雪景</strong> ——有果园的客栈，雪景也是果园休息的时候。一家旅馆将被雪覆盖的蓝莓田介绍为“雪中的蓝莓田”，并计划在雪中的果园中漫步。雪中​​的果田，有着与夏天的果田不同的美。</li><li><strong>建议如何度过下雪天</strong> — 介绍使用小卡片或木板度过雪天的方法。您可以通过建议只有在雪天才能做的度过雪天的方式，例如“在雪地长凳上喝茶”、“在雪屋里喝茶”或“雪地拍照点”，让您的下雪天变得更加愉快。</li></ul><h2>以下是如何度过海外时光 - 享受雪景的住宿建议</h2><p>在北欧森林旅馆，雪是生活的一部分。新的一天从铲雪开始，在雪中行走，欣赏夜晚的雪光。生活在雪中可以为冬季住宿提供时间。在阿尔卑斯山的山间小屋里，在燃木火炉前欣赏雪景的时光是值得珍惜的。</p><p>在你们的旅馆里，雪是一种怎样的存在呢？何不从赏雪区开始呢？</p><h2>果田和雪的想法</h2><p>对于有果田的客栈来说，下雪是果田休整的时刻，也是为下一个季节做准备的时刻。在一家客栈，我们拍了被雪覆盖的果田的照片，并介绍为《雪域果园的一年》。《果园的故事》通过讲述果园一年的故事来创造：雪中的果园，春天发芽，夏天收获，秋天换叶。</p><p>即使您居住在很少下雪的地区，您也可以学习如何度过下雪天并创建拍摄雪景的地点。为什么不从一场小雪开始呢？</p><div class="stats"><span class="tag">计算示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约18%的数字仅为趋势示意，并不保证效果）。</strong> — —关于如何度过雪天的建议可能会导致你重返冬天。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。雪地活动时，请注意安全，合理活动。处理雪时请小心。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>打造一个赏雪的地方</strong> — 在能看到美丽雪景的地方放置长凳，并介绍为观雪长凳</li><li><strong>做一个镰仓</strong> — 在你的花园或果园旁边搭建一个小镰仓，晚上有雪灯。</li><li><strong>在卡片上写下您将如何度过下雪天</strong> — 雪凳茶、镰仓茶、雪地拍照点等</li><li><strong>介绍果田雪景</strong> — 被雪覆盖的果田 如同雪域果田</li><li><strong>创建一个雪地拍照点</strong> ——雪中的脚印、雪中的灯光、被雪覆盖的果田等。</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-morning-dew-mist","children":["- ",["$","span",null,{"className":"ja-only","children":"朝露と朝霧を楽しむ — 早朝の里山を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Enjoy Morning Dew and Mist - Ideas for Making Early Morning Satoyama into Experience"}],["$","span",null,{"className":"zh-only","children":"享受晨露和晨雾——清晨里山体验的创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-moon-enjoy-stay","children":[["$","span",null,{"className":"ja-only","children":"月を楽しむ宿 — 月見・月の出・月の光で過ごす夜のアイデア"}],["$","span",null,{"className":"en-only","children":"Inn Enjoying Moon - Ideas for Moon Viewing, Moonrise, Moonlight Night"}],["$","span",null,{"className":"zh-only","children":"赏月旅馆 — 赏月、月出、月光夜的创意"}]," -"]}]]}]
+10:null

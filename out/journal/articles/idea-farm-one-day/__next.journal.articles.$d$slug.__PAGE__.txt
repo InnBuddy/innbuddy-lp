@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-farm-one-day.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1dfd,<p>「畑で収穫をしたい」——これは、旅のリクエストの中で最も叶えやすいもののひとつです。畑のある宿なら、そういえるでしょう。ですが収穫体験を単発の「イベント」で終わらせるのはもったいないことです。この記事は、朝の収穫・昼の調理・夜の食卓を1本の線で結ぶ<strong>「畑の1日」</strong>という時間の設計を扱います。畑の1日ができた宿では、食べ物が「商品」から「1日の時間」に変わります。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1dfd,<p>「畑で収穫をしたい」——これは、旅のリクエストの中で最も叶えやすいもののひとつです。畑のある宿なら、そういえるでしょう。ですが収穫体験を単発の「イベント」で終わらせるのはもったいないことです。この記事は、朝の収穫・昼の調理・夜の食卓を1本の線で結ぶ<strong>「畑の1日」</strong>という時間の設計を扱います。畑の1日ができた宿では、食べ物が「商品」から「1日の時間」に変わります。</p>
 
 <h2>1. 朝——収穫は、なぜ早朝なのでしょうか</h2>
 <p>農家の収穫が早朝にあるのには、理由があります。夜の間に作物は水分をたっぷり含み、朝の低い気温は収穫後の鮮度の劣化を遅らせます。つまり朝採れは、味の問題であると同時に、鮮度を守る技術でもあるのです。この理由を一言説明するだけで、朝6時の畑の体験は「早起きの罰」から「一番いい時間の畑」に変わります。</p>
@@ -44,10 +109,60 @@ a:"$Sreact.suspense"
 <li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 朝食の舞台</li>
 <li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 畑の最小単位</li>
 <li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 収穫を売る朝の設計</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","148"]}]]}],["$","h1",null,{"children":"畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア"}],["$","p",null,{"className":"excerpt","children":"1971年ロンドンの秘書が始めた農場滞在の仕組みは、今や130か国に広がりました。朝の収穫・昼の調理・夜の食卓を1本の線で結ぶ「畑の1日」の設計と、作物の都合が最優先という現実まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-farm-one-day.jpg","alt":"畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.28"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-festival-preparation","children":["← ","祭りの準備に参加する — 祭りの準備・片付け・直会を体験にするアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-river-living","children":["川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"148"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア"}],["$","span",null,{"className":"en-only","children":"Experience One Day in Field - Ideas for Enjoying Morning Harvest, Daytime Cooking, Evening Table in One Day"}],["$","span",null,{"className":"zh-only","children":"体验田间的一天 — 享受早晨收割、中午做饭、晚上用餐的一天"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"1971年ロンドンの秘書が始めた農場滞在の仕組みは、今や130か国に広がりました。朝の収穫・昼の調理・夜の食卓を1本の線で結ぶ「畑の1日」の設計と、作物の都合が最優先という現実まで。"}],["$","span",null,{"className":"en-only","children":"The farm-stay scheme a London secretary began in 1971 has now spread to 130 countries. The design of \"one day in the field\" — joining morning harvest, midday cooking, and the evening table in a single line — and the reality that the crops’ convenience comes first."}],["$","span",null,{"className":"zh-only","children":"早上收割，中午做饭，晚上吃饭。这是一系列住宿创意，通过在野外体验一天，加深从田野到餐桌的故事。果园一日游也很受欢迎。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-farm-one-day.jpg","alt":"畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.28"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1bcb,<p>"I want to harvest in a field" — of all travel requests, this is one of the easiest to grant. At an inn with a field, that is. But ending the harvest experience as a one-off "event" is a waste. This article treats the design of time called <strong>"one day in the field"</strong> — joining morning harvest, midday cooking, and the evening table in one line. At an inn where the field’s day has been built, food changes from "a product" into "a day’s time."</p>
+
+<h2>1. Morning — why harvest is at dawn</h2>
+
+<p>There are reasons the farmer’s harvest sits in the early morning. Overnight the crops hold full moisture, and the low morning temperature slows the loss of freshness after cutting. Morning-picked is at once a question of taste and a technique for protecting freshness. Explain this reason in one phrase, and the 6 a.m. field changes from "the penalty of early rising" into "the field at its best hour."</p>
+
+<p>The design of the experience can be small. The harvest is fifteen minutes. Teach one thing only — the use of the shears, or the judgment of harvest (the signs of a ripe fruit). Hand over the basket and let them pick with their own hands. And fix "how many minutes before breakfast we leave the field" — an experience with no closing time for the harvest connects straight to a late breakfast. The harvest goes to the breakfast table as it is. The shortest distance from field to table is these fifteen morning minutes.</p>
+
+<h2>2. Midday — what you picked becomes your own cooking</h2>
+
+<p>The morning’s picking has two destinations: the breakfast table, and the midday cooking experience. Jam, pickles, salad, the vegetables of the miso soup — the easier the cooking, the better. The value of a cooking experience is not skill but <strong>the continuity of "what I picked in the morning becoming my own cooking at midday."</strong> However clumsy, jam becomes jam. A failure-proof experience is what this means.</p>
+
+<p>Here, draw the legal line. Jam a guest makes for themselves is an experience, not a sale; but when the inn "makes and sells" processed goods, licenses and notifications become necessary. The details of this line are as treated in <a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a>: consulting the health office with jurisdiction is the correct order.</p>
+
+<h2>3. Night — the long table of the day</h2>
+
+<p>Morning harvest and midday cooking complete themselves at the evening table. The same tomato that was "a fruit of the field" in the morning is "my own cooking" at night. The world of wine has the word "terroir" — the idea that flavor is born of the land’s character. One day in the field is a device that makes this word an experience without explanation. The conversation at the evening table naturally becomes a review of the day, because everyone has shared the same field and the same cooking.</p>
+
+<h2>4. Working and staying — two systems of the world</h2>
+
+<p>What happens when "one day in the field" is extended one more night exists in the world as a system.</p>
+
+<ul>
+<li><strong>WWOOF</strong> — The scheme begun in 1971 by Sue Coppard, then working as a secretary in London, as "Working Weekends on Organic Farms." City dwellers work on farms and receive lodging and meals in exchange. It has now spread to more than 130 countries. Its beginning is said to be the wish of city dwellers "to support organic farming in the countryside even without money to spare" (per WWOOF’s official history).</li>
+<li><strong>Agriturismo</strong> — Italy’s farm lodging. It spread from the 1960s as a countermeasure to the outflow of population from rural areas, as in Tuscany, and in 1985 the Agriturismo Act was enacted. The 2006 amendment placed at the axis of the system the farmer’s entertaining guests with the farm’s own products, and activities that raise the value of the land. Today Italy’s agriturismi are said to number about 20,000, and it has become a country where many travelers stay in farm villages (per the explanations of agricultural media and the like).</li>
+</ul>
+
+<div class="stats"><span class="tag">CASE</span><strong>Farm stays had enough demand to become systems</strong> — WWOOF’s "exchange of work for lodging" and agriturismo’s "an inn that entertains with its own produce" are both cases in which a mechanism joining field and lodging gained demand in the world and grew into a system. The inn’s "one day in the field" is the smallest unit of this great current.</div>
+
+<h2>5. Reality — the field does not exist for the experience</h2>
+
+<ul>
+<li><strong>The crops’ convenience comes first</strong> — What can be harvested differs by the day. Fix the guidance not as "blueberry harvest" but as "a morning in the field," and the guidance never becomes a lie when the crop changes.</li>
+<li><strong>Weather substitutions</strong> — A rainy field is not a cancellation: it can shift to work in the barn (sowing, sorting the dried goods, tool care). "Field work on a rainy day" is also a genuine part of the field’s day.</li>
+<li><strong>Safety</strong> — Farm tools suited to age. A summer field is also a place of heatstroke (water, hats, rests). Where a field is sprayed, weave the post-spraying entry restrictions into the design. Add a word on bees and insects too.</li>
+<li><strong>Designing the return</strong> — The experience is not free labor. A fee as experience, the harvest to take home, or a meal — always give something back. Give children’s "helping" a small role and a name.</li>
+</ul>
+
+<div class="note"><span class="tag">InnBuddy VIEW</span>The core of one day in the field is <strong>turning the provenance of food into the memory of one’s own hands</strong>. A supermarket tomato carries none of the day’s time. The tomato of a guest who has spent a day in the field carries the morning dew, the midday pot, and the evening table. What the inn sells is not the tomato but the time it carries.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling farmland or fields, do so on the premise of consultation with the farmer or owner.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a> — designing the experience from field to table</li>
+<li><a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a> — the stage of breakfast</li>
+<li><a href="#idea-small-farm-1tsubo">An inn with Small Farm - Farm Ideas Starting from 1 Tsubo</a> — the smallest unit of a field</li>
+<li><a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a> — designing the morning that sells the harvest</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T11a5,<p>本文分享一些可供尝试的想法。在田野里的一天，有的旅馆是早上收割，有的旅馆是在果田里度过的一天，有的旅馆是孩子们在田里干活。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>早上收割，中午做饭，晚上吃饭。通过一天的田间体验，可以更深刻地感受从田间到餐桌的故事。我们收集了在野外体验一天的小想法，以及加深从田野到餐桌的故事的住宿提示。</p><h2>体验一天野外生活的创意集合</h2><ul><li><strong>清晨收获体验</strong> ——让早晨田里采摘蔬菜水果的经历成为一次小经历。收获浸泡在晨露中的蔬菜和水果是开始新的一天的愉快方式。一家旅馆将果田里的早晨收获介绍为“早晨果园收获”，并正在计划体验采摘沾有朝露的蓝莓的体验。</li><li><strong>午餐烹饪体验</strong> ——把早上收获的蔬菜水果的烹饪体验变成中午的小体验。用收获的蔬菜制作沙拉、用水果制作果酱的体验，让你感受从田间到餐桌的故事。一家旅馆正在推出一种名为“蓝莓果酱制作”的体验，可以用早上收获的蓝莓制作果酱。</li><li><strong>在餐桌上享用</strong> — 在餐桌上享用您白天做的饭菜。早上收割农产品，下午烹饪，然后晚上享用，从田间到餐桌的一天就结束了。其中一家旅馆推出了“一日农场套餐”，可以在田间度过一天，让您在一天内体验从早上收割到晚上用餐的一切。</li><li><strong>田野和果园的一天</strong> ——有果田的旅馆，田野里的一天也是果田里的一天。有一家旅馆将果田的一天介绍为“果田的一天”，让您体验上午采摘、下午制作果酱、晚上品尝水果。果田的一天让你深刻感受到果田的故事。</li><li><strong>与孩子们一起在田野里度过的一天</strong> — 将一天的野外活动变成孩子们的一次小经历。一日之内从早上收割到晚上吃饭的经历将留在孩子们的记忆中。一家旅馆为孩子们策划了“农场一日体验”，让他们在一天之内体验从早上收割到晚餐的一切。</li></ul><h2>海外住宿案例 — 可以在田野中体验一天的住宿创意</h2><p>在北欧的农场旅馆，田野里的一天是生活的一部分。从早上收割开始，中午做饭，到晚上餐桌上结束，一天之内就能体验到一切。这家旅馆的魅力在于在田野里度过一天的体验。在果田度过一天是客人在澳大利亚乡村旅馆度过一天的流行方式。</p><p>在您旅馆的田野里，典型的一天是什么样的？为什么不从早上开始收割呢？</p><h2>在小农场开始新的一天的建议</h2><p>即使没有整块土地，一天之内也可以从一坪土地开始。在一家旅馆，我们从一坪（1坪）田地的早晨收割开始，客人们说：“在田野里度过了有趣的一天。”即使只是在小田地里度过一天，也能加深从田野到餐桌的故事。</p><p>如果您入住的是带果园的旅馆，为什么不在一排果园中开始新的一天呢？通过一天的时间体验一排果田从早晨收获到餐桌，可以更深刻地感受果田的故事。</p><div class="stats"><span class="tag">参考示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约30%的数字仅为趋势示意，并不保证效果）。</strong> — 让一天的现场体验成为一种体验，可能会带来从现场到餐桌的故事。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。体验现场时请务必注意安全卫生，并向专家确认。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>计划一次早晨收获体验</strong> — 体验收获被晨露浸湿的蔬菜和水果</li><li><strong>计划午餐烹饪体验</strong> — 体验用早上收获的蔬菜制作沙拉和水果果酱。</li><li><strong>在餐桌上享用</strong> — 给自己一些时间在餐桌上享受白天做的饭菜。</li><li><strong>计划在果园度过一天</strong> — 早上采摘，中午做果酱，晚上享受水果，一天的时间</li><li><strong>为儿童计划一日实地体验</strong> — 一日体验从早晨收获到餐桌的一切</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-festival-preparation","children":["- ",["$","span",null,{"className":"ja-only","children":"祭りの準備に参加する — 祭りの準備・片付け・直会を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Participate in Festival Preparation - Ideas for Making Preparation, Cleanup, Naorai into Experience"}],["$","span",null,{"className":"zh-only","children":"参与节日准备——体验节日准备、清理和面对面会议的想法"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-river-living","children":[["$","span",null,{"className":"ja-only","children":"川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"}],["$","span",null,{"className":"en-only","children":"Living with River - Ideas for River Play, Sound of River, Breakfast by Riverside"}],["$","span",null,{"className":"zh-only","children":"与河同居——河边玩耍、河声、河边早餐的创意"}]," -"]}]]}]
+10:null

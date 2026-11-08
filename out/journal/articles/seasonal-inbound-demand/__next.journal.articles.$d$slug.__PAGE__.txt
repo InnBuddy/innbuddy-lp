@@ -1,15 +1,169 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_seasonal-inbound-demand.jpg","image"]
 :HL["/library/journal/ai_guest-data-river.jpg","image"]
 :HL["/library/journal/ai_instagram-cold-start.jpg","image"]
 :HL["/library/journal/ai_landing-page-3-seconds.jpg","image"]
-3:T1d23,<p>インバウンドの需要の話は、感覚で語られがちです。「最近、外国人が増えましたね」。しかし需要の正体は感覚ではなく、数字で読める「波」です。日本政府観光局(JNTO)の統計で2024年を月別に並べてみると、訪日外客数には綺麗な4つの山が立ちます。3月(308万1,781人)、7月(329万2,500人)、10月(331万2,000人=単月として過去最高を更新)、そして12月(348万9,800人=統計開始以来初めて340万人を超えた月)。春・夏・秋・年末——この4波に備えることが、インバウンド集客の一年の設計そのものです。</p><div class="stats"><span class="tag">FACT</span><strong>2024年の訪日外客数は年間3,686万9,900人(過去最高)。月別では12月348万9,800人(初の340万人超え)、10月331万2,000人(単月過去最高を更新)、7月329万2,500人、3月308万1,781人と、春・夏・秋・年末に4つの山が並ぶ(日本政府観光局の推計)</strong> — インバウンドの需要は、カレンダーに沿った4つの波として毎年やってくる。</div><h2>日本人のカレンダーと、世界の旅人のカレンダー</h2><p>4つの山の正体を、一つずつ読みます。<strong>3月の山は桜</strong>です。開花予想が発表される年前から、旅の計画は動き始め、予約は4〜8週間前に集中します。ただし桜の開花は年によって前後するため、この波の宿は「満開の保証」より「桜の季節の過ごし方」を売る方が安全です。<strong>7月の山は、北半球の夏休み</strong>です。欧米・東南アジア・中国の学校休暇が重なる長い波で、家族連れと長期滞在が増えます。<strong>10月の山は紅葉と、アジアの秋の連休</strong>です。波は短く高い——紅葉の見頃は地域が2〜3週間ほどだからで、この波だけ予約の前倒しがさらに早まる傾向があります。<strong>12月の山は、年末の都市滞在</strong>です。カウントダウン、イルミネーション、そして日本の正月を体験したい旅人。2024年で最も高い山が12月だったことは、多くの宿の直感(年末は日本人が帰省して客が減る)を裏切る数字です。旅人のカレンダーは、日本人のカレンダーと同じではありません。もう一つ注意が要るのは、中国・東南アジア発の需要は旧正月(春節)の時期——年によって1月末から2月に移動します——にもう一つの小さな山を作ることです。</p><h2>準備のタイムライン — 8週間前から</h2><p>波に間に合わせる仕事は、波が来る前に終えておく必要があります。目安は8週間前です。</p><ol><li><strong>8週間前 — Listingの更新</strong> — 写真(今の季節のものに)、タイトル、プラン。予約サイトの順位の話はListing最適化の記事に譲ります。</li><li><strong>6週間前 — 価格の設計</strong> — 早割・標準・直前の3段階。閑散期との値差の付け方も、ここで決めます。</li><li><strong>4週間前 — SNS告知と応答体制</strong> — 波の言語での告知(英語の季節の挨拶は二十四節気の記事が役に立ちます)と、問い合わせに当日返す体制。海外からの問い合わせは、時差で深夜に届きます。</li><li><strong>2週間前 — 最終確認</strong> — キャンセル規定、決済(海外カード・電子決済)、到着までの案内。ここで漏れると、波の恩恵がクレームに変わります。</li></ol><h2>閑散期 — 「実験の窓」として使う</h2><p>4波の間の谷——例年6月、9月中〜下旬、11月後半、そして2月——は、単なる「暇な時期」ではもったいない場所です。需要が小さい時期の失敗は小さい。つまり閑散期は、<strong>新しいプランのテストと価格の実験を、失敗コスト最低で行える窓</strong>です。試したい朝食付きプラン、試したい平日割、試しのデーユース。まず谷で小さく試して、波の前に本番仕様に上げる。一年の設計とは、波に合わせて稼ぎ、谷に合わせて試す、この二つのリズムです。</p><h2>季節対策の反対側</h2><ul><li><strong>波にだけ合わせる宿の脆弱性</strong> — 4波の月だけで満室の宿は、谷の月の固定費で痩せていきます。谷の戦略(実験、メンテナンス、休暇、地域客)は、波の戦略と同じ重要さです。</li><li><strong>桜と紅葉の賭け</strong> — 開花・見頃の前後は毎年動きます。「満開予定」を断言した宿は、外れた年に別のものを用意していないと痛い。天候に左右される山には、天候に左右されない中身(温泉、食、体験)を添える。</li><li><strong>多言語の用意</strong> — 波の言語は必ずしも英語とは限りません。どの市場の波を取るかで、案内の言語と決済の対応が決まります。全ての言語を一夜で揃える必要はなく、取る波を選ぶ。</li><li><strong>受け入れ能力の限界</strong> — 波の月に部屋以上の予約を受けられないのは当然ですが、清掃・朝食・送迎の能力も同時に天井になります。稼働だけ見て受け過ぎると、レビューの質が下がって翌年の波を壊します。</li><li><strong>繁忙期の値上げの公平感</strong> — 「人気だから高い」の連続は、この連載で扱った公平性の研究の言う「許されない値上げ」に当たります。値上げするなら、中身(季節の料理、見える景色)の理由と一緒に。</li><li><strong>統計は全体像</strong> — 訪日客の総数は、あなたの地域・客層と一致しません。JNTOの数字で読むのは「波の形」であり、自宿の予約記録で読むべきは「自分の波」です。</li></ul><p>まず小さく、来年のカレンダーを1枚印刷して、4つの山(3月・7月・10月・12月)に色を付け、谷に別の色を付ける。山には「8週間前」のリマインダーを、谷には「実験する1つ」を書き込む。1枚のカレンダーが、一年分の設計図になります。</p><div class="note">この記事はアイデア共有を目的としています。記載の統計は日本政府観光局(JNTO)の推計値の紹介です。予約のリードタイムや春節の時期は年・市場により変わるため、自宿の予約記録との照合をお勧めします。</div><h2>次に読む</h2><ul><li><a href="#summer-ota-peak-season">【夏の繁忙期】OTA検索で上位を取る3つの施策</a> — 夏の波を取る具体的な手の話</li><li><a href="#inbound-ota-search-habits">インバウンドゲストのOTA検索行動 — 国内ゲストとの5つの違い</a> — 海外の旅人の探し方の話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 波に合わせた価格の設計の話</li><li><a href="#idea-season-english-24sekki">季節の挨拶を英語で伝える — 二十四節気・七十二候を英語で伝えるアイデア</a> — 波の言語での告知の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"children":["ARTICLE ","019"]}]]}],["$","h1",null,{"children":"季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本"}],["$","p",null,{"className":"excerpt","children":"2024年の訪日外客数は3,687万人。月別に並べると、3月(308万人)・7月(329万人)・10月(331万人)・12月(349万人)の4つの山が立ちます。日本人のカレンダーと世界の旅人のカレンダーの違いを読み、4波の前に何を何週間前に整えるかを整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_seasonal-inbound-demand.jpg","alt":"季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.11.28"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":"ゲストデータの基本 — 何を記録し、どう使うか"}]]}]]}],["$","$L2","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}]]}]]}],["$","$L2","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/service-standard-basics","children":["← ","サービスの基本 — 人による差をつけない「標準」"]}],["$","$L2",null,{"href":"/journal/articles/revenue-management-basics","children":["収益管理の基礎 — ADR・稼働率・RevPARの読み方"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1d23,<p>インバウンドの需要の話は、感覚で語られがちです。「最近、外国人が増えましたね」。しかし需要の正体は感覚ではなく、数字で読める「波」です。日本政府観光局(JNTO)の統計で2024年を月別に並べてみると、訪日外客数には綺麗な4つの山が立ちます。3月(308万1,781人)、7月(329万2,500人)、10月(331万2,000人=単月として過去最高を更新)、そして12月(348万9,800人=統計開始以来初めて340万人を超えた月)。春・夏・秋・年末——この4波に備えることが、インバウンド集客の一年の設計そのものです。</p><div class="stats"><span class="tag">FACT</span><strong>2024年の訪日外客数は年間3,686万9,900人(過去最高)。月別では12月348万9,800人(初の340万人超え)、10月331万2,000人(単月過去最高を更新)、7月329万2,500人、3月308万1,781人と、春・夏・秋・年末に4つの山が並ぶ(日本政府観光局の推計)</strong> — インバウンドの需要は、カレンダーに沿った4つの波として毎年やってくる。</div><h2>日本人のカレンダーと、世界の旅人のカレンダー</h2><p>4つの山の正体を、一つずつ読みます。<strong>3月の山は桜</strong>です。開花予想が発表される年前から、旅の計画は動き始め、予約は4〜8週間前に集中します。ただし桜の開花は年によって前後するため、この波の宿は「満開の保証」より「桜の季節の過ごし方」を売る方が安全です。<strong>7月の山は、北半球の夏休み</strong>です。欧米・東南アジア・中国の学校休暇が重なる長い波で、家族連れと長期滞在が増えます。<strong>10月の山は紅葉と、アジアの秋の連休</strong>です。波は短く高い——紅葉の見頃は地域が2〜3週間ほどだからで、この波だけ予約の前倒しがさらに早まる傾向があります。<strong>12月の山は、年末の都市滞在</strong>です。カウントダウン、イルミネーション、そして日本の正月を体験したい旅人。2024年で最も高い山が12月だったことは、多くの宿の直感(年末は日本人が帰省して客が減る)を裏切る数字です。旅人のカレンダーは、日本人のカレンダーと同じではありません。もう一つ注意が要るのは、中国・東南アジア発の需要は旧正月(春節)の時期——年によって1月末から2月に移動します——にもう一つの小さな山を作ることです。</p><h2>準備のタイムライン — 8週間前から</h2><p>波に間に合わせる仕事は、波が来る前に終えておく必要があります。目安は8週間前です。</p><ol><li><strong>8週間前 — Listingの更新</strong> — 写真(今の季節のものに)、タイトル、プラン。予約サイトの順位の話はListing最適化の記事に譲ります。</li><li><strong>6週間前 — 価格の設計</strong> — 早割・標準・直前の3段階。閑散期との値差の付け方も、ここで決めます。</li><li><strong>4週間前 — SNS告知と応答体制</strong> — 波の言語での告知(英語の季節の挨拶は二十四節気の記事が役に立ちます)と、問い合わせに当日返す体制。海外からの問い合わせは、時差で深夜に届きます。</li><li><strong>2週間前 — 最終確認</strong> — キャンセル規定、決済(海外カード・電子決済)、到着までの案内。ここで漏れると、波の恩恵がクレームに変わります。</li></ol><h2>閑散期 — 「実験の窓」として使う</h2><p>4波の間の谷——例年6月、9月中〜下旬、11月後半、そして2月——は、単なる「暇な時期」ではもったいない場所です。需要が小さい時期の失敗は小さい。つまり閑散期は、<strong>新しいプランのテストと価格の実験を、失敗コスト最低で行える窓</strong>です。試したい朝食付きプラン、試したい平日割、試しのデーユース。まず谷で小さく試して、波の前に本番仕様に上げる。一年の設計とは、波に合わせて稼ぎ、谷に合わせて試す、この二つのリズムです。</p><h2>季節対策の反対側</h2><ul><li><strong>波にだけ合わせる宿の脆弱性</strong> — 4波の月だけで満室の宿は、谷の月の固定費で痩せていきます。谷の戦略(実験、メンテナンス、休暇、地域客)は、波の戦略と同じ重要さです。</li><li><strong>桜と紅葉の賭け</strong> — 開花・見頃の前後は毎年動きます。「満開予定」を断言した宿は、外れた年に別のものを用意していないと痛い。天候に左右される山には、天候に左右されない中身(温泉、食、体験)を添える。</li><li><strong>多言語の用意</strong> — 波の言語は必ずしも英語とは限りません。どの市場の波を取るかで、案内の言語と決済の対応が決まります。全ての言語を一夜で揃える必要はなく、取る波を選ぶ。</li><li><strong>受け入れ能力の限界</strong> — 波の月に部屋以上の予約を受けられないのは当然ですが、清掃・朝食・送迎の能力も同時に天井になります。稼働だけ見て受け過ぎると、レビューの質が下がって翌年の波を壊します。</li><li><strong>繁忙期の値上げの公平感</strong> — 「人気だから高い」の連続は、この連載で扱った公平性の研究の言う「許されない値上げ」に当たります。値上げするなら、中身(季節の料理、見える景色)の理由と一緒に。</li><li><strong>統計は全体像</strong> — 訪日客の総数は、あなたの地域・客層と一致しません。JNTOの数字で読むのは「波の形」であり、自宿の予約記録で読むべきは「自分の波」です。</li></ul><p>まず小さく、来年のカレンダーを1枚印刷して、4つの山(3月・7月・10月・12月)に色を付け、谷に別の色を付ける。山には「8週間前」のリマインダーを、谷には「実験する1つ」を書き込む。1枚のカレンダーが、一年分の設計図になります。</p><div class="note">この記事はアイデア共有を目的としています。記載の統計は日本政府観光局(JNTO)の推計値の紹介です。予約のリードタイムや春節の時期は年・市場により変わるため、自宿の予約記録との照合をお勧めします。</div><h2>次に読む</h2><ul><li><a href="#summer-ota-peak-season">【夏の繁忙期】OTA検索で上位を取る3つの施策</a> — 夏の波を取る具体的な手の話</li><li><a href="#inbound-ota-search-habits">インバウンドゲストのOTA検索行動 — 国内ゲストとの5つの違い</a> — 海外の旅人の探し方の話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 波に合わせた価格の設計の話</li><li><a href="#idea-season-english-24sekki">季節の挨拶を英語で伝える — 二十四節気・七十二候を英語で伝えるアイデア</a> — 波の言語での告知の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"className":"ARTICLE","children":"019"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本"}],["$","span",null,{"className":"en-only","children":"Seasonal Inbound Demand: The Basics of When to Prepare What"}],["$","span",null,{"className":"zh-only","children":"季节性入境需求——准备“内容和时间”的基础知识"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"2024年の訪日外客数は3,687万人。月別に並べると、3月(308万人)・7月(329万人)・10月(331万人)・12月(349万人)の4つの山が立ちます。日本人のカレンダーと世界の旅人のカレンダーの違いを読み、4波の前に何を何週間前に整えるかを整理しました。"}],["$","span",null,{"className":"en-only","children":"Visitor arrivals to Japan in 2024: 36.87 million. Lined up by month, four peaks stand out — March (3.08 million), July (3.29 million), October (3.31 million), and December (3.49 million). Read the difference between the Japanese calendar and the world traveler’s calendar, and here is what to ready, how many weeks ahead of each of the four waves."}],["$","span",null,{"className":"zh-only","children":"入境需求有四波：春季、夏季、秋季、年底。基础文章介绍要准备什么以及提前多少周在时间表上查看。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_seasonal-inbound-demand.jpg","alt":"季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.11.28"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1c72,<p>Talk of inbound demand tends to run on feel: "We've been seeing more foreign guests lately." But the true shape of demand is not a feeling; it is a "wave" that can be read in numbers. Line up 2024 by month in the Japan National Tourism Organization (JNTO) statistics, and four clean peaks stand in the arrival figures: March (3,081,781), July (3,292,500), October (3,312,000 — a record for a single month at the time), and December (3,489,800 — the first month since records began to exceed 3.4 million). Spring, summer, autumn, year-end — preparing for these four waves is itself the year's design of inbound acquisition.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Visitor arrivals to Japan in 2024 totaled 36,869,900 for the year (an all-time high). By month: December 3,489,800 (the first month above 3.4 million), October 3,312,000 (a record single month at the time), July 3,292,500, and March 3,081,781 — four peaks across spring, summer, autumn, and year-end (Japan National Tourism Organization estimates)</strong> — Inbound demand arrives every year as four waves aligned with the calendar.</div>
+
+<h2>The Japanese calendar, and the world traveler’s calendar</h2>
+
+<p>Read the four peaks, one by one. <strong>The March peak is the cherry blossoms.</strong> Trip planning starts the year before, the moment the bloom forecasts are published, and bookings concentrate four to eight weeks out. But because the bloom shifts year to year, an inn on this wave is safer selling "how to spend the cherry-blossom season" than "guaranteed full bloom." <strong>The July peak is the Northern Hemisphere's summer holidays.</strong> A long wave on which school breaks in the West, Southeast Asia, and China overlap — families and long stays increase. <strong>The October peak is the autumn foliage and Asia's autumn holidays.</strong> The wave is short and tall — the foliage's best weeks last only about two to three weeks per region — and this wave alone tends to book even further in advance. <strong>The December peak is the year-end city stay.</strong> Countdowns, illuminations, and travelers who want to experience a Japanese New Year. That the tallest peak of 2024 was December is a number that betrays many inns' intuition (that year-end means fewer guests as Japanese head home to their families). The traveler's calendar is not the Japanese calendar. One more caution: demand from China and Southeast Asia creates another small peak at Lunar New Year — falling anywhere from late January into February depending on the year.</p>
+
+<h2>The preparation timeline — from eight weeks out</h2>
+
+<p>Work that must catch a wave needs to be finished before the wave arrives. The guide is eight weeks ahead.</p>
+
+<ol>
+<li><strong>Eight weeks out — update the listing</strong> — Photos (to the current season), title, plans. The story of ranking on the booking sites is left to the listing-optimization article.</li>
+<li><strong>Six weeks out — design the pricing</strong> — Three tiers: early-bird, standard, last-minute. How wide to set the gap against the off-season is decided here too.</li>
+<li><strong>Four weeks out — social announcements and the response setup</strong> — Announcements in the wave's language (English seasonal greetings — the 24 sekki article helps) and a system that answers inquiries the same day. Overseas inquiries arrive at midnight, with the time difference.</li>
+<li><strong>Two weeks out — final checks</strong> — Cancellation policy, payments (overseas cards, digital payment), guidance through to arrival. Leak here, and the wave's benefit turns into complaints.</li>
+</ol>
+
+<h2>The off-season — use it as "the window for experiments"</h2>
+
+<p>The valleys between the four waves — typically June, mid-to-late September, late November, and February — are wasted as merely "the slow months." When demand is small, failure is small. In other words, the off-season is <strong>a window for testing new plans and experimenting with prices at the lowest cost of failure</strong>. The breakfast-included plan you want to try, the weekday discount you want to try, a trial day-use offer. Test it small in the valley, then raise it to production before the wave. The year's design is these two rhythms: earn with the waves, test with the valleys.</p>
+
+<h2>The other side of seasonal strategy</h2>
+
+<ul>
+<li><strong>The fragility of the wave-only inn</strong> — An inn full in the four wave months thins out on the valleys' fixed costs. A valley strategy (experiments, maintenance, leave, local guests) matters as much as the wave strategy.</li>
+<li><strong>The cherry-blossom and foliage gamble</strong> — Bloom and peak color move every year. An inn that declares "full bloom scheduled" is hurt in the year it misses, unless something else is prepared. On weather-dependent peaks, add weather-independent content (the onsen, the food, the experiences).</li>
+<li><strong>Multilingual preparation</strong> — The wave's language is not always English. Which market's wave you take decides the guidance language and the payments you support. There is no need to assemble every language overnight — choose the waves you take.</li>
+<li><strong>The limits of capacity</strong> — Of course a wave month cannot take more bookings than the rooms — but cleaning, breakfast, and transfers cap out at the same time. Over-accept on occupancy alone and the quality of the reviews drops, breaking the next year's wave.</li>
+<li><strong>Fairness in peak-season pricing</strong> — A run of "expensive because it's popular" falls under the "unpermitted increases" named by the fairness research in this series. If you raise, raise together with the reasons of content (seasonal dishes, the visible view).</li>
+<li><strong>Statistics are the whole picture</strong> — Total arrivals do not match your region or your guest layer. What to read in JNTO's numbers is "the shape of the wave"; what to read in your own booking records is "your own wave."</li>
+</ul>
+
+<p>Start small: print next year's calendar, color the four peaks (March, July, October, December), and give the valleys a different color. On the peaks, write the "eight weeks out" reminder; in the valleys, write "the one experiment." One sheet of calendar becomes the blueprint for a year.</p>
+
+<div class="note">This article is intended for sharing ideas. The statistics cited are introductions of Japan National Tourism Organization estimates. Booking lead times and the timing of Lunar New Year vary by year and market; cross-checking with your own booking records is recommended.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#summer-ota-peak-season">Summer Peak: 3 Plays to Win OTA Search Rankings</a> — the concrete moves for taking the summer wave</li>
+<li><a href="#inbound-ota-search-habits">How Inbound Guests Search OTAs: 5 Differences From Domestic Guests</a> — how overseas travelers search</li>
+<li><a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a> — pricing that follows the waves</li>
+<li><a href="#idea-season-english-24sekki">Tell Seasonal Greetings in English - Ideas for Conveying 24 Sekki and 72 Ko in English</a> — announcements in the wave's language</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te6e,<p>入境需求为<strong>4波：春季（樱花）、夏季（假期+活动）、秋季（秋叶+活动）和新年假期。</strong>我会来的。本文是一篇基础文章，整理了要准备什么以及提前多少周的时间表。 （以下数字为参考值和示例。）</p>
+<h2>1. 4波</h2>
+<ul>
+<li><strong>春天（樱花）</strong> ——最大的山。预订需提前 4 至 8 周开始。</li>
+<li><strong>夏季（假期+活动）</strong> ——长长的波浪。 4-8 周前。</li>
+<li><strong>秋天（秋叶+活动）</strong> — 短而高的波浪。 2-4 周前。</li>
+<li><strong>新年假期</strong> — 庆祝活动如山。 2-4 周前。</li>
+</ul>
+<p>之间<strong>淡季（5月下旬、8月底、11月）</strong>是定价策略窗口。</p>
+<h2>2. 准备时间表（8周清单）</h2>
+<ol>
+<li><strong>8 周前</strong> — 更新列表（照片、标题、计划）。</li>
+<li><strong>6 周前</strong> — 价格设计（早期折扣、标准折扣和最后一刻折扣）。</li>
+<li><strong>4 周前</strong> — SNS公告+询问回复系统。</li>
+<li><strong>2 周前</strong> — 最终确认（取消/付款/抵达）。</li>
+</ol>
+<h2>3、淡季策略</h2>
+<ul>
+<li><strong>淡季是“涨价窗口”</strong> — 在低竞争和稳定需求时期尝试价格。</li>
+<li>它还可以用于测试新计划（失败成本很低）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“季节性入境需求 - 准备什么和何时准备的基本知识” 与五年前相比，客人的期望发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>在网上吸引顾客的努力增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>4</b><span>需求浪潮</span></div><div class="stat"><b>8周</b><span>准备工作的起点</span></div><div class="stat"><b>3个阶段</b><span>价格设计</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>为赛季做准备<strong>“8周前的比赛”</strong>。如果你在赛季期间开始，那就太晚了。这一切都是为了在浪潮“之前”安排上市、价格和公告。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：在日历上安排明年的第四波</li>
+<li>第 2 周：提前 8 周创建准备清单</li>
+<li>第三周：三阶段价格设计（含淡季实验）</li>
+<li>第 4 周：准备 SNS 公告模板</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","span",null,{"className":"en-only","children":"Guest Data Basics: What to Record, and How to Use It"}],["$","span",null,{"className":"zh-only","children":"访客数据基础知识——记录什么以及如何使用它"}]]}]]}]]}],["$","$L8","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","span",null,{"className":"en-only","children":"Hotel Instagram: The Zero-to-Ten Post Plan for Starting Now"}],["$","span",null,{"className":"zh-only","children":"Hotel Instagram — 计划从现在开始从“0 条帖子到 10 条帖子”"}]]}]]}]]}],["$","$L8","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","span",null,{"className":"en-only","children":"Landing Page Design: What to Say in the First \"Three Seconds\""}],["$","span",null,{"className":"zh-only","children":"登陆页面设计——前“3秒”要传达什么"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/service-standard-basics","children":["- ",["$","span",null,{"className":"ja-only","children":"サービスの基本 — 人による差をつけない「標準」"}],["$","span",null,{"className":"en-only","children":"Service Basics: The \"Standard\" That Does Not Vary by Person"}],["$","span",null,{"className":"zh-only","children":"服务基础：不区分人的“标准”"}]]}],["$","$L8",null,{"href":"/journal/articles/revenue-management-basics","children":[["$","span",null,{"className":"ja-only","children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","span",null,{"className":"en-only","children":"Revenue Management Basics: How to Read ADR, Occupancy, and RevPAR"}],["$","span",null,{"className":"zh-only","children":"收益管理基础知识 — 如何解读 ADR、入住率和 RevPAR"}]," -"]}]]}]
+10:null

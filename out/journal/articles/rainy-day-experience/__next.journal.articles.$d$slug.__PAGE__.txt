@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_rainy-day-experience.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T2933,<p>雨の日になると満足度が下がる宿と、下がらない宿があります。違いは、天気ではありません。雨の日を「晴れの日の失敗版」として運営しているか、「もう1つの主力商品」として設計しているかです。本記事は、後者を作るための、体験・伝え方・価格・運営の全部を整理します。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2933,<p>雨の日になると満足度が下がる宿と、下がらない宿があります。違いは、天気ではありません。雨の日を「晴れの日の失敗版」として運営しているか、「もう1つの主力商品」として設計しているかです。本記事は、後者を作るための、体験・伝え方・価格・運営の全部を整理します。</p>
 
 <h2>雨は例外ではなく、3日に1日</h2>
 
@@ -77,10 +142,117 @@ a:"$Sreact.suspense"
 <li><a href="#idea-rainwater-garden">雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集</a> — 雨を資源にする庭と設備の話</li>
 <li><a href="#idea-fire-circle-night">火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア</a> — 雨の日の「囲む」の中心の話</li>
 <li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 雨の日を含む写真戦略の話</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","114"]}]]}],["$","h1",null,{"children":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}],["$","p",null,{"className":"excerpt","children":"雨の日は「残念な日」ではなく、3日に1日来る「もう1つの主力商品」。降水日数の事実から、濡れるを前提にする設計、雨の日メニュー1枚、価格と写真、そして運営側の雨まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_rainy-day-experience.jpg","alt":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.14"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/press-release-local-media","children":["← ","地域メディアに取り上げられるプレスリリースの書き方"]}],["$","$L2",null,{"href":"/journal/articles/subscription-monthly-stay","children":["サブスクリプション滞在 — 「毎月泊まる」常連の作り方"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"114"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}],["$","span",null,{"className":"en-only","children":"Rainy Day Experiences: Designing Stays Where Satisfaction Doesn't Drop"}],["$","span",null,{"className":"zh-only","children":"雨天体验——设计一间即使在雨天也能让你满意的旅馆"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"雨の日は「残念な日」ではなく、3日に1日来る「もう1つの主力商品」。降水日数の事実から、濡れるを前提にする設計、雨の日メニュー1枚、価格と写真、そして運営側の雨まで。"}],["$","span",null,{"className":"en-only","children":"A rainy day is not \"a disappointing day\" but \"a second flagship product\" that arrives once every three days. From the facts about rainy days — to designing on the assumption of getting wet, a one-page rainy-day menu, pricing and photographs, and even the rain on the operations side."}],["$","span",null,{"className":"zh-only","children":"下雨天可以被设计为“享受住宿的一天”，而不是“令人失望的一天”。如何创造不受天气影响的满足感，以及只有在下雨时才能享受的体验。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_rainy-day-experience.jpg","alt":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.14"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[7,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T27ab,<p>There are inns whose guest satisfaction drops on rainy days, and inns where it does not. The difference is not the weather. It is whether the rainy day is being run as "a failed version of a sunny day," or designed as "one more flagship product." This article organizes everything needed to build the latter — the experience, how to present it, pricing, and operations.</p>
+
+<h2>Rain is not the exception — it comes once every three days</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>Fact</strong> — The Japan Meteorological Agency counts a "day with precipitation" as a day on which 1 mm or more of rain fell. The prefectural figures compiled on the Statistics Dashboard of the Ministry of Internal Affairs and Communications (based on JMA observations) average about 119 days a year nationwide — roughly one day in three is a day of rain, snow included (the latest published figures, as of writing). Even in Tokyo the number exceeds 100 days a year.</div>
+
+<p>The meaning of this figure is too large to be settled by "be prepared for rainy days." An inn that leaves a third of the year as "unexpected days" has left a third of its management undesigned. Whether the rainy day becomes "a day when nothing can be done" or "a day possible only at this inn" is not a question of the weather, but a question of product-making.</p>
+
+<h2>Three reasons satisfaction drops</h2>
+
+<p>Inns where rainy-day satisfaction falls share three structures.</p>
+
+<ol>
+<li><strong>Only outdoor experiences are on offer</strong> — A forest picnic, a field harvest, a brewery tour. If everything assumes sunshine, the product becomes zero in rain. Add just one experience that stands up in rain, and the product never breaks.</li>
+<li><strong>It starts with the word "unfortunately"</strong> — "I'm afraid it's raining today…" as the first words hands the guest the recognition of "a day I lost." Words alone can move rainy-day satisfaction. The replacement phrase comes later.</li>
+<li><strong>The sound of rain is shut out</strong> — Close every window and play music, and the rain turns into "a feeling of being shut in." The sound of rain is, in fact, the cheapest staging the building has. The architecture for listening to rain — the engawa veranda, the eaves, the storm shutters — is covered in <a href="#idea-rainy-day-enjoy">Tell How to Enjoy Rainy Day - Ideas for Conveying Sound of Rain, Scent of Rain, How to Spend Rainy Day</a>, so we omit it here.</li>
+</ol>
+
+<h2>A museum built on the assumption of getting wet</h2>
+
+<div class="stats"><span class="tag">CASE</span><strong>Case</strong> — teamLab Planets in Toyosu, Tokyo, bills itself as "a museum where you walk through water": an experiential museum with works that have you wade in water up to the knees. Getting wet is not erased as a defect but designed in as the premise of the experience — visitors take off their shoes and go round barefoot, shorts and towels are lent out free of charge, and the caution notes at purchase tell visitors in advance that they will get wet (according to the museum's guidance).</div>
+
+<p>Why is this interesting? This museum took the very "wet, dirty, cold" that troubles most inns on rainy days and turned it from something to erase into the premise. The essence is this: most inconvenience arises from the fact that the inconvenience has not been made a premise. Make it a premise and say so, lend the tools, build the route — and inconvenience moves over to the side of experience.</p>
+
+<p>A lodging's rainy day can shrink this three-piece set exactly as it is. <strong>Tell in advance</strong> (add one line on "how to spend a rainy day" to the booking-confirmation message). <strong>Lend the tools</strong> (umbrellas, boots, and towels set out at the entrance). <strong>Build the route</strong> (lay the seats that can get wet and the non-slip mats first).</p>
+
+<h2>A one-page rainy-day menu — listen, gather, make</h2>
+
+<p>Three directions are enough for rainy-day-only ways to spend time.</p>
+
+<ul>
+<li><strong>Listen</strong> — Make a corner of the lounge with a view of the garden in rain, with books and coffee. Give it a name: "the rain-sound library." Open a window a little, and a program of rain plays through the building.</li>
+<li><strong>Gather</strong> — A wood stove, an irori hearth, a bonfire. Fire feels best precisely on rainy days, and people naturally start talking around it (the design of that night is covered in <a href="#idea-fire-circle-night">Night Surrounding Fire - Ideas for Gathering Night with Bonfire, Irori, Wood Stove</a>).</li>
+<li><strong>Make</strong> — Miso-making, bamboo work, blending herb tea. Experiences that produce something to take home suit rainy days well (for the design of the experience as a whole, see <a href="#regional-experience-program">Regional Experience Programs: The Basics for Extending Inbound Stays</a>).</li>
+</ul>
+
+<p>Put these three on a single "rainy-day card" and set it at the front desk. What supports rainy-day satisfaction is not equipment but "the fact that the proposals fit on one page." Staff no longer hesitate over what to say on a rainy day — that alone solves half of the staffing problem of wet days.</p>
+
+<h2>Presentation and pricing — making rain "a rewarding day"</h2>
+
+<p><strong>Change the first words at check-in.</strong> Ban "I'm afraid it's raining," and hand over instead: "Today is a rainy-day-plan day. The rain-sound library, the hearth — today is their main season." The same rain can have its reception designed.</p>
+
+<p><strong>Build a rainy-day-only plan.</strong> Bundle "the rain-sound library + coffee at the hearth + a making experience" for, say, an extra 500 yen (the price is an example). What matters is not the discount but the "only." A rainy-day discount fixes the message "rain = loss," while a rainy-day-only plan builds the recognition "rain = this inn's special day." When guests who came on a sunny day start saying "I want to come back on a rainy day," it has worked.</p>
+
+<p><strong>Prepare photographs of rainy days.</strong> If the booking sites show only sunny photographs, the inn in rain looks like "a place below expectations." The garden in rain, the rain-sound library, the drops on the window — three rainy-day photographs are insurance against disappointing guests on the hundred-odd wet days a year (how to build the whole set of photographs is covered in <a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a>).</p>
+
+<h2>The rain on the operations side — designing the unseen parts</h2>
+
+<p>A rainy day is, in fact, the busiest day for the back of house. <strong>Wet floors</strong> are the leading cause of slips: staff the entrance-to-lounge cleaning on the premise of double the sunny-day frequency. <strong>Damp in the guest rooms</strong> comes back as mold in the rainy season. Put the ventilation and dehumidifying rounds on the same single page as the rainy-day card. <strong>Linen</strong> will not dry, and the dryer's rotations are the number that supports rainy-day occupancy from behind. The design of rainy days is needed on this back side with the same weight as on the guests' side.</p>
+
+<h2>The other side — when rainy-day design hurts the inn</h2>
+
+<ul>
+<li><strong>The line of safety</strong> — Wet floors, stairs, and outdoor routes are safety matters before they are staging. Mats, handrails, and one "Wet floor" sign first.</li>
+<li><strong>The cleaning load</strong> — Rainy-day programs add work to both the front desk and housekeeping. Decide in advance whether the added work is worth it, and how many rainy-day plans per month you will run.</li>
+<li><strong>Mold and damp</strong> — For every increase in "open the windows" staging, pair the dehumidifying and ventilation rounds, or the inn pays for it at the end of the rainy season.</li>
+<li><strong>The discount trap</strong> — Keep offering "cheaper because it's raining," and the sunny-day rate starts to look overpriced. Build with "only," not with discounts.</li>
+<li><strong>Calling it off</strong> — No outdoor experience goes out on days of thunder, storm winds, or weather warnings. The last line of rainy-day design is: "who decides to stop, and when."</li>
+<li><strong>The rainy season is a month, not a day</strong> — Rain once in three days and a rainy season that lasts a month wear down a program in different ways. Will you run the same rainy-day card all season, or swap it midway? Inns in wet seasons design the "reshelving" of rainy-day programs too.</li>
+</ul>
+
+<p>The first step: on the next rainy day, walk with wet feet from your inn's entrance to a guest room. Where do you struggle at the moment you get wet — the rainy-day blueprint starts there. The story of gardens that turn rainwater into a resource waits on the next page, in <a href="#idea-rainwater-garden">Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn</a>.</p>
+
+<div class="note">This article is intended for sharing ideas. Precipitation-day figures are the latest published values (as of writing) on the Statistics Dashboard of the Ministry of Internal Affairs and Communications, based on Japan Meteorological Agency observations. The description of teamLab Planets follows the museum's guidance, and its operations may change. Prices are examples. When weather warnings are in force, put safety first.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-rainy-day-enjoy">Tell How to Enjoy Rainy Day - Ideas for Conveying Sound of Rain, Scent of Rain, How to Spend Rainy Day</a> — designing the guidance that communicates rain</li>
+<li><a href="#idea-rainwater-garden">Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn</a> — gardens and systems that turn rain into a resource</li>
+<li><a href="#idea-fire-circle-night">Night Surrounding Fire - Ideas for Gathering Night with Bonfire, Irori, Wood Stove</a> — the center of "gathering" on rainy days</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — a photo strategy that includes rainy days</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T16fd,<p>下雨天客人满意度会下降。原因是<strong>“我不打算下雨天。”</strong>。如果只准备晴天的体验，那么下雨天就什么都做不了了。然而，如果您将下雨天设计为享受住宿的日子，那么下雨实际上会成为提高您满意度的一个因素。一边听雨声读书，一边在柴火炉前煮咖啡，或者一边眺望雨水花园，一边喝当地啤酒。下雨天，你可以体验晴天不能做的事情。本文将解释如何创造不受天气影响的满意度，以及如何设计即使下雨也能享受的体验。</p>
+
+<h2>1. 为什么下雨天满意度会下降——3个原因</h2>
+<ul>
+<li><strong>我唯一的经历就是“出去做点事”：</strong>在森林里野餐，在田野里收获，并参观啤酒厂。如果你只有户外体验，一切都会因为下雨而取消。没有一种即使在雨中也能进行的“室内体验”。</li>
+<li><strong>留言内容是“下雨天真可惜”：</strong>如果您在登记入住时说“不幸的是，下雨了……”，客人就会意识到这是“不幸的一天”。如果您说“下雨天是享受住宿的一天”，您的客人就会明白这是“享受住宿的一天”。满意度会根据单词的不同而变化。</li>
+<li><strong>关闭“雨声”：</strong>雨声其实是一种悦耳的声音。然而，如果你关上窗户并关掉背景音乐，雨会让你有被困的感觉。如果你创造一个可以听到雨声的地方，雨就变成了一种“体验”。</li>
+</ul>
+
+<h2>2. 可以在雨中享受的体验——3种设计</h2>
+<ol>
+<li><strong>打造一个“听雨声”的场所：</strong>在休息室的一角创建一个俯瞰雨水花园的座位。把窗户打开一点，这样你就可以听到雨声。放下书和咖啡。将其命名为“Amane图书馆”。听着雨声看书的体验是晴天无法体验到的。这是只有雨天才能享受的体验。</li>
+<li><strong>创造“围绕火”的体验：</strong>木火炉、壁炉、蜡烛。在雨天，火尤其舒缓。体验在燃木炉子上冲泡咖啡和在围炉上烘烤当地麻糬。人们自然会围着火交谈。雨天成为“对话诞生的日子”。</li>
+<li><strong>创造“制作”体验：</strong>由于下雨天我们不能出去，所以能有在室内做东西的经验真是太好了。味噌制作、竹工艺品、陶器、花草茶混合物。即使在下雨天，您也可以体验制作东西，并且可以将一些东西带回家（请参阅有关当地体验项目的文章）。将雨天设计为“创造日”。</li>
+</ol>
+
+<h2>3. 雨天留言及价格</h2>
+<ul>
+<li><strong>“下雨天是享受住宿的一天。”</strong>更改入住时的消息。不要说“不幸的是，下雨了……”，而是说“下雨天是在旅馆里度过的愉快的一天”。由于下雨，您可以进行一些体验，例如在 Amaneto 图书馆读书或在柴火炉上煮咖啡。”满意度会根据消息而变化。</li>
+<li><strong>制定一个“只在雨天”的计划：</strong>仅在雨天，我们提供“雨声图书馆+木炉咖啡+制作体验”套餐，需额外支付500日元。如果限制在下雨天，下雨就变成了“好天”。晴天来的客人会想在雨天再来。</li>
+<li><strong>准备一张“雨天照片”：</strong>我们在 OTA 和我们自己的网站上准备了“Rainy Day Inns”的照片。雨水花园、雨声图书馆和木火炉的照片。如果你只有晴天的照片，下雨天就会看起来像“不幸的日子”。如果你有下雨天的照片，即使是下雨天也会看起来像“美好的一天”。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，把晴天的满意度设为100，雨天为95就是“只下降5%”，为77就是“下降23%”（示例读法）。在自家旅馆，比较雨天和晴天的点评即可确认这一差距。</strong> — 雨天可以被设计为“享受住宿的一天”，而不是“令人失望的一天”。满意度取决于信息和体验。判断效果时，请用相同的统计方法记录并比较施策前后30天的雨天满意度与取消率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>下雨天的价值是<strong>“在阳光明媚的日子里无法体验到的体验”</strong>。听雨，围火，创作。如果您准备了三个可以在雨天进行的体验，那么您的住宿将不会受到天气的影响。请把雨天作为“旅馆真正的潜力发挥出来的日子”来计划。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：未雨绸缪的库存</strong> — 目前列出了客人在雨天可以做什么。如果只有室外的体验，室内的体验是不够的。找到三个地方：一个听雨声的地方，一个围炉的地方，一个创造的地方。</li>
+<li><strong>第 2 周：创建雨声库</strong> — 在休息室的一角创建一个俯瞰雨水花园的座位。把窗户打开一点，这样你就可以听到雨声。我在那里放了一些书和咖啡，并将其称为“Amane图书馆”。我拍了一张照片并将其发布在OTA上，名称为“Rainy Day Inn”。</li>
+<li><strong>第三周：围绕火的体验和体验设计</strong> — 设计体验，例如在木炉上煮咖啡、在炉灶上烘烤麻糬、制作味噌以及制作混合花草茶。雨天也可以体验的三种体验。</li>
+<li><strong>第四周：留言及雨天限定计划</strong> — 将入住时的信息更改为“下雨天是享受住宿的日子”。额外支付 500 日元即可购买雨天限定套餐。如果限制在下雨天，下雨就变成了“好天”。</li>
+<li><strong>续：雨天记录</strong> — 雨天满意度与晴天满意度的比较。记录参与雨天体验的客人的满意度。确认雨天满意度不降低并持续改进。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/press-release-local-media","children":["- ",["$","span",null,{"className":"ja-only","children":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","span",null,{"className":"en-only","children":"How to Write Press Releases Picked Up by Local Media"}],["$","span",null,{"className":"zh-only","children":"如何撰写被当地媒体转载的新闻稿"}]]}],["$","$L8",null,{"href":"/journal/articles/subscription-monthly-stay","children":[["$","span",null,{"className":"ja-only","children":"サブスクリプション滞在 — 「毎月泊まる」常連の作り方"}],["$","span",null,{"className":"en-only","children":"Subscription Stays: How to Create Regulars Who Stay Monthly"}],["$","span",null,{"className":"zh-only","children":"订阅停留——如何培养“每月停留”的常客"}]," -"]}]]}]
+10:null

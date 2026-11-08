@@ -1,15 +1,157 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_guest-journey-map.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1e28,<p>宿泊体験は<strong>「客室内」だけではありません</strong>。ゲストは山や海の写真をSNSで見つけ、気になった投稿を保存し、地図で検索し、不安と期待を抱えて到着します。そして帰宅した後も、思い出は続き、レビューが書かれ、再訪の種が残る。本記事は、この「線」を1枚のMapで見る方法の基礎編です。</p><h2>露地 — 体験は門から始まっていた</h2><p>茶の湯の世界では、体験の始まりを茶室の中に置きませんでした。<strong>露地</strong>——茶室へ続く小路——こそが体験の前半です。門をくぐり、<strong>待合</strong>で時間を待ち、<strong>蹲踞</strong>の水で手を清め、<strong>飛石</strong>を一歩一歩歩いて、身を低くして<strong>躙口</strong>から入る。露地を歩く数分のあいだに、客は「日常の自分」を少しずつ外に置いていきます。茶の湯は、移動そのものを体験として設計した、数百年前のジャーニー設計なのです。</p><p>露地を掃き清める「掃き払い」の話は、清掃の記事(<a href="#cleaning-checklist-experience">清掃を「コスト」から「体験」に変えるチェックリスト</a>)が扱います。ここで見たいのは、掃除の話ではなく<strong>「客が来るまでの道を、体験の一部として並べる」</strong>という発想のことです。</p><h2>現代の宿にも露地はある</h2><p>露地のない宿にも、露地はあります。検索結果の1ページ目、予約サイトの写真、予約完了メール、駅からの道、駐車場から玄関までの50歩、チェックインの最初の1分、翌朝の食堂、お見送り、帰宅後の1通のメール。<strong>設計されていないだけで、線はすでに存在しています。</strong>Mapとは、この線を初めて見える形にする1枚の紙のことです。</p><h2>Mapの作り方 — 5つのフェーズ×3行</h2><ol><li><strong>発見</strong> — OTA・SNS・地図検索で見つかる瞬間。</li><li><strong>予約</strong> — 決める・迷う・問い合わせる。</li><li><strong>到着前</strong> — アクセス・駐車場・チェックイン時間の不安。</li><li><strong>滞在</strong> — お迎え・客室・風呂・食事・睡眠の5接点。</li><li><strong>帰宅後</strong> — 思い出・レビュー・再訪のきっかけ。</li></ol><p>この5フェーズを横軸に、縦軸に<strong>「ゲストの気持ち・行動・宿の対応」の3行</strong>を置きます。各マスに「今ある接点」を付箋で1つずつ貼ります。例えば「到着前」の欄に「前日にアクセスの案内メールを送っている」なら、それが1枚の付箋です。付箋をテーマ(自然・食・人・情報)で色分けすると、どの色に偏っているかも見えてきます。</p><h2>空白が宝 — 誰も担当していない時間</h2><p>Mapで最初に見るべきは、付箋の多いマスではなく<strong>空白のマス</strong>です。空白とは、「誰も担当していない時間」のことです。特に<strong>「到着前」と「帰宅後」</strong>は、多くの宿で丸ごと空白になります。そして体験の質は、ここを埋めるほど安く上がります。</p><ul><li><strong>到着前</strong> — 道案内に近隣の1枚(食事処・散歩道)を添えた1通。不安は期待に変わります。予約前の写真を磨く話は、<a href="#landing-page-3-seconds">ランディングページの設計 — 初見の「3秒」で何を伝えるか</a>が扱います。</li><li><strong>滞在の最初の5分</strong> — お迎えの一杯、客室の最初の一瞥。設計の実例は、<a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a>にあります。</li><li><strong>帰宅後</strong> — 季節の便りを1通。続けるための仕組みは、<a href="#email-crm-direct">メールとCRM — チェックアウト後にも消えない直結エンジン</a>が扱います。</li></ul><p>なお、滞在中の「どの瞬間に記憶が残るか」の研究(ピークエンドの法則)は、<a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a>が詳しく扱っています。Mapで線全体を見て、その中の瞬間を設計する——2つの記事は、そう分工します。</p><h2>現場で作る — 自分の露地を歩く</h2><p>Mapは会議室より現場で完成します。一番の近道は、<strong>自分の宿に1泊すること</strong>です。駐車場に降り立ち、予約完了メールを読み直し、自分の客室の鍵を開け、朝の食堂に座る。もう一つの近道は、スタッフに1つ聞くこと——「昨日のお客様は、到着されてから最初に何をされましたか」。Mapの付箋の半分は、この2つで埋まります。</p><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>茶室の入口「躙口」は、わざと低く作られています。刀を置き、身をかがめて入る——立場を外してから体験に入る設計</strong> — 現代の宿でいえば、仕事メールから離れて夕餉の支度に入ってもらうことと同じ構造</div><h2>反対側 — Mapが宿を疲れさせるとき</h2><ul><li><strong>全部直そうとする</strong> — 空白が10個見つかっても、直すのは1つだけです。Mapの目的は完璧な図ではなく、弱い接点を1つ見つけることです。</li><li><strong>空白=悪、という錯覚</strong> — 線のすべてを埋める必要はありません。何もしない静かな時間は、埋めるべき空白ではなく、守るべき余白です。</li><li><strong>帰宅後の営業過剰</strong> — 体験が終わった相手への売り込みは、逆効果になりやすい。帰宅後は「贈る」でなく「届く」1通に絞ります。</li><li><strong>作って終わり</strong> — Mapは額に入れて飾るものではなく、四半期に1回張り替える生きた紙です。接点が増えたら、付箋を足します。</li></ul><p>最初の一歩は、5フェーズ×3行の枠だけを描いた1枚の紙を用意し、今週1週間、気がついた接点を付箋に書いて貼ることです。1週間後、空白のマスが1つ、あなたの方を向いています。その1つを直すのが、Mapの使い方です。ゲストの旅は点ではなく線——ならば、宿の仕事も、点ではなく線で並べ直せます。</p><div class="note">この記事はアイデア共有を目的としています。露地・待合・蹲踞・躙口は茶の湯の一般的な作法として紹介しています。個別の施策は、宿の規模・人員に合わせて調整してください。</div><h2>次に読む</h2><ul><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 線の中の「瞬間」を設計する話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 滞在の頭の5分の実例</li><li><a href="#email-crm-direct">メールとCRM — チェックアウト後にも消えない直結エンジン</a> — 帰宅後を続ける仕組みの話</li><li><a href="#12month-marketing-calendar">宿の12ヶ月 — すぐに使えるマーケティングカレンダー</a> — 1回の滞在でなく1年を線で見る話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","070"]}]]}],["$","h1",null,{"children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","p",null,{"className":"excerpt","children":"宿泊は「点」ではなく「線」。予約前から帰宅後までの接点を1枚のMapに並べ、誰も担当していない「空白の時間」を見つける方法です。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_guest-journey-map.jpg","alt":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.23"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/12month-marketing-calendar","children":["← ","宿の12ヶ月 — すぐに使えるマーケティングカレンダー"]}],["$","$L2",null,{"href":"/journal/articles/breakfast-revenue-math","children":["朝食の収益 — 「人数×単価×追加」の計算基本"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1e28,<p>宿泊体験は<strong>「客室内」だけではありません</strong>。ゲストは山や海の写真をSNSで見つけ、気になった投稿を保存し、地図で検索し、不安と期待を抱えて到着します。そして帰宅した後も、思い出は続き、レビューが書かれ、再訪の種が残る。本記事は、この「線」を1枚のMapで見る方法の基礎編です。</p><h2>露地 — 体験は門から始まっていた</h2><p>茶の湯の世界では、体験の始まりを茶室の中に置きませんでした。<strong>露地</strong>——茶室へ続く小路——こそが体験の前半です。門をくぐり、<strong>待合</strong>で時間を待ち、<strong>蹲踞</strong>の水で手を清め、<strong>飛石</strong>を一歩一歩歩いて、身を低くして<strong>躙口</strong>から入る。露地を歩く数分のあいだに、客は「日常の自分」を少しずつ外に置いていきます。茶の湯は、移動そのものを体験として設計した、数百年前のジャーニー設計なのです。</p><p>露地を掃き清める「掃き払い」の話は、清掃の記事(<a href="#cleaning-checklist-experience">清掃を「コスト」から「体験」に変えるチェックリスト</a>)が扱います。ここで見たいのは、掃除の話ではなく<strong>「客が来るまでの道を、体験の一部として並べる」</strong>という発想のことです。</p><h2>現代の宿にも露地はある</h2><p>露地のない宿にも、露地はあります。検索結果の1ページ目、予約サイトの写真、予約完了メール、駅からの道、駐車場から玄関までの50歩、チェックインの最初の1分、翌朝の食堂、お見送り、帰宅後の1通のメール。<strong>設計されていないだけで、線はすでに存在しています。</strong>Mapとは、この線を初めて見える形にする1枚の紙のことです。</p><h2>Mapの作り方 — 5つのフェーズ×3行</h2><ol><li><strong>発見</strong> — OTA・SNS・地図検索で見つかる瞬間。</li><li><strong>予約</strong> — 決める・迷う・問い合わせる。</li><li><strong>到着前</strong> — アクセス・駐車場・チェックイン時間の不安。</li><li><strong>滞在</strong> — お迎え・客室・風呂・食事・睡眠の5接点。</li><li><strong>帰宅後</strong> — 思い出・レビュー・再訪のきっかけ。</li></ol><p>この5フェーズを横軸に、縦軸に<strong>「ゲストの気持ち・行動・宿の対応」の3行</strong>を置きます。各マスに「今ある接点」を付箋で1つずつ貼ります。例えば「到着前」の欄に「前日にアクセスの案内メールを送っている」なら、それが1枚の付箋です。付箋をテーマ(自然・食・人・情報)で色分けすると、どの色に偏っているかも見えてきます。</p><h2>空白が宝 — 誰も担当していない時間</h2><p>Mapで最初に見るべきは、付箋の多いマスではなく<strong>空白のマス</strong>です。空白とは、「誰も担当していない時間」のことです。特に<strong>「到着前」と「帰宅後」</strong>は、多くの宿で丸ごと空白になります。そして体験の質は、ここを埋めるほど安く上がります。</p><ul><li><strong>到着前</strong> — 道案内に近隣の1枚(食事処・散歩道)を添えた1通。不安は期待に変わります。予約前の写真を磨く話は、<a href="#landing-page-3-seconds">ランディングページの設計 — 初見の「3秒」で何を伝えるか</a>が扱います。</li><li><strong>滞在の最初の5分</strong> — お迎えの一杯、客室の最初の一瞥。設計の実例は、<a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a>にあります。</li><li><strong>帰宅後</strong> — 季節の便りを1通。続けるための仕組みは、<a href="#email-crm-direct">メールとCRM — チェックアウト後にも消えない直結エンジン</a>が扱います。</li></ul><p>なお、滞在中の「どの瞬間に記憶が残るか」の研究(ピークエンドの法則)は、<a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a>が詳しく扱っています。Mapで線全体を見て、その中の瞬間を設計する——2つの記事は、そう分工します。</p><h2>現場で作る — 自分の露地を歩く</h2><p>Mapは会議室より現場で完成します。一番の近道は、<strong>自分の宿に1泊すること</strong>です。駐車場に降り立ち、予約完了メールを読み直し、自分の客室の鍵を開け、朝の食堂に座る。もう一つの近道は、スタッフに1つ聞くこと——「昨日のお客様は、到着されてから最初に何をされましたか」。Mapの付箋の半分は、この2つで埋まります。</p><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>茶室の入口「躙口」は、わざと低く作られています。刀を置き、身をかがめて入る——立場を外してから体験に入る設計</strong> — 現代の宿でいえば、仕事メールから離れて夕餉の支度に入ってもらうことと同じ構造</div><h2>反対側 — Mapが宿を疲れさせるとき</h2><ul><li><strong>全部直そうとする</strong> — 空白が10個見つかっても、直すのは1つだけです。Mapの目的は完璧な図ではなく、弱い接点を1つ見つけることです。</li><li><strong>空白=悪、という錯覚</strong> — 線のすべてを埋める必要はありません。何もしない静かな時間は、埋めるべき空白ではなく、守るべき余白です。</li><li><strong>帰宅後の営業過剰</strong> — 体験が終わった相手への売り込みは、逆効果になりやすい。帰宅後は「贈る」でなく「届く」1通に絞ります。</li><li><strong>作って終わり</strong> — Mapは額に入れて飾るものではなく、四半期に1回張り替える生きた紙です。接点が増えたら、付箋を足します。</li></ul><p>最初の一歩は、5フェーズ×3行の枠だけを描いた1枚の紙を用意し、今週1週間、気がついた接点を付箋に書いて貼ることです。1週間後、空白のマスが1つ、あなたの方を向いています。その1つを直すのが、Mapの使い方です。ゲストの旅は点ではなく線——ならば、宿の仕事も、点ではなく線で並べ直せます。</p><div class="note">この記事はアイデア共有を目的としています。露地・待合・蹲踞・躙口は茶の湯の一般的な作法として紹介しています。個別の施策は、宿の規模・人員に合わせて調整してください。</div><h2>次に読む</h2><ul><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 線の中の「瞬間」を設計する話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 滞在の頭の5分の実例</li><li><a href="#email-crm-direct">メールとCRM — チェックアウト後にも消えない直結エンジン</a> — 帰宅後を続ける仕組みの話</li><li><a href="#12month-marketing-calendar">宿の12ヶ月 — すぐに使えるマーケティングカレンダー</a> — 1回の滞在でなく1年を線で見る話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"070"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","span",null,{"className":"en-only","children":"The Whole Guest Experience: Mapping the Touchpoints"}],["$","span",null,{"className":"zh-only","children":"宾客体验的全貌——如何在地图上查看“接触点”"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"宿泊は「点」ではなく「線」。予約前から帰宅後までの接点を1枚のMapに並べ、誰も担当していない「空白の時間」を見つける方法です。"}],["$","span",null,{"className":"en-only","children":"A stay is not \"points\" but a \"line.\" Lay the touchpoints — from before booking to after arriving home — on a single map, and find the \"blank hours\" nobody owns."}],["$","span",null,{"className":"zh-only","children":"住宿不是一个“点”，而是一条“线”。关于如何映射从预订前到结帐后的联系点的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_guest-journey-map.jpg","alt":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.23"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1dbc,<p>The guest experience is <strong>not "inside the room" alone</strong>. Guests find photographs of mountains and sea on social, save the posts that catch their eye, search on a map, and arrive carrying both anxiety and expectation. And after arriving home, the memories continue, a review gets written, the seed of a return stay remains. This article is the foundation of the method for seeing this "line" on a single map.</p>
+
+<h2>The roji — the experience began at the gate</h2>
+
+<p>In the world of the tea ceremony, the beginning of the experience was not placed inside the tea room. The <strong>roji</strong> — the path leading to the tea room — is the first half of the experience. Passing through the gate, waiting at the <strong>machiai</strong> arbor, rinsing the hands at the <strong>tsukubai</strong> water basin, walking the <strong>tobi-ishi</strong> stepping stones one by one, and entering low through the <strong>nijiriguchi</strong> crawl-in entrance. In the few minutes of walking the roji, the guest leaves "the everyday self" behind, little by little. The tea ceremony is journey design from hundreds of years ago — the movement itself, designed as the experience.</p>
+
+<p>The story of the "hakibarai" sweeping of the roji is handled in the cleaning article (<a href="#cleaning-checklist-experience">Turning Housekeeping From "Cost" Into "Experience": A Checklist</a>). What we want to see here is not the cleaning but the idea of <strong>"lining up the road the guest travels into the experience itself."</strong></p>
+
+<h2>Modern properties have a roji too</h2>
+
+<p>A property without a roji still has a roji. The first page of search results, the booking-site photographs, the booking-confirmation email, the road from the station, the fifty steps from the parking lot to the entrance, the first minute of check-in, the dining room the next morning, the send-off, one email after arriving home. <strong>Un-designed though it is, the line already exists.</strong> The map is the single sheet of paper that shows this line, for the first time, in visible form.</p>
+
+<h2>How to make the map — 5 phases × 3 rows</h2>
+
+<ol>
+<li><strong>Discovery</strong> — The moment of being found on OTAs, social, map searches.</li>
+<li><strong>Booking</strong> — Deciding, hesitating, inquiring.</li>
+<li><strong>Before arrival</strong> — The anxieties of access, parking, check-in times.</li>
+<li><strong>The stay</strong> — Five touchpoints: the welcome, the room, the bath, the meals, sleep.</li>
+<li><strong>After returning home</strong> — Memories, the review, the trigger of a return visit.</li>
+</ol>
+
+<p>Lay these five phases across; lay <strong>"the guest’s feelings, actions, and the property’s response"</strong> — three rows — down the side. Put one sticky note in each cell for "the touchpoints that exist now." For example, if in the "before arrival" column you "send an access-guide email the day before," that is one sticky note. Color-coding the notes by theme (nature, food, people, information) also shows which colors the balance leans to.</p>
+
+<h2>The blanks are the treasure — the hours nobody owns</h2>
+
+<p>What to look at first on the map is not the crowded cells but <strong>the blank cells</strong>. A blank means "an hour nobody owns." Especially <strong>"before arrival" and "after returning home"</strong> go entirely blank at most properties. And the quality of the experience gets cheaper, the more these are filled.</p>
+
+<ul>
+<li><strong>Before arrival</strong> — One email with the route plus one neighborhood card (places to eat, a walking path). Anxiety turns into expectation. Polishing the pre-booking photographs is handled by <a href="#landing-page-3-seconds">Landing Page Design: What to Say in the First "Three Seconds"</a>.</li>
+<li><strong>The first 5 minutes of the stay</strong> — The welcome drink, the first glance into the room. Working examples are in <a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a>.</li>
+<li><strong>After returning home</strong> — One seasonal note. The mechanism for continuing is handled by <a href="#email-crm-direct">Email and CRM: The Direct-Booking Engine That Does Not Disappear After Checkout</a>.</li>
+</ul>
+
+<p>The research on "which moment of the stay stays in memory" (the peak-end rule) is treated in detail by <a href="#small-experiences-5-touchpoints">The "Small Experiences" Guests Talk About After Checkout</a>. See the whole line on the map, and design the moments within it — the two articles divide the work that way.</p>
+
+<h2>Make it on the floor — walk your own roji</h2>
+
+<p>The map completes on the floor, not in the meeting room. The shortest path is <strong>staying one night at your own property.</strong> Step down into the parking lot, reread the booking-confirmation email, unlock your own room door, sit in the morning dining room. The other short path is asking the staff one question — "Yesterday’s guest: what did they do first, after arriving?" Half the map’s sticky notes fill with these two.</p>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>The tea room’s entrance, the nijiriguchi, is made deliberately low. Lay down your sword, bend, and enter — a design that has you step out of your standing before stepping into the experience</strong> — In a modern property, the same structure as leaving the work email behind and entering the preparations for the evening meal.</div>
+
+<h2>The other side — when the map exhausts the property</h2>
+
+<ul>
+<li><strong>Trying to fix everything</strong> — Find ten blanks, and fix only one. The aim of the map is not a perfect diagram but finding one weak touchpoint.</li>
+<li><strong>The illusion that blank = bad</strong> — Not every stretch of the line needs filling. A quiet hour where nothing happens is not a blank to fill but a margin to protect.</li>
+<li><strong>Over-selling after the return home</strong> — Selling to someone whose experience has ended tends to backfire. After the return home, narrow it to one message that "arrives," not one that "is sent."</li>
+<li><strong>Making it and being done</strong> — The map is not a sheet to frame and hang but a living paper to re-post once a quarter. Touchpoints increased? Add sticky notes.</li>
+</ul>
+
+<p>The first step is to prepare one sheet with only the grid — five phases × three rows — and for this one week, write touchpoints you notice onto sticky notes and put them up. In a week, one blank cell will be facing you. Fixing that one is how the map is used. The guest’s journey is a line, not points — and then the property’s work, too, can be lined up as a line, not points.</p>
+
+<div class="note">This article is intended for sharing ideas. The roji, machiai, tsukubai, and nijiriguchi are introduced as general manners of the tea ceremony. Please adjust individual measures to your property’s scale and staffing.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#small-experiences-5-touchpoints">The "Small Experiences" Guests Talk About After Checkout</a> — designing the "moments" within the line</li>
+<li><a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a> — the first five minutes of the stay</li>
+<li><a href="#email-crm-direct">Email and CRM: The Direct-Booking Engine That Does Not Disappear After Checkout</a> — continuing after the return home</li>
+<li><a href="#12month-marketing-calendar">The 12 Months of a Property: A Ready-to-Use Marketing Calendar</a> — seeing not a single stay but a year as a line</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tfeb,<p>住宿体验<strong>不只是“在客房里”</strong>。客人在社交媒体上查找山脉和海洋的照片，保存有关时尚咖啡馆的帖子，在谷歌地图上搜索“日本乡村旅馆”，然后带着焦虑和期待抵达。本文是一篇关于如何映射从预订前到回家后的联系点的基础文章。</p><h2>1. 5个阶段</h2><ol><li><strong>发现</strong> — 可在 OTA、Instagram（保存）和 Google 商家资料中找到。</li><li><strong>预订</strong> ——决定、犹豫、询问。照片占了战斗的90%。</li><li><strong>抵达前</strong> — 消除对通道、停车和入住时间的担忧。</li><li><strong>停留</strong> — 5个接触点：接机、客房、洗澡、用餐、睡觉。</li><li><strong>回国后</strong> ——回忆、评论和重温的原因。</li></ol><h2>2. 如何制作地图——在一张纸上可视化</h2><p>将 5 个阶段放在横轴上，将“宾客感受、行动和住宿反应”的 3 条线放在纵轴上。</p><ul><li>在每个方格内<strong>“目前的联络点”</strong>在便利贴上写下一件事（例如，您在抵达之前是否发送了访问电子邮件？）。</li><li>您可以通过将便签的颜色分为山（自然）、大海、酷咖啡馆和食物等主题来看到平衡。</li></ul><h2>3. 找到弱点——空白是宝藏。</h2><ul><li>空白单元格表示有改进的空间。尤其<strong>“抵达前”和“回国后”</strong>很多旅馆都是空的。</li><li>只需在您到达之前发送一张“附近很酷的咖啡馆地图”，您的焦虑就会变成期待。</li><li>回家后只需发送一封“季节性信件”就会鼓励他们回来。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>当谈到“宾客体验概述-如何在地图上查看接触点”时，宾客的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>体验设计举措增加了整个地区的价值，而不仅仅是住宿本身。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>5</b><span>阶段</span></div><div class="stat"><b>3</b><span>线条（感受、行动、反应）</span></div><div class="stat"><b>1 件</b><span>地图单位</span></div></div><div class="note"><span class="tag">InnBuddy 笔记</span>Map 的目的并不是让它变得完美。<strong>“找到一个弱点”</strong>。解决一件事会改善整体体验。</div><h2>行动清单</h2><ul><li>第 1 周：在一张纸上横向写下 5 个阶段，纵向写下 3 条线。</li><li>第 2 周：用便利贴粘贴现有的接触点（颜色编码：山脉、海洋、咖啡馆、食物）</li><li>第 3 周：选择一个空白方块并仅改进一个（到达前发送电子邮件是最简单的）</li><li>每月：查看地图并记录改进接触点的效果</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/12month-marketing-calendar","children":["- ",["$","span",null,{"className":"ja-only","children":"宿の12ヶ月 — すぐに使えるマーケティングカレンダー"}],["$","span",null,{"className":"en-only","children":"The 12 Months of a Property: A Ready-to-Use Marketing Calendar"}],["$","span",null,{"className":"zh-only","children":"Inn 12 个月 — 即用型营销日历"}]]}],["$","$L8",null,{"href":"/journal/articles/breakfast-revenue-math","children":[["$","span",null,{"className":"ja-only","children":"朝食の収益 — 「人数×単価×追加」の計算基本"}],["$","span",null,{"className":"en-only","children":"Breakfast Revenue: The Math of Guests x Price x Add-on"}],["$","span",null,{"className":"zh-only","children":"早餐收入——“人数×单价×附加”的基本计算"}]," -"]}]]}]
+10:null

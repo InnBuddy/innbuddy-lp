@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-morning-market-stay.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T222b,<p>宿に朝市を、と言うと、たいてい「規模の話」にすり替わります。何店も出店して、テントを並べて——という想像です。ですが、朝市の原形はもっと小さいのです。そしてもっと面白いものです。この記事は、朝市の歴史（販売の前に交換があったこと）、日本の直売の制度、宿の規模に合わせた3つの型、そして法律の線を扱います。結論を先に言えば、宿の朝市は<strong>テーブル1つ</strong>から始まります。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T222b,<p>宿に朝市を、と言うと、たいてい「規模の話」にすり替わります。何店も出店して、テントを並べて——という想像です。ですが、朝市の原形はもっと小さいのです。そしてもっと面白いものです。この記事は、朝市の歴史（販売の前に交換があったこと）、日本の直売の制度、宿の規模に合わせた3つの型、そして法律の線を扱います。結論を先に言えば、宿の朝市は<strong>テーブル1つ</strong>から始まります。</p>
 
 <h2>1. 朝市は「販売」より先に「交換」でした</h2>
 <p>石川県輪島の朝市は、地元では、奈良時代の後期から平安時代の初め頃、鳳至比古神社の祭礼日に人々が持ち寄った生産物を物々交換したことにルーツを持つと伝えられています。祭りの日が市になり、やがて定期的に開かれるようになりました。佐賀県呼子の朝市は大正時代、それまで行商をしていた人たちが商店街の軒先に出店するようになって形になったとされ、今日では輪島、飛騨高山と並ぶ日本三大朝市に数えられています（これらの見方は諸説ありますが、「産地と消費地のあいだの顔の見える交換」が朝市の核である点は共通しています）。</p>
@@ -49,10 +114,67 @@ a:"$Sreact.suspense"
 <li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 畑の舞台</li>
 <li><a href="#idea-morning-english-story">朝の過ごし方を英語で伝える — 海外ゲストに伝わる朝の挨拶と朝食の物語アイデア</a> — 海外ゲストへの朝の伝え方</li>
 <li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 朝食の舞台設計</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","141"]}]]}],["$","h1",null,{"children":"朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"}],["$","p",null,{"className":"excerpt","children":"朝市は「販売」より先に「交換」でした。輪島の神社の物々交換、道の駅30年の制度、英国の正直の箱（honesty box）——そしてテーブル1つから始まる宿の朝市の作り方と、保健所に相談すべき線まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-morning-market-stay.jpg","alt":"朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.21"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-starry-light-pollution","children":["← ","星空を守る灯り — 光害を減らす灯りで星空体験を深めるアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-evening-cool-stay","children":["夕涼みのある宿 — 縁側・縁台・夕涼みの時間の設計アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"141"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn"}],["$","span",null,{"className":"zh-only","children":"设有早市的旅馆 — 让早市、轻卡市场和屋檐市场成为旅馆早晨的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"朝市は「販売」より先に「交換」でした。輪島の神社の物々交換、道の駅30年の制度、英国の正直の箱（honesty box）——そしてテーブル1つから始まる宿の朝市の作り方と、保健所に相談すべき線まで。"}],["$","span",null,{"className":"en-only","children":"The morning market was \"exchange\" before it was \"selling.\" From the barter at a Wajima shrine, the thirty-year-old roadside-station system, and Britain’s honesty boxes — to how to build an inn’s morning market starting from one table, and the line where the health office must be consulted."}],["$","span",null,{"className":"zh-only","children":"早市、轻卡市场、屋檐市场。我们收集了一些丰富您在旅馆的早晨的建议，从将当地早市融入您在旅馆的早晨的小想法开始。果田里的早市也很热闹。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-morning-market-stay.jpg","alt":"朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.21"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T21c0,<p>Propose a morning market at an inn, and the talk usually slides into "scale": many stalls, a row of tents. But the original form of the morning market was smaller — and more interesting. This article treats the history of morning markets (that exchange came before selling), Japan’s system of direct sales, three patterns sized to the inn, and the lines of the law. The conclusion first: an inn’s morning market begins with <strong>one table</strong>.</p>
+
+<h2>1. The morning market was "exchange" before it was "selling"</h2>
+
+<p>The morning market of Wajima, Ishikawa Prefecture, is locally said to trace its roots to the late Nara and early Heian periods, when people brought their produce to trade by barter on the festival days of Fugushi Hiko Shrine. The festival days became a market, and in time it came to be held regularly. The morning market of Yobuko in Saga Prefecture took shape in the Taishō era, when people who had peddled their goods began setting up at the eaves of the shopping street; today it is counted, with Wajima and Takayama in Hida, among Japan’s three great morning markets (there are various views, but "a face-to-face exchange between place of production and place of consumption" is the shared core of them all).</p>
+
+<p>Here lies the essence of an inn’s morning market. A morning market is <strong>a place where that morning’s harvest is handed to a face that can be seen.</strong> The selection is unstable, it ends when sold out, prices are improvised — that very "imperfection" is what keeps a morning market alive. The market, in the form of the morning market, certifies that the field is honest.</p>
+
+<h2>2. The system of direct sales — the invention called the roadside station</h2>
+
+<p>What put the culture of "direct sales" — producers selling straight to consumers — onto a system is the michi-no-eki, the roadside station. It began experimentally in 1991 in Yamaguchi, Gifu, and Tochigi, and in April 1993, 103 sites nationwide were formally registered and the system started. Rest facilities (toilets and parking usable 24 hours), information transmission, and regional cooperation — that combination of three functions is the requirement of registration, and the registrations now exceed 1,200 (the Ministry of Land, Infrastructure, Transport and Tourism’s registration system). Farm-produce stands grew as one of its core functions, and the roadside station turned from "a place you pass" into "a destination you stop for."</p>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span>When the roadside stations were first registered in 1993, stone monuments were raised at each of the 103 "first" sites — there are 103 "Japan’s first roadside stations" across the country. A system is not one beginning but a hundred and three beginnings.</div>
+
+<p>An inn’s morning market can borrow, small, the core of this success. What the roadside station sold was not the produce itself but <strong>the trust of "the producer’s face being visible."</strong> When an inn opens a morning market, what it sells is the morning’s picking — but what it is really offering is a point of contact with the life of the land.</p>
+
+<h2>3. The inn’s morning market, three patterns</h2>
+
+<ul>
+<li><strong>The one-table market</strong> — Lay that morning’s picking on a small table. Three items are enough. Write prices on the packs. Open for the thirty minutes before breakfast. The smallest morning market, with "sold out, thank you" as its aesthetic.</li>
+<li><strong>The light-truck market</strong> — Lay things out straight from the bed of a kei truck. The truck bed is shelf, signboard, and stage at once. The bed, arrived just as it left the field, photographs well as a certificate of "picked this morning."</li>
+<li><strong>The eaves market (with an honesty box)</strong> — Set a shelf at the inn’s eaves and sell unattended. In the English-speaking countryside there is a culture of unmanned selling called the honesty box, where the buyer puts the price into a box on their own declaration. Drive the British countryside and you meet the sight of eggs or vegetables with a small box for payment set at a farm’s eaves — selling without a person present sells the experience itself of "trusting your honesty." The inn’s eaves market is a small translation of that trust.</li>
+</ul>
+
+<p>The child at the stall is the morning market’s hidden lead. Laying out goods, handing them over, counting change — the learning of money and exchange is condensed into thirty minutes of morning. An inn where the market holds a child’s job stays in the memory of families.</p>
+
+<h2>4. The lines of practice — the list to consult with the health office</h2>
+
+<p>When opening a morning market, draw the legal lines in advance.</p>
+
+<ul>
+<li><strong>Selling unprocessed vegetables or fruit you grew yourself, as they are</strong> is, in principle, held to need neither business license nor notification (under the Food Sanitation Act, unprocessed sales of one’s own produce are treated as shipment).</li>
+<li><strong>Making and selling processed goods</strong> — jam, pickles, and the like — requires a business license or notification. The manufacture and sale of processed foods falls under the health office’s jurisdiction, so consulting the office before you begin making is the correct order.</li>
+<li><strong>Selling what you have bought in</strong> (having local producers exhibit) also requires food-hygiene notification and the like for food sales. Sort out your role as organizer with the health office.</li>
+<li><strong>Labeling and hygiene</strong> — Keep fresh goods out of direct sun and add guidance for carrying home. Small supplies — trays and bags — decide the quality of the experience.</li>
+</ul>
+
+<h2>5. Connecting the market to breakfast</h2>
+
+<p>The morning market becomes part of the inn at the moment what was bought at the market appears on the breakfast table. The reverse also holds — when the fruit of the jam served at breakfast is lined up at the eaves market, the guest witnesses the circulation of the land’s food. One phrase at breakfast — "The tomatoes are from this morning’s market" — joins market and table in a single line. This design of circulation is continuous with <a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a> and <a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a>.</p>
+
+<h2>6. Inns it suits, and inns it does not</h2>
+
+<p>The morning market is not all-purpose. Honestly, it suits inns with fields or orchards and morning labor to spare, and inns in regions with a farmers’ network. At inns whose morning duties are already full, the market duty will not keep — in that case, confining it to weekends, or to a "market day" a few times a month, lasts longer than a daily, tired market. Where the inn has no field, the right form is the morning market as "provider of the place," with local producers exhibiting. Deciding the rain-day refuge (under the eaves, a corner of the hall) in advance is also part of the design for keeping going.</p>
+
+<div class="note"><span class="tag">InnBuddy VIEW</span>The value of a morning market is not its sales. It is <strong>moving the lead role of the morning from the inn to the land.</strong> On the mornings the market stands, the inn’s grounds are not "a tourist spot" but "part of the region’s morning." Photographing those thirty minutes introduces the inn better than any advertisement.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When serving spring water or wild plants and foods to guests, always confirm the safety of food and drink.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-morning-dew-mist">Enjoy Morning Dew and Mist - Ideas for Making Early Morning Satoyama into Experience</a> — designing the morning experience</li>
+<li><a href="#idea-small-farm-1tsubo">An inn with Small Farm - Farm Ideas Starting from 1 Tsubo</a> — the stage of the field</li>
+<li><a href="#idea-morning-english-story">Tell How to Spend Morning in English - Ideas for Morning Greetings and Breakfast Story Conveyed to Overseas Guests</a> — telling the morning to overseas guests</li>
+<li><a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a> — designing the stage of breakfast</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T104d,<p>本文分享一些可供尝试的想法。有的客栈，早市是花园里的小集市，有的客栈是果田里的丰收集市，有的客栈是孩子们看店的体验。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>早上花园里排队的蔬菜和水果，轻型卡车后面装着水果，屋檐外还有一个小市场。设有早市，让旅馆的早晨更加热闹。我们从设有早市的旅馆中收集了一些小创意，以帮助您在旅馆中享受丰盛的早晨。</p><h2>早市住宿创意集锦</h2><ul><li><strong>花园里的小早市</strong> — 在花园里或屋檐下摆一张小桌子，举办早市。这个想法是展示果园的水果和花园的蔬菜，以便客人可以自由采摘。在一家旅馆，从蓝莓田采摘的蓝莓被装在小包装中，并在早市上展示，将其介绍为“早市蓝莓”。</li><li><strong>一天早上在轻卡市场</strong> — 利用轻型卡车车厢作为早市。把水果和蔬菜装在一辆轻型卡车的后面，然后把它停在你的旅馆前面，你就可以把它变成一个小型的早市。一家旅馆引进了轻型卡车平台作为“移动的果田”，用轻型卡车从果田运来水果，举办早市。</li><li><strong>江见崎市场附近的住宿</strong> ——在屋檐前摆一个小架子，在屋檐前开一个市场。这个想法是在屋檐前展示水果、蔬菜和纪念品，以便客人可以自由挑选。在一家旅馆，来自果园的水果和果酱陈列在屋檐前，作为“果园屋檐市场”的一部分。</li><li><strong>早市和果园创意</strong> ——有果田的酒店，早市也是果田的丰收集市。在一家旅馆，水果收获体验结束后会举办早市，当场出售收获的水果。丰收体验和早市的结合很受孩子们的欢迎。</li><li><strong>担任带孩子的店主的经验</strong> — 将早市存储变成孩子们的一次小体验。整理水果和蔬菜并将其分发给顾客的经历将留在孩子们的记忆中。一家旅馆为孩子们举办了“早市开店体验”，并展示了他们制作的招牌。</li></ul><h2>海外住宿案例——早市住宿的想法</h2><p>早市是东南亚岛屿旅馆生活的一部分。早上花园里摆满了蔬菜和水果，客人可以自由采摘。住在早市才是旅馆的早晨。在欧洲的乡村旅馆里，早市是周末的消遣，也是当地人聚集的地方。</p><p>你们客栈的早市是什么样的市场？为什么不从一张小桌子开始呢？</p><h2>从小型早市开始的提示</h2><p>即使你没有很大的早市，你也可以先在一张小桌子上摆几片水果。在一家旅馆，我们首先在桌子上摆了三包蓝莓，客人们评论说他们很喜欢早市。即使是小型早市也会让您在旅馆的早晨更加丰富。</p><p>如果您入住的是有水果农场的旅馆，为什么不先在早市上展示水果农场的水果呢？通过在早市上展示果园里的水果来讲述果园的故事。</p><div class="stats"><span class="tag">参考示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — 早市可能会给早上带来更多乐趣。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。在举办或出售早市之前，请检查当地规则和卫生状况并咨询专家。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>花园里摆个小桌子，举办早市</strong> — 排列果园中的几种水果</li><li><strong>早市轻卡装货平台</strong> — 在装载平台上展示水果和蔬菜，作为移动果园</li><li><strong>屋檐处摆个小架子，开个屋檐市场</strong> — 摆放果园里的水果和果酱</li><li><strong>策划一套收获体验和早市</strong> — 果田采摘体验后举办早市</li><li><strong>为儿童规划店主体验</strong> — 来自整理水果和蔬菜的经验</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-starry-light-pollution","children":["- ",["$","span",null,{"className":"ja-only","children":"星空を守る灯り — 光害を減らす灯りで星空体験を深めるアイデア"}],["$","span",null,{"className":"en-only","children":"Lights Protecting Starry Sky - Ideas for Deepening Starry Experience with Lights Reducing Light Pollution"}],["$","span",null,{"className":"zh-only","children":"保护星空的灯光 — 利用减少光污染的灯光加深您的星空体验的创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-evening-cool-stay","children":[["$","span",null,{"className":"ja-only","children":"夕涼みのある宿 — 縁側・縁台・夕涼みの時間の設計アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Evening Cool - Design Ideas for Engawa, Endai, Time for Evening Cool"}],["$","span",null,{"className":"zh-only","children":"夜晚凉爽氛围的旅馆——阳台、门廊和夜晚凉爽时刻的设计理念"}]," -"]}]]}]
+10:null

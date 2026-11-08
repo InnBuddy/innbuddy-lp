@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-wild-herb-taste.jpg","image"]
 :HL["/library/journal/ai_breakfast-buffet-media-new.jpg","image"]
 :HL["/library/journal/ai_nature-drink-herb-tea.jpg","image"]
 :HL["/library/journal/ai_nature-food-farm-harvest.jpg","image"]
-3:T28f4,<p>宿の周りに生えている草を、朝食に出す——この一文には、文化的な重さと、命に関わる危うさが、同時に載っています。この記事は、その両方を扱うのです。野草を「珍しい食材」ではなく<strong>土地の知識そのもの</strong>として味わう体験を、安全の設計とセットで考えるのが目的です。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T28f4,<p>宿の周りに生えている草を、朝食に出す——この一文には、文化的な重さと、命に関わる危うさが、同時に載っています。この記事は、その両方を扱うのです。野草を「珍しい食材」ではなく<strong>土地の知識そのもの</strong>として味わう体験を、安全の設計とセットで考えるのが目的です。</p>
 
 <h2>1. CULTURE — 日本は野草を「食べる文化」として大事にしてきました</h2>
 <p>1月7日の朝、七草粥を食べる習慣をご存じでしょう。セリ、ナズナ、ゴギョウ、ハコベラ、ホトケノザ、スズナ、スズシロ——春の七草と呼ばれる野草を粥に入れて、新年の無事を祈ります。日本の食文化の中で、野草は「非常食」でも「珍味」でもなく、季節の節目を味わう装置として位置づけられてきました。山菜文化はさらに広く、フキ、タラの芽、コシアブラ、ウド、ゼンマイ——春の山の恵みを味わう季語として文学にすら組み込まれています。</p>
@@ -51,10 +116,73 @@ a:"$Sreact.suspense"
 <li><a href="#farm-to-table-harvest">畑から直接 — アグリ×フードの収穫体験と一皿の物語</a> — 畑から食卓までの流れ</li>
 <li><a href="#idea-spring-water-taste">里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア</a> — 水を味わう視点</li>
 <li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 採取の安全と体験設計の両立</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"フード＆ベバレッジ"}],["$","span",null,{"children":["ARTICLE ","127"]}]]}],["$","h1",null,{"children":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}],["$","p",null,{"className":"excerpt","children":"野草採取が世界の高級料理を変えました——ただしマニフェストには「フォアジェ」という言葉はありませんでした。日本の山菜文化と、厚労省が「採らない、食べない」と警告する現実。野草茶から始める安全な設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-wild-herb-taste.jpg","alt":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.07"}],["$","span",null,{"children":"Food & Beverage"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","breakfast-buffet-media",{"href":"/journal/articles/breakfast-buffet-media","children":[["$","img",null,{"src":"/library/journal/ai_breakfast-buffet-media-new.jpg","alt":"朝食をメディア化するビュッフェ設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.01.29"}],["$","h4",null,{"children":"朝食をメディア化するビュッフェ設計"}]]}]]}],["$","$L2","herb-tea-satoyama",{"href":"/journal/articles/herb-tea-satoyama","children":[["$","img",null,{"src":"/library/journal/ai_nature-drink-herb-tea.jpg","alt":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.25"}],["$","h4",null,{"children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}]]}]]}],["$","$L2","farm-to-table-harvest",{"href":"/journal/articles/farm-to-table-harvest","children":[["$","img",null,{"src":"/library/journal/ai_nature-food-farm-harvest.jpg","alt":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.27"}],["$","h4",null,{"children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-spring-water-taste","children":["← ","里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-small-farm-1tsubo","children":["小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"フード＆ベバレッジ"}],["$","span",null,{"className":"ARTICLE","children":"127"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}],["$","span",null,{"className":"en-only","children":"Taste Wild Herbs - Ideas for Wild Herb Tea, Dyeing, Tempura"}],["$","span",null,{"className":"zh-only","children":"品尝野花 — 野花茶、野花染色和野花天妇罗的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"野草採取が世界の高級料理を変えました——ただしマニフェストには「フォアジェ」という言葉はありませんでした。日本の山菜文化と、厚労省が「採らない、食べない」と警告する現実。野草茶から始める安全な設計を考えます。"}],["$","span",null,{"className":"en-only","children":"Foraging changed the world’s fine dining — though the word \"foraging\" appeared nowhere in the manifesto. Japan’s sansai culture, and the reality of the health ministry’s warning to \"not pick, not eat.\" Designing a safe start from wild-herb tea."}],["$","span",null,{"className":"zh-only","children":"野花茶、野花染色、野花天妇罗。我们收集了一些提示，通过品尝、触摸和染色乡村野花的小创意来丰富您旅馆的餐桌和生活。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-wild-herb-taste.jpg","alt":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.07"}],["$","span",null,{"children":"Food & Beverage"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T245a,<p>Serving the grass growing around the inn at breakfast — on this one sentence ride, at once, a cultural weight and a danger that can touch life. This article treats both. Its aim is to design the experience of tasting wild plants not as "a rare ingredient" but as <strong>the knowledge of the land itself</strong>, together with the design of safety.</p>
+
+<h2>1. CULTURE — Japan has treasured wild plants as a culture of eating</h2>
+
+<p>Do you know the custom of eating nanakusa-gayu, seven-herb rice porridge, on the morning of January 7? Seri, nazuna, gogyō, hakobera, hotokenoza, suzuna, suzushiro — the wild herbs called the seven herbs of spring go into the porridge to pray for a safe new year. In Japanese food culture, wild plants held a place neither as emergency rations nor as delicacies but as a device for tasting the turning of the seasons. The sansai culture reaches wider still — fuki, tara-no-me, koshiabura, udo, zenmai — the blessings of the spring mountain are built even into literature as seasonal words.</p>
+
+<p>This culture has a practical backing. In ages when winter vegetables were scarce, the wild greens of spring were the first freshness to supply the vitamins. The power to identify wild plants was a basic literacy of living. And now this knowledge is being lost at speed. In that sense, for an inn to handle wild plants is at once a serving of food and <strong>a preservation of the region’s knowledge</strong>.</p>
+
+<h2>2. WORLD — the story of how foraging changed the world’s cooking</h2>
+
+<p>November 2004, Copenhagen. Twelve chefs and food people gathered from the Nordic countries signed the "Manifesto for the New Nordic Kitchen." A concise document of ten points, raising purity, freshness, the reflection of the seasons, and materials rooted in Nordic climate and terrain. Among the signers was René Redzepi, chef of Noma, a restaurant that had opened in Copenhagen only the year before.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>A manifesto of ten points</strong> — the "New Nordic Food Manifesto," signed in Copenhagen in November 2004 by twelve Nordic chefs and food people. The interesting thing is that nowhere in its ten points did the words "wild plants (foraging)" appear. And yet the face of the movement became the work of Noma, setting on its plates what was gathered in forest and shore. The manifesto gave the abstraction; the practice on the ground turned it concrete.</div>
+
+<p>The influence this movement gave the world’s cooking is large. The posture of "looking again at what grows in the place" spread among chefs of every country, and beyond restaurants too. But before we bring the story back to inns, an honest confirmation is due. Behind this glamorous story stands the <strong>danger</strong> of handling wild plants — a reality that absolutely cannot be omitted.</p>
+
+<h2>3. The chapter of safety — the health ministry says "do not pick, do not eat"</h2>
+
+<div class="note"><span class="tag">RESEARCH</span>By the Ministry of Health, Labour and Welfare’s data, in the ten years from 2014 to 2023, food poisoning by toxic plants totaled 220 incidents and 831 patients, of whom 17 died (per Jiji Press’s medical reporting). The ministry urges: unless you can identify with certainty, "do not pick, do not eat, do not sell, do not give to others." The center of the poisonings is aconite (torikabuto). Specialists point out that torikabuto’s leaves resemble the edible ninjin-sō, and the two even grow mixed in the same spot, so even veterans can err. Other well-known look-alike pairs: garlic and daffodil; gyōja-ninniku and saffron crocus; ōba-gibōshi and baikeisō.</div>
+
+<p>Reading these numbers, should we drop the subject of wild plants? We think the opposite (InnBuddy VIEW). <strong>Precisely because there is danger, it can be made an experience together with the proper way of handling it.</strong> The sansai culture was safe because there was a system of entering the mountain with someone who had the knowledge. What the inn should build is the modern version of that system.</p>
+
+<h2>4. Implementation — design on three safety levels</h2>
+
+<p>The wild-plant experience is best designed in three layers, in order of rising risk: make it tea, dye with it, eat it.</p>
+
+<p><strong>Level 1: wild-herb tea (drink).</strong> Begin with herbs that have a long history of folk use as medicinal teas — yomogi (mugwort), dokudami, sugina, persimmon leaf. But for any herb, "the combination with a particular allergy or condition" is never someone else’s business, so guide first-timers to start with a sip. What you prepare is a small vessel for drying herbs into tea, and an explanation card. Drying needs no machine: shade-drying in an airy place will do. Start with the staff drinking it themselves. Herbs served must be limited to those <strong>identified with certainty</strong> — identification confirmed by both a field guide and a local expert in medicinal herbs and sansai. Do not skip the "both."</p>
+
+<p><strong>Level 2: wild-herb dyeing (dye).</strong> Not a food, so there is no risk of mistaken eating — which makes it the safe entrance for an inn’s experience. The green of mugwort, the browns of chestnut bur and inner skin, the yellow of dandelion — transferring the colors of grasses to cloth is an experience that changes its face with the season. Tools such as alum mordant come from craft shops, and manuals circulate. But add a caution note: the dyed cloth is "not eaten, but it does touch the skin," and the metal mordants used need careful handling.</p>
+
+<p><strong>Level 3: eating (tempura, dressed dishes).</strong> This is the layer needing the greatest care. The principle is one: <strong>have guests gather nothing; serve only what an expert has identified.</strong> Sansai served as food must be limited to what you have identified with certainty yourself or sourced from a trusted producer. If you run a gathering experience, go with a local sansai guide, keep it to "look, smell, touch," and eat back at the inn — that is the safe line. What a layperson may eat on the spot is only what the expert has named.</p>
+
+<h2>5. What to confirm before gathering — the rules of place</h2>
+
+<p>Alongside the safety of food stands the safety of place. Almost every hill and field in Japan belongs to someone or falls under some system. Do not skip these checks.</p>
+
+<ul>
+<li><strong>Ownership of land</strong> — Mountain or forest, the land has an owner. Entering and gathering without leave can be a legal matter.</li>
+<li><strong>Regulations in natural parks and the like</strong> — In national and quasi-national parks, gathering designated plants, or in some zones gathering plants at all, is restricted.</li>
+<li><strong>Roadsides and riverbanks</strong> — Roadsides catch exhaust. Riverbanks are managed by municipalities and river offices.</li>
+<li><strong>Next to fields and orchards</strong> — Avoid grasses within the drift range of agricultural chemicals.</li>
+</ul>
+
+<h2>6. Which inns can begin</h2>
+
+<p>A country inn does well to begin with interviews on the herb culture of the hill behind. Just asking the local elders "what did you drink in the old days?" brings a wild-herb tea menu and the region’s memory at the same time. An urban inn can begin by growing mint or lemon balm in rooftop or garden containers. Dry the herbs grown and make tea — "the smallest version of a field." A hot-spring ryokan can make the cup after the big bath a wild-herb tea, adding the taste of the place to the after-bath experience.</p>
+
+<p>And the inns this theme does not suit, written honestly: <strong>those that cannot keep checking and recording</strong>. Records of identification, dates of drying, amounts served. The wild-plant experience is beautiful only on top of this paperwork.</p>
+
+<h2>Closing</h2>
+
+<p>The Nordic chefs did not write "wild plants" in their manifesto. We read that as the ground practicing ahead of the words. For an inn to taste wild plants is not to set grass on a plate, but to become a place that inherits the knowledge of the land. Its first step is brewing one safe cup, for yourselves.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When serving spring water or wild plants and foods to guests, always confirm the safety of food and drink.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#herb-tea-satoyama">Forest Herbal Tea: Translating Satoyama Bounty into a Drink</a> — designing satoyama materials into drinks</li>
+<li><a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a> — the flow from field to table</li>
+<li><a href="#idea-spring-water-taste">Taste Water of Satoyama - Ideas for Making Spring, Well, Stream Water into Experience</a> — the perspective of tasting water</li>
+<li><a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a> — balancing gathering safety with experience design</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1183,<p>本文分享一些可供尝试的想法。野花在一家旅馆被用作早茶，在另一家旅馆被用作果田田脊上的赏金，在另一家旅馆则被用作孩子们的学习来源。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>田埂上长着艾草，园角长着乌托米米，果田边长着问荆。如果您稍微留意一下里山的野花，也许就能将它们融入到您的饮食和日常生活中。我们收集了一些欣赏野花的小创意，让您在旅馆的时光更加丰富。</p><h2>欣赏野花的创意集合</h2><ul><li><strong>早上一杯野花茶</strong> — 使用里山种植的野生植物泡茶，如艾草、木樨、问荆、枇杷叶。为什么不先喝一杯简单的茶，然后将其干燥并加入热水呢？在一家旅馆，野花茶是用从果田田埂采摘的艾草制成的，并作为“今日野花茶”作为早餐。通过在小卡片上介绍野花的类型和采摘地点，每一杯茶都成为一个故事。</li><li><strong>野花天妇罗 1 种</strong> — 用鳕鱼芽、小油菜、艾草、fukinotou 等春天的野花制作天妇罗。这个想法是提供少量作为早餐或晚餐。在一家旅馆，他们用果田旁边收获的鳕鱼芽制作天妇罗，并介绍天妇罗“它是在后面的果田里种植的”。野花天妇罗是一种时令菜肴。</li><li><strong>野花染色的小体验</strong> ——用艾草、枇杷叶染手帕、杯垫的小体验。为了安全起见，工作人员会进行煮沸和染色，因此即使是孩子也可以享受。如果您将染色的物品带回家作为纪念品，它们将留在您的记忆中。</li><li><strong>野花和水果花园的想法</strong> — 在有果园的旅馆里，野花也是一种祝福。在一家旅馆，他们采摘生长在蓝莓田田脊上的艾草，泡制野花茶，与蓝莓一起当早餐。野花与水果的结合，打造出一张可以感受到里山恩赐的餐桌。</li><li><strong>野花信息板</strong> — 在带有照片的小板上介绍旅馆花园和果田田脊上生长的野花。介绍野花的名称、食用方法以及过去人们生活中的用途，让您的散步更加愉快。在一家旅馆，我们制作了一张可食用的野花地图，并将其与步行地图一起分发。</li></ul><h2>海外住宿案例 - 可以欣赏野花的住宿创意</h2><p>野花是北欧森林旅馆生活的一部分。夏天我们采野花泡茶，冬天我们把干野花加汤里。与野花一起生活创造了旅馆的膳食。东南亚岛屿上的旅馆在沙拉和汤中使用野花，并将其作为花园中种植的野花引入。</p><p>野花在你的旅馆里有什么样的存在？为什么不从花园角落里的艾蒿开始呢？</p><h2>从小野花开始的技巧</h2><p>即使你不认识很多野花，你也可以从一朵开始。在一家旅馆，我们从艾草开始，仅用艾草创造了三个创意：艾草茶、艾草天妇罗和艾草染料。客栈的故事，因深入了解一朵野花而诞生。</p><p>如果您入住设有果园的旅馆，我们建议您从果园山脊上的野花开始。田埂中的艾蒿、木贼，很容易引种，作为果田之福。为什么不从一朵野花开始呢？</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — —关于野花的故事也许能传达这个季节的魅力。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。在采集野花或将其用作食物之前，请确认准确的标识和安全性，检查当地规则并咨询专家。处理野花时请小心。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>早上喝一杯艾草茶</strong> — 艾蒿生长在花园和果田的田脊上，晒干后制成茶。</li><li><strong>制作野花信息板</strong> — 用照片介绍花园里生长的野花</li><li><strong>提供 1 份野花天妇罗</strong> — 少量春季野花作为时令菜肴</li><li><strong>策划一次小型野花染色体验</strong> ——来自手帕染色的经历</li><li><strong>想想野花和果田的结合</strong> — 野花茶和蓝莓、野花天妇罗和果田的水果等。</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","breakfast-buffet-media",{"href":"/journal/articles/breakfast-buffet-media","children":[["$","img",null,{"src":"/library/journal/ai_breakfast-buffet-media-new.jpg","alt":"朝食をメディア化するビュッフェ設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.01.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"朝食をメディア化するビュッフェ設計"}],["$","span",null,{"className":"en-only","children":"Turning Breakfast Into Media: Buffet Design"}],["$","span",null,{"className":"zh-only","children":"将早餐变成媒体的自助餐设计"}]]}]]}]]}],["$","$L8","herb-tea-satoyama",{"href":"/journal/articles/herb-tea-satoyama","children":[["$","img",null,{"src":"/library/journal/ai_nature-drink-herb-tea.jpg","alt":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.25"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","span",null,{"className":"en-only","children":"Forest Herbal Tea: Translating Satoyama Bounty into a Drink"}],["$","span",null,{"className":"zh-only","children":"森林花草茶——如何将里山的祝福转化为饮品"}]]}]]}]]}],["$","$L8","farm-to-table-harvest",{"href":"/journal/articles/farm-to-table-harvest","children":[["$","img",null,{"src":"/library/journal/ai_nature-food-farm-harvest.jpg","alt":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.27"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","span",null,{"className":"en-only","children":"Direct from Field: Agri x Food Harvest Experience and Story of a Plate"}],["$","span",null,{"className":"zh-only","children":"直接来自田间——Agri x 粮食收获体验和一个盘子的故事"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-spring-water-taste","children":["- ",["$","span",null,{"className":"ja-only","children":"里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Taste Water of Satoyama - Ideas for Making Spring, Well, Stream Water into Experience"}],["$","span",null,{"className":"zh-only","children":"尝里山之水——泉水、井水、溪水的体验创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-small-farm-1tsubo","children":[["$","span",null,{"className":"ja-only","children":"小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Small Farm - Farm Ideas Starting from 1 Tsubo"}],["$","span",null,{"className":"zh-only","children":"田地小旅馆——用一坪（1坪）田地开旅馆的想法"}]," -"]}]]}]
+10:null

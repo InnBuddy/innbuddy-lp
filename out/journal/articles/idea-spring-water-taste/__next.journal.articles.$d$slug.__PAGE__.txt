@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-spring-water-taste.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T2617,<p>客室に置かれたペットボトルの水は、どこのコンビニでも買えます。では、宿の裏を流れる沢の水は? 井戸の水は? ——その水は、その土地でしか味わえません。宿泊業が売れるのは「その場所でしか得られない時間」であり、水はその最も身近な材料のはずなのに、日本の宿の水は、たいてい無言で提供されます。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2617,<p>客室に置かれたペットボトルの水は、どこのコンビニでも買えます。では、宿の裏を流れる沢の水は? 井戸の水は? ——その水は、その土地でしか味わえません。宿泊業が売れるのは「その場所でしか得られない時間」であり、水はその最も身近な材料のはずなのに、日本の宿の水は、たいてい無言で提供されます。</p>
 <p>この記事では、水を「声のある体験」に変える方法を、欧州と日本の文化から引き出し、避けて通れない安全と法規の話とセットで考えます。水の話は、順番を守れば強いコンテンツになるのです。</p>
 
 <h2>1. WORLD — 水を飲みに、街へ行く文化</h2>
@@ -52,10 +117,76 @@ a:"$Sreact.suspense"
 <li><a href="#herb-tea-satoyama">森のハーブティー — 里山の恵みをドリンクに翻訳する方法</a> — 里山の素材を飲み物にする作法</li>
 <li><a href="#idea-onsen-picture-guide">温泉の楽しみ方を絵で伝える — 言葉に頼らず絵と写真で伝える温泉のアイデア</a> — 湯の水文化を伝える方法</li>
 <li><a href="#idea-rainwater-garden">雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集</a> — 水のもう一つの顔——雨</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","126"]}]]}],["$","h1",null,{"children":"里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"}],["$","p",null,{"className":"excerpt","children":"水を飲みに街へ行く文化が、欧州には300年ありました——2021年、その温泉都市群は世界遺産になりました。名水百選の国・日本の宿が、水を「味わう体験」に変える方法と、避けて通れない水質・法規の現実を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-spring-water-taste.jpg","alt":"里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.06"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-driftwood-upcycle","children":["← ","流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-wild-herb-taste","children":["野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"126"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Taste Water of Satoyama - Ideas for Making Spring, Well, Stream Water into Experience"}],["$","span",null,{"className":"zh-only","children":"尝里山之水——泉水、井水、溪水的体验创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"水を飲みに街へ行く文化が、欧州には300年ありました——2021年、その温泉都市群は世界遺産になりました。名水百選の国・日本の宿が、水を「味わう体験」に変える方法と、避けて通れない水質・法規の現実を考えます。"}],["$","span",null,{"className":"en-only","children":"Europe had a 300-year culture of traveling to towns to drink the water — and in 2021 those spa cities became a World Heritage site. How the inns of Japan, the country of the hundred famous waters, can turn water into \"an experience of taste\" — and the realities of water quality and the law that cannot be skirted."}],["$","span",null,{"className":"zh-only","children":"泉水、井水、溪水。通过品尝、触摸、聆听里山之水的体验，我们收集了一些可以加深您在旅馆的时光的小贴士。这个想法可以用于浇灌果园或一杯早餐。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-spring-water-taste.jpg","alt":"里山の水を味わう — 湧き水・井戸水・沢の水を体験にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.06"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T2437,<p>The bottle of water placed in the room can be bought at any convenience store. But the stream running behind the inn? The water of the well? — That water can be tasted only in that place. What lodging sells is "time that can be had only in that place," and water should be its most familiar material; and yet at Japanese inns, water is usually served in silence.</p>
+
+<p>In this article we draw out, from the cultures of Europe and Japan, ways to turn water into "an experience with a voice," and think about them together with the safety and legal matters that cannot be skirted. The story of water becomes strong content if you keep the order.</p>
+
+<h2>1. WORLD — a culture of going to town to drink the water</h2>
+
+<p>In 2021, UNESCO inscribed "the Great Spa Towns of Europe" as a World Heritage site. Bath in England, Baden-Baden in Germany, Vichy in France, Karlovy Vary in Czechia, Spa in Belgium — eleven towns in seven countries.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>11 towns, 7 countries</strong> — "The Great Spa Towns of Europe" was inscribed as a UNESCO World Heritage site in 2021. They are towns of the spa-cure culture that flourished from the 1700s to the 1930s, and structures for drinking the water — the Trinkhalle, or drinking hall — together with promenades and greenery for the cure, remain today as part of the urban fabric.</div>
+
+<p>What is interesting in this culture is that people traveled <strong>to drink the water</strong>, staying for weeks. The water of the spring the doctor prescribed, drunk in fixed amounts at the drinking hall; walks on the green hills. In Europe, water was not a beverage — <strong>it was the destination itself</strong>. While Japan’s hot-spring culture grew around water you soak in, Europe grew towns around water you drink.</p>
+
+<p>What can be translated from here is that the inn should not "serve water" but <strong>"stage how the water is drunk."</strong> The vessel, the place, the time. Those become the objects of design.</p>
+
+<h2>2. JAPAN — a country that celebrates its "famous waters"</h2>
+
+<div class="note"><span class="tag">DID YOU KNOW?</span>Japan has a system for honoring water. In 1985, the Environment Agency (today’s Ministry of the Environment) selected the "One Hundred Famous Waters of the Nation." Springs, rivers, and channels are recognized as "famous waters," and the sight of people coming to draw water spread across the regions. The rows of plastic tanks at famous-water sites are, in a sense, relatives of Europe’s drinking-hall culture.</div>
+
+<p>Japanese water has one more character: it is mostly soft. Much of Europe is hard water, while Japan’s water centers on soft water suited to extraction and to dashi stock — the context in which washoku and the way of tea grew up together with Japanese water is widely known in the worlds of coffee and tea. It makes an interesting contrast. If Europe is a culture of "tasting the minerals," Japan is a culture of "brewing in soft water." The same "water of the place" is sold in utterly different ways.</p>
+
+<h2>3. Turning water into experience at the inn — four patterns</h2>
+
+<p>Implementation sorts into four patterns: well, draw, brew, warm.</p>
+
+<p><strong>(1) Well (show it)</strong> — Make the inn’s water source a place that can be seen. The well, the spring mouth, the stream. One sign: "The story of this inn’s water." Just posting a map of the local water system in the lobby — where the water comes from, and where it goes — gives the outline of "an inn of water." The water source is one of the few "interiors of the land" an inn can speak of.</p>
+
+<p><strong>(2) Draw (serve it)</strong> — Where the water quality has been confirmed, draw it into a glass pitcher and set it on the table. "This morning we drew it at the spring behind the inn" — the inns that can say this one phrase are not many. But do not keep drawn water standing. Draw it that day, chill it, and wash the vessels every time. That is the basis of hygiene.</p>
+
+<p><strong>(3) Brew</strong> — Coffee and tea brewed in satoyama water. Add one line on a card about the soft water, and the morning cup becomes "the taste of this place’s water." The details are treated in <a href="#mountain-water-coffee">Coffee Brewed with Mountain Water: Designing a Cup in Nature</a>, but the point is that making water the subject changes the explanation of the drink.</p>
+
+<p><strong>(4) Warm (touch it, hear it)</strong> — A seat for listening to the stream, a morning walk by the water, a few minutes soaking the feet in a summer stream (with safety confirmed first). The temperature of water reaches memory before words do. A body that knows the cold of a midsummer stream does not forget that inn.</p>
+
+<h2>4. What cannot be skirted — the safety and the law of drinking water</h2>
+
+<p>This may be the most important part of this article. The experience of water <strong>stands on nothing but safety</strong>.</p>
+
+<ul>
+<li><strong>The premise of water you have guests drink</strong> — To serve well water or spring water for drinking, water-quality testing and confirmation with the municipality and health office are premises. Where an inn’s water supply falls under the "private water supply" category, standards for its management are set. The correct order is to begin by contacting the office with jurisdiction.</li>
+<li><strong>Bottling is another world</strong> — To put water into bottles and serve or sell it, licenses as manufacturing under the Food Sanitation Act and the like become necessary. "The water we drew, in a pretty bottle" is, in regulatory terms, manufacturing.</li>
+<li><strong>Water quality moves</strong> — Turbidity after heavy rain, the influence of nearby fields and houses. Testing is not once but periodic. The changing face of the water in the thaw is delightful as experience and, from the standpoint of management, a season to watch.</li>
+</ul>
+
+<p>For the hard cases, prepare a safe substitute. Serve a local famous water sold in bottles (from a One Hundred Famous Waters site, for instance), decanted into glass, and guide: "This is the water of this region." <strong>Keep the story of "the water of the place" after clearing safety</strong> — know how to strike this balance, and any inn can begin the experience of water.</p>
+
+<h2>5. Which inns can begin</h2>
+
+<p><strong>An inn with a water source</strong> (a well, a spring, a stream) starts with inquiring about water-quality testing. Once safety is confirmed, "an inn with drinkable water" is a rare appeal. Until then, wait with water you "show" and "hear." <strong>An inn without a source</strong> can choose among three directions: set out water from a famous local source, lean into experiences of brewing (coffee, tea), or guide the scenery of streams and rivers. Even the <strong>urban inn</strong> can use the story of hard and soft water in the breakfast explanation — with one card, "A European breakfast and a Japanese breakfast: the story of water," breakfast turns into a story of culture.</p>
+
+<h2>6. The reality of running it</h2>
+
+<p>Hygiene of drawn water (drawn same-day, chilled, vessels washed), maintenance of pipes and storage tanks, the cost and frequency of testing (these vary by region and by the items tested, so no estimate is given here — please confirm), and responding to the water’s seasonal changes. The experience of water is "a luxury built on safety," and only the inns that keep this order earn the right to tell the story of water. It may sound grand, but the trust of an inn that has made a guest ill from its water cannot be won back by any lovely story (InnBuddy VIEW).</p>
+
+<h2>Closing</h2>
+
+<p>The people of Europe went off on cures of weeks to drink the water. Travel in Japan has kept company with water through the way of tea and the hot springs. Is the water at your inn silent today? The first step can be a call to the window for water-quality testing, or quitting the morning habit of drawn-in-advance water and switching to same-day drawing. When the water gains a voice, the inn’s "placeness" thickens from a single glass.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When serving spring water or wild plants and foods to guests, always confirm the safety of food and drink.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#mountain-water-coffee">Coffee Brewed with Mountain Water: Designing a Cup in Nature</a> — designing the experience of brewing with water</li>
+<li><a href="#herb-tea-satoyama">Forest Herbal Tea: Translating Satoyama Bounty into a Drink</a> — the craft of turning satoyama materials into drinks</li>
+<li><a href="#idea-onsen-picture-guide">Tell How to Enjoy Onsen with Pictures - Ideas for Onsen Conveyed with Pictures and Photos Without Relying on Words</a> — ways to convey the water culture of the bath</li>
+<li><a href="#idea-rainwater-garden">Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn</a> — the other face of water: rain</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T102f,<p>本文分享一些可供尝试的想法。里山水在一些旅馆被用作早晨饮料，在另一些旅馆被用作果园的恩赐，在另一些旅馆则被用作儿童游乐场。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>泉水的清凉，井水的醇厚，溪水的声音。里山的水是我们生活的一部分，它的外观会随着季节的变化而变化。从品尝、触摸和聆听水的体验中，我们收集了一些提示，以加深您在旅馆的时光。</p><h2>享受里山之水的创意集锦</h2><ul><li><strong>一杯泉水</strong> — 如果您附近有泉水，请将其作为早晨饮料提供给您的客人。在小卡片上介绍泉水的位置、水的冷度以及水的故事，会让一杯水变得特别。在一家旅馆，早上散步去取泉水是一种小小的经历。</li><li><strong>景观与井水</strong> ——在有井的旅馆里，井被描绘成风景。通过展示可以欣赏悬井以及井周围的苔藓和花朵的地方，您可以感受到里山的生活。一种想法是提供用井水冲泡的茶或咖啡。</li><li><strong>能听到溪水声的地方</strong> — 在溪流或溪流附近放置一张长凳，创造一个可以听到水声的地方。为什么不建议一些打发时间的方法，比如在水声背景下看书或喝茶呢？有一家旅馆介绍了可以听到流水声的地方“水音长凳”。</li><li><strong>水和水果花园的想法</strong> — 在设有果园的旅馆里，水是种植水果的福气。一家旅馆在泉水中种植蓝莓并提供早餐。在果园招牌和早餐卡上介绍泉水中种植的水果的故事，会引起您的客人的兴趣。</li><li><strong>水循环图</strong> — 绘制水循环图：山水→泉水→田野→桌子。一家旅馆为孩子们制作了一张名为“水之旅”的图画地图，向他们展示水从哪里来、到哪里去。通过了解水循环，您可以看到里山的生命。</li></ul><h2>以下是在国外度过时光的方法 - 可以享受水的住宿的想法</h2><p>在阿尔卑斯山的山间旅馆，泉水是生活的中心。我们去收集泉水，用那水做饭，吃用那水种的蔬菜。与泉水同住是这家旅馆的魅力之一。在北欧森林旅馆，能听到溪水声的地方被视为一天中最安静的地方。</p><p>水在您的酒店中有着怎样的存在？即使没有泉水，也可以从雨水、井水或附近溪流的水开始。</p><h2>从小型水上体验开始的提示</h2><p>即使您没有大泉水，也可以从小泉水或井水开始。有一家旅馆从花园一角的小泉水里收集水，装在一个石碗里，作为早晨的饮料。即使少量的水也能创造故事。</p><p>在有果田的酒店，你甚至可以尝试给果田浇水。孩子们喜欢早上一起浇水并收获水中生长的果实的体验。从一杯水开始怎么样？</p><div class="stats"><span class="tag">计算示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — —水的故事或许可以传达里山的魅力。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。使用或提供水时，请检查当地规定和卫生状况，并咨询专家。处理水时请注意卫生。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>提供一杯泉水</strong> — 如果附近有泉水，可以用小卡作为早晨饮料</li><li><strong>将井作为风景介绍</strong> — 在有水井的旅馆中，将水井周围的区域放置起来以炫耀。</li><li><strong>把长凳放在能听到溪水声的地方</strong> — 被介绍为可以欣赏水声的地方</li><li><strong>为水源和果田制作标志</strong> — 在标牌和卡片上讲述泉水中种植的水果的故事</li><li><strong>绘制水循环图</strong> ——山水→泉水→田野→桌子的循环示意图</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-driftwood-upcycle","children":["- ",["$","span",null,{"className":"ja-only","children":"流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"}],["$","span",null,{"className":"en-only","children":"Driftwood and Scrap Upcycle - Ideas for Room Accessories Made from Sea and Mountain Materials"}],["$","span",null,{"className":"zh-only","children":"浮木和废木的升级改造——用海洋和山地材料制成的客房配件的创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-wild-herb-taste","children":[["$","span",null,{"className":"ja-only","children":"野草を味わう — 野草茶・野草染め・野草の天ぷらのアイデア"}],["$","span",null,{"className":"en-only","children":"Taste Wild Herbs - Ideas for Wild Herb Tea, Dyeing, Tempura"}],["$","span",null,{"className":"zh-only","children":"品尝野花 — 野花茶、野花染色和野花天妇罗的创意"}]," -"]}]]}]
+10:null

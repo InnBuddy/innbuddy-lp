@@ -8,15 +8,81 @@ a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-
 c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
-0:{"P":null,"c":["","journal","articles","idea-rainwater-garden",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-rainwater-garden","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"P":null,"c":["","journal","articles","idea-rainwater-garden",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","idea-rainwater-garden","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Wjs50aw9q7KwJzs198_KL"}
 f:[]
 9:"$Wf"
-10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+10:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      6:["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$10"}}],["$","header",null,{"className":"article-headbar container","children":["$L11","$L12"]}],"$L13","$L14"]}]
+15:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
 :HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
-11:T5665,<p>「雨、降っちゃいましたね」——宿のフロントで、いちばん気の利かないあいさつになりがちな一言です。何が気の利かないのでしょうか。この一言には「雨は歓迎されないお客様です」という前提が滲んでいて、ゲストは「そうだ、今日は損をした日だ」と同意を求められてしまうからです。</p>
+11:["$","$L15",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}]
+12:["$","div",null,{"className":"head-right","children":[["$","$L15",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]
+16:T5665,<p>「雨、降っちゃいましたね」——宿のフロントで、いちばん気の利かないあいさつになりがちな一言です。何が気の利かないのでしょうか。この一言には「雨は歓迎されないお客様です」という前提が滲んでいて、ゲストは「そうだ、今日は損をした日だ」と同意を求められてしまうからです。</p>
 <p>雨の日の宿泊業は、損得勘定から始まります。眺望の宿は眺めを売れず、庭の宿は庭に客を出せません。テラスは閉じ、星空は消え、散歩コースは泥になります。キャンセルの電話が増え、館内で時間を持て余すゲストと、提案を持たないスタッフが、同じロビーで沈黙します。</p>
 <p>ただ、少し立ち止まって数字を見てみましょう。日本の年間降水量は約1,700mmとされ、世界の陸地の平均（約1,000mmとされる）を大きく上回ります。小説家の林芙美子が『浮雲』の冒頭に置いた一節「屋久島は月に三十五日雨が降る」が今も語り継がれるように、この国では雨は天気ではなく日常です。雨の多い国の宿が、雨のたびに商品を失い続けるなら——それは経営上の慢性的なロスであると同時に、手元にある素材を売らずにいることでもあります。</p>
 <p>この記事では、雨を「排除する対象」から「設計の対象」に変える発想を、世界の三つの事例から拾い、その先を宿でどう実装するかまで考えたいと思います。ゴールはひとつ。<strong>「雨の日だから、この宿に泊まりたい」と誰かに言わせること</strong>です。</p>
@@ -103,13 +169,185 @@ f:[]
 <li><a href="#rainy-day-experience">雨の日の体験 — 雨でも満足度が下がらない宿の設計</a> — 満足度を守る体験設計の実務</li>
 <li><a href="#idea-forest-sound-collection">森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア</a> — 音を主役にした空間の設計</li>
 <li><a href="#idea-do-nothing-enjoy-stay">何もしないを楽しむ宿 — 何もしない・ぼーっとするを価値にする宿のアイデア</a> — 「何もしない」を価値にする発想</li>
-</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","121"]}]]}],["$","h1",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","p",null,{"className":"excerpt","children":"雨の日は商品が消える日でしょうか。ロッテルダムの広場、墨田の雨樽、メガラヤの生き根橋——雨を「処分しない」発想から、雨見席・雨鎖・水鉢・雨読まで。雨の日だからこそ泊まりたくなる宿のつくり方を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.01"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[13,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+</ul>13:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"className":"ARTICLE","children":"121"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"雨の日は商品が消える日でしょうか。ロッテルダムの広場、墨田の雨樽、メガラヤの生き根橋——雨を「処分しない」発想から、雨見席・雨鎖・水鉢・雨読まで。雨の日だからこそ泊まりたくなる宿のつくり方を考えます。"}],["$","span",null,{"className":"en-only","children":"Is a rainy day the day the product disappears? From Rotterdam’s water square, Sumida’s rain barrels, and Meghalaya’s living root bridges — a way of thinking that refuses to \"dispose of\" rain: the rain-viewing seat, the rain chain, the water basin, rain reading. How to build an inn people want to stay at precisely because it is raining."}],["$","span",null,{"className":"zh-only","children":"雨天只是“预订减少、体验消失的日子”吗？从鹿特丹的水广场、东京墨田的雨水市民运动，到世界上最多雨的山地——把雨从“要消除的问题”翻转为“可设计的体验”。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.01"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[13,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17","$L18"]}],"$L19","$L1a"]}]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
 :HL["/library/journal/ai_idea-compost-living.jpg","image"]
 :HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
 :HL["/library/journal/ai_idea-bamboo-living.jpg","image"]
-12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L10","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}],["$","$L10","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]]}]]}]]}]]}]
-13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/hotel-scent-branding","children":["← ","宿の香り — 記憶に残る香りのブランド設計"]}],["$","$L10",null,{"href":"/journal/articles/idea-compost-living","children":["コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"," →"]}]]}]
-14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+1b:T51b9,<p>"Oh no, it's raining" — at an inn's front desk, this tends to become the least tactful greeting of all. What is tactless about it? The phrase drips with the premise that "rain is a guest we did not welcome," and the guest is asked to agree: "Yes, today is a day I lost."</p>
+
+<p>The lodging business on rainy days begins from a profit-and-loss account. Inns with views cannot sell the view; inns with gardens cannot put guests out into them. The terrace closes, the stars vanish, the walking course turns to mud. Cancellation calls multiply, and the guest with time on their hands and the staff with nothing to propose fall silent in the same lobby.</p>
+
+<p>But let us stop and look at the numbers. Japan’s annual precipitation is put at about 1,700 mm, far above the average for the world’s land area (about 1,000 mm). As the line the novelist Hayashi Fumiko set at the opening of Ukigumo ("Floating Clouds") — "On Yakushima it rains thirty-five days a month" — is still quoted today, in this country rain is not weather; it is daily life. If the inns of a rainy country keep losing their product every time it rains, that is a chronic loss on the management side — and at the same time, it is leaving the material at hand unsold.</p>
+
+<p>In this article we want to gather, from three cases around the world, the way of thinking that turns rain from "a thing to exclude" into "a thing to design," and to think through how to implement it at an inn. The goal is one thing: <strong>to make someone say "I want to stay at this inn because it’s raining."</strong></p>
+
+<h2>From a town that "hides" rain to a town that shows it — Rotterdam</h2>
+
+<p>The modern city has been built by hiding rain underground. Drainpipes and storage tanks are invisible honorable posts, and rain is erased from the town’s face. What betrayed that convention is the "Water Square" (Benthemplein) in Rotterdam, the Netherlands. The designers are De Urbanisten; completed in 2013.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>About 1,700 m³ (about 1.7 million liters)</strong> — the volume of rainwater the Water Square can hold at one time. Three sunken basins that serve in dry weather as sports courts and a stage become, only while the rain is heavy, "the plate of the town." (Design: De Urbanisten; completed 2013)</div>
+
+<p>The interest of this square lies in how it pulled the "invisible work" of rainwater handling out into the center of town. When it rains, the basins fill with water in turn; when the water recedes, they return to courts. Children are said to come to watch the water go down. In Rotterdam, rain is not an obstacle to remove — it is <strong>an event that people come to see</strong>, by design.</p>
+
+<p>So what happens if we shrink this onto an inn’s grounds? Could we not make a "water mirror" in the garden that appears only on rainy days? Shape a hollow in a low corner of the grounds, deliberately slowing the drainage, and for the duration of the rain a mirror is born that reflects the garden. On sunny days it is nothing but grassland. Do the Rotterdam idea at the scale of one tatami mat — that alone gives the inn’s garden a double structure, "a sunny face" and "a rainy face."</p>
+
+<h2>"Let it flow and it’s a flood; store it and it’s a resource" — the rain barrels of Sumida</h2>
+
+<p>In Sumida Ward, Tokyo, the 1980s saw repeated interior flooding — rain overflowing onto the streets when the drainage capacity was exceeded. The residents’ response was not to add more drainpipes but to "store." After the 1994 international conference on rainwater utilization in Tokyo, a citizens’ group was founded (today’s nonprofit Rainwater Citizens’ Association); a storage tank of about 1,000 tons sits beneath the ward office (according to the association’s introduction), and "roji-son" — rainwater tanks shared by the neighborhood — stand in the alleys.</p>
+
+<div class="note"><span class="tag">CASE</span>"Let it flow and it’s a flood; store it and it’s a resource." — the words the nonprofit Rainwater Citizens’ Association raises in spreading rainwater use. In Sumida, rain barrels have taken root as a device for disaster preparedness, greenery, and community, and they draw study tours from overseas.</div>
+
+<p>The translation to an inn can be smaller still. Set one rain barrel in the corner of the garden. Catch the roof’s water by gutter, and use it for watering and for uchimizu, the cooling sprinkling of ground. Just this much deepens the inn’s explanation by one layer — <strong>"the water in this garden is the rain that fell on the roof."</strong> The disaster-preparedness context (a water source in emergencies) and the context of memory in daily life (in the Japanese house of the past, a vessel to receive rain stood everywhere) can both be told by a single barrel. Some municipalities subsidize the installation of rainwater tanks, so it is worth checking before you begin. Note that drinking rainwater is not assumed. Starting from uses that do not touch the human body directly — watering, cleaning — is the rule.</p>
+
+<h2>The land where rain itself makes the landscape — Meghalaya</h2>
+
+<p>One step further. Meghalaya, in northeast India — one of the rainiest regions on earth. The villages of the Khasi people have, over years, guided and braided the aerial roots of Indian rubber figs growing on both banks of a river, raising <strong>"living bridges" (jingkieng jri)</strong>. Opposite a bridge that would be washed away by flood, these bridges keep growing because the rain is heavy. About one hundred bridges survive in seventy-two villages, and in 2022 they were placed on UNESCO’s World Heritage tentative list.</p>
+
+<p>What do we learn here? It is the way of thinking that does not endure rain as "a condition of the environment" but treats rain itself as <strong>a productive device of landscape and culture</strong>. Pulled toward the inn, the question becomes: what does the rain at your inn grow? It sharpens the moss, deepens the color of stone, raises steam, makes sound. Rain is the inn’s material, and there is no reason to leave that material unused.</p>
+
+<h2>Now the real subject — turning a rainy day into "time you can buy"</h2>
+
+<p>Enough of cases; let us talk implementation. A rainy day can be re-read not as <strong>the day the things for sale disappear</strong> but as the day when there is plenty of time no one is selling yet. To turn that time into something a guest can buy, four layers suffice: (1) place, (2) sound, (3) behavior, (4) how to tell. Let us take them in order.</p>
+
+<h2>First, build one "seat for watching rain" — designing place</h2>
+
+<p>Nothing large is needed. First, make one seat for watching rain, in the best place in the inn. The name can be amamiseki — "the rain-viewing seat." Giving it a name is what matters. Once it has a name, it stops being a mere chair and becomes an act the staff prepare, and a phrase for the guest is born: "Today we have prepared the rain-viewing seat for you."</p>
+
+<p>Where to put it should be considered by the type of building.</p>
+
+<p>In a kominka or a wooden ryokan, the <strong>engawa veranda or the space under the eaves</strong> takes the lead. A building with deep eaves has, even on a rainy day, a room close to the outdoors — that was the eaves’ original job. Do not close all the storm shutters; stop at a single glass door. The sound of rain and the scene of the garden remain, and a place that does not get wet appears. One chair, one teacup, a small stool for the feet. If you have them, the sound of water being boiled for tea overlaps the sound of rain.</p>
+
+<p>In modern architecture or a resort, it is the <strong>window side</strong>. Raindrops running down the pane become lenses that split the green of the garden. A chair and ottoman by the window, with curtains that can open fully. The better the view, the more an inn laments "on rainy days the view is unusable" — but a rainy window side can in fact become a different product from the sunny terrace.</p>
+
+<p>In an urban inn whose windows do not open, put a bench <strong>under the entrance awning or a low eave</strong>. If there is nowhere to hear the rain, narrow it down to "watching" the rain. Even so, a "rainy-day-only seat" stands.</p>
+
+<p>To add the operational view: starting the rain-viewing seat only when rain falls is too late. When the rain begins, wipe the chair dry and carry out the teacup. Make this few-minute routine a habit of rainy-day mornings, and the burden of keeping it up is nearly zero.</p>
+
+<h2>Designing the tone of the drips — rain chain, water basin, ceramic, stone, bamboo</h2>
+
+<p>Next, sound. Most of the sound of rain is decided not by the rain itself but by <strong>what the rain strikes</strong>. In other words, choose the receiving surfaces, and the inn’s rain-sound can be designed.</p>
+
+<p>The first thing to use is the <strong>amagutsari, the rain chain</strong> — a device long used in Japanese temples and old houses, hung from the end of the eave-gutter so the water runs down the chain to the ground. It can be retrofitted at the gutter’s mouth, so even an existing building needs minimal work. As the rain runs the chain, the water becomes sound and becomes light. It is the leading tool for turning the rain gutter, a "device not shown," into a device that is shown.</p>
+
+<p>Next, the <strong>water basin</strong>. The sound of raindrops falling on water changes with the depth of what has gathered. When shallow, a dry "pachi, pachi"; as it deepens, a wet, low "kon-kon." While the rain keeps falling, the sound shifts — and this sound that changes with time is exactly why it can be listened to for so long (InnBuddy VIEW). Set one, and the rain begins to perform a score that belongs to that inn alone.</p>
+
+<p>Sorting the sound directions by material looks like this.</p>
+
+<ul>
+<li><strong>Ceramic, jars</strong> — a dry, light, clear tone. Breakable, so in cold regions bring them in for winter</li>
+<li><strong>Stone, basin stones</strong> — dull and quiet. Suited to the engawa where sound should be restrained</li>
+<li><strong>Bamboo receivers</strong> — a light "paka, paka." Half-split bamboo tubes to catch the water</li>
+<li><strong>Metal (copper plates and the like)</strong> — light and carrying. Depending on the site, mind the volume</li>
+<li><strong>Wooden boards, board doors</strong> — a soft tone that does not assert itself. This is the true identity of the engawa’s rain-sound</li>
+</ul>
+
+<p>The placement rule of thumb: two to four meters from the rain-viewing seat, in the line of sight. Too close and it is noise; too far and it never enters the scene. An honest caution here: for sound staging, think of the distance to the neighbors and of the night. Metal carries farther than you think, and on a quiet night even a small water-sound carries. On a densely built site, choose soft materials — ceramic, stone, bamboo — and narrow the leading sound to one. That is the etiquette.</p>
+
+<p>Maintenance, too. Change the basin’s water at least weekly, before mosquito larvae hatch. In cold regions, ceramic cracks with freezing, so drain it in winter — and then the same vessel is reborn as a "snow-viewing basin" that receives snow. You are only switching the device for rain over to a device for snow, with the season.</p>
+
+<h2>What research knows so far about rain-sound and sleep</h2>
+
+<p>"You sleep well to the sound of rain" — may we turn this saying straight into the inn’s product? We want to check the research.</p>
+
+<div class="note"><span class="tag">RESEARCH</span>A team in Zurich (Lustenberger et al., reported in 2022) played pink noise (a frequency composition close to rain-sound) to sixteen older adults during sleep from a headband device, and reported that some participants showed an increase in the slow waves of deep sleep. On the other hand, in a study from the University of Pennsylvania’s medical school, dated 2026, around 50 dB of continuous noise (rain at the stronger end) was reported to reduce REM sleep by about 19 minutes in a night. The results split by volume and by how the sound is delivered, and "rain-sound = good sleep" is not an established finding.</div>
+
+<p>So the honest line is this. <strong>Do not sell the effect on sleep. Design it as "time to enjoy listening."</strong> Rain-sound during waking hours can be enjoyed safely as experience. And even with every mention of sleep removed, the value of rain-sound barely falls. People do not watch a fire in order to sleep, and they do not listen to the rain only to sleep — they listen for this very moment.</p>
+
+<h2>Eaves, moss, and lamplight — what the Japanese house has long done</h2>
+
+<p>Half of what we have said is wisdom the Japanese house held long ago. Deep eaves meant preparing, even on a rainy day, a room close to the outdoors. The engawa was the guest seat on sunny days and the rain-viewing seat on rainy days. Stepping stones deepen their color when wet; moss sharpens in the rain. When we picture the moss temple of Kyoto, we are usually picturing moss after rain. Rainy weather is the moment the moss’s color grows deepest.</p>
+
+<p>Light is the same. In the damp air of a rainy night, small warm flames bloom and blur. Andon lamps, stone lanterns, candles. On a rainy day, drop the inn’s lighting one step toward the warm colors — build just this switch into operations as "rainy-day mode," and the rainy night becomes a different room.</p>
+
+<p>And scent. The smell of earth after rain has a name.</p>
+
+<div class="note"><span class="tag">DID YOU KNOW?</span>Petrichor — the name of the smell of earth after rain. In 1964, the Australian researchers Isabel Bear and Richard Thomas named it in the pages of Nature. The roots are the Greek petra (stone) and ichor (the blood of the gods). It is said to rise when rain falls on dry ground.</div>
+
+<p>Could the inn not become one where this after-rain scent can be waited for? To the guest returning from a walk, first guide a moment to breathe the scent in deeply. What is visible to the eye is not the whole of experience.</p>
+
+<h2>Sheltering from rain, and rain reading — selling "doing nothing"</h2>
+
+<p>Many rainy-day behaviors have long had names in Japanese daily culture.</p>
+
+<p><strong>Amayadori, sheltering from the rain.</strong> The time of stopping under an eave in a sudden evening shower. An inn can turn this "unplanned rest" into a product. When the shower comes, let the guest choose — borrow an umbrella and go home wet, or stay for one more cup. For just this proposal, stocking a few bangasa oil-paper umbrellas works well. Not the vinyl umbrella — the bangasa. The rainy-day experience begins with the tool you walk with, and a bangasa looks remarkably fine on wet stone paving.</p>
+
+<p><strong>Udokan, rain reading.</strong> Seikō udoku — till the fields on sunny days, read on rainy days. In the lobby or the rooms, set out a book basket that appears only on rainy days. It need not be a library. Local paperbacks, regional history, collections of regional songs, a book you read as a child. A handful is enough. It is a shelf that exists for the one phrase, "It is a rainy day, so we have prepared some books for you."</p>
+
+<p>Here, one problem to raise. These rainy-day arrangements are not for "making the guest do something." The truth is the opposite: they are <strong>devices for passing, pleasantly, the time of doing nothing</strong>. Shape the rainy day too hard into a "plan," and it can even breed a fatigue of "even the rain is turned into entertainment for me." The rain-viewing seat, the books, and the teacup — offering nothing faster than these is my preferred allocation (InnBuddy VIEW).</p>
+
+<h2>Telling the rainy day — photographs, and building expectation before booking</h2>
+
+<p>What has been arranged so far means nothing if it does not sell. And the value of a rainy day is hard to convey before the booking is made — you cannot know until it rains. That is exactly why the telling needs craft.</p>
+
+<p>First, <strong>photographs</strong>. If the inn’s stock of photographs is all sunny ones, spend thirty minutes shooting on the next rainy day. The wet garden, the drops on the window, the steam, the light under the eaves, the bangasa. When two or three rain photographs mix into a run of sunny ones, they stay in the memory of the guest viewing the page — "that inn looks good in the rain, too."</p>
+
+<p>Next, <strong>the listing on OTAs and your own site</strong>. Add a note on rainy-day ways to spend time to the facility description or the "how to spend your stay" section. There is a rain-viewing seat; there are bangasa; there is a basket of books; the moss in the garden sharpens when wet — an inn whose way with rain is communicated in advance should see a smaller dip in satisfaction even when the guest is caught by rain on the day (ANALYSIS). And more: "precisely because it is a rainy day" is, as a phrase for winning guests, remarkably rare. Every inn’s description is written in its sunny face, so an inn that holds one rainy-day face simply stands out to the guest before booking.</p>
+
+<h2>For the inn that runs it — inns it suits, inns it does not, and the reality of keeping it up</h2>
+
+<p>Finally, let us close by sorting the operational reality.</p>
+
+<p><strong>Inns this way of thinking suits</strong>: inns with a garden, eaves, or an engawa; wooden and kominka inns; sites deep in green; hot-spring inns; and inns in rainy regions — places with the raw material for rain to take a lead role. <strong>Inns it does not suit</strong> also exist: sealed high-rise urban inns, and inns whose grounds are fully paved with nowhere for water to go. But even there, a window-side rain-viewing seat, a basket of books, rainy-day-only lighting, and a rainy-day guidance card can be made. If sound cannot be made, make the way of seeing and the way of spending.</p>
+
+<p>On <strong>maintenance</strong>: the rainy-day devices are maintained on the days it does not rain. Sweep the rain barrel’s mesh, change the basin’s water, check the rain chain for clogs, wipe the rain-viewing seat. All together, ten minutes of sunny-day work. In winter, drain against freezing and switch over to the snow-viewing arrangements.</p>
+
+<div class="stats"><span class="tag">SIMULATION</span><strong>A reference example of initial costs</strong> — the rain-viewing seat (moving an existing chair and teacup) is zero yen. A rain chain set runs from several thousand yen to just over ten thousand; a water basin from several thousand to tens of thousands; two or three bangasa from several thousand. Depending on the combination, the rainy-day face of the inn stands within several tens of thousands of yen in total. Prices vary with the market, so this is only a rough simulation.</div>
+
+<h2>Closing — the reason someone wants to stay on a rainy day</h2>
+
+<p>To put rain to work in daily life — restated in this article’s terms, it does not mean only installing a rainwater tank. It means <strong>giving shape, one by one, to the paths the water takes</strong>. Store it in a barrel. Carry it down a chain. Receive it in a basin. Watch it from a seat. Walk under an umbrella. Pass the time with a book. At an inn where the paths have been given shape, rain changes from a nuisance into "a seasonal visitor."</p>
+
+<p>The Rotterdam square, the Sumida rain barrels, the Meghalaya bridges — pursued to the end, they are all doing the same thing: <strong>they did not dispose of rain merely for the convenience of the town or the household.</strong> So then — under the eaves of your inn, what sound will the next rain make? Having an answer ready may be the plainest competitive strength an inn of a rainy country can have.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-rainy-day-enjoy">Tell How to Enjoy Rainy Day - Ideas for Conveying Sound of Rain, Scent of Rain, How to Spend Rainy Day</a> — designing rain through "how you tell it"</li>
+<li><a href="#rainy-day-experience">Rainy Day Experiences: Designing Stays Where Satisfaction Doesn't Drop</a> — the practice of experience design that protects satisfaction</li>
+<li><a href="#idea-forest-sound-collection">Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room</a> — designing space with sound in the lead role</li>
+<li><a href="#idea-do-nothing-enjoy-stay">Inn Enjoying Doing Nothing - Ideas for Inn Making Doing Nothing and Idling Value</a> — turning "doing nothing" into value</li>
+</ul>17:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}]
+1c:T18b9,<p>对旅馆来说，雨天是什么？多数时候，那是“体验消失的日子”：露台用不了，星空看不见，散步路线变得泥泞，客人在馆内消磨时间。于是我们准备雨具、增加借伞、制定雨天替代方案。</p>
+<p>但这些应对里藏着一个前提——<strong>雨是“最好没有的东西”</strong>。日本年平均降水量约为1,700毫米，远高于全球陆地平均的约1,000毫米。多雨之国的旅馆若一味把雨当作敌人，长年累月，其实是在抛弃自己的禀赋。本文从世界各地的案例出发，重新拾回“不是消除雨，而是布置雨”的思路。</p>
+
+<h2>1. 让雨“被看见”的城市——鹿特丹水广场</h2>
+<p>荷兰鹿特丹的Benthemplein水广场（De Urbanisten设计，2013年建成）做了城市罕见的事：不把雨水藏进地下蓄水池，而是让广场自己涨水。三处下凹的场地在晴天是运动场、滑板池和舞台。</p>
+<div class="stats"><span class="tag">FACT</span><strong>约1,700立方米（约170万升）</strong> — 鹿特丹水广场可临时滞留的雨水量。晴天时这里就是广场、球场与舞台（设计：De Urbanisten，2013年建成）。</div>
+<p>大雨时，广场变成一片浅湖；下水道恢复处理能力后，水退场，重新变回球场。据说会有孩子专程来看水退去的样子。在这里，雨不是需要排除的麻烦，而是<strong>“有人专程来看的事件”</strong>。看不见的排水设施，被翻译成了风景与体验。</p>
+
+<h2>2. 把雨“存起来”的城区——东京·墨田</h2>
+<p>日本也有靠“存雨”改变街区的例子：东京都墨田区。1980年代，这个老城区反复发生排水能力不足造成的水患。居民由此开始“存雨防涝、平时利用”的运动，1994年举办“雨水利用东京国际会议”，1995年市民组织成立，即今天的NPO法人雨水市民之会。</p>
+<p>据该会介绍，墨田区政府地下设有约1,000吨的雨水储留槽，一半用于厕所冲洗，一半留作洪水时的备用。小巷里随处可见共享雨水罐“路地尊”，同时兼作防灾据点。他们的口号一语道尽设计思想：</p>
+<div class="note"><span class="tag">DID YOU KNOW?</span>“流走是洪水，存起来是资源。”——墨田区雨水运动的口号。雨水罐在那里成为街区防灾、绿化与社区生活的装置，甚至吸引了海外的考察团。</div>
+<p>翻译到旅馆也很简单：院子里的一只雨水桶，就能承载一个故事——<strong>“这座庭院的水，来自屋顶落下的雨。”</strong>防灾、环境与社区，一只桶全都能讲到。</p>
+
+<h2>3. 雨“造出桥”的土地——印度梅加拉亚</h2>
+<p>再往前一步：有的地方，雨本身就在生产风景与文化。世界最多雨的地区之一、印度东北部的梅加拉亚邦，卡西族的村庄会把印度榕的气生根常年引导、编织过河，做成<strong>“会生长的桥”</strong>（jingkieng jri）。这种桥需要数十年培育、跨越世代维护，而且与会被洪水冲毁的混凝土桥相反——正因为多雨，它才不断成长。</p>
+<p>约100座桥分布于72个村庄，2022年这一文化景观被列入联合国教科文组织世界遗产预备名单。雨在那里不是“需要克服的困难”，而是<strong>文化与风景的生产装置</strong>本身。</p>
+
+<h2>4. RESEARCH——为什么雨声让人安心（以及它并不简单）</h2>
+<p>谈雨的体验时，最容易被忽略的是“声音”。雨声的频率结构接近低频能量较强的“粉红噪声”，在睡眠与放松研究中被反复讨论。</p>
+<div class="note"><span class="tag">RESEARCH</span>苏黎世的研究团队（Lustenberger等，2022年报告）让16位高龄者睡眠时通过头带设备接收粉红噪声，报告称部分参与者的深睡眠（慢波）脑活动有所增加。另一方面，据2026年宾夕法尼亚大学医学部的研究，50分贝（相当于较大的雨声）的持续噪声与每晚减少约19分钟快速眼动睡眠相关。“雨声＝好眠”会因音量与播放方式而改变结果，仍是发展中的研究领域。</div>
+<p>由此引申要谨慎：在用音箱播放雨声之前，先试试<strong>不要把真实的雨声关在外面</strong>。承接檐滴的石头与落水管，本就是日本庭园打磨多年的“聆听装置”。</p>
+
+<h2>5. 翻译——在旅馆“布置雨”的五个点子</h2>
+<ul>
+<li><strong>设一个看雨的座位</strong>——屋檐下、缘侧、窗边长凳。只在雨天才产生价值的座位，晴天不会被人注意。能说出“雨天这里才是我们最好的位子”的旅馆，会改变客人对雨天的看法。</li>
+<li><strong>留下雨声</strong>——落水管、接雨滴的石头、屋顶的材质。为“听”而做设计，而不只是防雨。</li>
+<li><strong>小小地利用雨水</strong>——从一只雨水桶开始，用于浇花、清扫等非饮用用途（注意事项见下节）。</li>
+<li><strong>雨天限定的物件</strong>——几种借伞、雨靴租借、雨天限定的茶与书组合。做一件“因为下雨才成立”的东西。</li>
+<li><strong>写一张“雨的说明卡”</strong>——“这里的年降雨量约○毫米，六月的雨水会灌满后面的稻田。”把天气与土地生活连起来的一句话，是天气预报里没有的发现。</li>
+</ul>
+
+<h2>6. 限制与现实</h2>
+<p>不能只谈浪漫。雨水原则上不作为饮用水。在日本，供饮用的水须符合水质标准，而屋顶的污染、水罐的维护、蚊虫滋生等实际问题很多。从浇花、清扫等与人体无直接接触的用途开始才现实。若想提供泉水或井水，定期的水质检测与向自治体、保健所确认是前提——详见<a href="#idea-spring-water-taste">品味里山之水</a>。</p>
+
+<h2>读完这篇，接下来</h2>
+<p>布置好雨，接着布置声音：<a href="#idea-forest-sound-collection">收集森林的声音</a>，再到<a href="#idea-evening-cool-stay">有夕凉的旅馆</a>与<a href="#idea-rainy-day-enjoy">传达雨天的乐趣</a>。把“坏条件”变成体验的思路，也与<a href="#idea-darkness-enjoy-stay">享受黑暗的旅馆</a>相通。</p>18:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}]
+19:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L15","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}]]}]]}],["$","$L15","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}]]}]]}],["$","$L15","idea-bamboo-living",{"href":"/journal/articles/idea-bamboo-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.04"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience"}],["$","span",null,{"className":"zh-only","children":"与竹共生——体验竹林、竹工艺品、竹工具的创意"}]]}]]}]]}]]}]]}]
+1a:["$","div",null,{"className":"pager","children":[["$","$L15",null,{"href":"/journal/articles/hotel-scent-branding","children":["- ",["$","span",null,{"className":"ja-only","children":"宿の香り — 記憶に残る香りのブランド設計"}],["$","span",null,{"className":"en-only","children":"Hotel Scent: Designing a Memorable Olfactory Brand"}],["$","span",null,{"className":"zh-only","children":"旅馆的香味——令人难忘的香味的品牌设计"}]]}],["$","$L15",null,{"href":"/journal/articles/idea-compost-living","children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]," -"]}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 d:[["$","title","0",{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"雨の日は商品が消える日でしょうか。ロッテルダムの広場、墨田の雨樽、メガラヤの生き根橋——雨を「処分しない」発想から、雨見席・雨鎖・水鉢・雨読まで。雨の日だからこそ泊まりたくなる宿のつくり方を考えます。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

@@ -13,7 +13,7 @@ export default function WellbeingPage() {
   const [isCompleted, setIsCompleted] = useState(false);
   const progressTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // ★ 最後のスライドショー画像（確実に切り替わるようにReactで制御）
+  // スライドショー画像
   const [cycleImageIdx, setCycleImageIdx] = useState(0);
   const cycleImages = [
     { src: '/library/wellbeing/cycle-main-1.jpeg', alt: '畑作業' },
@@ -43,20 +43,25 @@ export default function WellbeingPage() {
           }
         });
       },
-      { threshold: 0.1, rootMargin: '0px 0px 50px 0px' }
+      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
     );
     const elements = document.querySelectorAll(`.${styles.revealUp}`);
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
 
+  // ★ 修正：別タブで /team を開き、元のwellbeingタブを残して戻れるようにする
   const handleMouseEnter = () => {
     setIsHovered(true);
     setIsCompleted(false);
     progressTimeoutRef.current = setTimeout(() => {
       setIsCompleted(true);
       setTimeout(() => {
-        router.push('https://innbuddy-japan.com/team');
+        // 新規タブで開くことで元のページを保持
+        window.open('https://innbuddy-japan.com/team', '_blank', 'noopener,noreferrer');
+        // 戻ってきたときのためにアニメーション状態をリセット
+        setIsHovered(false);
+        setIsCompleted(false);
       }, 600);
     }, 1500);
   };
@@ -82,7 +87,7 @@ export default function WellbeingPage() {
       },
       hero: {
         title1: '宿の未来を創る、',
-        title2: '人と組織の新しいあり方',
+        title2: '人と組織の新しいあり方。',
         desc1: '「働きがい」や「心の余白」という本質的なウェルビーイングを経営戦略に。',
         desc2: '働きたいと思われる宿になるために(採用)、もっと貢献したいと思わせるホテルになるために(定着)、そして美しい多様なチーム全員でお客さまをおもてなし。',
         subtext: '顧客満足度と宿の価値を最大化する、人財育成マネジメントの新基準。',
@@ -152,8 +157,8 @@ export default function WellbeingPage() {
       },
       hero: {
         title1: 'Shaping the future of hospitality,',
-        title2: 'A New Era for People & Culture',
-        desc1: 'Integrating authentic well-being—fulfillment and peace of mind—into core strategy.',
+        title2: 'A New Era for People & Culture.',
+        desc1: 'Integrating authentic well-being-fulfillment and peace of mind-into core strategy.',
         desc2: 'Becoming a premier destination where talent aspires to join (recruitment), feels inspired to contribute (retention), and welcomes every guest with a diverse, empowered team.',
         subtext: 'A new standard of talent management to maximize guest satisfaction and hospitality value.',
       },
@@ -163,7 +168,7 @@ export default function WellbeingPage() {
         sub: 'Staff well-being directly drives guest satisfaction and sustainable business growth.',
         card1Num: '01',
         card1Title: 'Definition',
-        card1Desc: 'Beyond basic health, it represents complete physical, mental, and social vitality—an environment where staff feel genuinely fulfilled and empowered.',
+        card1Desc: 'Beyond basic health, it represents complete physical, mental, and social vitality-an environment where staff feel genuinely fulfilled and empowered.',
         card2Num: '02',
         card2Title: 'Importance',
         card2Desc: 'Reduces turnover and hiring costs while peace of mind elevates service quality. Psychological safety sparks proactive team innovation.',
@@ -200,8 +205,8 @@ export default function WellbeingPage() {
         desc: 'A psychologically safe environment where isolation turns into trust and shared purpose. Positivity ripples across the team, creating genuine warmth in hospitality.',
         boxTitle: 'The Virtuous Cycle of Mutual Benefit',
         boxDesc1: 'When staff are fulfilled in mind and spirit, elevated hospitality arises spontaneously.',
-        boxDesc2: 'This fosters unforgettable guest loyalty and strengthens revenue—an enduring ecosystem benefiting staff, guests, and the property alike.',
-        badge: ['Staff thrive,', 'happiness spreads,', 'and guests are', 'truly delighted.'],
+        boxDesc2: 'This fosters unforgettable guest loyalty and strengthens revenue-an enduring ecosystem benefiting staff, guests, and the property alike.',
+        badge: ['Staff thrive,', 'happiness spreads,', 'and guests are truly delighted.'],
       },
       footer: {
         brandDesc: 'A specialized publication for hospitality HR and organizational culture. Staff fulfillment powers unforgettable service.',
@@ -210,7 +215,7 @@ export default function WellbeingPage() {
         audit: 'Assessment',
         cta: 'Take Free Assessment',
       },
-    },
+    }
   }[lang];
 
   const articleMarqueeData = [
@@ -221,7 +226,6 @@ export default function WellbeingPage() {
     { jp: '支配人とフロントスタッフの1on1ミーティング導入ガイド', en: 'Guide to 1-on-1 meetings for hotel managers and staff' },
   ];
 
-  // ★ ナレッジハブの12カテゴリと連動させた12個のデータ（6×2行用）
   const categories12 = [
     { name: '採用 / RECRUITMENT', jp: '採用・求人', en: 'Recruitment', bg: 'bg-[#edf4ee]', textCol: 'text-[#24422c]', border: 'border-[#24422c]/15' },
     { name: '外国人材 / GLOBAL HR', jp: '外国人材', en: 'Global HR', bg: 'bg-[#e0ebe2]', textCol: 'text-[#24422c]', border: 'border-[#24422c]/15' },
@@ -232,7 +236,7 @@ export default function WellbeingPage() {
     { name: 'Well-being', jp: 'Well-being', en: 'Well-being', bg: 'bg-[#7eaf8c]', textCol: 'text-white', border: 'border-white/20' },
     { name: 'Team / Communication', jp: 'チーム対話', en: 'Team', bg: 'bg-[#679b76]', textCol: 'text-white', border: 'border-white/20' },
     { name: 'Organization / 組織づくり', jp: '組織風土', en: 'Organization', bg: 'bg-[#518561]', textCol: 'text-white', border: 'border-white/20' },
-    { name: 'Human Capital / HRBP', jp: '人的資本・HRBP', en: 'Human Capital', bg: 'bg-[#3d6f4d]', textCol: 'text-[#f4f1de]', border: 'border-[#f4f1de]/30' },
+    { name: 'Human Capital / HRBP', jp: '人的資本 HRBP', en: 'Human Capital', bg: 'bg-[#3d6f4d]', textCol: 'text-[#f4f1de]', border: 'border-[#f4f1de]/30' },
     { name: 'Management / 経営', jp: '経営・労務', en: 'Management', bg: 'bg-[#2b5439]', textCol: 'text-[#f4f1de]', border: 'border-[#f4f1de]/40' },
     { name: 'Sustainability / SDGs', jp: 'SDGs・持続性', en: 'SDGs', bg: 'bg-[#1b3a24]', textCol: 'text-[#f4f1de]', border: 'border-[#f4f1de]/50' },
   ];
@@ -249,59 +253,32 @@ export default function WellbeingPage() {
           <Link href="#top" className="text-xl md:text-2xl font-bold text-[#3a5a40] tracking-tight hover:opacity-80 transition-opacity">
             InnBuddy <span className="font-light text-[#1a231c]/70 text-base md:text-lg">Well-being</span>
           </Link>
+
           <nav className="hidden lg:flex items-center gap-1 bg-[#f4f1de]/40 p-1.5 rounded-full border border-[#3a5a40]/10">
-            <a
-              href="https://innbuddy-japan.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300"
-            >
+            <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer" className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300">
               {t.nav.about}
             </a>
-            <a
-              href="https://innbuddy-japan.com/team"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300"
-            >
+            <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer" className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300">
               {t.nav.team}
             </a>
-            <a
-              href="https://innbuddy-japan.com/library"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300"
-            >
+            <a href="https://innbuddy-japan.com/library" target="_blank" rel="noopener noreferrer" className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300">
               {t.nav.other}
             </a>
-            <a
-              href="https://innbuddy-japan.com/contact"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300"
-            >
+            <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer" className="relative px-4 py-2 text-xs font-bold text-[#3a5a40] rounded-full hover:bg-white hover:shadow-sm transition-all duration-300">
               {t.nav.contact}
             </a>
-            <Link
-              href="/wellbeing/articles"
-              className="relative ml-1 px-5 py-2 text-xs font-bold text-[#1a231c] bg-[#D3E173] rounded-full hover:opacity-80 shadow-sm transition-all duration-300"
-            >
+            <Link href="/wellbeing/articles" className="relative ml-1 px-5 py-2 text-xs font-bold text-[#1a231c] bg-[#D3E173] rounded-full hover:opacity-80 shadow-sm transition-all duration-300">
               {t.nav.articles}
             </Link>
           </nav>
+
           <div className="hidden md:flex items-center gap-4">
-            <button
-              onClick={toggleLang}
-              className="flex items-center gap-2 text-[11px] font-bold border-2 border-[#f4f1de] bg-white rounded-full px-3 py-1.5 hover:bg-[#f4f1de] transition-colors text-[#3a5a40]"
-            >
+            <button onClick={toggleLang} className="flex items-center gap-2 text-[11px] font-bold border-2 border-[#f4f1de] bg-white rounded-full px-3 py-1.5 hover:bg-[#f4f1de] transition-colors text-[#3a5a40]">
               <span className={lang === 'jp' ? '' : 'opacity-40'}>JP</span>
               <span className="text-gray-300 font-light">|</span>
               <span className={lang === 'en' ? '' : 'opacity-40'}>EN</span>
             </button>
-            <button
-              onClick={() => setIsDiagnosticOpen(true)}
-              className="bg-[#3a5a40] border-2 border-[#3a5a40] text-white hover:bg-[#f4f1de] hover:text-[#3a5a40] px-5 py-2 rounded-full text-xs font-bold transition-all duration-300"
-            >
+            <button onClick={() => setIsDiagnosticOpen(true)} className="bg-[#3a5a40] border-2 border-[#3a5a40] text-white hover:bg-[#f4f1de] hover:text-[#3a5a40] px-5 py-2 rounded-full text-xs font-bold transition-all duration-300">
               {t.nav.assessment}
             </button>
           </div>
@@ -323,26 +300,28 @@ export default function WellbeingPage() {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 items-stretch relative pl-2 lg:pl-6">
-            <div className="absolute left-[-15px] top-[35%] -translate-y-1/2 w-[520px] h-[520px] lg:w-[650px] lg:h-[650px] pointer-events-none z-0 opacity-[0.10] mix-blend-multiply select-none">
+            <div className="absolute left-[-15px] top-[35%] -translate-y-1/2 w-[520px] h-[520px] lg:w-[650px] lg:h-[650px] mix-blend-multiply select-none">
               <img
                 src="/library/wellbeing/onsen.png"
                 alt="静かな温泉宿の風景"
-                className="w-full h-full object-contain"
-                onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                className="w-full h-full object-contain pointer-events-none z-0 opacity-[0.10]"
+                onError={(e) => (e.currentTarget.style.display = 'none')}
               />
             </div>
 
-            <div className={`hidden lg:flex w-56 shrink-0 flex-col justify-start items-start gap-4 z-20 ${styles.revealUp} ${styles.delay100}`}>
-              <div className={`w-[104px] h-[104px] flex items-center justify-center ${styles.spinning} text-[#3a5a40] opacity-80 pointer-events-none`}>
+            {/* サークルロゴ（180px & 約1cm上に配置） */}
+            <div className={`hidden lg:flex w-56 shrink-0 flex-col justify-start items-start gap-6 z-20 -mt-[38px] ${styles.revealUp} ${styles.delay100}`}>
+              <div className={`w-[180px] h-[180px] flex items-center justify-center ${styles.spinning} text-[#3a5a40] opacity-85 pointer-events-none`}>
                 <svg viewBox="0 0 100 100" className="w-full h-full">
                   <path id="circlePath" d="M50, 50 m-37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
                   <text className="text-[5.7px] font-bold uppercase fill-[#3a5a40]">
                     <textPath href="#circlePath" textLength="232" lengthAdjust="spacing">
-                      THE HAPPINESS FOR ORGANIZATION • THE HAPPINESS FOR ORGANIZATION •
+                      THE HAPPINESS FOR ORGANIZATION THE HAPPINESS FOR ORGANIZATION
                     </textPath>
                   </text>
                 </svg>
               </div>
+
               <div className="max-w-[200px] pl-2 border-l border-[#3a5a40]/30">
                 <p className={`text-[11px] text-[#1a231c]/80 leading-relaxed font-medium tracking-wide ${styles.serifFont}`}>
                   {t.hero.desc1} <br /><br />
@@ -352,10 +331,13 @@ export default function WellbeingPage() {
             </div>
 
             <div className="w-full flex-1 flex flex-col relative h-[250px] lg:h-auto min-h-[220px]">
+              {/* プログレスリング */}
               <div
-                className={`absolute left-[-2.5rem] md:left-[-4rem] top-[50%] -translate-y-1/2 w-24 h-24 md:w-32 md:h-32 rounded-full z-30 ${styles.floating} ${styles.revealUp} ${styles.delay200} ${styles.medalRingContainer}`}
+                className={`absolute left-[-2.5rem] md:left-[-4rem] top-[50%] -translate-y-1/2 w-24 h-24 md:w-32 md:h-32 rounded-full z-30 cursor-pointer ${styles.floating} ${styles.revealUp} ${styles.delay200} ${styles.medalRingContainer}`}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
+                onClick={() => window.open('https://innbuddy-japan.com/team', '_blank', 'noopener,noreferrer')}
+                title="クリックでチーム紹介ページを開く"
               >
                 <svg width="0" height="0">
                   <defs>
@@ -369,45 +351,24 @@ export default function WellbeingPage() {
                   </defs>
                 </svg>
                 <svg viewBox="0 0 80 80" className="w-full h-full absolute inset-0">
-                  <circle cx="40" cy="40" r="38" fill="none" stroke="rgba(255,255,255,0.5)" strokeWidth="4" />
-                  <circle
-                    cx="40"
-                    cy="40"
-                    r="38"
-                    fill="none"
-                    stroke="url(#metalGlow)"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeDasharray={circumference}
-                    strokeDashoffset={strokeDashoffset}
-                    className={styles.progressCircle}
-                  />
+                  <circle cx="40" cy="40" r="38" fill="none" stroke="rgba(255, 255, 255, 0.5)" strokeWidth="4" />
+                  <circle cx="40" cy="40" r="38" fill="none" stroke="url(#metalGlow)" strokeWidth="4" strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={strokeDashoffset} className={styles.progressCircle} />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                   {isCompleted ? (
-                    <span className={`text-[13px] md:text-[15px] font-extrabold text-[#1b3a24] ${styles.popText} drop-shadow-sm`}>
-                      InnBuddy!!
-                    </span>
+                    <span className={`text-[13px] md:text-[15px] font-extrabold text-[#1b3a24] ${styles.popText} drop-shadow-sm`}>InnBuddy!!</span>
                   ) : (
-                    <span className="text-[11px] md:text-[13px] font-bold text-[#3a5a40] tracking-wide text-center leading-tight">
-                      Our<br />Team
-                    </span>
+                    <span className="text-[11px] md:text-[13px] font-bold text-[#3a5a40] tracking-wide text-center leading-tight">Our<br />Team</span>
                   )}
                 </div>
               </div>
 
-              <div className={`w-full h-full rounded-[2.5rem] lg:rounded-[3rem] border-2 border-dashed border-[#3a5a40]/30 bg-gray-50/70 backdrop-blur-sm flex items-center justify-center relative overflow-hidden ${styles.revealUp}`}>
+              {/* 画像枠（四角・文字なし） */}
+              <div className={`w-full h-full rounded-none border border-solid border-[#3a5a40]/15 bg-gray-50/70 backdrop-blur-sm flex items-center justify-center relative overflow-hidden ${styles.revealUp}`}>
                 <div className={styles.slideshowContainer}>
                   <img src="/library/wellbeing/hero-main-1.jpeg" alt="着物の女性と緑" className={`${styles.slideDownImage} ${styles.slide1}`} />
                   <img src="/library/wellbeing/hero-main-2.jpeg" alt="庭園ヨガ" className={`${styles.slideDownImage} ${styles.slide2}`} />
                   <img src="/library/wellbeing/hero-main-3.jpeg" alt="田んぼ道とスタッフ" className={`${styles.slideDownImage} ${styles.slide3}`} />
-                </div>
-                <div className="absolute top-4 left-6 md:left-14 flex flex-wrap gap-2 max-w-[75%] z-10">
-                  {['Well-being', 'Fulfillment', 'Psychological Safety', 'Empathy', 'Belonging'].map((tag) => (
-                    <span key={tag} className="px-3 py-1 rounded-full border border-gray-200/50 bg-white/70 backdrop-blur-md text-[10px] font-bold text-[#1a231c]">
-                      {tag}
-                    </span>
-                  ))}
                 </div>
               </div>
             </div>
@@ -459,39 +420,29 @@ export default function WellbeingPage() {
               <div className={`bg-[#e8eedd] rounded-[2.5rem] p-8 relative shadow-sm hover:shadow-md transition-shadow ${styles.revealUp}`}>
                 <span className="absolute top-6 right-8 text-3xl font-light text-[#3a5a40]/30">{t.solutions.card1Num}</span>
                 <h3 className="text-xl font-bold text-[#1a231c] mb-4">{t.solutions.card1Title}</h3>
-                <p className="text-[#1a231c]/80 leading-relaxed text-sm font-medium">
-                  {t.solutions.card1Desc}
-                </p>
+                <p className="text-[#1a231c]/80 leading-relaxed text-sm font-medium">{t.solutions.card1Desc}</p>
               </div>
               <div className={`bg-[#3a5a40] text-white rounded-[2.5rem] p-8 relative shadow-sm hover:shadow-md transition-shadow ${styles.revealUp} ${styles.delay100}`}>
                 <span className="absolute top-6 right-8 text-3xl font-light text-white/20">{t.solutions.card2Num}</span>
                 <h3 className="text-xl font-bold text-[#f4f1de] mb-4">{t.solutions.card2Title}</h3>
-                <p className="text-white/80 leading-relaxed text-sm font-medium">
-                  {t.solutions.card2Desc}
-                </p>
+                <p className="text-white/80 leading-relaxed text-sm font-medium">{t.solutions.card2Desc}</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 5. おすすめ記事 (★ 6×2行の12カテゴリに拡張＆一覧ページへリンク) */}
+        {/* 5. おすすめ記事 (12カテゴリ) */}
         <section id="articles" className={`w-full py-16 lg:py-20 px-6 border-b border-gray-100 ${styles.brickPattern}`}>
           <div className="max-w-[1200px] mx-auto flex flex-col items-center">
-            <div className={`text-center mb-10 bg-white/80 backdrop-blur-sm px-8 py-3.5 rounded-full shadow-sm border border-[#3a5a40]/10 ${styles.revealUp}`}>
+            <div className={`text-center mb-10 bg-white/80 backdrop-blur-sm rounded-full shadow-sm border border-[#3a5a40]/10 px-8 py-3.5 ${styles.revealUp}`}>
               <h2 className={`text-2xl md:text-3xl font-bold text-[#3a5a40] tracking-tight mb-1 ${styles.serifFont}`}>
                 {t.articlesSec.title}
               </h2>
               <p className="text-xs text-gray-500 font-medium">{t.articlesSec.sub}</p>
             </div>
-
-            {/* 6列 × 2行 (スマホ2列、タブレット3列、PC6列) */}
             <div className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 sm:gap-4 w-full justify-center items-center ${styles.revealUp}`}>
               {categories12.map((item, idx) => (
-                <Link
-                  key={idx}
-                  href={`/wellbeing/articles?cat=${encodeURIComponent(item.name)}`}
-                  className={`aspect-square rounded-2xl md:rounded-3xl border ${item.border} ${item.bg} ${item.textCol} flex flex-col items-center justify-center p-3 text-center shadow-sm hover:scale-105 hover:shadow-md transition-all duration-300 group`}
-                >
+                <Link key={idx} href={`/wellbeing/articles?cat=${encodeURIComponent(item.name)}`} className={`aspect-square rounded-2xl md:rounded-3xl border ${item.border} ${item.bg} ${item.textCol} p-3 text-center shadow-sm hover:scale-105 group flex flex-col items-center justify-center hover:shadow-md transition-all duration-300`}>
                   <span className="text-xs sm:text-[13px] font-bold leading-tight tracking-tight group-hover:underline mb-1">
                     {lang === 'jp' ? item.jp : item.en}
                   </span>
@@ -501,8 +452,7 @@ export default function WellbeingPage() {
                 </Link>
               ))}
             </div>
-
-            <div className="mt-10 text-center bg-white/80 backdrop-blur-sm px-8 py-2.5 rounded-full shadow-sm border border-[#3a5a40]/10">
+            <div className="mt-10 text-center bg-white/80 backdrop-blur-sm rounded-full shadow-sm border border-[#3a5a40]/10 px-8 py-2.5">
               <Link href="/wellbeing/articles" className="text-xs md:text-sm font-bold text-[#3a5a40] border-b-2 border-[#3a5a40] pb-0.5 hover:opacity-70 transition-opacity">
                 {t.articlesSec.viewAll}
               </Link>
@@ -520,7 +470,6 @@ export default function WellbeingPage() {
             </div>
             <div className="flex flex-col gap-10 md:gap-16 relative">
               <div className="absolute top-[25%] bottom-[25%] right-[25%] w-[2px] border-r-2 border-dashed border-[#3a5a40]/30 hidden md:block z-0"></div>
-              
               <div className="flex flex-col md:flex-row justify-between items-center gap-6 relative z-10">
                 <div className={`w-full md:w-5/12 bg-white rounded-[2rem] p-6 border border-[#3a5a40]/20 shadow-sm relative ${styles.revealUp}`}>
                   <div className="absolute -top-3 -left-3 w-8 h-8 bg-[#f4f1de] border-2 border-[#3a5a40] text-[#3a5a40] rounded-full flex items-center justify-center text-xs font-bold z-20 shadow-sm">1</div>
@@ -537,7 +486,6 @@ export default function WellbeingPage() {
                   <p className="text-xs text-[#1a231c]/70 leading-relaxed font-medium pl-4">{t.reasons.r2Desc}</p>
                 </div>
               </div>
-
               <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-6 relative z-10">
                 <div className={`w-full md:w-5/12 bg-white rounded-[2rem] p-6 border border-[#3a5a40]/20 shadow-sm relative ${styles.revealUp}`}>
                   <div className="absolute -top-3 -right-3 md:-left-3 w-8 h-8 bg-[#f4f1de] border-2 border-[#3a5a40] text-[#3a5a40] rounded-full flex items-center justify-center text-xs font-bold z-20 shadow-sm">3</div>
@@ -567,12 +515,9 @@ export default function WellbeingPage() {
                 { step: 'STEP 02', text: t.steps.s2, delayClass: styles.neonDelay2 },
                 { step: 'STEP 03', text: t.steps.s3, delayClass: styles.neonDelay3 },
                 { step: 'STEP 04', text: t.steps.s4, delayClass: styles.neonDelay4 },
-                { step: 'STEP 05', text: t.steps.s5, delayClass: styles.neonDelay5 },
+                { step: 'STEP 05', text: t.steps.s5, delayClass: styles.neonDelay5 }
               ].map((item, idx) => (
-                <div
-                  key={idx}
-                  className={`w-full sm:w-[30%] md:flex-1 py-5 px-3 rounded-[1.5rem] border border-white/40 bg-[#fbfaf6] text-center transition-all duration-300 shadow-md ${styles.neonStep} ${item.delayClass}`}
-                >
+                <div key={idx} className={`w-full sm:w-[30%] md:flex-1 py-5 px-3 rounded-[1.5rem] border border-white/40 bg-[#fbfaf6] text-center transition-all duration-300 shadow-md ${styles.neonStep} ${item.delayClass}`}>
                   <span className="text-[10px] font-bold text-[#3a5a40] block mb-1 uppercase tracking-widest opacity-80">{item.step}</span>
                   <span className="text-sm font-bold text-[#1a231c]">{item.text}</span>
                 </div>
@@ -588,7 +533,7 @@ export default function WellbeingPage() {
           </div>
         </section>
 
-        {/* 8. アシンメトリーレイアウト (★ 画像切り替え修正済み) */}
+        {/* 8. アシンメトリーレイアウト */}
         <section className="w-full bg-[#fbfaf6] py-16 md:py-24 px-6 overflow-hidden">
           <div className="max-w-[1400px] mx-auto">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-0 relative">
@@ -615,7 +560,7 @@ export default function WellbeingPage() {
                 </div>
               </div>
 
-              {/* ★ スライドショー画像の自動クロスフェード（確実に切り替わります） */}
+              {/* スライドショー画像の自動クロスフェード */}
               <div className={`w-full lg:w-1/2 h-[450px] md:h-[600px] relative mt-10 lg:mt-0 ${styles.revealUp} ${styles.delay100}`}>
                 <div className="absolute right-0 top-0 w-[85%] h-full rounded-t-[10rem] rounded-b-[3rem] border border-[#3a5a40]/20 bg-[#e8eedd]/50 backdrop-blur-sm overflow-hidden flex items-center justify-center shadow-sm">
                   <div className="relative w-full h-full">
@@ -680,7 +625,6 @@ export default function WellbeingPage() {
             <path d="M10 320 C100 300, 250 310, 390 320" strokeWidth="1" opacity="0.6" />
           </svg>
         </div>
-
         <div className="max-w-[1400px] mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
@@ -695,6 +639,7 @@ export default function WellbeingPage() {
               &copy; 2026 InnBuddy Well-being. All rights reserved.
             </div>
           </div>
+
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-8 text-xs font-semibold">
             <div>
               <h4 className="font-bold text-[#f4f1de] mb-4 uppercase tracking-wider text-[11px] border-b border-[#f4f1de]/30 pb-2 inline-block">

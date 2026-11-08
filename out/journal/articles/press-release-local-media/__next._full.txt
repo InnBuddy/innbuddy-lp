@@ -8,15 +8,81 @@ a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-
 c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
-0:{"P":null,"c":["","journal","articles","press-release-local-media",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","press-release-local-media","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"P":null,"c":["","journal","articles","press-release-local-media",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","press-release-local-media","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Wjs50aw9q7KwJzs198_KL"}
 f:[]
 9:"$Wf"
-10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+10:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      6:["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$10"}}],["$","header",null,{"className":"article-headbar container","children":["$L11","$L12"]}],"$L13","$L14"]}]
+15:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
 :HL["/library/journal/ai_press-release-local-media.jpg","image"]
-11:T274a,<p>プレスリリースを送っても、地域メディアに取り上げられない。理由の多くは、「宿の宣伝」として書いていることです。「新しい宿ができました」ではなく「地域の醸造所と宿が組んで、地ビールの新しい楽しみ方を始めます」——主語が「宿」から「地域」に変わると、紙の運命が変わります。本記事は、その書き換えの技術を、プレスリリースという道具が生まれた1906年の話から整理します。</p>
+11:["$","$L15",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}]
+12:["$","div",null,{"className":"head-right","children":[["$","$L15",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]
+16:T274a,<p>プレスリリースを送っても、地域メディアに取り上げられない。理由の多くは、「宿の宣伝」として書いていることです。「新しい宿ができました」ではなく「地域の醸造所と宿が組んで、地ビールの新しい楽しみ方を始めます」——主語が「宿」から「地域」に変わると、紙の運命が変わります。本記事は、その書き換えの技術を、プレスリリースという道具が生まれた1906年の話から整理します。</p>
 
 <h2>1906年 — 事故を秘密にしなかった会社</h2>
 
@@ -75,13 +141,108 @@ f:[]
 <li><a href="#local-business-collaboration">近隣事業との連携 — 「予約につながる協業」の基本</a> — 「地域の人が関わるニュース」の元になる協業の話</li>
 <li><a href="#filming-requests-handling">地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法</a> — 取材が来たときの応対の話</li>
 <li><a href="#recruitment-showcase-pr">採用に困らない宿がやっている「見せ方」採用広報</a> — 違う読者(求職者)に届く発信の話</li>
-</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"PR・メディア"}],["$","span",null,{"children":["ARTICLE ","113"]}]]}],["$","h1",null,{"children":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","p",null,{"className":"excerpt","children":"プレスリリースは「宿の宣伝」ではなく「地域への情報公開」——1906年にこの道具が生まれた時の話から、地域メディアが取り上げたくなる3つの素材、1枚の書き方、送る前にやるべきことまで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_press-release-local-media.jpg","alt":"地域メディアに取り上げられるプレスリリースの書き方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.13"}],["$","span",null,{"children":"PR & Media"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+</ul>13:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"PR・メディア"}],["$","span",null,{"className":"ARTICLE","children":"113"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","span",null,{"className":"en-only","children":"How to Write Press Releases Picked Up by Local Media"}],["$","span",null,{"className":"zh-only","children":"如何撰写被当地媒体转载的新闻稿"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"プレスリリースは「宿の宣伝」ではなく「地域への情報公開」——1906年にこの道具が生まれた時の話から、地域メディアが取り上げたくなる3つの素材、1枚の書き方、送る前にやるべきことまで。"}],["$","span",null,{"className":"en-only","children":"A press release is not \"an ad for your inn\" but \"information opened to the region.\" From the day this tool was born in 1906 — to the three kinds of stories local media want to print, how to write the one page, and what to do before sending."}],["$","span",null,{"className":"zh-only","children":"将新闻稿写成“当地新闻”而不是“酒店广告”。当地媒体想要报道的三个要素以及发送前应该做什么。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_press-release-local-media.jpg","alt":"地域メディアに取り上げられるプレスリリースの書き方"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.13"}],["$","span",null,{"children":"PR & Media"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17","$L18"]}],"$L19","$L1a"]}]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
 :HL["/library/journal/ai_media-youtube-introduction.jpg","image"]
 :HL["/library/journal/ai_filming-requests-handling.jpg","image"]
 :HL["/library/journal/ai_regional-hotel-media-new.jpg","image"]
-12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","media-youtube-introduction",{"href":"/journal/articles/media-youtube-introduction","children":[["$","img",null,{"src":"/library/journal/ai_media-youtube-introduction.jpg","alt":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.19"}],["$","h4",null,{"children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}]]}]]}],["$","$L10","filming-requests-handling",{"href":"/journal/articles/filming-requests-handling","children":[["$","img",null,{"src":"/library/journal/ai_filming-requests-handling.jpg","alt":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.07.06"}],["$","h4",null,{"children":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}]]}]]}],["$","$L10","regional-hotel-media",{"href":"/journal/articles/regional-hotel-media","children":[["$","img",null,{"src":"/library/journal/ai_regional-hotel-media-new.jpg","alt":"地方ホテルがメディアに取り上げられる術"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.18"}],["$","h4",null,{"children":"地方ホテルがメディアに取り上げられる術"}]]}]]}]]}]]}]
-13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/tiktok-15sec-want-to-visit","children":["← ","TikTokで「行ってみたい」を作る — 15秒動画の3原則"]}],["$","$L10",null,{"href":"/journal/articles/rainy-day-experience","children":["雨の日の体験 — 雨でも満足度が下がらない宿の設計"," →"]}]]}]
-14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+1b:T2600,<p>You send press releases, and local media never pick them up. Most of the reason is that they are written as "an ad for the inn." Not "a new inn has opened," but "a regional brewery and an inn have teamed up to start a new way to enjoy local beer" — the moment the subject changes from "the inn" to "the region," the fate of the page changes. This article organizes the craft of that rewrite, starting from the story of 1906, the year the tool called the press release was born.</p>
+
+<h2>1906 — the company that did not keep the accident secret</h2>
+
+<p>On October 28, 1906, near Atlantic City in New Jersey, a train of the Pennsylvania Railroad system plunged from a bridge into the water below, and 50 people died. The custom of railway companies of the day was to keep accidents secret. Keep reporters away from the scene. Say nothing about the cause. Leave the rumors to run on as rumors. That was what counted as ordinary in that age.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Fact</strong> — In this accident, the public-relations advisor Ivy Lee persuaded the company to release, ahead of the reporters, a statement organizing the facts — this is regarded as "the world's first press release," and The New York Times printed it almost verbatim. The same year, Lee also issued his "Declaration of Principles," stating that those who run a business owe the public prompt and accurate information (according to records of American public-relations history).</div>
+
+<p>Why is this interesting? What Lee did here was not "making the company look good." It was handing over the facts, ahead of the rumors, in the company's own words. As a result, despite the catastrophe, the company is said to have drawn almost no blame. Here lies the true nature of the tool called the press release. Advertising is the act of going to borrow trust; disclosure is the act of handing trust over. Most releases that never run have come to borrow. The moment the page becomes one that hands over, the way local media treats it changes.</p>
+
+<h2>Three kinds of stories that get printed — all with "the region" as the subject</h2>
+
+<p>News happens around your inn every day; written as "the inn's news" it will not run, and written as "the region's news" it will. The choice of material comes down to three.</p>
+
+<ol>
+<li><strong>News in which local people take part</strong> — Not "our inn has started serving local beer," but "a satoyama brewery and an inn team up to launch a local-beer pairing experience." The moment a "local person" — the brewer — appears on the page, the paper can treat it as news of the region.</li>
+<li><strong>News that solves a problem of the region</strong> — We turned an empty house into an inn; we built a place of learning where young people put down roots. The more a story touches the problems of the region — empty houses, employment, population — rather than "tourism," the more easily the editor can treat it as "relevant to our readers."</li>
+<li><strong>News that makes local people want to go</strong> — A door opened to the people who live there, like "a tasting evening for local residents only." An event that makes the region's own readers think "I'd like to go" is, for local media, a natural article.</li>
+</ol>
+
+<p>Why are these three enough? Journalism research has a classic theory that organizes the conditions under which an event is selected as "news," and its structure overlaps with these three. That theory, and how to keep a "press kit" of interview-ready material always in stock, are covered in <a href="#regional-hotel-media">How Regional Hotels Get Featured in the Media</a>. Here we narrow down to the craft of writing the single page.</p>
+
+<h2>Writing the one page — title, body, photographs</h2>
+
+<p><strong>The title is "region + person + what they will do."</strong> Not "XX (the inn's name) begins serving craft beer," but "a satoyama brewery and an inn team up: an experience of tasting the region through local beer." The title alone must make it clear that this is news of the region.</p>
+
+<p><strong>The body is three paragraphs: background, project, impact on the region.</strong> Do not start with "Our inn…". Paragraph one is the background (a regional brewery searching for routes to sell); paragraph two is the project (the inn and the brewery building an experience together); paragraph three is the impact on the region (the sales, and the chance for young locals to learn at the brewery). Just putting the paragraphs in this order removes the smell of advertising. The facts, as Lee did with his, run in the order of "when, where, who, what, why." What is not yet fixed is written as "scheduled"; what is fixed is written as fixed. Adjectives — "the best in Japan," "innovative," "moving" — are, as a rule, all deleted.</p>
+
+<p><strong>Photographs: three of them, with people in the frame.</strong> Rather than the building's exterior — one shot of the brewer and the staff pouring together, one of a young local learning. People are interested in people, and editors are helpless before usable photographs. Take the consent of those who appear, and attach three images in high resolution.</p>
+
+<h2>What to do before sending</h2>
+
+<p><strong>Go meet the reporter.</strong> Before sending the page, visit the local media's reporter and ask: "We are thinking of a project like this — would it count as news of the region?" A reporter who has been consulted remembers the page when it arrives. The weight of the same single page is different between a send-and-done relationship and a consult-then-send relationship.</p>
+
+<p><strong>Tell the local people first.</strong> The brewery, the young locals, the neighbors — give a heads-up to everyone who appears on the page: "We are issuing a press release." Whether the local people can answer "Yes, I know that project" when a reporter calls is the fork at which the page can or cannot become "news of the region."</p>
+
+<p><strong>Put out a region-only event on the same day.</strong> Issue, on the same day as the page, a door opened to the region — something like "local residents only: a local-beer tasting evening." An event that local people join is itself the shape that prints most easily (how to build the pairing with the region is covered in <a href="#local-business-collaboration">Local Business Collaboration: Basics of Reservation-Driving Partnerships</a>). And when it runs — thank the reporter, and tell the local people who appeared, "It was printed." The groundwork for the next page is those two messages.</p>
+
+<h2>The other side — when releases exhaust the inn</h2>
+
+<ul>
+<li><strong>The smell of advertising</strong> — Three lines into "an introduction to our inn," the editor puts the page down. Advertising does more than fail to run: it lowers the credit of the next page too.</li>
+<li><strong>Errors of fact</strong> — A mistake in dates, numbers, or titles comes back doubled once it has become an article. Trust is destroyed by a single error and takes a year to win back. Spend as much time checking before sending as you spent writing.</li>
+<li><strong>Consent for photographs</strong> — Not only the person in the frame: for children, a guardian's consent is required. Never sell the relationship with the region for the sake of one photograph.</li>
+<li><strong>Sending too many</strong> — Send "we have started something" every month, and nothing you start will ever arrive. Send only when stories with a regional angle have piled up. Four good pages a year beat a page every month.</li>
+<li><strong>The circumstances of local media</strong> — The reporting staff of regional papers and stations is limited. That is exactly why material with the facts, the photographs, and the words of local people already in place is easy to handle — as a general way of thinking, your side must finish the work of "shaping it into usable form" first.</li>
+<li><strong>Living with the seasons when nothing runs</strong> — Ahead of a major story, an election, or a disaster, even the best page gets stacked. Not running is not always a verdict on the page's quality. Do not keep sending one page after another with no reply; keep a relationship of visiting to consult, twice a year.</li>
+</ul>
+
+<p>The first step is to write one set of three lines: "region + person + what they will do." From what is happening around your inn this week, take what has "the inn" as its subject and rewrite it with "the region" as the subject. What Ivy Lee did in 1906 was, in fact, exactly this. The facts, first, in your own words. Stop advertising, and the page finally begins to work.</p>
+
+<div class="note">This article is intended for sharing ideas. The description of Ivy Lee follows records and reporting of American public-relations history (as of writing). The accuracy of the facts is the sender's responsibility. Whether a submission runs depends on the editorial policy of each outlet.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#regional-hotel-media">How Regional Hotels Get Featured in the Media</a> — the theory of why properties get covered, and the press kit</li>
+<li><a href="#local-business-collaboration">Local Business Collaboration: Basics of Reservation-Driving Partnerships</a> — the collaborations that become the source of "news with local people"</li>
+<li><a href="#filming-requests-handling">TV and Magazine Filming Requests for Regional Properties: How to Handle and Use Them</a> — how to receive the crew when coverage comes</li>
+<li><a href="#recruitment-showcase-pr">The "Show, Don't Post" Hiring Playbooks of Lodges That Never Struggle to Staff</a> — reaching a different reader: job seekers</li>
+</ul>17:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}]
+1c:T1743,<p>即使您发出新闻稿，当地媒体也不会报道。原因是<strong>我写这篇文章是为了给一家旅馆做广告。</strong>。当地媒体寻找的是“当地新闻”，而不是“旅馆的广告”。我们不是说“一家新旅馆开业了”，而是说“一家当地啤酒厂和一家旅馆联手提出了一种喝当地啤酒的新方式”。如果主题是“地区”而不是“旅馆”，那么被报道的可能性就会增加。本文概述了当地媒体想要报道的新闻稿的三个要素，以及在发送新闻稿之前应该做什么。</p>
+
+<h2>1. 当地媒体正在寻找什么——3条新闻</h2>
+<ul>
+<li><strong>“当地人参与”的消息：</strong>不仅仅是关于旅馆的新闻，而是涉及当地人的新闻。例如：“旅馆已与当地啤酒厂合作，开始了当地啤酒搭配体验”，而不是“旅馆已开始提供当地啤酒服务”。当啤酒厂的人出现时，当地媒体很容易将其视为“当地新闻”。</li>
+<li><strong>“解决地方问题”新闻：</strong>解决当地问题（空置房屋、年轻人离开）的新闻很可能会被采纳，例如“我们把空房子变成了住宿设施”或“我们创建了一个学习系统，帮助年轻人留在该地区。”我写这篇文章是为了解决当地问题，而不是为旅馆做广告。</li>
+<li><strong>“当地人想去”的新闻：</strong>不是针对游客的新闻，而是当地人想要参观和吃饭的新闻。示例：“仅限当地居民参加的当地啤酒品尝活动。”当当地人想去时，当地媒体往往会将其报道为“当地活动”。</li>
+</ul>
+
+<h2>2. 新闻稿的三要素</h2>
+<ol>
+<li><strong>标题是“地区+人物+做什么”：</strong>它不是“InnBuddy开始提供精酿啤酒”，而是“通过里山啤酒厂和旅馆之间的合作，品尝当地啤酒的体验”。标题中包含“地区”、“人物”和“你做什么”。标题应明确表明它是“本地新闻”。</li>
+<li><strong>正文为“背景+举措+对地区的影响”：</strong>不要以“这家酒店是......”开头。按以下顺序写：“背景：当地啤酒厂因冠状病毒而失去了销售渠道。举措：旅馆与啤酒厂合作，开展当地啤酒配对体验。对社区的影响：啤酒厂的销售额将增加，当地年轻人在啤酒厂学习的机会将增加。”主题是“地区”。</li>
+<li><strong>照片包括人物：</strong>这不是客栈的外观照片，而是酿酒师和客栈工作人员一起倒啤酒的照片，还有当地年轻人学习的照片。当有人在场时，当地媒体更容易被用作“当地人的新闻”。有3张照片，都是笑脸。</li>
+</ol>
+
+<h2>3. 发送前要做的事情</h2>
+<ul>
+<li><strong>认识当地媒体记者：</strong>在发布新闻稿之前，先会见当地媒体记者。我们问：“我正在考虑做这样的事情，但这会成为当地新闻吗？”记者会记得有人咨询过他。如果您在发送之前见面，那么您收到邮件的机会就更大。</li>
+<li><strong>先告诉当地人：</strong>在发布新闻稿之前，请先联系啤酒厂、当地年轻人和当地居民。只要说：“我要发一篇新闻稿。”如果当地人先知道了，当当地媒体来采访他们时，他们会说：“我知道这个倡议。”当地人不知道的新闻稿不太可能被当地媒体视为“当地新闻”。</li>
+<li><strong>创建“仅限区域”的事件：</strong>在发布新闻稿的同时，举办“仅限当地居民”的活动。示例：“仅限当地居民的当地啤酒品尝活动，500 日元。”如果有当地人参加的活动，当地媒体很容易将其报道为“本地活动”。而只针对游客的活动则很难被报道。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，若施策前的刊载率为10%，则约2.8倍（即28%）可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 将新闻稿写为“当地新闻”而不是“旅馆广告”。只需将主题更改为“地区”即可增加出现专题的机会。判断效果时，请用相同的统计方法记录并比较施策前后30天的新闻稿发送数与被刊载数。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>新闻稿的价值是<strong>“让当地人知道”</strong>。首先了解当地人，而不是游客。当当地人说“那家旅馆正在做一些有趣的事情”时，当地媒体就更容易报道它。将您的新闻稿写成“给社区的情书”。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：创建区域媒体列表</strong> — 列出 30 分钟半径内的 5 个当地媒体（报纸、电视、广播、网络媒体）。了解记者的姓名、联系信息以及他们过去报道过的当地新闻报道。</li>
+<li><strong>第 2 周：与记者会面</strong> ——会见当地媒体记者。我们问，“我正在考虑做这样的事情，但这会成为当地新闻吗？”你咨询过的记者会记得。</li>
+<li><strong>第 3 周：新闻稿创作</strong> — 标题是“地区+人物+做什么”。正文为“背景+举措+对地区的影响”。有3张照片，其中有“人物”。主题是“地区”。</li>
+<li><strong>第 4 周：先告诉当地人 + 当地活动</strong> — 在发布新闻稿之前，首先联系啤酒厂、当地年轻人和居民。同时，我们将打造“仅限当地居民”的活动。示例：仅限当地居民参加的当地啤酒品尝活动。</li>
+<li><strong>延续：发表后的后续行动</strong> ——一经发表，感谢记者。让当地人知道你的文章已经发表了。如果您在下一次新闻稿中添加“谢谢您最后一次”这句话，您将更有可能获得持续报道。</li>
+</ul>18:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}]
+19:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L15","media-youtube-introduction",{"href":"/journal/articles/media-youtube-introduction","children":[["$","img",null,{"src":"/library/journal/ai_media-youtube-introduction.jpg","alt":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.19"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","span",null,{"className":"en-only","children":"Introducing Your Property to Travel Media and YouTubers: How to Reach Out and Measure Results"}],["$","span",null,{"className":"zh-only","children":"向旅游媒体和 YouTube 用户介绍住宿 — 如何进行邀请并衡量有效性"}]]}]]}]]}],["$","$L15","filming-requests-handling",{"href":"/journal/articles/filming-requests-handling","children":[["$","img",null,{"src":"/library/journal/ai_filming-requests-handling.jpg","alt":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.07.06"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","span",null,{"className":"en-only","children":"TV and Magazine Filming Requests for Regional Properties: How to Handle and Use Them"}],["$","span",null,{"className":"zh-only","children":"电视/杂志对当地住宿的位置请求 - 如何回应和利用它们"}]]}]]}]]}],["$","$L15","regional-hotel-media",{"href":"/journal/articles/regional-hotel-media","children":[["$","img",null,{"src":"/library/journal/ai_regional-hotel-media-new.jpg","alt":"地方ホテルがメディアに取り上げられる術"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方ホテルがメディアに取り上げられる術"}],["$","span",null,{"className":"en-only","children":"How Regional Hotels Get Featured in the Media"}],["$","span",null,{"className":"zh-only","children":"当地酒店如何在媒体上亮相"}]]}]]}]]}]]}]]}]
+1a:["$","div",null,{"className":"pager","children":[["$","$L15",null,{"href":"/journal/articles/tiktok-15sec-want-to-visit","children":["- ",["$","span",null,{"className":"ja-only","children":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}],["$","span",null,{"className":"en-only","children":"Creating 'Want to Visit' on TikTok: 3 Principles of 15-Second Video"}],["$","span",null,{"className":"zh-only","children":"在 TikTok 上创作“我想去”——15 秒视频的 3 个原则"}]]}],["$","$L15",null,{"href":"/journal/articles/rainy-day-experience","children":[["$","span",null,{"className":"ja-only","children":"雨の日の体験 — 雨でも満足度が下がらない宿の設計"}],["$","span",null,{"className":"en-only","children":"Rainy Day Experiences: Designing Stays Where Satisfaction Doesn't Drop"}],["$","span",null,{"className":"zh-only","children":"雨天体验——设计一间即使在雨天也能让你满意的旅馆"}]," -"]}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 d:[["$","title","0",{"children":"地域メディアに取り上げられるプレスリリースの書き方 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"プレスリリースは「宿の宣伝」ではなく「地域への情報公開」——1906年にこの道具が生まれた時の話から、地域メディアが取り上げたくなる3つの素材、1枚の書き方、送る前にやるべきことまで。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

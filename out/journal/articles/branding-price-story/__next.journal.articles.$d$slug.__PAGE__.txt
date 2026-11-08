@@ -1,15 +1,157 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_branding-price-story.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T1a22,<p>同じ1万5千円の宿泊料でも、あるゲストには「高かった」と響き、あるゲストには「価値があった」と響きます。分けているのは数字ではなく、<strong>理由の言葉</strong>です。本記事は、価格の理由を価値の言葉で語る作法の話です。</p><h2>理由が、名前だった時代</h2><p>江戸の見世物や相撲の興行では、入り口の木戸で払う料金を<strong>木戸銭</strong>と呼びました。湯屋に入るなら湯銭——暮らしの中の支払いは、何のための銭かが、そのまま名前に入っていた。<strong>支払いの理由が、価格の名前だった</strong>のです。今の宿の料金表はどうでしょう。「室料」「サービス料」「税」——理由が言葉から消えて、数字だけが残った。価格の理由を語ることは、失われた名前を、付け直すことなのです。</p><h2>内訳を看板にした会社</h2><div class="stats"><span class="tag">CASE</span><strong>2010年にサンフランシスコで創業したアパレルのエバレーンは、製品ごとに費用の内訳——素材・加工・輸送と、従来の小売との差額——を商品ページで公開する「徹底した透明性」を看板に成長した</strong> — どこで作られ、いくらかかり、いくら乗っているか。内訳そのものを、ブランドの言葉にした(同社の公開情報・ハーバード経営大学院のケーススタディ等による)。</div><p>なぜ面白いか。内訳の開示は「高くありません」という弁明ではなく、<strong>「何を選んでいるか」の報告</strong>だからです。何に払っているかが分かると、値段は比較のための数字から、選ぶための数字に変わる。本質はこうです。<strong>理由の開示は、値段の説明ではなく、選ぶ基準を渡すこと</strong>。</p><h2>理由の3つの柱 — 地域・手間・時間</h2><ol><li><strong>地域</strong> — 生産者の名前を1行で。「この朝食の卵は、○○さんの鶏舎の朝取りです」。</li><li><strong>手間</strong> — 見えない手間を1つ。「湯は毎朝、手で薪の火加減を直しています」。</li><li><strong>時間</strong> — かかった時間を1つ。「この建物の梁は、山で10年乾かした木です」。</li></ol><p>3つの柱の共通点は、どれも<strong>今日は買えないもの</strong>だということ。地域も手間も時間も、工場では増産できません。買えないものの名前を付ける——それが、価格を「高い」から「価値がある」に変える仕事です。</p><h2>語り方の作法 — 1枚のカード、3行まで</h2><p>理由は、客室に1枚のカードで置きます。文字は1行、写真は1枚(生産者の手、薪の火、梁の木目)。そして<strong>3行まで</strong>。理由は長く書くほど薄くなります——説明が5行続く値段は、言い訳の匂いがします。1行で書けない理由は、まだ理由として煮詰まっていない合図です。</p><h2>値上げ — 理由を語る最大の機会</h2><p>宿が理由の言葉をいちばん試されるのは、値上げの瞬間です。黙って変えれば、数字だけが記憶に残る。<strong>1行添えれば、値上げは理由の再報告になる</strong>——「電気と物流の高騰で、朝食を200円改定いたします。品数は変えません」。値上げの1枚は、常連のゲストとの対話の再開でもあります。理由を語らない宿から去る客は、値段のせいではありません。</p><h2>反対側 — 理由の言葉の5つの罠</h2><ul><li><strong>原価の言い訳化</strong> — 「原価がかかっているから高い」は理由になりません。価値は原価ではなく、ゲストの体験で決まります。</li><li><strong>理由の過剰</strong> — すべてを説明すると、今度は数字の重みが消えます。理由は1客室3行まで。</li><li><strong>嘘の理由</strong> — 語れない理由は、語らない方がましです。一度崩れた言葉は、他の言葉まで疑われます。</li><li><strong>比較への露出</strong> — 内訳を細かく出しすぎると、値段競争の材料を差し出す面もあります。開示は「何を選んだか」の単位で。</li><li><strong>理由で値段は救えない</strong> — 理由を語っても売れないなら、値段か価値のどちらかが間違っていました。理由は処方箋でなく、薬の説明書です。</li></ul><p>なお、内訳の透明性を看板にしたエバレーンも、2026年5月、中国のファストファッション大手に買収されたと報じられました(執筆時点の報道による)。<strong>理由の物語は共感を作っても、経営そのものは保証しない</strong>——この1行も、語り手は知っておくべき反対側です。</p><h2>対話 — 4つの問い</h2><ol><li>今の値段の理由を、3つの柱(地域・手間・時間)で1行ずつ書き出せますか。</li><li>生産者の名前を、メニューか客室の1行に入れられますか。</li><li>見えない手間を、写真1枚で見せられますか。</li><li>次の値上げの1行を、先に書いておけますか。</li></ol><p>木戸銭の時代に戻る必要はありません。数字の横に、理由の名前を1つ付ける——それだけで、値段は「高い安い」の世界から、「選ぶ理由」の世界に移ります。</p><div class="note">この記事はアイデア共有を目的としています。木戸銭・湯銭は江戸の風俗の一般知識として、エバレーンの取り組みと買収報道は執筆時点の情報として紹介しています。価格設定は各宿の経営判断であり、本記事は考え方の共有です。</div><h2>次に読む</h2><ul><li><a href="#transparent-tomato-presentation">【季節限定】透明トマトで魅せる、一皿の演出力</a> — 一皿の理由を見せる実践の話</li><li><a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a> — 朝食の値段の計算の話</li><li><a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a> — 値段を伝える瞬間の言葉の話</li><li><a href="#branding-10year-asset">10年後に何を伝えたいか — 長期資産としてのブランド</a> — 時間の物語を資産にする話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","100"]}]]}],["$","h1",null,{"children":"価格の「理由」をゲストにどう語るか — 価値の言葉"}],["$","p",null,{"className":"excerpt","children":"同じ値段でも「高い」と「価値がある」に分かれる——分けるのは数字でなく理由の言葉。木戸銭に学ぶ「理由が名前だった時代」と、内訳を公開するブランドから、価格の理由の語り方を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_branding-price-story.jpg","alt":"価格の「理由」をゲストにどう語るか — 価値の言葉"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.23"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/branding-10year-asset","children":["← ","10年後に何を伝えたいか — 長期資産としてのブランド"]}],["$","$L2",null,{"href":"/journal/articles/mountain-water-coffee","children":["山の水で淹れるコーヒー — 自然の中で味わう一杯の設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1a22,<p>同じ1万5千円の宿泊料でも、あるゲストには「高かった」と響き、あるゲストには「価値があった」と響きます。分けているのは数字ではなく、<strong>理由の言葉</strong>です。本記事は、価格の理由を価値の言葉で語る作法の話です。</p><h2>理由が、名前だった時代</h2><p>江戸の見世物や相撲の興行では、入り口の木戸で払う料金を<strong>木戸銭</strong>と呼びました。湯屋に入るなら湯銭——暮らしの中の支払いは、何のための銭かが、そのまま名前に入っていた。<strong>支払いの理由が、価格の名前だった</strong>のです。今の宿の料金表はどうでしょう。「室料」「サービス料」「税」——理由が言葉から消えて、数字だけが残った。価格の理由を語ることは、失われた名前を、付け直すことなのです。</p><h2>内訳を看板にした会社</h2><div class="stats"><span class="tag">CASE</span><strong>2010年にサンフランシスコで創業したアパレルのエバレーンは、製品ごとに費用の内訳——素材・加工・輸送と、従来の小売との差額——を商品ページで公開する「徹底した透明性」を看板に成長した</strong> — どこで作られ、いくらかかり、いくら乗っているか。内訳そのものを、ブランドの言葉にした(同社の公開情報・ハーバード経営大学院のケーススタディ等による)。</div><p>なぜ面白いか。内訳の開示は「高くありません」という弁明ではなく、<strong>「何を選んでいるか」の報告</strong>だからです。何に払っているかが分かると、値段は比較のための数字から、選ぶための数字に変わる。本質はこうです。<strong>理由の開示は、値段の説明ではなく、選ぶ基準を渡すこと</strong>。</p><h2>理由の3つの柱 — 地域・手間・時間</h2><ol><li><strong>地域</strong> — 生産者の名前を1行で。「この朝食の卵は、○○さんの鶏舎の朝取りです」。</li><li><strong>手間</strong> — 見えない手間を1つ。「湯は毎朝、手で薪の火加減を直しています」。</li><li><strong>時間</strong> — かかった時間を1つ。「この建物の梁は、山で10年乾かした木です」。</li></ol><p>3つの柱の共通点は、どれも<strong>今日は買えないもの</strong>だということ。地域も手間も時間も、工場では増産できません。買えないものの名前を付ける——それが、価格を「高い」から「価値がある」に変える仕事です。</p><h2>語り方の作法 — 1枚のカード、3行まで</h2><p>理由は、客室に1枚のカードで置きます。文字は1行、写真は1枚(生産者の手、薪の火、梁の木目)。そして<strong>3行まで</strong>。理由は長く書くほど薄くなります——説明が5行続く値段は、言い訳の匂いがします。1行で書けない理由は、まだ理由として煮詰まっていない合図です。</p><h2>値上げ — 理由を語る最大の機会</h2><p>宿が理由の言葉をいちばん試されるのは、値上げの瞬間です。黙って変えれば、数字だけが記憶に残る。<strong>1行添えれば、値上げは理由の再報告になる</strong>——「電気と物流の高騰で、朝食を200円改定いたします。品数は変えません」。値上げの1枚は、常連のゲストとの対話の再開でもあります。理由を語らない宿から去る客は、値段のせいではありません。</p><h2>反対側 — 理由の言葉の5つの罠</h2><ul><li><strong>原価の言い訳化</strong> — 「原価がかかっているから高い」は理由になりません。価値は原価ではなく、ゲストの体験で決まります。</li><li><strong>理由の過剰</strong> — すべてを説明すると、今度は数字の重みが消えます。理由は1客室3行まで。</li><li><strong>嘘の理由</strong> — 語れない理由は、語らない方がましです。一度崩れた言葉は、他の言葉まで疑われます。</li><li><strong>比較への露出</strong> — 内訳を細かく出しすぎると、値段競争の材料を差し出す面もあります。開示は「何を選んだか」の単位で。</li><li><strong>理由で値段は救えない</strong> — 理由を語っても売れないなら、値段か価値のどちらかが間違っていました。理由は処方箋でなく、薬の説明書です。</li></ul><p>なお、内訳の透明性を看板にしたエバレーンも、2026年5月、中国のファストファッション大手に買収されたと報じられました(執筆時点の報道による)。<strong>理由の物語は共感を作っても、経営そのものは保証しない</strong>——この1行も、語り手は知っておくべき反対側です。</p><h2>対話 — 4つの問い</h2><ol><li>今の値段の理由を、3つの柱(地域・手間・時間)で1行ずつ書き出せますか。</li><li>生産者の名前を、メニューか客室の1行に入れられますか。</li><li>見えない手間を、写真1枚で見せられますか。</li><li>次の値上げの1行を、先に書いておけますか。</li></ol><p>木戸銭の時代に戻る必要はありません。数字の横に、理由の名前を1つ付ける——それだけで、値段は「高い安い」の世界から、「選ぶ理由」の世界に移ります。</p><div class="note">この記事はアイデア共有を目的としています。木戸銭・湯銭は江戸の風俗の一般知識として、エバレーンの取り組みと買収報道は執筆時点の情報として紹介しています。価格設定は各宿の経営判断であり、本記事は考え方の共有です。</div><h2>次に読む</h2><ul><li><a href="#transparent-tomato-presentation">【季節限定】透明トマトで魅せる、一皿の演出力</a> — 一皿の理由を見せる実践の話</li><li><a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a> — 朝食の値段の計算の話</li><li><a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a> — 値段を伝える瞬間の言葉の話</li><li><a href="#branding-10year-asset">10年後に何を伝えたいか — 長期資産としてのブランド</a> — 時間の物語を資産にする話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"100"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"価格の「理由」をゲストにどう語るか — 価値の言葉"}],["$","span",null,{"className":"en-only","children":"How to Tell Guests the Reason for Price: Words of Value"}],["$","span",null,{"className":"zh-only","children":"如何告诉客人您的价格的“原因”——有价值的话"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"同じ値段でも「高い」と「価値がある」に分かれる——分けるのは数字でなく理由の言葉。木戸銭に学ぶ「理由が名前だった時代」と、内訳を公開するブランドから、価格の理由の語り方を整理します。"}],["$","span",null,{"className":"en-only","children":"The same price lands as \"expensive\" with one guest and \"worth it\" with another — what divides them is not the number but the words of reason. From kido-sen gate money, when the reason was the name, to brands that publish their breakdowns — telling the reason for price."}],["$","span",null,{"className":"zh-only","children":"价格不仅仅是数字，而是一个原因的故事。这是一篇用价值语言谈论价格原因的基础文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_branding-price-story.jpg","alt":"価格の「理由」をゲストにどう語るか — 価値の言葉"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.23"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1962,<p>The same ¥15,000 stay lands with one guest as "expensive" and with another as "worth it." What divides them is not the number but <strong>the words of the reason</strong>. This article is about the craft of telling the reason for price in words of value.</p>
+
+<h2>The age when the reason was the name</h2>
+
+<p>At Edo spectacles and sumo tournaments, the fee paid at the entrance gate was called <strong>kido-sen</strong> — gate money. Enter a bathhouse, and it was yu-sen — bath money. The payments of daily life carried, right in their names, what the coin was for. <strong>The reason for the payment was the name of the price.</strong> And a property’s price list today? "Room charge," "service charge," "tax" — the reason has left the words, and only the numbers remain. Telling the reason for price is re-attaching the lost name.</p>
+
+<h2>The company that made the breakdown its signboard</h2>
+
+<div class="stats"><span class="tag">CASE</span><strong>Everlane, the apparel company founded in San Francisco in 2010, grew with "radical transparency" as its signboard — publishing, on each product page, the cost breakdown of materials, labor, and transport, and the margin against traditional retail</strong> — Where it is made, what it costs, what is added on. The breakdown itself became the language of the brand. (Per the company’s public information and, among others, Harvard Business School case studies.)</div>
+
+<p>Why it is interesting: disclosing the breakdown is not the apology "we are not expensive" but <strong>a report of "what we have chosen."</strong> When what you are paying for is clear, the price changes from a number for comparing into a number for choosing. The essence: <strong>disclosing the reason is not explaining the price — it is handing over a standard for choosing.</strong></p>
+
+<h2>3 pillars of reason — region, labor, time</h2>
+
+<ol>
+<li><strong>Region</strong> — The producer’s name, in one line. "The eggs at this breakfast were gathered this morning at Mr./Ms. ○○’s coop."</li>
+<li><strong>Labor</strong> — One invisible labor. "Every morning, the bath’s fire of firewood is adjusted by hand."</li>
+<li><strong>Time</strong> — One measure of time taken. "The beams of this building are wood dried ten years in the mountains."</li>
+</ol>
+
+<p>What the three pillars share is that all are <strong>things money cannot buy today</strong>. Region, labor, time — none can be mass-produced in a factory. Naming what cannot be bought: that is the work that changes a price from "expensive" to "worth it."</p>
+
+<h2>The craft of telling — one card, up to 3 lines</h2>
+
+<p>The reason sits in the room as one card. One line of text, one photograph (the producer’s hands, the firewood fire, the grain of the beams). And <strong>no more than three lines</strong>. The longer a reason is written, the thinner it gets — a price followed by five lines of explanation smells of excuse. A reason that cannot be written in one line is a sign it has not yet been distilled into a reason.</p>
+
+<h2>Raising the price — the greatest occasion for telling the reason</h2>
+
+<p>The moment a property’s words of reason are most tested is a price increase. Change it silently, and only the number stays in memory. <strong>Add one line, and the increase becomes a re-report of the reason</strong> — "With electricity and logistics costs rising, we are revising breakfast by ¥200. The menu does not change." The sheet of a price increase is also a reopening of dialogue with the regular guests. Guests who leave a property that does not tell its reason are not leaving because of the price.</p>
+
+<h2>The other side — 5 traps of words of reason</h2>
+
+<ul>
+<li><strong>Turning cost into an excuse</strong> — "It is expensive because it costs us" is not a reason. Value is decided not by cost but by the guest’s experience.</li>
+<li><strong>Excess of reasons</strong> — Explain everything, and the weight of the number disappears. Reasons: up to three lines per room.</li>
+<li><strong>False reasons</strong> — A reason you cannot tell is better left untold. Words that collapse once make all the other words suspect.</li>
+<li><strong>Exposure to comparison</strong> — Break the costs down too finely, and you also hand over material for a price war. Disclose in units of "what we chose."</li>
+<li><strong>Reason cannot save a price</strong> — If it still does not sell once the reason is told, either the price or the value was wrong. The reason is not a prescription; it is the package insert.</li>
+</ul>
+
+<p>And note: Everlane, the brand that made breakdown transparency its signboard, was reported in May 2026 to have been acquired by a major Chinese fast-fashion group (per reporting as of writing). <strong>A story of reason creates sympathy, but guarantees nothing about the business itself</strong> — a line on the other side that the teller, too, should know.</p>
+
+<h2>Dialogue — 4 questions</h2>
+
+<ol>
+<li>Can you write out the reasons for your current prices, one line each, on the three pillars (region, labor, time)?</li>
+<li>Can a producer’s name go into one line of the menu or the room?</li>
+<li>Can you show one invisible labor in a single photograph?</li>
+<li>Can you write, in advance, the one line of your next price increase?</li>
+</ol>
+
+<p>There is no need to return to the age of kido-sen. Attach one name of reason beside the number — that alone moves the price from the world of "expensive or cheap" into the world of "a reason to choose."</p>
+
+<div class="note">This article is intended for sharing ideas. Kido-sen and yu-sen are introduced as general knowledge of Edo customs; Everlane’s program and the acquisition reports are information as of writing. Pricing is each property’s management decision; this article shares a way of thinking.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#transparent-tomato-presentation">Seasonal: The Presentation Power of a Single Transparent Tomato</a> — showing the reason for one plate, in practice</li>
+<li><a href="#breakfast-revenue-math">Breakfast Revenue: The Math of Guests x Price x Add-on</a> — calculating the price of breakfast</li>
+<li><a href="#upselling-front-desk">Upselling: The Basics of the "One More Push" at the Front Desk</a> — the words of the moment a price is conveyed</li>
+<li><a href="#branding-10year-asset">What to Tell in 10 Years: Brand as a Long-Term Asset</a> — turning the story of time into an asset</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tec0,<p>价格是<strong>“一个关于原因的故事”而不是“数字”</strong>。得天独厚的山产、海鲜、农场的蔬菜、酷炫咖啡馆的豆子，还有看起来像时尚建筑的空间——有道理的价格才会被客人接受。本文是一篇基础文章，用价值的语言解释价格的原因。</p><h2>1、为什么需要理由？</h2><ul><li>客人是<strong>与其说“贵/便宜”，不如说“可以接受吗？”</strong>判断通过。</li><li>没有理由的价格是“贵”，有理由的价格是“有价值”。</li><li>原因是即使你支付了OTA费用，它仍然被选择（参见费用可视化文章）。</li></ul><h2>2. 三大理由（提案）</h2><ol><li><strong>地区</strong> — 生产者的名称，例如“我们在该区域使用 XX 的 XX”。</li><li><strong>时间和精力</strong> ——“我们从凌晨4点就开始准备”、“我们一个一个房间都在认真处理”等无形的努力。</li><li><strong>时间</strong> — 一个关于时间的故事，例如“我使用需要 10 年才能生长的木材。”</li></ol><h2>3. 如何说话——在一张卡片上</h2><ul><li>在客房内的一张卡片上显示“价格原因”（不要使其成为长文本）。</li><li>例：“这份早餐的蔬菜是___先生今天早上在山上采摘的，所以价格是○○日元。”</li><li>附上制作者和努力的照片（山脉、海洋、自然、农业、食物）。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“如何向客人传达价格的‘原因’——价值之言” 从五年前到现在，客人的期望已经发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>品牌推广工作增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>三大支柱</b><span>地区/努力/时间</span></div><div class="stat"><b>1 件</b><span>理由卡</span></div><div class="stat"><b>1 行</b><span>生产商名称</span></div></div><div class="note"><span class="tag">InnBuddy 笔记</span>价格的原因是<strong>“一个有价值的故事”而不是一个“借口”</strong>。谈起原因，价格从“贵”变成了“值”。</div><h2>对话列表</h2><ul><li>1：根据三个支柱（区域、努力和时间）写下当前价格的原因</li><li>2：将一位制作人的名字写在菜单或卡片上</li><li>3：用照片展示一个劳动和努力的故事</li><li>4：记录客人的反应（是否满意）</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/branding-10year-asset","children":["- ",["$","span",null,{"className":"ja-only","children":"10年後に何を伝えたいか — 長期資産としてのブランド"}],["$","span",null,{"className":"en-only","children":"What to Tell in 10 Years: Brand as a Long-Term Asset"}],["$","span",null,{"className":"zh-only","children":"10年后你想传达什么？ - 品牌作为长期资产"}]]}],["$","$L8",null,{"href":"/journal/articles/mountain-water-coffee","children":[["$","span",null,{"className":"ja-only","children":"山の水で淹れるコーヒー — 自然の中で味わう一杯の設計"}],["$","span",null,{"className":"en-only","children":"Coffee Brewed with Mountain Water: Designing a Cup in Nature"}],["$","span",null,{"className":"zh-only","children":"用山水冲泡的咖啡——设计一杯在大自然中享受的咖啡"}]," -"]}]]}]
+10:null

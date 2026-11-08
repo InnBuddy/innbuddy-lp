@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-river-living.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1f1f,<p>川は、宿の敷地の外にあるのに、宿の体験の多くを担ってくれる存在です。涼をくれ、音をくれ、遊び場をくれ、食の恵みをくれます。ですが同時に、川は日本で最も多くの人が亡くなる水辺でもあるのです。この記事は、川の豊かさと川の危うさを、同じ1枚の紙に書きます。どちらかだけを書く案内は、川を知っている案内とは言えないからです。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1f1f,<p>川は、宿の敷地の外にあるのに、宿の体験の多くを担ってくれる存在です。涼をくれ、音をくれ、遊び場をくれ、食の恵みをくれます。ですが同時に、川は日本で最も多くの人が亡くなる水辺でもあるのです。この記事は、川の豊かさと川の危うさを、同じ1枚の紙に書きます。どちらかだけを書く案内は、川を知っている案内とは言えないからです。</p>
 
 <h2>1. 川の音は、なぜ気持ちいいのでしょうか</h2>
 <p>せせらぎの心地よさには、研究の裏付けが蓄積されつつあるのです。自然音の研究では、水の音・風の音・鳥の声が、リラックスや日常からの解放といった回復的な体験と結びつきやすいことが、インタビュー研究で示されています（Ratcliffeら）。さらに、川の流れる音を10分間聴いた後には回復の自己評価が改善し、しかも「本物の川の生録」でも「人工的に合成した音」でも効果の大きさが変わらなかった——という168人を対象とした実験も報告されています。川の音は、それ自体が回復的なのです。</p>
@@ -41,10 +106,47 @@ a:"$Sreact.suspense"
 <li><a href="#idea-ecotourism-stay">エコツーリズムを宿に取り入れる — 森・川・海の観察を宿の体験に</a> — 水辺の観察を体験にする設計</li>
 <li><a href="#idea-village-walk-path">集落の散歩道 — 集落の小径・水路・祠を巡る散歩マップのアイデア</a> — 川沿いの道を歩く地図</li>
 <li><a href="#idea-island-stay-wind-water">島の宿から考える — 東南アジアの島の宿に学ぶ風と水の過ごし方アイデア</a> — 島の風と水の暮らし</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","149"]}]]}],["$","h1",null,{"children":"川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"}],["$","p",null,{"className":"excerpt","children":"川の流れる音を10分聴くと回復の自己評価が改善するという実験があります。一方、日本の水難事故の最多発生場所は河川です。川の音の科学と鵜飼の1300年、川辺の朝食の設計と、絶対に省けない安全の数字。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-river-living.jpg","alt":"川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.29"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-farm-one-day","children":["← ","畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-mountain-entrance-stay","children":["山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"149"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"}],["$","span",null,{"className":"en-only","children":"Living with River - Ideas for River Play, Sound of River, Breakfast by Riverside"}],["$","span",null,{"className":"zh-only","children":"与河同居——河边玩耍、河声、河边早餐的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"川の流れる音を10分聴くと回復の自己評価が改善するという実験があります。一方、日本の水難事故の最多発生場所は河川です。川の音の科学と鵜飼の1300年、川辺の朝食の設計と、絶対に省けない安全の数字。"}],["$","span",null,{"className":"en-only","children":"There is an experiment in which ten minutes of the sound of a flowing river improved self-rated restoration. Yet the river is also the waterside where the greatest number of people in Japan lose their lives. The science of the river’s sound, the 1,300 years of cormorant fishing, the design of breakfast by the river — and the figures of safety that can never be left out."}],["$","span",null,{"className":"zh-only","children":"河边嬉戏，听河声，河边吃早餐，河边散步。我们收集了一些小创意，帮助您享受河畔生活，以及丰富您在旅馆的时光的小贴士。我们还将介绍果田和河流的结合。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-river-living.jpg","alt":"川のある暮らし — 川遊び・川の音・川辺の朝食のアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.29"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1fe3,<p>The river lies outside the inn’s grounds, and yet it carries a large share of the inn’s experience. It gives coolness, sound, a place to play, and the gifts of food. At the same time, the river is also the waterside where the greatest number of people in Japan lose their lives. This article writes the richness of the river and the danger of the river on the same sheet of paper. A guide that tells only one of the two is not a guide that knows the river.</p>
+
+<h2>1. Why the sound of a river feels so good</h2>
+<p>The pleasantness of the murmur now has a growing body of research behind it. In the study of natural sounds, interview research has shown that the sounds of water, wind, and birdsong tend to accompany restorative experiences such as relaxation and release from the everyday (Ratcliffe et al.). Further, an experiment with 168 participants reported that after ten minutes of listening to the sound of a flowing river, self-rated restoration improved — and the size of the effect did not change between a live field recording of a real river and an artificially synthesized sound. The sound of the river is restorative in itself.</p>
+<div class="stats"><span class="tag">RESEARCH</span><strong>What "the same effect for a live recording and a synthesized sound" means</strong> — The restorative effect of the river’s sound is likely to come from the nature of the sound itself, not from the conviction that "this is the real thing" (a label effect). Even so, the conclusion for an inn is a plain one — if a real river runs outside the window, the best thing is to prepare a seat and an hour for listening to it. The river’s sound is heard best at night, when all around falls quiet. There are inns that add a single line to their good-night guidance: "Try opening the window."</div>
+
+<h2>2. The culture of the river — ukai, 1,300 years old</h2>
+<p>Keeping company with the river is not all play. On the Nagara River in Gifu, ukai — cormorant fishing — continues as a fixture of summer. Its history is said to run back more than 1,300 years: from a boat lit by watch fires, the cormorant master works his cormorants and takes the ayu. The Nagara River’s ukai is Japan’s only "imperial cormorant fishing," and the ayu taken at the imperial fishing ground are delivered to the Imperial Palace. The full set of ukai implements, 122 items, is a national Important Tangible Folk Cultural Property (per the Gifu City ukai guide).</p>
+<p>What this case teaches an inn is that <strong>the river landscape holds a layer of history — "fishing and the technology of its tools."</strong> Put even one line about that river’s fishing into the guide of a riverside inn — the ayu, the friend-fishing of the ayu, the river fishermen, the relation between rising water and the catch — and river play changes from "play" into "a long acquaintance with the river."</p>
+
+<h2>3. The figures of safety — the river is more dangerous than the sea</h2>
+<p>From here comes the part that matters most in this article. In the National Police Agency’s statistics, the dead and missing of water accidents in 2024 numbered 816, of whom rivers, lakes, and ponds claimed 327. Among children’s water accidents, from 2003 to 2019, 992 children died or went missing, and by place of occurrence <strong>the river was the most common, at 48%</strong>. In the analysis of the River Foundation, in more than half (52%) of the water accidents reported in the press, no one nearby took rescue action — drowning is hard for those around to notice. What is more, accidents of adult-only groups accounted for 38%, and of family groups or groups of children led by adults for 24%. <strong>Even with adults present, safety is not secured</strong> (per reporting of the Asahi Shimbun).</p>
+<ul>
+<li><strong>Never take your eyes off the children</strong> — Even in the shallows, the riverbed can suddenly drop away. The Kanagawa Prefectural Police call for "never letting children play in the water alone" precisely because this accident happens every summer.</li>
+<li><strong>Life jackets</strong> — Standard equipment for river play. Among children the habit of wearing them is spreading; among adults it has not yet.</li>
+<li><strong>Know the rising water</strong> — Rain upstream and dam releases change the river’s face in a few minutes. Before playing in the river, ask someone local about the river’s condition that day.</li>
+<li><strong>Have the locals choose the place</strong> — The speed and the depth of the current cannot be read by an amateur eye. Between where the local children swim and where they do not, the difference is large.</li>
+</ul>
+
+<h2>4. Breakfast by the river, and the river walk</h2>
+<p>Breakfast to the sound of the river is the signboard experience of an inn with a river, but its design demands preparations particular to the water’s edge. A place in the shade, measures against insects (ants above all), wetness and wind, and a layout that keeps the dishes from being carried off — breakfast by the river is breakfast-in-the-garden design with a single added element, "water." The realistic start is one table facing the watercourse of the garden.</p>
+<p>The promenade along the river becomes the leading figure of the map of the <a href="#idea-village-walk-path">Village Walking Path - Idea for Walking Map Touring Path, Waterway, Shrine in Village</a>. Watching the stones of the riverbed is its own pleasure — the rounder the stone, the farther it has traveled from upstream. The viewpoint of "listening" to the sound of the current shares its design with <a href="#idea-forest-sound-collection">Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room</a>.</p>
+
+<h2>5. The inns it suits and the inns it does not — and river fish</h2>
+<p>A riverside inn carries at once its finest location and its greatest responsibility. Preparations against water accidents — a life ring at the ready, waterproof measures for the phone, a card that writes out how to call for help — should be standard equipment of the riverside inn. Whether the inn can itself order the river off-limits at high water is another measure of a river inn’s mettle. Know, too, that the river’s water quality changes with the conditions upstream (agricultural chemicals, turbidity after heavy rain). When river fish goes into the kitchen, keep the line that river fish is, as a rule, served cooked (raw freshwater fish carries the risk of parasites).</p>
+<div class="note"><span class="tag">InnBuddy VIEW</span>The guide card of an inn with a river should carry two things: the ways of playing, and the places not to swim. <strong>A single line of prohibition is proof of knowing the river.</strong> Only the inn that knows the figures can lend the river out with confidence. When the guest’s memory of playing in that river and the inn’s memory of knowing it stand together, the trust of a river inn is born.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. For activities at the water’s edge, include safety measures and the preparation of clothing and tools in the design.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-spring-water-taste">Taste Water of Satoyama - Ideas for Making Spring, Well, Stream Water into Experience</a> — tasting the water beyond the river</li>
+<li><a href="#idea-ecotourism-stay">Incorporate Ecotourism into Inn - Make Forest, River, Sea Observation into Experience at Inn</a> — designing the observation of the waterside into experience</li>
+<li><a href="#idea-village-walk-path">Village Walking Path - Idea for Walking Map Touring Path, Waterway, Shrine in Village</a> — a map for walking the road along the river</li>
+<li><a href="#idea-island-stay-wind-water">Learn from Island Inn - Ideas for Wind and Water Lifestyle Learning from Southeast Asian Island Inn</a> — the life of wind and water on the islands</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1091,<p>本文分享一些可供尝试的想法。住在河边，就是在一些客栈里在河里玩耍，在一些客栈里给果田浇水，在一些客栈里帮孩子们打鱼。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>河水的潺潺声，河水的声音，河边的早餐，河边的散步。住在河边，让你在客栈的时光多了几分凉爽，也多了几分丰富。我们收集了一些关于住在河边的小想法，这将丰富您在旅馆的时光。</p><h2>与河流共存的创意集合</h2><ul><li><strong>住宿+河流活动</strong> — 让河边嬉戏成为附近河流的一次小体验。将脚浸入河水中、捡起河石的体验是夏季一项有趣的活动。考虑到安全，选择浅水的地方，和孩子一起享受，才算安全。一家旅馆将在果田附近河边玩耍的想法介绍为“果田河边嬉戏”。</li><li><strong>一个欣赏河水声音的地方</strong> — 将长凳和椅子放置在可以听到河水声的地方，介绍为可以欣赏河水声的地方。为什么不建议一种以河水声为背景音乐来消磨时间看书或喝茶的方法呢？在一间旅馆中，可以听到河水声音的阳台被称为“河之户阳台”。</li><li><strong>河边早餐</strong> ——让在河边吃早餐的经历成为一个小经历。一边享用早餐，一边聆听河水的声音，品尝果园里种植的水果，将是一段特别的时光。一家旅馆将在河边餐桌上吃早餐的时间介绍为“河边早餐”。</li><li><strong>河流和果田的想法</strong> — 有果园的酒店，河流也是果园的水源。其中一家旅馆推出了一种名为“河流与水果农场”的体验，您可以利用河水在果田里种植水果，并在河边享用水果。品尝河水中生长的水果，可以感受到河流与果田的联系。</li><li><strong>河滨长廊</strong> — 介绍沿河步行道。边散步边听河水的声音，欣赏河花鱼鱼，是里山散步的乐趣。一家旅馆将河滨长廊介绍为“河滨长廊”，并制作了展示河花和鱼的信息板。</li></ul><h2>海外住宿案例——河畔生活方式的住宿创意</h2><p>临河而居是北欧森林旅馆生活的一部分。享受在河里嬉戏、聆听河水的声音。住在河边，让您在旅馆的时光更加丰富。在东南亚的岛屿旅馆中，河边早餐是开始新的一天的重要方式。</p><p>住在河边的旅馆是什么感觉？为什么不从一个可以欣赏河水声音的地方开始呢？</p><h2>开始与小河一起生活的技巧</h2><p>即使不是大河，您也可以从欣赏小溪和水道的声音开始。一家旅馆一开始就把长凳放在可以听到附近溪流声音的地方，客人们都说溪流的声音很棒。即使是一条小河，你也能感受到与河流一起的生活。</p><p>如果您住在有果园的旅馆，为什么不先在果园附近的河里游泳呢？在果田附近的河边玩耍，可以感受到果田与河流的联系。</p><div class="stats"><span class="tag">模拟示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — 介绍一下河流的生活可能会让您感觉凉爽。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。进行河边活动时，请注意安全，合理活动。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>在能听到河水声音的地方放一张长凳</strong> — 作为欣赏河水声音的场所而推出</li><li><strong>计划河边早餐</strong> — 一边聆听河水的声音，一边享用包含果园种植的水果的早餐。</li><li><strong>策划一个河边玩耍的小体验</strong> — 来自将脚浸入河水中并牢记安全的经验</li><li><strong>介绍沿河步行道</strong> — 一边听河水一边赏花、赏鱼的步行道。</li><li><strong>为河流和果田做一个招牌</strong> — 介绍在河边品尝河水中种植的水果体验的招牌。</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-farm-one-day","children":["- ",["$","span",null,{"className":"ja-only","children":"畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア"}],["$","span",null,{"className":"en-only","children":"Experience One Day in Field - Ideas for Enjoying Morning Harvest, Daytime Cooking, Evening Table in One Day"}],["$","span",null,{"className":"zh-only","children":"体验田间的一天 — 享受早晨收割、中午做饭、晚上用餐的一天"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-mountain-entrance-stay","children":[["$","span",null,{"className":"ja-only","children":"山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"}],["$","span",null,{"className":"en-only","children":"Inn as Entrance to Mountain - Ideas for Enjoying Before/After Climbing, Mountain Gear, Mountain Stories"}],["$","span",null,{"className":"zh-only","children":"作为山的入口的旅馆 — 可以在登山前后、登山工具和山的故事中享受的旅馆的想法。"}]," -"]}]]}]
+10:null

@@ -1,15 +1,189 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_foreign-staff-retention-teaching.jpg","image"]
 :HL["/library/journal/ai_retention-team.jpg","image"]
 :HL["/library/journal/ai_foreign-staff-regional-cities.jpg","image"]
 :HL["/library/journal/ai_recruitment-showcase-pr.jpg","image"]
-3:T18a4,<p>外国人スタッフが去るのは、「仕事の量」ではなく<strong>言語と文化の壁</strong>です。本記事は、立ち上がり期間を短縮するオンボーディングの設計と、「聞ける仕組み」の設計を扱います。採用と住まい・手続きの話は地方都市の外国人スタッフの記事で、日本語教育は20フレーズの記事で扱いました。ここでの主題は、その先——<strong>現場での「教え方」</strong>です。</p><h2>「見て盗め」は、翻訳できない文化</h2><p>日本の職人の世界には、「見て盗め」という言葉があります。弟子は質問せず、師匠の背中を見て技を盗む。言葉にされない知識(暗黙知)を、観察と試行で身体に移す文化です。この文化は、実は<strong>言葉と常識を共有する前提</strong>で成立しています。同じ言語で育ち、同じ文脈で育てば、「見るべきところ」は見えます。しかし言語と文化の壁の向こうでは、<strong>見えるはずのものが見えない</strong>。見て盗め、は翻訳できないのです。鍵を渡さずに金庫を開けさせるようなもの——だから外国人スタッフの「教え方」の第一歩は、暗黙知を言葉と絵に替えることです。</p><h2>去る本当の理由 — 3つの「仕組みの欠如」</h2><p>入職3ヶ月前後の「壁」で表面化する問題は、3つに集約されます。</p><ul><li><strong>「聞けない」</strong> — 分からないまま進め、ミスが積み重なる。「聞くのは甘え」と思われているのではないかという不安。</li><li><strong>「文脈が分からない」</strong> — なぜそうするのか、背景が見えない。手順だけ渡されて、意味を渡されない。</li><li><strong>「孤立」</strong> — 誰に相談していいか分からない。休憩の輪に入れない。</li></ul><p>どれも「能力」の問題ではありません。<strong>仕組みの欠如</strong>です。だから解決も人ではなく仕組みに求めます。</p><h2>オンボーディングの設計 — 3つの道具</h2><ul><li><strong>バディ制</strong> — その人の言語で聞ける1名を置く。地方の宿の「パッケージ」に名前を1枚足す感覚です。</li><li><strong>「最初の30日」計画</strong> — 30日でできるようになることを明示し、週1回の短い振り返りを置く。手続きの30日と、業務の30日を分けて書く。</li><li><strong>視覚SOP</strong> — 言葉が限られても分かる手順書。写真とアイコンで作る。標準の書き方(「〜と言います。例:〜」)を多言語・視覚版に展開する形です。</li></ul><h2>「聞ける仕組み」— 質問を資産に変える</h2><ul><li><strong>質問は負担ではない文化</strong> — 「聞いてくれて助かる」を実際の言葉で返す。聞いた人の名を褒める習慣を作る。</li><li><strong>質問の場所と時間</strong> — 毎日10分の「聞いていい時間」を決める。対面が苦手な人には、書いて出せる質問箱も。</li><li><strong>質問→回答→SOP更新のループ</strong> — 1回答えたら、手順書の1行に足す。同じ質問が2回来たら、それは手順書の穴の発見です。質問はコストでなく、<strong>宿の知識が増える瞬間</strong>です。</li></ul><p>このループが回り始めると、面白いことが起きます。教える側の負担が減っていく。聞かれたことを書き足すだけで、次の人への教育が自動的に進む——これが「聞ける環境を作ること」の本当の意味です。<strong>「教え方」とは、知識を伝えることではなく、聞ける環境を作ること</strong>です。新人は能力でなく、仕組みで育ちます。</p><h2>反対側 — 教え方が宿を疲れさせるとき</h2><ul><li><strong>バディの焼き付き</strong> — バディ1人に依存すると、その人が休んだ日に現場が止まります。バディは2名(別の言語でも可)にするか、役割を交代制に。</li><li><strong>30日計画の形骸化</strong> — 振り返りが「報告会」になったら、計画は名目だけになります。聞くのは成果ではなく「困っていることは?」の1問でいい。</li><li><strong>視覚SOPの保守</strong> — 写真の設備が変われば、SOPは嘘の地図になります。更新期限を1行目に書いておく。</li><li><strong>質問の強制</strong> — 「どんどん聞いて」と圧をかけるのは、押し付けです。聞きやすい複数の窓口(対面・書面)を置いて、選ばせる。</li><li><strong>教える側の言葉</strong> — 難しい語彙と速い話し方は、教える側も気づかない壁です。やさしい日本語は、ゲスト向けだけでなく現場同士の共通語になります。</li></ul><p>最初の一歩は、今週、現場の「見て盗む」に頼っている仕事を1つ書き出すことです。ベテランだけができるその手つき——それを、写真と手順の1枚に替えてみる。暗黙知を形式知に変える最初の1枚が、次に来る人の「見える世界」を作ります。</p><div class="note">この記事はアイデア共有を目的としています。「見て盗む」は日本の職人文化の一般論としての紹介です。教育設計は宿の規模・人員に合わせて調整してください。</div><h2>次に読む</h2><ul><li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 採用と住まいの話</li><li><a href="#foreign-staff-japanese-20-phrases">外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方</a> — 言葉の教育の話</li><li><a href="#service-standard-basics">サービスの基本 — 人による差をつけない「標準」</a> — 標準の書き方の話</li><li><a href="#staff-retention-basics">人材定着 — 「ここに働き続けたい」の3つの基本</a> — 定着の土台の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"children":["ARTICLE ","067"]}]]}],["$","h1",null,{"children":"外国人スタッフが定着する宿の「教え方」"}],["$","p",null,{"className":"excerpt","children":"日本の職人の世界では「見て盗め」が美徳でした——でもそれは、言葉と常識を共有する前提の文化。異文化のチームでは、質問は甘えではなく学びの通貨です。オンボーディングと「聞ける仕組み」の設計。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_foreign-staff-retention-teaching.jpg","alt":"外国人スタッフが定着する宿の「教え方」"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.02.08"}],["$","span",null,{"children":"Talent & Hiring"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":"人材定着 — 「ここに働き続けたい」の3つの基本"}]]}]]}],["$","$L2","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}]]}]]}],["$","$L2","recruitment-showcase-pr",{"href":"/journal/articles/recruitment-showcase-pr","children":[["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.22"}],["$","h4",null,{"children":"採用に困らない宿がやっている「見せ方」採用広報"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/ota-commission-visibility","children":["← ","OTA手数料を可視化する"]}],["$","$L2",null,{"href":"/journal/articles/breakfast-buffet-media","children":["朝食をメディア化するビュッフェ設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T18a4,<p>外国人スタッフが去るのは、「仕事の量」ではなく<strong>言語と文化の壁</strong>です。本記事は、立ち上がり期間を短縮するオンボーディングの設計と、「聞ける仕組み」の設計を扱います。採用と住まい・手続きの話は地方都市の外国人スタッフの記事で、日本語教育は20フレーズの記事で扱いました。ここでの主題は、その先——<strong>現場での「教え方」</strong>です。</p><h2>「見て盗め」は、翻訳できない文化</h2><p>日本の職人の世界には、「見て盗め」という言葉があります。弟子は質問せず、師匠の背中を見て技を盗む。言葉にされない知識(暗黙知)を、観察と試行で身体に移す文化です。この文化は、実は<strong>言葉と常識を共有する前提</strong>で成立しています。同じ言語で育ち、同じ文脈で育てば、「見るべきところ」は見えます。しかし言語と文化の壁の向こうでは、<strong>見えるはずのものが見えない</strong>。見て盗め、は翻訳できないのです。鍵を渡さずに金庫を開けさせるようなもの——だから外国人スタッフの「教え方」の第一歩は、暗黙知を言葉と絵に替えることです。</p><h2>去る本当の理由 — 3つの「仕組みの欠如」</h2><p>入職3ヶ月前後の「壁」で表面化する問題は、3つに集約されます。</p><ul><li><strong>「聞けない」</strong> — 分からないまま進め、ミスが積み重なる。「聞くのは甘え」と思われているのではないかという不安。</li><li><strong>「文脈が分からない」</strong> — なぜそうするのか、背景が見えない。手順だけ渡されて、意味を渡されない。</li><li><strong>「孤立」</strong> — 誰に相談していいか分からない。休憩の輪に入れない。</li></ul><p>どれも「能力」の問題ではありません。<strong>仕組みの欠如</strong>です。だから解決も人ではなく仕組みに求めます。</p><h2>オンボーディングの設計 — 3つの道具</h2><ul><li><strong>バディ制</strong> — その人の言語で聞ける1名を置く。地方の宿の「パッケージ」に名前を1枚足す感覚です。</li><li><strong>「最初の30日」計画</strong> — 30日でできるようになることを明示し、週1回の短い振り返りを置く。手続きの30日と、業務の30日を分けて書く。</li><li><strong>視覚SOP</strong> — 言葉が限られても分かる手順書。写真とアイコンで作る。標準の書き方(「〜と言います。例:〜」)を多言語・視覚版に展開する形です。</li></ul><h2>「聞ける仕組み」— 質問を資産に変える</h2><ul><li><strong>質問は負担ではない文化</strong> — 「聞いてくれて助かる」を実際の言葉で返す。聞いた人の名を褒める習慣を作る。</li><li><strong>質問の場所と時間</strong> — 毎日10分の「聞いていい時間」を決める。対面が苦手な人には、書いて出せる質問箱も。</li><li><strong>質問→回答→SOP更新のループ</strong> — 1回答えたら、手順書の1行に足す。同じ質問が2回来たら、それは手順書の穴の発見です。質問はコストでなく、<strong>宿の知識が増える瞬間</strong>です。</li></ul><p>このループが回り始めると、面白いことが起きます。教える側の負担が減っていく。聞かれたことを書き足すだけで、次の人への教育が自動的に進む——これが「聞ける環境を作ること」の本当の意味です。<strong>「教え方」とは、知識を伝えることではなく、聞ける環境を作ること</strong>です。新人は能力でなく、仕組みで育ちます。</p><h2>反対側 — 教え方が宿を疲れさせるとき</h2><ul><li><strong>バディの焼き付き</strong> — バディ1人に依存すると、その人が休んだ日に現場が止まります。バディは2名(別の言語でも可)にするか、役割を交代制に。</li><li><strong>30日計画の形骸化</strong> — 振り返りが「報告会」になったら、計画は名目だけになります。聞くのは成果ではなく「困っていることは?」の1問でいい。</li><li><strong>視覚SOPの保守</strong> — 写真の設備が変われば、SOPは嘘の地図になります。更新期限を1行目に書いておく。</li><li><strong>質問の強制</strong> — 「どんどん聞いて」と圧をかけるのは、押し付けです。聞きやすい複数の窓口(対面・書面)を置いて、選ばせる。</li><li><strong>教える側の言葉</strong> — 難しい語彙と速い話し方は、教える側も気づかない壁です。やさしい日本語は、ゲスト向けだけでなく現場同士の共通語になります。</li></ul><p>最初の一歩は、今週、現場の「見て盗む」に頼っている仕事を1つ書き出すことです。ベテランだけができるその手つき——それを、写真と手順の1枚に替えてみる。暗黙知を形式知に変える最初の1枚が、次に来る人の「見える世界」を作ります。</p><div class="note">この記事はアイデア共有を目的としています。「見て盗む」は日本の職人文化の一般論としての紹介です。教育設計は宿の規模・人員に合わせて調整してください。</div><h2>次に読む</h2><ul><li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 採用と住まいの話</li><li><a href="#foreign-staff-japanese-20-phrases">外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方</a> — 言葉の教育の話</li><li><a href="#service-standard-basics">サービスの基本 — 人による差をつけない「標準」</a> — 標準の書き方の話</li><li><a href="#staff-retention-basics">人材定着 — 「ここに働き続けたい」の3つの基本</a> — 定着の土台の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"className":"ARTICLE","children":"067"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"外国人スタッフが定着する宿の「教え方」"}],["$","span",null,{"className":"en-only","children":"The \"Teaching Method\" Behind Foreign Staff Who Stay"}],["$","span",null,{"className":"zh-only","children":"留有外籍员工的旅馆“如何授课”"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"日本の職人の世界では「見て盗め」が美徳でした——でもそれは、言葉と常識を共有する前提の文化。異文化のチームでは、質問は甘えではなく学びの通貨です。オンボーディングと「聞ける仕組み」の設計。"}],["$","span",null,{"className":"en-only","children":"In the world of Japan’s craftsmen, \"steal with your eyes\" was a virtue — but that is a culture premised on shared language and common sense. On a cross-cultural team, questions are not dependence; they are the currency of learning. The design of onboarding and of \"a structure where people can ask.\""}],["$","span",null,{"className":"zh-only","children":"旨在通过入职和“监听系统”缩短启动时间。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_foreign-staff-retention-teaching.jpg","alt":"外国人スタッフが定着する宿の「教え方」"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.02.08"}],["$","span",null,{"children":"Talent & Hiring"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T18b6,<p>What makes foreign staff leave is not "the volume of work" but <strong>the wall of language and culture</strong>. This article handles the design of onboarding that shortens the ramp-up period, and the design of "a structure where people can ask." Hiring, housing, and procedures were handled in the foreign-staff-in-regional-cities article, and Japanese-language training in the twenty-phrases article. The subject here is what comes after — <strong>the "teaching method" on the floor</strong>.</p>
+
+<h2>"Steal with your eyes" is a culture that cannot be translated</h2>
+
+<p>In the world of Japan’s craftsmen there is the saying "steal with your eyes" (mite nusume). The apprentice asks no questions, but steals the technique by watching the master’s back. It is a culture of transferring unspoken knowledge (tacit knowledge) into the body through observation and trial. This culture, in fact, stands <strong>on the premise of shared language and common sense</strong>. Raised in the same language and the same context, one can see "what to watch." But beyond the wall of language and culture, <strong>what should be visible is not</strong>. "Steal with your eyes" cannot be translated. It is like making someone open a safe without handing them the key — which is why the first step in "teaching" foreign staff is turning tacit knowledge into words and pictures.</p>
+
+<h2>The real reasons people leave — 3 "missing structures"</h2>
+
+<p>The problems that surface at the "wall" around three months after joining condense into three.</p>
+
+<ul>
+<li><strong>"Can’t ask"</strong> — Proceeding without understanding, and mistakes piling up. The anxiety that asking might be seen as dependence.</li>
+<li><strong>"Can’t see the context"</strong> — Why it is done that way; the background is invisible. Handed the procedure only, not the meaning.</li>
+<li><strong>"Isolation"</strong> — Not knowing whom to consult. Unable to enter the circle at break time.</li>
+</ul>
+
+<p>None of these is a problem of "ability." They are <strong>missing structures</strong>. So the solution, too, is sought not in the person but in the structure.</p>
+
+<h2>Designing onboarding — 3 tools</h2>
+
+<ul>
+<li><strong>The buddy system</strong> — Place one person who can be asked in that person’s own language. The feeling of adding one sheet of names to a regional property’s "package."</li>
+<li><strong>The "first 30 days" plan</strong> — State explicitly what can be learned in 30 days, and set one short weekly review. Write the 30 days of procedures and the 30 days of the work separately.</li>
+<li><strong>Visual SOPs</strong> — Manuals understandable even with limited language. Made with photographs and icons. A matter of unfolding the standard way of writing ("We say XX. Example: XX") into multilingual, visual editions.</li>
+</ul>
+
+<h2>A "structure where people can ask" — turning questions into assets</h2>
+
+<ul>
+<li><strong>A culture where questions are not a burden</strong> — Return, in actual words, "asking helps us." Build the habit of praising the asker by name.</li>
+<li><strong>A place and a time for questions</strong> — Set ten minutes a day of "you may ask anything." For those uncomfortable face to face, a question box where questions can be written and dropped in.</li>
+<li><strong>The loop: question → answer → SOP update</strong> — Once answered, add one line to the manual. If the same question comes twice, that is the discovery of a hole in the manual. A question is not a cost; <strong>it is the moment the property’s knowledge grows</strong>.</li>
+</ul>
+
+<p>Once this loop starts turning, something interesting happens. The burden on the teaching side keeps shrinking. Just writing down what was asked advances the next person’s training automatically — this is the real meaning of "building a place where people can ask." <strong>The "teaching method" is not conveying knowledge; it is building a place where people can ask.</strong> Newcomers grow not by ability but by structure.</p>
+
+<h2>The other side — when the teaching exhausts the property</h2>
+
+<ul>
+<li><strong>Burnout of the buddy</strong> — Depend on one buddy, and the floor stops on that person’s day off. Make buddies two (in different languages, if need be), or rotate the role.</li>
+<li><strong>The 30-day plan becoming nominal</strong> — If the review turns into "a reporting session," the plan exists in name only. The one question to ask is not results but "what are you struggling with?"</li>
+<li><strong>Maintaining visual SOPs</strong> — When the equipment in the photographs changes, the SOP becomes a false map. Write the renewal date on the first line.</li>
+<li><strong>Forcing questions</strong> — Pressuring people with "ask anything, anytime" is pushing. Set several easy entrances (face to face, in writing) and let people choose.</li>
+<li><strong>The teacher’s words</strong> — Difficult vocabulary and fast speech are walls the teaching side does not notice. Easy Japanese becomes a shared language not only for guests but within the floor itself.</li>
+</ul>
+
+<p>The first step is, this week, to write out one job on your floor that still relies on "stealing with your eyes." That technique only the veteran can do — try turning it into one sheet of photographs and steps. The first sheet that turns tacit knowledge into explicit knowledge creates "the visible world" for the person who comes next.</p>
+
+<div class="note">This article is intended for sharing ideas. "Stealing with your eyes" is introduced as a general account of Japanese craftsman culture. Please adjust the training design to your property’s scale and staffing.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#foreign-staff-regional-cities">Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design</a> — hiring and housing</li>
+<li><a href="#foreign-staff-japanese-20-phrases">Japanese Training for Foreign Staff: How to Teach 20 Usable Phrases</a> — teaching the language</li>
+<li><a href="#service-standard-basics">Service Basics: The "Standard" That Does Not Vary by Person</a> — how to write a standard</li>
+<li><a href="#staff-retention-basics">Staff Retention: The Three Basics of "Wanting to Keep Working Here"</a> — the foundation of retention</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tfde,<p>外籍员工离开不是因为工作量，而是因为语言和文化障碍。本文阐述了缩短启动周期的onboarding设计以及“监听机制”的设计。</p>
+<h2>1. 离职的真正原因</h2>
+<p>“三个月墙”——这是日常工作的困难浮现出来的时刻。原因有以下三个：</p>
+<ul>
+<li><strong>“我听不到。”</strong> — 不理解就继续前进，错误就会累积。</li>
+<li><strong>“我不明白上下文。”</strong> — 我看不到我为什么要这么做的背景。</li>
+<li><strong>“隔离”</strong> — 我不知道该跟谁说话。</li>
+</ul>
+<p>在这三个方面，我们离开的不是“能力”，而是“缺乏结构”。</p>
+<h2>2. 入职设计</h2>
+<ul>
+<li><strong>好友系统</strong> — 指定一名能讲该人语言的人。</li>
+<li><strong>“前30天”计划</strong> — 明确的目标+定期检查。</li>
+<li><strong>《视觉标准操作流程》</strong> — 即使语言能力有限的人也可以理解的手册（照片和图标）。</li>
+</ul>
+<h2>3.“倾听机制”</h2>
+<ul>
+<li><strong>“问题不是负担”文化</strong> — 安全的聆听环境。</li>
+<li><strong>“提问角”</strong> — 设定聆听的地点和时间。</li>
+<li><strong>“问题→答案→SOP更新”循环</strong> ——把问题变成资产。</li>
+</ul>
+<p>只有有一个可以“倾听”的环境，新人才能通过“提问”学习，摆脱“孤立”。</p>
+<h2>4、效果</h2>
+<ul>
+<li>启动周期更短（例如减少 40%）。</li>
+<li>提高 6 个月保留率（例如 85%）。</li>
+<li>多元化的团队 → 通过多语言服务改善宾客体验。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>与五年前相比，客人对留有外籍员工的旅馆的“教学方法”的期望发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>人力资源和招聘工作增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>减少 40%</b><span>（数值示例）上升期</span></div><div class="stat"><b>85%</b><span>（数值示例）6个月保留率</span></div><div class="stat"><b>1人</b><span>好友（用该人的语言）</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>“教学”不是“传授知识”，而是“创造一个人们可以倾听的环境”。当有一个倾听的系统时，新员工将根据系统而不是他们的能力来成长。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：盘点当前的入职情况（缺少什么）</li>
+<li>第二周：好友系统设计（1人）</li>
+<li>第 3 周：制定“前 30 天”计划</li>
+<li>第 4 周：创建视觉 SOP（照片/图标）</li>
+<li>第五周：“提问角”+循环运行开始</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","span",null,{"className":"en-only","children":"Staff Retention: The Three Basics of \"Wanting to Keep Working Here\""}],["$","span",null,{"className":"zh-only","children":"留住人力资源：“我想继续在这里工作”的三个基础"}]]}]]}]]}],["$","$L8","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","span",null,{"className":"en-only","children":"Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design"}],["$","span",null,{"className":"zh-only","children":"地方城市的外籍员工——与城市地区的差异及保留设计"}]]}]]}]]}],["$","$L8","recruitment-showcase-pr",{"href":"/journal/articles/recruitment-showcase-pr","children":[["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","span",null,{"className":"en-only","children":"The \"Show, Don't Post\" Hiring Playbooks of Lodges That Never Struggle to Staff"}],["$","span",null,{"className":"zh-only","children":"招人不成问题的旅馆进行“如何秀”招人宣传"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/ota-commission-visibility","children":["- ",["$","span",null,{"className":"ja-only","children":"OTA手数料を可視化する"}],["$","span",null,{"className":"en-only","children":"Making OTA Commissions Visible"}],["$","span",null,{"className":"zh-only","children":"可视化 OTA 费用"}]]}],["$","$L8",null,{"href":"/journal/articles/breakfast-buffet-media","children":[["$","span",null,{"className":"ja-only","children":"朝食をメディア化するビュッフェ設計"}],["$","span",null,{"className":"en-only","children":"Turning Breakfast Into Media: Buffet Design"}],["$","span",null,{"className":"zh-only","children":"将早餐变成媒体的自助餐设计"}]," -"]}]]}]
+10:null

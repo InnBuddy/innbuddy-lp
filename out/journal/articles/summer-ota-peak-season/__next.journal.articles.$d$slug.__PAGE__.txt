@@ -1,15 +1,192 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_hero-summer-beach.jpg","image"]
 :HL["/library/journal/ai_guest-data-river.jpg","image"]
 :HL["/library/journal/ai_instagram-cold-start.jpg","image"]
 :HL["/library/journal/ai_landing-page-3-seconds.jpg","image"]
-3:T1f12,<p>夏は、年間売上を左右する最大の需要ウィンドウです。そして、忘れられがちな事実が一つあります。<strong>OTA検索の順位と準備は、シーズンが始まる前に決まる</strong>。7月に「そろそろ上位を取りに行こう」と思ったとき、勝負の多くは終わっています。本記事は、夏の繁忙期に検索上位を取るための3つの施策——写真とタイトルで「クリック」を取る、価格設計で「需要」を取る、レビューで「転換と継続」を取る——を、5月に遡る<strong>60日の逆算カレンダー</strong>に組み替えて整理します(数字は典型的パターンの参考値・一例)。</p><h2>なぜ60日前か — 予約は想像より早い</h2><p>国内の宿泊需要はチェックインの2〜4週間前に動き出し、インバウンドはさらに早い——遠い市場ほど早く、直前に決める市場との二極化もあります(訪日客の予約タイミングの数字は、検索行動の記事で公表データを整理しました)。つまり、夏の間口が開き始める5〜6月に、検索結果の姿はもう審査されています。上位1ページに入れないことは、その市場で「存在しない」のとほぼ同義——この前提に立てば、やることは逆算で決まります。</p><h2>60日の逆算カレンダー</h2><ul><li><strong>5月末まで</strong> — 最初の1枚とタイトルの差し替え(施策1)</li><li><strong>6月中旬まで</strong> — 3段階の価格計画と、週次の上昇ペースの確定(施策2)</li><li><strong>6月末まで</strong> — レビュー依頼のQRと返信テンプレの準備(施策3)</li><li><strong>繁忙期は毎週</strong> — 競合との価格差・クリック・転換の定点確認</li><li><strong>シーズン終了の週</strong> — 数字の記録と翌年のメモ(この記事を書き直す日)</li></ul><h2>施策1 — 写真とタイトルで「クリック」を取る</h2><p>サムネイル(最初の1枚)は看板です。夏に効く写真の3原則は、光と生活感と余白。</p><ul><li><strong>光</strong> — 朝日と自然光を優先する。天井照明だけの室内写真は、夏の選択肢としては外します。</li><li><strong>生活感</strong> — ベッドの足元のタオル、テーブルの麦茶。「ゲストが入室する直前」の空気を写す。夏は特に、涼しさの気配が画に入るかどうか。</li><li><strong>余白</strong> — 画面の3割を空け、家具でなく「眺めと開放感」を売る。</li></ul><p>最初の1枚の変更は、投入コストがほぼゼロでありながら検索結果での見え方を最も動かしやすい施策です(客室写真の記事参照)。タイトルの型は<strong>【季節】+【対象】+【差別化】</strong>で、60文字以内に。「夏／親子で／川遊びの道具レンタル付き」のような具体が、「心地よさと品格の客室」のような抽象に勝ちます。</p><h2>施策2 — 価格で「需要」を取る設計</h2><p>繁忙期の価格は「一律+30%」ではありません。3段階の設計です。</p><ol><li><strong>早割の層</strong> — 夏本番前に売上の過半を確保する層。標準価格の1〜2割下(参考値)。早く確定したい長距離市場に刺さります。</li><li><strong>標準の層</strong> — シーズン中の需要帯の価格。</li><li><strong>直前の層</strong> — 残り間口の最終レバー。小刻みに上げていき、伸びが止まった週が需要の天井。</li></ol><p>肝心なのは、<strong>天井を一気に打たず、少しずつ上げていく(ラチェット方式)</strong>こと。上げて止まった週を読みながら、市場の天井を測る。隣の宿と同じことをしていたら、価格は違いを生みません——差を生むのは、いつ・どの層を・いくらで出すかの設計です。</p><h2>施策3 — レビューで「転換」を取る</h2><p>予約ボタンの前で、ゲストはスコアを並べて見ます。4.5が信頼のライン、4.7以上が価格を支えるプレミアムシグナルであることは、レビュー運営の記事で整理した通りです。繁忙期のレビュー運用は、清掃と同じ頻度で回します。</p><ul><li><strong>72時間以内に100%返信</strong> — 返信は次のゲストが読むコンテンツです。</li><li><strong>客室内にレビュー依頼のQR</strong> — 満足感が最も高いのは、チェックイン直後の静かな時間です。</li><li><strong>返信に名前と具象を入れる</strong> — 「ありがとうございます」でなく「〇〇様、朝の散歩はもう行かれましたか」。リピートを生むのは、個人の記憶が残る返信です。</li></ul><h2>繁忙期の思想 — 「作る」期間ではなく「収穫する」期間</h2><p>3施策に共通する考え方を、ひとつにまとめます。夏は需要を作る期間ではなく、<strong>日々積み上げた写真・価格設計・レビュー運用の成果を収穫する期間</strong>です。5月末に仕込みが終わっていれば、夏の仕事は現場(清掃・接客・安全)に集中できる。仕込みが7月に持ち越された宿は、現場と準備の両方を夏に抱え込む——これが繁忙期に現場が崩れる宿の、よくある構図です。</p><h2>反対側 — 上位を取ってから壊れるもの</h2><ul><li><strong>直前値上げの重さ</strong> — 天井まで上げきった部屋は、その夏の売上を最大化しても、評判を削って翌年の土台を壊すことがあります。数字の最大化と宿の持続は、別の物差しです。</li><li><strong>写真の過剰演出</strong> — 盛りすぎた最初の1枚は、クリックを増やし、到着後のギャップでクレームを増やします(クレーム対応の記事のパターン1)。夏の1枚は、実物より少し良い程度が最適です。</li><li><strong>現場の体力</strong> — 稼働が満杯に近づくと、真っ先に削られるのはレビュー返信と清掃の時間。しかし上位表示の恩恵を最後まで支えるのは、その現場です。返信の時間を「空いたらやる」にしない。</li><li><strong>夏だけの宿は秋に崩れる</strong> — 訪日客の需要の山は夏だけではありません(季節ごとの需要の記事参照)。夏に全てを賭ける設計は、9月の落差で体力を失います。</li></ul><p>最初の一歩は、今日の日付から60日先を書くこと。もし今が5月なら逆算は今夜始められますし、もし11月なら——それも恰好の始まりです。夏の3施策は、書き出したカレンダーの1行目に、最初の1枚の候補を貼るところから動き始めます。</p><div class="note">この記事はアイデア共有を目的としています。記載の数値は考え方を示す参考値・一例であり、実際の結果は施設・立地・客層により異なります。効果は施策前後の同じ集計方法での比較で確認してください。</div><h2>次に読む</h2><ul><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 山の全体を見る話</li><li><a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a> — 3施策の土台の数字の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 写真の深掘りの話</li><li><a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a> — 3段階設計の土台の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"children":["ARTICLE ","039"]}]]}],["$","h1",null,{"children":"【夏の繁忙期】OTA検索で上位を取る3つの施策"}],["$","p",null,{"className":"excerpt","children":"夏の検索順位はシーズンが始まる前に決まる。写真とタイトル・3段階の価格・レビュー運用の3施策を「60日の逆算カレンダー」に組み替えて整理しました。数字は参考値として、仕組みの理解から。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hero-summer-beach.jpg","alt":"【夏の繁忙期】OTA検索で上位を取る3つの施策"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.06.18"}],["$","span",null,{"children":"OTA Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":"ゲストデータの基本 — 何を記録し、どう使うか"}]]}]]}],["$","$L2","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}]]}]]}],["$","$L2","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/foreign-staff-regional-cities","children":["← ","地方都市の外国人スタッフ — 都市部との違いと定着設計"]}],["$","$L2",null,{"href":"/journal/articles/spatial-design-local-high-price","children":["【空間デザイン】地方都市で高単価を実現した新しい滞在のかたち"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1f12,<p>夏は、年間売上を左右する最大の需要ウィンドウです。そして、忘れられがちな事実が一つあります。<strong>OTA検索の順位と準備は、シーズンが始まる前に決まる</strong>。7月に「そろそろ上位を取りに行こう」と思ったとき、勝負の多くは終わっています。本記事は、夏の繁忙期に検索上位を取るための3つの施策——写真とタイトルで「クリック」を取る、価格設計で「需要」を取る、レビューで「転換と継続」を取る——を、5月に遡る<strong>60日の逆算カレンダー</strong>に組み替えて整理します(数字は典型的パターンの参考値・一例)。</p><h2>なぜ60日前か — 予約は想像より早い</h2><p>国内の宿泊需要はチェックインの2〜4週間前に動き出し、インバウンドはさらに早い——遠い市場ほど早く、直前に決める市場との二極化もあります(訪日客の予約タイミングの数字は、検索行動の記事で公表データを整理しました)。つまり、夏の間口が開き始める5〜6月に、検索結果の姿はもう審査されています。上位1ページに入れないことは、その市場で「存在しない」のとほぼ同義——この前提に立てば、やることは逆算で決まります。</p><h2>60日の逆算カレンダー</h2><ul><li><strong>5月末まで</strong> — 最初の1枚とタイトルの差し替え(施策1)</li><li><strong>6月中旬まで</strong> — 3段階の価格計画と、週次の上昇ペースの確定(施策2)</li><li><strong>6月末まで</strong> — レビュー依頼のQRと返信テンプレの準備(施策3)</li><li><strong>繁忙期は毎週</strong> — 競合との価格差・クリック・転換の定点確認</li><li><strong>シーズン終了の週</strong> — 数字の記録と翌年のメモ(この記事を書き直す日)</li></ul><h2>施策1 — 写真とタイトルで「クリック」を取る</h2><p>サムネイル(最初の1枚)は看板です。夏に効く写真の3原則は、光と生活感と余白。</p><ul><li><strong>光</strong> — 朝日と自然光を優先する。天井照明だけの室内写真は、夏の選択肢としては外します。</li><li><strong>生活感</strong> — ベッドの足元のタオル、テーブルの麦茶。「ゲストが入室する直前」の空気を写す。夏は特に、涼しさの気配が画に入るかどうか。</li><li><strong>余白</strong> — 画面の3割を空け、家具でなく「眺めと開放感」を売る。</li></ul><p>最初の1枚の変更は、投入コストがほぼゼロでありながら検索結果での見え方を最も動かしやすい施策です(客室写真の記事参照)。タイトルの型は<strong>【季節】+【対象】+【差別化】</strong>で、60文字以内に。「夏／親子で／川遊びの道具レンタル付き」のような具体が、「心地よさと品格の客室」のような抽象に勝ちます。</p><h2>施策2 — 価格で「需要」を取る設計</h2><p>繁忙期の価格は「一律+30%」ではありません。3段階の設計です。</p><ol><li><strong>早割の層</strong> — 夏本番前に売上の過半を確保する層。標準価格の1〜2割下(参考値)。早く確定したい長距離市場に刺さります。</li><li><strong>標準の層</strong> — シーズン中の需要帯の価格。</li><li><strong>直前の層</strong> — 残り間口の最終レバー。小刻みに上げていき、伸びが止まった週が需要の天井。</li></ol><p>肝心なのは、<strong>天井を一気に打たず、少しずつ上げていく(ラチェット方式)</strong>こと。上げて止まった週を読みながら、市場の天井を測る。隣の宿と同じことをしていたら、価格は違いを生みません——差を生むのは、いつ・どの層を・いくらで出すかの設計です。</p><h2>施策3 — レビューで「転換」を取る</h2><p>予約ボタンの前で、ゲストはスコアを並べて見ます。4.5が信頼のライン、4.7以上が価格を支えるプレミアムシグナルであることは、レビュー運営の記事で整理した通りです。繁忙期のレビュー運用は、清掃と同じ頻度で回します。</p><ul><li><strong>72時間以内に100%返信</strong> — 返信は次のゲストが読むコンテンツです。</li><li><strong>客室内にレビュー依頼のQR</strong> — 満足感が最も高いのは、チェックイン直後の静かな時間です。</li><li><strong>返信に名前と具象を入れる</strong> — 「ありがとうございます」でなく「〇〇様、朝の散歩はもう行かれましたか」。リピートを生むのは、個人の記憶が残る返信です。</li></ul><h2>繁忙期の思想 — 「作る」期間ではなく「収穫する」期間</h2><p>3施策に共通する考え方を、ひとつにまとめます。夏は需要を作る期間ではなく、<strong>日々積み上げた写真・価格設計・レビュー運用の成果を収穫する期間</strong>です。5月末に仕込みが終わっていれば、夏の仕事は現場(清掃・接客・安全)に集中できる。仕込みが7月に持ち越された宿は、現場と準備の両方を夏に抱え込む——これが繁忙期に現場が崩れる宿の、よくある構図です。</p><h2>反対側 — 上位を取ってから壊れるもの</h2><ul><li><strong>直前値上げの重さ</strong> — 天井まで上げきった部屋は、その夏の売上を最大化しても、評判を削って翌年の土台を壊すことがあります。数字の最大化と宿の持続は、別の物差しです。</li><li><strong>写真の過剰演出</strong> — 盛りすぎた最初の1枚は、クリックを増やし、到着後のギャップでクレームを増やします(クレーム対応の記事のパターン1)。夏の1枚は、実物より少し良い程度が最適です。</li><li><strong>現場の体力</strong> — 稼働が満杯に近づくと、真っ先に削られるのはレビュー返信と清掃の時間。しかし上位表示の恩恵を最後まで支えるのは、その現場です。返信の時間を「空いたらやる」にしない。</li><li><strong>夏だけの宿は秋に崩れる</strong> — 訪日客の需要の山は夏だけではありません(季節ごとの需要の記事参照)。夏に全てを賭ける設計は、9月の落差で体力を失います。</li></ul><p>最初の一歩は、今日の日付から60日先を書くこと。もし今が5月なら逆算は今夜始められますし、もし11月なら——それも恰好の始まりです。夏の3施策は、書き出したカレンダーの1行目に、最初の1枚の候補を貼るところから動き始めます。</p><div class="note">この記事はアイデア共有を目的としています。記載の数値は考え方を示す参考値・一例であり、実際の結果は施設・立地・客層により異なります。効果は施策前後の同じ集計方法での比較で確認してください。</div><h2>次に読む</h2><ul><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 山の全体を見る話</li><li><a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a> — 3施策の土台の数字の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 写真の深掘りの話</li><li><a href="#pricing-fundamentals">部屋単価の決め方 — プライシングの基礎</a> — 3段階設計の土台の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"className":"ARTICLE","children":"039"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"【夏の繁忙期】OTA検索で上位を取る3つの施策"}],["$","span",null,{"className":"en-only","children":"Summer Peak: 3 Plays to Win OTA Search Rankings"}],["$","span",null,{"className":"zh-only","children":"【暑期旺季】三招OTA搜索排名靠前"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"夏の検索順位はシーズンが始まる前に決まる。写真とタイトル・3段階の価格・レビュー運用の3施策を「60日の逆算カレンダー」に組み替えて整理しました。数字は参考値として、仕組みの理解から。"}],["$","span",null,{"className":"en-only","children":"Summer search rankings are decided before the season begins. The three plays — photos and title, three-tier pricing, review operations — rebuilt into a 60-day countdown calendar, with the numbers as reference values, starting from understanding the mechanism."}],["$","span",null,{"className":"zh-only","children":"对照片、价格和评论措施进行 3 步解释，以在夏季需求季节获得高搜索排名。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hero-summer-beach.jpg","alt":"【夏の繁忙期】OTA検索で上位を取る3つの施策"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.06.18"}],["$","span",null,{"children":"OTA Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1f50,<p>Summer is the largest demand window of the year, one that swings annual revenue. And there is one easily forgotten fact. <strong>OTA search rankings and preparation are decided before the season begins</strong>. By the time you think, in July, "let’s go take the top spots," most of the contest is over. This article rebuilds the three plays for winning search position in the summer peak — taking "clicks" with photos and the title, taking "demand" with price design, taking "conversion and repeat" with reviews — into a <strong>60-day countdown calendar</strong> that reaches back to May (the numbers are reference values of a typical pattern, one example).</p>
+
+<h2>Why 60 days ahead — bookings move earlier than you think</h2>
+
+<p>Domestic demand starts moving two to four weeks before check-in, and inbound moves earlier still — the farther the market, the earlier; and there is also polarization with markets that decide at the last minute (the published data on visitors’ booking timing was organized in the search-behavior article). In other words, in May and June, as summer’s window begins to open, the shape of your search results is already being judged. Not making the first page is nearly the same as "not existing" in that market — stand on that premise, and what to do is decided by counting backward.</p>
+
+<h2>The 60-day countdown calendar</h2>
+
+<ul>
+<li><strong>By the end of May</strong> — Replace the first photo and the title (Play 1)</li>
+<li><strong>By mid-June</strong> — Fix the three-tier price plan and the weekly pace of increases (Play 2)</li>
+<li><strong>By the end of June</strong> — Prepare the review-request QR codes and reply templates (Play 3)</li>
+<li><strong>Every week through the peak</strong> — Fixed-point checks: the price gap with competitors, clicks, conversion</li>
+<li><strong>The week the season ends</strong> — Record the numbers and write next year’s memo (the day to rewrite this article)</li>
+</ul>
+
+<h2>Play 1 — taking "clicks" with photos and the title</h2>
+
+<p>The thumbnail (the first photo) is your signboard. The three principles of a photo that works in summer: light, lived-in warmth, and empty space.</p>
+
+<ul>
+<li><strong>Light</strong> — Favor morning sun and natural light. Interiors lit only by ceiling fixtures come off the list of summer choices.</li>
+<li><strong>Lived-in warmth</strong> — Towels at the foot of the bed, barley tea on the table. Photograph the air of "the moment just before the guest enters the room." In summer especially, the question is whether a sense of coolness enters the frame.</li>
+<li><strong>Empty space</strong> — Leave thirty percent of the frame open, and sell not the furniture but "the view and the feeling of release."</li>
+</ul>
+
+<p>Changing the first photo moves how you appear in search results more than almost anything else, at nearly zero cost (see the room-photography article). The title pattern is <strong>[season] + [who it’s for] + [differentiator]</strong>, within 60 characters. The concrete — "Summer / for families / with river-play gear rental" — beats the abstract — "a room of comfort and refinement."</p>
+
+<h2>Play 2 — a price design that takes "demand"</h2>
+
+<p>Peak-season pricing is not "flat +30%." It is a three-tier design.</p>
+
+<ol>
+<li><strong>The early-booking tier</strong> — The tier that secures more than half of revenue before summer proper. One to two notches below the standard price (a reference value). It lands on the long-distance markets that want to fix plans early.</li>
+<li><strong>The standard tier</strong> — The price of the demand band during the season.</li>
+<li><strong>The last-minute tier</strong> — The final lever on the remaining inventory. Raise it in small steps; the week the growth stops is the market’s ceiling.</li>
+</ol>
+
+<p>The crux is <strong>not striking the ceiling at once, but raising it little by little (the ratchet approach)</strong>. Reading the weeks as the rises stop, measure the market’s ceiling. Doing exactly what the property next door does, price creates no difference — what creates difference is the design of when, which tier, and at what price you release.</p>
+
+<h2>Play 3 — taking "conversion" with reviews</h2>
+
+<p>Before the booking button, guests line the scores up side by side. That 4.5 is the trust line, and 4.7 and above the premium signal that supports price, is as organized in the review-management article. In the peak season, run review operations at the same frequency as cleaning.</p>
+
+<ul>
+<li><strong>Reply to 100% within 72 hours</strong> — The replies are content the next guest reads.</li>
+<li><strong>A review-request QR in the room</strong> — Satisfaction is highest in the quiet hour just after check-in.</li>
+<li><strong>Put names and specifics in replies</strong> — Not "thank you" but "Mr. and Ms. XX, have you been on your morning walk yet?" What creates repeat guests is a reply that leaves a memory of the person.</li>
+</ul>
+
+<h2>The philosophy of the peak — a season to "harvest," not to "build"</h2>
+
+<p>The thinking shared by the three plays, in one line. Summer is not the season to build demand but <strong>the season to harvest the results of the photos, price design, and review operations stacked up day by day</strong>. If the preparation is finished by the end of May, the work of summer can concentrate on the front line (cleaning, service, safety). A property that carries the preparation into July holds both the front line and the prep through the summer — the familiar picture of the properties whose front line collapses in the peak.</p>
+
+<h2>The other side — what breaks after you take the top spots</h2>
+
+<ul>
+<li><strong>The weight of last-minute price hikes</strong> — Rooms pushed all the way to the ceiling may maximize that summer’s revenue while shaving reputation and breaking the foundation of the next year. Maximizing the numbers and sustaining the property are different yardsticks.</li>
+<li><strong>Over-staged photos</strong> — An over-embellished first photo increases clicks and, with the gap on arrival, increases complaints (Pattern 1 in the complaint-handling article). The summer photo is best at "a little better than the real thing."</li>
+<li><strong>The front line’s stamina</strong> — As occupancy nears full, the first things cut are the hours for review replies and cleaning. But what supports the benefit of high ranking to the very end is that front line. Do not leave the reply hours to "when there’s time."</li>
+<li><strong>A summer-only property collapses in autumn</strong> — The demand mountains of visitors to Japan are not summer’s alone (see the seasonal demand article). A design that stakes everything on summer loses its stamina in September’s drop.</li>
+</ul>
+
+<p>The first step is to write the date 60 days from today. If it is May, the countdown can begin tonight; if it is November — that too is a fine beginning. The three summer plays start moving when you paste the candidate for your first photo onto the first line of the calendar you have written out.</p>
+
+<div class="note">This article is intended for sharing ideas. The figures given are reference values and examples showing the approach; actual results differ by facility, location, and guest mix. Check effects by comparing the same counting method before and after a change.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#seasonal-inbound-demand">Seasonal Inbound Demand: The Basics of When to Prepare What</a> — seeing the whole range of mountains</li>
+<li><a href="#review-management-3-numbers">Review Management: The Basics of Score, Count, and Recency</a> — the numbers the three plays stand on</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — digging deeper into photography</li>
+<li><a href="#pricing-fundamentals">How to Set Room Rates: Pricing Fundamentals</a> — the foundation of the three-tier design</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T11cb,<p>夏季是一年中最大的需求窗口，持续约八周，决定了酒店的年销售额。然而，OTA 搜索排名是“赛季开始前”确定的。在本文中，我们将解释在繁忙的夏季搜索结果中获得高排名的三个措施：（1）通过照片和标题获得“点击”，（2）通过价格设计获得“需求”，以及（3）通过评论获得“转化和延续”。 （以下数字均为参考值和典型模式示例。）</p>
+<h2>1. 旺季按“前60天”确定</h2>
+<p>让我们看一下预订渠道。从出现在 OTA 搜索列表中到预订的点击率 (CTR) 通常为 3-8%。大多数点击将集中在前三个搜索结果上。换句话说，不在首页就等于“不存在”。</p>
+<p>更重要的是，旺季期间的住宿预订“比您想象的要快”。国内需求提前2至4周开始，入境需求提前4至8周开始。确保夏季临街面的战斗已于五月和六月开始。当我最终在七月份开始改进我的清单时，战斗已经决定了。</p>
+<h2>2. 措施 1：通过照片和标题获得“点击”</h2>
+<p>缩略图（第一个）是一个“招牌”。旺季拍照有3个规则：</p>
+<ul>
+<li><strong>光</strong> — 优先考虑早晨的阳光和自然光。避免只拍摄室内顶灯的照片。</li>
+<li><strong>生活感</strong> ——床脚放一条毛巾，桌子上放一个杯子。营造“就在客人进来之前”的氛围。</li>
+<li><strong>利润</strong> — 留出 30% 的画作空白，并出售“景观”而不是“家具”。</li>
+</ul>
+<p>在 OTA A/B 测试中，第一个单一更改是提高 CTR 的最可靠杠杆，20-40% CTR 的改进属于常见范围。投入成本几乎为零，是最具成本效益的措施。</p>
+<p>标题类型是<strong>[季节]+[目标]+[差异化]</strong>请保持在 60 个字符以内。就点击率而言，“夏天/父母和孩子/免费室外游泳池”等具体表达优于“舒适优雅的客房”等抽象表达。</p>
+<h2>3.措施2：根据价格捕捉“需求”的设计</h2>
+<p>旺季定价并非“统一+30%”。这是一个 3 阶段设计：</p>
+<ol>
+<li><strong>早鸟级</strong> — 在夏季之前确保 60-70% 销售额的群体。比标准价格低 10-15%。</li>
+<li><strong>标准层次结构</strong> — 季节期间需求带的价格。</li>
+<li><strong>上一层</strong> — 剩余临街面的最终控制杆。每周加价1.1至1.2倍，达到市场上限时停止。</li>
+</ol>
+<p>重要的是<strong>不要一下子撞到天花板，一点点提高（棘轮法）</strong>事物。价格停止上涨的一周就是需求耗尽的一周。如果您将价格保持在比邻近竞争对手的最高价格低15%至30%的水平，您将被视为“最佳性价比选择”，您的中标率将会提高。</p>
+<div class="stats stats-grid"><div class="stat"><b>+18%</b><span>（数值示例）ADR较上年变化</span></div><div class="stat"><b>88%</b><span>（数值示例）旺季入住率</span></div><div class="stat"><b>8周</b><span>（数值示例）物价持续上涨的时期</span></div></div>
+<h2>4.措施三：通过审核实现“转化”</h2>
+<p>当客人按下预订按钮时，他们会并排看到评论分数。 4.5 是一条线，任何高于 4.7 的值都是“值得提高价格的溢价信号”。在繁忙时期，审核操作的执行频率与清洁操作一样频繁：</p>
+<ul>
+<li><strong>72小时内100%回复。</strong>回复本身就成为下一位客人将阅读的“内容”。</li>
+<li><strong>在客房查看请求二维码。</strong>满足的黄金时间是入住后1-2小时。</li>
+<li><strong>请在回复中注明嘉宾姓名和具体剧集。</strong>这是获取回头客最有效的词。</li>
+</ul>
+<div class="note"><span class="tag">InnBuddy 笔记</span>旺季不是“创造”需求的时期，而是“收获”迄今为止积累的日常成果的时期。如果在5月底前完成摄影、价格设计、审核运营三项措施，夏天自然就来了。</div>
+<h2>行动清单（有截止日期）</h2>
+<ul>
+<li><strong>直到五月底</strong> — 将标题替换为第一个</li>
+<li><strong>直到六月中旬</strong> — 最终确定三级定价计划和每周增长速度</li>
+<li><strong>直到六月底</strong> — 准备客房二维码及回复模板</li>
+<li><strong>旺季期间每周一次</strong> — 检查与竞争对手的价格差异、点击率和转化率</li>
+<li><strong>赛季结束后</strong> - 回顾过去。将“有效/无效的方法”变成繁忙的冬季活动的手册</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","span",null,{"className":"en-only","children":"Guest Data Basics: What to Record, and How to Use It"}],["$","span",null,{"className":"zh-only","children":"访客数据基础知识——记录什么以及如何使用它"}]]}]]}]]}],["$","$L8","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","span",null,{"className":"en-only","children":"Hotel Instagram: The Zero-to-Ten Post Plan for Starting Now"}],["$","span",null,{"className":"zh-only","children":"Hotel Instagram — 计划从现在开始从“0 条帖子到 10 条帖子”"}]]}]]}]]}],["$","$L8","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","span",null,{"className":"en-only","children":"Landing Page Design: What to Say in the First \"Three Seconds\""}],["$","span",null,{"className":"zh-only","children":"登陆页面设计——前“3秒”要传达什么"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/foreign-staff-regional-cities","children":["- ",["$","span",null,{"className":"ja-only","children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","span",null,{"className":"en-only","children":"Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design"}],["$","span",null,{"className":"zh-only","children":"地方城市的外籍员工——与城市地区的差异及保留设计"}]]}],["$","$L8",null,{"href":"/journal/articles/spatial-design-local-high-price","children":[["$","span",null,{"className":"ja-only","children":"【空間デザイン】地方都市で高単価を実現した新しい滞在のかたち"}],["$","span",null,{"className":"en-only","children":"Spatial Design: A New Stay Format That Commands Premium Rates in Regional Cities"}],["$","span",null,{"className":"zh-only","children":"【空间设计】实现区域城市高单价的新入住形态"}]," -"]}]]}]
+10:null

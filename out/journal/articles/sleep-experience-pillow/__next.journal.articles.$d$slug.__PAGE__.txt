@@ -1,15 +1,168 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_sleep-experience-pillow.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1dbe,<p>睡眠は<strong>「ベッド」ではなく「選べる体験」</strong>です。山の静けさ、海の波の音、夜の暗さ——環境は良いのに、枕が合わず眠れないのはもったいない。睡眠の不満で最も多いのは、実は「枕が合わない」です。硬すぎる、低すぎる、匂いが気になる。枕1つで、眠りの満足度は大きく変わります。本記事は、ピロウメニューを「体験設計」として整理する基礎編です。</p><h2>草枕 — 旅は、枕で詠まれてきた</h2><p>日本の古い歌に、<strong>草枕(くさまくら)</strong>という言葉があります。万葉集の時代から続く、旅を詠むときの決まり文句——<strong>枕詞</strong>——のひとつです。「草枕旅にし行けば…」と歌い出せば、それは旅の歌。不思議なことに、この国の言葉の世界では、<strong>旅は枕と結ばれて詠まれて</strong>きました。言葉の頭を飾る修飾の定型を「枕詞」と呼ぶこと自体、枕が「ものごとのはじまり」を支えるものだった名残とも言えます。</p><div class="stats"><span class="tag">FACT</span><strong>「草枕」は万葉集以来、「旅」にかかる枕詞として和歌に繰り返し用いられてきました(枕詞=特定の語の前に置く修飾の定型句)。「旅の枕」「枕を変わらぬ」など、旅と枕を結ぶ言い回しは日本語の古典に数多く残る</strong> — 一夜の宿の出来を、昔の人は枕に託して表現した</div><p>これは比喩ではなく、宿の仕事の原点そのものです。旅人の一日の終わりは、枕に頭を乗せる瞬間にある。食事が秀逸でも、風呂が立派でも——<strong>眠れなければ、旅は失敗</strong>だったと記憶されます。万葉の人が旅を枕で詠んだように、現代のゲストも眠りの言葉で宿を思い出す。「よく眠れた」。その一言を積むことが、宿の睡眠体験の仕事です。</p><h2>ピロウメニューの設計 — 高さ・素材・見せ方</h2><p>ピロウメニューとは、枕の選択肢を用意して、ゲストに選んでもらう仕組みです。山の静けさは宿の立地が、暗さは客室が担います。残る「枕」だけが、宿がコントロールできる最後の眠りの部品です。</p><ol><li><strong>高さ — 低め・普通・高めの3種</strong> — 枕の好みは人によって分かれます。3種の高さを用意すれば、大半の好みをカバーできます。まず3種。5種に増やす前に、どの高さが選ばれているかを記録します。</li><li><strong>素材 — 定番2種と、地域の素材1種</strong> — 羽根と低反発のような定番に加えて、そば殻などその土地の素材を1つ。そば畑の近くなら「地元のそば殻」——素材に1行の物語がつくと、枕は設備から体験になります。</li><li><strong>見せ方 — 客室の1枚のカードに</strong> — 枕をクローゼットの奥に隠しては、メニューは存在しません。写真付きの1枚を客室に置き、「お好みの枕をお貸しします。フロントまで」と1行添える。選択肢の半分は、告知です。</li></ol><h2>運用 — 清潔・記録・ひとこと</h2><ul><li><strong>清潔 — カバーは二重に</strong> — 肌に触れるものです。カバーは二重(うち1枚は防水)、貸出のたびに表側を交換し、本体は定期的に陰干し。「貸出枕は毎回カバーを交換しています」と書いてある宿は、書いていない宿より信頼されます。</li><li><strong>記録 — 貸出を1行に書く</strong> — どの枕がどれだけ選ばれたか。1行の記録が、仕入れと入れ替えの根拠になります(記録の作法は、<a href="#guest-data-basics">ゲストデータの基本 — 何を記録し、どう使うか</a>が共通です)。</li><li><strong>ひとこと — チェックアウトの1問</strong> — 「昨夜はよく眠れましたか」。この1問は、枕の改善と、レビューの両方の素材をくれます(レビューの運営は、<a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a>が扱います)。</li></ul><h2>眠りの環境 — 静けさと暗さの見直し</h2><p>枕を選べる体制が整ったら、次に効くのは環境の見直しです。客室の音(何も流さない静けさの設計、虫の音、風鈴)と香りの考え方は、<a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a>が扱っています。枕が合っていて、静かで、暗い——眠りの3点が揃った客室は、宿の中で最も語り継がれる設備になります。「あの宿で眠った眠り」は、写真より強い口コミだからです。</p><h2>反対側 — メニューが宿を疲れさせるとき</h2><ul><li><strong>選択肢の過剰</strong> — 5種を超えると、ゲストは選ぶ前に疲れます。選べる喜びは「3つくらい」で頭打ちになります。</li><li><strong>衛生の穴</strong> — 貸し出した枕のクリーニング頻度が甘いと、枕は最も親密で最も危険な設備になります。交換と干す頻度を、先に決めておく。</li><li><strong>メニューの押し付け</strong> — チェックインで「枕はいかがですか」と全員に聞くと、枕はしつこい売り物になります。カードを置き、待つ。選ぶのは、いつもゲストです。</li><li><strong>紛失と弁償</strong> — 貸出枕の持ち去りは、稀に起きます。弁償の考え方を決めて、カードの1行に書いておく(高額を請求する設計でなく、起きたときに慌てない設計)。</li><li><strong>「眠れなかった」の本当の原因</strong> — 枕を変えても「眠れなかった」が続くなら、原因は別の場所にあります。隣室の音、廊下の光、朝の清掃の音——チェックアウトの1問で、枕以外の言葉に耳を澄ますこと。</li></ul><p>最初の一歩は、枕3種と1枚のカードです。低め・普通・高め。今週、フロントの奥に3つ並べて、カードを客室に置く。万葉の旅人が草を枕に野宿した時代から、旅の出来を決めてきたのは枕です——<strong>選べる枕</strong>は、この原点の、いちばん現代的な形なのです。</p><div class="note">この記事はアイデア共有を目的としています。草枕・枕詞は万葉集以来の和歌の伝統的な表現として紹介しています(古典の一般知識)。枕の衛生管理は宿の判断とアレルギー等への配慮のもと設計してください。価格・枚数は例示です。</div><h2>次に読む</h2><ul><li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 眠りの静けさの設計の話</li><li><a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a> — 「よく眠れた」を積む話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 眠りの前、到着の5分の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 記憶に残る瞬間の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","085"]}]]}],["$","h1",null,{"children":"睡眠体験 — 「ピロウメニュー」の基本"}],["$","p",null,{"className":"excerpt","children":"睡眠は「ベッド」ではなく「選べる体験」。万葉の旅人は旅を「草枕」と詠みました——枕は、宿の仕事の原点です。ピロウメニューの設計を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_sleep-experience-pillow.jpg","alt":"睡眠体験 — 「ピロウメニュー」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.08"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/welcome-amenity-5min","children":["← ","ウェルカムアメニティ — 「最初の5分」の設計"]}],["$","$L2",null,{"href":"/journal/articles/bathroom-ritual-amenity","children":["バスルーム体験 — 浴槽とアメニティの「儀式」"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1dbe,<p>睡眠は<strong>「ベッド」ではなく「選べる体験」</strong>です。山の静けさ、海の波の音、夜の暗さ——環境は良いのに、枕が合わず眠れないのはもったいない。睡眠の不満で最も多いのは、実は「枕が合わない」です。硬すぎる、低すぎる、匂いが気になる。枕1つで、眠りの満足度は大きく変わります。本記事は、ピロウメニューを「体験設計」として整理する基礎編です。</p><h2>草枕 — 旅は、枕で詠まれてきた</h2><p>日本の古い歌に、<strong>草枕(くさまくら)</strong>という言葉があります。万葉集の時代から続く、旅を詠むときの決まり文句——<strong>枕詞</strong>——のひとつです。「草枕旅にし行けば…」と歌い出せば、それは旅の歌。不思議なことに、この国の言葉の世界では、<strong>旅は枕と結ばれて詠まれて</strong>きました。言葉の頭を飾る修飾の定型を「枕詞」と呼ぶこと自体、枕が「ものごとのはじまり」を支えるものだった名残とも言えます。</p><div class="stats"><span class="tag">FACT</span><strong>「草枕」は万葉集以来、「旅」にかかる枕詞として和歌に繰り返し用いられてきました(枕詞=特定の語の前に置く修飾の定型句)。「旅の枕」「枕を変わらぬ」など、旅と枕を結ぶ言い回しは日本語の古典に数多く残る</strong> — 一夜の宿の出来を、昔の人は枕に託して表現した</div><p>これは比喩ではなく、宿の仕事の原点そのものです。旅人の一日の終わりは、枕に頭を乗せる瞬間にある。食事が秀逸でも、風呂が立派でも——<strong>眠れなければ、旅は失敗</strong>だったと記憶されます。万葉の人が旅を枕で詠んだように、現代のゲストも眠りの言葉で宿を思い出す。「よく眠れた」。その一言を積むことが、宿の睡眠体験の仕事です。</p><h2>ピロウメニューの設計 — 高さ・素材・見せ方</h2><p>ピロウメニューとは、枕の選択肢を用意して、ゲストに選んでもらう仕組みです。山の静けさは宿の立地が、暗さは客室が担います。残る「枕」だけが、宿がコントロールできる最後の眠りの部品です。</p><ol><li><strong>高さ — 低め・普通・高めの3種</strong> — 枕の好みは人によって分かれます。3種の高さを用意すれば、大半の好みをカバーできます。まず3種。5種に増やす前に、どの高さが選ばれているかを記録します。</li><li><strong>素材 — 定番2種と、地域の素材1種</strong> — 羽根と低反発のような定番に加えて、そば殻などその土地の素材を1つ。そば畑の近くなら「地元のそば殻」——素材に1行の物語がつくと、枕は設備から体験になります。</li><li><strong>見せ方 — 客室の1枚のカードに</strong> — 枕をクローゼットの奥に隠しては、メニューは存在しません。写真付きの1枚を客室に置き、「お好みの枕をお貸しします。フロントまで」と1行添える。選択肢の半分は、告知です。</li></ol><h2>運用 — 清潔・記録・ひとこと</h2><ul><li><strong>清潔 — カバーは二重に</strong> — 肌に触れるものです。カバーは二重(うち1枚は防水)、貸出のたびに表側を交換し、本体は定期的に陰干し。「貸出枕は毎回カバーを交換しています」と書いてある宿は、書いていない宿より信頼されます。</li><li><strong>記録 — 貸出を1行に書く</strong> — どの枕がどれだけ選ばれたか。1行の記録が、仕入れと入れ替えの根拠になります(記録の作法は、<a href="#guest-data-basics">ゲストデータの基本 — 何を記録し、どう使うか</a>が共通です)。</li><li><strong>ひとこと — チェックアウトの1問</strong> — 「昨夜はよく眠れましたか」。この1問は、枕の改善と、レビューの両方の素材をくれます(レビューの運営は、<a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a>が扱います)。</li></ul><h2>眠りの環境 — 静けさと暗さの見直し</h2><p>枕を選べる体制が整ったら、次に効くのは環境の見直しです。客室の音(何も流さない静けさの設計、虫の音、風鈴)と香りの考え方は、<a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a>が扱っています。枕が合っていて、静かで、暗い——眠りの3点が揃った客室は、宿の中で最も語り継がれる設備になります。「あの宿で眠った眠り」は、写真より強い口コミだからです。</p><h2>反対側 — メニューが宿を疲れさせるとき</h2><ul><li><strong>選択肢の過剰</strong> — 5種を超えると、ゲストは選ぶ前に疲れます。選べる喜びは「3つくらい」で頭打ちになります。</li><li><strong>衛生の穴</strong> — 貸し出した枕のクリーニング頻度が甘いと、枕は最も親密で最も危険な設備になります。交換と干す頻度を、先に決めておく。</li><li><strong>メニューの押し付け</strong> — チェックインで「枕はいかがですか」と全員に聞くと、枕はしつこい売り物になります。カードを置き、待つ。選ぶのは、いつもゲストです。</li><li><strong>紛失と弁償</strong> — 貸出枕の持ち去りは、稀に起きます。弁償の考え方を決めて、カードの1行に書いておく(高額を請求する設計でなく、起きたときに慌てない設計)。</li><li><strong>「眠れなかった」の本当の原因</strong> — 枕を変えても「眠れなかった」が続くなら、原因は別の場所にあります。隣室の音、廊下の光、朝の清掃の音——チェックアウトの1問で、枕以外の言葉に耳を澄ますこと。</li></ul><p>最初の一歩は、枕3種と1枚のカードです。低め・普通・高め。今週、フロントの奥に3つ並べて、カードを客室に置く。万葉の旅人が草を枕に野宿した時代から、旅の出来を決めてきたのは枕です——<strong>選べる枕</strong>は、この原点の、いちばん現代的な形なのです。</p><div class="note">この記事はアイデア共有を目的としています。草枕・枕詞は万葉集以来の和歌の伝統的な表現として紹介しています(古典の一般知識)。枕の衛生管理は宿の判断とアレルギー等への配慮のもと設計してください。価格・枚数は例示です。</div><h2>次に読む</h2><ul><li><a href="#scent-music-five-senses">香りと音楽 — 五感で覚えられる宿</a> — 眠りの静けさの設計の話</li><li><a href="#review-management-3-numbers">レビュー運営 — 「スコア・件数・新しさ」の基本</a> — 「よく眠れた」を積む話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 眠りの前、到着の5分の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 記憶に残る瞬間の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"085"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"睡眠体験 — 「ピロウメニュー」の基本"}],["$","span",null,{"className":"en-only","children":"Sleep Experience: Basics of the Pillow Menu"}],["$","span",null,{"className":"zh-only","children":"睡眠体验——“枕头菜单”的基础"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"睡眠は「ベッド」ではなく「選べる体験」。万葉の旅人は旅を「草枕」と詠みました——枕は、宿の仕事の原点です。ピロウメニューの設計を整理します。"}],["$","span",null,{"className":"en-only","children":"Sleep is not \"the bed\" but \"a choosable experience.\" The Man’yō poets sang of travel as \"kusamakura,\" the grass pillow — the pillow is the origin of the inn’s work. The design of the pillow menu."}],["$","span",null,{"className":"zh-only","children":"睡眠不仅仅是一张床，而是一种您可以选择的体验。关于通过枕头菜单让自己脱颖而出的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_sleep-experience-pillow.jpg","alt":"睡眠体験 — 「ピロウメニュー」の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.08"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1d43,<p>Sleep is <strong>not "the bed" but "a choosable experience."</strong> The mountain quiet, the sound of the waves, the darkness of night — the environment is good, and yet failing to sleep because the pillow does not fit is a waste. The most common complaint about sleep is, in fact, "the pillow did not suit me." Too hard, too low, a smell that bothers. With one pillow, the satisfaction of sleep swings widely. This article organizes the pillow menu as "experience design" — a foundation edition.</p>
+
+<h2>Kusamakura — travel was sung through the pillow</h2>
+
+<p>In old Japanese song there is the word <strong>kusamakura</strong> — the grass pillow. Since the age of the Man’yōshū, it has been one of the <strong>makurakotoba</strong> — the set phrases placed before certain words when singing of travel. Begin with "kusamakura, tabi ni shi yukeba…" ("on a journey of grass pillows…"), and it is a travel poem. Strangely, in this country’s world of words, <strong>travel has been sung bound to the pillow</strong>. That the fixed decorative phrases that crown a word are themselves called "pillow words" (makurakotoba) is, you could say, a vestige of the pillow being what supported "the beginning of things."</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>"Kusamakura" has been used repeatedly in waka poetry since the Man’yōshū as the makurakotoba (a set modifier phrase placed before certain words) attached to "travel" (tabi). Expressions binding travel and pillow — "the pillow of a journey," "not changing one’s pillow" — survive in numbers in the Japanese classics</strong> — People of old entrusted the verdict on a night’s lodging to the pillow. (Traditional expression of waka poetry since the Man’yōshū; general knowledge of the classics.)</div>
+
+<p>This is not metaphor but the very origin of the inn’s work. The traveler’s day ends at the moment the head is laid on the pillow. Superb meals, a magnificent bath — <strong>if sleep fails, the trip is remembered as a failure</strong>. As the Man’yō people sang travel through the pillow, the modern guest remembers the property in the words of sleep. "I slept well." Stacking that one phrase is the work of the property’s sleep experience.</p>
+
+<h2>Designing the pillow menu — height, material, display</h2>
+
+<p>A pillow menu is a mechanism of preparing pillow options and letting the guest choose. The mountain quiet belongs to the location; the darkness, to the room. The remaining piece — the pillow — is the last component of sleep the property can control.</p>
+
+<ol>
+<li><strong>Height — 3 kinds: low, standard, high</strong> — Pillow preference divides by person. Three heights cover most tastes. Start with three. Before adding a fourth and fifth, record which height is chosen.</li>
+<li><strong>Material — 2 standards, and 1 regional material</strong> — Alongside the standards like feather and low-resilience foam, one material of the land — buckwheat hulls, for instance. Near buckwheat fields, "local soba hulls" — with one line of story on the material, the pillow turns from equipment into experience.</li>
+<li><strong>Display — one card in the room</strong> — Hide the pillows deep in the closet, and the menu does not exist. Place one photo card in the room with the line "we lend pillows to your preference — please ask the front desk." Half of any option is its announcement.</li>
+</ol>
+
+<h2>Operation — cleanliness, records, one question</h2>
+
+<ul>
+<li><strong>Cleanliness — double covers</strong> — These touch skin. Covers in two layers (one waterproof), the outer exchanged at every lending, the body aired in the shade regularly. A property that writes "lending pillows get a fresh cover every time" is trusted more than one that does not.</li>
+<li><strong>Records — one line per lending</strong> — Which pillow, chosen how often. One line of record becomes the grounds for purchasing and rotation (the manners of recording are shared with <a href="#guest-data-basics">Guest Data Basics: What to Record, and How to Use It</a>).</li>
+<li><strong>One question at check-out</strong> — "Did you sleep well last night?" This single question yields material for both pillow improvement and reviews (review operations are handled by <a href="#review-management-3-numbers">Review Management: The Basics of Score, Count, and Recency</a>).</li>
+</ul>
+
+<h2>The environment of sleep — reviewing quiet and darkness</h2>
+
+<p>Once guests can choose pillows, the next thing that works is reviewing the environment. The thinking on the room’s sound (the design of unbroken quiet, insect voices, wind chimes) and on scent is handled by <a href="#scent-music-five-senses">Scent & Sound — A Stay the Five Senses Remember</a>. The pillow fits, it is quiet, it is dark — a room with the three points of sleep becomes the most retold equipment in the property. "The sleep I slept at that inn" is word of mouth stronger than any photograph.</p>
+
+<h2>The other side — when the menu exhausts the property</h2>
+
+<ul>
+<li><strong>Too many options</strong> — Past five kinds, guests tire before choosing. The joy of choosing plateaus "around three."</li>
+<li><strong>A hole in hygiene</strong> — Lax cleaning frequency on lent pillows turns the pillow into the most intimate and most dangerous equipment. Decide the exchange and airing frequency in advance.</li>
+<li><strong>Pushing the menu</strong> — Asking "how about a pillow?" to everyone at check-in turns the pillow into a persistent sales item. Place the card, and wait. The one who chooses is always the guest.</li>
+<li><strong>Loss and compensation</strong> — Lent pillows do occasionally get taken. Decide the policy on compensation and write it in one line of the card (not a design that charges heavily — a design that does not panic when it happens).</li>
+<li><strong>The real cause of "could not sleep"</strong> — If "could not sleep" continues even after changing pillows, the cause is elsewhere. The neighboring room’s sound, the corridor light, the morning cleaning noise — in the check-out question, listen for words other than pillows.</li>
+</ul>
+
+<p>The first step is three pillows and one card. Low, standard, high. This week, line up the three behind the front desk and place the card in the rooms. From the age when Man’yō travelers slept in the open on grass pillows, the pillow has decided the outcome of a journey — <strong>the choosable pillow</strong> is the most modern form of that origin.</p>
+
+<div class="note">This article is intended for sharing ideas. Kusamakura and makurakotoba are introduced as traditional expressions of waka poetry since the Man’yōshū (general knowledge of the classics). Please design pillow hygiene at the property’s judgment, with consideration for allergies. Prices and counts are examples.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#scent-music-five-senses">Scent & Sound — A Stay the Five Senses Remember</a> — designing the quiet of sleep</li>
+<li><a href="#review-management-3-numbers">Review Management: The Basics of Score, Count, and Recency</a> — stacking "slept well"</li>
+<li><a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a> — the five minutes of arrival, before sleep</li>
+<li><a href="#small-experiences-5-touchpoints">The "Small Experiences" Guests Talk About After Checkout</a> — the moments that stay in memory</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T174b,<p>睡眠是<strong>“选择一种体验”而不是“选择一张床”</strong>。山的寂静、海浪的声音、日本乡村夜晚的黑暗——即使环境再好，但因为枕头不合适而无法入睡也是一种浪费。客人最常见的睡眠问题是枕头不合适。它太硬、太低、太高，而且我担心气味。只需一个枕头就可以极大地提高您的睡眠满意度。本文将枕头菜单的设计整理为一种“体验设计”，而不仅仅是一种便利设施，它在不产生成本的情况下创造了“选择的睡眠体验”。</p>
+
+<h2>1. 为什么选择枕头菜单 — 3 项睡眠投诉</h2>
+<ul>
+<li><strong>最常见的抱怨是枕头不合适：</strong>评论说他们睡不好的首要原因是枕头。即使床和被褥相配，如果枕头不相配，你也睡不着。另一方面，如果枕头合适，说“我睡得很好”的评论就会增加。枕头是睡眠满意度的关键。</li>
+<li><strong>能够选择适合您的住宿：</strong>一家只有一种枕头的酒店就是一场关于它是否合适的赌博。您可以选择三种类型的住宿。通过选择，客人会觉得住宿是适合他们的。能够选择是待客之道的基础。</li>
+<li><strong>费用每间房几千日元，效果回顾：</strong>准备三种枕头的费用为每个房间数千日元。然而，随着“我睡得很好”的评论数量增加，OTA 评分也会上升，预订数量也会增加。枕头不是“成本”，而是“增加点评的投资”。</li>
+</ul>
+
+<h2>2.设计三点：高度、材质、呈现</h2>
+<ol>
+<li><strong>高度 — 3 种类型：低、正常和高：</strong>枕头的高度因人而异。有的人喜欢低枕头，有的人喜欢高枕头。通过提供三种不同的高度，我们可以满足 80% 客人的喜好。高度将显示为“低、正常或高”，您可以通过触摸进行选择。</li>
+<li><strong>材料 — 羽毛、记忆海绵、荞麦壳和其他当地材料：</strong>有羽绒枕、记忆棉枕、荞麦壳枕三种。如果你加入一种当地食材，它就会成为一个故事。例如：来自山上的荞麦壳，如果您住在海边，则在海滩微风中干燥的荞麦壳，如果您在日本农村，则来自当地农民的荞麦壳。如果材料有故事，工作人员就会想讲述它。</li>
+<li><strong>如何呈现 — 房间里一张卡片上印有照片的“枕头菜单”：</strong>不要将枕头藏在衣柜里，而是将它们展示在客房的一张卡片上，并附上它们的照片作为“枕头菜单”。照片让客人更容易明白他们有选择。该卡应包含以下信息：“如果您睡得很好，请在前台告诉我们。我们还借给你枕头。”</li>
+</ol>
+
+<h2>3. 运营——清洁、管理以及如何连接评论</h2>
+<ul>
+<li><strong>清洁度 — 始终双层盖：</strong>枕头是直接与皮肤接触的东西。确保有双层盖，其中一个防水盖。每月一次将枕头放在阳光下或阴凉处晾干。清洁度应该是可见的。通过更换枕套向客人展示您的枕套有多干净。</li>
+<li><strong>管理——在一张纸上记录贷款：</strong>在一张纸上记录租金，以跟踪哪些枕头受欢迎。办理入住手续时，询问“有枕头可以租吗？”如果借用，请记录下来。我们每月一次分析哪些枕头最受欢迎。购买额外受欢迎的枕头并更换不受欢迎的枕头。</li>
+<li><strong>如何连接到评论：</strong>退房时问：“昨晚睡得好吗？枕头怎么样？”对于晚上睡得好的客人，我说：“如果您写评论说：“我睡得很好。”我会很高兴。睡眠满意度与评论直接相关。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，若施策前的“睡得很好”的点评为每月10条，则提高约34%至每月13条可作为“施策见效”的判断参考。例如，若施策前的睡眠相关投诉为每月4次，则下降约52%至每月1.9次可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — —枕头不是“装备”，而是“可以选择的体验”。只有三种，就可以看出“这家旅馆很讲究睡眠”。判断效果时，请用相同的统计方法记录并比较施策前后30天的“睡得很好”的点评与睡眠相关投诉。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>睡眠体验<strong>“选择”而不是“装备”</strong>。仅三种类型，就可以看出这家旅馆对睡眠的讲究。枕头不是“成本”，而是增加点评的“投资”。每间房几千日元，“我睡得很好”的评论就会增加。从三种类型开始。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第 1 周：记录当前的枕头类型和客人评论</strong> — 记录当前的枕头类型以及客人是否抱怨枕头不合适。分析一些评论说“我睡不好觉”的原因</li>
+<li><strong>第二周：选择3种枕头（其中1种是当地材料制成的）</strong> — 根据高度（低、普通、高）和材质（羽毛、记忆海绵、荞麦壳等）选择三种类型。如果你加入一种当地食材，它就会成为一个故事。例如：山荞麦壳。</li>
+<li><strong>第三周：制作一张卡片并将其放在客房中</strong> — 创建为“枕头菜单”，并在客房的卡片上贴上照片。 “如果您睡得很好，请告知前台。”</li>
+<li><strong>第 4 周：创建清洁和管理系统</strong> — 双盖，使用防水盖。创建了一个在一张纸上记录租金的系统。我们每月一次分析哪些枕头最受欢迎。</li>
+<li><strong>继续：如何连接到评论</strong> — 退房时询问客人：“睡得好吗？枕头怎么样？”并请睡得好的客人留下评论。睡眠满意度与评论直接相关。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/welcome-amenity-5min","children":["- ",["$","span",null,{"className":"ja-only","children":"ウェルカムアメニティ — 「最初の5分」の設計"}],["$","span",null,{"className":"en-only","children":"Welcome Amenity: Designing the First Five Minutes"}],["$","span",null,{"className":"zh-only","children":"欢迎礼品——“前 5 分钟”设计"}]]}],["$","$L8",null,{"href":"/journal/articles/bathroom-ritual-amenity","children":[["$","span",null,{"className":"ja-only","children":"バスルーム体験 — 浴槽とアメニティの「儀式」"}],["$","span",null,{"className":"en-only","children":"Bathroom Experience: The Ritual of Tub and Amenity"}],["$","span",null,{"className":"zh-only","children":"浴室体验——浴缸和洗浴用品的“仪式”"}]," -"]}]]}]
+10:null

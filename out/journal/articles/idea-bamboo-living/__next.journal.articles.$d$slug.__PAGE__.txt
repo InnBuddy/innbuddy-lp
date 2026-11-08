@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-bamboo-living.jpg","image"]
 :HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
 :HL["/library/journal/ai_idea-compost-living.jpg","image"]
 :HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
-3:T2f6f,<p>竹という素材の、宿における立場を考えてみると、不思議なほど貧しいものです。「和風」という一語で片付けられ、エントランスの竹筒に花が一本挿されて、それで役割を終えています。ただ実は——竹は今、世界の建築界が注目する素材であり、同時に日本で最も余っている資源でもあります。この二つの事実を同時に抱えている素材は、ほかにありません。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2f6f,<p>竹という素材の、宿における立場を考えてみると、不思議なほど貧しいものです。「和風」という一語で片付けられ、エントランスの竹筒に花が一本挿されて、それで役割を終えています。ただ実は——竹は今、世界の建築界が注目する素材であり、同時に日本で最も余っている資源でもあります。この二つの事実を同時に抱えている素材は、ほかにありません。</p>
 <p>この記事では、①日本の竹が置かれている現状、②世界で竹が何を生んでいるか、③日本が持つ竹の手技文化、そして④それを宿でどう使うか、の順に考えます。</p>
 
 <h2>1. まず問題から——日本で竹は「余っている」</h2>
@@ -59,10 +124,87 @@ a:"$Sreact.suspense"
 <li><a href="#idea-scrap-wood-signboard">廃材で作る看板 — 古材・古道具で作る宿の看板アイデア</a> — 廃材と素材の物語</li>
 <li><a href="#idea-craftsman-handwork">職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア</a> — 素材の手技を体験にする方法</li>
 <li><a href="#idea-wind-feel-room">風を感じる客室 — 風鈴・風の抜け方・窓の開け方で作る涼のアイデア</a> — 竹簾の風と光</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","124"]}]]}],["$","h1",null,{"children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","p",null,{"className":"excerpt","children":"竹は「和風の装飾」ではありません——世界の建築界が注目する素材であり、日本で最も余っている資源でもあります。放置竹林が課題になる時代に、竹を眺め、使い、作る宿の設計を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.04"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[8,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L2","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L2","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-firewood-landscape","children":["← ","薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-driftwood-upcycle","children":["流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"className":"ARTICLE","children":"124"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo - Ideas for Making Bamboo Grove, Craft, Tools into Experience"}],["$","span",null,{"className":"zh-only","children":"与竹共生——体验竹林、竹工艺品、竹工具的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"竹は「和風の装飾」ではありません——世界の建築界が注目する素材であり、日本で最も余っている資源でもあります。放置竹林が課題になる時代に、竹を眺め、使い、作る宿の設計を考えます。"}],["$","span",null,{"className":"en-only","children":"Bamboo is not \"a Japanese-style ornament\" — it is a material the world’s architects are watching, and at the same time the resource Japan has most in surplus. In an age when abandoned bamboo groves have become a problem, designing an inn that looks at bamboo, uses it, and makes with it."}],["$","span",null,{"className":"zh-only","children":"竹林、竹工艺品、竹工具。和竹子一起生活，才能感受到里山的恩惠。以竹子为基础的住宿体验创意集合。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-bamboo-living.jpg","alt":"竹のある暮らし — 竹林・竹細工・竹の道具を体験にするアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.04"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[8,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T2e4b,<p>Consider bamboo’s standing at inns, and it is puzzling how poor it is. Dismissed with the single word "Japanese-style" — a single flower in a bamboo tube at the entrance, and its role is done. But in fact, bamboo is right now a material the world’s architecture world is watching, and at once the most surplus resource in Japan. No other material carries these two facts at the same time.</p>
+
+<p>In this article, we think in order: (1) the situation of bamboo in Japan, (2) what bamboo is producing in the world, (3) the culture of bamboo handwork Japan holds, and (4) how an inn can use it.</p>
+
+<h2>1. First, the problem — in Japan, bamboo is "in surplus"</h2>
+
+<p>In the Forestry Agency’s statistics, Japan’s bamboo forest area expanded from about 14,000 hectares in 1981 to about 16,000 hectares in 2012 (as reported by Nikkei). Recent private tallies put it above 17,000 hectares, and there is even an estimate that two-thirds of bamboo forest is unmanaged.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>About 160,000 ha → over 170,000 ha</strong> — in Forestry Agency statistics, the bamboo forest area that was about 140,000 ha in 1981 expanded to about 160,000 ha by 2012 (Nikkei reporting). In recent years private tallies put it above 170,000 ha. Grasping the exact "abandoned" area is difficult.</div>
+
+<p>Bamboo invades neighboring forest and farmland year by year through its underground rhizomes. A grove that has lost its tending swallows fields and becomes a hotbed of crop damage — a regional problem called "bamboo blight." Groves that were once tended by demand for bamboo shoots and bamboo timber have been abandoned as diets and materials changed.</p>
+
+<p>Here, turn the idea inside out. <strong>In Japan, a high-quality material lies sleeping in quantity, in the shape of a "problem."</strong> For an inn that can team with local grove owners, municipalities, or forest cooperatives, bamboo can be a resource that does not even require searching for a supplier (ANALYSIS).</p>
+
+<h2>2. WORLD — the people who built a whole school of bamboo</h2>
+
+<p>On Bali, Indonesia, there is a school called Green School. It opened in 2008, and most of its buildings are of bamboo structure. Its graduate Elora Hardy, after working as a designer in New York’s fashion industry, returned to Bali in 2010, founded the design firm IBUKU, and has produced more than ninety bamboo buildings across Southeast Asia and Africa (according to the firm’s and her own announcements). In 2015 she spoke about bamboo architecture on the TED stage, carrying the movement to the world.</p>
+
+<div class="note"><span class="tag">CASE</span>What is interesting in Green School’s bamboo building is that the weaknesses of bamboo are not hidden. Bamboo bends, splits, and draws insects. IBUKU’s architecture makes arches and curved surfaces precisely because it bends, and builds preservative and anti-insect chemical treatment (boron-based) into the process as a premise. It designs only after facing the material’s nature head-on.</div>
+
+<p>What to take from this is the order of design. Try to make "the shape of a wooden house" in bamboo and it fails. Draw the form out of bamboo’s nature — it flexes, it is light, it is hollow, it has nodes, it splits — and the result is a building only bamboo can make. The same is true when an inn uses bamboo: rather than <strong>making substitute goods for ready-made products in bamboo</strong>, the right order is to <strong>use bamboo’s nature itself as the experience</strong> (InnBuddy VIEW).</p>
+
+<h2>3. JAPAN — the material the world pursued in architecture, Japan perfected as weaving</h2>
+
+<p>While Bali’s architects open the structural possibilities of bamboo, Japan has spent centuries perfecting the handwork of bamboo "weaving." Beppu bamboo craft, of Beppu City, Oita Prefecture, is the prefecture’s only traditional craft designated by the Minister of Economy, Trade and Industry. Yotsume-ami (four-eye weave), mutsume-ami (six-eye), ajiro-ami (twill) — the craft of splitting bamboo into strips and weaving them up makes everything from tools to artworks.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>No. 1 in madake production in Japan</strong> — Oita Prefecture is said to rank first nationwide in timber output of madake bamboo and second in bamboo forest area (according to Oita’s tourism and local-product guides). Beppu bamboo craft is Oita’s only traditional craft designated by the Minister of Economy, Trade and Industry.</div>
+
+<p>Count the bamboo in Japanese daily life and its breadth astonishes. The kadomatsu of New Year. The chasen whisk of tea. Blinds and sudado screens. The leaves of sasa dango. Bentō wraps of bamboo sheath. Skewers, tubes, flower holders. Bamboo has been the "supporting player in the shadows" across the whole of Japanese life — and madake, given good conditions, is said to grow nearly a meter in a single day: a plant of astonishing regeneration.</p>
+
+<p>What is interesting is this asymmetry. The world has chased bamboo through <strong>architecture</strong>; Japan has chased it through <strong>craft</strong>. If so, the inns of Japan, holding both lines of knowledge, simply had more options for using bamboo from the start — one can think of it that way, too.</p>
+
+<h2>4. Using bamboo at the inn — three layers: look, use, make</h2>
+
+<p>Now implementation. Sort the ways of using bamboo into three layers — "look," "use," "make and touch" — and any inn can enter.</p>
+
+<p><strong>(1) Look — turn the grove into a garden of light and sound.</strong> Half of bamboo’s charm lies in landscape. Light falling through a bamboo sudare blind changes the air of a summer room, and the rustle of bamboo leaves carries a dry, high tone no other trees have. For an inn with a grove on the hill behind, the first step may be not "using" but <strong>thinning</strong>. A dense grove refuses light, but a thinned grove becomes a garden where light and wind pass. Clearing an abandoned grove is at once participation in a regional problem and the regeneration of the inn’s borrowed scenery.</p>
+
+<p><strong>(2) Use — bring bamboo-craft small items into the rooms.</strong> The basket that carries the amenities, the basket for linen, the small breakfast plates, chopstick rests, tea strainers — start with one room only, replacing its amenity basket with bamboo craft. Artisan pieces from the craft regions (Beppu and the others) can now be sourced directly. One more thing worth writing: bamboo craft does not have to stay inside the frame of "wa." Bamboo is a material of all Asia, and it meshes naturally with the vocabulary of Southeast Asian resorts too.</p>
+
+<p><strong>(3) Make, touch — cut bamboo, weave it, light it.</strong> A bamboo-cutting and small-item-making experience (coasters, bamboo dragonflies, flower holders) starts in thirty minutes with a saw and work gloves. In a craft region, an artisan-led bamboo workshop can be programed. And at night, bamboo light — events of "bamboo lanterns," bamboo pierced with holes and lit from within, have in the last few years become a fixture of town revitalization around Japan. A corner of the inn’s garden is enough: a few dozen bamboos and some light make a night scene.</p>
+
+<div class="stats"><span class="tag">SIMULATION</span><strong>A reference example of how to begin</strong> — replace one amenity basket with bamboo craft (an artisan piece runs from several thousand yen; a reference price); start the hillside thinning from a consultation with the forest cooperative or the like; start bamboo lighting from the combination of sourcing bamboo and a flame-free light source (LED candles and the like). Everything begins at a scale of "one room, one time, one corner."</div>
+
+<h2>5. The reality of running it — how to live with bamboo’s weaknesses</h2>
+
+<p>A good article does not look away from a material’s defects. Let us lay out bamboo’s weaknesses.</p>
+
+<ul>
+<li><strong>Insects and mold</strong> — bamboo contains starch and draws insects. Artisan pieces have been treated by smoking and drying, but using self-cut bamboo in rooms as-is carries risk. To use raw bamboo for small items, Aburi oil-extraction (toasting over fire) and thorough drying are needed; for amateurs, the safe range is "decoration."</li>
+<li><strong>Weak against water</strong> — most bamboo craft cannot be washed. Cleaning is basically dry wiping. Not suited to small items around the bath.</li>
+<li><strong>Degrades in sunlight</strong> — where direct sun through a window keeps striking, fading and embrittlement come early.</li>
+<li><strong>Splits and splinters</strong> — bamboo splits sharply along the fiber. Small items that guests handle should be limited to finished products with chamfering and polishing done.</li>
+<li><strong>Burns easily</strong> — bamboo and rattan are combustibles. When combining with lighting, use only low-heat LEDs.</li>
+<li><strong>Safety management of the experience</strong> — a bamboo-cutting experience presumes blade management, an instructor present, and insurance. Thinning requires the forest owner’s permission and safety management on the felling side (the danger of a left-standing bamboo springing back, for example). Always work under the guidance of local forestry or the forest cooperative.</li>
+</ul>
+
+<h2>6. Which inns, in what form</h2>
+
+<p>Inns adjoining bamboo grove or satoyama can put thinning experiences, bamboo lighting, and bamboo spaces in view. A hot-spring ryokan can carry towels in bamboo baskets and use bamboo in the bathhouse’s small items — just that much starts a story of "the material of this place." Even an urban inn can begin with bamboo-craft vessels and baskets — what is needed is only a connection to a craft region; scale does not matter.</p>
+
+<p>If there is an inn this does not suit, it is "the inn that ends with placing bamboo." Bamboo craft is weak against dust and dryness, and left alone its appeal falls in a year or two. <strong>Whether there is someone to tend it, and someone to tell its story</strong> — these two points are the dividing line between inns that can use bamboo and inns that cannot (InnBuddy VIEW).</p>
+
+<h2>Closing — bamboo is neither "Japanese-style" nor "eco"</h2>
+
+<p>Fast-growing, bending, splitting, weaveable — bamboo’s charm is that its very nature leaves room for design. Japan’s problem of abandoned groves, the handwork of Beppu’s artisans, the architecture of Bali. Somewhere on the line joining these three may be your inn’s way of using bamboo. The first step can be checking the species of the bamboo on the hill behind (madake, or mōsō?), or replacing a single amenity basket.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-bamboo-charcoal-living">Living with Bamboo Charcoal - Ideas for Bamboo Charcoal, Charcoal Making, Utilization</a> — a way of using bamboo without burning it</li>
+<li><a href="#idea-scrap-wood-signboard">Signboard Made from Scrap Wood - Ideas for Inn Signboard Made from Reclaimed Wood and Old Tools</a> — reclaimed materials and the story of stuff</li>
+<li><a href="#idea-craftsman-handwork">Touch Craftsman's Handwork - Ideas for Showing Handwork of Carpenter, Plasterer, Joiner, Tatami</a> — turning a material’s handwork into experience</li>
+<li><a href="#idea-wind-feel-room">Room Feeling Wind - Ideas for Coolness Made with Wind Chimes, Ventilation, Window Opening</a> — the wind and light of the bamboo blind</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1043,<p>本文分享一些可供尝试的想法。有些旅馆的庭园里用竹子做竹林，有些旅馆用竹子支撑果田，有些旅馆则用竹子进行竹工艺体验。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>透过竹林树叶的阳光、竹工艺品的手感、使用竹工具的舒适感。和竹子一起生活，才能感受到里山的恩惠。我们收集了一些关于如何从竹子的角度体验旅馆的技巧。</p><h2>竹子生活创意集</h2><ul><li><strong>竹林步道</strong> — 如果您的旅馆附近有一片小竹林，请将其介绍为步行道。如果您向您的客人展示一个可以欣赏透过竹林的阳光和竹子在风中摇曳的声音的地方，他们会很高兴。有的旅馆在竹林中放置了长凳，营造出可以享受竹林浴的场所。</li><li><strong>竹工艺小体验</strong> — 向擅长竹工艺的竹匠和当地人学习，体验制作竹筷子和竹杯垫的小经验。如果考虑到安全性，从一些简单的孩子也能做的事情开始，孩子们就会更容易参与。如果你把它带回家作为纪念品，你所做的一切将会留在你的记忆中。</li><li><strong>在旅馆里使用竹制工具</strong> — 在旅馆内使用竹制器具，如竹筷、竹篮、竹制茶具等。其理念是让人们享受使用竹工具的感觉和竹子的香味。在一家旅馆，他们用竹筷子做早餐，并介绍说“这些筷子是用后面竹林里的竹子做的。”</li><li><strong>竹子和果园的想法</strong> — 在有果田的酒店，可以用竹子作为果树和果篮的支撑物。在一家旅馆，他们将蓝莓放入竹篮中，并用它们作为收获体验的篮子。竹林与果田的结合，是一道美丽的里山风景线。</li><li><strong>竹灯的想法</strong> — 制作竹灯笼和竹灯罩，用它们在晚上照亮你的旅馆。光线从竹子的缝隙中漏出来，发出温暖柔和的光芒。在一些旅馆里，竹灯夜的日子里，竹灯笼会在花园里排成一排。</li></ul><h2>海外住宿案例——竹子住宿的想法</h2><p>竹子是东南亚岛屿旅馆的生活材料。竹建筑、竹家具、竹工具。与竹子一起生活是这家旅馆如此吸引人的原因。即使是日本的里山旅馆，也可以通过向人们展示如何与竹子生活来传达里山的祝福。</p><p>竹子在你的旅馆里有什么样的存在？即使没有竹林，也可以从制作竹制工具和工艺品开始。</p><h2>从一片小竹林开始的技巧</h2><p>即使你没有大片竹林，你也可以从一片小竹林或几棵竹树开始。一家客栈的花园一角种植了三棵竹子，并放置了一张长凳，用竹子营造出一道风景。即使在一片小小的竹林里，你也能感受到有竹子的生活。</p><p>通过与当地的工匠和擅长竹工艺的人一起体验竹工艺，您可以建立与当地社区的联系。为什么不从制作竹筷开始呢？</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约22%的数字仅为趋势示意，并不保证效果）。</strong> — —和竹子一起生活，才能体现出里山的魅力。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。管理竹林或尝试竹制品制作时，请务必注意安全并咨询专家。处理竹子时请小心。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>在旅馆使用一把竹制工具。</strong> — 从竹筷、竹篮等小工具开始</li><li><strong>竹林步道介绍</strong> — 如果附近有竹林，将其添加到步行地图中</li><li><strong>策划小型竹工艺体验</strong> — 从简单的事情开始，比如和当地人一起制作竹筷</li><li><strong>制作一盏竹灯</strong> — 使用竹灯笼和竹灯罩作为夜间照明</li><li><strong>竹林与果田结合的思考</strong> — 将竹篮变成果田的收获篮</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}]]}]]}],["$","$L8","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}]]}]]}],["$","$L8","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-firewood-landscape","children":["- ",["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-driftwood-upcycle","children":[["$","span",null,{"className":"ja-only","children":"流木と廃材のアップサイクル — 海と山の素材で作る客室の小物アイデア"}],["$","span",null,{"className":"en-only","children":"Driftwood and Scrap Upcycle - Ideas for Room Accessories Made from Sea and Mountain Materials"}],["$","span",null,{"className":"zh-only","children":"浮木和废木的升级改造——用海洋和山地材料制成的客房配件的创意"}]," -"]}]]}]
+10:null

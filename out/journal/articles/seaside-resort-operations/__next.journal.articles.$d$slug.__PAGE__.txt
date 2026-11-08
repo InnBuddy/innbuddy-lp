@@ -1,15 +1,150 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_resort-sea-beachside.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T1a5e,<p>海の見える宿を語るとき、つい「眺望」から始めてしまいます。でも海辺の宿の設計の本命は、眺望の先にある<strong>「潮風と共に暮らす」こと</strong>です。塩、湿気、台風——海は、一番良い客を連れてくる場所であると同時に、建物と設備を最も消耗させる場所でもあります。本記事は、その両方と付き合う設計の話です。</p><h2>白砂青松 — 千年の緩衝帯</h2><div class="stats"><span class="tag">FACT</span><strong>静岡・三保の松原は約7kmの海岸に松が連なり、2013年に世界文化遺産「富士山 — 信仰の対象と芸術の源泉」の構成資産として登録された</strong> — 佐賀の虹の松原、福井の気比の松原とともに日本三大松原の1つ。世界遺産登録の際には松枯れ対策が保全の条件となり、地元は樹木医の指導のもと保全活動を続けている(静岡市の観光案内・日本三大松原の解説等による)。</div><p>海岸の松原を、景観としてだけ見ている人は多いのですが、実態は<strong>働く森</strong>です。松の根は飛砂を固定し、幹と枝は潮風を一段受け止め、その内側に集落と田んぼを作ってきた——海と人の暮らしの間に立つ、千年かけて育てられた緩衝帯。白砂青松は、景色の名前である前に<strong>「海と暮らすための設計」の名前</strong>なのです。</p><p>ここから宿への翻訳は単純です。<strong>海と宿の間に、「一段受ける層」を設計する</strong>。それが松原の智慧の全部です。</p><h2>3つのリスク — 松原の内側での暮らし方</h2><ol><li><strong>塩害</strong> — 金属は錆び、室外機は蝕まれます。カバーをかける、しまう、塩に強い素材を選ぶ。海の見える場所に置くものを「錆びても良いか」で選ぶのが、買替えを減らす設計です。</li><li><strong>湿気</strong> — リネンと布団が湿気ります。除湿機の設置場所と天日干しのルールを1枚に。梅雨の湿気対策は、冬の布団の評判を作ります。</li><li><strong>台風・高潮</strong> — 海が近い宿は、避難経路と非常用備品を高所に。初動の設計は<a href="#earthquake-emergency-30min">地震対応 — 非常マニュアルの「最初の30分」</a>が共通の骨格です。</li></ol><h2>3つの強み — 海がくれる資産</h2><ul><li><strong>眺望</strong> — 海が見えるだけで客室単価は上がります。その撮り方は<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>が扱います。</li><li><strong>音</strong> — 波の音は、眠りのBGMとして機能します。眠りの設計は<a href="#sleep-experience-pillow">睡眠体験 — 「ピロウメニュー」の基本</a>とつながります。</li><li><strong>食</strong> — 海の幸と海の塩は、朝食と夕食の主役です(<a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a>が扱います)。</li></ul><h2>運用 — 2つの1枚</h2><p>1枚目は<strong>「潮風と共に暮らす」チェックリスト</strong>。塩害・湿気・台風の対応を、日常点検・月次点検・台風前の3段に分けて1枚にまとめます。2枚目は<strong>潮見表</strong>。海の宿の景色は、満潮と干潮で別の顔になります。「今日の満潮は16時です」との1行は、海を毎日眺める理由をもう1つ作ります。そして、ゲストには塩害や湿気も含めて正直に伝える——「潮風と共に暮らす宿」であること自体が、物語であり、期待の管理です。</p><h2>真水の1分 — 海の宿の隠れた体験設計</h2><p>海で泳いだゲストが最初に必要とするのは、実はシャワーです。<strong>ビーチのすぐ横に真水のシャワーを1つ置く</strong>——塩を落とす1分間は、海の宿の体験の質を左右する小さな設計です。砂を落とす足洗い場と合わせて、海の宿の「当たり前」を1つ作れます。</p><h2>反対側 — 海と暮らす5つの落とし穴</h2><ul><li><strong>松は手間も生む</strong> — 松くい虫の対策、剪定、台風で倒れるリスク。世界遺産ですら松枯れ対策が登録条件でした。木を植えることは、守ることとセットです。</li><li><strong>木の選び方</strong> — 潮風に強い樹種の代表はクロマツですが、土地に合うかは地域の状態次第。植栽は地元の林業・造園の知恵を借りるのが正解です。</li><li><strong>「潮風のせい」の言い訳化</strong> — 塩害を伝えることと、手入れを怠ることは別です。錆びた設備の説明に「海ですから」を使い始めたら、物語は逆回転します。</li><li><strong>真水シャワーの水道費</strong> — 体験の質と経費は表裏です。利用のルール(時間帯・長さ)を1行決めておきます。</li><li><strong>高潮の想定を甘く見る</strong> — 過去の浸水履歴は、隣の集落が一番知っています。保険と防災の話は<a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a>と合わせて確認を。</li></ul><p>千年前の人々は、海と暮らすために松を植えました。明日、あなたにできるのは——1本の塩に強い木を植えることか、室外機にカバーをかけることか、ビーチの横に真水のシャワーを1つ置くことか。海辺の宿の設計は、いつもその規模で始まります。</p><div class="note">この記事はアイデア共有を目的としています。三保の松原の記述は静岡市の観光案内等に基づきます(執筆時点)。台風・高潮への備えは各自治体のハザードマップ等をご確認ください。</div><h2>次に読む</h2><ul><li><a href="#earthquake-emergency-30min">地震対応 — 非常マニュアルの「最初の30分」</a> — 災害の初動の30分の話</li><li><a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a> — 海のリスクのお金の話</li><li><a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a> — 海の恵みを食卓に訳す話</li><li><a href="#idea-port-town-stay">港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア</a> — 海の別のかたちの宿の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","106"]}]]}],["$","h1",null,{"children":"海辺のリゾート運営 — 潮風と共に暮らす宿の設計"}],["$","p",null,{"className":"excerpt","children":"海辺の宿は「眺望」ではなく「潮風と共に暮らす」設計。千年かけて飛砂を止めてきた白砂青松の松原に学ぶ、海と宿の間の「緩衝帯」の設計と、塩害・湿気・台風への備えです。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_resort-sea-beachside.jpg","alt":"海辺のリゾート運営 — 潮風と共に暮らす宿の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.29"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/sea-salt-mountain-bounty","children":["← ","海の塩と山の恵み — 自然の調味料を語る食体験"]}],["$","$L2",null,{"href":"/journal/articles/infinity-pool-ocean-revenue","children":["インフィニティプールと海 — リゾートの「眺望」を収益に変える"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1a5e,<p>海の見える宿を語るとき、つい「眺望」から始めてしまいます。でも海辺の宿の設計の本命は、眺望の先にある<strong>「潮風と共に暮らす」こと</strong>です。塩、湿気、台風——海は、一番良い客を連れてくる場所であると同時に、建物と設備を最も消耗させる場所でもあります。本記事は、その両方と付き合う設計の話です。</p><h2>白砂青松 — 千年の緩衝帯</h2><div class="stats"><span class="tag">FACT</span><strong>静岡・三保の松原は約7kmの海岸に松が連なり、2013年に世界文化遺産「富士山 — 信仰の対象と芸術の源泉」の構成資産として登録された</strong> — 佐賀の虹の松原、福井の気比の松原とともに日本三大松原の1つ。世界遺産登録の際には松枯れ対策が保全の条件となり、地元は樹木医の指導のもと保全活動を続けている(静岡市の観光案内・日本三大松原の解説等による)。</div><p>海岸の松原を、景観としてだけ見ている人は多いのですが、実態は<strong>働く森</strong>です。松の根は飛砂を固定し、幹と枝は潮風を一段受け止め、その内側に集落と田んぼを作ってきた——海と人の暮らしの間に立つ、千年かけて育てられた緩衝帯。白砂青松は、景色の名前である前に<strong>「海と暮らすための設計」の名前</strong>なのです。</p><p>ここから宿への翻訳は単純です。<strong>海と宿の間に、「一段受ける層」を設計する</strong>。それが松原の智慧の全部です。</p><h2>3つのリスク — 松原の内側での暮らし方</h2><ol><li><strong>塩害</strong> — 金属は錆び、室外機は蝕まれます。カバーをかける、しまう、塩に強い素材を選ぶ。海の見える場所に置くものを「錆びても良いか」で選ぶのが、買替えを減らす設計です。</li><li><strong>湿気</strong> — リネンと布団が湿気ります。除湿機の設置場所と天日干しのルールを1枚に。梅雨の湿気対策は、冬の布団の評判を作ります。</li><li><strong>台風・高潮</strong> — 海が近い宿は、避難経路と非常用備品を高所に。初動の設計は<a href="#earthquake-emergency-30min">地震対応 — 非常マニュアルの「最初の30分」</a>が共通の骨格です。</li></ol><h2>3つの強み — 海がくれる資産</h2><ul><li><strong>眺望</strong> — 海が見えるだけで客室単価は上がります。その撮り方は<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>が扱います。</li><li><strong>音</strong> — 波の音は、眠りのBGMとして機能します。眠りの設計は<a href="#sleep-experience-pillow">睡眠体験 — 「ピロウメニュー」の基本</a>とつながります。</li><li><strong>食</strong> — 海の幸と海の塩は、朝食と夕食の主役です(<a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a>が扱います)。</li></ul><h2>運用 — 2つの1枚</h2><p>1枚目は<strong>「潮風と共に暮らす」チェックリスト</strong>。塩害・湿気・台風の対応を、日常点検・月次点検・台風前の3段に分けて1枚にまとめます。2枚目は<strong>潮見表</strong>。海の宿の景色は、満潮と干潮で別の顔になります。「今日の満潮は16時です」との1行は、海を毎日眺める理由をもう1つ作ります。そして、ゲストには塩害や湿気も含めて正直に伝える——「潮風と共に暮らす宿」であること自体が、物語であり、期待の管理です。</p><h2>真水の1分 — 海の宿の隠れた体験設計</h2><p>海で泳いだゲストが最初に必要とするのは、実はシャワーです。<strong>ビーチのすぐ横に真水のシャワーを1つ置く</strong>——塩を落とす1分間は、海の宿の体験の質を左右する小さな設計です。砂を落とす足洗い場と合わせて、海の宿の「当たり前」を1つ作れます。</p><h2>反対側 — 海と暮らす5つの落とし穴</h2><ul><li><strong>松は手間も生む</strong> — 松くい虫の対策、剪定、台風で倒れるリスク。世界遺産ですら松枯れ対策が登録条件でした。木を植えることは、守ることとセットです。</li><li><strong>木の選び方</strong> — 潮風に強い樹種の代表はクロマツですが、土地に合うかは地域の状態次第。植栽は地元の林業・造園の知恵を借りるのが正解です。</li><li><strong>「潮風のせい」の言い訳化</strong> — 塩害を伝えることと、手入れを怠ることは別です。錆びた設備の説明に「海ですから」を使い始めたら、物語は逆回転します。</li><li><strong>真水シャワーの水道費</strong> — 体験の質と経費は表裏です。利用のルール(時間帯・長さ)を1行決めておきます。</li><li><strong>高潮の想定を甘く見る</strong> — 過去の浸水履歴は、隣の集落が一番知っています。保険と防災の話は<a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a>と合わせて確認を。</li></ul><p>千年前の人々は、海と暮らすために松を植えました。明日、あなたにできるのは——1本の塩に強い木を植えることか、室外機にカバーをかけることか、ビーチの横に真水のシャワーを1つ置くことか。海辺の宿の設計は、いつもその規模で始まります。</p><div class="note">この記事はアイデア共有を目的としています。三保の松原の記述は静岡市の観光案内等に基づきます(執筆時点)。台風・高潮への備えは各自治体のハザードマップ等をご確認ください。</div><h2>次に読む</h2><ul><li><a href="#earthquake-emergency-30min">地震対応 — 非常マニュアルの「最初の30分」</a> — 災害の初動の30分の話</li><li><a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a> — 海のリスクのお金の話</li><li><a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a> — 海の恵みを食卓に訳す話</li><li><a href="#idea-port-town-stay">港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア</a> — 海の別のかたちの宿の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"106"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"海辺のリゾート運営 — 潮風と共に暮らす宿の設計"}],["$","span",null,{"className":"en-only","children":"Seaside Resort Operations: Designing a Property Living with Sea Breeze"}],["$","span",null,{"className":"zh-only","children":"海滨度假村的管理——设计可以享受海风的住宿"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"海辺の宿は「眺望」ではなく「潮風と共に暮らす」設計。千年かけて飛砂を止めてきた白砂青松の松原に学ぶ、海と宿の間の「緩衝帯」の設計と、塩害・湿気・台風への備えです。"}],["$","span",null,{"className":"en-only","children":"A seaside property is not a \"view\" but a design of \"living with the sea breeze.\" From the pine groves that spent a thousand years stopping the blowing sand — the buffer-zone design between sea and property, and preparing for salt, damp, and typhoons."}],["$","span",null,{"className":"zh-only","children":"海边客栈的设计不仅是为了景观，更是为了享受海风的居住。有关管理海滨度假村的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_resort-sea-beachside.jpg","alt":"海辺のリゾート運営 — 潮風と共に暮らす宿の設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.29"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1ab6,<p>Telling of a property with a sea view, we tend to start from "the view." But the heart of a seaside property’s design lies beyond it: <strong>"living with the sea breeze."</strong> Salt, damp, typhoons — the sea, while bringing the best guests, is also the place that wears down buildings and equipment most. This article is about the design that lives with both.</p>
+
+<h2>Hakusha-seishō — a thousand-year buffer</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>The Miho no Matsubara pine grove in Shizuoka lines about 7 km of coast with pines, and in 2013 was registered as a component of the World Cultural Heritage "Fujisan, Sacred Place and Source of Artistic Inspiration"</strong> — It is counted among Japan’s three great pine groves, with Saga’s Niji-no-Matsubara and Fukui’s Kehi no Matsubara. At the World Heritage registration, countermeasures against pine dieback became a condition of conservation, and the locality continues preservation work under tree doctors’ guidance (per Shizuoka City tourism guides and commentary on the three great pine groves).</div>
+
+<p>Many people see the coastal pine grove only as scenery, but its substance is a <strong>working forest</strong>. The pines’ roots fix the blowing sand; the trunks and branches take the sea breeze one step; inside them, hamlets and rice fields were built — a buffer zone between the sea and human life, raised over a thousand years. "Hakusha-seishō" — white sand, green pines — before being the name of a scenery is <strong>the name of "a design for living with the sea."</strong></p>
+
+<p>The translation to a property is simple. <strong>Between the sea and the property, design "one layer that takes the first step of the blow."</strong> That is the whole of the pine grove’s wisdom.</p>
+
+<h2>3 risks — living inside the pine grove</h2>
+
+<ol>
+<li><strong>Salt damage</strong> — Metal rusts; outdoor units corrode. Cover them, stow them, choose salt-tolerant materials. Choosing what stands in sea-view places by "is it all right if it rusts" is the design that reduces replacement.</li>
+<li><strong>Damp</strong> — Linen and futons take on moisture. Put the dehumidifier’s placement and the sun-drying rules on one sheet. The rainy-season damp measures make the winter futon’s reputation.</li>
+<li><strong>Typhoons and storm surge</strong> — Properties near the sea: evacuation routes and emergency supplies to high ground. The first-move design shares its skeleton with <a href="#earthquake-emergency-30min">Earthquake Response: The First 30 Minutes of the Manual</a>.</li>
+</ol>
+
+<h2>3 strengths — the assets the sea gives</h2>
+
+<ul>
+<li><strong>The view</strong> — Rooms that see the sea sell for more. How to shoot it is handled by <a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a>.</li>
+<li><strong>Sound</strong> — The sound of the waves works as the BGM of sleep. It connects to <a href="#sleep-experience-pillow">Sleep Experience: Basics of the Pillow Menu</a>.</li>
+<li><strong>Food</strong> — The sea’s bounty and the sea’s salt are the protagonists of breakfast and dinner (handled by <a href="#sea-salt-mountain-bounty">Sea Salt and Mountain Bounty: Telling Food Experience with Natural Seasonings</a>).</li>
+</ul>
+
+<h2>Operation — 2 sheets</h2>
+
+<p>The first is <strong>the "living with the sea breeze" checklist</strong>: the responses to salt, damp, and typhoon, split into three stages — daily checks, monthly checks, and before-typhoon — on one sheet. The second is <strong>the tide table</strong>. A sea property’s scenery has a different face at high and low tide. One line — "today’s high tide is at 4 p.m." — makes one more reason to gaze at the sea each day. And tell guests honestly, salt damage and damp included — being "a property that lives with the sea breeze" is itself story, and expectation management.</p>
+
+<h2>The one minute of fresh water — the seaside’s hidden experience design</h2>
+
+<p>What the guest who swam in the sea first wants is, in fact, a shower. <strong>Place one freshwater shower right beside the beach</strong> — the one minute of rinsing off the salt is a small design that steers the quality of a seaside stay. Together with a foot-wash for the sand, it creates one piece of the seaside property’s "ordinary."</p>
+
+<h2>The other side — 5 pitfalls of living with the sea</h2>
+
+<ul>
+<li><strong>Pines bring labor too</strong> — Countermeasures to pine nematodes, pruning, the risk of falling in typhoons. Even at a World Heritage site, pine-dieback measures were a condition of registration. Planting trees comes as a set with tending them.</li>
+<li><strong>Choosing trees</strong> — The leading salt-wind-tolerant species is the black pine (kuromatsu), but whether it fits the land depends on local conditions. For planting, borrowing the wisdom of local forestry and gardening is the right answer.</li>
+<li><strong>Turning "the sea breeze" into an excuse</strong> — Telling guests about salt damage and neglecting maintenance are different things. Start explaining rusted equipment with "well, it’s the sea," and the story runs in reverse.</li>
+<li><strong>The water bill of the freshwater shower</strong> — Experience quality and expenses are two sides. Decide the rules of use (hours, length) in one line.</li>
+<li><strong>Underestimating storm surge</strong> — The past flood record is known best by the next hamlet. Check insurance and preparedness together with <a href="#hotel-insurance-risk">Hotel Insurance: Risks to Know Before They Happen</a>.</li>
+</ul>
+
+<p>A thousand years ago, people planted pines to live with the sea. What you can do tomorrow — plant one salt-tolerant tree, cover an outdoor unit, or place one freshwater shower beside the beach. A seaside property’s design always starts at that scale.</p>
+
+<div class="note">This article is intended for sharing ideas. The account of Miho no Matsubara is based on Shizuoka City tourism guides and similar (as of writing). For typhoon and storm-surge preparedness, please check your municipality’s hazard maps and similar.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#earthquake-emergency-30min">Earthquake Response: The First 30 Minutes of the Manual</a> — the first 30 minutes of disaster</li>
+<li><a href="#hotel-insurance-risk">Hotel Insurance: Risks to Know Before They Happen</a> — the money side of the sea’s risks</li>
+<li><a href="#sea-salt-mountain-bounty">Sea Salt and Mountain Bounty: Telling Food Experience with Natural Seasonings</a> — translating the sea’s gifts to the table</li>
+<li><a href="#idea-port-town-stay">An inn with Port Town - Ideas for Feeling Morning at Port, Fisherman Stories, Boat Tools</a> — another shape of a property by the sea</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te82,<p>海滨度假区管理<strong>不仅仅是为了景观而设计，更是为了享受海风的生活</strong>。海盐、海风、湿度、台风：海边特有的三大风险、三大优势。本文是一篇有关管理海滨度假村的基础文章。</p><h2>一、海边三大风险及对策</h2><ol><li><strong>盐害</strong> — 金属、自行车和室外机生锈。将其盖好并存放在室内。</li><li><strong>水分</strong> — 亚麻布/蒲团受潮。除湿机和晒干的规则在一页中。</li><li><strong>台风/风暴潮</strong> — 对于靠近大海的住宿，请将疏散路线和应急物资放置在高处（参见地震应对文章）。</li></ol><h2>2. 海边的三大优势</h2><ol><li><strong>看法</strong> — 仅仅因为可以看到大海，每间客房的价格就会上涨（90％的照片请参阅文章）。</li><li><strong>声音</strong> — 海浪声成为您睡眠体验的背景音乐。</li><li><strong>食物</strong> — 海鲜成为早餐和晚餐的明星（请参阅我们的海盐文章）。</li></ol><h2>3. 操作——海风生活的一则法则</h2><ul><li>处理盐害、湿度和台风的清单。</li><li>作为可以吹着海风生活的旅馆，我们诚实地告诉客人盐害和湿度（透明建立信任）。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>当谈到“经营海滨度假村——设计一家可以吹着海风居住的旅馆”时，客人的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>住宿运营的举措提升的不只是单个旅馆，也包括整个地区的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>三</b><span>风险（盐害、潮湿、台风）</span></div><div class="stat"><b>三</b><span>优点（景色、声音、食物）</span></div><div class="stat"><b>1 件</b><span>清单</span></div></div><div class="note"><span class="tag">InnBuddy 笔记</span>海滨度假区管理<strong>“吹着海风生活”而不是“看海”</strong>。通过包含所涉及的风险，旅馆的故事变得更加深入。</div><h2>行动清单</h2><ul><li>第 1 周：在一张纸上记录当前的盐害、湿度和台风响应</li><li>第 2 周：一张清单列出 3 项风险和 3 项优势</li><li>第三周：写一条关于如何与客人沟通的台词（可以居住在海风中的旅馆）</li><li>每月：检查盐害和湿度，并在评论中整理与“海”有关的单词</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/sea-salt-mountain-bounty","children":["- ",["$","span",null,{"className":"ja-only","children":"海の塩と山の恵み — 自然の調味料を語る食体験"}],["$","span",null,{"className":"en-only","children":"Sea Salt and Mountain Bounty: Telling Food Experience with Natural Seasonings"}],["$","span",null,{"className":"zh-only","children":"海盐与大山的恩赐——讲述天然调味料故事的美食体验"}]]}],["$","$L8",null,{"href":"/journal/articles/infinity-pool-ocean-revenue","children":[["$","span",null,{"className":"ja-only","children":"インフィニティプールと海 — リゾートの「眺望」を収益に変える"}],["$","span",null,{"className":"en-only","children":"Infinity Pool and Sea: Turning Resort View into Revenue"}],["$","span",null,{"className":"zh-only","children":"无边际泳池和海洋——将度假村的“景观”转化为收入"}]," -"]}]]}]
+10:null

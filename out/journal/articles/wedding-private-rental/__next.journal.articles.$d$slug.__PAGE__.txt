@@ -1,15 +1,170 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_wedding-private-rental.jpg","image"]
 :HL["/library/journal/ai_pricing-basics.jpg","image"]
 :HL["/library/journal/ai_revenue-management-basics.jpg","image"]
 :HL["/library/journal/ai_revpar-18x-dynamic-pricing.jpg","image"]
-3:T1a80,<p>ウェディングと貸切は<strong>「式場」ではなく「宿を会場として売る」</strong>ことです。大きな式場ではできない「泊まれる」「貸切感」「自然」——20〜30名の小さなウェディングの会場として、宿は求められています。本記事は、宿を会場として売る貸切収益の基礎編です。</p><div class="stats"><span class="tag">FACT</span><strong>日本の婚姻件数は1972年の約110万組(109万9,984組)をピークに減少し続け、2023年には47万4,741組と、おおよそ半分以下となりました(厚生労働省「人口動態統計」の確定数。2023年は戦後最少)</strong> — ウェディングの市場全体が縮小する時代に、宿が何を売るかを考える必要があります</div><h2>披露するものの変化 —「格式」から「暮らし」へ</h2><p>披露宴の「披露」とは、広く見せることです。大きな式場が披露してきたのは、<strong>格式</strong>でした。晴れの舞台、並ぶ料理、列席の順番。けれど婚姻件数が半減する時代に、人々が式場に求めるものは静かに変わりました。友人20人と過ごす一日、自分たちの好きな食と場所——つまり、もう一つの披露です。<strong>二人の暮らしの世界観を、披露する</strong>。宿の貸切が選ばれるのは、この変化の真ん中にいるからです。宿には、式場にはない3つの武器があります。</p><ol><li><strong>泊まれる</strong> — 遠方からの列席者が、そのまま宿泊できる。移動が消え、式の夜がそのまま宴の延長になり、翌朝の朝食までが結婚式になる。これができるのは宿だけです。</li><li><strong>貸切感</strong> — 他の結婚式も、他の宿泊客もいない。二人の一日を、世界ごと借りられる。</li><li><strong>自然</strong> — 山、海、里山の風景が背景になる。写真は一生のものです(1枚の写真の力は、<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>が扱います)。</li></ol><h2>何を売るか — 3つの要素</h2><ul><li><strong>客室全室</strong> — 参加者がそのまま泊まる。20名なら10室。貸切の日は、宿の稼働が一日で満ちます。</li><li><strong>共用部</strong> — ラウンジは受付と二次会に、ダイニングは食事会場に、庭はセレモニーと写真に。宿の世界観を、丸ごと会場にする。</li><li><strong>食事</strong> — その土地の素材で組むコース。生産者の名前を添えれば、食事が地域の披露になります。</li></ul><h2>価格と条件 — 曖昧さを残さない</h2><ul><li><strong>パッケージで見せる</strong> — 「1泊2日・20名・○○円から」。何が含まれるかを、最初から1枚に書きます。客室・共用部・食事・進行の担い手の有無まで。</li><li><strong>最低人数と持ち込みの可否</strong> — 最低10名、持ち込みはケーキのみ可、酒類の持ち込みは不可——条件は先に書くほど、当日の迷いが減ります。</li><li><strong>1日に1組</strong> — 貸切の価値は「唯一」であること。受け入れ組数を1日1組と決めて、準備の体力を守る。</li></ul><h2>地域を、披露に呼ぶ</h2><p>宿の貸切ウェディングの強みは、地域が参加できることです。食事の生産者、二次会の近隣のカフェ、庭の手入れを頼んだ造園師——式の日に地域の人が関わると、結婚式は「二人の披露」を超えて、<strong>地域ぐるみの披露</strong>になります。近隣の店との連携の基本は、<a href="#local-business-collaboration">近隣事業との連携 — 「予約につながる協業」の基本</a>が扱います。夜の音と花火の規制、近隣への挨拶回りも、地域に開く式の礼儀です。</p><h2>反対側 — 貸切が宿を疲れさせるとき</h2><ul><li><strong>市場の縮小</strong> — 婚姻件数は半減しました。数を追う商いではなく、1組の単価と記憶で勝負する商いとして設計する。</li><li><strong>常連を締め出す日</strong> — 貸切の日が増えるほど、通常の宿泊客は予約を取りにくくなります。貸切は週末に偏りがち——通常営業との棲み分けを、先に決めておく。</li><li><strong>スタッフの体力</strong> — 1組の貸切の準備は、通常会議の数倍です。式の翌日は全館を清掃に充てるなど、体力の設計を忘れずに。</li><li><strong>責任と保険</strong> — 酒類の提供、ケーキの持ち込み、装花の撤去、万一の事故。リスクの確認は、<a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a>の記事で、受注の前に一度。</li><li><strong>世界観の相性</strong> — 宿の性格と式の雰囲気は、相性で決まります。和の宿、洋の宿、古民家、新しい建物——「うちでできない式」を正直に伝えることも、信頼のうちです。</li></ul><p>最初の一歩は、過去の宿泊ゲストのリストを見ることです。この宿の時間を気に入ってくれた人の中に、これから式を考える人はいないか。宿でウェディングを選ぶ人は、まず宿に恋した人です。その1組に、1枚の案内を届ける——「あなたたちの一日を、この宿まるごと会場にできます」と。式場の仕事ではなく、<strong>世界を貸す仕事</strong>として、貸切は始まります。</p><div class="note">この記事はアイデア共有を目的としています。婚姻件数は厚生労働省「人口動態統計」(確定数)に基づきます(執筆時点)。婚礼の実施には食品衛生・酒類販売・消防等の関係するルールがあります。専門のプランナーとの連携もご検討ください。</div><h2>次に読む</h2><ul><li><a href="#local-business-collaboration">近隣事業との連携 — 「予約につながる協業」の基本</a> — 地域を式に呼ぶ連携の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 1枚の証拠写真の話</li><li><a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a> — 受注前のリスク確認の話</li><li><a href="#meeting-banquet-revenue">会議・バンケット収益 — 「客室＋会議」の基本</a> — 貸切のもう一つの顔の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"children":["ARTICLE ","078"]}]]}],["$","h1",null,{"children":"ウェディングと貸切 — 「宿を会場として売る」収益"}],["$","p",null,{"className":"excerpt","children":"ウェディングは「式場」ではなく「宿を会場として売る」。婚姻件数が半減する時代に、格式でなく二人の「暮らしの世界観」を披露する小さな貸切の設計を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_wedding-private-rental.jpg","alt":"ウェディングと貸切 — 「宿を会場として売る」収益"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.01"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":"部屋単価の決め方 — プライシングの基礎"}]]}]]}],["$","$L2","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}]]}]]}],["$","$L2","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/meeting-banquet-revenue","children":["← ","会議・バンケット収益 — 「客室＋会議」の基本"]}],["$","$L2",null,{"href":"/journal/articles/pet-friendly-policy","children":["ペット同伴対応 — 「泊まる＋価格」の3要素"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1a80,<p>ウェディングと貸切は<strong>「式場」ではなく「宿を会場として売る」</strong>ことです。大きな式場ではできない「泊まれる」「貸切感」「自然」——20〜30名の小さなウェディングの会場として、宿は求められています。本記事は、宿を会場として売る貸切収益の基礎編です。</p><div class="stats"><span class="tag">FACT</span><strong>日本の婚姻件数は1972年の約110万組(109万9,984組)をピークに減少し続け、2023年には47万4,741組と、おおよそ半分以下となりました(厚生労働省「人口動態統計」の確定数。2023年は戦後最少)</strong> — ウェディングの市場全体が縮小する時代に、宿が何を売るかを考える必要があります</div><h2>披露するものの変化 —「格式」から「暮らし」へ</h2><p>披露宴の「披露」とは、広く見せることです。大きな式場が披露してきたのは、<strong>格式</strong>でした。晴れの舞台、並ぶ料理、列席の順番。けれど婚姻件数が半減する時代に、人々が式場に求めるものは静かに変わりました。友人20人と過ごす一日、自分たちの好きな食と場所——つまり、もう一つの披露です。<strong>二人の暮らしの世界観を、披露する</strong>。宿の貸切が選ばれるのは、この変化の真ん中にいるからです。宿には、式場にはない3つの武器があります。</p><ol><li><strong>泊まれる</strong> — 遠方からの列席者が、そのまま宿泊できる。移動が消え、式の夜がそのまま宴の延長になり、翌朝の朝食までが結婚式になる。これができるのは宿だけです。</li><li><strong>貸切感</strong> — 他の結婚式も、他の宿泊客もいない。二人の一日を、世界ごと借りられる。</li><li><strong>自然</strong> — 山、海、里山の風景が背景になる。写真は一生のものです(1枚の写真の力は、<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>が扱います)。</li></ol><h2>何を売るか — 3つの要素</h2><ul><li><strong>客室全室</strong> — 参加者がそのまま泊まる。20名なら10室。貸切の日は、宿の稼働が一日で満ちます。</li><li><strong>共用部</strong> — ラウンジは受付と二次会に、ダイニングは食事会場に、庭はセレモニーと写真に。宿の世界観を、丸ごと会場にする。</li><li><strong>食事</strong> — その土地の素材で組むコース。生産者の名前を添えれば、食事が地域の披露になります。</li></ul><h2>価格と条件 — 曖昧さを残さない</h2><ul><li><strong>パッケージで見せる</strong> — 「1泊2日・20名・○○円から」。何が含まれるかを、最初から1枚に書きます。客室・共用部・食事・進行の担い手の有無まで。</li><li><strong>最低人数と持ち込みの可否</strong> — 最低10名、持ち込みはケーキのみ可、酒類の持ち込みは不可——条件は先に書くほど、当日の迷いが減ります。</li><li><strong>1日に1組</strong> — 貸切の価値は「唯一」であること。受け入れ組数を1日1組と決めて、準備の体力を守る。</li></ul><h2>地域を、披露に呼ぶ</h2><p>宿の貸切ウェディングの強みは、地域が参加できることです。食事の生産者、二次会の近隣のカフェ、庭の手入れを頼んだ造園師——式の日に地域の人が関わると、結婚式は「二人の披露」を超えて、<strong>地域ぐるみの披露</strong>になります。近隣の店との連携の基本は、<a href="#local-business-collaboration">近隣事業との連携 — 「予約につながる協業」の基本</a>が扱います。夜の音と花火の規制、近隣への挨拶回りも、地域に開く式の礼儀です。</p><h2>反対側 — 貸切が宿を疲れさせるとき</h2><ul><li><strong>市場の縮小</strong> — 婚姻件数は半減しました。数を追う商いではなく、1組の単価と記憶で勝負する商いとして設計する。</li><li><strong>常連を締め出す日</strong> — 貸切の日が増えるほど、通常の宿泊客は予約を取りにくくなります。貸切は週末に偏りがち——通常営業との棲み分けを、先に決めておく。</li><li><strong>スタッフの体力</strong> — 1組の貸切の準備は、通常会議の数倍です。式の翌日は全館を清掃に充てるなど、体力の設計を忘れずに。</li><li><strong>責任と保険</strong> — 酒類の提供、ケーキの持ち込み、装花の撤去、万一の事故。リスクの確認は、<a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a>の記事で、受注の前に一度。</li><li><strong>世界観の相性</strong> — 宿の性格と式の雰囲気は、相性で決まります。和の宿、洋の宿、古民家、新しい建物——「うちでできない式」を正直に伝えることも、信頼のうちです。</li></ul><p>最初の一歩は、過去の宿泊ゲストのリストを見ることです。この宿の時間を気に入ってくれた人の中に、これから式を考える人はいないか。宿でウェディングを選ぶ人は、まず宿に恋した人です。その1組に、1枚の案内を届ける——「あなたたちの一日を、この宿まるごと会場にできます」と。式場の仕事ではなく、<strong>世界を貸す仕事</strong>として、貸切は始まります。</p><div class="note">この記事はアイデア共有を目的としています。婚姻件数は厚生労働省「人口動態統計」(確定数)に基づきます(執筆時点)。婚礼の実施には食品衛生・酒類販売・消防等の関係するルールがあります。専門のプランナーとの連携もご検討ください。</div><h2>次に読む</h2><ul><li><a href="#local-business-collaboration">近隣事業との連携 — 「予約につながる協業」の基本</a> — 地域を式に呼ぶ連携の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 1枚の証拠写真の話</li><li><a href="#hotel-insurance-risk">宿の保険 — 起きる前に知っておく「リスク」</a> — 受注前のリスク確認の話</li><li><a href="#meeting-banquet-revenue">会議・バンケット収益 — 「客室＋会議」の基本</a> — 貸切のもう一つの顔の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"className":"ARTICLE","children":"078"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"ウェディングと貸切 — 「宿を会場として売る」収益"}],["$","span",null,{"className":"en-only","children":"Wedding and Buyout: Selling the Property as a Venue"}],["$","span",null,{"className":"zh-only","children":"婚礼和私人租赁——“将旅馆作为场地出售”的收入"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"ウェディングは「式場」ではなく「宿を会場として売る」。婚姻件数が半減する時代に、格式でなく二人の「暮らしの世界観」を披露する小さな貸切の設計を整理します。"}],["$","span",null,{"className":"en-only","children":"A wedding is not \"a ceremony hall\" but \"selling the property as a venue.\" In an era when marriages have halved, the design of a small buyout that presents not formality but the couple’s \"worldview of living.\""}],["$","span",null,{"className":"zh-only","children":"当谈到婚礼时，我们将旅馆作为场地出售，而不是婚礼场地。关于小型旅馆包租收入的基础文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_wedding-private-rental.jpg","alt":"ウェディングと貸切 — 「宿を会場として売る」収益"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.01"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1a65,<p>Weddings and buyouts are <strong>not "a ceremony hall" but "selling the property as a venue."</strong> What big halls cannot offer — "you can stay," "the feeling of a buyout," "nature" — properties are sought as venues for small weddings of 20–30 guests. This article is the foundation of buyout revenue from selling the property as a venue.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Marriages in Japan have declined continuously from the 1972 peak of about 1.10 million (1,099,984), reaching 474,741 in 2023 — roughly less than half (final figures, Ministry of Health, Labour and Welfare "Vital Statistics"; 2023 was the postwar low)</strong> — In an era when the wedding market as a whole is shrinking, properties need to think about what they sell.</div>
+
+<h2>What is being presented changes — from "formality" to "living"</h2>
+
+<p>The hirō of a hirōen (reception) means showing widely. What the big ceremony halls presented was <strong>formality</strong>. The ceremonial stage, the rows of dishes, the order of the guests. But in an era when marriages have halved, what people ask of a venue has quietly changed. A day spent with twenty friends; the food and place the couple loves — in other words, another kind of presenting: <strong>presenting the worldview of the couple’s life together.</strong> A property buyout is chosen because it stands in the middle of this change. A property has three weapons a ceremony hall lacks.</p>
+
+<ol>
+<li><strong>You can stay</strong> — Guests from afar can lodge as they are. Travel disappears; the wedding night extends straight into the party; even the next morning’s breakfast becomes part of the wedding. Only a property can do this.</li>
+<li><strong>The feeling of a buyout</strong> — No other weddings, no other lodgers. The couple’s day, borrowed with the whole world around it.</li>
+<li><strong>Nature</strong> — Mountains, sea, satoyama scenery as the backdrop. Photographs last a lifetime (the power of a single photograph is handled by <a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a>).</li>
+</ol>
+
+<h2>What you sell — 3 elements</h2>
+
+<ul>
+<li><strong>All the rooms</strong> — Participants lodge as they are. Twenty guests means ten rooms. On a buyout day, the property’s occupancy fills in a single stroke.</li>
+<li><strong>The common spaces</strong> — The lounge becomes reception and after-party; the dining room, the meal hall; the garden, ceremony and photographs. The property’s worldview, whole, becomes the venue.</li>
+<li><strong>The meals</strong> — A course built from the land’s ingredients. Add the producers’ names, and the meal becomes a presentation of the region.</li>
+</ul>
+
+<h2>Price and terms — leave no ambiguity</h2>
+
+<ul>
+<li><strong>Show it as a package</strong> — "One night, two days, 20 guests, from ¥○○." What is included, on one sheet from the start: rooms, common spaces, meals — and whether a coordinator is provided.</li>
+<li><strong>Minimum headcount and bring-your-own rules</strong> — Minimum 10 guests; bringing your own cake allowed, alcohol not — the more you write the terms in advance, the less confusion on the day.</li>
+<li><strong>One couple per day</strong> — The value of a buyout is being "the only one." Set the acceptance at one couple a day, and protect the stamina of preparation.</li>
+</ul>
+
+<h2>Inviting the region into the presentation</h2>
+
+<p>The strength of a property buyout wedding is that the region can take part. The producers of the meal, the neighborhood café for the after-party, the gardener who tends the grounds — when local people take part in the wedding day, the wedding goes beyond "the couple’s presentation" and becomes <strong>a presentation by the whole region</strong>. The basics of partnering with nearby shops are handled by <a href="#local-business-collaboration">Local Business Collaboration: Basics of Reservation-Driving Partnerships</a>. Nighttime noise and fireworks rules, and the rounds of greetings to neighbors, are the etiquette of a wedding open to the region.</p>
+
+<h2>The other side — when buyouts exhaust the property</h2>
+
+<ul>
+<li><strong>A shrinking market</strong> — Marriages have halved. Design this not as a business chasing count, but as one that competes on the price and the memory of a single couple.</li>
+<li><strong>Days that shut out regulars</strong> — The more buyout days, the harder for ordinary guests to book. Buyouts lean toward weekends — decide the division of labor with normal operations in advance.</li>
+<li><strong>Staff stamina</strong> — Preparing one buyout is several times a normal meeting. Do not forget the stamina design — devoting the whole house to cleaning the day after the wedding, for instance.</li>
+<li><strong>Liability and insurance</strong> — Serving alcohol, brought-in cakes, removing flower arrangements, accidents. Check the risks once, before accepting, with <a href="#hotel-insurance-risk">Hotel Insurance: Risks to Know Before They Happen</a>.</li>
+<li><strong>Compatibility of worldviews</strong> — The property’s character and the wedding’s mood decide each other. Japanese-style inn, Western building, old folk house, new architecture — telling honestly "the wedding we cannot host" is part of trust too.</li>
+</ul>
+
+<p>The first step is looking at the list of past guests. Among the people who loved this property’s hours, is there no one now thinking of a wedding? People who choose a property wedding are, first, people who fell in love with the property. Deliver one flyer to that couple: "We can make your day into this property, entire." Not the business of a ceremony hall — as <strong>the business of lending a world</strong>, the buyout begins.</p>
+
+<div class="note">This article is intended for sharing ideas. Marriage figures are based on the Ministry of Health, Labour and Welfare’s "Vital Statistics" (final figures, as of writing). Hosting weddings involves food-hygiene, alcohol-sales, fire-safety, and related rules. Please also consider working with a professional planner.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#local-business-collaboration">Local Business Collaboration: Basics of Reservation-Driving Partnerships</a> — inviting the region into the wedding</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — the single proof photograph</li>
+<li><a href="#hotel-insurance-risk">Hotel Insurance: Risks to Know Before They Happen</a> — checking risks before accepting</li>
+<li><a href="#meeting-banquet-revenue">Meeting and Banquet Revenue: Rooms Plus Meeting Basics</a> — the buyout’s other face</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T173e,<p>婚礼和私人租赁<strong>“卖客栈当场地”而不是“礼堂”</strong>。很多客栈认为婚礼、包租只是“礼堂活”而放弃。然而，从不同的角度来看，旅馆现在作为“小型婚礼和私人聚会的场所”而受到追捧。时尚的建筑和海景或山景旅馆作为20至30人的小型婚礼的场所受到追捧。它的优点是可以过夜、感觉私密、提供大型婚礼大厅所没有的自然感觉。本文将概述通过出售旅馆作为场地获得特许收入的基础知识。</p>
+
+<h2>1. 卖什么——包租整间客栈及三要素</h2>
+<ul>
+<li><strong>所有房间——参与者可以过夜（不可移动）：</strong>婚礼和私人聚会的参加者希望在仪式或聚会后过夜。通过出租整个旅馆，参与者可以过夜而无需搬家。来自远方的客人将能够过夜，使他们更容易参与。出租所有客房将产生收入，使客栈的入住率提高至100%。</li>
+<li><strong>公共区域——休息室、餐厅和花园作为场地：</strong>公共区域休息室、餐厅和花园将用作场地。休息室可用于举办婚宴和余兴派对，用餐区可作为用餐场所，花园可用于举办仪式和拍照。通过使用公共区域作为场地，您可以推销旅馆的整个世界观。</li>
+<li><strong>餐食 — 使用当地农产品和海鲜产品的课程：</strong>婚礼和私人餐点均采用当地农产品和海鲜食材制成。使用当地食材的课程为客人提供“当地风味”的体验。当食物有故事可讲时，婚礼和私人聚会会更令人满意。</li>
+</ul>
+
+<h2>2. 优势——大型婚礼堂所不具备的三点</h2>
+<ol>
+<li><strong>您可以过夜 - 远程客人可以过夜：</strong>较大的仪式要求外地客人在仪式结束后搬到酒店。通过出租整个旅馆，远方的客人可以过夜。对于外地的客人来说，能够过夜是一个巨大的好处。</li>
+<li><strong>私人感觉——没有其他客人的私人感觉：</strong>大型礼堂内还有其他婚礼和宾客。通过出租整个旅馆，您可以享受没有其他客人的私密感。对于小型婚礼和寻求私人场地的宾客来说，私密的感觉是一个很大的吸引力。</li>
+<li><strong>自然——以山、海、日本乡村、海外乡村风光为背景：</strong>山峦、海洋、日本乡村和海外乡村的风景是婚礼和私人聚会的完美背景。以自然风光为背景的照片将创造终生难忘的回忆。自然是大型仪式场地无法提供的优势。</li>
+</ol>
+
+<h2>3. 价格和条件 — 显示在包装上</h2>
+<ul>
+<li><strong>套餐内显示“2天1晚/○○人/○○日元”：</strong>婚礼和私人租赁的价格以“1晚2天，20人，50万日元起”等套餐形式显示。在套餐上显示它可以让客人更容易了解所包含的内容。套餐价格包括所有房间、公共区域和餐食。</li>
+<li><strong>明确最低人数以及可以携带哪些物品：</strong>作为婚礼和私人预订的条件，我们将明确最低人数以及是否可以携带自己的物品。例如：最少10人，只允许带蛋糕进来。通过明确条件，可以防止出现问题。</li>
+<li><strong>与附近的酷咖啡馆和时尚咖啡馆合作的建议（余兴派对）：</strong>对于婚礼和私人余兴派对，我们还建议与附近的咖啡馆和时尚咖啡馆合作。通过引入附近的咖啡馆作为余兴派对的场所，客人可以“在整个地区享受婚礼体验”。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，一家10间客房的旅馆每月多接1场包场（住宿＋场地费共50万日元），当月收入就增加50万日元。“每月增加20万日元”是这一规模的计算示例；包场天数越多，数字也会随之变化。</strong> — 包租不是“礼堂”，而是“将客栈作为场地出售”。客栈的整个世界观是通过包括所有客房、公共区域和餐饮在内的套餐来出售的。判断效果时，请用相同的统计方法记录并比较施策前后30天的包场承接数、收入与客房入住率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>宪章的本质是<strong>“卖的是旅馆的整个世界观”</strong>。利用大型礼堂无法实现的“过夜”、“私密感”、“自然”等优势，将旅馆作为包括所有房间、公共区域和餐饮在内的场地一揽子出售。通过准备以山、海和自然为背景的照片，并建议与附近的咖啡馆合作，客人可以“在整个地区享受婚礼”。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：将可预订的人数和地点整理在一张纸上</strong> — 将可预订的人数（例如 10 至 30 人）和地点（所有客房、休息室、餐厅、花园）组织在一张纸上。最低人数以及是否可以携带自己的物品也有明确规定。</li>
+<li><strong>第 2 周：创建 1 晚 2 天的套餐价格。</strong> — 创建包含所有房间、公共区域和膳食的套餐价格，例如“1晚2天，20人，50万日元起”。这还包括与附近咖啡馆的合作。</li>
+<li><strong>第三周：向那些考虑举办婚礼的人介绍过去的客人</strong> — 向正在考虑举办婚礼或私人预订的过去客人发送信息。它作为一个推销旅馆整个世界观的包装很有吸引力。</li>
+<li><strong>第四周：准备一张照片并将其发布在网站上</strong> — 准备一张以山脉、海洋或自然为背景的婚礼或私人活动的照片，并将其发布在网站上。拍摄照片会让您的客人更容易感受到他们想在这家旅馆举办婚礼。</li>
+<li><strong>持续：询盘数量和成交率创历史新高</strong> — 每月一次记录私人预订查询数量和成交率。确认私人预订是否对客房入住率和利润有所贡献，并持续改进。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","pricing-fundamentals",{"href":"/journal/articles/pricing-fundamentals","children":[["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.13"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"部屋単価の決め方 — プライシングの基礎"}],["$","span",null,{"className":"en-only","children":"How to Set Room Rates: Pricing Fundamentals"}],["$","span",null,{"className":"zh-only","children":"如何确定房间的单价 — 定价基础知识"}]]}]]}]]}],["$","$L8","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","span",null,{"className":"en-only","children":"Revenue Management Basics: How to Read ADR, Occupancy, and RevPAR"}],["$","span",null,{"className":"zh-only","children":"收益管理基础知识 — 如何解读 ADR、入住率和 RevPAR"}]]}]]}]]}],["$","$L8","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","span",null,{"className":"en-only","children":"RevPAR Up 1.8×: Pricing From \"Gut Feeling\" to \"Design\""}],["$","span",null,{"className":"zh-only","children":"每间可用房收入 (RevPAR) 增加了 1.8 倍。将定价从“感觉”转向“设计”"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/meeting-banquet-revenue","children":["- ",["$","span",null,{"className":"ja-only","children":"会議・バンケット収益 — 「客室＋会議」の基本"}],["$","span",null,{"className":"en-only","children":"Meeting and Banquet Revenue: Rooms Plus Meeting Basics"}],["$","span",null,{"className":"zh-only","children":"会议/宴会收入——“客房+会议”的基础"}]]}],["$","$L8",null,{"href":"/journal/articles/pet-friendly-policy","children":[["$","span",null,{"className":"ja-only","children":"ペット同伴対応 — 「泊まる＋価格」の3要素"}],["$","span",null,{"className":"en-only","children":"Pet-Friendly: Three Elements of Stay Plus Price"}],["$","span",null,{"className":"zh-only","children":"允许携带宠物——“住宿+价格”3要素"}]," -"]}]]}]
+10:null

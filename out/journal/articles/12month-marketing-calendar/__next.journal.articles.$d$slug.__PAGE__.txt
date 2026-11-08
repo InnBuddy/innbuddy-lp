@@ -1,15 +1,153 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_12month-marketing-calendar.jpg","image"]
 :HL["/library/journal/ai_guest-data-river.jpg","image"]
 :HL["/library/journal/ai_instagram-cold-start.jpg","image"]
 :HL["/library/journal/ai_landing-page-3-seconds.jpg","image"]
-3:T1c11,<p>マーケティングは<strong>「思いつき」ではなく「カレンダー」</strong>です。ただし、宿のカレンダーの多くは3ヶ月で動かなくなります。1月に12ヶ月分の欄を埋めようとして、桜と紅葉の2マスだけが色づき、あとは白いまま。動かなくなる理由は、ほぼ1つです。<strong>カレンダーを「作りに」行った</strong>こと。作るものではありません。拾うものです。本記事は、1年を1枚に整理する基礎の方法です。</p><h2>歳時記 — 季節の情報は「観察の蓄積」</h2><p>俳句の世界には<strong>歳時記</strong>という手引書があります。季語を季節順に整理した索引で、詩人たちは「いま」を詠む前にこれを開きました。季語の背景には、二十四節気や七十二候という細かな暦の区分があります(暦の世界の詳しい話は、<a href="#idea-season-english-24sekki">季節の挨拶を英語で伝える — 二十四節気・七十二候を英語で伝えるアイデア</a>が扱います)。</p><p>歳時記が面白いのは、それが誰かの思いつきの計画表ではなく、<strong>長い年月をかけて積み上げられた観察の記録</strong>だという点です。田んぼに水が張る日、虫の声が始まる夜、風が涼しく変わる朝。季節の情報は会議室でなく、土の上で集められました。言い換えると、歳時記とは<strong>「いま何があるか」を何百年も書き続けたカレンダー</strong>なのです。</p><h2>3層で拾う — 季節・イベント・需要</h2><p>宿の12ヶ月も、同じ姿勢で拾えます。過去1年の予約データと地域の予定を並べて、3層に分けるだけです。</p><ol><li><strong>季節</strong> — 桜(3〜4月)・新緑(5月)・夏(6〜8月)・紅葉(10〜11月)・雪(12〜2月)の5季節に分けます。</li><li><strong>イベント</strong> — 祭・花火・マラソン・収穫祭・酒蔵開放。宿から30分以内のものを書き出します。</li><li><strong>需要</strong> — インバウンド(春・秋)・国内家族(夏・年末)・平日ビジネス・週末カップル。過去データの泊数を月別に色分けします。</li></ol><p>この3層は、ひらめきの問題ではありません。<strong>記録を並べ替える作業</strong>です。予約データこそ、あなたの宿の歳時記の元資料です。</p><h2>主役を1つだけ決める</h2><p>横軸に12ヶ月、縦軸に3層。そして各月に<strong>「その月の主役」を1つだけ</strong>決めます。5月は「新緑と山菜」、8月は「海と花火」、11月は「紅葉と収穫」。選ぶ基準は1つ、<strong>「その月にしかできないこと」</strong>です。いつでもできることは主役にしません。</p><p>俳句には「一句に季語は一つ」という作法があります。季節の言葉を重ねると句の表情が曇るのと同じで、<strong>月の主役も、2つ置いた瞬間にどちらも主役でなくなります</strong>。</p><p>主役が1つ決まると、不思議なほど物事が揃い始めます。撮るべき写真が1枚に決まり(<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>)、需要の山に合わせた値付けの話が具体化し(<a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a>)、SNSに投稿する内容も1枚の写真と1文に縮みます。カレンダーの最大の効用は、送る量を減らすことにあるのです。</p><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>俳句の世界では、一句に季語を1つに絞る「季重なりを避ける」という作法が大切にされてきました</strong> — 月の主役も同じです。2つ選んだ瞬間、メッセージも写真も半分ずつに薄まる</div><h2>運用 — 2ヶ月先を常に用意する</h2><ul><li><strong>2ヶ月先を常に準備</strong>します。直前では写真も言葉も間に合いません。海外ゲスト向けの準備はさらに前倒しが原則で、8週間前から動く考え方があります(<a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a>)。</li><li>月1回、15分の打ち合わせで「翌々月の主役」を確認します。担当は1人で構いません。</li><li>カレンダーは<strong>受付の見える場所に貼る</strong>。主役を知っているのは広報担当である必要はなく、スタッフ全員です。朝食の一品も、お見送りの一言も、その月の主役を乗せられます。</li></ul><h2>反対側 — カレンダーが宿を疲れさせるとき</h2><ul><li><strong>「埋める」ことが目的化する</strong> — 目的は埋めることでなく、1つ決めることです。書くことに困って埋めた月の投稿は、作り手の困り顔が写真に写ります。空いた月は、無理に埋めない。</li><li><strong>春秋への偏向</strong> — 桜と紅葉に頼るカレンダーは、需要の集中をさらに強めるだけです。夏と冬にこそ掘り出しの主役がないか、3層をもう一度見直します。</li><li><strong>「去年と同じ」の錯覚</strong> — 過去1年は、あくまで1つのサンプルです。祭は中止になることもあります。書き込む前に、当年の開催を主催者に確認します。</li><li><strong>年度の罠</strong> — 宿の1年は4月始まりでも1月始まりでもなく、繁忙の切れ目で区切る方が実態に合います。閑散期に翌年の1枚を作るのが現実的です。</li></ul><p>最初の一歩は、過去1年の予約データを月別に並べて、需要の山に色を付けることです。次に、その山の原因(祭か、連休か、紅葉か)を書き添える。それだけで、あなたの宿の歳時記の最初の頁ができます。あとは毎年、観察を書き足していくだけです。</p><div class="note">この記事はアイデア共有を目的としています。歳時記・季語・季重なりの作法は俳諧の伝統的な一般知識として紹介しています。イベントの開催情報は主催者にご確認ください。準備のリードタイムは一例です。</div><h2>次に読む</h2><ul><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 海外ゲストの季節の波の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 主役を1枚に撮る話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 山に合わせた値付けの話</li><li><a href="#guest-journey-map">ゲスト体験の全体像 — 「接点」をmapで見る方法</a> — 1年でなく1回の滞在を線で見る話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"children":["ARTICLE ","069"]}]]}],["$","h1",null,{"children":"宿の12ヶ月 — すぐに使えるマーケティングカレンダー"}],["$","p",null,{"className":"excerpt","children":"マーケティングカレンダーは「作る」ものでなく「拾う」もの。歳時記の発想で季節・イベント・需要の3層を1枚に並べ、各月の主役を1つだけ決める方法です。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_12month-marketing-calendar.jpg","alt":"宿の12ヶ月 — すぐに使えるマーケティングカレンダー"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.22"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":"ゲストデータの基本 — 何を記録し、どう使うか"}]]}]]}],["$","$L2","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}]]}]]}],["$","$L2","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/breakfast-buffet-media","children":["← ","朝食をメディア化するビュッフェ設計"]}],["$","$L2",null,{"href":"/journal/articles/guest-journey-map","children":["ゲスト体験の全体像 — 「接点」をmapで見る方法"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1c11,<p>マーケティングは<strong>「思いつき」ではなく「カレンダー」</strong>です。ただし、宿のカレンダーの多くは3ヶ月で動かなくなります。1月に12ヶ月分の欄を埋めようとして、桜と紅葉の2マスだけが色づき、あとは白いまま。動かなくなる理由は、ほぼ1つです。<strong>カレンダーを「作りに」行った</strong>こと。作るものではありません。拾うものです。本記事は、1年を1枚に整理する基礎の方法です。</p><h2>歳時記 — 季節の情報は「観察の蓄積」</h2><p>俳句の世界には<strong>歳時記</strong>という手引書があります。季語を季節順に整理した索引で、詩人たちは「いま」を詠む前にこれを開きました。季語の背景には、二十四節気や七十二候という細かな暦の区分があります(暦の世界の詳しい話は、<a href="#idea-season-english-24sekki">季節の挨拶を英語で伝える — 二十四節気・七十二候を英語で伝えるアイデア</a>が扱います)。</p><p>歳時記が面白いのは、それが誰かの思いつきの計画表ではなく、<strong>長い年月をかけて積み上げられた観察の記録</strong>だという点です。田んぼに水が張る日、虫の声が始まる夜、風が涼しく変わる朝。季節の情報は会議室でなく、土の上で集められました。言い換えると、歳時記とは<strong>「いま何があるか」を何百年も書き続けたカレンダー</strong>なのです。</p><h2>3層で拾う — 季節・イベント・需要</h2><p>宿の12ヶ月も、同じ姿勢で拾えます。過去1年の予約データと地域の予定を並べて、3層に分けるだけです。</p><ol><li><strong>季節</strong> — 桜(3〜4月)・新緑(5月)・夏(6〜8月)・紅葉(10〜11月)・雪(12〜2月)の5季節に分けます。</li><li><strong>イベント</strong> — 祭・花火・マラソン・収穫祭・酒蔵開放。宿から30分以内のものを書き出します。</li><li><strong>需要</strong> — インバウンド(春・秋)・国内家族(夏・年末)・平日ビジネス・週末カップル。過去データの泊数を月別に色分けします。</li></ol><p>この3層は、ひらめきの問題ではありません。<strong>記録を並べ替える作業</strong>です。予約データこそ、あなたの宿の歳時記の元資料です。</p><h2>主役を1つだけ決める</h2><p>横軸に12ヶ月、縦軸に3層。そして各月に<strong>「その月の主役」を1つだけ</strong>決めます。5月は「新緑と山菜」、8月は「海と花火」、11月は「紅葉と収穫」。選ぶ基準は1つ、<strong>「その月にしかできないこと」</strong>です。いつでもできることは主役にしません。</p><p>俳句には「一句に季語は一つ」という作法があります。季節の言葉を重ねると句の表情が曇るのと同じで、<strong>月の主役も、2つ置いた瞬間にどちらも主役でなくなります</strong>。</p><p>主役が1つ決まると、不思議なほど物事が揃い始めます。撮るべき写真が1枚に決まり(<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>)、需要の山に合わせた値付けの話が具体化し(<a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a>)、SNSに投稿する内容も1枚の写真と1文に縮みます。カレンダーの最大の効用は、送る量を減らすことにあるのです。</p><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>俳句の世界では、一句に季語を1つに絞る「季重なりを避ける」という作法が大切にされてきました</strong> — 月の主役も同じです。2つ選んだ瞬間、メッセージも写真も半分ずつに薄まる</div><h2>運用 — 2ヶ月先を常に用意する</h2><ul><li><strong>2ヶ月先を常に準備</strong>します。直前では写真も言葉も間に合いません。海外ゲスト向けの準備はさらに前倒しが原則で、8週間前から動く考え方があります(<a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a>)。</li><li>月1回、15分の打ち合わせで「翌々月の主役」を確認します。担当は1人で構いません。</li><li>カレンダーは<strong>受付の見える場所に貼る</strong>。主役を知っているのは広報担当である必要はなく、スタッフ全員です。朝食の一品も、お見送りの一言も、その月の主役を乗せられます。</li></ul><h2>反対側 — カレンダーが宿を疲れさせるとき</h2><ul><li><strong>「埋める」ことが目的化する</strong> — 目的は埋めることでなく、1つ決めることです。書くことに困って埋めた月の投稿は、作り手の困り顔が写真に写ります。空いた月は、無理に埋めない。</li><li><strong>春秋への偏向</strong> — 桜と紅葉に頼るカレンダーは、需要の集中をさらに強めるだけです。夏と冬にこそ掘り出しの主役がないか、3層をもう一度見直します。</li><li><strong>「去年と同じ」の錯覚</strong> — 過去1年は、あくまで1つのサンプルです。祭は中止になることもあります。書き込む前に、当年の開催を主催者に確認します。</li><li><strong>年度の罠</strong> — 宿の1年は4月始まりでも1月始まりでもなく、繁忙の切れ目で区切る方が実態に合います。閑散期に翌年の1枚を作るのが現実的です。</li></ul><p>最初の一歩は、過去1年の予約データを月別に並べて、需要の山に色を付けることです。次に、その山の原因(祭か、連休か、紅葉か)を書き添える。それだけで、あなたの宿の歳時記の最初の頁ができます。あとは毎年、観察を書き足していくだけです。</p><div class="note">この記事はアイデア共有を目的としています。歳時記・季語・季重なりの作法は俳諧の伝統的な一般知識として紹介しています。イベントの開催情報は主催者にご確認ください。準備のリードタイムは一例です。</div><h2>次に読む</h2><ul><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 海外ゲストの季節の波の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 主役を1枚に撮る話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 山に合わせた値付けの話</li><li><a href="#guest-journey-map">ゲスト体験の全体像 — 「接点」をmapで見る方法</a> — 1年でなく1回の滞在を線で見る話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"className":"ARTICLE","children":"069"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"宿の12ヶ月 — すぐに使えるマーケティングカレンダー"}],["$","span",null,{"className":"en-only","children":"The 12 Months of a Property: A Ready-to-Use Marketing Calendar"}],["$","span",null,{"className":"zh-only","children":"Inn 12 个月 — 即用型营销日历"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"マーケティングカレンダーは「作る」ものでなく「拾う」もの。歳時記の発想で季節・イベント・需要の3層を1枚に並べ、各月の主役を1つだけ決める方法です。"}],["$","span",null,{"className":"en-only","children":"A marketing calendar is not something you \"build\" but something you \"gather.\" With the thinking of the saijiki almanac, lay the three layers — season, events, demand — on a single sheet, and give each month just one protagonist."}],["$","span",null,{"className":"zh-only","children":"将一年分为三个层次：季节、事件和需求。有关营销日历的基本文章，在一页中显示 12 个月。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_12month-marketing-calendar.jpg","alt":"宿の12ヶ月 — すぐに使えるマーケティングカレンダー"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.22"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1bf2,<p>Marketing is <strong>not "inspiration" but "a calendar."</strong> Yet most property calendars stop moving within three months. Trying to fill in twelve months of boxes in January, only the cherry-blossom and autumn-leaf squares take color, and the rest stays white. The reason it stops moving is almost exactly one thing: <strong>you went out to "make" the calendar.</strong> It is not something to make. It is something to gather. This article is the foundational method for organizing a year onto one sheet.</p>
+
+<h2>The saijiki — seasonal information is "an accumulation of observation"</h2>
+
+<p>In the world of haiku there is a guidebook called the <strong>saijiki</strong> — an index that organizes kigo, the seasonal words, in seasonal order, and poets opened it before composing about "the now." Behind the seasonal words lie the fine calendar divisions of the 24 sekki and 72 kō (the calendar world’s detailed story is handled by <a href="#idea-season-english-24sekki">Tell Seasonal Greetings in English - Ideas for Conveying 24 Sekki and 72 Ko in English</a>).</p>
+
+<p>What makes the saijiki interesting is that it is not somebody’s inspirational plan but <strong>a record of observation stacked up over long years</strong>. The day the paddies fill with water; the night the insect voices begin; the morning the wind turns cool. Seasonal information was gathered not in meeting rooms but on the soil. Put another way, the saijiki is <strong>a calendar of "what is here now," written on and on for hundreds of years</strong>.</p>
+
+<h2>Gathering in 3 layers — season, events, demand</h2>
+
+<p>A property’s twelve months can be gathered with the same posture. Line up the past year’s booking data and the region’s schedule, and sort into three layers. That is all.</p>
+
+<ol>
+<li><strong>Season</strong> — Divide into five seasons: cherry blossoms (March–April), fresh green (May), summer (June–August), autumn leaves (October–November), snow (December–February).</li>
+<li><strong>Events</strong> — Festivals, fireworks, marathons, harvest festivals, brewery open houses. Write out everything within 30 minutes of the property.</li>
+<li><strong>Demand</strong> — Inbound (spring and autumn), domestic families (summer and year-end), weekday business, weekend couples. Color-code the past data’s guest-nights by month.</li>
+</ol>
+
+<p>These three layers are not a matter of inspiration. <strong>They are the work of rearranging records.</strong> The booking data is, precisely, the source material of your property’s saijiki.</p>
+
+<h2>Decide on just one protagonist</h2>
+
+<p>Twelve months across, three layers down. And for each month, decide <strong>just one "protagonist of the month."</strong> May is "fresh green and mountain vegetables"; August is "the sea and fireworks"; November is "autumn leaves and the harvest." The criterion for choosing is one: <strong>"what can only be done in that month."</strong> What can be done anytime does not become the protagonist.</p>
+
+<p>Haiku has the manner of "one kigo per poem." Just as stacking seasonal words clouds the poem’s expression, <strong>the month’s protagonist, the moment you set two, stops being either</strong>.</p>
+
+<p>Once the single protagonist is set, things start coming together with almost uncanny ease. The photograph to take settles to one (<a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a>), the pricing matched to the demand peak turns concrete (<a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a>), and what to post on social shrinks to one photograph and one sentence. The calendar’s greatest usefulness lies in reducing the amount you send.</p>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>In the world of haiku, the manner of "avoiding season-overlap (kigasanari)" — narrowing each poem to a single kigo — has long been cherished</strong> — The month’s protagonist is the same. The moment you choose two, both the message and the photograph thin to half each.</div>
+
+<h2>Operation — always keep two months ahead ready</h2>
+
+<ul>
+<li><strong>Always prepare two months ahead.</strong> At the last minute, neither the photographs nor the words make it in time. For overseas guests, the principle is to move even earlier — there is a way of thinking that starts 8 weeks out (<a href="#seasonal-inbound-demand">Seasonal Inbound Demand: The Basics of When to Prepare What</a>).</li>
+<li>Once a month, a 15-minute check confirms "the protagonist of the month after next." One person in charge is enough.</li>
+<li>Stick the calendar <strong>where the front desk can see it.</strong> The ones who need to know the protagonist are not the PR officer but the whole staff. A breakfast dish, a word at send-off — both can carry the month’s protagonist.</li>
+</ul>
+
+<h2>The other side — when the calendar exhausts the property</h2>
+
+<ul>
+<li><strong>"Filling it in" becomes the purpose</strong> — The aim is not filling but deciding on one. The posts of months filled out of difficulty show the writer’s struggling face in the photographs. Months that stay empty: do not force them full.</li>
+<li><strong>Leaning on spring and autumn</strong> — A calendar that leans on cherry blossoms and autumn leaves only strengthens the concentration of demand. Look again at the three layers — is there no protagonist to unearth in summer and winter?</li>
+<li><strong>The illusion of "same as last year"</strong> — The past year is, after all, one sample. Festivals do get canceled. Before writing it in, confirm this year’s holding with the organizer.</li>
+<li><strong>The fiscal-year trap</strong> — A property’s year is cut neither at April nor at January; cutting it at the break of the peak season fits reality better. Making next year’s sheet in the off-season is the practical move.</li>
+</ul>
+
+<p>The first step is to line up the past year’s booking data by month and color the demand peaks. Next, annotate the cause of each peak (a festival, a holiday run, the autumn leaves). With that alone, the first page of your property’s saijiki exists. After that, you only keep adding observations, year after year.</p>
+
+<div class="note">This article is intended for sharing ideas. The saijiki, kigo, and the manners of season-overlap are introduced as traditional general knowledge of haikai poetry. Please confirm event schedules with the organizers. Preparation lead times are one example.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#seasonal-inbound-demand">Seasonal Inbound Demand: The Basics of When to Prepare What</a> — the seasonal waves of overseas guests</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — photographing the protagonist in one frame</li>
+<li><a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a> — pricing to the peaks</li>
+<li><a href="#guest-journey-map">The Whole Guest Experience: Mapping the Touchpoints</a> — seeing not a year but a single stay as a line</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T10c1,<p>营销是<strong>“日历”而不是“想法”</strong>。客栈的一年，由山、海、田的季节、当地的节日、丰收、烟火、入境和国内的需求组成。本文是一篇基础文章，总结了如何在12个月内将这三层整理成一张纸。</p><h2>1.三层视角——季节、事件、需求</h2><ol><li><strong>季节</strong> — 分为五个季节：樱花（3月-4月）、新绿（5月）、夏季（6月-8月）、秋叶（10月-11月）、雪景（12月-2月）。</li><li><strong>事件</strong> — 写下距离您的旅馆 30 分钟以内的当地节日、烟火、马拉松、丰收、清酒酿酒厂开张等。</li><li><strong>要求</strong> — 根据过往数据，对入境游客（春季/秋季）、国内家庭（夏季/年底）、工作日商务和周末情侣的人潮进行颜色编码。</li></ol><h2>2. 如何制作一件作品——确定一个主角</h2><p>创建一个表格，横轴为 12 个月，纵轴为 3 层。每个月<strong>“本月主角”</strong>诀窍是只决定一个。</p><ul><li>例如：五月是“新绿野菜”，八月是“大海与烟火”，十一月是“秋叶与收获”。</li><li>主角确定后，照片（山、海、自然）、方案（农业体验）、帖子（社交）都准备好了。</li><li>主角是<strong>“只有那个月才能做的事”</strong>选择（不要专注于你随时可以做的事情）。</li></ul><h2>3、操作小贴士——时刻为接下来的两个月做好准备</h2><ul><li><strong>提前2个月</strong>时刻做好准备。到了最后一刻，我将无法及时拍照或文字。</li><li>每月一次，我们举行一次15分钟的会议，以确认“下个月的主要角色”。只有一个人负责。</li><li>日历是<strong>在哪里可以看到接待处</strong>（所有工作人员都应该认识主角）。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>与五年前相比，《旅馆的 12 个月 - 即用型营销日历》改变了现在客人的期望。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>在网上吸引顾客的努力增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>12</b><span>本月主角</span></div><div class="stat"><b>3层</b><span>季节/活动/需求</span></div><div class="stat"><b>提前2个月</b><span>准备时间</span></div></div><div class="note"><span class="tag">InnBuddy 笔记</span>日历的目的不是“填写”<strong>“选择这个月的一个。”</strong>。一旦决定一件事，照片和文字就到位了，工作人员就不会再有任何犹豫。</div><h2>行动清单</h2><ul><li>第 1 周：按月份对过去一年的预订数据进行排序，并对需求峰值进行颜色编码。</li><li>第 2 周：写下 5 个季节、10 个事件和需求波</li><li>第三周：决定一张纸作为12个月的主角（分配主题如山、海、农业等）</li><li>每月：确定提前2个月的主要角色并准备照片和计划</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","span",null,{"className":"en-only","children":"Guest Data Basics: What to Record, and How to Use It"}],["$","span",null,{"className":"zh-only","children":"访客数据基础知识——记录什么以及如何使用它"}]]}]]}]]}],["$","$L8","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","span",null,{"className":"en-only","children":"Hotel Instagram: The Zero-to-Ten Post Plan for Starting Now"}],["$","span",null,{"className":"zh-only","children":"Hotel Instagram — 计划从现在开始从“0 条帖子到 10 条帖子”"}]]}]]}]]}],["$","$L8","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","span",null,{"className":"en-only","children":"Landing Page Design: What to Say in the First \"Three Seconds\""}],["$","span",null,{"className":"zh-only","children":"登陆页面设计——前“3秒”要传达什么"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/breakfast-buffet-media","children":["- ",["$","span",null,{"className":"ja-only","children":"朝食をメディア化するビュッフェ設計"}],["$","span",null,{"className":"en-only","children":"Turning Breakfast Into Media: Buffet Design"}],["$","span",null,{"className":"zh-only","children":"将早餐变成媒体的自助餐设计"}]]}],["$","$L8",null,{"href":"/journal/articles/guest-journey-map","children":[["$","span",null,{"className":"ja-only","children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","span",null,{"className":"en-only","children":"The Whole Guest Experience: Mapping the Touchpoints"}],["$","span",null,{"className":"zh-only","children":"宾客体验的全貌——如何在地图上查看“接触点”"}]," -"]}]]}]
+10:null

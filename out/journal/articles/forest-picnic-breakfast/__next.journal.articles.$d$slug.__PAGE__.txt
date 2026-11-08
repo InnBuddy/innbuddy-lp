@@ -1,15 +1,142 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_nature-food-forest-picnic.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1a88,<p>木漏れ日と鳥の声の中で食べる朝食は、ダイニングの朝食とは別の記憶になります。ただし「森で朝食」と聞くと、多くの人は運搬の苦労を思い浮かべます——テーブルを運び、椅子を運び、食器を運ぶ。本記事は、その発想を逆転させる話です。森の朝食の正体は、<strong>食事の場所の移動ではなく「しつらいの移動」</strong>です。</p><h2>お茶は、茶室の外でも点てられた</h2><p>茶の湯の世界には、<strong>野点(のだて)</strong>という形式があります。道具を茶籠(ちゃこう)に収め、床几(しょうぎ)を運び、野外に一席をしつらえる。春の花見、雪の庭——茶室の外に、きちんとした一席を立てる作法が、数百年前にすでに完成していました。</p><p>野点が教えるのは、たった1つです。<strong>しつらえがあれば、食事の場所はどこでも建つ</strong>。逆に、しつらえがなければ、どこに運んでも食堂にはなりません。森の朝食の設計とは、テーブルを運ぶことではなく、茶籠と床几に相当するものを選ぶことです。</p><h2>1587年、日本史上最大の「野外の食事」</h2><div class="stats"><span class="tag">FACT</span><strong>天正15年(1587)10月1日、豊臣秀吉は京都・北野天満宮の境内から松原にかけて大茶会「北野大茶湯」を開いた</strong> — 高札を掲げ「茶の湯を好む者は貴賤を問わず」と参加を呼びかけ、並んだ茶屋は800軒とも1,500軒ともいわれます(数は記録により諸説)。秀吉・千利休・津田宗及・今井宗久の4席が設けられ、くじ引きでどの席に当たるか分からない趣向だった(山川日本史小辞典・文化遺産オンライン等による)。</div><p>なぜ面白いか。身分も設備も担保されない野外で、<strong>茶の一杯が800席以上の食事の場を建てた</strong>からです。しつらいと作法さえあれば、場所の格は問わない——森の1席の朝食も、これと同じ理屈で立ちます。敷地の片隅の芝生が、ランチョンマット1枚で食堂になる。</p><h2>森の1席の設計 — 3つの点</h2><ol><li><strong>場所</strong> — 歩いて5分以内に、1席だけ。木陰、見下ろす眺め、沢の音——「この場所である理由」を1つ持つ席を選びます。複数作ると、管理も物語も薄まります。</li><li><strong>運び</strong> — 木のバスケットに1人分ずつ。器は割れないものに。そして<strong>ランチョンマットを1枚</strong>——これは野点の幕引きの代わりです。マットを敷いた瞬間、「ここからが食堂」という境界ができる。布1枚で、芝生が部屋になります。</li><li><strong>献立</strong> — 冷めても美味しいものに絞ります。パン、スープジャー、季節の果実、密閉容器のサラダ。温かいものはスープジャー1つに絞るのが、運搬と温度管理の両方を守る作法です。</li></ol><h2>運用 — 1日1組、雨の日にも</h2><p>「森の朝食」は1日1組の体験として、体験料を明確にして提供します(例:1人1,500円追加)。時間は通常の朝食とずらすか、朝食そのものを森に替えるかを最初に決めておきます。雨天時は中止ではなく、<strong>窓際の「森が見える席」に場所を下げる</strong>——雨天の体験設計の詳細は<a href="#rainy-day-experience">雨の日の体験 — 雨でも満足度が下がらない宿の設計</a>が扱います。森の音を客室に届ける発想は<a href="#idea-forest-sound-collection">森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア</a>が、朝の違う形の作り方は<a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a>が、それぞれ参考になります。</p><h2>反対側 — 森の1席の5つの罠</h2><ul><li><strong>蜂と虫</strong> — 果汁やジャムは蜂を呼びます。蓋つきの器、甘いものを出す順番(最後に出して片付ける)、席を花の近くから離す——3つの工夫でほとんど防げます。</li><li><strong>熊の出る地域ではやらない</strong> — 山に接する宿では、野生動物のリスクを最優先で判断します。管理された庭の1席に限定するのが、多くの宿の現実的な線です。</li><li><strong>運搬の負担</strong> — 距離と段差を最初に数えてください。往復10分・段差ありなら、バスケットの数は2つまで、と数字で決めておきます。</li><li><strong>湿気と布</strong> — ランチョンマットは毎回洗濯。朝露の芝生に敷くなら、裏地の防水も検討します。布の管理を怠ると、1席はすぐに荒れます。</li><li><strong>片付けの設計</strong> — ゴミと食器は持ち帰りが原則。「森には何も残さない」を、体験の作法として最初に伝えること——それ自体が、森を借りている側のマナーの話になります。</li></ul><p>最初の一歩は、明日の朝、宿の敷地を歩くことです。木漏れ日の当たる平らな1畳分の場所を探してください。見つかったら、バスケットとマットだけを持って、ご自身の朝食を一度そこで食べてみる。自分が一度も食べていない場所の朝食は、ゲストにも出せません。</p><div class="note">この記事はアイデア共有を目的としています。北野大茶湯の茶屋数は記録により諸説があるため「800とも1,500とも」として紹介しています(執筆時点)。屋外での飲食物の提供は、運搬時の温度管理を含む衛生管理と、土地の安全(動物・地形)の確認のうえ設計してください。</div><h2>次に読む</h2><ul><li><a href="#rainy-day-experience">雨の日の体験 — 雨でも満足度が下がらない宿の設計</a> — 雨の日の場所の下げ方の話</li><li><a href="#idea-forest-sound-collection">森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア</a> — 森のもう1つの感覚の話</li><li><a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a> — 朝食体験を数字にする話</li><li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 朝の別のかたちの話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","103"]}]]}],["$","h1",null,{"children":"森のピクニック — 自然の中で食べる朝食の体験設計"}],["$","p",null,{"className":"excerpt","children":"朝食は「ダイニング」でなく「森の中」でも食べられる。茶道の野点と、1587年の北野大茶湯に学ぶ——食事の場所の移動でなく「しつらいの移動」として、森の朝食を設計します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_nature-food-forest-picnic.jpg","alt":"森のピクニック — 自然の中で食べる朝食の体験設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.26"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/herb-tea-satoyama","children":["← ","森のハーブティー — 里山の恵みをドリンクに翻訳する方法"]}],["$","$L2",null,{"href":"/journal/articles/farm-to-table-harvest","children":["畑から直接 — アグリ×フードの収穫体験と一皿の物語"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1a88,<p>木漏れ日と鳥の声の中で食べる朝食は、ダイニングの朝食とは別の記憶になります。ただし「森で朝食」と聞くと、多くの人は運搬の苦労を思い浮かべます——テーブルを運び、椅子を運び、食器を運ぶ。本記事は、その発想を逆転させる話です。森の朝食の正体は、<strong>食事の場所の移動ではなく「しつらいの移動」</strong>です。</p><h2>お茶は、茶室の外でも点てられた</h2><p>茶の湯の世界には、<strong>野点(のだて)</strong>という形式があります。道具を茶籠(ちゃこう)に収め、床几(しょうぎ)を運び、野外に一席をしつらえる。春の花見、雪の庭——茶室の外に、きちんとした一席を立てる作法が、数百年前にすでに完成していました。</p><p>野点が教えるのは、たった1つです。<strong>しつらえがあれば、食事の場所はどこでも建つ</strong>。逆に、しつらえがなければ、どこに運んでも食堂にはなりません。森の朝食の設計とは、テーブルを運ぶことではなく、茶籠と床几に相当するものを選ぶことです。</p><h2>1587年、日本史上最大の「野外の食事」</h2><div class="stats"><span class="tag">FACT</span><strong>天正15年(1587)10月1日、豊臣秀吉は京都・北野天満宮の境内から松原にかけて大茶会「北野大茶湯」を開いた</strong> — 高札を掲げ「茶の湯を好む者は貴賤を問わず」と参加を呼びかけ、並んだ茶屋は800軒とも1,500軒ともいわれます(数は記録により諸説)。秀吉・千利休・津田宗及・今井宗久の4席が設けられ、くじ引きでどの席に当たるか分からない趣向だった(山川日本史小辞典・文化遺産オンライン等による)。</div><p>なぜ面白いか。身分も設備も担保されない野外で、<strong>茶の一杯が800席以上の食事の場を建てた</strong>からです。しつらいと作法さえあれば、場所の格は問わない——森の1席の朝食も、これと同じ理屈で立ちます。敷地の片隅の芝生が、ランチョンマット1枚で食堂になる。</p><h2>森の1席の設計 — 3つの点</h2><ol><li><strong>場所</strong> — 歩いて5分以内に、1席だけ。木陰、見下ろす眺め、沢の音——「この場所である理由」を1つ持つ席を選びます。複数作ると、管理も物語も薄まります。</li><li><strong>運び</strong> — 木のバスケットに1人分ずつ。器は割れないものに。そして<strong>ランチョンマットを1枚</strong>——これは野点の幕引きの代わりです。マットを敷いた瞬間、「ここからが食堂」という境界ができる。布1枚で、芝生が部屋になります。</li><li><strong>献立</strong> — 冷めても美味しいものに絞ります。パン、スープジャー、季節の果実、密閉容器のサラダ。温かいものはスープジャー1つに絞るのが、運搬と温度管理の両方を守る作法です。</li></ol><h2>運用 — 1日1組、雨の日にも</h2><p>「森の朝食」は1日1組の体験として、体験料を明確にして提供します(例:1人1,500円追加)。時間は通常の朝食とずらすか、朝食そのものを森に替えるかを最初に決めておきます。雨天時は中止ではなく、<strong>窓際の「森が見える席」に場所を下げる</strong>——雨天の体験設計の詳細は<a href="#rainy-day-experience">雨の日の体験 — 雨でも満足度が下がらない宿の設計</a>が扱います。森の音を客室に届ける発想は<a href="#idea-forest-sound-collection">森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア</a>が、朝の違う形の作り方は<a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a>が、それぞれ参考になります。</p><h2>反対側 — 森の1席の5つの罠</h2><ul><li><strong>蜂と虫</strong> — 果汁やジャムは蜂を呼びます。蓋つきの器、甘いものを出す順番(最後に出して片付ける)、席を花の近くから離す——3つの工夫でほとんど防げます。</li><li><strong>熊の出る地域ではやらない</strong> — 山に接する宿では、野生動物のリスクを最優先で判断します。管理された庭の1席に限定するのが、多くの宿の現実的な線です。</li><li><strong>運搬の負担</strong> — 距離と段差を最初に数えてください。往復10分・段差ありなら、バスケットの数は2つまで、と数字で決めておきます。</li><li><strong>湿気と布</strong> — ランチョンマットは毎回洗濯。朝露の芝生に敷くなら、裏地の防水も検討します。布の管理を怠ると、1席はすぐに荒れます。</li><li><strong>片付けの設計</strong> — ゴミと食器は持ち帰りが原則。「森には何も残さない」を、体験の作法として最初に伝えること——それ自体が、森を借りている側のマナーの話になります。</li></ul><p>最初の一歩は、明日の朝、宿の敷地を歩くことです。木漏れ日の当たる平らな1畳分の場所を探してください。見つかったら、バスケットとマットだけを持って、ご自身の朝食を一度そこで食べてみる。自分が一度も食べていない場所の朝食は、ゲストにも出せません。</p><div class="note">この記事はアイデア共有を目的としています。北野大茶湯の茶屋数は記録により諸説があるため「800とも1,500とも」として紹介しています(執筆時点)。屋外での飲食物の提供は、運搬時の温度管理を含む衛生管理と、土地の安全(動物・地形)の確認のうえ設計してください。</div><h2>次に読む</h2><ul><li><a href="#rainy-day-experience">雨の日の体験 — 雨でも満足度が下がらない宿の設計</a> — 雨の日の場所の下げ方の話</li><li><a href="#idea-forest-sound-collection">森の音を集める — 森の音・川の音・風の音を客室で楽しむアイデア</a> — 森のもう1つの感覚の話</li><li><a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a> — 朝食体験を数字にする話</li><li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 朝の別のかたちの話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"103"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"森のピクニック — 自然の中で食べる朝食の体験設計"}],["$","span",null,{"className":"en-only","children":"Forest Picnic: Designing Breakfast Eaten in Nature"}],["$","span",null,{"className":"zh-only","children":"森林野餐——大自然早餐的体验设计"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"朝食は「ダイニング」でなく「森の中」でも食べられる。茶道の野点と、1587年の北野大茶湯に学ぶ——食事の場所の移動でなく「しつらいの移動」として、森の朝食を設計します。"}],["$","span",null,{"className":"en-only","children":"Breakfast can be eaten not in \"the dining room\" but \"in the forest.\" Learning from nodate outdoor tea and the 1587 Kitano Grand Tea Ceremony — designing a forest breakfast not as moving the meal, but as moving the setting."}],["$","span",null,{"className":"zh-only","children":"早餐可以在森林里而不是在餐厅里吃。关于设计在大自然中吃早餐的体验的基础文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_nature-food-forest-picnic.jpg","alt":"森のピクニック — 自然の中で食べる朝食の体験設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.26"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T198e,<p>A breakfast eaten in birdsong and dappled light becomes a memory different from breakfast in the dining room. But hear "breakfast in the forest," and most people picture the labor of hauling — carrying the table, the chairs, the tableware. This article flips that thinking. The truth of a forest breakfast is <strong>not the relocation of a meal but "the relocation of a setting" (shitate).</strong></p>
+
+<h2>Tea was whisked outside the tea room too</h2>
+
+<p>The world of tea has a form called <strong>nodate</strong> — outdoor tea. The utensils go into a chakō tea basket, a shōgi folding stool is carried, and a full seat of tea is laid in the open air. Blossom-viewing in spring, a snowy garden — the manner of setting a proper seat outside the tea room was already perfected hundreds of years ago.</p>
+
+<p>What nodate teaches is exactly one thing. <strong>With a setting laid, a place to eat stands anywhere.</strong> Without a setting, haul whatever you like — it never becomes a dining room. Designing a forest breakfast is not carrying a table; it is choosing what corresponds to the chakō and the shōgi.</p>
+
+<h2>1587 — the greatest "outdoor meal" in Japanese history</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>On the first day of the tenth month, Tenshō 15 (1587), Toyotomi Hideyoshi held the great tea gathering, the "Kitano Grand Tea Ceremony," from the grounds of Kitano Tenmangū in Kyoto out to the Matsubara</strong> — A notice board called for participation "by all who love tea, regardless of rank," and the teahouses that lined up are said to have numbered 800, or 1,500 (the count varies by record). Four seats were set — Hideyoshi, Sen no Rikyū, Tsuda Sōkyū, and Imai Sōkyū — with the wit that one could not know which seat the lottery would assign (per the Yamakawa dictionary of Japanese history, Cultural Heritage Online, and similar).</div>
+
+<p>Why it is interesting: outdoors, with neither rank nor equipment guaranteed, <strong>a single cup of tea raised more than 800 places of refreshment.</strong> With a setting and a form, the rank of the place does not matter — the forest seat’s breakfast stands on the same logic. A corner of lawn becomes a dining room with a single luncheon mat.</p>
+
+<h2>Designing the forest seat — 3 points</h2>
+
+<ol>
+<li><strong>The place</strong> — Within a five-minute walk, one seat only. Tree shade, a view looking down, the sound of a stream — choose a seat with one "reason it must be here." Make several, and both the management and the story thin out.</li>
+<li><strong>The carrying</strong> — A wooden basket per person. Vessels that do not break. And <strong>one luncheon mat</strong> — this stands in for the nodate curtain. The moment the mat is spread, a boundary forms: "the dining room begins here." One sheet of cloth makes a lawn into a room.</li>
+<li><strong>The menu</strong> — Narrow it to what is delicious even cold. Bread, a soup jar, seasonal fruit, salad in sealed containers. Confining the warm item to one soup jar is the manner that guards both the carrying and the temperature.</li>
+</ol>
+
+<h2>Operation — one couple a day, rain or shine</h2>
+
+<p>Offer "breakfast in the forest" as a one-couple-a-day experience with a clear fee (example: +¥1,500 per person). Decide at the start whether to shift it beside the usual breakfast or replace breakfast with the forest. On rainy days, do not cancel — <strong>lower the place to a "forest-view seat" by the window</strong>; the details of rainy-day experience design are handled by <a href="#rainy-day-experience">Rainy Day Experiences: Designing Stays Where Satisfaction Doesn't Drop</a>. The idea of carrying the forest’s sounds into the rooms belongs to <a href="#idea-forest-sound-collection">Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room</a>, and another shape of morning to <a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a>.</p>
+
+<h2>The other side — 5 traps of the forest seat</h2>
+
+<ul>
+<li><strong>Bees and insects</strong> — Fruit juice and jam call bees. Lidded vessels, the order of serving sweets (last, then cleared away), seats moved away from flowers — three devices prevent nearly all of it.</li>
+<li><strong>Do not do it where bears appear</strong> — At properties adjoining mountains, judge the risk of wild animals first. Limiting the seat to a managed garden is the realistic line for most properties.</li>
+<li><strong>The burden of hauling</strong> — Count the distance and the steps first. Ten minutes round trip with steps, and decide in numbers: baskets limited to two.</li>
+<li><strong>Damp and cloth</strong> — The luncheon mat is washed every use. Laid on a dewy lawn, it also wants a waterproof backing. Neglect the cloth’s care, and the seat goes ragged at once.</li>
+<li><strong>Designing the clearing-up</strong> — Trash and tableware go back, as the rule. Tell "leave nothing in the forest" as the experience’s manner, from the start — in itself, it becomes the etiquette of those who borrow the forest.</li>
+</ul>
+
+<p>The first step is walking the grounds tomorrow morning. Look for one flat, tatami-sized patch of dappled sunlight. Found it? Take only a basket and a mat, and eat your own breakfast there, once. A breakfast in a place you yourself have never eaten cannot be served to guests.</p>
+
+<div class="note">This article is intended for sharing ideas. The number of teahouses at the Kitano Grand Tea Ceremony varies by record and is introduced as "800, or 1,500" (as of writing). Serving food and drink outdoors requires hygiene management including temperature control in transit, and confirmation of the land’s safety (animals, terrain).</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#rainy-day-experience">Rainy Day Experiences: Designing Stays Where Satisfaction Doesn't Drop</a> — lowering the place on rainy days</li>
+<li><a href="#idea-forest-sound-collection">Collect Sounds of Forest - Ideas for Enjoying Forest, River, Wind Sounds in Room</a> — the forest’s other sense</li>
+<li><a href="#breakfast-revenue-math">Breakfast Revenue: The Math of Guests x Price x Add-on</a> — turning the breakfast experience into numbers</li>
+<li><a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a> — another shape of morning</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te75,<p>早餐是<strong>您还可以在森林里而不是在餐厅里用餐。</strong>。阳光透过树林、鸟鸣、山间的空气——在大自然中吃早餐将是与在酒店餐厅吃早餐不同的记忆。本文是一篇关于设计在大自然中吃早餐的体验的基础文章。</p><h2>1. 为什么要在森林里野餐？</h2><ul><li>客人是<strong>“我想去一个和平常不一样的地方吃饭。”</strong>有一个愿望。</li><li>森林里的早餐照片很容易保存（请参阅 Instagram 保存文章）。</li><li>农家蔬菜、海盐、高山恩赐，在大自然中味道更佳。</li></ul><h2>2. 设计三点——森林中的1个座位</h2><ol><li><strong>地方</strong> — 大自然中仅有一席，步行5分钟以内，如旅馆的花园、附近的森林、山间观景台等。</li><li><strong>如何携带</strong> — 每个木篮 1 份。配有牢不可破的餐具。</li><li><strong>菜单</strong> — 专注于即使冷了也美味的食物（面包、汤罐、时令水果）。</li></ol><h2>3. 运营——每日一组特色体验</h2><ul><li>以“森林早餐”的形式出售，每天仅限一组（稀有）。</li><li>费用明确记载为“体验费”（例：每人加收1,500日元）。</li><li>如果下雨，休息室将提供靠窗的座位，可欣赏森林景色（将提供其他选择）。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>客人对“森林野餐——大自然早餐的体验设计”的期待与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>体验设计举措增加了整个地区的价值，而不仅仅是住宿本身。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>1个座位</b><span>森林中的座位数</span></div><div class="stat"><b>每天1组</b><span>有限的</span></div><div class="stat"><b>5分钟</b><span>步行距离</span></div></div><div class="note"><span class="tag">InnBuddy 笔记</span>在森林里野餐<strong>“吃大自然的时间”而不是“早餐”</strong>。只要吃一份森早餐，旅馆早餐的故事就会加深。</div><h2>行动清单</h2><ul><li>第一周：选择大自然中的座位（花园、森林、观景台）</li><li>第 2 周：选择一个篮子、不易破损的餐具和一种即使冷了也很美味的菜单项。</li><li>第三周：尝试每天拍摄一组照片</li><li>每月：跟踪保存和评论，查看下雨时的替代方案</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/herb-tea-satoyama","children":["- ",["$","span",null,{"className":"ja-only","children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","span",null,{"className":"en-only","children":"Forest Herbal Tea: Translating Satoyama Bounty into a Drink"}],["$","span",null,{"className":"zh-only","children":"森林花草茶——如何将里山的祝福转化为饮品"}]]}],["$","$L8",null,{"href":"/journal/articles/farm-to-table-harvest","children":[["$","span",null,{"className":"ja-only","children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","span",null,{"className":"en-only","children":"Direct from Field: Agri x Food Harvest Experience and Story of a Plate"}],["$","span",null,{"className":"zh-only","children":"直接来自田间——Agri x 粮食收获体验和一个盘子的故事"}]," -"]}]]}]
+10:null

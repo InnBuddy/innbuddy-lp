@@ -8,15 +8,81 @@ a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-
 c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
-0:{"P":null,"c":["","journal","articles","vegan-menu-one-dish",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","vegan-menu-one-dish","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"P":null,"c":["","journal","articles","vegan-menu-one-dish",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","vegan-menu-one-dish","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Wjs50aw9q7KwJzs198_KL"}
 f:[]
 9:"$Wf"
-10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+10:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      6:["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$10"}}],["$","header",null,{"className":"article-headbar container","children":["$L11","$L12"]}],"$L13","$L14"]}]
+15:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
 :HL["/library/journal/ai_vegan-menu-one-dish.jpg","image"]
-11:T1ee0,<p>ヴィーガン対応を「メニュー全体を変える事業」と考えると、壁は高くなります。しかし、始める場所はもっと低いところにあります。朝食に1品、畑の野菜の一皿を足す。それで「対応」は始まります。本記事は、1品から始めるヴィーガンメニューの設計と、その1行の表示が何を拾うかを、「ヴィーガン」という言葉が生まれた1944年の話から整理します。</p>
+11:["$","$L15",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}]
+12:["$","div",null,{"className":"head-right","children":[["$","$L15",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]
+16:T1ee0,<p>ヴィーガン対応を「メニュー全体を変える事業」と考えると、壁は高くなります。しかし、始める場所はもっと低いところにあります。朝食に1品、畑の野菜の一皿を足す。それで「対応」は始まります。本記事は、1品から始めるヴィーガンメニューの設計と、その1行の表示が何を拾うかを、「ヴィーガン」という言葉が生まれた1944年の話から整理します。</p>
 
 <h2>1944年 — 言葉が生まれた日</h2>
 
@@ -67,13 +133,100 @@ f:[]
 <li><a href="#muslim-inbound-segment">ムスリム・インバウンド — 日本の宿が狙う新しいセグメント</a> — 食の制約を持つ客人のもう一つの話</li>
 <li><a href="#farm-to-table-harvest">畑から直接 — アグリ×フードの収穫体験と一皿の物語</a> — 1品の材料の物語の話</li>
 <li><a href="#fnb-revenue-basics">F&B売上を上げる — 朝食・レストラン収益の基本</a> — 朝食を収益として読む話</li>
-</ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"フード＆ベバレッジ"}],["$","span",null,{"children":["ARTICLE ","117"]}]]}],["$","h1",null,{"children":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}],["$","p",null,{"className":"excerpt","children":"ヴィーガン対応は「全メニューを変える」ではなく「1品から始める」。1944年に「名前」が生まれた話から、1品の設計、朝食に含める理由、表示の1行が拾う需要まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_vegan-menu-one-dish.jpg","alt":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.17"}],["$","span",null,{"children":"F&B"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+</ul>13:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"フード＆ベバレッジ"}],["$","span",null,{"className":"ARTICLE","children":"117"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}],["$","span",null,{"className":"en-only","children":"Vegan Basics: Menu Design Starting From One Dish"}],["$","span",null,{"className":"zh-only","children":"素食友好基础知识——菜单设计从一项开始"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"ヴィーガン対応は「全メニューを変える」ではなく「1品から始める」。1944年に「名前」が生まれた話から、1品の設計、朝食に含める理由、表示の1行が拾う需要まで。"}],["$","span",null,{"className":"en-only","children":"Going vegan-friendly is not \"rebuilding the whole menu\" but \"starting with one dish.\" From the day the \"name\" was born in 1944 — to the design of that one dish, why it belongs in breakfast, and the single line of disclosure that picks up real demand."}],["$","span",null,{"className":"zh-only","children":"纯素食选项并不意味着改变整个菜单，而是从一项开始。通过设计一种产品，入站客户满意度和利润都会增加。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_vegan-menu-one-dish.jpg","alt":"ヴィーガン対応の基本 — 1品から始めるメニュー設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.17"}],["$","span",null,{"children":"F&B"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17","$L18"]}],"$L19","$L1a"]}]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
 :HL["/library/journal/ai_breakfast-buffet-media-new.jpg","image"]
 :HL["/library/journal/ai_nature-drink-herb-tea.jpg","image"]
 :HL["/library/journal/ai_nature-food-farm-harvest.jpg","image"]
-12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","breakfast-buffet-media",{"href":"/journal/articles/breakfast-buffet-media","children":[["$","img",null,{"src":"/library/journal/ai_breakfast-buffet-media-new.jpg","alt":"朝食をメディア化するビュッフェ設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.01.29"}],["$","h4",null,{"children":"朝食をメディア化するビュッフェ設計"}]]}]]}],["$","$L10","herb-tea-satoyama",{"href":"/journal/articles/herb-tea-satoyama","children":[["$","img",null,{"src":"/library/journal/ai_nature-drink-herb-tea.jpg","alt":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.25"}],["$","h4",null,{"children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}]]}]]}],["$","$L10","farm-to-table-harvest",{"href":"/journal/articles/farm-to-table-harvest","children":[["$","img",null,{"src":"/library/journal/ai_nature-food-farm-harvest.jpg","alt":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.27"}],["$","h4",null,{"children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}]]}]]}]]}]]}]
-13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/foreign-staff-japanese-20-phrases","children":["← ","外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"]}],["$","$L10",null,{"href":"/journal/articles/reels-saveable-travel","children":["保存されるリール動画 — 旅マエに選ばれる宿の作り方"," →"]}]]}]
-14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+1b:T1bc9,<p>Think of vegan support as "a project to rebuild the entire menu," and the wall grows high. But the place to start is far lower. Add one dish to breakfast — a plate of vegetables from the field. That is where the "support" begins. This article organizes the design of a vegan menu that starts from one dish, and what the single line of disclosure picks up, beginning from the story of 1944, the year the word "vegan" was born.</p>
+
+<h2>1944 — the day a word was born</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>Fact</strong> — In November 1944, Donald Watson of Britain met with five vegetarians who avoided dairy products and founded a new society. They needed a new word to call themselves, and after several candidates were rejected, the one chosen was "vegan" — a word built from the first and last letters of "vegetarian" (Watson is later said to have described it as "the beginning and end of vegetarianism"). This society is the world's oldest vegan organization, still active today, and the origin of World Vegan Day on November 1 (according to the society's history).</div>
+
+<p>Why is this interesting? What was born on that day was not a way of eating but a "name." Until then the practice existed only in fragments — people who lived avoiding meat, fish, eggs, and dairy — and now it had a name in common. Once named, that way of living could be searched for, could be declared, could be reached. The word itself was the entrance to the movement.</p>
+
+<p>The same thing is happening on the inn's side. Guests search for the words "vegan-friendly," hunt for the field on booking sites, and ask one question on the phone. Whether those words exist anywhere in your inn — whether the name born in 1944 and your inn can ever meet — is decided by the presence of this one line. Support begins with "one line of words."</p>
+
+<h2>Why one dish is enough</h2>
+
+<p><strong>Vegan is not "0 or 100."</strong> Fully vegan guests are a small part of any region. But the people who want a vegetable-centered diet for health or environmental reasons — the ones for whom one breakfast of vegetables is quite enough — are many times more numerous (as a general way of thinking). The one-dish plate is a product not only for fully vegan guests but for that wide layer.</p>
+
+<p><strong>One dish has the cost structure on its side.</strong> A plate built without meat or fish makes field vegetables, local beans, and wild plants the protagonists — a section where the cost ratio is easy to hold low (treat the numbers as worked examples).</p>
+
+<p><strong>One dish fails small.</strong> If a full menu change fails, the whole inn pays. With one dish you make it, serve it, watch the response, and fix it. It runs on the same cycle of improvement as the rest of the inn's work.</p>
+
+<h2>Designing the one dish — three conditions</h2>
+
+<p><strong>Make field vegetables the protagonist.</strong> There is no need to source rare substitute ingredients from far away. This morning's tomatoes, thinned carrots, local beans. Field vegetables carry a story, and one sentence can be added: "These tomatoes were picked this morning" (the design of field and table is covered in <a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a>).</p>
+
+<p><strong>Make it beautiful.</strong> Vegetables in many colors, herbs, edible flowers. A beautiful plate makes even non-vegan guests want to eat it, and gets photographed.</p>
+
+<p><strong>Make it tell its story.</strong> "These beans are grown by the farmer next door" — a dish the staff want to talk about reaches the guest. Story is an amplifier of taste.</p>
+
+<h2>How to serve it — not "optional" but "included"</h2>
+
+<p>If the vegan plate sits on the menu as a paid option, it will not be chosen. Include it as a breakfast standard, for everyone. To vegan guests, pass one line: "This plate is vegan-friendly." With that, the vegan guest relaxes, and every other guest meets a delicious plate of vegetables. If you also set out the vegetables and beans used in a small take-home form, it becomes merchandise for "the continuation of the journey" (the design of in-room sales is covered in the minibar and in-room sales article).</p>
+
+<h2>The other side — when one-dish support hurts the inn</h2>
+
+<ul>
+<li><strong>The arrogance of "one dish is enough"</strong> — If a vegan guest stays through dinner, one main dish is not enough. The breakfast dish is the entrance, not the destination. The design of options for full-meal support is covered in <a href="#veg-menu-options">Veggie Menus: Designing Menu Options for Diverse Food Preferences</a>.</li>
+<li><strong>Cross-contamination</strong> — Cook it in the same pot or oil, and the "vegetable plate" is no longer a vegan plate. Start by explaining to the staff what separating the tools means (food-safety design also belongs to the menu-options article).</li>
+<li><strong>Confusing it with allergy</strong> — Vegan is a choice of diet; allergy is a matter of life safety. Handle both loosely under the same word "support," and the latter becomes an accident. Keep them separate.</li>
+<li><strong>Cost reversal</strong> — Chase rare substitute ingredients and the plate becomes more expensive than meat. The beauty of the one dish stands, together with the cheapness of the nearby field.</li>
+<li><strong>Exaggerating the story</strong> — If you write "local farmer XX," be actually that farmer. Names are convenient tools, but a lie comes back from both the farmer and the guest.</li>
+<li><strong>The "impossible" passage</strong> — Prepare, for when you cannot comply, one line that declines honestly: "We are very sorry — our support extends to one breakfast dish. There is a place called XX nearby." The politeness of the refusal is part of the support too.</li>
+</ul>
+
+<p>The first step is to add one dish to tomorrow's breakfast. And this week, put one line on the inn's website: "Vegan-friendly (one breakfast dish)." The word born in 1944 has been searching for this one line of yours all along.</p>
+
+<div class="note">This article is intended for sharing ideas. The description of 1944 follows the society's historical materials (as of writing). Cost-ratio and unit-price figures are worked examples; actual results vary with each inn's conditions. Design your response to dietary constraints — allergy response included — under each inn's own judgment and setup.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#veg-menu-options">Veggie Menus: Designing Menu Options for Diverse Food Preferences</a> — full-menu design beyond the one dish</li>
+<li><a href="#muslim-inbound-segment">Muslim Inbound: A New Segment for Japanese Properties</a> — another story of guests with dietary constraints</li>
+<li><a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a> — the story of the one dish's ingredients</li>
+<li><a href="#fnb-revenue-basics">Raising F&B Revenue: The Basics of Breakfast and Restaurant Revenue</a> — reading breakfast as revenue</li>
+</ul>17:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}]
+1c:T151c,<p>如果您将素食选项视为“整个菜单必须是素食”，那么障碍就会更高。但对素食主义者友好<strong>“从一件事情开始”</strong>你可以。准备一份素食早餐。田间蔬菜汤、豆奶冰沙、当地野花沙拉。仅拥有一项就可以让纯素客人感觉“这家酒店在为我着想”。本文将解释如何从一项开始设计纯素菜单以及如何使其盈利。</p>
+
+<h2>1. 为什么只从一件物品开始？素食需求</h2>
+<ul>
+<li><strong>素食主义不是“0或100”：</strong>不仅包括完全素食主义者，还包括素食主义者、弹性素食主义者和注重健康的客人，30-40% 的客人认为他们很乐意拥有以蔬菜为主的菜单。仅拥有一件商品即可将满意度提高 30-40%。</li>
+<li><strong>入境要求：</strong>对于来自欧洲、美洲和澳大利亚的入境游客来说，纯素选择已不再是“可有可无”，而是“必须拥有”。如果有一件商品是纯素友好型的，那么它就会在 OTA 过滤器中显示为“纯素友好型”并被搜索。</li>
+<li><strong>成本率低：</strong>纯素菜肴的成本较低，因为它们不使用肉或鱼。田间蔬菜、当地豆类和野花。成本率为20-25%，可以以800-1,200日元的单价提供。高盈利能力。</li>
+</ul>
+
+<h2>2. 一种产品设计——三个条件</h2>
+<ol>
+<li><strong>让“地里的蔬菜”成为主角：</strong>不购买特殊食材，而是以田间的蔬菜为主料。早上采摘的西红柿、稀疏的胡萝卜和当地的豆子。地里种的蔬菜有故事，客人感觉自己是在“吃地里种的菜”。参见Agri×Food文章，连接田地和餐桌。</li>
+<li><strong>做一道看起来“漂亮”的菜：</strong>素食菜肴看起来漂亮很重要。色彩缤纷的蔬菜、香草和鲜花。这道精美的菜肴被拍下来并在社交媒体上传播。如果食物看起来很漂亮，即使是非素食客人也会想尝试一下。</li>
+<li><strong>做一道有故事的菜：</strong>“这些西红柿是今天早上在地里采摘的。”“这些豆子是当地农民种植的。”一道菜有故事，让工作人员想讲。当工作人员想要谈话时，会传达给客人。故事放大了“美味”。</li>
+</ol>
+
+<h2>3. 菜单及价格设计</h2>
+<ul>
+<li><strong>从“早餐的一项”开始：</strong>他们没有将整个菜单设为纯素，而是只准备一道纯素早餐。 「田间蔬菜汤」、「豆奶冰沙」、「野花沙拉」。只要一项就足以标明纯素。早餐非常有效，因为每个人都吃早餐。</li>
+<li><strong>不是“可选”，“包括”：</strong>如果你把纯素食作为一个选项，它就不会被选择。 “包含”作为早餐主食。为每个人提供同一个盘子，并告诉素食客人，这个盘子适合素食主义者。包括它让非素食客人有机会吃蔬菜。</li>
+<li><strong>让它“带回家”：</strong>一道纯素菜肴中使用的蔬菜和豆类作为商品出售。 “我在今天早上的汤中使用了西红柿”“我在沙拉中使用了野生香草。”通过带回家的选项，客人可以在家中重新制作纯素菜肴。外卖是卖“旅程的继续”。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，若施策前的满意度为70%，则提高约19%至83%可作为“施策见效”的判断参考。例如，若施策前的早餐成本率为30%，则下降约4%至29%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 纯素食品不是“成本”，而是一种可以提高满意度和利润的“投资”。判断效果时，请用相同的统计方法记录并比较施策前后30天的素食（纯素）相关咨询与早餐成本率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>素食的价值是<strong>“从一件事情开始”</strong>。无需更改整个菜单。从一道用田间蔬菜制作的菜肴开始。只要拥有一件物品，素食客人就会感觉“这家酒店正在为我着想。”</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：田间蔬菜库存</strong> — 三种可用于纯素菜肴的蔬菜清单，这些蔬菜来自田间或当地农民。早上采摘的西红柿、稀疏的胡萝卜、当地的豆类等。选择有故事的蔬菜。</li>
+<li><strong>第 2 周：1 个项目的原型</strong> — 使用田间蔬菜制作菜肴原型。 「田野蔬菜汤」、「豆浆冰沙」、「野花沙拉」等，一盘看起来很美，也有故事。和工作人员一起品尝。</li>
+<li><strong>第 3 周：包含在早餐中</strong> — 包含一项作为早餐主食。为每个人提供同一个盘子，并告诉素食客人，这个盘子适合素食主义者。在 OTA 上显示为“素食可用”。</li>
+<li><strong>第四周：故事和商品</strong> — 让员工讲述每件物品的故事。 “这些西红柿是今天早上在地里采摘的。”所用的蔬菜和豆类作为商品出售。确保你可以把它带回家。</li>
+<li><strong>继续：转到下一项</strong> — 一旦确定了一项，就继续进行下一项。在午餐或晚餐中添加素食菜肴。通过一次添加一项，您可以轻松扩展您的素食选择。</li>
+</ul>18:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}]
+19:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L15","breakfast-buffet-media",{"href":"/journal/articles/breakfast-buffet-media","children":[["$","img",null,{"src":"/library/journal/ai_breakfast-buffet-media-new.jpg","alt":"朝食をメディア化するビュッフェ設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.01.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"朝食をメディア化するビュッフェ設計"}],["$","span",null,{"className":"en-only","children":"Turning Breakfast Into Media: Buffet Design"}],["$","span",null,{"className":"zh-only","children":"将早餐变成媒体的自助餐设计"}]]}]]}]]}],["$","$L15","herb-tea-satoyama",{"href":"/journal/articles/herb-tea-satoyama","children":[["$","img",null,{"src":"/library/journal/ai_nature-drink-herb-tea.jpg","alt":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.25"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"森のハーブティー — 里山の恵みをドリンクに翻訳する方法"}],["$","span",null,{"className":"en-only","children":"Forest Herbal Tea: Translating Satoyama Bounty into a Drink"}],["$","span",null,{"className":"zh-only","children":"森林花草茶——如何将里山的祝福转化为饮品"}]]}]]}]]}],["$","$L15","farm-to-table-harvest",{"href":"/journal/articles/farm-to-table-harvest","children":[["$","img",null,{"src":"/library/journal/ai_nature-food-farm-harvest.jpg","alt":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.10.27"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"畑から直接 — アグリ×フードの収穫体験と一皿の物語"}],["$","span",null,{"className":"en-only","children":"Direct from Field: Agri x Food Harvest Experience and Story of a Plate"}],["$","span",null,{"className":"zh-only","children":"直接来自田间——Agri x 粮食收获体验和一个盘子的故事"}]]}]]}]]}]]}]]}]
+1a:["$","div",null,{"className":"pager","children":[["$","$L15",null,{"href":"/journal/articles/foreign-staff-japanese-20-phrases","children":["- ",["$","span",null,{"className":"ja-only","children":"外国人スタッフの日本語教育 — 現場で使える20フレーズの教え方"}],["$","span",null,{"className":"en-only","children":"Japanese Training for Foreign Staff: How to Teach 20 Usable Phrases"}],["$","span",null,{"className":"zh-only","children":"面向外籍员工的日语教育——如何教授现场可用的20个短语"}]]}],["$","$L15",null,{"href":"/journal/articles/reels-saveable-travel","children":[["$","span",null,{"className":"ja-only","children":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}],["$","span",null,{"className":"en-only","children":"Saveable Reels: How to Be Chosen Before the Trip"}],["$","span",null,{"className":"zh-only","children":"保存的卷轴视频 — 如何创建旅行者选择的旅馆"}]," -"]}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 d:[["$","title","0",{"children":"ヴィーガン対応の基本 — 1品から始めるメニュー設計 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"ヴィーガン対応は「全メニューを変える」ではなく「1品から始める」。1944年に「名前」が生まれた話から、1品の設計、朝食に含める理由、表示の1行が拾う需要まで。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

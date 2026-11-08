@@ -1,15 +1,172 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_food-loss-kitchen.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T1f69,<p>食品ロスは<strong>「もったいない」だけでなく「粗利の漏れ」</strong>です。里山の野菜、海の魚、山の恵み——仕込みすぎて捨てることは、生産者への敬意も粗利も失います。本記事は、キッチンの仕込み量を見える化し、減らしていく仕組みの基礎編です(伝え方の設計と「もったいない」の世界語化は、<a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a>が扱います)。</p><h2>仕込みは、明日への賭け</h2><p>夕方のキッチンで行われているのは、調理の準備であると同時に、<strong>「明日何人来るか」への賭け</strong>です。この賭けには、非対称なルールがあります。不足した分は、翌朝の追加仕込みで挽回できる。けれど多すぎた分は、ゴミになり、粗利と処理費用と生産者の顔を、同時に失う。つまり仕込みは「多くて安心」ではなく、<strong>「少なめで正しい」方向に賭ける方が理にかなう</strong>のです。</p><p>日本には「腹八分目」という知恵があります。食べ切る量の八分目で健康を保つ——暮らしの知恵の多くは、不足より過剰を戒めます。仕込みにも同じ原則が使えます。<strong>仕込みは八分目。足りない分は、朝の追加で</strong>。これがこの記事の土台になる考え方です。</p><div class="stats"><span class="tag">FACT</span><strong>日本の食品ロスは令和4年度で約472万トン(うち家庭系236万トン・事業系236万トン)と推計されています(農林水産省・環境省・消費者庁の公表、2024年)。令和元年には食品ロス削減推進法が施行され、削減は事業者と消費者が共に取り組む国民運動とされています</strong> — 宿のキッチンは、この236万トンの事業系の中にあります</div><h2>1宿のガロ法 — 見える化が制度を変えた話</h2><p>フランスには、食品廃棄を法律で変えた国の歴史があります。きっかけは、パリ近郊クルーブボワ市の市議アラシュ・デランバーシュの「見た」でした。廃棄を見えなくしていたスーパーの実態——ゴミ箱に鍵をかけ、食べ物を廃棄していた光景——を共有した運動が全国に広がり、2016年、世界初の食品廃棄禁止法(ガロ法)が成立します。</p><div class="stats"><span class="tag">CASE</span><strong>フランスのガロ法(2016年): 延べ床面積400平方メートル超のスーパーに、売れ残り食品の廃棄を禁止し、フードバンク等への寄付等を義務付け、違反には罰金を規定。飲食店での食べ残しの持ち帰り容器(ドギーバッグ)も、当初の推奨から、全飲食店への提供義務へと拡大された</strong> — 出発点は、ある市議が「廃棄を見た」こと。見えないものは、測られず、変わらない</div><p>この法律が教える本質は、規制の中身ではなく<strong>「廃棄は、記されて初めて存在する」</strong>ということです。宿のキッチンのホワイトボードは、いわば1宿のガロ法。捨てたものを毎日1行書く——その小さな制度が、行動を変える最初の一歩になります。</p><h2>測る — 3つの作法</h2><ol><li><strong>何を・どれだけ捨てたか、毎日書く</strong> — キッチンのホワイトボードに、その日捨てたものを書きます。場所は「捨てる場所の横」が鉄則。遠いボードは書かれません。</li><li><strong>重さでなく「仕込みの何割」で書く</strong> — 「野菜の2割」「魚の1割」。重さでは見えない「仕込み量の多さ」が、割なら見えます。</li><li><strong>1週間で、最も捨てている1品を特定する</strong> — 改善は、1品から。全体を一気には直しません。</li></ol><h2>減らす — 3つの仕組み</h2><ul><li><strong>小分け仕込み</strong> — 朝と昼で分けて仕込み、朝は少なめに。昼の予約を見てから追加する。賭けを小分けにする、最初の一手です。</li><li><strong>使い回し設計</strong> — 余った野菜を翌日のスープや朝食の小鉢に回す。「残り物」ではなく「畑をまるごと使い切る仕込み」としてメニューに書けば、物語になります(1品に物語を添える作法は、<a href="#idea-breakfast-local-story">朝食で地域を伝える — 1品に地域の物語を乗せる朝食のアイデア</a>)。</li><li><strong>予約数連動</strong> — 予約が10件なら野菜2キロ、20件なら4キロ、のように、予約数と仕込み量の対応表を作る。賭けに情報を入れる仕組みです。</li></ul><p>廃棄金額は、粗利の世界ではマイナスの行です。朝食の数字の計算は<a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a>が、並べすぎを減らす展示の規律は<a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a>が扱います。3つの記事で、粗利を三方から守る形になります。</p><h2>反対側 — 減らすことが現場を傷つけるとき</h2><ul><li><strong>衛生の境界</strong> — 使い回しは、温度と時間の管理が前提です。食品衛生の指針に沿い、判断の基準を事前に書いておく。</li><li><strong>品切れの体験</strong> — 仕込み八分目は「売り切れ」を増やします。売り切れを「本日分は仕込み分で終わりです。畑の都合をご理解ください」と説明できるか。ただし連続する品切れは、やがて評価を下げます。八分目は慎重に。</li><li><strong>記録の形骸化</strong> — 書く人が1人に固定されると、その人が休んだ日に記録が消えます。誰でも1行書ける形にしておく。</li><li><strong>予約数連動の穴</strong> — 当日キャンセルと飛び込みは必ず動きます。表を過信せず、朝の追加仕込みの動きを残しておく。</li><li><strong>数字を隠す現場</strong> — 「捨てた」を書くのは勇気が要る作業です。記録が叱責に使われた瞬間、現場は数字を隠し始めます。ホワイトボードは、叱責の道具でなく情報の道具だと、最初に言っておくこと。</li></ul><p>最初の一歩は、閉店後の5分です。今日仕込んだ量と、今日捨てた量を、ホワイトボードの2行に書く。1週間続ければ、あなたの宿が一番高い賭けをしている1品が、必ず現れます。食品ロスの削減は、精神論ではなく、<strong>記録と小さな制度</strong>で進める仕事なのです。</p><div class="note">この記事はアイデア共有を目的としています。日本の食品ロスの数値は農林水産省・環境省・消費者庁の公表推計(令和4年度分、2024年公表)。フランスの制度は公表資料に基づきます(執筆時点)。食品の衛生管理は食品衛生法等の指針に沿って設計してください。</div><h2>次に読む</h2><ul><li><a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a> — 測ったものをどう伝えるかの話</li><li><a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a> — 粗利の計算の話</li><li><a href="#sourcing-sustainability">自然の恵みを守る — 仕入れとサステナビリティを語る</a> — 仕入れの誠実さの話</li><li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 何を並べないかの規律の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","074"]}]]}],["$","h1",null,{"children":"食品ロス — キッチンの「仕込み量」を減らす"}],["$","p",null,{"className":"excerpt","children":"食品ロスは「もったいない」だけでなく「粗利の漏れ」。仕込みは明日への賭けであり、その賭けを小さく分ける3つの仕組みと、見える化の基礎を整理します。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_food-loss-kitchen.jpg","alt":"食品ロス — キッチンの「仕込み量」を減らす"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.27"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/room-turnover-flow","children":["← ","客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー"]}],["$","$L2",null,{"href":"/journal/articles/minibar-inroom-commerce","children":["ミニバーと客室販売 — 「室内コマース」の基本"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1f69,<p>食品ロスは<strong>「もったいない」だけでなく「粗利の漏れ」</strong>です。里山の野菜、海の魚、山の恵み——仕込みすぎて捨てることは、生産者への敬意も粗利も失います。本記事は、キッチンの仕込み量を見える化し、減らしていく仕組みの基礎編です(伝え方の設計と「もったいない」の世界語化は、<a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a>が扱います)。</p><h2>仕込みは、明日への賭け</h2><p>夕方のキッチンで行われているのは、調理の準備であると同時に、<strong>「明日何人来るか」への賭け</strong>です。この賭けには、非対称なルールがあります。不足した分は、翌朝の追加仕込みで挽回できる。けれど多すぎた分は、ゴミになり、粗利と処理費用と生産者の顔を、同時に失う。つまり仕込みは「多くて安心」ではなく、<strong>「少なめで正しい」方向に賭ける方が理にかなう</strong>のです。</p><p>日本には「腹八分目」という知恵があります。食べ切る量の八分目で健康を保つ——暮らしの知恵の多くは、不足より過剰を戒めます。仕込みにも同じ原則が使えます。<strong>仕込みは八分目。足りない分は、朝の追加で</strong>。これがこの記事の土台になる考え方です。</p><div class="stats"><span class="tag">FACT</span><strong>日本の食品ロスは令和4年度で約472万トン(うち家庭系236万トン・事業系236万トン)と推計されています(農林水産省・環境省・消費者庁の公表、2024年)。令和元年には食品ロス削減推進法が施行され、削減は事業者と消費者が共に取り組む国民運動とされています</strong> — 宿のキッチンは、この236万トンの事業系の中にあります</div><h2>1宿のガロ法 — 見える化が制度を変えた話</h2><p>フランスには、食品廃棄を法律で変えた国の歴史があります。きっかけは、パリ近郊クルーブボワ市の市議アラシュ・デランバーシュの「見た」でした。廃棄を見えなくしていたスーパーの実態——ゴミ箱に鍵をかけ、食べ物を廃棄していた光景——を共有した運動が全国に広がり、2016年、世界初の食品廃棄禁止法(ガロ法)が成立します。</p><div class="stats"><span class="tag">CASE</span><strong>フランスのガロ法(2016年): 延べ床面積400平方メートル超のスーパーに、売れ残り食品の廃棄を禁止し、フードバンク等への寄付等を義務付け、違反には罰金を規定。飲食店での食べ残しの持ち帰り容器(ドギーバッグ)も、当初の推奨から、全飲食店への提供義務へと拡大された</strong> — 出発点は、ある市議が「廃棄を見た」こと。見えないものは、測られず、変わらない</div><p>この法律が教える本質は、規制の中身ではなく<strong>「廃棄は、記されて初めて存在する」</strong>ということです。宿のキッチンのホワイトボードは、いわば1宿のガロ法。捨てたものを毎日1行書く——その小さな制度が、行動を変える最初の一歩になります。</p><h2>測る — 3つの作法</h2><ol><li><strong>何を・どれだけ捨てたか、毎日書く</strong> — キッチンのホワイトボードに、その日捨てたものを書きます。場所は「捨てる場所の横」が鉄則。遠いボードは書かれません。</li><li><strong>重さでなく「仕込みの何割」で書く</strong> — 「野菜の2割」「魚の1割」。重さでは見えない「仕込み量の多さ」が、割なら見えます。</li><li><strong>1週間で、最も捨てている1品を特定する</strong> — 改善は、1品から。全体を一気には直しません。</li></ol><h2>減らす — 3つの仕組み</h2><ul><li><strong>小分け仕込み</strong> — 朝と昼で分けて仕込み、朝は少なめに。昼の予約を見てから追加する。賭けを小分けにする、最初の一手です。</li><li><strong>使い回し設計</strong> — 余った野菜を翌日のスープや朝食の小鉢に回す。「残り物」ではなく「畑をまるごと使い切る仕込み」としてメニューに書けば、物語になります(1品に物語を添える作法は、<a href="#idea-breakfast-local-story">朝食で地域を伝える — 1品に地域の物語を乗せる朝食のアイデア</a>)。</li><li><strong>予約数連動</strong> — 予約が10件なら野菜2キロ、20件なら4キロ、のように、予約数と仕込み量の対応表を作る。賭けに情報を入れる仕組みです。</li></ul><p>廃棄金額は、粗利の世界ではマイナスの行です。朝食の数字の計算は<a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a>が、並べすぎを減らす展示の規律は<a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a>が扱います。3つの記事で、粗利を三方から守る形になります。</p><h2>反対側 — 減らすことが現場を傷つけるとき</h2><ul><li><strong>衛生の境界</strong> — 使い回しは、温度と時間の管理が前提です。食品衛生の指針に沿い、判断の基準を事前に書いておく。</li><li><strong>品切れの体験</strong> — 仕込み八分目は「売り切れ」を増やします。売り切れを「本日分は仕込み分で終わりです。畑の都合をご理解ください」と説明できるか。ただし連続する品切れは、やがて評価を下げます。八分目は慎重に。</li><li><strong>記録の形骸化</strong> — 書く人が1人に固定されると、その人が休んだ日に記録が消えます。誰でも1行書ける形にしておく。</li><li><strong>予約数連動の穴</strong> — 当日キャンセルと飛び込みは必ず動きます。表を過信せず、朝の追加仕込みの動きを残しておく。</li><li><strong>数字を隠す現場</strong> — 「捨てた」を書くのは勇気が要る作業です。記録が叱責に使われた瞬間、現場は数字を隠し始めます。ホワイトボードは、叱責の道具でなく情報の道具だと、最初に言っておくこと。</li></ul><p>最初の一歩は、閉店後の5分です。今日仕込んだ量と、今日捨てた量を、ホワイトボードの2行に書く。1週間続ければ、あなたの宿が一番高い賭けをしている1品が、必ず現れます。食品ロスの削減は、精神論ではなく、<strong>記録と小さな制度</strong>で進める仕事なのです。</p><div class="note">この記事はアイデア共有を目的としています。日本の食品ロスの数値は農林水産省・環境省・消費者庁の公表推計(令和4年度分、2024年公表)。フランスの制度は公表資料に基づきます(執筆時点)。食品の衛生管理は食品衛生法等の指針に沿って設計してください。</div><h2>次に読む</h2><ul><li><a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a> — 測ったものをどう伝えるかの話</li><li><a href="#breakfast-revenue-math">朝食の収益 — 「人数×単価×追加」の計算基本</a> — 粗利の計算の話</li><li><a href="#sourcing-sustainability">自然の恵みを守る — 仕入れとサステナビリティを語る</a> — 仕入れの誠実さの話</li><li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 何を並べないかの規律の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"074"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"食品ロス — キッチンの「仕込み量」を減らす"}],["$","span",null,{"className":"en-only","children":"Food Loss: Reducing Prep in the Kitchen"}],["$","span",null,{"className":"zh-only","children":"食物损失——减少厨房里的食物量"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"食品ロスは「もったいない」だけでなく「粗利の漏れ」。仕込みは明日への賭けであり、その賭けを小さく分ける3つの仕組みと、見える化の基礎を整理します。"}],["$","span",null,{"className":"en-only","children":"Food loss is not only \"mottainai\" but \"a leak of gross profit.\" Prep is a bet on tomorrow: three mechanisms for dividing that bet small, and the basics of making waste visible."}],["$","span",null,{"className":"zh-only","children":"粮食损失不仅是浪费，更是毛利润的损失。关于 3 种减少准备工作量的可视化方法的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_food-loss-kitchen.jpg","alt":"食品ロス — キッチンの「仕込み量」を減らす"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.27"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1e3e,<p>Food loss is <strong>not only "mottainai" (what a waste) but "a leak of gross profit."</strong> Satoyama vegetables, fish from the sea, the mountain’s gifts — prepping too much and throwing it away loses the respect for producers and the gross profit at once. This article is the foundation of the mechanism for making the kitchen’s prep volume visible and reducing it (the design of how to communicate it, and turning mottainai into a world word, are handled by <a href="#zero-waste-communication">Is Zero Waste Really Possible? Communicating Sustainable Operations</a>).</p>
+
+<h2>Prep is a bet on tomorrow</h2>
+
+<p>What happens in the evening kitchen is cooking preparation — and at the same time, <strong>a bet on "how many come tomorrow."</strong> This bet has asymmetric rules. A shortage can be recovered with extra prep the next morning. But an excess becomes garbage, losing gross profit, disposal costs, and the producers’ faces, all at once. Prep, in other words, is not "more is safer"; <strong>betting in the direction of "slightly less, and correct" is the rational play</strong>.</p>
+
+<p>Japan has the wisdom of "hara hachibu" — eight parts full. Staying healthy at 80% of what you could eat: much of life’s wisdom warns against excess rather than shortage. The same principle works for prep. <strong>Prep at eight parts; make up the rest in the morning.</strong> That is the foundation of this article.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Japan’s food loss is estimated at about 4.72 million tons in fiscal 2022 (2.36 million tons from households, 2.36 million from businesses), in the publication (2024) by the Ministry of Agriculture, Forestry and Fisheries, the Ministry of the Environment, and the Consumer Affairs Agency. The Food Loss Reduction Promotion Act, enforced in 2019, makes reduction a national movement for businesses and consumers together</strong> — A property’s kitchen sits inside that 2.36 million tons of business-side loss.</div>
+
+<h2>The Garot law for one inn — the story of visibility changing law</h2>
+
+<p>France has a history of a country changing food waste by law. The trigger was one "look" by Arash Derambarsh, a municipal councillor of Courbevoie, near Paris. The movement he spread — sharing what supermarkets looked like when waste was kept invisible, the locked dumpsters, the food being discarded — grew nationwide, and in 2016 the world’s first law banning food waste, the Garot law, was enacted.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>France’s Garot law (2016): supermarkets over 400 square meters in total floor area are banned from discarding unsold food, obligated to donate it to food banks and the like, with fines defined for violations. Doggy bags at restaurants also expanded from an initial recommendation to an obligation on all restaurants</strong> — The starting point was one councillor "seeing" the waste. What is invisible is not measured, and does not change.</div>
+
+<p>What this law teaches is not the content of the regulation but that <strong>"waste exists only once it is written down."</strong> A property kitchen’s whiteboard is, so to speak, a one-inn Garot law. Writing one line each day of what was thrown out — that small institution is the first step that changes behavior.</p>
+
+<h2>Measuring — 3 manners</h2>
+
+<ol>
+<li><strong>Write what and how much you threw out, every day</strong> — On the kitchen whiteboard, what was discarded that day. The rule is "right beside where you discard." A distant board does not get written.</li>
+<li><strong>Write it as "what share of prep," not weight</strong> — "20% of the vegetables," "10% of the fish." The heaviness of prep that weight does not show becomes visible as a share.</li>
+<li><strong>In one week, identify the single most-discarded dish</strong> — Improvement starts from one dish. Not the whole at once.</li>
+</ol>
+
+<h2>Reducing — 3 mechanisms</h2>
+
+<ul>
+<li><strong>Split the prep</strong> — Prep in two rounds, morning and noon, with the morning light. Add after seeing the lunch reservations. The first move in dividing the bet small.</li>
+<li><strong>Design for reuse</strong> — Carry leftover vegetables into the next day’s soup or breakfast’s small bowl. Write it on the menu not as "leftovers" but as "prep that uses the whole field," and it becomes story (the craft of adding story to a dish is in <a href="#idea-breakfast-local-story">Convey Region with Breakfast - Ideas for Breakfast Putting Regional Story on One Dish</a>).</li>
+<li><strong>Link prep to bookings</strong> — Ten bookings, 2 kg of vegetables; twenty, 4 kg: build a correspondence table of bookings and prep volume. A mechanism that puts information into the bet.</li>
+</ul>
+
+<p>Waste is a negative line in the world of gross profit. The breakfast numbers’ calculation is handled by <a href="#breakfast-revenue-math">Breakfast Revenue: The Math of Guests x Price x Add-on</a>, and the display discipline that cuts over-laying by <a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a>. The three articles together guard gross profit from three directions.</p>
+
+<h2>The other side — when reducing hurts the floor</h2>
+
+<ul>
+<li><strong>The boundary of hygiene</strong> — Reuse presupposes temperature and time control. Follow food-hygiene guidance, and write the judgment criteria in advance.</li>
+<li><strong>The experience of sold-out</strong> — Prep at eight parts increases "sold out." Can you explain it — "Today’s portion ends with what we prepared; please understand it is the field’s ways"? Still, continuous stock-outs eventually lower ratings. Eight parts, carefully.</li>
+<li><strong>Records becoming a shell</strong> — Fix the writer on one person, and on that person’s day off the record disappears. Keep it in a form anyone can write one line of.</li>
+<li><strong>A hole in the bookings link</strong> — Same-day cancellations and walk-ins always move. Do not over-trust the table; keep the morning’s extra-prep move alive.</li>
+<li><strong>The floor that hides numbers</strong> — Writing "discarded" takes courage. The moment records are used for scolding, the floor starts hiding them. Say at the start: the whiteboard is an information tool, not a scolding tool.</li>
+</ul>
+
+<p>The first step is five minutes after close. Today’s prepped volume and today’s discarded volume, as two lines on the whiteboard. Keep it up a week, and the dish your property bets most heavily on will surely appear. Reducing food loss is not a matter of willpower — it advances with <strong>records and small institutions</strong>.</p>
+
+<div class="note">This article is intended for sharing ideas. Japan’s food-loss figures are government estimates (fiscal 2022, published 2024) by the Ministry of Agriculture, Forestry and Fisheries, the Ministry of the Environment, and the Consumer Affairs Agency. The French system is based on public materials as of writing. Please design food hygiene management along the Food Sanitation Act and related guidance.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#zero-waste-communication">Is Zero Waste Really Possible? Communicating Sustainable Operations</a> — how to communicate what you measured</li>
+<li><a href="#breakfast-revenue-math">Breakfast Revenue: The Math of Guests x Price x Add-on</a> — the calculation of gross profit</li>
+<li><a href="#sourcing-sustainability">Protecting Nature's Gifts — Talking Through Procurement & Sustainability</a> — the honesty of procurement</li>
+<li><a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a> — the discipline of what not to lay out</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T18ab,<p>食物损失是<strong>不仅是“Mottainai”，还有“毛利泄漏”</strong>。许多旅馆将食物浪费视为“浪费”，并认为这是无可奈何的。然而，从不同的角度来看，粮食损失是一种“毛利的流失”。农菜、海鱼、山珍：准备多了扔掉，既失去了对生产者的尊重，也失去了毛利。通过减少准备的食物量，您可以减少食物浪费并增加毛利润。本文将概述可视化的基础知识，以减少准备工作。</p>
+
+<h2>1. 测量 - 记录你扔掉的东西，写下你准备的数量的百分比</h2>
+<ol>
+<li><strong>在厨房的白板上写下您每天扔掉的东西和数量：</strong>减少食物浪费的第一步是记录您扔掉的食物。在厨房的白板上写下您每天扔掉的东西以及扔掉的数量。例如：扔掉 20% 的蔬菜、扔掉 10% 的鱼等。通过每天写作，您可以看到食物浪费的趋势。</li>
+<li><strong>写下“准备百分比”而不是重量（例如蔬菜的 20%）：</strong>食物损失以食物总量的百分比而不是重量来表示。例如：20% 蔬菜、10% 鱼等。通过将其写为准备量的百分比，您可以了解需要准备多少。如果按重量来写，就很难理解准备的量了。</li>
+<li><strong>找出您一周内扔掉最多的物品：</strong>通过记录一周的物品，您可以找出您扔掉最多的物品。例如：蔬菜沙拉是扔得最多的，鱼生鱼片是扔得最多的，等等。通过知道你扔掉最多的物品，你可以看到需要改进的地方。</li>
+</ol>
+
+<h2>2.Reduce—3机制：细分准备、可复用设计、预约数量挂钩</h2>
+<ul>
+<li><strong>小份准备 — 上午和下午分别准备（上午少量）：</strong>减少食物浪费的一种方法是小份准备食物。通过分开准备早餐和午餐，您可以在早上少准备一些，并根据午餐的预订数量多准备一些。小批量准备可以防止过度准备。</li>
+<li><strong>可重复使用的设计——用剩下的蔬菜做汤或第二天的早餐（讲述农业的故事）：</strong>您可以通过将剩余的蔬菜重新用于第二天的汤或小早餐碗来减少食物浪费。重复使用的物品被称为“农业故事”而不是“剩菜”。例如：通过告诉客人“我们用昨天的蔬菜做了今天的汤。这是为了减少食物浪费”，客人会觉得旅馆“有环保意识”。</li>
+<li><strong>与预订数量相关 — 创建一个表，通过查看前一天的预订数量来确定准备工作量：</strong>链接预订数是创建一个表，通过查看前一天的预订数来确定准备量。例：如果有10个预订，2公斤蔬菜，20个预订，4公斤等。通过绘制预订数量和准备量之间的关系图，您可以适当地确定准备量。</li>
+</ul>
+
+<h2>3. 沟通——谈论可持续发展并被评价为环保住宿</h2>
+<ul>
+<li><strong>菜单上写着：“为了减少食物浪费，我们调整了准备量。”</strong>在您的菜单中添加一条关于您为减少食物浪费所做的努力的消息。通过添加诸如“我们正在调整准备的食物量以减少食物浪费”之类的内容。感谢您的理解，”客人会觉得客栈有环保意识。</li>
+<li><strong>客人将其评价为“环保旅馆”（参见“零浪费”文章）：</strong>我们减少食物浪费的努力将为我们的客人赢得“具有环保意识的旅馆”的声誉。提及零废物文章并谈论可持续减少食物损失的努力也可以为旅馆打造品牌。</li>
+<li><strong>尊重生产者——不浪费蔬菜、海鱼、山珍：</strong>减少食物浪费也是对生产者的尊重。不浪费蔬菜、海鱼、山里的恩赐，就是对生产者的尊重。客栈的故事也传达了对制作者的尊重。</li>
+</ul>
+
+<div class="stats"><span class="tag">参考示例</span><strong>例如，若施策前的食材废弃金额为每月5万日元，则下降约35%至每月3.2万日元可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — —粮食损失不仅是浪费，更是毛利润的损失。通过测量、减少和沟通来保护毛利润和环境。判断效果时，请用相同的统计方法记录并比较施策前后30天的废弃金额与餐饮毛利。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>食物损失的本质是<strong>“毛利流失”</strong>。生产过多的蔬菜、海鱼和山珍品然后扔掉，既失去了对生产者的尊重，也失去了毛利润。通过记录你扔掉的东西，将其写成你准备的食物量的百分比，找到你扔掉最多的一件物品，并通过三种机制减少它：小份准备、重复利用设计、与预订数量挂钩，并将其视为可持续的，你不仅可以将食物浪费视为“浪费”，而且可以将其视为“毛利润的流失”。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：在厨房安装白板来记录你扔掉的东西</strong> — 在厨房里放一块白板，写下你每天扔掉什么以及扔掉多少。通过将其写为准备工作的百分比，您可以了解需要多少准备工作。</li>
+<li><strong>第 2 周：确定本周您扔得最多的一件物品</strong> — 通过记录一周来找出您扔得最多的一件物品。例如：蔬菜沙拉、鱼生鱼片等。</li>
+<li><strong>第三周：引入3个系统（细分、复用、预约数联动）</strong> — 引入小份准备（早餐和午餐分开准备）、再利用设计（用剩下的蔬菜做第二天的汤）、预订数量联动（根据预订数量确定准备量的表格）三个系统。</li>
+<li><strong>第 4 周：在菜单中添加“减少食物浪费”这一短语</strong> — 在菜单中添加一条声明：“我们正在调整准备食物的数量，以减少食物浪费。”通过谈论酒店的可持续发展，客人将其评价为“环境友好型旅馆”。</li>
+<li><strong>续：将粮食损失视为“毛利润流失”</strong> — 继续管理粮食损失，不仅将其视为“浪费”，而且将其视为“毛利润的流失”。通过衡量、减少和沟通，保护毛利润和环境。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/room-turnover-flow","children":["- ",["$","span",null,{"className":"ja-only","children":"客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー"}],["$","span",null,{"className":"en-only","children":"Room Turnover: Cutting Guest Wait with Cleaning Flow"}],["$","span",null,{"className":"zh-only","children":"客房周转——减少客人等待时间的清洁流程"}]]}],["$","$L8",null,{"href":"/journal/articles/minibar-inroom-commerce","children":[["$","span",null,{"className":"ja-only","children":"ミニバーと客室販売 — 「室内コマース」の基本"}],["$","span",null,{"className":"en-only","children":"Minibar and In-Room Sales: In-Room Commerce Basics"}],["$","span",null,{"className":"zh-only","children":"迷你吧和室内销售——“室内商务”的基础"}]," -"]}]]}]
+10:null

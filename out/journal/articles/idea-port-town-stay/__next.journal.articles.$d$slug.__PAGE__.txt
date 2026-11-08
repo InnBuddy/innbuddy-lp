@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-port-town-stay.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1d49,<p>日本でいちばん早く起きる街は、港です。夜明け前、魚を積んだ船が戻り、氷が振りかけられ、せりの声が上がります。この朝の風景は、宿が朝食前に案内できる、いちばん早く、いちばん生きた観光資源です。この記事は、港町の朝を体験にするための、時間割と作法と安全の線を扱います。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1d49,<p>日本でいちばん早く起きる街は、港です。夜明け前、魚を積んだ船が戻り、氷が振りかけられ、せりの声が上がります。この朝の風景は、宿が朝食前に案内できる、いちばん早く、いちばん生きた観光資源です。この記事は、港町の朝を体験にするための、時間割と作法と安全の線を扱います。</p>
 
 <h2>1. 数字——港の9割は、誰かの仕事場です</h2>
 <p>漁港法に基づく指定漁港は、全国で2,785港（2021年4月時点、国土交通省北海道開発局の集計）。そのうち第1種漁港——利用が地元の漁業を主とする港——が2,047港を占めます。<strong>港の9割以上は、地元の漁師さんの仕事場</strong>です。観光地向けに整備された港はごく一部で、ゲストが訪れる港のほとんどは、毎朝誰かの暮らしがかかった場所です。この事実は、港の案内の作法そのものを決めているのです。港は見学する場所であり、立ち入る場所ではありません。</p>
@@ -41,10 +106,47 @@ a:"$Sreact.suspense"
 <li><a href="#seaside-resort-operations">海辺のリゾート運営 — 潮風と共に暮らす宿の設計</a> — 海辺の立地の運営</li>
 <li><a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a> — 海と山の食のつながり</li>
 <li><a href="#idea-beach-clean-art">海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア</a> — 海の環境を考える視点</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","151"]}]]}],["$","h1",null,{"children":"港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"}],["$","p",null,{"className":"excerpt","children":"全国の漁港は2,785。その9割超が「地元の港」です。マグロのせりが5時半に始まる理由から、港を来訪者に開く「海の駅」という制度、漁師の話の聞き書きまで。港町の朝は、宿が案内できる最も早い風景です。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-port-town-stay.jpg","alt":"港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.31"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-mountain-entrance-stay","children":["← ","山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-terraced-rice-field","children":["棚田のある風景 — 棚田・畦道・田んぼの四季を楽しむアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"151"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Port Town - Ideas for Feeling Morning at Port, Fisherman Stories, Boat Tools"}],["$","span",null,{"className":"zh-only","children":"港口小镇的旅馆——港口早晨的创意、渔民的故事以及船上的工具"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"全国の漁港は2,785。その9割超が「地元の港」です。マグロのせりが5時半に始まる理由から、港を来訪者に開く「海の駅」という制度、漁師の話の聞き書きまで。港町の朝は、宿が案内できる最も早い風景です。"}],["$","span",null,{"className":"en-only","children":"Japan’s fishing ports number 2,785, and more than 90% of them are the locals’ own working ports. From why the tuna auction begins at 5:30, to the \"sea stations\" system that opens ports to visitors, to the writing down of fishermen’s talk. A port town’s morning is the earliest scenery an inn can guide."}],["$","span",null,{"className":"zh-only","children":"早上在港口，渔民的故事，船具，渔具。我们收集了丰富您在旅馆的时光的建议，从让您感受到港口小镇生活的小想法开始。我们还将介绍果田和港口城镇的组合。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-port-town-stay.jpg","alt":"港町のある宿 — 港の朝・漁師の話・船の道具を感じるアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.31"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1eb8,<p>The street that wakes earliest in Japan is the port. Before dawn, the boats come home laden with fish, ice rains down, and the calls of the auction rise. This morning scenery is the earliest and the most alive of the tourist resources an inn can guide before breakfast. This article treats the timetable, the manners, and the lines of safety for turning a port town’s morning into an experience.</p>
+
+<h2>1. The figures — 90% of ports are somebody’s workplace</h2>
+<p>The designated fishing ports under the Fishing Port Act number 2,785 nationwide (as of April 2021, per the tally of the Hokkaido Regional Development Bureau, Ministry of Land, Infrastructure, Transport and Tourism). Of these, Category 1 fishing ports — ports whose use is mainly by the local fisheries — account for 2,047. <strong>More than 90% of ports are the workplaces of the local fishermen.</strong> Ports developed for tourism are a mere handful, and nearly every port a guest visits is a place where somebody’s living is at stake each morning. This fact decides the manners of port guidance themselves. The port is a place to observe, not a place to enter.</p>
+<div class="stats"><span class="tag">FACT</span><strong>The breakdown of the 2,785 ports nationwide</strong> — Category 1 (local use) 2,047 ports / Category 2 (somewhat wider area) 525 / Category 3 (nationwide use) 101 / Specified Category 3, 13 / Category 4 (remote islands, outlying areas) 99 (as of April 1, 2021). Specified Category 3 ports are only 13 — the great ports that carry wide-area distribution, and the small ports that support the region. The center of a port-town trip is, most often, the latter.</div>
+
+<h2>2. The timetable — why the auction is at 5:30 in the morning</h2>
+<p>At Tokyo’s Toyosu Market, general visitors may enter from 5 a.m., and the tuna auction is, as a rule, finished within the one hour from 5:30 to 6:30. The bell announcing the start rings out, and by the hand signals of the auctioneer and the brokers alone, tuna from tens to hundreds of kilograms are decided one after another. The viewing that was limited by headcount in the Tsukiji days can, at Toyosu, be done by anyone from the second-floor visitors’ corridor (per the Toyosu Market guide).</p>
+<p>That the auction comes at the first hour of the morning is no mere habit of long standing. <strong>To put that day’s fish on that day’s counters, there is no way but to fix the prices, cut the fish, and load them onto distribution within the few morning hours.</strong> The port’s morning timetable is built of the physics called freshness. The experience design of a port-town inn, too, can only be matched to this timetable — an inn that can guide "if you are going to see the port, six o’clock is the hour" is a port-town inn. Serve fish at the 7:30 breakfast to the guests back from watching the landing and the auction. This flow of ninety minutes is the port-town inn’s golden morning.</p>
+
+<h2>3. The fishermen’s talk — to listen is to leave a record</h2>
+<p>The other asset of a port-town inn is the fishermen’s talk. The seasons of each fish, the ways the sea turns rough, the changes of fishing gear, the stories of their youth — these are not sightseeing material but <strong>the oral record of the region’s fisheries.</strong> Make a booklet, write them on a board, keep the recordings (with consent) — given the form of the recorded interview, a story changes from "an interesting tale" into "a record of this port." The fifteen minutes a child staying at the inn spends listening to a fisherman is a class in the fishing industry that appears in no textbook.</p>
+<p>The tools are the same. Floats, nets, hooks, the compass, the ship’s fittings — when they are hung in the corridor, give each its name tag (the sea version of the principle treated in <a href="#idea-craftsman-handwork">Touch Craftsman's Handwork - Ideas for Showing Handwork of Carpenter, Plasterer, Joiner, Tatami</a>). If a mending of the nets can be watched, the net becomes visible as "a tool still being woven."</p>
+
+<h2>4. The institution — "sea stations," a way of opening the port</h2>
+<div class="stats"><span class="tag">CASE</span><strong>The "sea station" is a system that opens ports to visitors</strong> — The "sea stations" promoted by the Ministry of Land, Infrastructure, Transport and Tourism are bases for marine leisure equipped with three things: vessel mooring facilities, guides, and toilets. As of the end of March 2026, 179 places nationwide were registered. Just as the roadside stations were born for road users, the sea stations opened the ports as the points where sea meets land. They are not fishing ports themselves, but at ports registered as sea stations, the preparation for receiving visitors is in place — the first system to turn to when a port-town inn looks for partners.</div>
+
+<h2>5. Safety and hygiene — the port is a factory</h2>
+<ul>
+<li><strong>No-entry zones are lines that guard life</strong> — In a fishing port, cranes, forklifts, and trucks move; the ground is wet and slippery; ice and seawater chill. Write "Do not enter the cargo-handling area" and "Do not go where you are not called" at the head of the guidance.</li>
+<li><strong>Manners for watching the auction and the market</strong> — Raise no voice during the auction; photographs without flash (do not dent the bidding’s spirit); block no corridor. These too are the manners of watching.</li>
+<li><strong>Hygiene of the fish</strong> — In filleting experiences and fish tastings, temperature control and freshness are the theme. Keep raw-eaten fish chilled on ice the whole time; when time passes, turn it to cooked use. The right order in designing the experience is to consult the health office with jurisdiction first.</li>
+<li><strong>Experiences on boats</strong> — For putting out boats for fishing or shellfish gathering, the basics are to rely on an operator or vessel covered by the fishing-boat business notification. Life jackets for adults too.</li>
+<li><strong>The weather changes everything</strong> — The catch depends on the sea’s mood. "Nothing came in today" happens too. Write the port experience guide in words that promise no result.</li>
+</ul>
+<div class="note"><span class="tag">InnBuddy VIEW</span>What the guide card of a port-town inn should carry is the timetable. What time the boats return, what time the auction begins, what time it is cleared away. <strong>The port’s morning is a great event opened every day, no reservation needed</strong> — knowing the time, anyone can go and see. The strength of a port-town inn is decided not by the number of beds but by whether it can guide this timetable.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. For activities at the water’s edge, include safety measures and the preparation of clothing and tools in the design.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a> — the continuation of the port’s morning</li>
+<li><a href="#seaside-resort-operations">Seaside Resort Operations: Designing a Property Living with Sea Breeze</a> — running a seaside location</li>
+<li><a href="#sea-salt-mountain-bounty">Sea Salt and Mountain Bounty: Telling Food Experience with Natural Seasonings</a> — the food link between sea and mountain</li>
+<li><a href="#idea-beach-clean-art">Think from Marine Debris - Ideas for Stay with Beach Clean and Driftwood Art</a> — a viewpoint on the sea’s environment</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T12b0,<p>本文分享一些可供尝试的想法。港口小镇的生活是这样的，有的旅馆可以早上沿着港口散步，有的旅馆可以同时欣赏果园和渔港，有的旅馆可以学习儿童渔具。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>早晨港口里来来往往的船只，渔民的故事，船具和渔具。生活在港口小镇，您可以感受到大海与乡村的联系。我们从港口城镇的旅馆中收集了一些小创意，以帮助您享受在旅馆的时光。</p><h2>港口城镇住宿创意集合</h2><ul><li><strong>早上在港口散步</strong> — 介绍早晨在港口周围散步作为旅馆体验。看着船只来来往往、渔民为早晨做好准备、在港口散步享受早市，您可以感受到港口小镇的早晨。一家旅馆将早晨的港口周围散步称为“早晨的港口周围散步”，并在港口的早市上出售果园里的水果。</li><li><strong>听听渔夫的故事</strong> — 在旅馆里享受有关渔民、钓鱼和船只的故事。用小册子或木板介绍渔民的故事，传达大海的故事。在一些旅馆里，有关渔民的故事被印成小册子，称为“港口镇渔民的故事”，并放置在客房内。</li><li><strong>享受船舶设备</strong> — 旅馆内存放船用工具、渔具、渔网等，介绍这里是可以享受船用工具的地方。通过介绍如何使用船用工具以及如何在小板上制作渔具，讲述海上工具的故事。在一间旅馆中，走廊上展示着船上的工具，称为“港口城镇工具”，并介绍了这些工具的故事。</li><li><strong>港口城镇和水果农场的想法</strong> — 拥有果园的旅馆，港口小镇也是一个可以同时享受果园和大海的地方。其中一家旅馆推出了“港口小镇和果园”，可以同时享受港口小镇和果园的体验，并计划将早晨的港口周围散步和果园收获体验结合起来。通过体验早晨在港口周围散步并在当天收获水果，您可以感受到大海与乡村之间的联系。</li><li><strong>和孩子一起学习渔具</strong> — 将渔具变成孩子们的小型学习体验。学习如何使用渔具、如何织网的经历将留在孩子们的记忆中。一家旅馆为儿童举办了“渔具学习”活动，教他们如何使用渔具。</li></ul><h2>以下是在国外度过时光的方法 - 港口城镇的住宿建议</h2><p>住在港口小镇是地中海港口小镇旅馆生活的一部分。享受早晨在港口散步、聆听渔民的故事、珍惜船上的工具。住在港口小镇是这家旅馆如此吸引人的原因。日本的里山旅馆也许能够通过介绍港口小镇的生活来传达大海与里山之间的联系。</p><p>您入住的旅馆的港口小镇生活怎么样？为什么不从早上沿着港口散步开始呢？</p><h2>从港口小镇出发的提示</h2><p>即使您没有整个港口，您也可以从放置一个港口工具或讲述一位渔民的故事开始。在一家旅馆，我们首先制作了一本小册子，上面写着渔民的故事，我们收到了客人的评论，他们说：“我很喜欢听到有关港口小镇的故事。”即使在港口小镇，你也能感受到大海和乡村之间的联系。</p><p>何不从拥有果园的旅馆开始您的住宿，在那里您可以享受港口小镇和果园的乐趣呢？通过计划早上在港口周围散步和果田收获体验，您可以感受到大海与乡村之间的联系。</p><div class="stats"><span class="tag">模拟示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — 介绍港口城市的生活可能会导致大海和里山之间的联系。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。请您高度重视安全，合理享受港口活动。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>介绍早晨在港口周围散步</strong> — 看看船只的来来往往，渔民的早晨准备，以及散步去享受港口的早市。</li><li><strong>把渔夫的故事变成一本小册子</strong> — 放置在客房，讲述港口小镇渔夫的故事</li><li><strong>装饰船舶设备</strong> — 作为港口小镇的工具展示在走廊上，介绍工具的故事</li><li><strong>规划港口小镇和水果农场体验</strong> — 早晨在港口散步和果园收获体验相结合</li><li><strong>为儿童策划一次有关渔具的学习课程</strong> — 体验学习如何使用渔具和织网</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-mountain-entrance-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"山の入り口としての宿 — 登山前後・山の道具・山の話を楽しむ宿のアイデア"}],["$","span",null,{"className":"en-only","children":"Inn as Entrance to Mountain - Ideas for Enjoying Before/After Climbing, Mountain Gear, Mountain Stories"}],["$","span",null,{"className":"zh-only","children":"作为山的入口的旅馆 — 可以在登山前后、登山工具和山的故事中享受的旅馆的想法。"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-terraced-rice-field","children":[["$","span",null,{"className":"ja-only","children":"棚田のある風景 — 棚田・畦道・田んぼの四季を楽しむアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Terraced Rice Fields - Ideas for Enjoying Terraces, Ridges, Four Seasons of Rice Fields"}],["$","span",null,{"className":"zh-only","children":"梯田风景——享受梯田、田埂、稻田的四个季节的创意"}]," -"]}]]}]
+10:null

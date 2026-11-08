@@ -8,21 +8,205 @@ a:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-
 c:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 e:I[68027,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
 :HL["/_next/static/chunks/3b5hc373sn3gq.css","style"]
-:HL["/_next/static/chunks/22_khi0seubmf.css","style"]
+:HL["/_next/static/chunks/19auotsdwr8f0.css","style"]
 :HL["/_next/static/chunks/1lvs5iazdwugu.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","style"]
-0:{"P":null,"c":["","journal","articles","room-photography-guide",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","room-photography-guide","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/22_khi0seubmf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3r0HXY-CJNICXJR0vBtgz"}
+0:{"P":null,"c":["","journal","articles","room-photography-guide",""],"q":"","i":false,"f":[[["",{"children":["journal",{"children":["articles",{"children":[["slug","room-photography-guide","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0fwl0-8mh83pw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Zen+Old+Mincho:wght@400;500;600;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$4",null,{"fallback":null,"children":["$","$L5",null,{}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1lvs5iazdwugu.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","div",null,{"className":"journal-wrapper","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5hc373sn3gq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/19auotsdwr8f0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Wjs50aw9q7KwJzs198_KL"}
 f:[]
 9:"$Wf"
-10:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+10:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      6:["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$10"}}],["$","header",null,{"className":"article-headbar container","children":["$L11","$L12"]}],"$L13","$L14"]}]
+15:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
 :HL["/library/journal/ai_room-photography.jpg","image"]
-11:T1b0f,<p>宿のスタッフは、毎日同じ廊下を通り、同じ部屋を整えます。目は慣れる生き物です。壁のシミは見えなくなり、配線は風景になり、積もり積もった小さな気になりは、呼吸のように無意識になります。しかし、旅人の目は一度もその部屋を見たことがありません。だから、写真を撮る——これは、旅人の目を借りて部屋を初めて見る、診断の行為です。この記事は、その診断に必要な技術を「構図」と「光」の2点に絞って整理します。何を撮るか(部屋のどの1枚を宿の顔にするか)は「写真が9割」の記事に譲り、ここでは「どう撮るか」だけを扱います。</p><h2>光 — 朝に撮って、窓に向かって</h2><ul><li><strong>日の出後60〜90分が撮影の目安</strong> — 太陽が低い時間の光は斜めに部屋に入り、柔らかく、影が長い。影が質感を描きます。真昼の真上からの光は部屋をのっぺりと平らにし、朝のふくらみを消します。</li><li><strong>窓に向かって撮る</strong> — 自然光が部屋を斜めに横切る角度。逆光ではなく、光の流れを部屋の中に取り込む構えです。</li><li><strong>天井灯は消す</strong> — 室内照明だけの光は、色が混ざって部屋を扁平に見せ、写真を濁らせます。自然光が主役、照明はわき役。この原則は、光の質を決める最初のスイッチです。</li></ul><h2>構図 — 対角・水平・余白</h2><ul><li><strong>部屋の対角(コーナー)から撮る</strong> — カメラから最も遠いコーナーに立つと、部屋の最長の距離が画面に入ります。広さを伝える構図は、ほぼこれ一択です。真ん中から撮った部屋は、実際より狭く見えます。</li><li><strong>水平線は水平に</strong> — 壁が斜めに傾いた写真は、見る人に無意識の不安を与えます。カメラの格子(グリッド)を表示して、壁とベッドの縦横を画面の縁に平行に。</li><li><strong>画面の3分の1は余白に</strong> — 眺望、空、壁面。余白は無駄ではなく、売りたいものの額縁です。部屋で詰め込んだ写真は、実際より安っぽく見えます。</li></ul><h2>撮る前のスタイリング — 5点</h2><ol><li>ベッドを整える(シーツのシワを伸ばす。手で撫でてから、もう一度)。</li><li>私物と清掃用具を撤去する(モップ、バケツ、私の鞄も)。</li><li>カーテンを全開にする(光を入れる。これを忘れると朝光が死ぬ)。</li><li>スタンド灯を1灯だけ点ける(温かみのわき役。天井灯は消したまま)。</li><li>浴室のドアを開けて明るく(閉まったドアは「暗い場所」の記号として写る)。</li></ol><h2>最低6枚の撮りリスト</h2><ol><li>部屋全体(対角・広角・朝光)——最初の1枚。</li><li>ベッドのアップ(リネンの質感)。</li><li>浴室(明るく、清潔に)。</li><li>眺望(窓から見える世界)。</li><li>デスク・作業スペース(泊まった後の生活)。</li><li>ディテール1点(アメニティ、アート、素材)。</li></ol><h2>撮ることは、診断である</h2><p>ここまでの話の裏側にある原則を、明文化しておきます。ファインダーを覗いて初めて見えるものがある——シミ、ほつれ、配線、剥がれ。レンズは慣れた目をリセットする装置です。だから撮影の日は、撮った写真をその場で拡大して見て、「写真に収まらないもの」を改善リストに書き出す宿の習慣を作ってください。翌月の写真はもっと良くなり、翌月の部屋はもっと整います。撮影は清掃の点検と同時に回すものです。半年続けると、部屋と写真が同時に良くなる宿になります。</p><h2>撮影の反対側</h2><ul><li><strong>広角の誇張</strong> — 広角レンズは手前を大きく、奥を広く写します。広く見せすぎた写真は、到着した時の失望に変わり、レビューに書かれます。広角は使うが、正直な位置から。</li><li><strong>加工の線</strong> — 色と明るさの補正は「実際に見えた通り」まで。盛りすぎた写真は、詐欺として記憶されます。</li><li><strong>窓の外は季節で変わる</strong> — 紅葉の写真で冬の予約を集めると、冬の客はがっかりします。年に2回、季節の窓を撮り直す。</li><li><strong>写り込む人</strong> — 他のゲストを画角に入れない。スタッフが写る場合は了承を。写真は予約サイトで世界中に公開されます。</li><li><strong>完璧な空室だけを撮る罠</strong> — 実際に泊まる時の写真(荷物を置くスペース、コンセントの位置、朝の光が入る時間帯)も1枚あると、宿の誠実さが伝わります。生活が見えない部屋は、暮らせない部屋に見えます。</li><li><strong>撮影の頻度</strong> — リネンを替え、家具を動かし、アートを掛け替えたら、写真はもう古い。部屋が変わったら撮り直す。それが出来ないほど宿の写真は急速に古くなります。</li></ul><p>技術の話を最後に一度畳みます。光は朝に、窓に向かって。構図は対角から、水平に、3分の1は余白に。スタイリングは5点。撮るのは最低6枚。この記事のすべては、この3行に要約できます。明日の朝、日の出の60分後に、一室だけ15分。カメラは旅人の目の代わりです。その目が初めて見る部屋を、あなたは今日、もう一度見ることができます。</p><div class="note">この記事はアイデア共有を目的としています。撮影の時間帯や構図は実践の目安であり、部屋の形状や方角によって最適は変わります。掲載する写真は各予約サイト・プラットフォームの規約(サイズ・枚数・加工の扱い)をご確認ください。</div><h2>次に読む</h2><ul><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 何を撮るかの選定原則の話</li><li><a href="#booking-listing-basics">Booking.comで選ばれるには — Listing最適化の基礎</a> — 撮った写真の居場所の話</li><li><a href="#instagram-cold-start">ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画</a> — 写真を回し続ける場の話</li><li><a href="#idea-one-day-photo-story">宿の1日を写真で伝える — 言葉が少なくても伝わる1日の写真の撮り方アイデア</a> — 客室の外を撮る話</li></ul>6:["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L10",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L10",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","016"]}]]}],["$","h1",null,{"children":"客室の写真の撮り方 — 構図と光の2点"}],["$","p",null,{"className":"excerpt","children":"「予約が入る写真」と「入らない写真」の違いは、構図と光の2点に集約されます。日の出後60〜90分の朝光、部屋の対角から水平的に、余白は眺望に。実践の前に知ってほしいのは、カメラは一度も泊まったことのないゲストの目の代わりだ、ということ。撮ることは、部屋の診断でもあります。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_room-photography.jpg","alt":"客室の写真の撮り方 — 構図と光の2点"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.15"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}],"$L12","$L13"]}]}],"$L14"]}]
+11:["$","$L15",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}]
+12:["$","div",null,{"className":"head-right","children":[["$","$L15",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]
+16:T1b0f,<p>宿のスタッフは、毎日同じ廊下を通り、同じ部屋を整えます。目は慣れる生き物です。壁のシミは見えなくなり、配線は風景になり、積もり積もった小さな気になりは、呼吸のように無意識になります。しかし、旅人の目は一度もその部屋を見たことがありません。だから、写真を撮る——これは、旅人の目を借りて部屋を初めて見る、診断の行為です。この記事は、その診断に必要な技術を「構図」と「光」の2点に絞って整理します。何を撮るか(部屋のどの1枚を宿の顔にするか)は「写真が9割」の記事に譲り、ここでは「どう撮るか」だけを扱います。</p><h2>光 — 朝に撮って、窓に向かって</h2><ul><li><strong>日の出後60〜90分が撮影の目安</strong> — 太陽が低い時間の光は斜めに部屋に入り、柔らかく、影が長い。影が質感を描きます。真昼の真上からの光は部屋をのっぺりと平らにし、朝のふくらみを消します。</li><li><strong>窓に向かって撮る</strong> — 自然光が部屋を斜めに横切る角度。逆光ではなく、光の流れを部屋の中に取り込む構えです。</li><li><strong>天井灯は消す</strong> — 室内照明だけの光は、色が混ざって部屋を扁平に見せ、写真を濁らせます。自然光が主役、照明はわき役。この原則は、光の質を決める最初のスイッチです。</li></ul><h2>構図 — 対角・水平・余白</h2><ul><li><strong>部屋の対角(コーナー)から撮る</strong> — カメラから最も遠いコーナーに立つと、部屋の最長の距離が画面に入ります。広さを伝える構図は、ほぼこれ一択です。真ん中から撮った部屋は、実際より狭く見えます。</li><li><strong>水平線は水平に</strong> — 壁が斜めに傾いた写真は、見る人に無意識の不安を与えます。カメラの格子(グリッド)を表示して、壁とベッドの縦横を画面の縁に平行に。</li><li><strong>画面の3分の1は余白に</strong> — 眺望、空、壁面。余白は無駄ではなく、売りたいものの額縁です。部屋で詰め込んだ写真は、実際より安っぽく見えます。</li></ul><h2>撮る前のスタイリング — 5点</h2><ol><li>ベッドを整える(シーツのシワを伸ばす。手で撫でてから、もう一度)。</li><li>私物と清掃用具を撤去する(モップ、バケツ、私の鞄も)。</li><li>カーテンを全開にする(光を入れる。これを忘れると朝光が死ぬ)。</li><li>スタンド灯を1灯だけ点ける(温かみのわき役。天井灯は消したまま)。</li><li>浴室のドアを開けて明るく(閉まったドアは「暗い場所」の記号として写る)。</li></ol><h2>最低6枚の撮りリスト</h2><ol><li>部屋全体(対角・広角・朝光)——最初の1枚。</li><li>ベッドのアップ(リネンの質感)。</li><li>浴室(明るく、清潔に)。</li><li>眺望(窓から見える世界)。</li><li>デスク・作業スペース(泊まった後の生活)。</li><li>ディテール1点(アメニティ、アート、素材)。</li></ol><h2>撮ることは、診断である</h2><p>ここまでの話の裏側にある原則を、明文化しておきます。ファインダーを覗いて初めて見えるものがある——シミ、ほつれ、配線、剥がれ。レンズは慣れた目をリセットする装置です。だから撮影の日は、撮った写真をその場で拡大して見て、「写真に収まらないもの」を改善リストに書き出す宿の習慣を作ってください。翌月の写真はもっと良くなり、翌月の部屋はもっと整います。撮影は清掃の点検と同時に回すものです。半年続けると、部屋と写真が同時に良くなる宿になります。</p><h2>撮影の反対側</h2><ul><li><strong>広角の誇張</strong> — 広角レンズは手前を大きく、奥を広く写します。広く見せすぎた写真は、到着した時の失望に変わり、レビューに書かれます。広角は使うが、正直な位置から。</li><li><strong>加工の線</strong> — 色と明るさの補正は「実際に見えた通り」まで。盛りすぎた写真は、詐欺として記憶されます。</li><li><strong>窓の外は季節で変わる</strong> — 紅葉の写真で冬の予約を集めると、冬の客はがっかりします。年に2回、季節の窓を撮り直す。</li><li><strong>写り込む人</strong> — 他のゲストを画角に入れない。スタッフが写る場合は了承を。写真は予約サイトで世界中に公開されます。</li><li><strong>完璧な空室だけを撮る罠</strong> — 実際に泊まる時の写真(荷物を置くスペース、コンセントの位置、朝の光が入る時間帯)も1枚あると、宿の誠実さが伝わります。生活が見えない部屋は、暮らせない部屋に見えます。</li><li><strong>撮影の頻度</strong> — リネンを替え、家具を動かし、アートを掛け替えたら、写真はもう古い。部屋が変わったら撮り直す。それが出来ないほど宿の写真は急速に古くなります。</li></ul><p>技術の話を最後に一度畳みます。光は朝に、窓に向かって。構図は対角から、水平に、3分の1は余白に。スタイリングは5点。撮るのは最低6枚。この記事のすべては、この3行に要約できます。明日の朝、日の出の60分後に、一室だけ15分。カメラは旅人の目の代わりです。その目が初めて見る部屋を、あなたは今日、もう一度見ることができます。</p><div class="note">この記事はアイデア共有を目的としています。撮影の時間帯や構図は実践の目安であり、部屋の形状や方角によって最適は変わります。掲載する写真は各予約サイト・プラットフォームの規約(サイズ・枚数・加工の扱い)をご確認ください。</div><h2>次に読む</h2><ul><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 何を撮るかの選定原則の話</li><li><a href="#booking-listing-basics">Booking.comで選ばれるには — Listing最適化の基礎</a> — 撮った写真の居場所の話</li><li><a href="#instagram-cold-start">ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画</a> — 写真を回し続ける場の話</li><li><a href="#idea-one-day-photo-story">宿の1日を写真で伝える — 言葉が少なくても伝わる1日の写真の撮り方アイデア</a> — 客室の外を撮る話</li></ul>13:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"016"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"客室の写真の撮り方 — 構図と光の2点"}],["$","span",null,{"className":"en-only","children":"How to Photograph Guest Rooms: The Two Points of Composition and Light"}],["$","span",null,{"className":"zh-only","children":"客房照片如何拍——两点：构图和光线"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"「予約が入る写真」と「入らない写真」の違いは、構図と光の2点に集約されます。日の出後60〜90分の朝光、部屋の対角から水平的に、余白は眺望に。実践の前に知ってほしいのは、カメラは一度も泊まったことのないゲストの目の代わりだ、ということ。撮ることは、部屋の診断でもあります。"}],["$","span",null,{"className":"en-only","children":"The difference between photos that bring bookings and photos that do not comes down to two points: composition and light. Morning light 60 to 90 minutes after sunrise; from the room’s diagonal, level; one third of the frame left to the view. Before the practice, one thing to know: the camera stands in for the eyes of a guest who has never stayed. Photographing the room is also diagnosing it."}],["$","span",null,{"className":"zh-only","children":"“获得预订的照片”和“没有获得预订的照片”之间的区别在于“构图和灯光”。在自己的公司需要采取的两个实用要点以及至少 6 张照片的列表。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_room-photography.jpg","alt":"客室の写真の撮り方 — 構図と光の2点"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.15"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17","$L18"]}],"$L19","$L1a"]}]}]
+14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-12:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L10","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L10","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L10","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-13:["$","div",null,{"className":"pager","children":[["$","$L10",null,{"href":"/journal/articles/review-management-3-numbers","children":["← ","レビュー運営 — 「スコア・件数・新しさ」の基本"]}],["$","$L10",null,{"href":"/journal/articles/pricing-fundamentals","children":["部屋単価の決め方 — プライシングの基礎"," →"]}]]}]
-14:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+1b:T19b3,<p>A property's staff walk the same corridors every day and ready the same rooms. The eye is a creature of habit. The stain on the wall disappears; the wiring becomes scenery; the accumulated small bothers go unconscious, like breathing. But the traveler's eye has never seen that room even once. That is why you photograph — an act of diagnosis: seeing the room for the first time, through the traveler's borrowed eyes. This article organizes the technique that diagnosis needs into two points, "composition" and "light." What to shoot (which single image of the room becomes the inn's face) belongs to "The Photo Is 90%"; here we handle only "how to shoot."</p>
+
+<h2>Light — shoot in the morning, toward the window</h2>
+
+<ul>
+<li><strong>Sixty to ninety minutes after sunrise is the guide</strong> — Light from a low sun enters the room at a slant: soft, with long shadows. Shadows draw texture. The overhead light of midday flattens the room and kills the morning's fullness.</li>
+<li><strong>Shoot toward the window</strong> — The angle at which natural light crosses the room diagonally. Not against the light — a stance that takes the flow of light inside the room.</li>
+<li><strong>Turn the ceiling lights off</strong> — Light from interior fixtures alone mixes colors, flattens the room, and clouds the photo. Natural light as the lead, lamps as the supporting role. This principle is the first switch that decides the quality of light.</li>
+</ul>
+
+<h2>Composition — diagonal, level, margin</h2>
+
+<ul>
+<li><strong>Shoot from the room's diagonal (corner)</strong> — Stand at the corner farthest from the camera, and the room's longest distance enters the frame. This is virtually the only composition that conveys spaciousness. A room shot from the middle of a wall looks smaller than it is.</li>
+<li><strong>Keep the horizontal level</strong> — A photo with tilted walls gives the viewer an unconscious unease. Turn on the camera's grid and set the verticals and horizontals of the walls and the bed parallel to the frame's edges.</li>
+<li><strong>One third of the frame to margin</strong> — The view, the sky, a wall surface. Margin is not waste; it is the frame for what you are selling. A crowded room photo looks cheaper than the reality.</li>
+</ul>
+
+<h2>Styling before the shot — five points</h2>
+
+<ol>
+<li>Make the bed (smooth the sheets. Smooth them by hand, then once more).</li>
+<li>Remove personal items and cleaning tools (the mop, the bucket — and my own bag).</li>
+<li>Open the curtains fully (let the light in. Forget this and the morning light dies).</li>
+<li>Light one stand lamp only (a supporting role for warmth. Keep the ceiling lights off).</li>
+<li>Open the bathroom door, bright (a closed door photographs as the symbol of "a dark place").</li>
+</ol>
+
+<h2>The minimum shot list — six frames</h2>
+
+<ol>
+<li>The whole room (diagonal, wide, morning light) — the first image.</li>
+<li>A close-up of the bed (the texture of the linen).</li>
+<li>The bathroom (bright, clean).</li>
+<li>The view (the world seen from the window).</li>
+<li>The desk and work space (life after arriving).</li>
+<li>One detail (amenities, art, materials).</li>
+</ol>
+
+<h2>To photograph is to diagnose</h2>
+
+<p>Let me state plainly the principle behind everything so far. Some things become visible only when you look through the finder — a stain, a loose thread, wiring, a peel. The lens is a device that resets the accustomed eye. So on shooting day, build the inn habit of zooming into the photos on the spot and writing the "things that would not fit the photo" onto an improvement list. Next month's photos get better, and next month's rooms get tidier. Photography runs on the same cycle as the cleaning inspection. Keep it up half a year, and you become an inn where the rooms and the photos improve together.</p>
+
+<h2>The other side of shooting</h2>
+
+<ul>
+<li><strong>Wide-angle exaggeration</strong> — A wide lens enlarges the near and widens the far. A photo made to look too roomy turns into disappointment on arrival and gets written into a review. Use the wide angle — from an honest position.</li>
+<li><strong>The line on editing</strong> — Correct color and brightness only as far as "what it actually looked like." Over-saturated photos are remembered as fraud.</li>
+<li><strong>The window changes with the seasons</strong> — Gather winter bookings with autumn-foliage photos and the winter guest is let down. Shoot the seasonal window twice a year.</li>
+<li><strong>People in the frame</strong> — Keep other guests out; if staff appear, get their consent. Photos are published worldwide on the booking sites.</li>
+<li><strong>The trap of photographing only the perfect vacant room</strong> — One photo of the room as it is actually lived in (where the luggage goes, where the outlets are, when the morning light comes in) conveys an inn's honesty. A room with no life visible looks like a room you cannot live in.</li>
+<li><strong>Frequency of shooting</strong> — Change the linen, move the furniture, rehang the art — and the photos are already old. When the room changes, reshoot. Faster than any inn can manage, its photos grow old.</li>
+</ul>
+
+<p>Let me fold the technique up once, at the end. Light: morning, toward the window. Composition: from the diagonal, level, one third margin. Styling: five points. Shots: six at minimum. Everything in this article reduces to these three lines. Tomorrow morning, sixty minutes after sunrise, one room, fifteen minutes. The camera is the traveler's eye. The room that eye sees for the first time — you can see it once again today.</p>
+
+<div class="note">This article is intended for sharing ideas. Times of day and compositions are practical guidelines; the optimum shifts with the room's shape and orientation. For the photos you publish, check each booking site's and platform's terms (size, count, handling of editing).</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — the selection principles of what to shoot</li>
+<li><a href="#booking-listing-basics">Being Chosen on Booking.com: Listing Optimisation Basics</a> — where the photos live</li>
+<li><a href="#instagram-cold-start">Hotel Instagram: The Zero-to-Ten Post Plan for Starting Now</a> — the place where photos keep flowing</li>
+<li><a href="#idea-one-day-photo-story">Tell One Day at An inn with Photos - Ideas for Taking Photos of One Day Conveyed Even with Few Words</a> — shooting beyond the guest room</li>
+</ul>17:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1b"}}]}]
+1c:Tefa,<p>“获得预订的照片”和“没有获得预订的照片”之间的区别<strong>两点：“构图和光线”</strong>总结为这篇文章是一篇基础文章，整理了在自己公司拍摄客房照片的实用要点。 （“拍什么”的选择原则分为文章和“90%照片”。）</p>
+<h2>1.光线——早上面向窗户拍照。</h2>
+<ul>
+<li><strong>日出后60-90分钟</strong>是黄金时间（光线柔和，影子长）。</li>
+<li>将照片对准窗户，让自然光以一定角度进入房间。</li>
+<li><strong>关掉顶灯</strong>（只有室内照明才能使房间看起来平坦）。</li>
+</ul>
+<h2>2. 构图——对角线、水平线、边距</h2>
+<ul>
+<li><strong>从房间的对角线（角落）</strong>在广教拍照。</li>
+<li>保持地平线水平（墙壁和床不倾斜）。</li>
+<li>绘画<strong>1/3作为保证金</strong>（景色、天空、墙壁）。</li>
+</ul>
+<h2>3.拍摄前造型（5分）</h2>
+<ol>
+<li>整理床铺（抚平床单上的皱纹）。</li>
+<li>取出个人物品和清洁用品。</li>
+<li>完全打开窗帘（让光线进来）。</li>
+<li>只有一盏立灯亮起（暖光）。</li>
+<li>打开浴室门并将其照亮。</li>
+</ol>
+<h2>4. 至少 6 个镜头的列表</h2>
+<ol start="6">
+<li>第一张照片（房间的角落和晨光）。</li>
+<li>床的特写（纹理）。</li>
+<li>浴室（明亮）。</li>
+<li>查看（从窗口看到的东西）。</li>
+<li>办公桌/工作空间。</li>
+<li>1 个细节（便利设施/艺术/材料）。</li>
+</ol>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>与五年前相比，客人对“如何拍摄客房照片-构图和光线”的期望发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>住宿运营的举措提升的不只是单个旅馆，也包括整个地区的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>2分</b><span>构图/光线</span></div><div class="stat"><b>6 件</b><span>最差镜头列表</span></div><div class="stat"><b>早晨</b><span>拍摄时间</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>照片是<strong>不是“记录”而是“卖房的工具”</strong>。只有当您同时掌握了“拍什么”（选择）和“如何拍摄”（本文）时，您才能获得“可以预订的照片”。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：在黄金时段尝试一间房间</li>
+<li>第二周：用 6 张照片列表拍摄所有房间</li>
+<li>第三周：在公司网站上列出/反映</li>
+<li>季节性：更新款式以适应季节</li>
+</ul>18:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$1c"}}]}]
+19:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L15","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L15","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L15","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+1a:["$","div",null,{"className":"pager","children":[["$","$L15",null,{"href":"/journal/articles/review-management-3-numbers","children":["- ",["$","span",null,{"className":"ja-only","children":"レビュー運営 — 「スコア・件数・新しさ」の基本"}],["$","span",null,{"className":"en-only","children":"Review Management: The Basics of Score, Count, and Recency"}],["$","span",null,{"className":"zh-only","children":"评论管理——“分数、数量、新鲜度”的基础"}]]}],["$","$L15",null,{"href":"/journal/articles/pricing-fundamentals","children":[["$","span",null,{"className":"ja-only","children":"部屋単価の決め方 — プライシングの基礎"}],["$","span",null,{"className":"en-only","children":"How to Set Room Rates: Pricing Fundamentals"}],["$","span",null,{"className":"zh-only","children":"如何确定房间的单价 — 定价基础知识"}]," -"]}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
 d:[["$","title","0",{"children":"客室の写真の撮り方 — 構図と光の2点 | InnBuddy JOURNAL | InnBuddy"}],["$","meta","1",{"name":"description","content":"「予約が入る写真」と「入らない写真」の違いは、構図と光の2点に集約されます。日の出後60〜90分の朝光、部屋の対角から水平的に、余白は眺望に。実践の前に知ってほしいのは、カメラは一度も泊まったことのないゲストの目の代わりだ、ということ。撮ることは、部屋の診断でもあります。"}],["$","meta","2",{"name":"robots","content":"index, follow"}]]

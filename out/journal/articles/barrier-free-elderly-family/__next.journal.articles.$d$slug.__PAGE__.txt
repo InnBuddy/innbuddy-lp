@@ -1,15 +1,161 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_barrier-free-elderly-family.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T1ff9,<p>「バリアフリー対応にはお金がかかる」。この一言で思考が止まる宿を多く見ます。確かに、客室の改修やエレベーターの新設は、小さな宿には現実的でない費用です。しかし、バリアフリーの本質は設備ではなく、<strong>流れの設計</strong>です。表示を明確にし、段差を減らし、スタッフが一歩添えられる動線を作る。設備を変えなくても、高齢者にも、障がい者にも、ファミリーにも動ける宿になる。そして今、この考え方は倫理の話だけではなく、法律として線が引かれています。</p><h2>法律の線 — 「断れない」ものと「先に伝える」もの</h2><p>旅館業法は、1948年の制定以来、宿泊を求める人を原則断ってはならないと定めてきました。令和5年12月13日に施行された改正では、カスタマーハラスメントへの対応として「特定要求行為」(不当な割引や謝罪の繰り返し要求など)を拒める事由が追加された一方で、線の引き方が明確になりました。<strong>「社会的障壁の除去を求める場合」は、拒否の事由から明確に除外</strong>されたのです。国の資料に並ぶのは、車いす利用者がベッドへの移乗の介助を求めること、フロントで筆談での対応を求めること、視覚に障害のある方が部屋までの誘導を求めること、医療的な介助が必要な重度障害者・車いす利用者の宿泊そのもの。つまり、これらへの対応を「過重な要求」として断る道は、法律上ない。この線を知った上で、宿がすべきことが見えてきます。断るか受けるかの前に、<strong>事前に正しく伝える</strong>——到着前のメールとListingで、できることとできないことを正直に書く。準備は宿だけの仕事ではなく、ゲストとの共同作業になるからです。</p><div class="stats"><span class="tag">FACT</span><strong>旅館業法は原則として宿泊拒否を禁じており、令和5年12月13日施行の改正では、「社会的障壁の除去を求める場合」(車いす利用者のベッド移乗の介助、筆談での対応、視覚障害者の誘導、補助犬の同伴、医療的介助が必要な重度障害者・車いす利用者の宿泊など)は宿泊拒否の事由から明確に除外された(厚生労働省・政府広報)</strong> — バリアフリー対応は善意の領域ではなく、法の線の上にある。</div><h2>3つのセグメントと、それぞれの一手</h2><ul><li><strong>高齢者 — 転倒防止と休憩</strong> — 滑り止め、夜間の足元灯、手すり。そして「途中に椅子がある」こと。長い廊下の真ん中の一脚は、改修より安く、案内図より確かな休憩ポイントです。</li><li><strong>障がい者 — 幅・移乗・情報</strong> — 車いすが通れる廊下の幅、ベッドやトイレへの移乗の高さ、対応トイレの有無。そして情報の届き方——緊急時の連絡方法(振動やランプ)、筆談の用意。物理の障壁と情報の障壁は、別の仕事です。</li><li><strong>ファミリー — 子どもの安全</strong> — コンセントカバー、湯沸かしポットの置き場所、バルコニーの鍵。加えてエキストラベッドやベビーベッド。ファミリーのバリアは、実は最も見つけやすい——しゃがんで部屋を見渡せば、見えます。</li></ul><h2>流れの設計 — 表示・段差・「一歩」</h2><p>設備に頼らない3つの手を並べます。①<strong>表示を明確に</strong>——どこに何があるかが、すぐ分かる(多言語サインの最低ラインの記事と共通の仕事です)。②<strong>段差を減らす</strong>——曲がり角にスロープ、敷居の見える化、荷物を持った人にも分かる動線。③<strong>スタッフが「一歩」添えられる動線</strong>——受付から客室まで、車いすやベビーカーと並んで歩けるか。一歩添えるのは介助ではなく、安心の供給です。もう一つ、到着前メールの力を忘れないでください。「エレベーターはありません(2階です)」「対応トイレは1号室のみ」「車いすは1台までお預かりできます」。この正直な3行があるだけで、ゲストは自分の旅を自分で設計できます。</p><h2>Listingに正直に書く — できないことは、できない理由ごと</h2><p>できること・できないことを正直に書く理由は、法律の線の話と表裏一体です。断れないものなら、なおさら事前に伝える。書き方の型は「できない事実+できる代替」。「エレベーターはありません(2階です)。荷物はスタッフがお運びします」「対応トイレは1号室のみです。他のお部屋をご希望の場合は、最寄りの多目的トイレ(徒歩1分)をご案内できます」。そして写真——廊下の幅、手すりの位置、対応トイレの中まで。写真は、文章より先に信じられます。</p><h2>バリアフリーの反対側</h2><ul><li><strong>「対応できます」の根拠</strong> — 書くのは、実際に受けたことのある対応だけ。受けたことのない車いす対応を「対応可」と書いた宿の最初の宿泊が、そのまま失敗になります。受け皿を作ってから書く。</li><li><strong>介助と医療の線</strong> — 移乗の介助は宿の一手になり得ますが、痰の吸引や経管栄養などの医療行為は、資格を持つ人の領域です。線の確認と、近医・在宅支援との連絡先の用意を。</li><li><strong>スタッフの身体</strong> — 移乗介助は、腰を壊す仕事でもあります。介助の方法を学ぶ(講習会、地域の福祉施設への相談)ことは、ゲストのためだけでなくスタッフの安全のためです。</li><li><strong>高齢者の多様性</strong> — 「高齢者対応」を手すりと疑わないこと。山を歩いて来る75歳も、手すりを必要としない80歳もいる。対応は属性でなく、聞いた人が基準です。</li><li><strong>全面改修の幻想</strong> — 全館バリアフリー化を夢見て何もしないより、1か所の段差をなくし、1枚の正直な写真を掲げる方が、今日のゲストに届きます。</li><li><strong>補助犬</strong> — 盲導犬・介助犬の同伴は、別の法律(身体障害者補助犬法)で受け入れが定められています。受け入れの際の食事場所等も、あわせて決めておく。</li></ul><p>法の線は「断るな」ではなく「備えよ」と読むのが正しいと思います。備えの最小単位は、今日、宿の入り口から客室までを車いすの幅で一度歩いてみること。通れない場所が見えたら、それが最初の仕事です。設備は後にしても、流れの設計は、今夜から始められます。</p><div class="note">この記事はアイデア共有を目的としています。法令の説明は概要の紹介であり、実際の対応は厚生労働省の通知・パンフレットおよび自治体の指導をご確認ください。</div><h2>次に読む</h2><ul><li><a href="#multilingual-signage-minimum">多言語サイン・表示 — 「これで十分」の最低ライン</a> — 分かりやすさの共通の土台の話</li><li><a href="#service-standard-basics">サービスの基本 — 人による差をつけない「標準」</a> — 介助を型にする話</li><li><a href="#stay-purpose-demand">旅の目的別の宿選び — ビジネス・レジャー・行事で変わる需要</a> — セグメントの別の切り口の話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 到着直後の安心の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","022"]}]]}],["$","h1",null,{"children":"高齢者・障がい者・ファミリー — バリアフリー対応の基本"}],["$","p",null,{"className":"excerpt","children":"バリアフリーは「設備投資」ではなく「流れの設計」です。そして法律の側にも線が引かれています——令和5年12月施行の改正旅館業法は、車いす利用者の移乗介助や筆談・誘導といった「社会的障壁の除去」を求める場合は宿泊拒否の事由から明確に除外しました。3つのセグメントと、正直なListingの書き方までを整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_barrier-free-elderly-family.jpg","alt":"高齢者・障がい者・ファミリー — バリアフリー対応の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.06.15"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/multilingual-signage-minimum","children":["← ","多言語サイン・表示 — 「これで十分」の最低ライン"]}],["$","$L2",null,{"href":"/journal/articles/inbound-reviews-reading","children":["インバウンドレビュー — 英語レビューの読み方と返信の基本"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1ff9,<p>「バリアフリー対応にはお金がかかる」。この一言で思考が止まる宿を多く見ます。確かに、客室の改修やエレベーターの新設は、小さな宿には現実的でない費用です。しかし、バリアフリーの本質は設備ではなく、<strong>流れの設計</strong>です。表示を明確にし、段差を減らし、スタッフが一歩添えられる動線を作る。設備を変えなくても、高齢者にも、障がい者にも、ファミリーにも動ける宿になる。そして今、この考え方は倫理の話だけではなく、法律として線が引かれています。</p><h2>法律の線 — 「断れない」ものと「先に伝える」もの</h2><p>旅館業法は、1948年の制定以来、宿泊を求める人を原則断ってはならないと定めてきました。令和5年12月13日に施行された改正では、カスタマーハラスメントへの対応として「特定要求行為」(不当な割引や謝罪の繰り返し要求など)を拒める事由が追加された一方で、線の引き方が明確になりました。<strong>「社会的障壁の除去を求める場合」は、拒否の事由から明確に除外</strong>されたのです。国の資料に並ぶのは、車いす利用者がベッドへの移乗の介助を求めること、フロントで筆談での対応を求めること、視覚に障害のある方が部屋までの誘導を求めること、医療的な介助が必要な重度障害者・車いす利用者の宿泊そのもの。つまり、これらへの対応を「過重な要求」として断る道は、法律上ない。この線を知った上で、宿がすべきことが見えてきます。断るか受けるかの前に、<strong>事前に正しく伝える</strong>——到着前のメールとListingで、できることとできないことを正直に書く。準備は宿だけの仕事ではなく、ゲストとの共同作業になるからです。</p><div class="stats"><span class="tag">FACT</span><strong>旅館業法は原則として宿泊拒否を禁じており、令和5年12月13日施行の改正では、「社会的障壁の除去を求める場合」(車いす利用者のベッド移乗の介助、筆談での対応、視覚障害者の誘導、補助犬の同伴、医療的介助が必要な重度障害者・車いす利用者の宿泊など)は宿泊拒否の事由から明確に除外された(厚生労働省・政府広報)</strong> — バリアフリー対応は善意の領域ではなく、法の線の上にある。</div><h2>3つのセグメントと、それぞれの一手</h2><ul><li><strong>高齢者 — 転倒防止と休憩</strong> — 滑り止め、夜間の足元灯、手すり。そして「途中に椅子がある」こと。長い廊下の真ん中の一脚は、改修より安く、案内図より確かな休憩ポイントです。</li><li><strong>障がい者 — 幅・移乗・情報</strong> — 車いすが通れる廊下の幅、ベッドやトイレへの移乗の高さ、対応トイレの有無。そして情報の届き方——緊急時の連絡方法(振動やランプ)、筆談の用意。物理の障壁と情報の障壁は、別の仕事です。</li><li><strong>ファミリー — 子どもの安全</strong> — コンセントカバー、湯沸かしポットの置き場所、バルコニーの鍵。加えてエキストラベッドやベビーベッド。ファミリーのバリアは、実は最も見つけやすい——しゃがんで部屋を見渡せば、見えます。</li></ul><h2>流れの設計 — 表示・段差・「一歩」</h2><p>設備に頼らない3つの手を並べます。①<strong>表示を明確に</strong>——どこに何があるかが、すぐ分かる(多言語サインの最低ラインの記事と共通の仕事です)。②<strong>段差を減らす</strong>——曲がり角にスロープ、敷居の見える化、荷物を持った人にも分かる動線。③<strong>スタッフが「一歩」添えられる動線</strong>——受付から客室まで、車いすやベビーカーと並んで歩けるか。一歩添えるのは介助ではなく、安心の供給です。もう一つ、到着前メールの力を忘れないでください。「エレベーターはありません(2階です)」「対応トイレは1号室のみ」「車いすは1台までお預かりできます」。この正直な3行があるだけで、ゲストは自分の旅を自分で設計できます。</p><h2>Listingに正直に書く — できないことは、できない理由ごと</h2><p>できること・できないことを正直に書く理由は、法律の線の話と表裏一体です。断れないものなら、なおさら事前に伝える。書き方の型は「できない事実+できる代替」。「エレベーターはありません(2階です)。荷物はスタッフがお運びします」「対応トイレは1号室のみです。他のお部屋をご希望の場合は、最寄りの多目的トイレ(徒歩1分)をご案内できます」。そして写真——廊下の幅、手すりの位置、対応トイレの中まで。写真は、文章より先に信じられます。</p><h2>バリアフリーの反対側</h2><ul><li><strong>「対応できます」の根拠</strong> — 書くのは、実際に受けたことのある対応だけ。受けたことのない車いす対応を「対応可」と書いた宿の最初の宿泊が、そのまま失敗になります。受け皿を作ってから書く。</li><li><strong>介助と医療の線</strong> — 移乗の介助は宿の一手になり得ますが、痰の吸引や経管栄養などの医療行為は、資格を持つ人の領域です。線の確認と、近医・在宅支援との連絡先の用意を。</li><li><strong>スタッフの身体</strong> — 移乗介助は、腰を壊す仕事でもあります。介助の方法を学ぶ(講習会、地域の福祉施設への相談)ことは、ゲストのためだけでなくスタッフの安全のためです。</li><li><strong>高齢者の多様性</strong> — 「高齢者対応」を手すりと疑わないこと。山を歩いて来る75歳も、手すりを必要としない80歳もいる。対応は属性でなく、聞いた人が基準です。</li><li><strong>全面改修の幻想</strong> — 全館バリアフリー化を夢見て何もしないより、1か所の段差をなくし、1枚の正直な写真を掲げる方が、今日のゲストに届きます。</li><li><strong>補助犬</strong> — 盲導犬・介助犬の同伴は、別の法律(身体障害者補助犬法)で受け入れが定められています。受け入れの際の食事場所等も、あわせて決めておく。</li></ul><p>法の線は「断るな」ではなく「備えよ」と読むのが正しいと思います。備えの最小単位は、今日、宿の入り口から客室までを車いすの幅で一度歩いてみること。通れない場所が見えたら、それが最初の仕事です。設備は後にしても、流れの設計は、今夜から始められます。</p><div class="note">この記事はアイデア共有を目的としています。法令の説明は概要の紹介であり、実際の対応は厚生労働省の通知・パンフレットおよび自治体の指導をご確認ください。</div><h2>次に読む</h2><ul><li><a href="#multilingual-signage-minimum">多言語サイン・表示 — 「これで十分」の最低ライン</a> — 分かりやすさの共通の土台の話</li><li><a href="#service-standard-basics">サービスの基本 — 人による差をつけない「標準」</a> — 介助を型にする話</li><li><a href="#stay-purpose-demand">旅の目的別の宿選び — ビジネス・レジャー・行事で変わる需要</a> — セグメントの別の切り口の話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 到着直後の安心の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"022"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"高齢者・障がい者・ファミリー — バリアフリー対応の基本"}],["$","span",null,{"className":"en-only","children":"Barrier-Free Basics for the Elderly, the Disabled, and Families"}],["$","span",null,{"className":"zh-only","children":"老年人、残疾人和家庭——无障碍支持的基础"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"バリアフリーは「設備投資」ではなく「流れの設計」です。そして法律の側にも線が引かれています——令和5年12月施行の改正旅館業法は、車いす利用者の移乗介助や筆談・誘導といった「社会的障壁の除去」を求める場合は宿泊拒否の事由から明確に除外しました。3つのセグメントと、正直なListingの書き方までを整理しました。"}],["$","span",null,{"className":"en-only","children":"Barrier-free is not \"capital investment\" but \"the design of flow.\" And the law has drawn its line — the Ryokan Business Act revision effective December 2023 explicitly excluded requests to remove social barriers, such as transfer assistance for wheelchair users or written communication and guided escort, from the grounds for refusing accommodation. The three segments, down to how to write an honest listing."}],["$","span",null,{"className":"zh-only","children":"无障碍不是“设备”而是“流程设计”。介绍这 3 个细分市场及其响应优先级的基础文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_barrier-free-elderly-family.jpg","alt":"高齢者・障がい者・ファミリー — バリアフリー対応の基本"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.06.15"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1ee6,<p>"Barrier-free costs money." Many inns stop thinking at that one line. True enough — renovating rooms or adding an elevator is not a realistic expense for a small inn. But the essence of barrier-free is not equipment; it is <strong>the design of flow</strong>. Make the signage clear, reduce the steps, build routes where a staff member can walk one step alongside. Without changing equipment, an inn becomes one where the elderly, the disabled, and families can all move. And today, this way of thinking is drawn as a line in law, not only in ethics.</p>
+
+<h2>The line of the law — what cannot be refused, and what to tell in advance</h2>
+
+<p>Since its enactment in 1948, the Ryokan Business Act has provided that a person seeking lodging must not, in principle, be turned away. The revision that took effect on December 13, 2023 — a response to customer harassment — added "specified demanding acts" (unreasonable demands for discounts, repeated demands for apologies, and the like) to the grounds for refusal, while at the same time making the drawing of the line explicit: <strong>"requests to remove social barriers" were clearly excluded from the grounds for refusal.</strong> What the government's materials list are: a wheelchair user asking for assistance transferring to the bed; a guest asking for written communication at the front desk; a guest with a visual impairment asking to be guided to the room; and the lodging itself of severely disabled guests and wheelchair users who need medical assistance. In other words, there is no path in law for refusing these as "excessive demands." With this line known, what the inn should do comes into view. Before the choice of refusing or accepting, <strong>tell correctly, in advance</strong> — in the pre-arrival email and the listing, write honestly what you can and cannot do. Preparation is not the inn's work alone; it becomes joint work with the guest.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>The Ryokan Business Act in principle prohibits refusing accommodation, and the revision effective December 13, 2023 explicitly excluded "requests to remove social barriers" (assistance with bed transfers for wheelchair users, written communication, guiding of visually impaired guests, accompaniment by assistance dogs, and the lodging of severely disabled guests and wheelchair users requiring medical assistance) from the grounds for refusal (Ministry of Health, Labour and Welfare / government publicity)</strong> — Barrier-free response is not a domain of goodwill; it stands on the line drawn by law.</div>
+
+<h2>The three segments, and one move for each</h2>
+
+<ul>
+<li><strong>The elderly — fall prevention and rest</strong> — Non-slip surfaces, night lighting at the feet, grab bars. And "a chair along the way." One chair in the middle of a long corridor is a rest point cheaper than a renovation and more certain than a floor guide.</li>
+<li><strong>The disabled — width, transfer, information</strong> — The corridor width a wheelchair can pass, the transfer height to bed and toilet, the presence of an accessible toilet. And how information arrives — how to contact them in an emergency (vibration, a lamp), written communication at the ready. Physical barriers and information barriers are different jobs.</li>
+<li><strong>Families — children’s safety</strong> — Outlet covers, where the kettle sits, the balcony lock. Plus extra beds and cribs. The family's barriers are, in fact, the easiest to find — crouch down and look around the room, and they appear.</li>
+</ul>
+
+<h2>The design of flow — signage, steps, "one step"</h2>
+
+<p>Three moves that do not lean on equipment. (1) <strong>Make the signage clear</strong> — what is where becomes instantly apparent (work shared with the multilingual-signage minimum-line article). (2) <strong>Reduce the steps</strong> — a ramp at the corner, thresholds made visible, routes legible even to someone carrying luggage. (3) <strong>Routes where staff can add "one step"</strong> — from the front desk to the room, can you walk side by side with a wheelchair or a stroller? Adding a step is not assistance; it is the supply of ease. One more thing: do not forget the power of the pre-arrival email. "There is no elevator (the room is on the second floor)." "The accessible toilet is only in Room 1." "We can store one wheelchair." With these honest three lines alone, the guest can design their own trip.</p>
+
+<h2>Writing the listing honestly — what you cannot do, together with why</h2>
+
+<p>The reason to write honestly what you can and cannot do is the flip side of the law's line. If it cannot be refused, all the more reason to say so in advance. The form to write is "the fact you cannot + the alternative you can." "There is no elevator (the room is on the second floor). Our staff will carry your luggage." "The accessible toilet is only in Room 1. If you prefer another room, we can guide you to the nearest multipurpose toilet (a one-minute walk)." And photographs — the corridor's width, the grab bar's position, inside the accessible toilet. Photographs are believed before text.</p>
+
+<h2>The other side of barrier-free</h2>
+
+<ul>
+<li><strong>The basis of "we can accommodate"</strong> — Write only what you have actually handled. An inn that writes "wheelchair accessible" without ever having received a wheelchair guest fails at its very first such stay. Build the receptacle before writing.</li>
+<li><strong>The line between assistance and medicine</strong> — Assisting a transfer can be one of the inn's moves, but medical procedures such as suctioning or tube feeding belong to the qualified. Confirm the line, and keep contacts ready — the nearby clinic, home-care support.</li>
+<li><strong>Staff bodies</strong> — Transfer assistance is also work that breaks backs. Learning how to assist (training courses, consulting local welfare facilities) is for the staff's safety, not only the guest's.</li>
+<li><strong>The diversity of the elderly</strong> — Do not equate "elderly-friendly" with grab bars. There is a 75-year-old who walked the mountains here, and an 80-year-old who needs no rail. The standard is the person you asked, not the attribute.</li>
+<li><strong>The fantasy of full renovation</strong> — Better than dreaming of a fully barrier-free building and doing nothing: removing one step and hanging one honest photograph reaches today's guest.</li>
+<li><strong>Assistance dogs</strong> — The accompaniment of guide dogs and service dogs is covered by a separate law (the Act on Assistance Dogs for Persons with Physical Disabilities). Decide in advance the arrangements for their stay, including where they eat.</li>
+</ul>
+
+<p>The line of the law, I believe, should be read not as "do not refuse" but as "be prepared." The minimum unit of preparation: today, walk once from the entrance to a room at the width of a wheelchair. Wherever it will not pass — that is the first job. The equipment can wait; the design of flow can begin tonight.</p>
+
+<div class="note">This article is intended for sharing ideas. The legal descriptions are an outline; for actual response, check the Ministry of Health, Labour and Welfare's notices and pamphlets and the guidance of your municipality.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#multilingual-signage-minimum">Multilingual Signage: The Just-Enough Minimum Line</a> — the shared foundation of legibility</li>
+<li><a href="#service-standard-basics">Service Basics: The "Standard" That Does Not Vary by Person</a> — turning assistance into a form</li>
+<li><a href="#stay-purpose-demand">Lodging by Travel Purpose: Demand That Changes With Business, Leisure, and Events</a> — another cut on segments</li>
+<li><a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a> — ease of mind right after arrival</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T19c1,<p>无障碍<strong>“流程设计”而不是“设备”</strong>。很多客栈把无障碍住宿视为“资金投入”，认为“无障碍住宿要花钱”。但从不同的角度来看，无障碍是“流程设计”。即使没有新设备，您也可以通过使标志清晰、减少步骤并创建员工可以向前迈出一步的流程来使设施无障碍。本文从流程设计而非设备角度来组织老年人、残疾人、家庭这三个细分市场以及应对的优先顺序。</p>
+
+<h2>1. 老年人、残疾人、家庭三个细分领域和重点</h2>
+<ul>
+<li><strong>老年人——防跌倒（防滑、照明、扶手）、休息点：</strong>老年人无障碍护理最重要的是预防跌倒。三件事很重要：防滑、照明、扶手。提供防滑浴室和走廊、夜间照明以及楼梯和卫生间的扶手。沿途设有休息点（椅子、长凳），让老年人可以安心出行。</li>
+<li><strong>残疾人士 - 轮椅（宽度、转运、兼容厕所），如何接收信息：</strong>对于残疾人来说，最重要的无障碍设施是轮椅住宿。三点很重要：宽度（轮椅可以通过吗？）、转移（可以转移到床上或厕所吗？）、无障碍厕所（有轮椅无障碍厕所吗？）。信息传递方式（针对视力障碍人士的音频指导，针对听力障碍人士的书面指导）也很重要。</li>
+<li><strong>家庭-儿童安全（插座、热水、阳台）、加床：</strong>家庭无障碍最重要的方面是儿童的安全。三样东西很重要：插座、水壶和阳台。我们管理插座盖、热水器位置和阳台钥匙。加床（加床和婴儿床）对于家庭来说也是一个重要的无障碍选择。</li>
+</ul>
+
+<h2>2.流程设计（从设备）——显示、步骤、流程线</h2>
+<ul>
+<li><strong>澄清显示并减少步骤：</strong>无障碍流程设计最重要的方面是清晰的标记和减少台阶。清晰的显示屏让客人知道物品所在位置。减少台阶将使轮椅、婴儿车和老年人更容易走动。展示和台阶都是无障碍的，无需任何资金投入即可完成。</li>
+<li><strong>让员工迈出“一步”的流程：</strong>在设计无障碍流程时，重要的是要创建允许员工向前迈出“一步”的流程线。示例：让工作人员引导您逐步从登记柜台到客房。工作人员一步步走来，让客人感觉可以安心前行。</li>
+<li><strong>首先告诉“什么在哪里”（到达前电子邮件）：</strong>在设计无障碍流程时，首先传达“什么在哪里”非常重要。通过在客人抵达前向他们发送电子邮件，并诚实地告知他们可以做什么和不能做什么，例如“没有电梯（二楼）”或“只有 1 号房间可以使用厕所”，客人会觉得自己可以提前做好准备。</li>
+</ul>
+
+<h2>3. 写在清单中——诚实地说明你能做什么和不能做什么</h2>
+<ul>
+<li><strong>诚实地说明你能做什么和不能做什么——示例：“没有电梯（二楼）”“唯一可用的厕所是 1 号房间”：</strong>在房源中撰写有关无障碍住宿的内容时，请诚实地说明您可以做什么和不能做什么。通过诚实地写下“没有电梯（2楼）”、“只有1号房间有无障碍厕所”、“只能容纳一辆轮椅”等内容，客人将能够了解该房间是否适合自己。</li>
+<li><strong>诚实的陈述可以提高询问的质量：</strong>诚实展示无障碍住宿将提高查询质量。如果你写“能做”一些不能做的事情，客人会不满意并说：“我来这里以为我能做到。”通过诚实地写下您可以做什么和不能做什么，客人可以选择适合他们的住宿。</li>
+<li><strong>用照片传达无障碍住宿：</strong>通过照片传达无障碍住宿也很重要。准备无障碍厕所的照片、轮椅可以通过的走廊宽度、扶手的照片等，并将其发布在房源上。照片可帮助客人直观地了解您的酒店设有残疾人通道。</li>
+</ul>
+
+<div class="stats"><span class="tag">数值示例</span><strong>例如，若施策前的满意度为70%，则提高约28%至90%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — —无障碍不是“设备”而是“流程设计”。通过使标志清晰、减少台阶并创建员工可以向前迈出一步的流线，您可以在不花费大量资金的情况下使建筑物无障碍。判断效果时，请用相同的统计方法记录并比较施策前后30天的目标客群的满意度（点评）与咨询内容。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>无障碍的价值是<strong>“客人可以自己做。”</strong>。通过流动和展示而不是设备的可用性使事情变得“可能”更具成本效益。通过明确标识、减少步骤、打造员工可跟随的流程、在挂牌上如实写下能做什么、不能做什么，通过“流程设计”而不是“资金投入”来实现无障碍住宿。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：分3段绕宿舍走动（我们自己）</strong> — 围绕旅舍走三圈：老人、残疾人、家庭。列出您可能跌倒的地方、轮椅无法通过的地方以及您担心孩子安全的地方。</li>
+<li><strong>第2周：优先维护防跌倒、宽度、陈列</strong> — 优先考虑三点：防跌倒（防滑、照明、扶手）、宽度（轮椅能否通过）、标识（什么在哪里？）。从不需要资本投资就能做什么开始。</li>
+<li><strong>第 3 周：在清单中诚实地写下您可以做什么和不能做什么</strong> — 在房源中诚实地写出无障碍住宿的信息。明确说明您可以做什么和不能做什么，例如“没有电梯（二楼）”和“只有 1 号房间有无障碍厕所。”</li>
+<li><strong>第 4 周：我们将向您发送一封抵达前电子邮件，告诉您什么在哪里。</strong> — 在您抵达之前发送一封电子邮件，告诉他们有关无障碍住宿的信息以及哪里可以提供无障碍住宿。通过诚实地告知自己能做什么和不能做什么，客人可以提前做好准备。</li>
+<li><strong>续：将无障碍设计改进为流程设计</strong> ——不断完善无障碍设计，将其视为“流动设计”而非“设施”。我们将继续使标志更加清晰，减少步骤，并建立流程线，让工作人员能够遵循。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/multilingual-signage-minimum","children":["- ",["$","span",null,{"className":"ja-only","children":"多言語サイン・表示 — 「これで十分」の最低ライン"}],["$","span",null,{"className":"en-only","children":"Multilingual Signage: The Just-Enough Minimum Line"}],["$","span",null,{"className":"zh-only","children":"多语言标志和展示——最低级别的“这就足够了”"}]]}],["$","$L8",null,{"href":"/journal/articles/inbound-reviews-reading","children":[["$","span",null,{"className":"ja-only","children":"インバウンドレビュー — 英語レビューの読み方と返信の基本"}],["$","span",null,{"className":"en-only","children":"Reading Inbound Reviews: How to Read English Reviews and Reply Basics"}],["$","span",null,{"className":"zh-only","children":"入站评论 — 如何阅读和回复英语评论的基础知识"}]," -"]}]]}]
+10:null

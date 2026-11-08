@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-orchard-stay.jpg","image"]
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
-3:T1f7c,<p>果樹園のある宿の王道は、収穫体験です。ですが、その味の根拠を言葉にできる宿は少ないのです。なぜ、果樹園で食べるいちごは、スーパーのいちごより甘いのでしょうか。なぜ、みかんは木の上でしか完熟しないのでしょうか。この記事は、果樹園の体験を、果物の成熟の科学と果樹の一年と、経営の現実から設計します。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1f7c,<p>果樹園のある宿の王道は、収穫体験です。ですが、その味の根拠を言葉にできる宿は少ないのです。なぜ、果樹園で食べるいちごは、スーパーのいちごより甘いのでしょうか。なぜ、みかんは木の上でしか完熟しないのでしょうか。この記事は、果樹園の体験を、果物の成熟の科学と果樹の一年と、経営の現実から設計します。</p>
 
 <h2>1. 科学——果物には、追熟する型としない型があります</h2>
 <div class="stats"><span class="tag">DID YOU KNOW?</span><strong>バナナは収穫後も甘くなる。いちごはならない。</strong> — 果実には、収穫後にエチレンという植物ホルモンを大量に出して熟が進む「クライマクテリック型」（バナナ、桃、りんご、メロン、マンゴー、キウイ、アボカドなど）と、収穫後はもう熟が進まない「非クライマクテリック型」（いちご、みかん、ぶどう、さくらんぼ、スイカなど）がある。追熟する果物は少し青いうちに収穫して輸送できるが、<strong>追熟しない果物は、木の上で完熟させるしかない</strong>——だからこそ、収穫体験のいちごとみかんは、店のものと別物の味がする。木で完熟させることは、糖度を最後まで積み上げることだからである。</div>
@@ -44,10 +109,50 @@ a:"$Sreact.suspense"
 <li><a href="#breakfast-buffet-media">朝食をメディア化するビュッフェ設計</a> — 果物を並べる朝食の舞台</li>
 <li><a href="#idea-farm-one-day">畑の1日を体験する — 朝の収穫・昼の調理・夜の食卓を1日で楽しむアイデア</a> — 畑の1日</li>
 <li><a href="#idea-morning-market-stay">朝市のある宿 — 朝市・軽トラ市・軒先市を宿の朝にするアイデア</a> — 売る朝の設計</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","154"]}]]}],["$","h1",null,{"children":"果樹園のある宿 — 果樹園・収穫・ジャム作りのアイデア"}],["$","p",null,{"className":"excerpt","children":"いちごとみかんは、摘んだ後で甘くなりません——この事実が、果樹園の収穫体験の味の根拠です。追熟する果物としない果物の科学、剪定から開花・受粉・収穫までの一年、全国156億円の鳥獣被害という現実まで。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-orchard-stay.jpg","alt":"果樹園のある宿 — 果樹園・収穫・ジャム作りのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.01.03"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]]}]]}],["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-tea-field-stay","children":["← ","茶畑のある宿 — 茶摘み・茶揉み・茶の香りを体験にするアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-pasture-landscape","children":["牧場のある風景 — 牧場・乳搾り・チーズ作りのアイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"154"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"果樹園のある宿 — 果樹園・収穫・ジャム作りのアイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Orchard - Ideas for Orchard, Harvest, Jam Making"}],["$","span",null,{"className":"zh-only","children":"果园住宿 — 果园、采摘和果酱制作的创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"いちごとみかんは、摘んだ後で甘くなりません——この事実が、果樹園の収穫体験の味の根拠です。追熟する果物としない果物の科学、剪定から開花・受粉・収穫までの一年、全国156億円の鳥獣被害という現実まで。"}],["$","span",null,{"className":"en-only","children":"Strawberries and mandarins do not get sweeter after they are picked — this fact is the basis for the taste of an orchard harvest experience. The science of fruits that ripen after harvest and those that do not, the year from pruning through flowering, pollination, and harvest, and the reality of 15.6 billion yen in wildlife damage nationwide."}],["$","span",null,{"className":"zh-only","children":"一年的果园、收获、果酱制作和水果。我们收集了一些享受果园生活的小创意，以及丰富您在旅馆的时光的小贴士。果园经典创意合集。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-orchard-stay.jpg","alt":"果樹園のある宿 — 果樹園・収穫・ジャム作りのアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.01.03"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T214b,<p>The classic offering of an inn with an orchard is the harvest experience. Yet few inns can put the basis for its taste into words. Why does a strawberry eaten in the orchard taste sweeter than a supermarket strawberry? Why does a mandarin fully ripen only on the tree? This article designs the orchard experience from the science of fruit ripening, the year of the fruit tree, and the realities of running an orchard.</p>
+
+<h2>1. Science — some fruits ripen after harvest, and some do not</h2>
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>Bananas get sweeter after harvest. Strawberries do not.</strong> — Fruits come in a “climacteric” type, which releases large amounts of the plant hormone ethylene after harvest and keeps ripening (bananas, peaches, apples, melons, mangoes, kiwifruit, avocados, and others), and a “non-climacteric” type, which no longer ripens after harvest (strawberries, mandarins, grapes, cherries, watermelons, and others). Fruits that ripen after harvest can be picked while slightly green and shipped, but <strong>fruits that do not ripen after harvest can only be fully ripened on the tree</strong> — which is exactly why strawberries and mandarins from a harvest experience taste like something entirely different from those in a shop. Ripening on the tree means building up sugar right to the very end.</div>
+<p>This science can be used as it is in the guidance text for the experience. “We pick our mandarins only after they have fully ripened on the tree. If we pick too late, they drop, so there are only a few days that are just right” — the “only now” nature of a harvest experience is not sentiment but the physiology of the fruit. In terms of the senses, the very process of searching for ripeness by color, scent, and feel (the tautness of the skin) becomes a teaching tool for the five senses. A child’s fruit hunt (the treasure hunt of the original theme) is also practice in judging color.</p>
+
+<h2>2. The year — fruit trees are a crop of waiting</h2>
+<p>While vegetables reach harvest in a few months, fruit trees are “perennial crops.” The tree lives on a scale of years, and the fruit comes once a year. That year runs from winter <strong>pruning</strong> (cutting back branches to design how fruit sets and how air flows — pruned branches make good fuel for a bonfire, as covered in <a href="#idea-fire-circle-night">Night Surrounding Fire - Ideas for Gathering Night with Bonfire, Irori, Wood Stove</a>) → spring <strong>flowering</strong> → <strong>pollination</strong> by honeybees or by hand → summer growth → autumn <strong>harvest</strong> → days of protecting the fruit from birds and animals with bags and nets. The annual calendar of an orchard inn holds not only the autumn of fruit but also the spring of blossoms (plum, peach, cherry, apple — flowering lasts only a few days, the rarest season of all) and the winter of pruning (the season to show and try the work). An inn that sells four months of four seasons uses the orchard’s assets twice as well as an inn that sells a single month of harvest.</p>
+
+<h2>3. Reality — an orchard is a fight against birds and wildlife</h2>
+<div class="stats"><span class="tag">FACT</span><strong>Wildlife damage: 15.6 billion yen a year</strong> — According to figures compiled by the Ministry of Agriculture, Forestry and Fisheries, crop damage caused by wild birds and animals came to 15.6 billion yen in fiscal 2022 (Reiwa 4). About 70% of it was caused by deer, wild boar, and monkeys (deer about 6.5 billion yen, wild boar about 3.6 billion yen), and damage by crows also reached about 1.3 billion yen. Fruit trees are a crop that keeps sugar-laden fruit outdoors for a long time, which makes them an easy target for birds and animals. Bagging the mandarins in an orchard and the bird nets over a vineyard are not decorations to protect flavor but equipment in the fight against damage.</div>
+<p>Writing this reality into the guidance is not a minus but a source of trust. The single line “We grow our pears with a bag over each one” is proof of the effort. In designing the experience, also tell guests entering the orchard in advance that it is not an orchard where they may “pick anything freely” (guiding them to the plots that are ready to eat, leaving bags and nets as they are, and so on). Show the measures against wildlife (electric fences, nets, dogs) honestly, too — the real picture of modern farming is a highlight of the experience.</p>
+
+<h2>4. In practice — from the harvest to the table and the jar</h2>
+<ul>
+<li><strong>One fruit eaten on the spot</strong> — The core of a harvest experience is not the box taken home but the one fruit eaten in the field. Check with the orchard which items are safe, and teach how to tell ripeness (color, scent, feel) at the very start.</li>
+<li><strong>Jam making</strong> — A process that completes a day from harvest to bottling (the orchard version of <a href="#idea-farm-one-day">Experience One Day in Field - Ideas for Enjoying Morning Harvest, Daytime Cooking, Evening Table in One Day</a>). If the inn “makes and sells” jam, there is a line of business licenses and notifications (as covered in <a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a>, consulting the public health center comes first). Draw the line between a home-style experience and sales at the very beginning.</li>
+<li><strong>Events for the blossom season</strong> — The few days of flowering are the inn’s “week of full bloom,” which comes only a few times a year. Promotion that follows the flowering forecast can be done in the same grammar as for famous cherry-blossom spots.</li>
+<li><strong>Watching and trying pruning</strong> — The winter orchard is the season when the blueprint of the branches is in full view. Fifteen minutes standing next to a farmer as they prune teaches the orchard’s year better than anything.</li>
+</ul>
+
+<h2>5. Safety and hygiene — what it means to eat in the field</h2>
+<ul>
+<li><strong>Checks before eating</strong> — Even freshly picked fruit should, as a rule, be washed with water before eating. Even in fields that follow the standards for pesticide spraying, there may be dust or insects.</li>
+<li><strong>High branches and stepladders</strong> — Work at height is for inn staff. Guide guests to what they can reach from the ground. Do not eat fallen fruit (it spoils quickly).</li>
+<li><strong>Bees and insects</strong> — Bees come to orchards in the flowering and harvest seasons. Add a word at the experience reception asking whether guests have a bee allergy.</li>
+<li><strong>Designing all-you-can-eat</strong> — When selling “all-you-can-eat,” set the limit honestly by the orchard’s yield and the length of the ripe period. Over-promising guidance breaks the orchard’s year.</li>
+</ul>
+<div class="note"><span class="tag">InnBuddy VIEW</span>What an orchard inn sells is not fruit but <strong>“the few days of full ripeness”</strong>. The sugar of fruits that do not ripen after harvest, which can only be built up on the tree — can the inn match its guest rooms and its table to those few days? The design of an orchard inn begins by writing the orchard’s calendar and the inn’s occupancy on the same single sheet of paper.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling farmland or fields, do so on the premise of consultation with the farmer or owner.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#farm-to-table-harvest">Direct from Field: Agri x Food Harvest Experience and Story of a Plate</a> — designing the way from harvest to the table</li>
+<li><a href="#breakfast-buffet-media">Turning Breakfast Into Media: Buffet Design</a> — a breakfast stage for laying out fruit</li>
+<li><a href="#idea-farm-one-day">Experience One Day in Field - Ideas for Enjoying Morning Harvest, Daytime Cooking, Evening Table in One Day</a> — a day in the field</li>
+<li><a href="#idea-morning-market-stay">An inn with Morning Market - Ideas for Making Morning Market, Light Truck Market, Eaves Market into Morning at Inn</a> — designing a morning of selling</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T111e,<p>本文分享一些可供尝试的想法。住在果园里，可以在一家旅馆体验采摘，在另一家旅馆制作果酱，在另一家旅馆为孩子们提供采摘水果的场所。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>果园的四个季节，收获的喜悦，果酱的香气，水果的年份。与果园一起生活，是可以体验里山一年四季生活的生活。我们收集了一些有关果园旅馆的小创意，以帮助您享受在旅馆的时光。</p><h2>果园住宿创意集</h2><ul><li><strong>果园采摘体验</strong> — 让在果园采摘水果成为一次小经历。采摘蓝莓、柑橘、柠檬等时令水果的经历将留在孩子们的记忆中。一家旅馆将果园采摘体验介绍为“果园采摘”，并建议您在现场享受采摘的水果。</li><li><strong>果酱制作体验</strong> — 用你收获的水果制作果酱，成为一种小体验。利用果园的水果制作蓝莓果酱、橘子果酱、柠檬果酱等果酱体验，让您感受从果园到餐桌的故事。一家旅馆将制作果酱的体验介绍为“果园果酱制作”，游客可以将制作的果酱作为纪念品。</li><li><strong>享受果园四个季节的地方</strong> — 在可以观赏果园四季美景的地方放置长凳和椅子，介绍果园是一个欣赏四季的地方。果园的每个季节都有不同的美景：春天的花朵、夏天的蓝色果实、秋天的收获、冬天的雪景。一间旅馆将果园的四个季节介绍为“果园的四个季节”。</li><li><strong>传递果园里的一年</strong> — 使用小板和小册子介绍果园的这一年。果园的故事是通过介绍果园里的年份来讲述的：什么时候花开，什么时候果实成熟，什么时候收获果实。在一家旅馆，果园里的一年被印成一本名为《果园里的一年》的小册子，放在客房里。</li><li><strong>和孩子一起寻找水果</strong> — 将果园水果寻宝变成适合儿童的体验。在果园里寻找水果的宝藏对于孩子们来说将是难忘的。一家旅馆在果园组织了一场“水果寻宝”活动，并讲述了他们发现的水果的故事。</li></ul><h2>海外住宿案例——果园住宿的想法</h2><p>与果园一起生活是澳大利亚乡村旅馆生活的一部分。一起体验采摘和制作果酱，在果园度过一年。住在果园周围是这家旅馆如此吸引人的原因。即使是日本的里山旅馆，或许也能通过介绍果园的生活来传达里山一年的故事。</p><p>住在有果园的旅馆里是什么感觉？从收获体验开始怎么样？</p><h2>从小果园开始的提示</h2><p>即使您没有整个果园，您也可以从几棵果树开始。在一家旅馆，我们首先在花园里种植了三棵蓝莓树，并组织了一次采摘体验。即使在很小的果园里，你也能感受到果园的生活。</p><p>如果您入住的是带果园的旅馆，何不从讲述果园里的年度故事开始呢？可以制作一本写有果园一年的小册子并将其放置在客房中，讲述果园的故事。</p><div class="stats"><span class="tag">参考示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约30%的数字仅为趋势示意，并不保证效果）。</strong> — 介绍果园生活可能会引发关于果园的故事。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。请尽可能享受果园内的活动，并注意安全和卫生。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>计划一次果园收获体验</strong> — 体验采摘蓝莓、柑橘等时令水果</li><li><strong>计划一次果酱制作体验</strong> — 体验用收获的水果制作果酱并把果酱作为纪念品</li><li><strong>创造一个享受果园四个季节的地方</strong> — 在可以看到美丽的四个季节的地方放置一张长凳，并将其介绍为果园的四个季节。</li><li><strong>小册子里的果园一年</strong> — 花朵何时绽放、果实何时成熟、何时收获的故事。</li><li><strong>为孩子们组织一次水果狩猎活动</strong> — 果园水果寻宝</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","regional-experience-program",{"href":"/journal/articles/regional-experience-program","children":[["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}]]}]]}],["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-tea-field-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"茶畑のある宿 — 茶摘み・茶揉み・茶の香りを体験にするアイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Tea Field - Ideas for Making Tea Picking, Rolling, Aroma into Experience"}],["$","span",null,{"className":"zh-only","children":"茶园旅馆——采茶、滚茶、茶香体验创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-pasture-landscape","children":[["$","span",null,{"className":"ja-only","children":"牧場のある風景 — 牧場・乳搾り・チーズ作りのアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Pasture - Ideas for Pasture, Milking, Cheese Making"}],["$","span",null,{"className":"zh-only","children":"农场风景 — 农场、挤奶和奶酪制作的创意"}]," -"]}]]}]
+10:null

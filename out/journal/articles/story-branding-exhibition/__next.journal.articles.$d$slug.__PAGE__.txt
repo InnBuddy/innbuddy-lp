@@ -1,15 +1,178 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_hero-story-gallery.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T191f,<p>予約サイトのリスト画面でも展示会でも、ゲストはまず「スペック」を比較します——価格・立地・部屋数・設備。そしてそこで価格競争が始まる。<strong>ストーリーは、比較表に載せられない唯一の次元</strong>です。1,500円の差を「払う価値のある差」に変換する——それが「物語で選ばれる宿」の仕組みです。ただし本記事の本題は、そのストーリーを「本物だと証明する」仕組みの方にあります。日本には、それを800年前から続けてきた道具があるからです。</p><h2>箱書きの思想 — 日本はストーリーの証明を発明している</h2><p>茶の湯の世界では、道具の価値は道具単体では完結しません。桐の箱に書かれた<strong>「箱書き」</strong>——<strong>誰が、いつ、誰の目利きで本物と認めたか</strong>——が道具の信用を支えてきました。名のある道具には「折紙」と呼ばれる鑑定の記録が付き、箱とともに何代も受け継がれます。これは何か。ストーリーの証明システムそのものです。「何が守られているか」を、第三者の認証として書き残す仕組み——そして旅館の床の間、大広間の扁額、廊下の掛け軸は、宿の物語を建物の中に展示する、この国の宿が昔から持っていた装置です。</p><h2>ストーリーの4要素</h2><p>人を動かすストーリーの構造は、常に4つの要素に分解できます。</p><ol><li><strong>誰が</strong> — この宿を誰がやっているのか(人・家族・チーム)</li><li><strong>なぜ</strong> — この宿が存在する理由</li><li><strong>何が守られているか</strong> — 受け継がれている地域・職人技・暮らし</li><li><strong>何が届くのか</strong> — ゲストが受け取る体験</li></ol><p>4つが揃ったストーリーは「信頼」になり、1つでも欠けたストーリーは「スローガン」に留まります。中で最難関は3番目です。「誰が」「なぜ」は経営者へのインタビューで必ず出てくる。しかし「何が守られているか」は、この宿に前から確かに存在して、失うと困るものを指すからです。箱書きが書いていたのは、まさにこの3番目の行でした。</p><h2>「ワンソースストーリー」と3つの翻訳版</h2><p>ストーリーは<strong>一度だけ</strong>書いて、3つの版に翻訳します。</p><ul><li><strong>30秒版</strong> — 予約サイトの紹介文、フロントの自己紹介、話の冒頭に。</li><li><strong>3分版</strong> — 展示会のブース、取材、ウェブサイトの「宿について」に。</li><li><strong>10分版</strong> — じっくりしたメディア取材、法人向けの提案に。</li></ul><p>ワンソースの価値は、ストーリーが媒体間でブレず、語られるたびに「厚み」が出ていくこと——レビュー・写真・記事が本編を裏付け始めます。</p><h2>ストーリーを「展示」する場所</h2><ul><li><strong>予約サイトのリスト</strong> — 30秒版+証拠(写真・レビューの引用)。</li><li><strong>展示会のブース</strong> — 3分版+シンボル画像を1枚に絞る。</li><li><strong>プレス資料</strong> — 10分版+数字の箱(沿革・実績・引用)。</li><li><strong>客室内</strong> — 30秒版を1枚のカードに印刷する。「撮られるカード」です。</li></ul><p>客室のカードは、いわば現代の箱書きです。置き場所の考え方も床の間から学べます——一番目立つ場所ではなく、<strong>一番落ち着く場所</strong>。目に入るたびに読みたくなる位置に、1枚だけ。</p><h2>反対側 — 物語が宿を疲れさせるとき</h2><ul><li><strong>外注の物語は一貫性が切れる</strong> — 4要素は経営者自身の言葉から採ります。作り手が外部の物語は、現場のひとことと矛盾した瞬間に崩れます。</li><li><strong>同じ話を10年</strong> — 守るものが増えた・変わったことは、宿が生きている証拠です。代が替わったら「なぜ」の行を書き直す。更新されない物語は、やがて飾りになります。</li><li><strong>展示の過剰</strong> — すべてに物語を付けると、宿は資料室になります。展示は4か所で十分です。</li><li><strong>3番目の行が空欄ならスローガン</strong> — 「何が守られているか」に「〜の心」しか書けないなら、まだ物語は見つかっていません。倉庫と古い写真と土地の記録を見に行くところから始まります。</li><li><strong>ストーリーはスペックの免罪符ではない</strong> — 比較されない次元で勝っても、比較される次元(清掃・設備・価格の妥当性)で負けては意味がありません。</li></ul><p>最初の一歩は、今夜、自分の宿の「箱書き」を書くことです——4行(誰が/なぜ/何が守られているか/何が届くか)。3番目の行だけは、書庫と倉庫を見てから書いてください。本当のストーリーには、作られたストーリーにない一貫性があります。そしてゲストは、それを見分けます。</p><div class="note">この記事はアイデア共有を目的としています。箱書き・折紙の慣行は茶道具の世界の一般論としての紹介です。ストーリーの効果は、施策前後のレビュー・問い合わせを同じ集計方法で記録してご確認ください。</div><h2>次に読む</h2><ul><li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 絞る側の規律の話</li><li><a href="#regional-identity-brand-nhatrang">【事例】地域性をブランドに翻訳した宿の作り方</a> — 物語を地域から採る話</li><li><a href="#us-market-cross-border-branding">アメリカ市場に挑戦 — 越境ブランディングの舞台裏</a> — 物語を海外に翻訳する話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 証拠を撮る話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","050"]}]]}],["$","h1",null,{"children":"“物語で選ばれる宿” — 展示が示すブランディングの力"}],["$","p",null,{"className":"excerpt","children":"スペックは比較され、物語は比較されない。茶道具の「箱書き」に学ぶ、ストーリーの証明システム——誰が・なぜ・何を守り・何を届けるのか。4要素と3つの翻訳版。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hero-story-gallery.jpg","alt":"“物語で選ばれる宿” — 展示が示すブランディングの力"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.12.11"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/us-market-cross-border-branding","children":["← ","アメリカ市場に挑戦 — 越境ブランディングの舞台裏"]}],["$","$L2",null,{"href":"/journal/articles/veg-menu-options","children":["【ベジ対応メニュー】多様な食嗜好に応える宿の選択肢設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T191f,<p>予約サイトのリスト画面でも展示会でも、ゲストはまず「スペック」を比較します——価格・立地・部屋数・設備。そしてそこで価格競争が始まる。<strong>ストーリーは、比較表に載せられない唯一の次元</strong>です。1,500円の差を「払う価値のある差」に変換する——それが「物語で選ばれる宿」の仕組みです。ただし本記事の本題は、そのストーリーを「本物だと証明する」仕組みの方にあります。日本には、それを800年前から続けてきた道具があるからです。</p><h2>箱書きの思想 — 日本はストーリーの証明を発明している</h2><p>茶の湯の世界では、道具の価値は道具単体では完結しません。桐の箱に書かれた<strong>「箱書き」</strong>——<strong>誰が、いつ、誰の目利きで本物と認めたか</strong>——が道具の信用を支えてきました。名のある道具には「折紙」と呼ばれる鑑定の記録が付き、箱とともに何代も受け継がれます。これは何か。ストーリーの証明システムそのものです。「何が守られているか」を、第三者の認証として書き残す仕組み——そして旅館の床の間、大広間の扁額、廊下の掛け軸は、宿の物語を建物の中に展示する、この国の宿が昔から持っていた装置です。</p><h2>ストーリーの4要素</h2><p>人を動かすストーリーの構造は、常に4つの要素に分解できます。</p><ol><li><strong>誰が</strong> — この宿を誰がやっているのか(人・家族・チーム)</li><li><strong>なぜ</strong> — この宿が存在する理由</li><li><strong>何が守られているか</strong> — 受け継がれている地域・職人技・暮らし</li><li><strong>何が届くのか</strong> — ゲストが受け取る体験</li></ol><p>4つが揃ったストーリーは「信頼」になり、1つでも欠けたストーリーは「スローガン」に留まります。中で最難関は3番目です。「誰が」「なぜ」は経営者へのインタビューで必ず出てくる。しかし「何が守られているか」は、この宿に前から確かに存在して、失うと困るものを指すからです。箱書きが書いていたのは、まさにこの3番目の行でした。</p><h2>「ワンソースストーリー」と3つの翻訳版</h2><p>ストーリーは<strong>一度だけ</strong>書いて、3つの版に翻訳します。</p><ul><li><strong>30秒版</strong> — 予約サイトの紹介文、フロントの自己紹介、話の冒頭に。</li><li><strong>3分版</strong> — 展示会のブース、取材、ウェブサイトの「宿について」に。</li><li><strong>10分版</strong> — じっくりしたメディア取材、法人向けの提案に。</li></ul><p>ワンソースの価値は、ストーリーが媒体間でブレず、語られるたびに「厚み」が出ていくこと——レビュー・写真・記事が本編を裏付け始めます。</p><h2>ストーリーを「展示」する場所</h2><ul><li><strong>予約サイトのリスト</strong> — 30秒版+証拠(写真・レビューの引用)。</li><li><strong>展示会のブース</strong> — 3分版+シンボル画像を1枚に絞る。</li><li><strong>プレス資料</strong> — 10分版+数字の箱(沿革・実績・引用)。</li><li><strong>客室内</strong> — 30秒版を1枚のカードに印刷する。「撮られるカード」です。</li></ul><p>客室のカードは、いわば現代の箱書きです。置き場所の考え方も床の間から学べます——一番目立つ場所ではなく、<strong>一番落ち着く場所</strong>。目に入るたびに読みたくなる位置に、1枚だけ。</p><h2>反対側 — 物語が宿を疲れさせるとき</h2><ul><li><strong>外注の物語は一貫性が切れる</strong> — 4要素は経営者自身の言葉から採ります。作り手が外部の物語は、現場のひとことと矛盾した瞬間に崩れます。</li><li><strong>同じ話を10年</strong> — 守るものが増えた・変わったことは、宿が生きている証拠です。代が替わったら「なぜ」の行を書き直す。更新されない物語は、やがて飾りになります。</li><li><strong>展示の過剰</strong> — すべてに物語を付けると、宿は資料室になります。展示は4か所で十分です。</li><li><strong>3番目の行が空欄ならスローガン</strong> — 「何が守られているか」に「〜の心」しか書けないなら、まだ物語は見つかっていません。倉庫と古い写真と土地の記録を見に行くところから始まります。</li><li><strong>ストーリーはスペックの免罪符ではない</strong> — 比較されない次元で勝っても、比較される次元(清掃・設備・価格の妥当性)で負けては意味がありません。</li></ul><p>最初の一歩は、今夜、自分の宿の「箱書き」を書くことです——4行(誰が/なぜ/何が守られているか/何が届くか)。3番目の行だけは、書庫と倉庫を見てから書いてください。本当のストーリーには、作られたストーリーにない一貫性があります。そしてゲストは、それを見分けます。</p><div class="note">この記事はアイデア共有を目的としています。箱書き・折紙の慣行は茶道具の世界の一般論としての紹介です。ストーリーの効果は、施策前後のレビュー・問い合わせを同じ集計方法で記録してご確認ください。</div><h2>次に読む</h2><ul><li><a href="#branding-subtraction">1つだけ残すなら、何を残すか — ブランドの引き算</a> — 絞る側の規律の話</li><li><a href="#regional-identity-brand-nhatrang">【事例】地域性をブランドに翻訳した宿の作り方</a> — 物語を地域から採る話</li><li><a href="#us-market-cross-border-branding">アメリカ市場に挑戦 — 越境ブランディングの舞台裏</a> — 物語を海外に翻訳する話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 証拠を撮る話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"050"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"“物語で選ばれる宿” — 展示が示すブランディングの力"}],["$","span",null,{"className":"en-only","children":"\"The Stay Chosen by Its Story\" — What the Exhibition Reveals About Branding"}],["$","span",null,{"className":"zh-only","children":"“有故事选客栈”——展览展现品牌力量"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"スペックは比較され、物語は比較されない。茶道具の「箱書き」に学ぶ、ストーリーの証明システム——誰が・なぜ・何を守り・何を届けるのか。4要素と3つの翻訳版。"}],["$","span",null,{"className":"en-only","children":"Specs get compared; stories do not. The \"hakogaki\" inscription on tea utensils teaches a system for proving a story — who, why, what is protected, what is delivered. The four elements and the three translated versions."}],["$","span",null,{"className":"zh-only","children":"该展览展示了故事打动人们的“选择机制”。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hero-story-gallery.jpg","alt":"“物語で選ばれる宿” — 展示が示すブランディングの力"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.12.11"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T18e5,<p>On the list screen of a booking site and at a trade fair alike, guests first compare "specs" — price, location, room count, equipment. And there the price war begins. <strong>A story is the one dimension that cannot be put on the comparison table.</strong> Converting a ¥1,500 difference into "a difference worth paying for" — that is the mechanism of "the stay chosen by its story." But this article’s real subject lies on the other side: the mechanism for "proving that story is genuine." Because in Japan there is a tool that has been doing exactly that for 800 years.</p>
+
+<h2>The philosophy of the hakogaki — Japan invented the proof of a story</h2>
+
+<p>In the world of chanoyu, the tea ceremony, a utensil’s value does not complete itself in the utensil alone. What supports the utensil’s credibility is the <strong>"hakogaki"</strong> written on its paulownia-wood box — <strong>who, when, and on whose connoisseurship acknowledged it as genuine</strong>. Noted utensils carry a record of appraisal called an "origami" (here, a certificate of appraisal), passed down together with the box through generations. What is this? A system for proving a story, itself. A mechanism that writes down and leaves behind "what is being protected," as third-party certification — and the ryokan’s tokonoma alcove, the plaques of the grand hall, the hanging scrolls along the corridors are devices this country’s properties have held since old times: the property’s story, exhibited inside the building.</p>
+
+<h2>The 4 elements of a story</h2>
+
+<p>The structure of a story that moves people can always be broken into four elements.</p>
+
+<ol>
+<li><strong>Who</strong> — who runs this property (the people, the family, the team)</li>
+<li><strong>Why</strong> — the reason this property exists</li>
+<li><strong>What is protected</strong> — the region, the craft, the way of living that have been handed down</li>
+<li><strong>What is delivered</strong> — the experience the guest receives</li>
+</ol>
+
+<p>A story with all four becomes "trust"; a story missing even one stays a "slogan." The hardest of them is the third. "Who" and "why" always come out in interviews with the owner. But "what is protected" points to what has certainly existed in this property all along, and whose loss would hurt. What the hakogaki was writing was precisely this third line.</p>
+
+<h2>The "one-source story" and its 3 translated versions</h2>
+
+<p>Write the story <strong>once only</strong>, then translate it into three versions.</p>
+
+<ul>
+<li><strong>The 30-second version</strong> — for the booking-site description, the front-desk self-introduction, the opening of a talk.</li>
+<li><strong>The 3-minute version</strong> — for the trade-fair booth, interviews, the "About us" of the website.</li>
+<li><strong>The 10-minute version</strong> — for long-form media interviews and proposals to corporate clients.</li>
+</ul>
+
+<p>The value of the one source is that the story does not drift between media, and gains "depth" each time it is told — reviews, photographs, and articles begin to corroborate the main text.</p>
+
+<h2>Where to "exhibit" the story</h2>
+
+<ul>
+<li><strong>The booking-site listing</strong> — the 30-second version + evidence (photos, quotations from reviews).</li>
+<li><strong>The trade-fair booth</strong> — the 3-minute version + one symbol image, and only one.</li>
+<li><strong>The press kit</strong> — the 10-minute version + a box of numbers (history, track record, quotations).</li>
+<li><strong>The guest room</strong> — print the 30-second version on a single card. It is "the card that gets photographed."</li>
+</ul>
+
+<p>The card in the room is, so to speak, a modern hakogaki. Where to place it can be learned from the tokonoma — not the most conspicuous spot, but <strong>the most settling one</strong>. One card, in the position where the eye wants to read it every time it falls there.</p>
+
+<h2>The other side — when the story exhausts the property</h2>
+
+<ul>
+<li><strong>An outsourced story cuts out mid-sentence</strong> — The four elements are taken from the owner’s own words. A story built by an outsider collapses the moment it contradicts one line on the floor.</li>
+<li><strong>The same story for ten years</strong> — That what you protect has grown, or changed, is proof the property is alive. When a generation changes, rewrite the "why" line. An unupdated story eventually becomes mere decoration.</li>
+<li><strong>Too much exhibition</strong> — Attach a story to everything, and the property becomes an archive room. Four exhibition points are enough.</li>
+<li><strong>An empty third line means a slogan</strong> — If all you can write under "what is protected" is "the spirit of XX," the story has not been found yet. It begins with going to look at the storeroom, the old photographs, and the records of the land.</li>
+<li><strong>A story is not absolution for the specs</strong> — Win on the dimension that isn’t compared, and it still means nothing if you lose on the dimensions that are (cleaning, equipment, the fairness of the price).</li>
+</ul>
+
+<p>The first step is, tonight, to write your property’s own "hakogaki" — four lines (who / why / what is protected / what is delivered). For the third line alone, go and look at the archive and the storeroom before writing it. A true story has a consistency that a manufactured one lacks. And guests can tell the difference.</p>
+
+<div class="note">This article is intended for sharing ideas. The practices of the hakogaki and the origami certificate are introduced as general customs of the tea-utensil world. To check the effects of a story, record reviews and inquiries before and after a change with the same counting method.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#branding-subtraction">If You Keep Only One: The Subtraction of Brand</a> — the discipline of narrowing</li>
+<li><a href="#regional-identity-brand-nhatrang">Case: Translating Regional Identity Into a Hotel Brand</a> — taking the story from the region</li>
+<li><a href="#us-market-cross-border-branding">Entering the US Market — Behind the Scenes of Cross-Border Branding</a> — translating the story overseas</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — photographing the evidence</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Td1c,<p>在 OTA 列表页和展览上，很容易比较“规格”（价格、位置、房间数量、设施），但“故事”却不能。本文解释了故事如何通过“展览”的形式和“单一来源故事”的结构使公司在价格竞争中脱颖而出。</p>
+<h2>一、机制：“故事”为何能摆脱价格竞争</h2>
+<p>当客人比较住宿时，他们首先比较规格，这就是价格比较的开始。<strong>故事是唯一未包含在比较表中的维度</strong>。这个故事是关于将“1500日元的差异”转化为“值得付出代价的差异”。这就是它的运作方式。这就是“故事中选择的旅馆”背后的机制。</p>
+<h2>2. 故事的四个要素</h2>
+<p>一个感人故事的结构总是有四个要素：</p>
+<ol>
+<li><strong>WHO</strong> — 谁经营这家旅馆（个人/家庭/团队）</li>
+<li><strong>为什么</strong> ——为什么会有这个旅馆？ （存在的理由）</li>
+<li><strong>什么是受保护的</strong> — 保护/传承的内容（地区、工艺、生活方式）</li>
+<li><strong>提供什么</strong> — 宾客将获得怎样的体验？</li>
+</ol>
+<p>具备所有四个要素的故事就变得“值得信赖”，而缺乏其中一个要素的故事仍然是“口号”。</p>
+<h2>3.《一个源故事》及三个翻译版本</h2>
+<p>故事是<strong>就一次</strong>编写并翻译成三个版本：</p>
+<ul>
+<li><strong>30秒版本</strong> — 列表中的“关于”、前台自我介绍以及谈话开始时</li>
+<li><strong>3分钟版本</strong> — 展位、采访、“关于我们”网站</li>
+<li><strong>10分钟版本</strong> — 深度媒体报道和 B2B 提案</li>
+</ul>
+<p>“单一来源”的价值：故事在不同媒体之间没有偏差，每次讲述都会出现“厚度”（评论、照片和文章的积累）。</p>
+<h2>4. 一个“展示”你的故事的地方</h2>
+<ul>
+<li><strong>OTA列表</strong> — 30​​秒版本+证据（照片/评论）</li>
+<li><strong>展位</strong> — 3分钟版本+视觉效果（将符号图像缩小到一张）</li>
+<li><strong>新闻材料</strong> — 10 分钟版本 + 事实框（数字、成就、引言）</li>
+<li><strong>客房内</strong> — 将 30 秒版本打印在一张卡上（“拍照卡”）</li>
+</ul>
+<div class="stats"><span class="tag">数值示例</span><strong>例如，若施策前的满意度为70%，则提高约18%至83%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 小设计，大影响。判断效果时，请用相同的统计方法记录并比较施策前后30天的点评评分与回头率。</div><div class="note"><span class="tag">InnBuddy 笔记</span>故事是“价格”和“价值”之间的“信任桥梁”。品牌推广的工作不是“发明一个故事”，而是“找到真实的故事并在所有媒体上翻译它”。客人可以看出真实的故事具有一致性，而捏造的故事则不然。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：管理层访谈（材料的 4 个要素）</li>
+<li>第 2 周：30 秒、3 分钟和 10 分钟草稿版本</li>
+<li>第 3 周：列表/网站/房间布置</li>
+<li>第4周～：继续在展会、公关中使用（积累证据）</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/us-market-cross-border-branding","children":["- ",["$","span",null,{"className":"ja-only","children":"アメリカ市場に挑戦 — 越境ブランディングの舞台裏"}],["$","span",null,{"className":"en-only","children":"Entering the US Market — Behind the Scenes of Cross-Border Branding"}],["$","span",null,{"className":"zh-only","children":"挑战美国市场——跨境品牌背后的故事"}]]}],["$","$L8",null,{"href":"/journal/articles/veg-menu-options","children":[["$","span",null,{"className":"ja-only","children":"【ベジ対応メニュー】多様な食嗜好に応える宿の選択肢設計"}],["$","span",null,{"className":"en-only","children":"Veggie Menus: Designing Menu Options for Diverse Food Preferences"}],["$","span",null,{"className":"zh-only","children":"[蔬菜菜单] 满足多样化饮食喜好的住宿设计选择"}]," -"]}]]}]
+10:null

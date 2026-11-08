@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-touch-soil-stay.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T26e8,<p>宿のリノベーションの話になれば、木、布、石が出てきます。ですが、もっとも身近な素材はしばしば忘れられます。土です。土壁、土間、畑の土、雨上がりの土の香り——原テーマのこの4つは、「高級な素材」ではなく、<strong>触る・嗅ぐ・涼む・育てる</strong>という4つの体験の入口なのです。この記事は、土の香りの化学から、泥の建築の世界遺産、土と子どもの研究までを通して、土に触れる滞在を設計していきます。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T26e8,<p>宿のリノベーションの話になれば、木、布、石が出てきます。ですが、もっとも身近な素材はしばしば忘れられます。土です。土壁、土間、畑の土、雨上がりの土の香り——原テーマのこの4つは、「高級な素材」ではなく、<strong>触る・嗅ぐ・涼む・育てる</strong>という4つの体験の入口なのです。この記事は、土の香りの化学から、泥の建築の世界遺産、土と子どもの研究までを通して、土に触れる滞在を設計していきます。</p>
 
 <h2>雨上がりの香りには、名前があります</h2>
 <p>雨上がりの畑の匂いを、世界で一番精密に研究したのは、オーストラリアの研究者イザベル・ベアとリチャード・トーマスの二人です。彼らは1964年、Nature誌の論文で、乾いた土が雨に濡れたときに立つ独特の香りに「ペトリコール（petrichor）」と名前をつけました。petra（石）とichor（神々の血）からの造語です。その仕組みは二段構えです。晴れが続くと植物由来の油分が土や岩の表面に蓄積し、雨粒が落ちるとき、その油が微粒子となって空気中に放たれます——まるで雨粒一本一本が小さなスプレー缶になるように。</p>
@@ -46,10 +111,64 @@ a:"$Sreact.suspense"
 <li><a href="#idea-small-farm-1tsubo">小さな畑のある宿 — 1坪の畑から始める宿の畑アイデア</a> — 土を育てる舞台</li>
 <li><a href="#idea-bamboo-charcoal-living">竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア</a> — 土に炭を戻す考え方</li>
 <li><a href="#idea-scent-memory-inbound">香りで記憶に残る — 香り・お茶・お香で海外ゲストの記憶に残るアイデア</a> — 香りで記憶に残す設計</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","136"]}]]}],["$","h1",null,{"children":"土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア"}],["$","p",null,{"className":"excerpt","children":"雨上がりの土の香りには分子の名前があり、土壁の補修は世界では祭りになります。ペトリコールの科学、ジェンネの泥の大モスク、土壌細菌と学習の研究を経て、土に触れる滞在の設計と衛生の実務をまとめました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-touch-soil-stay.jpg","alt":"土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.16"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-fire-circle-night","children":["← ","火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-beach-clean-art","children":["海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"136"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア"}],["$","span",null,{"className":"en-only","children":"Stay Touching Soil - Material Ideas for Inn from Earthen Wall, Dirt Floor, Soil of Field"}],["$","span",null,{"className":"zh-only","children":"与土壤保持联系——以泥墙、泥土地板和田野土壤为基础的旅馆材料创意"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"雨上がりの土の香りには分子の名前があり、土壁の補修は世界では祭りになります。ペトリコールの科学、ジェンネの泥の大モスク、土壌細菌と学習の研究を経て、土に触れる滞在の設計と衛生の実務をまとめました。"}],["$","span",null,{"className":"en-only","children":"The scent of earth after rain has a molecule’s name, and the replastering of mud walls becomes a festival elsewhere in the world. Through the science of petrichor, the Great Mosque of Djenné, and research on soil bacteria and learning — the design and hygiene of a stay that touches the soil."}],["$","span",null,{"className":"zh-only","children":"土墙、泥土地板、田土、果田土。这是一个让您可以通过触摸土壤来感受里山生活的住宿创意的集合。关于旅馆材料的提示是基于泥土的气味和质地。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-touch-soil-stay.jpg","alt":"土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.16"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T23e0,<p>When inn renovation comes up, wood, cloth, and stone appear. But the most familiar material of all is often forgotten: earth. Earthen walls, the doma earthen floor, the soil of fields, the scent of earth after rain — these four, the original theme, are not "premium materials" but the entrances to four experiences: <strong>touching, smelling, taking the cool, growing</strong>. This article designs a stay that touches the soil, by way of the chemistry of earth’s scent, a World Heritage of mud architecture, and research on soil and children.</p>
+
+<h2>The scent after rain has a name</h2>
+
+<p>The two who studied the smell of a field after rain most precisely in the world were the Australian researchers Isabel Bear and Richard Thomas. In 1964, in a paper in Nature, they gave the name "petrichor" to the distinctive scent that rises when dry earth is wetted by rain — a coinage from petra (stone) and ichor (the blood of the gods). The mechanism is two-staged: as clear days continue, plant-derived oils accumulate on the surface of soil and rock, and when raindrops fall, those oils are released into the air as fine particles — as if each single raindrop became a small spray can.</p>
+
+<p>There is one more protagonist of the scent: <strong>geosmin</strong>, a compound made by the actinomycetes and blue-green algae of the soil — a molecule so sharp that the human nose can detect it at the barest traces (reports speak of parts per trillion). From here an interesting conclusion for the inn follows. <strong>Earth’s scent is stored by the dry days and released by the rain.</strong> If you want the after-rain scent as an experience, aim for a rain that follows a run of clear days — a way to read the calendar. The "hour of the soil’s scent," guiding guests to the field after rain, is an experience that can be planned with nothing but a weather forecast.</p>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>"The smell of earth after rain" held no proper name in any language of the world</strong> — until Bear and Thomas of Australia named the scent "petrichor" in Nature in 1964, there was no scholarly name for it. Geosmin, the main note of the scent, is made by soil bacteria, and the human nose is said to detect it at concentrations on the order of parts per trillion.</div>
+
+<h2>Earthen walls and the doma — soil is insulation you touch, and a humidity conditioner</h2>
+
+<p>The reasons the Japanese farmhouse used earth in buildings are not sentiment alone. The earthen wall absorbs the air’s moisture when humidity is high and releases it when it dries — a wall that keeps conditioning humidity, with no electricity. The doma is a floor still connected to the ground, cool in summer, its temperature stabilized by the earth’s stored heat — a device of the kitchen in the age before refrigerators. Earth is a material that is itself <strong>a small piece of climate equipment</strong>.</p>
+
+<p>Practice at the inn begins not with renovation but with "discovery." An inn that already has a doma: do not make it a storeroom — set one bench and make it the seat of "doma tea." An inn with a section of earthen wall: attach a note permitting touch — a wall that may be touched stays in memory more than a wall that is only looked at. An inn with zero earthen material can begin with small vessels that keep the soil’s character — a donabe clay pot, unglazed pottery, diatomaceous-earth coasters. Earth is a material that begins from one corner.</p>
+
+<h2>Mud architecture never "finishes" — the Great Mosque of Djenné</h2>
+
+<p>Roughly half the world is said to live in earthen buildings, and the boldest example among them is the Great Mosque in the old city of Djenné, a World Heritage site in the Republic of Mali. Sun-dried bricks stacked and plastered over with mud — one of the largest mud buildings on earth. Its origins go back to the 13th century, and the present building is the rebuilding of 1907. What makes this building interesting is that <strong>the day it "finishes" never comes.</strong> Before the rainy season, the townspeople mix mud by the whole town and replaster the walls. This annual repair is called the crépissage and has become the town’s festival. The countless lengths of timber jutting from the walls are at once ornament and the scaffolding of repair day.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>Wall maintenance becomes the day the most people gather all year</strong> — At Djenné, the plainest of work — keeping a building — has been converted into a festival of the community. The essence: "a mud building can exist only by continued hands," and "continued hands can become not a burden but an event."</div>
+
+<p>The translation to a Japanese inn runs like this. An inn with earthen walls does not hide the replastering — it <strong>shows</strong> it. Turn the day the plasterer comes into a day guests can watch, and can be allowed to lend a hand. The repair of an earthen wall can become a once-a-year visitor event. The fact that "last year, it was guests of this inn who plastered this wall" is a far stronger story than any perfect wall.</p>
+
+<h2>Soil, and children’s bodies</h2>
+
+<p>An unexpected light has fallen on the saying "playing in the dirt is good for the body." In 2010, a team at The Sage Colleges in the United States reported that mice fed the soil bacterium Mycobacterium vaccae with their food ran a maze about twice as fast and showed less anxiety-related behavior, with a suggested link to the neurotransmitter serotonin. But this is <strong>a mouse experiment</strong>, the effect was temporary (the difference vanished at three weeks), and extrapolation to human children cannot be made — and read as a result pointing in the direction that "time when children touch outdoor soil is not a bad thing."</p>
+
+<p>That is no license to take soil hygiene lightly. Handwashing after playing in the dirt; watching that small children do not put soil in their mouths; choosing clean soil for play where pets go; the general hygiene guidance that expectant mothers be advised gloves and handwashing for soil work — experience and hygiene become an experience only as a set.</p>
+
+<h2>Small designs for a stay that touches the soil</h2>
+
+<ul>
+<li><strong>The hour of the soil’s scent after rain</strong> — Read the forecast and guide to the morning after a rain that followed clear days. The scent has conditions.</li>
+<li><strong>A doma bench, a wall you may touch</strong> — Turn the earth already in the inn into seats with permission to sit and touch.</li>
+<li><strong>A five-senses experience of field soil</strong> — Touch it, smell it, knead it, hunt for insects. "Dorodango" — polishing a ball of mud until it gleams — is a Japanese play culture that spread worldwide, and an excellent tool-free experience of soil.</li>
+<li><strong>A card of soil colors</strong> — Gather the local soil’s colors from field, mountain, and riverbank and lay them side by side. That soils differ in color is the simplest proof that the places differ.</li>
+<li><strong>The day of earthen-wall repair</strong> — A viewing session of plastering work. A one-person translation of Djenné’s festival.</li>
+</ul>
+
+<h2>Inns it suits, and inns it does not</h2>
+
+<p>The conditions, written honestly. New earthen-wall construction requires a plasterer’s scheduling and drying periods (weeks of layered work), and neither the schedule nor the cost is light — which is exactly why "from one corner" and "from repair" are the realistic entrances. The doma comes with winter chill from below and condensation to live with, and it loses to chairs in sitting comfort. For guests sensitive to allergies (dust mites, pollen), guide the soil experience as "outdoor play" while keeping the rooms under ordinary dust management — that is the pattern of coexistence. For field soil, draw the hygiene line described above. A stay that touches the soil stands only as a <strong>set</strong> — the plainness of earth, and the care of its management.</p>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling farmland or fields, do so on the premise of consultation with the farmer or owner.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-compost-living">An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil</a> — the loop that makes soil</li>
+<li><a href="#idea-small-farm-1tsubo">An inn with Small Farm - Farm Ideas Starting from 1 Tsubo</a> — the stage where soil is raised</li>
+<li><a href="#idea-bamboo-charcoal-living">Living with Bamboo Charcoal - Ideas for Bamboo Charcoal, Charcoal Making, Utilization</a> — the thought of returning charcoal to the soil</li>
+<li><a href="#idea-scent-memory-inbound">Remain in Memory with Scent - Ideas for Remaining in Memory for Overseas Guests with Scent, Tea, Incense</a> — designing memory through scent</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1138,<p>本文分享一些可供尝试的想法。住宿期间，您将在一家旅馆的泥墙房间、另一家为果园制作土壤的旅馆以及另一家让孩子们在泥里玩耍的旅馆中接触土壤。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>粘土墙的感觉，泥土地板的凉爽感觉，田野里泥土的气味。通过触摸土壤，您可以感受到里山的生活。我们从与土壤保持接触的小想法中收集了思考住宿材料的提示。</p><h2>一系列关于让您可以接触土壤的住宿的想法</h2><ul><li><strong>有泥墙的客房</strong> — 创建一间带有粘土墙或粘土墙一角的客房，并将其介绍为可以感受到粘土材质的地方。通过使用小卡片介绍粘土墙的感觉以及粘土墙湿度控制的故事，您可以传达粘土墙的魅力。在一些旅馆中，泥墙的房间被称为“土房”。</li><li><strong>生活在肮脏的地板上</strong> — 在一家有泥土地板的旅馆里，泥土地板被显示为一个居住的地方。为什么不在泥土地板上脱掉鞋子，享受泥土地板的清凉感觉呢？一家旅馆在泥土地板上提供了一张长凳，并提供了在泥土地板上喝茶的时间。</li><li><strong>体验接触田野的土壤</strong> ——把接触田野里的土壤的经历变成孩子们的一个小经历。触摸土壤、闻土壤气味、看到土壤中的昆虫的经历将留在孩子们的记忆中。一家旅馆将触摸果田土壤的体验介绍为“触摸果田土壤”。</li><li><strong>土壤和果园的想法</strong> — 在拥有果园的旅馆里，土壤是种植水果的重要元素。在一家旅馆，为果园准备土壤被介绍为“为果园准备土壤”，并且一块板解释了使用堆肥土壤为果园创造土壤的周期。通过了解整地的故事，你可以更深刻地体会到水果的味道。</li><li><strong>泥土气味的想法</strong> — 创造一个可以享受泥土气息的地方。将其介绍为可以在雨后享受泥土气味或田间泥土气味的地方，从而传达泥土的魅力。一家旅馆将在雨后的果园里享受泥土的香气的时光介绍为“雨后大地的香气”。</li></ul><h2>海外住宿案例 - 贴近地球的住宿创意</h2><p>在北欧的农场旅馆，接触土壤是生活的一部分。花时间在泥墙的房间里，触摸田野的泥土，享受泥土的香味。与土壤接触的生活丰富了在旅馆度过的时光。在东南亚的岛屿旅馆中，居住在土质地板上被视为营造凉爽氛围的一种方式。</p><p>土壤在你的旅馆里有什么样的存在？为什么不从粘土墙的一个角落开始呢？</p><h2>从小土壤开始的技巧</h2><p>即使你没有大的泥墙，你也可以从泥墙的一角或有泥土地板的地方开始。在一家旅馆，我们首先建造了粘土墙的一角，客人们评论说粘土摸起来很舒服。即使在一小块土地上，你也能感受到里山的生命。</p><p>如果您住在有果园的旅馆，为什么不从触摸果园的土壤开始呢？享受果田土壤的气味和触感，可以更深刻地感受水果的故事。</p><div class="stats"><span class="tag">数值示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约20%的数字仅为趋势示意，并不保证效果）。</strong> — 引入土壤的材质可能会引起里山的吸引力。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。接触土壤时，请密切注意安全和卫生，并请专业人员检查。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>制作土墙的一角</strong> — 客房和走廊的土墙一角，是可以感受到大地触感的地方。</li><li><strong>将泥土地面的地方变成居住的地方</strong> — 建议花时间在泥土地板上放一张长凳并在泥土地板上喝茶</li><li><strong>规划一次接触田野土壤的体验</strong> — 为孩子们提供触摸果园土壤的体验</li><li><strong>制作土壤和果田招牌</strong> — 果园整地介绍牌</li><li><strong>介绍可以享受泥土气息的地方</strong> — 花点时间享受雨后果田里泥土的香味</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-fire-circle-night","children":["- ",["$","span",null,{"className":"ja-only","children":"火を囲む夜 — 焚き火・囲炉裏・薪ストーブで集まる夜のアイデア"}],["$","span",null,{"className":"en-only","children":"Night Surrounding Fire - Ideas for Gathering Night with Bonfire, Irori, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"篝火旁的夜晚 — 围绕篝火、壁炉或木火炉度过一个夜晚的想法"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-beach-clean-art","children":[["$","span",null,{"className":"ja-only","children":"海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"}],["$","span",null,{"className":"en-only","children":"Think from Marine Debris - Ideas for Stay with Beach Clean and Driftwood Art"}],["$","span",null,{"className":"zh-only","children":"从海洋垃圾中思考——海滩清洁和浮木艺术保持理念"}]," -"]}]]}]
+10:null

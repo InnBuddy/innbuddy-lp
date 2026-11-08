@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-beach-clean-art.jpg","image"]
 :HL["/library/journal/ai_idea-rainwater-garden.jpg","image"]
 :HL["/library/journal/ai_idea-compost-living.jpg","image"]
 :HL["/library/journal/ai_idea-firewood-landscape.jpg","image"]
-3:T2570,<p>海の宿の前の浜に、朝、プラスチックが流れ着いています。この光景を「掃除の対象」としてだけ見るのは、もったいないことです。流れ着いたものは、どこかの土地の暮らしと、海流という運び屋と、雨の日の川の水位を語る、<strong>海からの手紙</strong>だからです。この記事は、海のゴミを体験と学びに変える3つの事例（世界最大の清掃の始まり、2分だけの清掃、漁師の植林）を眺めた上で、里山と海をつなぐ宿の実践を設計します。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T2570,<p>海の宿の前の浜に、朝、プラスチックが流れ着いています。この光景を「掃除の対象」としてだけ見るのは、もったいないことです。流れ着いたものは、どこかの土地の暮らしと、海流という運び屋と、雨の日の川の水位を語る、<strong>海からの手紙</strong>だからです。この記事は、海のゴミを体験と学びに変える3つの事例（世界最大の清掃の始まり、2分だけの清掃、漁師の植林）を眺めた上で、里山と海をつなぐ宿の実践を設計します。</p>
 
 <h2>まず量の事実——海は、毎年何を吸い込んでいるのでしょうか</h2>
 <div class="stats"><span class="tag">FACT</span><strong>海に流れ込むプラスチックは、年間800万トン（推計の中間値）</strong> — 2015年にScience誌に発表された有名な推計（Jambeckら）では、2010年時点で海岸線から50キロ以内に住む人口の排出するプラスチックごみのうち、480万〜1,270万トンが海に流出したと推計され、その中間値が年間約800万トンとして広く引用されている。ダンプカー1台分を毎分数台、海に投げ込む計算に例えられる量である。</div>
@@ -45,10 +110,62 @@ a:"$Sreact.suspense"
 <li><a href="#sea-salt-mountain-bounty">海の塩と山の恵み — 自然の調味料を語る食体験</a> — 海と山の食の風景</li>
 <li><a href="#idea-ecotourism-stay">エコツーリズムを宿に取り入れる — 森・川・海の観察を宿の体験に</a> — 観察を体験にする設計</li>
 <li><a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a> — 循環の取り組みを伝える言葉</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"children":["ARTICLE ","137"]}]]}],["$","h1",null,{"children":"海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"}],["$","p",null,{"className":"excerpt","children":"海のゴミは「掃除の対象」である前に、「読める教材」です。1986年テキサスの1つの浜から始まった世界最大の清掃、2分だけの清掃、漁師が森に木を植える気仙沼の運動から、海と山の宿の実践を考えます。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-beach-clean-art.jpg","alt":"海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.17"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}]]}]]}],["$","$L2","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}]]}]]}],["$","$L2","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-touch-soil-stay","children":["← ","土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-bamboo-charcoal-living","children":["竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"サステナブル"}],["$","span",null,{"className":"ARTICLE","children":"137"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"}],["$","span",null,{"className":"en-only","children":"Think from Marine Debris - Ideas for Stay with Beach Clean and Driftwood Art"}],["$","span",null,{"className":"zh-only","children":"从海洋垃圾中思考——海滩清洁和浮木艺术保持理念"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"海のゴミは「掃除の対象」である前に、「読める教材」です。1986年テキサスの1つの浜から始まった世界最大の清掃、2分だけの清掃、漁師が森に木を植える気仙沼の運動から、海と山の宿の実践を考えます。"}],["$","span",null,{"className":"en-only","children":"Before marine debris is \"something to clean up,\" it is \"a teaching material that can be read.\" From the world’s largest cleanup, which began on one Texas beach in 1986; the two-minute cleanup; and the Kesennuma movement of fishermen planting trees in the forest — practice for inns of the sea and the mountains."}],["$","span",null,{"className":"zh-only","children":"海滩干净，浮木艺术，海洋垃圾。这是一系列住宿创意，从海洋垃圾的角度思考，帮助您感受里山与大海的联系。我们将介绍即使在有果园的旅馆也能感受大海的方法。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-beach-clean-art.jpg","alt":"海のゴミから考える — ビーチクリーンと流木アートの滞在アイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.17"}],["$","span",null,{"children":"Sustainable"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T23b4,<p>On the morning beach before a seaside inn, plastic has washed ashore. To see this sight only as "something to clean up" is a waste. What washes in is <strong>a letter from the sea</strong>, telling of life in some other land, of the currents that carry, of the river levels on rainy days. This article looks at three cases that turn marine debris into experience and learning — the beginning of the world’s largest cleanup, the two-minute cleanup, and tree-planting by fishermen — and then designs practice for inns that join satoyama and sea.</p>
+
+<h2>First, the fact of volume — what the sea takes in, every year</h2>
+
+<div class="stats"><span class="tag">FACT</span><strong>Plastic flowing into the sea: 8 million tons a year (the midpoint of estimates)</strong> — In the well-known estimate published in Science in 2015 (Jambeck et al.), of the plastic waste generated in 2010 by populations living within 50 kilometers of a coastline, 4.8 to 12.7 million tons were estimated to enter the sea, and its midpoint — about 8 million tons a year — is widely quoted. Often compared to dumping several garbage trucks’ worth into the ocean every minute.</div>
+
+<p>How should an inn handle this number? The answer is "do not threaten; measure." When beginning the story of marine debris, the most powerful act available to an inn is not the presentation of figures but <strong>recording</strong>. This article’s three cases teach the reason, in order.</p>
+
+<h2>Case 1 — what began on one Texas beach in 1986</h2>
+
+<p>The world’s largest coastal cleanup did not begin from a grand plan. Its beginning was a cleanup on a single beach in Texas, in the United States, in 1986: about 2,800 participants, who picked up 24 tons of trash. This grew into the international event (the International Coastal Cleanup), went international in 1989 when Canada and Mexico joined, and now spreads across more than 150 countries. In recent years more than one million people take part annually, and cumulatively more than 15 million have picked trash from beaches and watersides (per announcements of the organizer, Ocean Conservancy).</p>
+
+<p>The distinctive feature of this movement is that participants do not only pick up trash — <strong>they record the items on data cards</strong>. Cigarette butts, plastic bags, food wrappers — counting, recording, tallying what is picked up. The accumulation of these records became "the world’s largest database of marine debris" and has grounded countermeasures. In short, the secret of the cleanup’s persistence was not goodwill alone: <strong>the intellectual work of "counting" was combined with the act of picking up.</strong> The translation to an inn is easy. At the beach’s entrance, set out work gloves, bags, and a recording notebook. "Today’s beach: PET bottles 3, Styrofoam 11, lighters 1." Numbers turn cleaning into learning.</p>
+
+<h2>Case 2 — the two-minute cleanup</h2>
+
+<p>Martin Dorey, a writer and surfer living in Bude, Cornwall, England, saw a winter storm in 2013 carry masses of plastic onto the beach and called out on social media: "Let’s clean the beach for just 2 minutes." Not hours of scheduled volunteering — pick up for two minutes on the way of a walk, bag it, photograph it with the hashtag, and dispose of it. That was the whole of the proposal. This "#2minutebeachclean" spread worldwide; the hashtag has been used more than 160,000 times, and in Britain and Ireland more than 1,000 "beach-cleaning boards" hung with gloves and litter pickers have been installed. More than a hundred British municipalities are reported to have adopted the boards.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>"Two minutes" lowered the barrier of cleaning to zero</strong> — The essence of this case is that it created <strong>everyone-on-the-beach’s two minutes</strong>, not a "great cleanup" that devotes a holiday. It made cleaning not a special event but an extension of visiting. The translation to an inn: a "two-minute lending" — a basket of gloves and bags handed to guests heading for the beach. Do not build it into the experience schedule; simply set it out.</div>
+
+<h2>Case 3 — the fishermen who planted trees in the forest to raise the sea</h2>
+
+<p>In the context of the sea-mountain connection, the case this article wants at its center is the movement in Kesennuma, Miyagi Prefecture. Hatakeyama Shigeatsu (1943–2025) and other local fishermen, who farmed oysters and scallops, reasoned that <strong>the nutrients of the forest’s soil reach the sea through the rivers and enrich it</strong> — and in 1989 they began an activity of fishermen planting broadleaf trees in the upstream reaches of the Ōkawa River, which flows into Kesennuma Bay. The phrase "the forest is the sea’s sweetheart," the movement’s watchword, became known nationwide and was taken up in school textbooks. After Hatakeyama’s death in 2025 at 81, the planting continues, and the city of Kesennuma named him an honorary citizen that same year.</p>
+
+<p>Mariculturists reaching not into the sea but into the mountains. This inversion is the core of the theme that joins satoyama and sea. Marine debris holds the same logic — what flows down the rivers is a reflection of the mountains and the villages. That is why <strong>even a mountain inn can tell the story of marine debris</strong>. Where the river near the inn flows, and what happens at its mouth. One map and one question — "Where do you suppose this river goes?" — carries the story of the sea to an inn far from it.</p>
+
+<h2>Reading the wash-ups — the beach is a mailbox with no visible addresses</h2>
+
+<p>To look at what has washed in is to study the currents. The language on a PET bottle’s label, the kinds of fishing gear, the rounding of driftwood — "Where did this come from, do you think?" turns a beach walk into a quiz. The practical craft of polishing found driftwood into room pieces is left to <a href="#idea-driftwood-upcycle">Driftwood and Scrap Upcycle - Ideas for Room Accessories Made from Sea and Mountain Materials</a>; but merely hanging one sign — "Letters from the sea: today’s deliveries" — changes how the beach looks.</p>
+
+<h2>Practice and safety — 80% of an inn that makes cleaning an experience is preparation</h2>
+
+<ul>
+<li><strong>Three tools</strong> — Work gloves (or a litter picker), bags, and the recording notebook. Sorting can wait for the walk home.</li>
+<li><strong>Decide the do-not-touch list</strong> — Broken glass, rusted cans, and fishing gear (hooks, nets) call for care even with gloves. Needles, oil drums, and other dangerous or unknown items are never handled barehanded — contact the coastal administrator (the municipality, and so on).</li>
+<li><strong>A receptacle for disposal</strong> — When the inn takes back what is picked up, confirm in advance the municipality’s sorting route and the coastal administrator’s rules. Cleaning is welcomed; the handling of drift items has rules particular to each administrator.</li>
+<li><strong>Cleaning and gathering are different acts</strong> — Gathering shells or seaweed on the beach touches on fishing rights and local rules. In guiding a cleanup experience, draw the line: what is picked up is "trash only."</li>
+<li><strong>Hour and clothing</strong> — Avoid cleaning under the burning sun; take the first hour of the morning. Boots or shoes that can get wet; in summer, a hat and water.</li>
+</ul>
+
+<div class="note"><span class="tag">InnBuddy VIEW</span>What an inn that makes beach cleanup an experience must watch for is <strong>that it does not become a display of "a beautiful beach."</strong> What matters is not finished cleanliness but the fact that the beach is rewritten every day, and the discovery that even two minutes can lay a hand on it. For small children, the chain of picking up, counting, and recording — a little survey in play — becomes the first way of forming a relationship with the sea.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. For activities at the water’s edge, design with safety measures and with clothing and tools prepared.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-driftwood-upcycle">Driftwood and Scrap Upcycle - Ideas for Room Accessories Made from Sea and Mountain Materials</a> — turning found driftwood into room pieces</li>
+<li><a href="#sea-salt-mountain-bounty">Sea Salt and Mountain Bounty: Telling Food Experience with Natural Seasonings</a> — the food landscape of sea and mountain</li>
+<li><a href="#idea-ecotourism-stay">Incorporate Ecotourism into Inn - Make Forest, River, Sea Observation into Experience at Inn</a> — designing observation into experience</li>
+<li><a href="#zero-waste-communication">Is Zero Waste Really Possible? Communicating Sustainable Operations</a> — the words that tell the story of circulation</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T12d9,<p>本文分享一些可供尝试的想法。在一家旅馆，海洋垃圾被用作海滩清理的跳板；在另一家旅馆，海洋垃圾被用作果园浮木艺术的材料；在另一家旅馆，海洋垃圾被用作儿童学习的材料。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>浮木、塑料瓶和渔具被冲到海滩上。海洋垃圾可能提供一个思考里山与海洋之间联系的机会。我们从海洋垃圾中收集了一些小创意，帮助您住在一个可以感受到里山与海洋之间联系的地方。</p><h2>来自海洋垃圾的创意集合</h2><ul><li><strong>海滩干净的小体验</strong> — 将海滩清洁变成附近海滩的一次小体验。对捡来的垃圾进行分类、将浮木变成艺术材料、将可用的东西重新利用的经历将留在孩子们的记忆中。一家旅馆正计划在海滩清洁后举办浮木艺术制作活动。甚至可以介绍带果园的旅馆，作为一种体验，让您感受到大海和山脉之间的联系。</li><li><strong>浮木艺术客房配件</strong> — 用你找到的浮木制作客房配件和招牌。通过利用浮木的形状来制作具有不同外观的托盘和配件箱，您可以为您的客房增添特色。在一家旅馆里，从果田采摘的收获篮子挂在浮木制成的衣架上，形成了一个融合了海洋和山材的拍照点。</li><li><strong>海洋垃圾和水果园的想法</strong> — 在一家设有果园的旅馆里，海洋垃圾是思考海洋与山脉之间联系的一个机会。在一家旅馆里，果田旁摆放着一件浮木艺术品，上面还写着“这件浮木是在〇〇海滩捡到的”的故事。从山间河流到大海，再回到山上。”通过混合来自大海、山脉和果田的材料，你可以感受到里山与大海的联系。</li><li><strong>海洋垃圾信息板</strong> — 在小板上介绍您发现的海洋垃圾并附上照片。通过介绍什么样的垃圾被冲走以及它们从哪里来的故事，我们可以看到里山和大海之间的联系。在一家旅馆，我们制作了一块名为“基于海洋垃圾的里山与海洋的联系”的展板，并将其与浮木艺术一起展示。</li><li><strong>和孩子一起认识大海</strong> — 孩子们利用海洋垃圾的一个小学习经历。孩子们会记得在浮木上画画并用他们发现的垃圾进行艺术创作的经历。为了安全起见，最好把边角圆化或者准备小材料。</li></ul><h2>海外住宿案例——基于海洋垃圾的住宿创意</h2><p>在斯堪的纳维亚岛屿的旅馆中，海洋垃圾是日常生活的主要内容。浮木椅子、浮木灯和浮木标志。原本该扔掉的东西，却成了旅馆的特色。在东南亚海岛上的旅馆里，海滩清洁是日常生活的一部分，也是一种日常习惯。</p><p>您的酒店中存在哪些海洋垃圾？为什么不从捡起一块浮木开始呢？</p><h2>从小型海滩清洁开始的提示</h2><p>即使您没有大片海滩清洁，您也可以从当地海滩捡起一块浮木开始。在一家旅馆，他们首先捡起一块浮木，将其抛光，然后将其制成托盘。即使是小型海滩清洁活动也能创造故事。</p><p>在有果田的酒店，您可以引入海滩清洁活动，以此作为思考果田和大海之间联系的机会。通过了解从山间河流到大海，再回到山脉的循环，我们可以看到里山和大海之间的联系。</p><div class="stats"><span class="tag">计算示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约18%的数字仅为趋势示意，并不保证效果）。</strong> — 努力思考海洋垃圾可能会传达里山与海洋之间的联系。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。清洁海滩或收集浮木时，请检查安全和当地规则并咨询专家。处理垃圾时请小心。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>从附近的海滩捡起一块浮木。</strong> — 对其进行抛光，并将其用作客房中的托盘或配件箱。</li><li><strong>计划一次小型海滩清洁体验</strong> — 将发现的垃圾分类，并将浮木用作艺术材料</li><li><strong>用浮木艺术打造一个拍照点</strong> — 混合海洋和山地材料，例如将果田收获的篮子挂在浮木衣架上。</li><li><strong>创建海洋垃圾信息板</strong> ——关于什么样的垃圾被冲走以及它们来自哪里的故事。</li><li><strong>为孩子们策划一堂海洋课程</strong> — 来自安全的体验，例如在浮木上绘画</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","idea-rainwater-garden",{"href":"/journal/articles/idea-rainwater-garden","children":[["$","img",null,{"src":"/library/journal/ai_idea-rainwater-garden.jpg","alt":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.01"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"雨水を暮らしに活かすアイデア — 宿の庭と雨の日の過ごし方から考えるヒント集"}],["$","span",null,{"className":"en-only","children":"Rainwater Living Ideas - Hints from Garden and Rainy Days at Your Inn"}],["$","span",null,{"className":"zh-only","children":"日常生活中的雨水利用小窍门——旅馆花园的小窍门以及如何度过雨天"}]]}]]}]]}],["$","$L8","idea-compost-living",{"href":"/journal/articles/idea-compost-living","children":[["$","img",null,{"src":"/library/journal/ai_idea-compost-living.jpg","alt":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.02"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"コンポストのある宿 — 生ごみが土に還る暮らしの見せ方アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Compost - Ideas for Showing Life Where Food Waste Returns to Soil"}],["$","span",null,{"className":"zh-only","children":"堆肥旅馆 — 如何展示食物垃圾返回土壤的生活的想法"}]]}]]}]]}],["$","$L8","idea-firewood-landscape",{"href":"/journal/articles/idea-firewood-landscape","children":[["$","img",null,{"src":"/library/journal/ai_idea-firewood-landscape.jpg","alt":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.03"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"薪のある風景 — 薪割り・薪棚・薪ストーブが作る宿の時間のアイデア"}],["$","span",null,{"className":"en-only","children":"Landscape with Firewood - Ideas for Time Created by Wood Chopping, Wood Shed, Wood Stove"}],["$","span",null,{"className":"zh-only","children":"有柴火的风景 — 在由砍柴、木架和柴火炉打造的旅馆中度过时光的想法"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-touch-soil-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア"}],["$","span",null,{"className":"en-only","children":"Stay Touching Soil - Material Ideas for Inn from Earthen Wall, Dirt Floor, Soil of Field"}],["$","span",null,{"className":"zh-only","children":"与土壤保持联系——以泥墙、泥土地板和田野土壤为基础的旅馆材料创意"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-bamboo-charcoal-living","children":[["$","span",null,{"className":"ja-only","children":"竹炭のある暮らし — 竹炭・炭焼き・炭の活用アイデア"}],["$","span",null,{"className":"en-only","children":"Living with Bamboo Charcoal - Ideas for Bamboo Charcoal, Charcoal Making, Utilization"}],["$","span",null,{"className":"zh-only","children":"与竹炭一起生活 — 使用竹炭、木炭烧烤和木炭的想法"}]," -"]}]]}]
+10:null

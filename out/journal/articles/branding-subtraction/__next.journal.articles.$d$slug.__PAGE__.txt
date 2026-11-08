@@ -1,15 +1,161 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_branding-subtraction.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T1b59,<p>最初に、読者の方に1つだけお聞きします。<strong>あなたの宿を、1文で説明できますか。</strong>——説明が長くなるほど、宿は弱くなります。山も、海も、自然も、サステナブルも、全部を伝えようとすると、ゲストに残るのは「結局何の宿?」だけです。本記事は、何を足すかではなく<strong>何を残すか</strong>——ブランドの引き算の話です(正解の提示ではありません)。</p><h2>15の石は、全部を見せない</h2><p>京都・龍安寺の石庭には、15個の石があります。ところが縁側に座って見渡しても、どこから見ても必ず1つはどこかの石が隠れて見える——<strong>15すべてを一度に見せない庭</strong>として、よく知られます。何百年も人を座らせ続けているのは、全部を見せないから。見えない1つを、見る人が自分で探し始めるからです。ブランドの引き算も、これに近い形をしています。伝えない部分があるからこそ、ゲストは自分の言葉で、宿の記憶を完成させます。</p><h2>残した1輪は、庭の百輪より濃い</h2><p>茶の湯には、こんな逸話が伝わります。朝顔の茶会を所望された千利休は、当日、庭の朝顔をすべて刈り取ってしまい、茶室に一輪だけ生けた——秀吉の目に映ったのは、庭に咲く百輪よりずっと濃い、一つの朝顔だったと。逸話の真偽はともかく、<strong>選ばれた1つは、並んだ全部より強く見える</strong>。あなたの宿の「1つ」も、これでいいのです。</p><h2>メニューを70年広げない店</h2><div class="stats"><span class="tag">CASE</span><strong>カリフォルニアのハンバーガー店In-N-Outは1948年創業で、基本メニューはハンバーガー3種とフライドポテト、飲み物とシェイクのみ</strong> — チキンも、サラダも、朝食もない。フランチャイズ展開をせず創業家の経営を続け、店舗を広げても品揃えは広げてこない(同社の案内と現地メディアの報道による)。</div><p>なぜ面白いか。<strong>選ばないことで、「何の店か」が誰にでも分かる</strong>からです。品質と回転を守るための「やらないことのリスト」が、そのままブランドになっている。本質はこうです。<strong>ブランドとは、ロゴではなく「やらないことのリスト」</strong>。あなたの宿の説明が1文で言えないのは、まだ引けていないからかもしれません。</p><h2>何を残すか — 3つの問い</h2><ol><li><strong>何を消しても、宿らしさは残るか</strong> — 消せるものを、少し消してみる。消しても残るものが核です。</li><li><strong>ゲストが写真に撮るのは何か</strong> — 撮られるものが核。撮られないものを言葉で伝えても、届きません。</li><li><strong>スタッフが自慢するのは何か</strong> — 語られるものが核。現場が語れないものは、もう核ではないのです。</li></ol><p>この3つ、会議室のホワイトボードではなく、玄関で考えてください。ゲストが到着した瞬間、何を見るか。チェックアウトの時、何を覚えているか。3つの答えが重なる1つが、あなたの宿の「1つ」です。残した後は、<strong>言葉・写真・体験をその1つに揃える</strong>。揃わないものは、勇気を持って引きます。断る側の設計は、<a href="#branding-no-list">何を「やらない」か — 断りのリストの力</a>が担います。名前の対話は、<a href="#branding-desired-name">「呼ばれたい名前」は何か — ブランディングの対話の入口</a>が担います。</p><h2>揃える3つの現場 — 最小から始める</h2><ol><li><strong>説明文を1文にする</strong> — 宿の紹介文を1文に圧縮してみる。最後まで削れなかった言葉が、「1つ」の候補です。</li><li><strong>表の写真を1つのために使う</strong> — 最初の3枚が「1つ」を語っているか(<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>)。全部を見せる写真は、石を全部並べる撮り方です。</li><li><strong>「うちは〇〇ではない」を1行書く</strong> — 向かない客を減らす1行は、期待のズレによる低い評価を防ぎます。引き算は「捨てる」ことではなく「選ぶ」こと。</li></ol><h2>反対側 — 引き算の5つの罠</h2><ul><li><strong>引き算=質を下げる、ではない</strong> — 引いた先の質を上げるのが引き算です。削るだけなら、ただ貧しい。</li><li><strong>1つに固執する</strong> — 1つは生き物。季節や時代で変わります。変わる時に困らないのが、3つの問いで選んだ1つ。</li><li><strong>引きすぎて何もなくなる</strong> — 最後の1つだけは、絶対に守る。</li><li><strong>引いた理由を共有しない</strong> — 現場が知らない引き算は、3ヶ月で元に戻ります。</li><li><strong>引き算をゲストにぶつける</strong> — 提供しないだけにして、責める1行は書かない。</li></ul><h2>対話 — 4つの問い</h2><ol><li>宿の要素を10個、書き出す(山・海・食・建築・静けさ・本・お風呂……)</li><li>「1つだけ残すなら何か」を、スタッフ3人が別々に答えてから比べる</li><li>残した1つを、言葉1行・写真1枚・体験1つに翻訳してみる</li><li>1ヶ月、引いたつもりで運用し、ゲストの言葉を集める</li></ol><p>御宿の答えは、御宿の中にしかありません。</p><p>龍安寺の庭は、全部を見せない。だから人は、何度でも戻って座ります。宿の「1つ」を決めるのは、何かを足す日ではなく、何かを消す勇気の日です。</p><div class="note">この記事はアイデア共有を目的としています。利休の朝顔は茶道に伝わる逸話として、龍安寺の石庭はよく知られた見方として紹介しています(執筆時点)。</div><h2>次に読む</h2><ul><li><a href="#branding-desired-name">「呼ばれたい名前」は何か — ブランディングの対話の入口</a> — 残した1つに名前を付ける話</li><li><a href="#branding-no-list">何を「やらない」か — 断りのリストの力</a> — やらないことを決める話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 1つを撮る写真の話</li><li><a href="#brand-refresh-without-logo">ロゴを変えずにブランドを刷新する</a> — ロゴでなく中身を刷新する話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","096"]}]]}],["$","h1",null,{"children":"1つだけ残すなら、何を残すか — ブランドの引き算"}],["$","p",null,{"className":"excerpt","children":"ブランドは「足す」ことでなく「引く」ことで強くなる。龍安寺の石庭、朝顔の一輪、メニューを70年広げないハンバーガー店——「1つだけ残すなら何か」を決める対話の設計です。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_branding-subtraction.jpg","alt":"1つだけ残すなら、何を残すか — ブランドの引き算"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.19"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/local-business-collaboration","children":["← ","近隣事業との連携 — 「予約につながる協業」の基本"]}],["$","$L2",null,{"href":"/journal/articles/branding-no-list","children":["何を「やらない」か — 断りのリストの力"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1b59,<p>最初に、読者の方に1つだけお聞きします。<strong>あなたの宿を、1文で説明できますか。</strong>——説明が長くなるほど、宿は弱くなります。山も、海も、自然も、サステナブルも、全部を伝えようとすると、ゲストに残るのは「結局何の宿?」だけです。本記事は、何を足すかではなく<strong>何を残すか</strong>——ブランドの引き算の話です(正解の提示ではありません)。</p><h2>15の石は、全部を見せない</h2><p>京都・龍安寺の石庭には、15個の石があります。ところが縁側に座って見渡しても、どこから見ても必ず1つはどこかの石が隠れて見える——<strong>15すべてを一度に見せない庭</strong>として、よく知られます。何百年も人を座らせ続けているのは、全部を見せないから。見えない1つを、見る人が自分で探し始めるからです。ブランドの引き算も、これに近い形をしています。伝えない部分があるからこそ、ゲストは自分の言葉で、宿の記憶を完成させます。</p><h2>残した1輪は、庭の百輪より濃い</h2><p>茶の湯には、こんな逸話が伝わります。朝顔の茶会を所望された千利休は、当日、庭の朝顔をすべて刈り取ってしまい、茶室に一輪だけ生けた——秀吉の目に映ったのは、庭に咲く百輪よりずっと濃い、一つの朝顔だったと。逸話の真偽はともかく、<strong>選ばれた1つは、並んだ全部より強く見える</strong>。あなたの宿の「1つ」も、これでいいのです。</p><h2>メニューを70年広げない店</h2><div class="stats"><span class="tag">CASE</span><strong>カリフォルニアのハンバーガー店In-N-Outは1948年創業で、基本メニューはハンバーガー3種とフライドポテト、飲み物とシェイクのみ</strong> — チキンも、サラダも、朝食もない。フランチャイズ展開をせず創業家の経営を続け、店舗を広げても品揃えは広げてこない(同社の案内と現地メディアの報道による)。</div><p>なぜ面白いか。<strong>選ばないことで、「何の店か」が誰にでも分かる</strong>からです。品質と回転を守るための「やらないことのリスト」が、そのままブランドになっている。本質はこうです。<strong>ブランドとは、ロゴではなく「やらないことのリスト」</strong>。あなたの宿の説明が1文で言えないのは、まだ引けていないからかもしれません。</p><h2>何を残すか — 3つの問い</h2><ol><li><strong>何を消しても、宿らしさは残るか</strong> — 消せるものを、少し消してみる。消しても残るものが核です。</li><li><strong>ゲストが写真に撮るのは何か</strong> — 撮られるものが核。撮られないものを言葉で伝えても、届きません。</li><li><strong>スタッフが自慢するのは何か</strong> — 語られるものが核。現場が語れないものは、もう核ではないのです。</li></ol><p>この3つ、会議室のホワイトボードではなく、玄関で考えてください。ゲストが到着した瞬間、何を見るか。チェックアウトの時、何を覚えているか。3つの答えが重なる1つが、あなたの宿の「1つ」です。残した後は、<strong>言葉・写真・体験をその1つに揃える</strong>。揃わないものは、勇気を持って引きます。断る側の設計は、<a href="#branding-no-list">何を「やらない」か — 断りのリストの力</a>が担います。名前の対話は、<a href="#branding-desired-name">「呼ばれたい名前」は何か — ブランディングの対話の入口</a>が担います。</p><h2>揃える3つの現場 — 最小から始める</h2><ol><li><strong>説明文を1文にする</strong> — 宿の紹介文を1文に圧縮してみる。最後まで削れなかった言葉が、「1つ」の候補です。</li><li><strong>表の写真を1つのために使う</strong> — 最初の3枚が「1つ」を語っているか(<a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a>)。全部を見せる写真は、石を全部並べる撮り方です。</li><li><strong>「うちは〇〇ではない」を1行書く</strong> — 向かない客を減らす1行は、期待のズレによる低い評価を防ぎます。引き算は「捨てる」ことではなく「選ぶ」こと。</li></ol><h2>反対側 — 引き算の5つの罠</h2><ul><li><strong>引き算=質を下げる、ではない</strong> — 引いた先の質を上げるのが引き算です。削るだけなら、ただ貧しい。</li><li><strong>1つに固執する</strong> — 1つは生き物。季節や時代で変わります。変わる時に困らないのが、3つの問いで選んだ1つ。</li><li><strong>引きすぎて何もなくなる</strong> — 最後の1つだけは、絶対に守る。</li><li><strong>引いた理由を共有しない</strong> — 現場が知らない引き算は、3ヶ月で元に戻ります。</li><li><strong>引き算をゲストにぶつける</strong> — 提供しないだけにして、責める1行は書かない。</li></ul><h2>対話 — 4つの問い</h2><ol><li>宿の要素を10個、書き出す(山・海・食・建築・静けさ・本・お風呂……)</li><li>「1つだけ残すなら何か」を、スタッフ3人が別々に答えてから比べる</li><li>残した1つを、言葉1行・写真1枚・体験1つに翻訳してみる</li><li>1ヶ月、引いたつもりで運用し、ゲストの言葉を集める</li></ol><p>御宿の答えは、御宿の中にしかありません。</p><p>龍安寺の庭は、全部を見せない。だから人は、何度でも戻って座ります。宿の「1つ」を決めるのは、何かを足す日ではなく、何かを消す勇気の日です。</p><div class="note">この記事はアイデア共有を目的としています。利休の朝顔は茶道に伝わる逸話として、龍安寺の石庭はよく知られた見方として紹介しています(執筆時点)。</div><h2>次に読む</h2><ul><li><a href="#branding-desired-name">「呼ばれたい名前」は何か — ブランディングの対話の入口</a> — 残した1つに名前を付ける話</li><li><a href="#branding-no-list">何を「やらない」か — 断りのリストの力</a> — やらないことを決める話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 1つを撮る写真の話</li><li><a href="#brand-refresh-without-logo">ロゴを変えずにブランドを刷新する</a> — ロゴでなく中身を刷新する話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"096"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"1つだけ残すなら、何を残すか — ブランドの引き算"}],["$","span",null,{"className":"en-only","children":"If You Keep Only One: The Subtraction of Brand"}],["$","span",null,{"className":"zh-only","children":"如果你只能保留一件东西，那会是什么？ ——品牌减法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"ブランドは「足す」ことでなく「引く」ことで強くなる。龍安寺の石庭、朝顔の一輪、メニューを70年広げないハンバーガー店——「1つだけ残すなら何か」を決める対話の設計です。"}],["$","span",null,{"className":"en-only","children":"A brand grows strong not by adding but by subtracting. The Ryōan-ji rock garden, the single morning glory, a burger shop that has not widened its menu in 70 years — designing the dialogue that decides \"if you keep only one, what do you keep?\""}],["$","span",null,{"className":"zh-only","children":"一个品牌通过“减法”而不是“加法”变得更强大。一篇关于减法的基本文章只留下一件事。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_branding-subtraction.jpg","alt":"1つだけ残すなら、何を残すか — ブランドの引き算"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.10.19"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1a52,<p>First, one question for you, the reader. <strong>Can you describe your property in a single sentence?</strong> — The longer the description grows, the weaker the property. Mountains, sea, nature, sustainability — try to tell all of it, and what remains with the guest is only "so what kind of property is it?" This article is not about what to add but <strong>what to keep</strong> — the subtraction of brand (it does not hand you the right answer).</p>
+
+<h2>The 15 stones do not show themselves all at once</h2>
+
+<p>The rock garden of Ryōan-ji in Kyoto has 15 stones. Yet, seated on the veranda and looking around, from wherever you look, at least one stone always hides — it is well known as <strong>a garden that never shows all 15 at once</strong>. What has kept people seated for hundreds of years is precisely that it does not show everything: the viewer begins, on their own, to search for the hidden one. Brand subtraction has a shape close to this. Because there is a part not told, the guest completes the memory of the property in their own words.</p>
+
+<h2>The one bloom left standing is deeper than a hundred in the garden</h2>
+
+<p>The tea ceremony passes down an anecdote like this. Asked by his lord for a morning-glory tea gathering, Sen no Rikyū cut down every morning glory in the garden that morning, and arranged a single bloom in the tea room — what met Toyotomi Hideyoshi’s eye, so it goes, was a single morning glory far deeper than a hundred blooming in the garden. True or not, <strong>the one chosen looks stronger than all of them lined up</strong>. Your property’s "one" may be like this too.</p>
+
+<h2>The shop that has not widened its menu in 70 years</h2>
+
+<div class="stats"><span class="tag">CASE</span><strong>The California burger chain In-N-Out, founded in 1948, keeps a core menu of three burgers, french fries, drinks, and shakes only</strong> — No chicken, no salad, no breakfast. It has not franchised, keeps family ownership, and has never widened the assortment however far the chain has spread (per the company’s guide and local media reports).</div>
+
+<p>Why it is interesting: <strong>by not choosing, "what kind of shop it is" is plain to everyone.</strong> The list of "things we do not do," kept to guard quality and turnover, has become the brand as is. The essence: <strong>a brand is not a logo but "a list of things you do not do."</strong> If your property cannot be said in one sentence, the reason may simply be that nothing has yet been subtracted.</p>
+
+<h2>What to keep — 3 questions</h2>
+
+<ol>
+<li><strong>Erase it, and does the property’s character remain?</strong> — Try erasing a little of what can be erased. What remains after erasing is the core.</li>
+<li><strong>What does the guest photograph?</strong> — What gets photographed is the core. What does not, however told in words, does not reach.</li>
+<li><strong>What does the staff take pride in?</strong> — What gets spoken of is the core. What the floor cannot speak of is no longer the core.</li>
+</ol>
+
+<p>Take these three not to the meeting-room whiteboard but to the front door. What does the guest see the moment of arrival? What do they remember at check-out? The one point where the three answers overlap is your property’s "one." After keeping it, <strong>align words, photographs, and experience to that one</strong>. What does not align, subtract, with courage. The design of the refusing side is handled by <a href="#branding-no-list">What Not to Do: The Power of a No-List</a>; the dialogue over the name, by <a href="#branding-desired-name">What Name Do You Want to Be Called: The Entrance to a Branding Dialogue</a>.</p>
+
+<h2>3 places to align — start smallest</h2>
+
+<ol>
+<li><strong>Make the description one sentence</strong> — Compress the property’s introduction to a single sentence. The words that survived to the end are candidates for the "one."</li>
+<li><strong>Use the front photographs for that one</strong> — Do the first three photographs speak the "one" (<a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a>)? Photographs that show everything are a way of shooting that lines up all the stones.</li>
+<li><strong>Write one line of "we are not ○○"</strong> — One line that reduces the guests who do not fit prevents the low ratings born of mismatched expectations. Subtraction is not "discarding" but "choosing."</li>
+</ol>
+
+<h2>The other side — 5 traps of subtraction</h2>
+
+<ul>
+<li><strong>Subtraction is not lowering quality</strong> — Subtraction raises the quality of what remains. Merely cutting leaves only poverty.</li>
+<li><strong>Fixating on the one</strong> — The one is a living thing; it changes with seasons and eras. The one chosen by the three questions is the one that flexes without crisis when it changes.</li>
+<li><strong>Subtracting until nothing remains</strong> — The last one, guard absolutely.</li>
+<li><strong>Not sharing the reason for subtracting</strong> — Subtraction the floor does not know of returns to the old state in three months.</li>
+<li><strong>Throwing the subtraction at the guest</strong> — Simply do not provide; never write the accusing line.</li>
+</ul>
+
+<h2>Dialogue — 4 questions</h2>
+
+<ol>
+<li>Write out 10 elements of the property (mountains, sea, food, architecture, quiet, books, the bath…)</li>
+<li>"If you keep only one, what?" — three staff members answer separately, then compare</li>
+<li>Translate the one kept into one line of words, one photograph, one experience</li>
+<li>Run one month as if subtracted, and gather the guests’ words</li>
+</ol>
+
+<p>The answer of your property exists only inside your property.</p>
+
+<p>The Ryōan-ji garden does not show everything. That is why people return to sit, any number of times. The day a property decides its "one" is not the day something is added, but the day of the courage to remove something.</p>
+
+<div class="note">This article is intended for sharing ideas. Rikyū’s morning glory is introduced as an anecdote handed down in the tea ceremony, and the Ryōan-ji rock garden as a widely known interpretation (as of writing).</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#branding-desired-name">What Name Do You Want to Be Called: The Entrance to a Branding Dialogue</a> — naming the one you kept</li>
+<li><a href="#branding-no-list">What Not to Do: The Power of a No-List</a> — deciding what not to do</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — photographing the one</li>
+<li><a href="#brand-refresh-without-logo">Refreshing a Brand Without Changing the Logo</a> — refreshing the substance, not the logo</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tf86,<p>该品牌是<strong>通过“减”而不是“加”变得更强</strong>。山、海、自然、可持续农业、酷咖啡馆、时尚咖啡馆——如果你试图传达一切，你将无法传达任何东西。这篇文章是一篇关于减法的基础文章，询问如果你只保留一件事你应该保留什么（它没有提供正确答案）。</p><h2>1.为什么要做减法？</h2><ul><li>当客人试图传达一切时<strong>“这到底是一家什么样的旅馆？”</strong>变得。</li><li>如果剩下一位，则客人<strong>“那座山旅馆”“那座海旅馆”“那家很酷的咖啡馆旅馆”</strong>是可以调用的。</li><li>决定您想要的名字（请参阅品牌条目文章）。</li></ul><h2>2. 三道减法题（提案）</h2><ol><li><strong>无论抹去什么，客栈般的感觉还会存在吗？</strong> — 找到可以擦除的东西。即使被抹除后仍然保留的是细胞核。</li><li><strong>客人拍什么？</strong> ——拍出来的才是核心。山、海、时尚建筑、美食等</li><li><strong>员工有什么值得骄傲的？</strong> ——所说的才是核心。</li></ol><h2>3、离开后如何安排</h2><ul><li>将文字、照片和经历合而为一。</li><li>如果您没有所有物品，请鼓起勇气将它们拿出来（请参阅“不要做的事情清单”上的文章）。</li></ul>
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“如果你只能留下一件事，那会是什么？ ——品牌减法。”客人的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>品牌推广工作增加了整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats"><span class="tag">计算示例</span><strong>例如，若施策前的满意度为70%，则提高约18%至83%可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 小设计，大影响。判断效果时，请用相同的统计方法记录并比较施策前后30天的点评评分与回头率。</div><div class="note"><span class="tag">InnBuddy 笔记</span>品牌减法<strong>“选择”而不是“扔掉”</strong>。御宿的答案只能在御宿内找到。本文是发起对话的建议。</div><h2>对话列表</h2><ul><li>1：写下10个现有元素（山脉、海洋、自然、可持续、农业、咖啡馆、酒店、建筑、食物、社交等）</li><li>2：三名工作人员讨论如果只剩下一件东西，还剩下什么。</li><li>3：尝试将你留下的一件事转化为文字、照片和经历</li><li>4：尝试在还原状态下运行一个月</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/local-business-collaboration","children":["- ",["$","span",null,{"className":"ja-only","children":"近隣事業との連携 — 「予約につながる協業」の基本"}],["$","span",null,{"className":"en-only","children":"Local Business Collaboration: Basics of Reservation-Driving Partnerships"}],["$","span",null,{"className":"zh-only","children":"与周边企业的合作——“合作预约”的基础"}]]}],["$","$L8",null,{"href":"/journal/articles/branding-no-list","children":[["$","span",null,{"className":"ja-only","children":"何を「やらない」か — 断りのリストの力"}],["$","span",null,{"className":"en-only","children":"What Not to Do: The Power of a No-List"}],["$","span",null,{"className":"zh-only","children":"不该做什么——禁止清单的力量"}]," -"]}]]}]
+10:null

@@ -1,15 +1,179 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_regional-hotel-media-new.jpg","image"]
 :HL["/library/journal/ai_media-youtube-introduction.jpg","image"]
 :HL["/library/journal/ai_filming-requests-handling.jpg","image"]
 :HL["/library/journal/ai_press-release-local-media.jpg","image"]
-3:T18f4,<p>地方ホテルは、メディアに取り上げられる「構造的な優位」を持っています——「地域」という切り口です。広告を買うのではなく、取材してもらう。この記事は、その作法を「なぜ報じられるのか」の理論から整理します。</p><div class="stats"><span class="tag">RESEARCH</span><strong>1965年、平和研究者のヨハン・ガルトゥングとマリ・ルージュは、各国のニュースを分析し、ある出来事が「ニュース」として選ばれる条件を「ニュースバリュー(選択基準)」として整理した(論文「外国ニュースの構造」)。頻度、明確性、近接性、意味性、個人化、意外性など複数の基準を満たすほど報じられやすい——ニュースの選択は恣意ではなく、予測可能な基準で動くという、その後の報道研究の基礎となった発見</strong> — 報じられるかどうかには、構造がある。</div><h2>地方ホテルは、土俵に最初から立っている</h2><p>この理論を宿に翻訳すると、面白いことが分かります。報じられるストーリーの4要素——<strong>地域の角度、人の要素、社会の共鳴、旬</strong>——は、実はニュースバリューの言い換えです。</p><ul><li><strong>地域の角度=近接性</strong> — この地域にあって、他にないもの。地域メディアの読者に最も「近い」物語。</li><li><strong>人の要素=個人化</strong> — 経営者・スタッフ・生産者。人は人に興味を持つ。制度の話より、一人の人生の話が選ばれる。</li><li><strong>社会の共鳴=意味性</strong> — 雇用、地域活性、環境。読者の関心(社会課題)と重なる物語ほど意味があるとされる。</li><li><strong>旬=時宜性</strong> — 季節・イベント・周年。今報じる理由。</li></ul><p>4つのうち3つが揃うと「取材の価値」があります——これは経験則ではなく、理論の予測と一致します(複数の基準を満たすほど選ばれやすい)。<strong>大都市のホテルが「地域の角度」を作るのに苦労する一方、地方の宿は最初からこの基準を持っている</strong>。足りないのは、残りの3つを意図的に揃えるだけです。</p><h2>プレスキット — 取材を「しやすく」する道具</h2><ul><li><strong>ストーリーの3版</strong> — 30秒・3分・10分版。物語の記事と同じワンソースの3翻訳です。</li><li><strong>ファクトボックス</strong> — 数字・沿革・実績。根拠を示す(数字の規律はゼロウェイストの記事と共通——計測方法を添える)。</li><li><strong>写真セット</strong> — 高精細5〜10枚+クレジット表記。記事は写真から生まれることも多い。</li><li><strong>連絡先と対応の約束</strong> — 担当者1名と「何時間以内に返すか」。記者の締め切りは宿の都合を待ちません。</li></ul><h2>「広告でなく取材」の本質 — 第3者の言葉</h2><p>なぜ広告でなく取材なのか。自費の広告は「宿が言いたいこと」、記事は「第3者が報じる価値を見出したこと」——この信用の差は、レビューと自社サイトの関係と同じ構造です(レビュー運営の記事参照)。そして、地方の記者は常に「地域の物語」を探しています。取材需要は日々存在していて、足りないのは供給——記事になりやすい形に整えられた物語です。<strong>まずローカルメディアで実績を作り</strong>、旬のフック(季節・行事・周年)で四半期に1回、届ける。全国メディアは、その積み上げの先から来ます。</p><h2>反対側 — PRが宿を疲れさせるとき</h2><ul><li><strong>同じピッチの横流し</strong> — 地元紙が欲しいのは全国向けの話ではなく、地元の物語です。媒体ごとに「近接性」の中身を書き替える。</li><li><strong>数字の誇張</strong> — 記事は事実を確認して書きます。プレスキットの数字に根拠がなければ、信頼は宿に返ってこない。</li><li><strong>報じられた後が本番</strong> — 記客が来る宿の体験が、記事の内容を下回れば、記事はむしろ落差を広げます。報じる前に中身を整える順番を守る。</li><li><strong>担当1名の負担</strong> — SLAは「24時間以内に返信」など現実的な水準に。PR担当の役割を兼任のままで積むと、返信の遅れが機会損失になります。</li><li><strong>掲載をゴールにしない</strong> — 記事のURLは、予約サイトの紹介文やSNSの証拠として使い回せる資産です(物語を展示する場所の記事参照)。1回で捨てない。</li></ul><p>最初の一歩は、地域の角度を1行で書くことです——「〇〇で唯一の△△」。その1行に、人(誰が)と旬(なぜ今)を足す。プレスキットの最初の1枚は、その3行から始まります。メディアが報じるのは「ホテル」ではなく「物語」です。そして物語は、地方の宿の中に、もう書ける状態で眠っています。</p><div class="note">この記事はアイデア共有を目的としています。ニュースバリューの研究は報道研究の古典(1965年)であり、メディア環境の変化と併せて現代では拡張・批判も多い理論です。取材・掲載の可否は各媒体の編集方針によります。</div><h2>次に読む</h2><ul><li><a href="#story-branding-exhibition">“物語で選ばれる宿” — 展示が示すブランディングの力</a> — 3版ストーリーの話</li><li><a href="#regional-identity-brand-nhatrang">【事例】地域性をブランドに翻訳した宿の作り方</a> — 地域の物語の作り方の話</li><li><a href="#review-replies-trust">感謝のメッセージが届きました — レビュー返信で信頼を積む</a> — 第3者の言葉の信用の話</li><li><a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a> — 数字の規律の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"PR・メディア"}],["$","span",null,{"children":["ARTICLE ","064"]}]]}],["$","h1",null,{"children":"地方ホテルがメディアに取り上げられる術"}],["$","p",null,{"className":"excerpt","children":"ニュースは恣意で選ばれない——1965年の研究が見つけた「ニュースバリュー」(近接性・個人化・意味性・時宜性)で選ばれる。地方ホテルは、その土俵に最初から立っている。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_regional-hotel-media-new.jpg","alt":"地方ホテルがメディアに取り上げられる術"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.03.18"}],["$","span",null,{"children":"PR & Media"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","media-youtube-introduction",{"href":"/journal/articles/media-youtube-introduction","children":[["$","img",null,{"src":"/library/journal/ai_media-youtube-introduction.jpg","alt":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.19"}],["$","h4",null,{"children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}]]}]]}],["$","$L2","filming-requests-handling",{"href":"/journal/articles/filming-requests-handling","children":[["$","img",null,{"src":"/library/journal/ai_filming-requests-handling.jpg","alt":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.07.06"}],["$","h4",null,{"children":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}]]}]]}],["$","$L2","press-release-local-media",{"href":"/journal/articles/press-release-local-media","children":[["$","img",null,{"src":"/library/journal/ai_press-release-local-media.jpg","alt":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.13"}],["$","h4",null,{"children":"地域メディアに取り上げられるプレスリリースの書き方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/sns-want-to-visit","children":["← ","SNSで「行ってみたい」を作る"]}],["$","$L2",null,{"href":"/journal/articles/scent-music-five-senses","children":["香りと音楽 — 五感で覚えられる宿"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T18f4,<p>地方ホテルは、メディアに取り上げられる「構造的な優位」を持っています——「地域」という切り口です。広告を買うのではなく、取材してもらう。この記事は、その作法を「なぜ報じられるのか」の理論から整理します。</p><div class="stats"><span class="tag">RESEARCH</span><strong>1965年、平和研究者のヨハン・ガルトゥングとマリ・ルージュは、各国のニュースを分析し、ある出来事が「ニュース」として選ばれる条件を「ニュースバリュー(選択基準)」として整理した(論文「外国ニュースの構造」)。頻度、明確性、近接性、意味性、個人化、意外性など複数の基準を満たすほど報じられやすい——ニュースの選択は恣意ではなく、予測可能な基準で動くという、その後の報道研究の基礎となった発見</strong> — 報じられるかどうかには、構造がある。</div><h2>地方ホテルは、土俵に最初から立っている</h2><p>この理論を宿に翻訳すると、面白いことが分かります。報じられるストーリーの4要素——<strong>地域の角度、人の要素、社会の共鳴、旬</strong>——は、実はニュースバリューの言い換えです。</p><ul><li><strong>地域の角度=近接性</strong> — この地域にあって、他にないもの。地域メディアの読者に最も「近い」物語。</li><li><strong>人の要素=個人化</strong> — 経営者・スタッフ・生産者。人は人に興味を持つ。制度の話より、一人の人生の話が選ばれる。</li><li><strong>社会の共鳴=意味性</strong> — 雇用、地域活性、環境。読者の関心(社会課題)と重なる物語ほど意味があるとされる。</li><li><strong>旬=時宜性</strong> — 季節・イベント・周年。今報じる理由。</li></ul><p>4つのうち3つが揃うと「取材の価値」があります——これは経験則ではなく、理論の予測と一致します(複数の基準を満たすほど選ばれやすい)。<strong>大都市のホテルが「地域の角度」を作るのに苦労する一方、地方の宿は最初からこの基準を持っている</strong>。足りないのは、残りの3つを意図的に揃えるだけです。</p><h2>プレスキット — 取材を「しやすく」する道具</h2><ul><li><strong>ストーリーの3版</strong> — 30秒・3分・10分版。物語の記事と同じワンソースの3翻訳です。</li><li><strong>ファクトボックス</strong> — 数字・沿革・実績。根拠を示す(数字の規律はゼロウェイストの記事と共通——計測方法を添える)。</li><li><strong>写真セット</strong> — 高精細5〜10枚+クレジット表記。記事は写真から生まれることも多い。</li><li><strong>連絡先と対応の約束</strong> — 担当者1名と「何時間以内に返すか」。記者の締め切りは宿の都合を待ちません。</li></ul><h2>「広告でなく取材」の本質 — 第3者の言葉</h2><p>なぜ広告でなく取材なのか。自費の広告は「宿が言いたいこと」、記事は「第3者が報じる価値を見出したこと」——この信用の差は、レビューと自社サイトの関係と同じ構造です(レビュー運営の記事参照)。そして、地方の記者は常に「地域の物語」を探しています。取材需要は日々存在していて、足りないのは供給——記事になりやすい形に整えられた物語です。<strong>まずローカルメディアで実績を作り</strong>、旬のフック(季節・行事・周年)で四半期に1回、届ける。全国メディアは、その積み上げの先から来ます。</p><h2>反対側 — PRが宿を疲れさせるとき</h2><ul><li><strong>同じピッチの横流し</strong> — 地元紙が欲しいのは全国向けの話ではなく、地元の物語です。媒体ごとに「近接性」の中身を書き替える。</li><li><strong>数字の誇張</strong> — 記事は事実を確認して書きます。プレスキットの数字に根拠がなければ、信頼は宿に返ってこない。</li><li><strong>報じられた後が本番</strong> — 記客が来る宿の体験が、記事の内容を下回れば、記事はむしろ落差を広げます。報じる前に中身を整える順番を守る。</li><li><strong>担当1名の負担</strong> — SLAは「24時間以内に返信」など現実的な水準に。PR担当の役割を兼任のままで積むと、返信の遅れが機会損失になります。</li><li><strong>掲載をゴールにしない</strong> — 記事のURLは、予約サイトの紹介文やSNSの証拠として使い回せる資産です(物語を展示する場所の記事参照)。1回で捨てない。</li></ul><p>最初の一歩は、地域の角度を1行で書くことです——「〇〇で唯一の△△」。その1行に、人(誰が)と旬(なぜ今)を足す。プレスキットの最初の1枚は、その3行から始まります。メディアが報じるのは「ホテル」ではなく「物語」です。そして物語は、地方の宿の中に、もう書ける状態で眠っています。</p><div class="note">この記事はアイデア共有を目的としています。ニュースバリューの研究は報道研究の古典(1965年)であり、メディア環境の変化と併せて現代では拡張・批判も多い理論です。取材・掲載の可否は各媒体の編集方針によります。</div><h2>次に読む</h2><ul><li><a href="#story-branding-exhibition">“物語で選ばれる宿” — 展示が示すブランディングの力</a> — 3版ストーリーの話</li><li><a href="#regional-identity-brand-nhatrang">【事例】地域性をブランドに翻訳した宿の作り方</a> — 地域の物語の作り方の話</li><li><a href="#review-replies-trust">感謝のメッセージが届きました — レビュー返信で信頼を積む</a> — 第3者の言葉の信用の話</li><li><a href="#zero-waste-communication">本当にゼロウェイストは可能か？ サステナブル運営の伝え方</a> — 数字の規律の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"PR・メディア"}],["$","span",null,{"className":"ARTICLE","children":"064"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方ホテルがメディアに取り上げられる術"}],["$","span",null,{"className":"en-only","children":"How Regional Hotels Get Featured in the Media"}],["$","span",null,{"className":"zh-only","children":"当地酒店如何在媒体上亮相"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"ニュースは恣意で選ばれない——1965年の研究が見つけた「ニュースバリュー」(近接性・個人化・意味性・時宜性)で選ばれる。地方ホテルは、その土俵に最初から立っている。"}],["$","span",null,{"className":"en-only","children":"News is not chosen by whim — it is chosen by the \"news values\" a 1965 study found (proximity, personalization, meaningfulness, timeliness). A regional hotel stands on that ground from the start."}],["$","span",null,{"className":"zh-only","children":"如何创建新闻资料袋，让您报道“报道”而不是“广告”。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_regional-hotel-media-new.jpg","alt":"地方ホテルがメディアに取り上げられる術"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.03.18"}],["$","span",null,{"children":"PR & Media"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T191f,<p>Regional hotels hold a "structural advantage" in being featured by the media — the angle of "the region." Not buying advertising, but being covered. This article organizes the craft of it, starting from the theory of "why things get reported."</p>
+
+<div class="stats"><span class="tag">RESEARCH</span><strong>In 1965, the peace researchers Johan Galtung and Mari Holmboe Ruge analyzed the news of various countries and organized the conditions under which an event is selected as "news" as "news values" (selection criteria), in the paper "The Structure of Foreign News." The more criteria met — frequency, clarity, proximity, meaningfulness, personalization, unexpectedness, and others — the more likely a story is to be reported: a finding that became the foundation of later journalism research, showing that the selection of news runs not on whim but on predictable criteria</strong> — Whether something is reported has a structure.</div>
+
+<h2>Regional hotels stand on the ground from the start</h2>
+
+<p>Translate this theory for properties, and something interesting emerges. The four elements of a story that gets reported — <strong>the regional angle, the human element, social resonance, and timeliness</strong> — are, in fact, a paraphrase of the news values.</p>
+
+<ul>
+<li><strong>The regional angle = proximity</strong> — What exists in this region and nowhere else. The story "nearest" to the regional media’s readers.</li>
+<li><strong>The human element = personalization</strong> — The owner, the staff, the producers. People are interested in people. More than a story of systems, the story of one life is chosen.</li>
+<li><strong>Social resonance = meaningfulness</strong> — Employment, regional vitality, the environment. The more a story overlaps the readers’ concerns (social issues), the more "meaning" it is judged to carry.</li>
+<li><strong>Timeliness = the season</strong> — Season, events, anniversaries. The reason to report it now.</li>
+</ul>
+
+<p>When three of the four are in place, there is "value in covering it" — this is not a rule of thumb but a match with the theory’s prediction (the more criteria met, the more likely the selection). <strong>While big-city hotels struggle to build "the regional angle," regional properties hold this criterion from the start.</strong> What is missing is only the deliberate assembling of the remaining three.</p>
+
+<h2>The press kit — a tool for making coverage "easy"</h2>
+
+<ul>
+<li><strong>The 3 versions of the story</strong> — 30-second, 3-minute, 10-minute. The same one-source three translations as in the story article.</li>
+<li><strong>A fact box</strong> — Numbers, history, track record. Show the grounds (the discipline of numbers is shared with the zero-waste article — attach the measurement method).</li>
+<li><strong>A photo set</strong> — Five to ten high-resolution images + credit notation. Articles are often born from photographs.</li>
+<li><strong>A contact, and a promise of response</strong> — One person in charge, and "within how many hours we reply." A reporter’s deadline does not wait for the property’s convenience.</li>
+</ul>
+
+<h2>The essence of "coverage, not advertising" — third-party words</h2>
+
+<p>Why coverage rather than advertising? A self-funded advertisement is "what the property wants to say"; an article is "what a third party found worth reporting" — the difference in credit here is the same structure as the relation between reviews and your own site (see the review-management article). And the regional reporter is always searching for "stories of the region." The demand for stories exists every day; what is short is supply — stories shaped into a form that easily becomes an article. <strong>First build a track record in the local media</strong>, then deliver, with a seasonal hook (season, events, anniversaries), once a quarter. The national media come from the far end of that accumulation.</p>
+
+<h2>The other side — when PR exhausts the property</h2>
+
+<ul>
+<li><strong>Forwarding the same pitch everywhere</strong> — What the local paper wants is not a national story but a local one. Rewrite the substance of "proximity" for each outlet.</li>
+<li><strong>Exaggerating the numbers</strong> — Articles are written on confirmed facts. If the numbers in the press kit have no grounds, the trust does not come back to the property.</li>
+<li><strong>What comes after coverage is the real contest</strong> — If the experience of the guests who arrive because of the article falls below what the article described, the article widens the drop instead. Keep the order: fix the substance before it is reported.</li>
+<li><strong>The burden on the one person in charge</strong> — Set the SLA at a realistic level, such as "reply within 24 hours." Pile the PR role onto a concurrent post, and slow replies become lost opportunities.</li>
+<li><strong>Do not make publication the goal</strong> — The article’s URL is an asset reusable as evidence in booking-site descriptions and on social (see the article on where to exhibit the story). Do not discard it after one use.</li>
+</ul>
+
+<p>The first step is to write the regional angle in one line — "the only △△ in 〇〇." To that line, add a person (who) and a season (why now). The first page of the press kit begins from those three lines. What the media report is not "a hotel" but "a story." And inside a regional property, the story is already sleeping, ready to be written.</p>
+
+<div class="note">This article is intended for sharing ideas. The news-values research is a classic of journalism studies (1965), a theory that has since been extended and criticized as the media environment changed. Whether coverage happens depends on each outlet’s editorial policy.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#story-branding-exhibition">"The Stay Chosen by Its Story" — What the Exhibition Reveals About Branding</a> — the 3-version story</li>
+<li><a href="#regional-identity-brand-nhatrang">Case: Translating Regional Identity Into a Hotel Brand</a> — building the region’s story</li>
+<li><a href="#review-replies-trust">A Thank-You Note Arrived — Building Trust Through Review Replies</a> — the credit of third-party words</li>
+<li><a href="#zero-waste-communication">Is Zero Waste Really Possible? Communicating Sustainable Operations</a> — the discipline of numbers</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tfb4,<p>从“区域”的角度来看，当地酒店具有“结构优势”，可以让它们受到媒体的报道。本文介绍了如何创建新闻资料袋，通过“报道”而不是“广告”来为您提供报道。</p>
+<h2>1. 本地酒店为何“容易被举报”？</h2>
+<p>媒体寻找的是“本土故事”——独特的地域+具体的故事。换句话说，“当地酒店”已经有了自己的新闻报道方式。</p>
+<h2>2.“报道故事”的结构</h2>
+<ol>
+<li><strong>区域角度</strong> — 这是您在该地区其他任何地方都找不到的东西。</li>
+<li><strong>人为因素</strong> — 管理层、员工和制作人。</li>
+<li><strong>社会共鸣</strong> ——就业、地区振兴、可持续性——与社会问题的联系。</li>
+<li><strong>季节（时间）</strong> — 季节、事件、周年纪念日 — 现在进行报道的原因。</li>
+</ol>
+<p>如果四人中有三人在场，则“值得报告”。</p>
+<h2>3. 新闻资料</h2>
+<ul>
+<li><strong>故事第三版</strong> — 30​​秒、3分钟和10分钟版本（与故事品牌文章链接）。</li>
+<li><strong>事实框</strong> — 数字、成就、引言（参考值都可以——出示证据）。</li>
+<li><strong>照片集</strong> — 5-10张高清照片+制作人员名单。</li>
+<li><strong>联系地址</strong> — 1 名负责人 + 响应 SLA​​（多少小时返回）。</li>
+</ul>
+<h2>4.公关运动</h2>
+<ul>
+<li><strong>第一本地媒体</strong> — 建立本地报告记录。</li>
+<li><strong>季节和活动的“挂钩”</strong> — 根据季节进行调整。</li>
+<li>示例：每季度面试一次（参考值）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>当谈到“如何让当地酒店出现在媒体上”时，客人的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>公关和媒体的努力增加了整个地区的价值，而不仅仅是旅馆本身。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>第 1 季度</b><span>（数值示例）采访/发表</span></div><div class="stat"><b>第三版</b><span>故事（30秒/3分钟/10分钟）</span></div><div class="stat"><b>1人</b><span>公关人员（具有 SLA）</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>公关的本质不是“沟通酒店”，而是“准备一个故事”。媒体报道的不是酒店，而是故事。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：准备 3 个版本的故事（30 秒、3 分钟和 10 分钟）</li>
+<li>第 2 周：创建事实框 + 照片集</li>
+<li>第三周：公关人员澄清+SLA设定</li>
+<li>第 4 周：首次向当地媒体推介</li>
+<li>每季度：持续推介季节性/活动挂钩</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","media-youtube-introduction",{"href":"/journal/articles/media-youtube-introduction","children":[["$","img",null,{"src":"/library/journal/ai_media-youtube-introduction.jpg","alt":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.12.19"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","span",null,{"className":"en-only","children":"Introducing Your Property to Travel Media and YouTubers: How to Reach Out and Measure Results"}],["$","span",null,{"className":"zh-only","children":"向旅游媒体和 YouTube 用户介绍住宿 — 如何进行邀请并衡量有效性"}]]}]]}]]}],["$","$L8","filming-requests-handling",{"href":"/journal/articles/filming-requests-handling","children":[["$","img",null,{"src":"/library/journal/ai_filming-requests-handling.jpg","alt":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.07.06"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","span",null,{"className":"en-only","children":"TV and Magazine Filming Requests for Regional Properties: How to Handle and Use Them"}],["$","span",null,{"className":"zh-only","children":"电视/杂志对当地住宿的位置请求 - 如何回应和利用它们"}]]}]]}]]}],["$","$L8","press-release-local-media",{"href":"/journal/articles/press-release-local-media","children":[["$","img",null,{"src":"/library/journal/ai_press-release-local-media.jpg","alt":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.13"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","span",null,{"className":"en-only","children":"How to Write Press Releases Picked Up by Local Media"}],["$","span",null,{"className":"zh-only","children":"如何撰写被当地媒体转载的新闻稿"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/sns-want-to-visit","children":["- ",["$","span",null,{"className":"ja-only","children":"SNSで「行ってみたい」を作る"}],["$","span",null,{"className":"en-only","children":"Making People Say \"I Want to Go\" on Social"}],["$","span",null,{"className":"zh-only","children":"在SNS上创建“我想去”"}]]}],["$","$L8",null,{"href":"/journal/articles/scent-music-five-senses","children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]," -"]}]]}]
+10:null

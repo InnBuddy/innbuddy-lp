@@ -1,15 +1,177 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_cleaning-checklist-experience.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T1b84,<p>ゲストは「清掃」を見ません——「清潔さ」を見ます。そして清潔さは、<strong>目立たないときが正解で、目立ったときが失点</strong>になる項目です。本記事は、清掃を「コスト」から「体験」に変えるチェックリストの設計を、数字と文化の両面から整理します。</p><div class="stats"><span class="tag">FACT</span><strong>客室写真の記事で紹介したのと同じ宿泊意識調査(314人・2026年3月実施)では、高単価な宿で期待はずれと感じる要素の上位は「接客やサービスの質の低さ」30.4%、「清掃の行き届いていない箇所がある」24.7%、「料理の質の低さ」21.6%。清掃は料理を上回る位置で、期待を裏切る項目になっている(執筆時点・意識調査)</strong> — 清潔さは「あって当たり前」が崩れた瞬間、2番目に重い。</div><h2>掃き払い — 清掃はもともと歓迎の行為だった</h2><p>数字の前に、文化の記憶をひとつ。茶の湯には「掃き払い」という作法があります。客を迎える前に、露地(茶室へ続く小路)を亭主が掃き清め、打ち水を打つ。<strong>掃除は準備作業ではなく、歓迎の最初の行為</strong>として行われてきました。清掃をコストと見る発想は、実は歴史の中では新しいのです。日本の宿の原点では、掃き払いこそおもてなしの第一動作でした。チェックリストを設計するとき、この視点を持つと項目の選び方が変わります——「何を確認するか」でなく「何で迎えるか」。</p><h2>チェックリストの3層構造 — 標準15・体験7・看板3</h2><ol><li><strong>層1:標準(15項目)</strong> — 毎日の基準。寝具、浴室の水垢と髪の毛、臭い、埃、リモコンや湯沸かしポットの持ち手、カーテンの裏、照明の傘。「清潔さ」を守る層で、ここを2回見る仕組みを作る。</li><li><strong>層2:体験(7項目)</strong> — ゲストが「感じる」細部。到着の最初の5分(ドアを開けた瞬間の空気と温度)、部屋の香り、照明の点灯シーン(全部点いた状態か)、タオルの畳み方、玄関の履物の向き。</li><li><strong>層3:シグネチャー(3項目)</strong> — 宿のひとこと。手書きのメモ、季節の一輪、その宿にしかない置き物の演出。層3は「毎部屋必ず」にしない——小さな体験の選択の規律は、チェックアウト後に語られる体験の記事が扱っています。</li></ol><p>層1が清潔さを守り、層2と層3が体験を作ります。<strong>合計25項目。3層に分ける理由は、配分を間違えないため</strong>です。多くの宿のチェックリストは層1に偏り、層3だけの宿は清潔さを欠く。数字の「15・7・3」は目安ですが、層の順番は動かさないでください。</p><h2>運用の3つ — 記憶に頼らない</h2><ul><li><strong>記録で残す</strong> — 紙でもアプリでも、各部屋の「誰が・いつ・✔」が残る形に。記憶と善意で回る清掃は、繁忙期に必ず崩れます。</li><li><strong>層1のダブルチェック</strong> — 清掃した人と確認する人を分ける。層1は「見落としが失点」の層だから、2回目の目に掛ける価値が最も高い。</li><li><strong>「なぜ」の教育</strong> — カーテンの裏をなぜ見るのか(寝ている間に一番近い場所だから)。どうやるかの伝え方より、なぜを伝える方が現場に残ります。</li></ul><h2>清掃を見せる作法</h2><p>掃除中にゲストと出会ったら——目を逸らさず、会釈をして「お席をお取り替えいたします、少しお時間をくださいますか」の一句を添える。清掃の最中に会釈される経験は、実はゲストの記憶に残ります。掃き払いの文化で、掃く行為は亭主の身振りとして客の目に触れるものだった——<strong>清掃は隠すものではなく、誰がやっているかが見えていて初めて「行為」になる</strong>。清掃スタッフの名前と顔を宿の紹介に載せる宿は、この線で採用にも効いています(採用広報の記事参照)。</p><h2>反対側 — チェックリストが宿を疲れさせるとき</h2><ul><li><strong>✔だけの形骸化</strong> — 全部に✔が付くリストは、実は何も見ていないリストです。週1回、意図的に「✔を付けてはいけない日」を作る荒療治もありますが、まずは層2・3の項目を語れるかで見る。</li><li><strong>外部清掃との線</strong> — 層1は外部に委託できる層、層3は宿の側の手で残す層。線引きを最初に決めないと、看板の体験だけが外注されることになる。</li><li><strong>香りの押し付け</strong> — 層2の「香り」は無香料という選択も含みます。敏感なゲストには芳香剤そのものが不満です(香りの設計の記事参照)。</li><li><strong>25項目を一気に</strong> — 3層全部を今週導入する宿は、来週には元に戻ります。今週は層1の15項目を「ゲストが気づく清潔」の視点で書き直すことから。</li><li><strong>チェックは品質を作らない</strong> — リストは最低限を守る道具です。清潔さの高みを作るのは、チェックする側の目が育つこと。月1回、ベテランと新人の見る部屋を交換する。</li></ul><p>最初の一歩は、今あるチェックリストを1回読み返すことです。読みながら数えるのは、「ゲストが気づく項目」の数。少なければ、層2の視点で足す——ドアを開けた瞬間、最初の5分、手に取るもの。清掃の目標は、検査に合格することではなく、<strong>誰も清掃について話さない滞在を作ること</strong>です。語られないことが、この部門の勲章です。</p><div class="note">この記事はアイデア共有を目的としています。紹介した調査は意識調査(執筆時点)です。清掃基準は公衆衛生・感染症対策の指針と併せて設計してください。</div><h2>次に読む</h2><ul><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — 清掃の動線と時間の話</li><li><a href="#service-standard-basics">サービスの基本 — 人による差をつけない「標準」</a> — 標準の書き方の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 層3の体験の話</li><li><a href="#staff-shortage-shifts">人手不足でも回るシフトの作り方</a> — 清掃の人時を捻出する話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","059"]}]]}],["$","h1",null,{"children":"清掃を「コスト」から「体験」に変えるチェックリスト"}],["$","p",null,{"className":"excerpt","children":"高単価の宿で期待はずれ2位は「清掃の行き届いていない箇所」(24.7%)——清潔さは、崩れた瞬間に重くなる項目です。茶の湯の「掃き払い」に学ぶ、3層25項目のチェックリスト。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_cleaning-checklist-experience.jpg","alt":"清掃を「コスト」から「体験」に変えるチェックリスト"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.05.12"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/sourcing-sustainability","children":["← ","自然の恵みを守る — 仕入れとサステナビリティを語る"]}],["$","$L2",null,{"href":"/journal/articles/staff-shortage-shifts","children":["人手不足でも回るシフトの作り方"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1b84,<p>ゲストは「清掃」を見ません——「清潔さ」を見ます。そして清潔さは、<strong>目立たないときが正解で、目立ったときが失点</strong>になる項目です。本記事は、清掃を「コスト」から「体験」に変えるチェックリストの設計を、数字と文化の両面から整理します。</p><div class="stats"><span class="tag">FACT</span><strong>客室写真の記事で紹介したのと同じ宿泊意識調査(314人・2026年3月実施)では、高単価な宿で期待はずれと感じる要素の上位は「接客やサービスの質の低さ」30.4%、「清掃の行き届いていない箇所がある」24.7%、「料理の質の低さ」21.6%。清掃は料理を上回る位置で、期待を裏切る項目になっている(執筆時点・意識調査)</strong> — 清潔さは「あって当たり前」が崩れた瞬間、2番目に重い。</div><h2>掃き払い — 清掃はもともと歓迎の行為だった</h2><p>数字の前に、文化の記憶をひとつ。茶の湯には「掃き払い」という作法があります。客を迎える前に、露地(茶室へ続く小路)を亭主が掃き清め、打ち水を打つ。<strong>掃除は準備作業ではなく、歓迎の最初の行為</strong>として行われてきました。清掃をコストと見る発想は、実は歴史の中では新しいのです。日本の宿の原点では、掃き払いこそおもてなしの第一動作でした。チェックリストを設計するとき、この視点を持つと項目の選び方が変わります——「何を確認するか」でなく「何で迎えるか」。</p><h2>チェックリストの3層構造 — 標準15・体験7・看板3</h2><ol><li><strong>層1:標準(15項目)</strong> — 毎日の基準。寝具、浴室の水垢と髪の毛、臭い、埃、リモコンや湯沸かしポットの持ち手、カーテンの裏、照明の傘。「清潔さ」を守る層で、ここを2回見る仕組みを作る。</li><li><strong>層2:体験(7項目)</strong> — ゲストが「感じる」細部。到着の最初の5分(ドアを開けた瞬間の空気と温度)、部屋の香り、照明の点灯シーン(全部点いた状態か)、タオルの畳み方、玄関の履物の向き。</li><li><strong>層3:シグネチャー(3項目)</strong> — 宿のひとこと。手書きのメモ、季節の一輪、その宿にしかない置き物の演出。層3は「毎部屋必ず」にしない——小さな体験の選択の規律は、チェックアウト後に語られる体験の記事が扱っています。</li></ol><p>層1が清潔さを守り、層2と層3が体験を作ります。<strong>合計25項目。3層に分ける理由は、配分を間違えないため</strong>です。多くの宿のチェックリストは層1に偏り、層3だけの宿は清潔さを欠く。数字の「15・7・3」は目安ですが、層の順番は動かさないでください。</p><h2>運用の3つ — 記憶に頼らない</h2><ul><li><strong>記録で残す</strong> — 紙でもアプリでも、各部屋の「誰が・いつ・✔」が残る形に。記憶と善意で回る清掃は、繁忙期に必ず崩れます。</li><li><strong>層1のダブルチェック</strong> — 清掃した人と確認する人を分ける。層1は「見落としが失点」の層だから、2回目の目に掛ける価値が最も高い。</li><li><strong>「なぜ」の教育</strong> — カーテンの裏をなぜ見るのか(寝ている間に一番近い場所だから)。どうやるかの伝え方より、なぜを伝える方が現場に残ります。</li></ul><h2>清掃を見せる作法</h2><p>掃除中にゲストと出会ったら——目を逸らさず、会釈をして「お席をお取り替えいたします、少しお時間をくださいますか」の一句を添える。清掃の最中に会釈される経験は、実はゲストの記憶に残ります。掃き払いの文化で、掃く行為は亭主の身振りとして客の目に触れるものだった——<strong>清掃は隠すものではなく、誰がやっているかが見えていて初めて「行為」になる</strong>。清掃スタッフの名前と顔を宿の紹介に載せる宿は、この線で採用にも効いています(採用広報の記事参照)。</p><h2>反対側 — チェックリストが宿を疲れさせるとき</h2><ul><li><strong>✔だけの形骸化</strong> — 全部に✔が付くリストは、実は何も見ていないリストです。週1回、意図的に「✔を付けてはいけない日」を作る荒療治もありますが、まずは層2・3の項目を語れるかで見る。</li><li><strong>外部清掃との線</strong> — 層1は外部に委託できる層、層3は宿の側の手で残す層。線引きを最初に決めないと、看板の体験だけが外注されることになる。</li><li><strong>香りの押し付け</strong> — 層2の「香り」は無香料という選択も含みます。敏感なゲストには芳香剤そのものが不満です(香りの設計の記事参照)。</li><li><strong>25項目を一気に</strong> — 3層全部を今週導入する宿は、来週には元に戻ります。今週は層1の15項目を「ゲストが気づく清潔」の視点で書き直すことから。</li><li><strong>チェックは品質を作らない</strong> — リストは最低限を守る道具です。清潔さの高みを作るのは、チェックする側の目が育つこと。月1回、ベテランと新人の見る部屋を交換する。</li></ul><p>最初の一歩は、今あるチェックリストを1回読み返すことです。読みながら数えるのは、「ゲストが気づく項目」の数。少なければ、層2の視点で足す——ドアを開けた瞬間、最初の5分、手に取るもの。清掃の目標は、検査に合格することではなく、<strong>誰も清掃について話さない滞在を作ること</strong>です。語られないことが、この部門の勲章です。</p><div class="note">この記事はアイデア共有を目的としています。紹介した調査は意識調査(執筆時点)です。清掃基準は公衆衛生・感染症対策の指針と併せて設計してください。</div><h2>次に読む</h2><ul><li><a href="#room-turnover-flow">客室ターンオーバー — 「ゲストの待ち時間」を削る掃除フロー</a> — 清掃の動線と時間の話</li><li><a href="#service-standard-basics">サービスの基本 — 人による差をつけない「標準」</a> — 標準の書き方の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 層3の体験の話</li><li><a href="#staff-shortage-shifts">人手不足でも回るシフトの作り方</a> — 清掃の人時を捻出する話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"059"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"清掃を「コスト」から「体験」に変えるチェックリスト"}],["$","span",null,{"className":"en-only","children":"Turning Housekeeping From \"Cost\" Into \"Experience\": A Checklist"}],["$","span",null,{"className":"zh-only","children":"将清洁从“成本”变为“体验”的清单"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"高単価の宿で期待はずれ2位は「清掃の行き届いていない箇所」(24.7%)——清潔さは、崩れた瞬間に重くなる項目です。茶の湯の「掃き払い」に学ぶ、3層25項目のチェックリスト。"}],["$","span",null,{"className":"en-only","children":"At higher-priced properties, the second-biggest letdown is \"places the cleaning missed\" (24.7%) — cleanliness is the item that grows heavy the moment it breaks. A 25-item checklist in three layers, learned from the tea ceremony’s \"hakibarai.\""}],["$","span",null,{"className":"zh-only","children":"32 项清单。旨在让清洁成为“体验的一部分”。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_cleaning-checklist-experience.jpg","alt":"清掃を「コスト」から「体験」に変えるチェックリスト"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.05.12"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1ae0,<p>Guests do not see "cleaning" — they see "cleanliness." And cleanliness is the item where <strong>being unnoticeable is the right answer, and being noticeable is the loss of points</strong>. This article organizes the design of a checklist that turns housekeeping from "cost" into "experience," from both the numbers and the culture.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>In the same accommodation-attitudes survey introduced in the room-photos article (314 people, conducted March 2026), the leading elements felt as letdowns at higher-priced properties were "poor quality of service and staff" at 30.4%, "places the cleaning had not reached" at 24.7%, and "poor quality of the food" at 21.6%. Cleaning, above the food, has become an item that betrays expectations (as of writing; an attitudes survey)</strong> — The moment the "taken for granted" of cleanliness breaks, it is the second-heaviest thing.</div>
+
+<h2>Hakibarai — cleaning was originally an act of welcome</h2>
+
+<p>Before the numbers, one memory of culture. In the tea ceremony there is a practice called "hakibarai" — sweeping. Before receiving a guest, the host sweeps clean the roji (the path leading to the tea room) and sprinkles it with water. <strong>Cleaning was performed not as preparation but as the first act of welcome.</strong> The view of cleaning as a cost is, in fact, new in history. At the origin of the Japanese inn, the sweeping was the first motion of omotenashi. Hold this viewpoint when designing a checklist, and the way you choose items changes — not "what to check" but "with what to welcome."</p>
+
+<h2>The checklist’s 3-layer structure — 15 standard, 7 experience, 3 signature</h2>
+
+<ol>
+<li><strong>Layer 1: standard (15 items)</strong> — The daily baseline. Bedding, soap scum and hair in the bath, odors, dust, the remote controls and kettle handles, the backs of the curtains, the light shades. The layer that defends "cleanliness" — build a system that checks it twice.</li>
+<li><strong>Layer 2: experience (7 items)</strong> — The details guests "feel." The first five minutes of arrival (the air and temperature at the moment the door opens), the room’s scent, the lighting scene (is everything on?), the fold of the towels, the direction of the slippers at the entrance.</li>
+<li><strong>Layer 3: signature (3 items)</strong> — The property’s one word. A handwritten note, a single seasonal flower, the staging of an object that exists nowhere else. Do not make Layer 3 "every room, without fail" — the discipline of choosing small experiences is handled in the small-experiences article.</li>
+</ol>
+
+<p>Layer 1 defends cleanliness; Layers 2 and 3 make the experience. <strong>25 items in all. The reason for the three layers is not to get the allocation wrong.</strong> Most properties’ checklists lean on Layer 1; a property with only Layer 3 lacks cleanliness. The numbers "15 / 7 / 3" are yardsticks, but do not move the order of the layers.</p>
+
+<h2>Three practices — not relying on memory</h2>
+
+<ul>
+<li><strong>Leave a record</strong> — On paper or in an app, in a form where "who, when, ✔" remains for each room. Cleaning that runs on memory and goodwill always breaks in the peak season.</li>
+<li><strong>Double-check Layer 1</strong> — Separate the person who cleans from the person who verifies. Layer 1 is the layer where "an oversight is a lost point," so it is worth the second pair of eyes most.</li>
+<li><strong>Teaching the "why"</strong> — Why look behind the curtains (because it is the nearest place to the sleeping guest). Telling why stays on the floor longer than telling how.</li>
+</ul>
+
+<h2>The manner of showing the cleaning</h2>
+
+<p>If you meet a guest while cleaning — do not look away; bow, and add one line: "We are preparing your room — may we ask for a little time?" The experience of being bowed to mid-cleaning stays, in fact, in the guest’s memory. In the culture of hakibarai, the act of sweeping was visible to the guest as the host’s own gesture — <strong>cleaning is not something to hide; only when it is visible who is doing it does it become "an act."</strong> Properties that put their housekeepers’ names and faces in their introduction are, on this same line, helping their hiring too (see the hiring-PR article).</p>
+
+<h2>The other side — when the checklist exhausts the property</h2>
+
+<ul>
+<li><strong>Hollowing out into ✔s</strong> — A list where everything gets a ✔ is, in fact, a list where nothing is being seen. A rough remedy — one day a week on which ✔s are forbidden — exists, but start by testing whether staff can talk about the Layer 2 and 3 items.</li>
+<li><strong>The line with outsourced cleaning</strong> — Layer 1 is a layer that can be outsourced; Layer 3 is a layer to keep in the property’s own hands. Decide the line first, or only the signature experience gets outsourced.</li>
+<li><strong>Pushing a scent</strong> — Layer 2’s "scent" includes the choice of no scent at all. For sensitive guests, the air freshener itself is the complaint (see the scent-design article).</li>
+<li><strong>All 25 items at once</strong> — A property introducing all three layers this week returns to last week by next week. This week, start by rewriting Layer 1’s 15 items through the lens of "cleanliness the guest notices."</li>
+<li><strong>Checks do not make quality</strong> — The list is a tool for holding the minimum. What raises cleanliness to a higher level is the eye of the checker growing. Once a month, swap the rooms the veteran and the newcomer each look at.</li>
+</ul>
+
+<p>The first step is to reread your current checklist once. What you count while reading is the number of "items the guest notices." If few, add them through the Layer 2 lens — the moment the door opens, the first five minutes, the things taken in hand. The goal of cleaning is not to pass an inspection; it is <strong>to make a stay in which nobody talks about cleaning</strong>. Not being talked about is this department’s medal.</p>
+
+<div class="note">This article is intended for sharing ideas. The survey introduced is an attitudes survey (as of writing). Please design cleaning standards together with public-health and infection-control guidelines.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#room-turnover-flow">Room Turnover: Cutting Guest Wait with Cleaning Flow</a> — the flow and timing of cleaning</li>
+<li><a href="#service-standard-basics">Service Basics: The "Standard" That Does Not Vary by Person</a> — how to write a standard</li>
+<li><a href="#small-experiences-5-touchpoints">The "Small Experiences" Guests Talk About After Checkout</a> — the Layer 3 experiences</li>
+<li><a href="#staff-shortage-shifts">Building Shifts That Run on a Staff-Short Team</a> — finding the person-hours for cleaning</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tf78,<p>客人看到的不是“清洁”，而是“清洁”。然而，“清洁度”是评价中最重要的一项。本文介绍了如何设计一个清单，将清洁从“成本中心”转变为“体验”。</p>
+<h2>1.数据：清洁是审核中最重要的一项</h2>
+<p>许多差评的原因都与清洁有关（参考值：40%）。 “没有缺点”不会评价，但“缺点”会高度评价。换句话说，清洁<strong>“当答案不引人注目时，它就是正确的”，“当它脱颖而出时，你就输了”。</strong>这是一个项目。</p>
+<h2>2. 检查清单的三层结构</h2>
+<ol>
+<li><strong>第 1 级：标准（15 项）</strong> — 日常标准（床上用品、浴室、气味、灰尘）。</li>
+<li><strong>第 2 级：经验（7 项）</strong> — 客人可以“感受到”的细节（气味、灯光、温度、前 5 分钟）。</li>
+<li><strong>第 3 层：签名（3 项）</strong> — 关于旅馆的介绍（手写笔记、便利设施等）</li>
+</ol>
+<p>第一层保护“清洁”，第二层和第三层创造“体验”。</p>
+<h2>3. 操作设计</h2>
+<ul>
+<li><strong>不依赖“记忆”的清单</strong> — 数字化和照相记录。</li>
+<li><strong>双重检查</strong> — 引入检查者角色（第 1 层始终是第二次）。</li>
+<li><strong>教育“为什么”</strong> — 教导“为什么”而不是“如何”。</li>
+</ul>
+<h2>4、效果</h2>
+<ul>
+<li>减少与清洁相关的投诉（例如减少 70%）。</li>
+<li>提高预订转化率（例如 +12%）。</li>
+<li>评论中“房间很干净”的提及增多。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“将清洁从成本转变为体验的清单” 与五年前相比，客人的期望发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>住宿运营的举措提升的不只是单个旅馆，也包括整个地区的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>减少 70%</b><span>（数值示例）清洁相关投诉</span></div><div class="stat"><b>+12%</b><span>（数值示例）预订转化率</span></div><div class="stat"><b>增加</b><span>（数值示例）提及“房间很干净”</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>清洁度的标准不是“您认为的清洁度”，而是“客人注意到的清洁度”。清单的三层是弥补这一差距的工具。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第 1 周：当前清单清单（分为 3 层）</li>
+<li>第二周：第2、3层“体验项目”设计</li>
+<li>第三周：引入数字化+双重检查</li>
+<li>第四周：讲授“为什么”</li>
+<li>每月：监控评论中提到的清洁事宜</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/sourcing-sustainability","children":["- ",["$","span",null,{"className":"ja-only","children":"自然の恵みを守る — 仕入れとサステナビリティを語る"}],["$","span",null,{"className":"en-only","children":"Protecting Nature's Gifts — Talking Through Procurement & Sustainability"}],["$","span",null,{"className":"zh-only","children":"保护大自然的恩惠——谈论购买和可持续发展"}]]}],["$","$L8",null,{"href":"/journal/articles/staff-shortage-shifts","children":[["$","span",null,{"className":"ja-only","children":"人手不足でも回るシフトの作り方"}],["$","span",null,{"className":"en-only","children":"Building Shifts That Run on a Staff-Short Team"}],["$","span",null,{"className":"zh-only","children":"即使人手短缺，如何安排班次"}]," -"]}]]}]
+10:null

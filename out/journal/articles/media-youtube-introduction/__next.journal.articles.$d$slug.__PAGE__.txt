@@ -1,15 +1,172 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_media-youtube-introduction.jpg","image"]
 :HL["/library/journal/ai_filming-requests-handling.jpg","image"]
 :HL["/library/journal/ai_regional-hotel-media-new.jpg","image"]
 :HL["/library/journal/ai_press-release-local-media.jpg","image"]
-3:T1f6e,<p>メディアやYouTuberへの宿紹介を「無料で宣伝してもらう話」として始めた宿の多くは、目的の取り違えで行き詰まります。宣伝が目的の宿は「うちを良く映してください」と頼み、依頼された側は広告を作り、視聴者はその薄さを見抜く。この記事は出発点から違う定義を置きます。メディア・YouTuberへの宿紹介は<strong>「無料広告」ではなく「コンテンツの提携」</strong>である——そして2023年10月から、この定義は好みの問題ではなく、法的な線にもなりました。</p><h2>2023年10月1日 — 線が引かれた日</h2><p>宿が無償で宿泊を提供し、その見返りに紹介の動画や記事を作ってもらう。この形には、2023年10月1日から景品表示法上の新しい線が引かれています。宣伝を目的とした無償提供の見返りに行われる紹介は、「第三者の自主的な意見」ではなく<strong>事業者(宿)の表示</strong>として扱われ、広告である旨の明示が求められる。明示のない紹介は、隠された広告=ステルスマーケティングになる、ということです。</p><div class="stats"><span class="tag">FACT</span><strong>ステルスマーケティングは、2023年10月1日施行の消費者庁告示により景品表示法の不当表示に指定された。宿が宣伝を目的に無償の宿泊提供などを行い、その目的に沿う紹介を投稿者が行う場合、その投稿は「第三者の自主的な意見」ではなく事業者(宿)の表示とみなされ、「宿泊提供」「PR」など広告である旨の明示が必要になる。違反の責任を問われるのは依頼側の事業者で、排除措置命令の対象となる</strong> — 「無料で宣伝してもらう」構造は、法律上、隠すことができなくなった。</div><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>施行日より前の投稿も、現在も表示が続いているなら規制の対象になります</strong> — 過去に無償提供で作ってもらった紹介がまだ公開されているなら、表記を見直すことは今でもできます。</div><p>この線は、実は提携の価値を下げません。明示された紹介は今も機能している——視聴者は「提供」と書かれていても、内容が誠実なら最後まで見る。明示すると効果が消えるという思い込みは、「やらせ」を見抜く視聴者の目を、自分の宿に重ねただけのことが多い。<strong>正直に書いても成立するコンテンツを作れるか</strong>。ここが提携の本物の条件です。</p><h2>ロケ依頼との違い — 向こうからと、こちらから</h2><ul><li><strong>ロケは向こうから、紹介はこちらから</strong> — テレビや雑誌の撮影依頼は、制作側の事情で来る受け身の仕事です(その応対は別記事で)。宿紹介は、こちらから相手を選んで声をかける攻めの仕事。同じ「撮られる」でも、立っている場所が違います。</li><li><strong>目的は「掲載」ではなく「継続的な関係」</strong> — 1本の動画で終わる紹介は、広告を1回流したのと変わりません。提携の成果は、相手があなたの宿を「また撮りに来たくなる取材先」として覚える関係にあります。1回目の対応が2回目を生む。</li></ul><h2>アプローチの3ステップ</h2><ol><li><strong>リサーチ — 視聴者と客層が重なる相手を探す</strong> — 基準は登録者数ではなく、その相手が誰に見られているか。山歩きの動画を作る人に、街のビジネス宿は合いません。過去の作品を見て、視聴者と自宿の客層が重なるかを確かめる。</li><li><strong>提案 — 「来てほしい」ではなく「コンセプト」</strong> — 「ぜひ泊まりに来てください」は返信に困る依頼です。「山の水で淹れるコーヒーと、焚き火の前に置いた椅子——『自然の中の一杯』を1本撮りませんか」は、相手の企画の種になる。宿の魅力×コンテンツの軸、この掛け算で提案を書く。</li><li><strong>撮影後の取り決め — 権利・タイミング・流用・明示</strong> — 写真や動画の使用権(自社サイトやSNSで使えるか)、投稿のタイミング、そして提供の明示。明示は法律の要件である以上に、この提携の信頼を証明する看板です。取り決めは撮影の前に、1通のメールで書き残す。</li></ol><h2>効果測定の3点 — ビュー数は入らない</h2><ul><li><strong>投稿後の予約問い合わせ</strong> — ビュー数は相手の資産で、問い合わせは宿の資産。投稿から2週間、問い合わせの増減を記録する。</li><li><strong>宿名・地域名の検索の増減</strong> — Googleトレンドなどで、投稿の前後30日を比べる。認知が広がっているかの、いちばん素朴な証拠になる。</li><li><strong>直結予約の増加</strong> — 「あの動画を見て」という電話や自社サイト経由の予約が来たら、それが提携の成果の形。OTA経由の予約と分けて数えます。</li></ul><p>測るときは、施策前後30日間を同じ集計方法で記録します。数字の前に比べ方を決めておくことが、後で効果を読むための最低限の準備です。</p><h2>反対側 — 提携が壊れるとき</h2><ul><li><strong>ビュー数への酔い</strong> — 再生数が伸びた瞬間に、目的を数字に取り替えてしまう。問い合わせと直結が動かなければ、その紹介は広告として機能していません。</li><li><strong>断る勇気の不在</strong> — 視聴者と客層がずれた相手からの提案を、恩や勢いで受ける。合わない紹介は、双方の時間を無駄にするだけです。</li><li><strong>現場の負担</strong> — 撮影は他のゲストの静けさとスタッフの勤務の上で行われます。時間帯・撮影範囲・他ゲストの写り込みを事前に決めて守る。</li><li><strong>口約束のまま撮る</strong> — 権利と流用と明示を決めずに撮影だけ先に済ませると、後から全部をやり直すことになる。1枚のメールでいい、書き残す。</li></ul><p>「うちみたいな小さな宿が声をかけて、相手にされるか」——この心配は、声のかけ先を間違えているだけのことが多い。最初の相手は、あなたの宿がある町を歩いて撮っている、登録者1万人の動画主で十分です。まずは視聴者と客層が重なる相手を3名リストして、それぞれに1行のコンセプトを書くことから。明示を恐れない提携だけが、これからは残ります。</p><div class="note">この記事はアイデア共有を目的としています。ステルスマーケティング規制の運用は、消費者庁の運用基準と最新の公表資料をご確認ください。効果の数字は施設・時期により異なります。</div><h2>次に読む</h2><ul><li><a href="#influencer-collaboration-3-conditions">インフルエンサーとの協業 — 宿泊提供の前に決める3つの条件</a> — 提供の条件設計をさらに詰める話</li><li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — 宿が作る側に回る話</li><li><a href="#regional-hotel-media">地方ホテルがメディアに取り上げられる術</a> — 待つことと呼ぶことの間の話</li><li><a href="#filming-requests-handling">地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法</a> — 向こうから来る場合の応対の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"PR・メディア"}],["$","span",null,{"children":["ARTICLE ","025"]}]]}],["$","h1",null,{"children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","p",null,{"className":"excerpt","children":"無償宿泊と引き換えの紹介には、2023年10月から「広告である旨の明示」という法的な線が引かれました。明示を恐れない「コンテンツの提携」の進め方と、効果測定の3点を整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_media-youtube-introduction.jpg","alt":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.12.19"}],["$","span",null,{"children":"PR & Media"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","filming-requests-handling",{"href":"/journal/articles/filming-requests-handling","children":[["$","img",null,{"src":"/library/journal/ai_filming-requests-handling.jpg","alt":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.07.06"}],["$","h4",null,{"children":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}]]}]]}],["$","$L2","regional-hotel-media",{"href":"/journal/articles/regional-hotel-media","children":[["$","img",null,{"src":"/library/journal/ai_regional-hotel-media-new.jpg","alt":"地方ホテルがメディアに取り上げられる術"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.18"}],["$","h4",null,{"children":"地方ホテルがメディアに取り上げられる術"}]]}]]}],["$","$L2","press-release-local-media",{"href":"/journal/articles/press-release-local-media","children":[["$","img",null,{"src":"/library/journal/ai_press-release-local-media.jpg","alt":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.13"}],["$","h4",null,{"children":"地域メディアに取り上げられるプレスリリースの書き方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/stay-purpose-demand","children":["← ","旅の目的別の宿選び — ビジネス・レジャー・行事で変わる需要"]}],["$","$L2",null,{"href":"/journal/articles/regional-experience-program","children":["地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1f6e,<p>メディアやYouTuberへの宿紹介を「無料で宣伝してもらう話」として始めた宿の多くは、目的の取り違えで行き詰まります。宣伝が目的の宿は「うちを良く映してください」と頼み、依頼された側は広告を作り、視聴者はその薄さを見抜く。この記事は出発点から違う定義を置きます。メディア・YouTuberへの宿紹介は<strong>「無料広告」ではなく「コンテンツの提携」</strong>である——そして2023年10月から、この定義は好みの問題ではなく、法的な線にもなりました。</p><h2>2023年10月1日 — 線が引かれた日</h2><p>宿が無償で宿泊を提供し、その見返りに紹介の動画や記事を作ってもらう。この形には、2023年10月1日から景品表示法上の新しい線が引かれています。宣伝を目的とした無償提供の見返りに行われる紹介は、「第三者の自主的な意見」ではなく<strong>事業者(宿)の表示</strong>として扱われ、広告である旨の明示が求められる。明示のない紹介は、隠された広告=ステルスマーケティングになる、ということです。</p><div class="stats"><span class="tag">FACT</span><strong>ステルスマーケティングは、2023年10月1日施行の消費者庁告示により景品表示法の不当表示に指定された。宿が宣伝を目的に無償の宿泊提供などを行い、その目的に沿う紹介を投稿者が行う場合、その投稿は「第三者の自主的な意見」ではなく事業者(宿)の表示とみなされ、「宿泊提供」「PR」など広告である旨の明示が必要になる。違反の責任を問われるのは依頼側の事業者で、排除措置命令の対象となる</strong> — 「無料で宣伝してもらう」構造は、法律上、隠すことができなくなった。</div><div class="stats"><span class="tag">DID YOU KNOW?</span><strong>施行日より前の投稿も、現在も表示が続いているなら規制の対象になります</strong> — 過去に無償提供で作ってもらった紹介がまだ公開されているなら、表記を見直すことは今でもできます。</div><p>この線は、実は提携の価値を下げません。明示された紹介は今も機能している——視聴者は「提供」と書かれていても、内容が誠実なら最後まで見る。明示すると効果が消えるという思い込みは、「やらせ」を見抜く視聴者の目を、自分の宿に重ねただけのことが多い。<strong>正直に書いても成立するコンテンツを作れるか</strong>。ここが提携の本物の条件です。</p><h2>ロケ依頼との違い — 向こうからと、こちらから</h2><ul><li><strong>ロケは向こうから、紹介はこちらから</strong> — テレビや雑誌の撮影依頼は、制作側の事情で来る受け身の仕事です(その応対は別記事で)。宿紹介は、こちらから相手を選んで声をかける攻めの仕事。同じ「撮られる」でも、立っている場所が違います。</li><li><strong>目的は「掲載」ではなく「継続的な関係」</strong> — 1本の動画で終わる紹介は、広告を1回流したのと変わりません。提携の成果は、相手があなたの宿を「また撮りに来たくなる取材先」として覚える関係にあります。1回目の対応が2回目を生む。</li></ul><h2>アプローチの3ステップ</h2><ol><li><strong>リサーチ — 視聴者と客層が重なる相手を探す</strong> — 基準は登録者数ではなく、その相手が誰に見られているか。山歩きの動画を作る人に、街のビジネス宿は合いません。過去の作品を見て、視聴者と自宿の客層が重なるかを確かめる。</li><li><strong>提案 — 「来てほしい」ではなく「コンセプト」</strong> — 「ぜひ泊まりに来てください」は返信に困る依頼です。「山の水で淹れるコーヒーと、焚き火の前に置いた椅子——『自然の中の一杯』を1本撮りませんか」は、相手の企画の種になる。宿の魅力×コンテンツの軸、この掛け算で提案を書く。</li><li><strong>撮影後の取り決め — 権利・タイミング・流用・明示</strong> — 写真や動画の使用権(自社サイトやSNSで使えるか)、投稿のタイミング、そして提供の明示。明示は法律の要件である以上に、この提携の信頼を証明する看板です。取り決めは撮影の前に、1通のメールで書き残す。</li></ol><h2>効果測定の3点 — ビュー数は入らない</h2><ul><li><strong>投稿後の予約問い合わせ</strong> — ビュー数は相手の資産で、問い合わせは宿の資産。投稿から2週間、問い合わせの増減を記録する。</li><li><strong>宿名・地域名の検索の増減</strong> — Googleトレンドなどで、投稿の前後30日を比べる。認知が広がっているかの、いちばん素朴な証拠になる。</li><li><strong>直結予約の増加</strong> — 「あの動画を見て」という電話や自社サイト経由の予約が来たら、それが提携の成果の形。OTA経由の予約と分けて数えます。</li></ul><p>測るときは、施策前後30日間を同じ集計方法で記録します。数字の前に比べ方を決めておくことが、後で効果を読むための最低限の準備です。</p><h2>反対側 — 提携が壊れるとき</h2><ul><li><strong>ビュー数への酔い</strong> — 再生数が伸びた瞬間に、目的を数字に取り替えてしまう。問い合わせと直結が動かなければ、その紹介は広告として機能していません。</li><li><strong>断る勇気の不在</strong> — 視聴者と客層がずれた相手からの提案を、恩や勢いで受ける。合わない紹介は、双方の時間を無駄にするだけです。</li><li><strong>現場の負担</strong> — 撮影は他のゲストの静けさとスタッフの勤務の上で行われます。時間帯・撮影範囲・他ゲストの写り込みを事前に決めて守る。</li><li><strong>口約束のまま撮る</strong> — 権利と流用と明示を決めずに撮影だけ先に済ませると、後から全部をやり直すことになる。1枚のメールでいい、書き残す。</li></ul><p>「うちみたいな小さな宿が声をかけて、相手にされるか」——この心配は、声のかけ先を間違えているだけのことが多い。最初の相手は、あなたの宿がある町を歩いて撮っている、登録者1万人の動画主で十分です。まずは視聴者と客層が重なる相手を3名リストして、それぞれに1行のコンセプトを書くことから。明示を恐れない提携だけが、これからは残ります。</p><div class="note">この記事はアイデア共有を目的としています。ステルスマーケティング規制の運用は、消費者庁の運用基準と最新の公表資料をご確認ください。効果の数字は施設・時期により異なります。</div><h2>次に読む</h2><ul><li><a href="#influencer-collaboration-3-conditions">インフルエンサーとの協業 — 宿泊提供の前に決める3つの条件</a> — 提供の条件設計をさらに詰める話</li><li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — 宿が作る側に回る話</li><li><a href="#regional-hotel-media">地方ホテルがメディアに取り上げられる術</a> — 待つことと呼ぶことの間の話</li><li><a href="#filming-requests-handling">地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法</a> — 向こうから来る場合の応対の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"PR・メディア"}],["$","span",null,{"className":"ARTICLE","children":"025"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","span",null,{"className":"en-only","children":"Introducing Your Property to Travel Media and YouTubers: How to Reach Out and Measure Results"}],["$","span",null,{"className":"zh-only","children":"向旅游媒体和 YouTube 用户介绍住宿 — 如何进行邀请并衡量有效性"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"無償宿泊と引き換えの紹介には、2023年10月から「広告である旨の明示」という法的な線が引かれました。明示を恐れない「コンテンツの提携」の進め方と、効果測定の3点を整理しました。"}],["$","span",null,{"className":"en-only","children":"For introductions exchanged for complimentary stays, a legal line — \"disclosure that it is advertising\" — was drawn in October 2023. Here is how to run a \"content partnership\" that does not fear disclosure, and the three points of measuring the results."}],["$","span",null,{"className":"zh-only","children":"对媒体创作者的介绍不是“免费广告”而是“内容合作”。 3 个步骤的方法和 3 个效果测量点。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_media-youtube-introduction.jpg","alt":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.12.19"}],["$","span",null,{"children":"PR & Media"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1f9f,<p>Most properties that begin introducing themselves to media and YouTubers as "a story of getting free publicity" run aground on a case of mistaken purpose. The inn that wants publicity asks "please show us in a good light"; the asked side produces an advertisement; the audience sees through its thinness. This article sets a different definition from the starting point: an introduction to media and YouTubers is <strong>not "free advertising" but "a content partnership"</strong> — and since October 2023, this definition is no longer a matter of taste; it has become a legal line as well.</p>
+
+<h2>October 1, 2023 — the day the line was drawn</h2>
+
+<p>A property provides a stay free of charge, and in return a video or article introducing it is made. This form has, since October 1, 2023, had a new line drawn under the Act against Unjustifiable Premiums and Misleading Representations. An introduction made in return for a complimentary stay provided for publicity is treated not as "an independent third party's opinion" but as <strong>a representation by the business (the property)</strong>, and disclosure that it is advertising is required. An introduction without disclosure becomes a hidden advertisement — stealth marketing.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Stealth marketing was designated a misleading representation under the Act against Unjustifiable Premiums and Misleading Representations by a Consumer Affairs Agency notice effective October 1, 2023. When a property provides complimentary lodging for publicity and the recipient posts an introduction serving that purpose, the post is treated not as "an independent third party's opinion" but as a representation by the business (the property), and disclosure of the advertising relationship — "complimentary stay," "PR," and the like — becomes required. The party held responsible for violations is the requesting business, subject to cease-and-desist orders</strong> — The structure of "getting free publicity" can, in law, no longer be hidden.</div>
+
+<div class="stats"><span class="tag">DID YOU KNOW?</span><strong>Posts made before the effective date also fall under the regulation if their display continues today</strong> — If an introduction made in return for a complimentary stay is still public, its labeling can still be reviewed now.</div>
+
+<p>This line, in fact, does not lower the value of a partnership. Disclosed introductions still work — audiences who see "provided by" still watch to the end if the content is honest. The assumption that disclosure kills the effect is usually just the audience's eye for spotting staged content, projected onto your own inn. <strong>Can you make content that stands even when written honestly?</strong> That is the true condition of a partnership.</p>
+
+<h2>The difference from filming requests — from them, versus from you</h2>
+
+<ul>
+<li><strong>Location shoots come from them; introductions come from you</strong> — Television and magazine filming requests are passive work that arrives by the production side's circumstances (handling them is another article). A property introduction is aggressive work: you choose the counterpart and reach out. Both involve "being filmed," but the ground you stand on differs.</li>
+<li><strong>The goal is not "coverage" but "a continuing relationship"</strong> — An introduction that ends with one video is no different from running an advertisement once. The fruit of a partnership lies in the relationship where the other side remembers your inn as "a place worth filming again." The first reception creates the second visit.</li>
+</ul>
+
+<h2>The three steps of approach</h2>
+
+<ol>
+<li><strong>Research — find counterparts whose audience overlaps your guests</strong> — The criterion is not subscriber count but who is watching them. A city business hotel does not fit a maker of mountain-walking videos. Watch past work and check whether the audience and your guest layer overlap.</li>
+<li><strong>The pitch — not "please come" but "a concept"</strong> — "Please come stay with us" is a request that is hard to answer. "Coffee brewed with mountain water, and chairs set before a bonfire — how about filming 'a cup in nature'?" becomes a seed for their planning. Write the pitch as the multiplication of the inn's appeal × the content's axis.</li>
+<li><strong>Post-shoot agreements — rights, timing, reuse, disclosure</strong> — Usage rights to the photos and video (can you use them on your site and social?), the timing of the post, and the disclosure of the complimentary stay. Disclosure, beyond being a legal requirement, is the signboard that proves this partnership's trust. Set the terms before the shoot, in one email on record.</li>
+</ol>
+
+<h2>Three points of measurement — view counts not included</h2>
+
+<ul>
+<li><strong>Booking inquiries after the post</strong> — View counts are the counterpart's asset; inquiries are the inn's. For two weeks after the post, record the rise and fall of inquiries.</li>
+<li><strong>Searches for the inn's name and the region</strong> — With Google Trends and the like, compare the thirty days before and after the post. The plainest evidence of whether recognition is spreading.</li>
+<li><strong>Growth in direct bookings</strong> — When the call comes saying "I saw that video," or a booking arrives through your own site, that is the shape of the partnership's result. Count them separately from OTA bookings.</li>
+</ul>
+
+<p>When measuring, record the thirty days before and after the measure with the same counting method. Deciding how to compare, before the numbers, is the minimum preparation for reading the effect later.</p>
+
+<h2>The other side — when partnerships break</h2>
+
+<ul>
+<li><strong>Drunkenness on view counts</strong> — The moment play counts rise, swapping the purpose for the number. If inquiries and direct bookings do not move, the introduction is not working as anything but an advertisement.</li>
+<li><strong>The absence of courage to decline</strong> — Accepting a proposal from a counterpart whose audience does not overlap, out of obligation or momentum. A mismatched introduction only wastes both sides' time.</li>
+<li><strong>The burden on the front line</strong> — Filming takes place on top of other guests' quiet and the staff's working hours. Set the hours, the filming range, and the handling of other guests in the frame — in advance, and keep them.</li>
+<li><strong>Shooting on a verbal promise</strong> — Settling the shoot before fixing rights, reuse, and disclosure means redoing all of it afterward. One email is enough — put it in writing.</li>
+</ul>
+
+<p>"Would a small inn like ours even be taken seriously?" — this worry is usually just a matter of reaching out to the wrong counterpart. The first counterpart can perfectly well be a video creator with ten thousand subscribers, walking and filming the town your inn is in. Start by listing three counterparts whose audiences overlap your guests, and writing one line of concept for each. Only partnerships that do not fear disclosure will remain, from here on.</p>
+
+<div class="note">This article is intended for sharing ideas. For the operation of the stealth-marketing regulation, check the Consumer Affairs Agency's enforcement standards and the latest published materials. The numbers of effect vary by property and period.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#influencer-collaboration-3-conditions">Influencer Collaboration: 3 Conditions to Decide Before Offering Stay</a> — designing the conditions of the offer, further</li>
+<li><a href="#video-marketing-3-videos">Video Marketing: The Three Videos a Property Should Make First</a> — the property taking the making side</li>
+<li><a href="#regional-hotel-media">How Regional Hotels Get Featured in the Media</a> — between waiting and calling out</li>
+<li><a href="#filming-requests-handling">TV and Magazine Filming Requests for Regional Properties: How to Handle and Use Them</a> — responding when they come to you</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1a04,<p>向媒体和 YouTube 用户介绍住宿<strong>“内容合作”而不是“免费广告”</strong>。许多民宿将介绍媒体和YouTuber视为“接受免费广告”，但从不同的角度来看，这是“内容合作”。媒体和YouTuber创造“内容”。旅馆成为“内容材料”。通过将旅馆作为“内容”提供吸引力，媒体和 YouTube 用户可以创建“观众会喜欢的内容”。本文整理了将住宿介绍设计为媒体和 YouTube 用户作为内容合作伙伴关系而不是免费广告的方法。 （以下数字为参考值和示例。）</p>
+
+<h2>1. 与“位置请求”的区别——从这里到那里</h2>
+<ul>
+<li><strong>如需位置请求，请单击此处；如需住宿信息，请单击此处：</strong>外景请求是电视和杂志制作公司要求我们进行外景拍摄的请求（请参阅外景文章）。为了介绍一家旅馆，我们请媒体和YouTuber来介绍我们。位置请求是“被动的”，而住宿介绍是“主动的”。</li>
+<li><strong>目的从“发表”变为“持续关系”：</strong>位置请求的目的是“发布”，而旅馆介绍的目的是创建“持续的关系”。不仅仅是一次性的介绍，持续的介绍会增加你的旅馆的知名度。建立持久的关系是引入住宿的本质。</li>
+<li><strong>“内容合作”而不是“免费广告”：</strong>如果您考虑将您的住宿作为“免费广告”向媒体和 YouTube 用户介绍，那么您将收到“免费广告”，而媒体和 YouTube 用户会将其视为“广告”。如果你将其视为内容合作伙伴关系，则意味着“共同创建内容”，媒体和 YouTuber 将其视为“内容”。被视为内容可以提高受众的可信度。</li>
+</ul>
+
+<h2>2. 三步走——研究、提案、后期拍摄</h2>
+<ol>
+<li><strong>研究——寻找适合寄宿家庭的创作者和媒体：</strong>我们寻找与民宿细分市场相匹配的创作者和媒体（例如山、海、自然、可持续、农业、酷咖啡馆、日本乡村）。即使你被介绍给不适合你的细分市场的创作者或媒体，观众也会觉得他们不感兴趣。寻找适合您细分市场的创作者和媒体是引入住宿的第一步。</li>
+<li><strong>提案——不是“我想让人们来”而是“概念”（诉求轴+这家旅馆的内容）：</strong>当向媒体和YouTuber提出建议时，我们是基于概念，而不是希望他们来。通过提出“这间客栈的魅力（比如用山水冲泡的咖啡）+内容轴（比如设计一个在大自然中享受的杯子）”的概念，媒体和YouTuber会觉得“我们可以用这个概念来创造内容。”如果你有一个概念，媒体和YouTuber就会把它当作自己的概念。</li>
+<li><strong>拍摄后——提前了解权利、发布时间以及公司内部的使用情况：</strong>为了避免拍摄后出现问题，请提前决定权利（照片/视频的使用权）、发布时间（何时发布）和内部使用（可以在您公司的网站或SNS上使用）。通过提前决定，可以避免拍摄后出现问题。权利和发布时间将在合同中指定。</li>
+</ol>
+
+<h2>3. 衡量效果的三点——询问量、关键词搜索量和直接联系量的增加</h2>
+<ul>
+<li><strong>发布后的预订查询（根据浏览量）：</strong>向媒体和 YouTube 用户介绍住宿的有效性不是通过观看次数来衡量的，而是通过发布后的预订查询来衡量的。即使你的浏览量很大，如果没有预订查询，你的客栈会变得更出名，但不会带来预订。在发布后两周内跟踪预订查询以衡量有效性。</li>
+<li><strong>关键词搜索量增加/减少：</strong>发帖后关键词搜索量的增减也是衡量效果的一个指标。如果旅馆名称或地区名称的搜索次数增加，则旅馆的认知度增加。使用 Google Search Console 或 Google Trends 检查关键字搜索的增加或减少。</li>
+<li><strong>增加直接连接：</strong>发布后直接联系（通过您自己的网站预订）的增加也是衡量有效性的指标。您拥有的直接联系越多，您无需支付 OTA 费用就能获得的预订就越多。直接连接的增加将对旅馆的收入产生直接影响。</li>
+</ul>
+
+<div class="stats"><span class="tag">模拟示例</span><strong>例如，若施策前的咨询量为每月10次，则约2.4倍（即每月24次）可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — —客栈介绍不是“免费广告”而是“内容合作”。提出概念并建立持久的关系将提高旅馆的知名度并增加预订量。判断效果时，请用相同的统计方法记录并比较施策前后30天的被介绍后的咨询量与直订量。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>其值为<strong>“值得信赖的第三方会参考它。”</strong>。值得信赖的第三方（媒体或 YouTuber）可以说“这是一家不错的旅馆”，而不是旅馆说“这是一家不错的旅馆”，这会增加观众的信任度。不看浏览量，而看发帖后询问量和直接连接的增加。住宿介绍的本质是建立一种持续的关系，而不是一次性的关系。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第 1 周：列出 5 名适合该细分市场的创作者/媒体</strong> — 适合自托管细分市场的 5 个创作者和媒体列表（山脉、海洋、自然、可持续发展、农业、酷咖啡馆、日本乡村）。检查过去的帖子和文章，看看该细分是否适合。</li>
+<li><strong>第 2 周：撰写带有概念的提案</strong> ——以“这家客栈的吸引力+内容为轴”的理念，为媒体和YouTuber写一份提案。我不会说“我希望你来”，而是以“你想一起创建内容吗？”的形式提出建议。</li>
+<li><strong>第 3 周：首次介绍（1-2 人）</strong> — 询问一两个适合您细分市场的创作者或媒体机构进行初步介绍。拍摄前，请事先决定权利、发布时间以及公司内部的使用情况。</li>
+<li><strong>第 4 周：创建衡量有效性的系统</strong> — 创建了一个系统来衡量预订查询、关键字搜索以及发布后直接联系的增加/减少。发布后两周跟踪效果。</li>
+<li><strong>连续性：建立持久的关系</strong> — 通过不断收到推荐而不是仅仅一次访问来提高对旅馆的认知度并增加预订量。建立持久的关系是引入住宿的本质。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","filming-requests-handling",{"href":"/journal/articles/filming-requests-handling","children":[["$","img",null,{"src":"/library/journal/ai_filming-requests-handling.jpg","alt":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.07.06"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方宿のTV・雑誌ロケ依頼 — 応対と活用の方法"}],["$","span",null,{"className":"en-only","children":"TV and Magazine Filming Requests for Regional Properties: How to Handle and Use Them"}],["$","span",null,{"className":"zh-only","children":"电视/杂志对当地住宿的位置请求 - 如何回应和利用它们"}]]}]]}]]}],["$","$L8","regional-hotel-media",{"href":"/journal/articles/regional-hotel-media","children":[["$","img",null,{"src":"/library/journal/ai_regional-hotel-media-new.jpg","alt":"地方ホテルがメディアに取り上げられる術"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方ホテルがメディアに取り上げられる術"}],["$","span",null,{"className":"en-only","children":"How Regional Hotels Get Featured in the Media"}],["$","span",null,{"className":"zh-only","children":"当地酒店如何在媒体上亮相"}]]}]]}]]}],["$","$L8","press-release-local-media",{"href":"/journal/articles/press-release-local-media","children":[["$","img",null,{"src":"/library/journal/ai_press-release-local-media.jpg","alt":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.13"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域メディアに取り上げられるプレスリリースの書き方"}],["$","span",null,{"className":"en-only","children":"How to Write Press Releases Picked Up by Local Media"}],["$","span",null,{"className":"zh-only","children":"如何撰写被当地媒体转载的新闻稿"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/stay-purpose-demand","children":["- ",["$","span",null,{"className":"ja-only","children":"旅の目的別の宿選び — ビジネス・レジャー・行事で変わる需要"}],["$","span",null,{"className":"en-only","children":"Lodging by Travel Purpose: Demand That Changes With Business, Leisure, and Events"}],["$","span",null,{"className":"zh-only","children":"根据旅行目的选择住宿——根据商务、休闲和活动而变化的需求"}]]}],["$","$L8",null,{"href":"/journal/articles/regional-experience-program","children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]," -"]}]]}]
+10:null

@@ -1,15 +1,188 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_sns-want-to-visit-new.jpg","image"]
 :HL["/library/journal/ai_instagram-saveable-account.jpg","image"]
 :HL["/library/journal/ai_tiktok-15sec-want-to-visit.jpg","image"]
 :HL["/library/journal/ai_reels-saveable-travel.jpg","image"]
-3:T17c0,<p>SNSの目的は「認知」ではなく<strong>「欲望」</strong>です。「素敵ですね」で終わる投稿と、「行ってみたい」を生む投稿——予約を作るのは後者です。本記事は、認知を欲望に変える投稿の設計を整理します。アカウント全体の設計(9マス・ピラー・保存の指標)はInstagram設計の記事が担当します。ここでの担当は、<strong>1枚の投稿が「行ってみたい」を作る条件</strong>です。</p><h2>欲望の2条件</h2><ul><li><strong>自分の生活を想像できる</strong> — 観賞する写真でなく、「自分がそこで過ごす」が想像できること。</li><li><strong>今行く理由</strong> — 季節・限定・開花・収穫——今この瞬間に向かう理由。</li></ul><p>この2つが揃った投稿だけが「行ってみたい」を生みます。片方だけなら「素敵ですね」で止まります。美しいだけで時間がない写真、情報があるだけで生活が想像できない写真——どちらも認知の枠を出られません。</p><h2>「想像」を作る3つの素材</h2><ol><li><strong>人の痕跡</strong> — 整いすぎた空室は「自分の部屋」に見えません。湯気、読みかけの本、少し乱れたクッション。写真の記事で言う「生活感」と同じ原則です——ゲストの脳は「自分がここで過ごす」をシミュレーションする。</li><li><strong>手が届く距離</strong> — 引きの景色は眺め、寄りの写真は触覚です。テーブルの上、枠の縁、手を伸ばせば届く高さで撮られた1枚は、眺める写真より「いる写真」になる。</li><li><strong>時間の流れ</strong> — 朝の光、雨の音が聞こえそうな窓、夕方の準備中。静止画に時間を感じさせると、そこに「過ごす時間」が想像できる。</li></ol><p>投稿は、宿の<strong>覗き窓</strong>です。覗いた先に「自分の次の休日」が見えるとき、人は保存を押す。保存は候補リスト入り——その先の設計は保存されるアカウントの記事が扱っています。</p><h2>欲望を作る4フォーマット</h2><ol><li><strong>第一印象の瞬間</strong> — ドアを開けた瞬間、座った瞬間の一場面。想像の入口は、体験の入口と同じです。</li><li><strong>裏側</strong> — スタッフの仕込み、生産者の準備。見えない手間が人を動かします(採用広報とも接続する素材です)。</li><li><strong>季節限定</strong> — 「今季だけ」。今行く理由の代表格。ただし限定の規律は季節料理の記事の通り——毎季節、次の「今だけ」を用意し続ける約束があって初めて効きます。</li><li><strong>人の反応</strong> — スタッフの一言、笑っている場面。温かみは写真に写ります。</li></ol><h2>リズムとKPI</h2><ul><li><strong>季節キャンペーンは月1</strong> — 「今予約する理由」を予約リンク付きで明示する。</li><li><strong>毎週のストーリーズ</strong> — 裝側を流す。「生きている宿」の感覚を作る。</li><li><strong>KPIは保存・共有・「行ってみたい」コメント・SNS経由予約率</strong> — フォロワー数は、この4つの代理指標として十分ではありません。</li></ul><h2>反対側 — 欲望の設計が宿を疲れさせるとき</h2><ul><li><strong>「素敵」の量産</strong> — 美しい写真を増やすだけのアカウントは、眺められる宿で終わります。毎投稿、「この中に自分の休日はあるか」を確認する。</li><li><strong>人が写る負担</strong> — スタッフやゲストが写る素材の了承は、撮るたびに確認する。載せ続けることが相手の負担になっていないか、月1で見直す(採用広報の記事と共通の規律です)。</li><li><strong>「今だけ」の偽装</strong> — いつでも「今だけ」の投稿は、限定という言葉を殺します。同時に走らせる今行く理由は1つまで。</li><li><strong>着地の老朽化</strong> — 欲望を作った先が古いページでは、せっかくの「行ってみたい」が冷めます。投稿と着地ページ(直結サイト)は同じ速度で更新する。</li><li><strong>4フォーマット全部をやる必要はない</strong> — 宿の軸に合う2つで十分です。全部を薄くやるより、2つを濃く。フォーマットは道具であって、宿が従うべき型ではありません。</li></ul><p>最初の一歩は、今の投稿を10枚、自分で見返すことです。それぞれに問うのは「この写真の中に、自分の休日があるか」。1枚でも「過ごしている自分」が見えたら、それがあなたの宿の型です。「行ってみたい」の運用とは、その型を増やすこと——投稿のたびに、覗き窓の向こうへ自分の次の休日を見せることです。</p><div class="note">この記事はアイデア共有を目的としています。SNSの表示仕様は変わるため、指標の見方はプラットフォームの最新の説明をご確認ください。効果は施策前後の保存数・経由予約を同じ集計方法で記録してご確認ください。</div><h2>次に読む</h2><ul><li><a href="#instagram-saveable-account">Instagramで「保存される」宿のアカウント設計</a> — 保存とアカウント設計の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 素材の質の話</li><li><a href="#transparent-tomato-presentation">【季節限定】透明トマトで魅せる、一皿の演出力</a> — 今行く理由の作り方の話</li><li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — 静止画の隣の素材の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"SNS運用"}],["$","span",null,{"children":["ARTICLE ","063"]}]]}],["$","h1",null,{"children":"SNSで「行ってみたい」を作る"}],["$","p",null,{"className":"excerpt","children":"「素敵ですね」は認知、「行ってみたい」は欲望——予約を生むのは後者です。自分の生活が想像できる写真と「今行く理由」。欲望の2条件と4つの投稿フォーマット。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_sns-want-to-visit-new.jpg","alt":"SNSで「行ってみたい」を作る"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.03.30"}],["$","span",null,{"children":"Social Media"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","instagram-saveable-account",{"href":"/journal/articles/instagram-saveable-account","children":[["$","img",null,{"src":"/library/journal/ai_instagram-saveable-account.jpg","alt":"Instagramで「保存される」宿のアカウント設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.04"}],["$","h4",null,{"children":"Instagramで「保存される」宿のアカウント設計"}]]}]]}],["$","$L2","tiktok-15sec-want-to-visit",{"href":"/journal/articles/tiktok-15sec-want-to-visit","children":[["$","img",null,{"src":"/library/journal/ai_tiktok-15sec-want-to-visit.jpg","alt":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.12"}],["$","h4",null,{"children":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}]]}]]}],["$","$L2","reels-saveable-travel",{"href":"/journal/articles/reels-saveable-travel","children":[["$","img",null,{"src":"/library/journal/ai_reels-saveable-travel.jpg","alt":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.18"}],["$","h4",null,{"children":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/brand-refresh-without-logo","children":["← ","ロゴを変えずにブランドを刷新する"]}],["$","$L2",null,{"href":"/journal/articles/regional-hotel-media","children":["地方ホテルがメディアに取り上げられる術"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T17c0,<p>SNSの目的は「認知」ではなく<strong>「欲望」</strong>です。「素敵ですね」で終わる投稿と、「行ってみたい」を生む投稿——予約を作るのは後者です。本記事は、認知を欲望に変える投稿の設計を整理します。アカウント全体の設計(9マス・ピラー・保存の指標)はInstagram設計の記事が担当します。ここでの担当は、<strong>1枚の投稿が「行ってみたい」を作る条件</strong>です。</p><h2>欲望の2条件</h2><ul><li><strong>自分の生活を想像できる</strong> — 観賞する写真でなく、「自分がそこで過ごす」が想像できること。</li><li><strong>今行く理由</strong> — 季節・限定・開花・収穫——今この瞬間に向かう理由。</li></ul><p>この2つが揃った投稿だけが「行ってみたい」を生みます。片方だけなら「素敵ですね」で止まります。美しいだけで時間がない写真、情報があるだけで生活が想像できない写真——どちらも認知の枠を出られません。</p><h2>「想像」を作る3つの素材</h2><ol><li><strong>人の痕跡</strong> — 整いすぎた空室は「自分の部屋」に見えません。湯気、読みかけの本、少し乱れたクッション。写真の記事で言う「生活感」と同じ原則です——ゲストの脳は「自分がここで過ごす」をシミュレーションする。</li><li><strong>手が届く距離</strong> — 引きの景色は眺め、寄りの写真は触覚です。テーブルの上、枠の縁、手を伸ばせば届く高さで撮られた1枚は、眺める写真より「いる写真」になる。</li><li><strong>時間の流れ</strong> — 朝の光、雨の音が聞こえそうな窓、夕方の準備中。静止画に時間を感じさせると、そこに「過ごす時間」が想像できる。</li></ol><p>投稿は、宿の<strong>覗き窓</strong>です。覗いた先に「自分の次の休日」が見えるとき、人は保存を押す。保存は候補リスト入り——その先の設計は保存されるアカウントの記事が扱っています。</p><h2>欲望を作る4フォーマット</h2><ol><li><strong>第一印象の瞬間</strong> — ドアを開けた瞬間、座った瞬間の一場面。想像の入口は、体験の入口と同じです。</li><li><strong>裏側</strong> — スタッフの仕込み、生産者の準備。見えない手間が人を動かします(採用広報とも接続する素材です)。</li><li><strong>季節限定</strong> — 「今季だけ」。今行く理由の代表格。ただし限定の規律は季節料理の記事の通り——毎季節、次の「今だけ」を用意し続ける約束があって初めて効きます。</li><li><strong>人の反応</strong> — スタッフの一言、笑っている場面。温かみは写真に写ります。</li></ol><h2>リズムとKPI</h2><ul><li><strong>季節キャンペーンは月1</strong> — 「今予約する理由」を予約リンク付きで明示する。</li><li><strong>毎週のストーリーズ</strong> — 裝側を流す。「生きている宿」の感覚を作る。</li><li><strong>KPIは保存・共有・「行ってみたい」コメント・SNS経由予約率</strong> — フォロワー数は、この4つの代理指標として十分ではありません。</li></ul><h2>反対側 — 欲望の設計が宿を疲れさせるとき</h2><ul><li><strong>「素敵」の量産</strong> — 美しい写真を増やすだけのアカウントは、眺められる宿で終わります。毎投稿、「この中に自分の休日はあるか」を確認する。</li><li><strong>人が写る負担</strong> — スタッフやゲストが写る素材の了承は、撮るたびに確認する。載せ続けることが相手の負担になっていないか、月1で見直す(採用広報の記事と共通の規律です)。</li><li><strong>「今だけ」の偽装</strong> — いつでも「今だけ」の投稿は、限定という言葉を殺します。同時に走らせる今行く理由は1つまで。</li><li><strong>着地の老朽化</strong> — 欲望を作った先が古いページでは、せっかくの「行ってみたい」が冷めます。投稿と着地ページ(直結サイト)は同じ速度で更新する。</li><li><strong>4フォーマット全部をやる必要はない</strong> — 宿の軸に合う2つで十分です。全部を薄くやるより、2つを濃く。フォーマットは道具であって、宿が従うべき型ではありません。</li></ul><p>最初の一歩は、今の投稿を10枚、自分で見返すことです。それぞれに問うのは「この写真の中に、自分の休日があるか」。1枚でも「過ごしている自分」が見えたら、それがあなたの宿の型です。「行ってみたい」の運用とは、その型を増やすこと——投稿のたびに、覗き窓の向こうへ自分の次の休日を見せることです。</p><div class="note">この記事はアイデア共有を目的としています。SNSの表示仕様は変わるため、指標の見方はプラットフォームの最新の説明をご確認ください。効果は施策前後の保存数・経由予約を同じ集計方法で記録してご確認ください。</div><h2>次に読む</h2><ul><li><a href="#instagram-saveable-account">Instagramで「保存される」宿のアカウント設計</a> — 保存とアカウント設計の話</li><li><a href="#hotel-photos-90">「写真が9割」— 予約が入るホテル写真の共通点</a> — 素材の質の話</li><li><a href="#transparent-tomato-presentation">【季節限定】透明トマトで魅せる、一皿の演出力</a> — 今行く理由の作り方の話</li><li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — 静止画の隣の素材の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"SNS運用"}],["$","span",null,{"className":"ARTICLE","children":"063"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"SNSで「行ってみたい」を作る"}],["$","span",null,{"className":"en-only","children":"Making People Say \"I Want to Go\" on Social"}],["$","span",null,{"className":"zh-only","children":"在SNS上创建“我想去”"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"「素敵ですね」は認知、「行ってみたい」は欲望——予約を生むのは後者です。自分の生活が想像できる写真と「今行く理由」。欲望の2条件と4つの投稿フォーマット。"}],["$","span",null,{"className":"en-only","children":"\"How lovely\" is awareness; \"I want to go\" is desire — bookings are born from the latter. Photographs in which guests can imagine their own life, and \"a reason to go now.\" The two conditions of desire and the four post formats."}],["$","span",null,{"className":"zh-only","children":"创造“欲望”而不是“认可”的帖子格式和频率。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_sns-want-to-visit-new.jpg","alt":"SNSで「行ってみたい」を作る"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.03.30"}],["$","span",null,{"children":"Social Media"}],["$","span",null,{"children":[4,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T16bc,<p>The aim of social media is not "awareness" but <strong>"desire"</strong>. The post that ends at "how lovely," and the post that creates "I want to go" — it is the latter that makes bookings. This article organizes the design of a post that turns awareness into desire. The design of the account as a whole (the 9-grid, the pillars, saves as the metric) belongs to the Instagram-design article. The charge here is <strong>the conditions under which a single post creates "I want to go."</strong></p>
+
+<h2>The 2 conditions of desire</h2>
+
+<ul>
+<li><strong>Being able to imagine your own life there</strong> — Not a photograph to admire, but one in which "I spend time here" can be imagined.</li>
+<li><strong>A reason to go now</strong> — Season, limited editions, blossoms, harvests — a reason to head there at this very moment.</li>
+</ul>
+
+<p>Only a post with both creates "I want to go." With only one, it stops at "how lovely." A photograph that is merely beautiful and carries no time, a photograph that has the information but no imaginable life — neither gets beyond awareness.</p>
+
+<h2>The 3 materials that create "imagination"</h2>
+
+<ol>
+<li><strong>Traces of a person</strong> — An over-tidied empty room does not look like "my room." Steam rising, a book mid-read, a cushion slightly disturbed. The same principle as the "lived-in warmth" in the photos article — the guest’s brain simulates "I spend time here."</li>
+<li><strong>Within reach</strong> — A distant view is a vista; a close-up photograph is a sense of touch. One shot taken at the height of the tabletop, the edge of the frame, an arm’s reach, becomes a photograph of "being there" more than a photograph to look at.</li>
+<li><strong>The flow of time</strong> — Morning light, a window through which the sound of rain seems audible, the preparations of late afternoon. Make a still image feel time, and "time spent there" becomes imaginable.</li>
+</ol>
+
+<p>A post is the property’s <strong>peephole</strong>. When, through the peephole, "my next day off" is visible, a person presses save. A save is entering the shortlist — the design beyond that point is handled in the saveable-account article.</p>
+
+<h2>The 4 formats that create desire</h2>
+
+<ol>
+<li><strong>The moment of first impression</strong> — The instant the door opens; the scene of the first sit. The entrance to imagination is the same as the entrance to the experience.</li>
+<li><strong>The backstage</strong> — The staff’s prep, the producers’ preparations. Invisible labor moves people (it is also material that connects to hiring PR).</li>
+<li><strong>Seasonal limited</strong> — "This season only." The standard-bearer of reasons to go now. But the discipline of the limited is as in the seasonal-dish article — it works only with the promise of preparing, every season, the next "only now."</li>
+<li><strong>People’s reactions</strong> — A staff member’s one line, a moment of laughter. Warmth shows in photographs.</li>
+</ol>
+
+<h2>Rhythm and KPIs</h2>
+
+<ul>
+<li><strong>Seasonal campaigns, once a month</strong> — State "the reason to book now" explicitly, with the booking link.</li>
+<li><strong>Weekly Stories</strong> — Run the backstage. Build the sense of "a property that is alive."</li>
+<li><strong>KPIs are saves, shares, "I want to go" comments, and the booking rate via social</strong> — Follower counts are not a sufficient proxy for these four.</li>
+</ul>
+
+<h2>The other side — when designing desire exhausts the property</h2>
+
+<ul>
+<li><strong>Mass-producing "lovely"</strong> — An account that only adds beautiful photographs ends as a property that is looked at. Check every post: "Is my day off in this picture?"</li>
+<li><strong>The burden of appearing</strong> — Consent for material showing staff or guests is confirmed at every shoot. Review monthly whether continuing to post has become a burden on them (a discipline shared with the hiring-PR article).</li>
+<li><strong>Faking "only now"</strong> — A post that is "only now" at all times kills the word "limited." Keep the simultaneously running reasons-to-go-now to one.</li>
+<li><strong>The aging of the landing place</strong> — When what desire created leads to an old page, the hard-won "I want to go" goes cold. Update the posts and the landing page (the direct site) at the same speed.</li>
+<li><strong>You need not do all 4 formats</strong> — Two that fit the property’s axis are enough. Two, done richly, over four, done thinly. Formats are tools, not molds the property must obey.</li>
+</ul>
+
+<p>The first step is to look back over ten of your current posts, yourself. The question for each: "Is my day off inside this photograph?" If even one shows "a self spending time," that is your property’s mold. Running "I want to go" means increasing those molds — showing, with each post, your next day off beyond the peephole.</p>
+
+<div class="note">This article is intended for sharing ideas. As social media display specifications change, please check the platform’s latest explanations of the metrics. To check effects, record saves and social-origin bookings before and after a change with the same counting method.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#instagram-saveable-account">Designing an Instagram Account for "Saves," Not Followers</a> — saves and account design</li>
+<li><a href="#hotel-photos-90">"The Photo Is 90%": What Bookable Hotel Photos Have in Common</a> — the quality of the material</li>
+<li><a href="#transparent-tomato-presentation">Seasonal: The Presentation Power of a Single Transparent Tomato</a> — creating a reason to go now</li>
+<li><a href="#video-marketing-3-videos">Video Marketing: The Three Videos a Property Should Make First</a> — the material beside the stills</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1025,<p>SNS的目的不是“认可”而是“渴望”。本文讲解了让人想去的发帖格式和节奏，将认可转化为欲望的设计。</p>
+<h2>一、“认知”与“欲望”的区别</h2>
+<p>“这很好”（认可）和“我想去”（欲望）——后者会产生保留。欲望通过两种方式发挥作用：</p>
+<ul>
+<li><strong>“我可以想象自己的生活。”</strong> — 这不仅仅是欣赏事物，而是能够想象自己在那里度过时光。</li>
+<li><strong>「现在去的理由」</strong> — 季节、限量版、活动——这一刻的原因。</li>
+</ul>
+<p>只有具备这两个要素的帖子才会让人想去那里。</p>
+<h2>2. 创造欲望的4种形式</h2>
+<ol>
+<li><strong>“第一印象的那一刻”</strong> ——打开门坐下那一刻的场景。</li>
+<li><strong>“幕后花絮”</strong> — 员工/流程/生产者。无形的努力感动人。</li>
+<li><strong>「季节性限定」</strong> —“仅限这个季节”—为什么现在就去？</li>
+<li><strong>“人们的反应”</strong> ——工作人员的一句话，客人的一个眼神。温暖体现在照片中。</li>
+</ol>
+<h2>3、发帖节奏</h2>
+<ul>
+<li><strong>5柱固定比例</strong> — 空间、客房、食物、环境和人（与 Instagram 设计相关）。</li>
+<li><strong>每周故事</strong> ——背面。营造一种“活着”的感觉。</li>
+<li><strong>每月“季节性活动”</strong> — 明确“现在预订的原因”（附有预订链接）。</li>
+</ul>
+<h2>4.关键绩效指标</h2>
+<ul>
+<li>而不是关注者数量：<strong>保存数/分享数/“想去”评论/SNS预约率</strong>。</li>
+<li>例：保存次数+30%，SNS预订15%（参考值）。</li>
+</ul>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>当谈到“创造想要在SNS上访问的人”时，客人的期望与五年前相比发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>运营SNS的努力将增加整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>+30%</b><span>（数值示例）保存次数</span></div><div class="stat"><b>15%</b><span>（数值示例）SNS预约率</span></div><div class="stat"><b>第 1 个月</b><span>季节性活动</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>“我想去那里”不是通过“谈论自己”，而是通过“能够想象对方的生活”来实现。每次发帖时，检查一下当你看到这张照片时，是否可以想象自己在那里度过的时光。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：盘点 4 种格式（当前帖子适合哪一种？）</li>
+<li>第二周：确认 5 个支柱比例 + 12 个职位的库存</li>
+<li>第三周~：每周故事+每月季节性活动</li>
+<li>每月：检查SNS保存、分享、预订3项指标</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","instagram-saveable-account",{"href":"/journal/articles/instagram-saveable-account","children":[["$","img",null,{"src":"/library/journal/ai_instagram-saveable-account.jpg","alt":"Instagramで「保存される」宿のアカウント設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.04"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"Instagramで「保存される」宿のアカウント設計"}],["$","span",null,{"className":"en-only","children":"Designing an Instagram Account for \"Saves,\" Not Followers"}],["$","span",null,{"className":"zh-only","children":"Instagram 上“保存”的旅馆账户设计"}]]}]]}]]}],["$","$L8","tiktok-15sec-want-to-visit",{"href":"/journal/articles/tiktok-15sec-want-to-visit","children":[["$","img",null,{"src":"/library/journal/ai_tiktok-15sec-want-to-visit.jpg","alt":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.12"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"TikTokで「行ってみたい」を作る — 15秒動画の3原則"}],["$","span",null,{"className":"en-only","children":"Creating 'Want to Visit' on TikTok: 3 Principles of 15-Second Video"}],["$","span",null,{"className":"zh-only","children":"在 TikTok 上创作“我想去”——15 秒视频的 3 个原则"}]]}]]}]]}],["$","$L8","reels-saveable-travel",{"href":"/journal/articles/reels-saveable-travel","children":[["$","img",null,{"src":"/library/journal/ai_reels-saveable-travel.jpg","alt":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2024.12.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"保存されるリール動画 — 旅マエに選ばれる宿の作り方"}],["$","span",null,{"className":"en-only","children":"Saveable Reels: How to Be Chosen Before the Trip"}],["$","span",null,{"className":"zh-only","children":"保存的卷轴视频 — 如何创建旅行者选择的旅馆"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/brand-refresh-without-logo","children":["- ",["$","span",null,{"className":"ja-only","children":"ロゴを変えずにブランドを刷新する"}],["$","span",null,{"className":"en-only","children":"Refreshing a Brand Without Changing the Logo"}],["$","span",null,{"className":"zh-only","children":"无需更改徽标即可更新您的品牌"}]]}],["$","$L8",null,{"href":"/journal/articles/regional-hotel-media","children":[["$","span",null,{"className":"ja-only","children":"地方ホテルがメディアに取り上げられる術"}],["$","span",null,{"className":"en-only","children":"How Regional Hotels Get Featured in the Media"}],["$","span",null,{"className":"zh-only","children":"当地酒店如何在媒体上亮相"}]," -"]}]]}]
+10:null

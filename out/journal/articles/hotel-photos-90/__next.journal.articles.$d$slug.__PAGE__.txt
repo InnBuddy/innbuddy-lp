@@ -1,15 +1,197 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_hotel-photos-90.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T1c68,<p>「予約の判断は、サムネイルの数秒で決まる」。宿の予約画面を日々見ている人にとって、これは誇張ではなく実感のはずです。そして近年の調査は、この実感に数字を付け始めています。本記事は、予約が入る写真に共通する<strong>光・生活感・余白</strong>の3原則を解きほぐし、12枚の必須ショットリストと、その中のどこに力を割くべきかを整理します。</p><div class="stats"><span class="tag">FACT</span><strong>宿泊施設に関する意識調査(インターネット調査・314人・2026年3月実施、テレビ東京のニュースサイトに掲載)では、宿の最終的な決め手として「立地やアクセス」(70.9%)、「宿泊費用」(69.2%)に続き、3位が「公式サイト・予約サイトの客室写真」(67.8%)。また宿泊単価が高い層ほどアメニティ・備品の写真が決め手になり(2万〜3万円未満の層では63.2%が重視)、ゲストが最も共有したいシーンは「客室に入った瞬間の眺望やインテリア」(46.7%)とされる(執筆時点・意識調査)</strong> — 価格と立地のすぐ後ろに、写真はもう並んでいる。</div><h2>「9割」の正体 — 条件の後の「選ぶ理由」</h2><p>上の調査を見て「写真は3位ではないか」と思う人は、読み方が正しい。価格と立地は、多くの場合<strong>検索の前に入力される「条件」</strong>です。条件がそろった候補の中で最後に選ぶ理由——それを作っているのが写真です。タイトルの「9割」は、この「条件が並んだ後の勝負」における実感を言い表した比喩として読んでください。OTAの行動は厳密なファネルをたどります:<strong>サムネイル(リスト画面)→ クリック → 最初の3枚 → 詳細 → 予約</strong>。リスト画面でクリックされるかどうかを左右する最大のレバーは写真であり、写真の差し替えでクリック率が大きく動くことは、運用者の間でよく観察される経験則です。つまり写真の最適化は「デザイン作業」ではなく、ファネルの最上流にある<strong>売上作業</strong>です。</p><h2>原則1 — 光</h2><ul><li><strong>朝に撮る。</strong>日の出後60〜90分が狙い目。光が柔らかく、影が長い。</li><li><strong>窓に向ける。</strong>自然光が部屋を斜めに横切る角度で撮る。</li><li><strong>天井灯は消す。</strong>室内照明だけの写真は部屋を扁平に見せる——最も多いミスです。</li></ul><h2>原則2 — 生活感</h2><p>「ゲストが入室する直前」の瞬間が、最高のスタイリングです。ベッドの足元に置いたタオル、テーブルの上のカップと水、少しずらしたクッション1つ。「整えられているが空っぽ」の写真はショールームに見えます——綺麗だが、住める気はしない。<strong>小さな「生活」が転換を上げる</strong>のは、ゲストの脳が「自分がここで過ごす」をシミュレーションしており、そのシミュレーションが予約を作るからです。</p><h2>原則3 — 余白</h2><p>画の3割を空けて、「家具」ではなく「眺め」を伝えます。家具で画を塞ぎ切らず、空・山・街並みに呼吸させる。写る「場所」は、隣の競合が真似できない差別化です。</p><h2>12枚の必須ショットリスト</h2><p>リストの順番が、そのまま優先順位です。</p><ol><li>最初の1枚 — 客室(朝光)</li><li>客室の第2アングル(窓から)</li><li>寝具のクローズアップ(質感)</li><li>バスルーム(明るく)</li><li>眺め(部屋から見えるもの)</li><li>レストラン/朝食のテーブル</li><li>宿のシンボル空間(ラウンジ等)</li><li>ブランドを語るディテール(アート・素材)</li><li>周辺エリア/アクセス</li><li>経営者またはスタッフ(人の温かみ)</li><li>季節のスタイリング(季節で替わる「更新感」)</li><li>グループ・ファミリー利用(対象を広げる)</li></ol><h2>工数は「最初の3枚」に半分</h2><p>12枚すべてを完璧にはしない。<strong>撮影時間の半分を、最初の3枚に使ってください</strong>。最初の1枚は「看板」、その次の3枚は「ストーリー」です。ここで挫折が起き、詳細ページのスクロールが止まります。また、前出の調査が示すように、高単価の宿ほど決め手が「アメニティ・備品の写真」に移ります——リストの3枚目(寝具の質感)と8番目(ディテール)は、単価を上げたい宿ほど丁寧に。写真は1回撮って終わりではなく、季節ごとの再撮影で「更新感」を保つものです(夏の繁忙期に向けた撮影のタイミングは、季節の施策の記事で)。</p><h2>反対側 — 写真が宿を傷つけるとき</h2><ul><li><strong>過剰演出はクレームになる</strong> — 「写真と違う」はインバウンドクレームの第1パターンです。広角の見え方、盛ったスタイリングは、入室の瞬間に「写真との差異」として返ってきます(クレーム対応の記事参照)。</li><li><strong>プロでなくても、最初の3枚だけは</strong> — 全12枚をカメラマンに頼む予算がなくても、最初の3枚だけ朝の光で撮り直すことは、スマホでも可能です。全部を直そうとして何も直らないのが現場です。</li><li><strong>更新の放棄</strong> — 雪景色のまま夏を売るページは、静かに信頼を削ります。最低でも年2回、最初の3枚を見直す。</li><li><strong>「9割」を文字通り売り込まない</strong> — 価格と立地が上位である事実は、宿自身が一番知っています。写真の価値は誇張でなく「最後の決め手」の位置で語る方が、現場に届きます。</li></ul><p>最初の一歩は、今週末の朝、最初の3枚を撮り直すことです。日の出後60分、カーテンを全開にして、天井灯を消す——それだけで多くの宿の1枚目は生まれ変わります。12枚のリストは、その3枚が決まってからの地図です。</p><div class="note">この記事はアイデア共有を目的としています。掲載の調査は意識調査(執筆時点)であり、市場や層により結果は異なります。クリック率等の効果は、自宿の予約サイトの計測でご確認ください。</div><h2>次に読む</h2><ul><li><a href="#summer-ota-peak-season">【夏の繁忙期】OTA検索で上位を取る3つの施策</a> — 季節の写真とタイトルの話</li><li><a href="#instagram-saveable-account">Instagramで「保存される」宿のアカウント設計</a> — 撮った写真の活かし先の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 写真に写る「生活」を作る話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","045"]}]]}],["$","h1",null,{"children":"「写真が9割」— 予約が入るホテル写真の共通点"}],["$","p",null,{"className":"excerpt","children":"宿泊意識調査で「客室写真」は最終判断の3位(67.8%)——立地と価格のすぐ後ろにいる。光・生活感・余白の3原則と12枚のリストを、最初の3枚への工数配分まで整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hotel-photos-90.jpg","alt":"「写真が9割」— 予約が入るホテル写真の共通点"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.05.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":["← ","RevPARが1.8倍に。値付けを「感覚」から「設計」へ"]}],["$","$L2",null,{"href":"/journal/articles/instagram-saveable-account","children":["Instagramで「保存される」宿のアカウント設計"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1c68,<p>「予約の判断は、サムネイルの数秒で決まる」。宿の予約画面を日々見ている人にとって、これは誇張ではなく実感のはずです。そして近年の調査は、この実感に数字を付け始めています。本記事は、予約が入る写真に共通する<strong>光・生活感・余白</strong>の3原則を解きほぐし、12枚の必須ショットリストと、その中のどこに力を割くべきかを整理します。</p><div class="stats"><span class="tag">FACT</span><strong>宿泊施設に関する意識調査(インターネット調査・314人・2026年3月実施、テレビ東京のニュースサイトに掲載)では、宿の最終的な決め手として「立地やアクセス」(70.9%)、「宿泊費用」(69.2%)に続き、3位が「公式サイト・予約サイトの客室写真」(67.8%)。また宿泊単価が高い層ほどアメニティ・備品の写真が決め手になり(2万〜3万円未満の層では63.2%が重視)、ゲストが最も共有したいシーンは「客室に入った瞬間の眺望やインテリア」(46.7%)とされる(執筆時点・意識調査)</strong> — 価格と立地のすぐ後ろに、写真はもう並んでいる。</div><h2>「9割」の正体 — 条件の後の「選ぶ理由」</h2><p>上の調査を見て「写真は3位ではないか」と思う人は、読み方が正しい。価格と立地は、多くの場合<strong>検索の前に入力される「条件」</strong>です。条件がそろった候補の中で最後に選ぶ理由——それを作っているのが写真です。タイトルの「9割」は、この「条件が並んだ後の勝負」における実感を言い表した比喩として読んでください。OTAの行動は厳密なファネルをたどります:<strong>サムネイル(リスト画面)→ クリック → 最初の3枚 → 詳細 → 予約</strong>。リスト画面でクリックされるかどうかを左右する最大のレバーは写真であり、写真の差し替えでクリック率が大きく動くことは、運用者の間でよく観察される経験則です。つまり写真の最適化は「デザイン作業」ではなく、ファネルの最上流にある<strong>売上作業</strong>です。</p><h2>原則1 — 光</h2><ul><li><strong>朝に撮る。</strong>日の出後60〜90分が狙い目。光が柔らかく、影が長い。</li><li><strong>窓に向ける。</strong>自然光が部屋を斜めに横切る角度で撮る。</li><li><strong>天井灯は消す。</strong>室内照明だけの写真は部屋を扁平に見せる——最も多いミスです。</li></ul><h2>原則2 — 生活感</h2><p>「ゲストが入室する直前」の瞬間が、最高のスタイリングです。ベッドの足元に置いたタオル、テーブルの上のカップと水、少しずらしたクッション1つ。「整えられているが空っぽ」の写真はショールームに見えます——綺麗だが、住める気はしない。<strong>小さな「生活」が転換を上げる</strong>のは、ゲストの脳が「自分がここで過ごす」をシミュレーションしており、そのシミュレーションが予約を作るからです。</p><h2>原則3 — 余白</h2><p>画の3割を空けて、「家具」ではなく「眺め」を伝えます。家具で画を塞ぎ切らず、空・山・街並みに呼吸させる。写る「場所」は、隣の競合が真似できない差別化です。</p><h2>12枚の必須ショットリスト</h2><p>リストの順番が、そのまま優先順位です。</p><ol><li>最初の1枚 — 客室(朝光)</li><li>客室の第2アングル(窓から)</li><li>寝具のクローズアップ(質感)</li><li>バスルーム(明るく)</li><li>眺め(部屋から見えるもの)</li><li>レストラン/朝食のテーブル</li><li>宿のシンボル空間(ラウンジ等)</li><li>ブランドを語るディテール(アート・素材)</li><li>周辺エリア/アクセス</li><li>経営者またはスタッフ(人の温かみ)</li><li>季節のスタイリング(季節で替わる「更新感」)</li><li>グループ・ファミリー利用(対象を広げる)</li></ol><h2>工数は「最初の3枚」に半分</h2><p>12枚すべてを完璧にはしない。<strong>撮影時間の半分を、最初の3枚に使ってください</strong>。最初の1枚は「看板」、その次の3枚は「ストーリー」です。ここで挫折が起き、詳細ページのスクロールが止まります。また、前出の調査が示すように、高単価の宿ほど決め手が「アメニティ・備品の写真」に移ります——リストの3枚目(寝具の質感)と8番目(ディテール)は、単価を上げたい宿ほど丁寧に。写真は1回撮って終わりではなく、季節ごとの再撮影で「更新感」を保つものです(夏の繁忙期に向けた撮影のタイミングは、季節の施策の記事で)。</p><h2>反対側 — 写真が宿を傷つけるとき</h2><ul><li><strong>過剰演出はクレームになる</strong> — 「写真と違う」はインバウンドクレームの第1パターンです。広角の見え方、盛ったスタイリングは、入室の瞬間に「写真との差異」として返ってきます(クレーム対応の記事参照)。</li><li><strong>プロでなくても、最初の3枚だけは</strong> — 全12枚をカメラマンに頼む予算がなくても、最初の3枚だけ朝の光で撮り直すことは、スマホでも可能です。全部を直そうとして何も直らないのが現場です。</li><li><strong>更新の放棄</strong> — 雪景色のまま夏を売るページは、静かに信頼を削ります。最低でも年2回、最初の3枚を見直す。</li><li><strong>「9割」を文字通り売り込まない</strong> — 価格と立地が上位である事実は、宿自身が一番知っています。写真の価値は誇張でなく「最後の決め手」の位置で語る方が、現場に届きます。</li></ul><p>最初の一歩は、今週末の朝、最初の3枚を撮り直すことです。日の出後60分、カーテンを全開にして、天井灯を消す——それだけで多くの宿の1枚目は生まれ変わります。12枚のリストは、その3枚が決まってからの地図です。</p><div class="note">この記事はアイデア共有を目的としています。掲載の調査は意識調査(執筆時点)であり、市場や層により結果は異なります。クリック率等の効果は、自宿の予約サイトの計測でご確認ください。</div><h2>次に読む</h2><ul><li><a href="#summer-ota-peak-season">【夏の繁忙期】OTA検索で上位を取る3つの施策</a> — 季節の写真とタイトルの話</li><li><a href="#instagram-saveable-account">Instagramで「保存される」宿のアカウント設計</a> — 撮った写真の活かし先の話</li><li><a href="#small-experiences-5-touchpoints">チェックアウト後に語られる「小さな体験」の作り方</a> — 写真に写る「生活」を作る話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"045"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"「写真が9割」— 予約が入るホテル写真の共通点"}],["$","span",null,{"className":"en-only","children":"\"The Photo Is 90%\": What Bookable Hotel Photos Have in Common"}],["$","span",null,{"className":"zh-only","children":"“90%照片”——预订酒店照片的共同点"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"宿泊意識調査で「客室写真」は最終判断の3位(67.8%)——立地と価格のすぐ後ろにいる。光・生活感・余白の3原則と12枚のリストを、最初の3枚への工数配分まで整理しました。"}],["$","span",null,{"className":"en-only","children":"In an accommodation-attitudes survey, \"room photos\" rank third among final decision factors (67.8%) — right behind location and price. Here are the three principles of light, lived-in warmth, and empty space, the 12-shot list, and how to divide the effort across the first three photos."}],["$","span",null,{"className":"zh-only","children":"预订率的变化基于三个原则：光线、生活感和空白。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_hotel-photos-90.jpg","alt":"「写真が9割」— 予約が入るホテル写真の共通点"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.05.10"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1b79,<p>"The booking decision is made in the few seconds of the thumbnail." For anyone who looks at property booking screens every day, this should feel not like exaggeration but like lived experience. And recent surveys have begun putting numbers on that experience. This article unpacks the three principles shared by photos that bring bookings — <strong>light, lived-in warmth, and empty space</strong> — and organizes the 12-shot must-have list and where, within it, to spend your effort.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>In a survey of attitudes toward accommodation (an internet survey of 314 people, conducted in March 2026, published on a TV Tokyo news site), the final deciding factors for choosing a property were "location and access" (70.9%) and "lodging cost" (69.2%), with "room photos on the official site and booking sites" third (67.8%). The higher the nightly spend, the more amenity and equipment photos become the decider (63.2% weigh them heavily in the ¥20,000–30,000 band), and the scene guests most want to share is "the view and interior in the moment of entering the room" (46.7%) (as of writing; an attitudes survey)</strong> — Right behind price and location, photographs are already lined up.</div>
+
+<h2>What the "90%" really is — the "reason to choose" after the conditions</h2>
+
+<p>If you look at that survey and think "isn’t that third place?", you are reading it correctly. Price and location are, in most cases, <strong>"conditions" entered before the search</strong>. What creates the final reason to choose among the candidates that meet the conditions — that is the photograph. Read the "90%" of the title as a metaphor for the felt reality in "the contest that begins once the conditions are lined up." OTA behavior follows a strict funnel: <strong>thumbnail (the list screen) → click → the first three photos → details → booking</strong>. The largest lever over whether you are clicked on the list screen is the photograph, and it is a well-worn rule of thumb among operators that swapping a photo moves the click rate sharply. Optimizing photos is therefore not "design work" but <strong>revenue work</strong> at the very top of the funnel.</p>
+
+<h2>Principle 1 — light</h2>
+
+<ul>
+<li><strong>Shoot in the morning.</strong> The window is 60 to 90 minutes after sunrise — soft light, long shadows.</li>
+<li><strong>Face the window.</strong> Shoot at the angle where natural light crosses the room diagonally.</li>
+<li><strong>Turn the ceiling lights off.</strong> Photos lit by interior lighting alone flatten the room — the most common mistake.</li>
+</ul>
+
+<h2>Principle 2 — lived-in warmth</h2>
+
+<p>The best styling is the moment "just before the guest enters the room." Towels placed at the foot of the bed, a cup and water on the table, one cushion slightly askew. A photo that is "tidy but empty" looks like a showroom — beautiful, but not somewhere you could stay. <strong>A small trace of "life" raises conversion</strong> because the guest’s brain is simulating "I spend time here," and that simulation is what creates the booking.</p>
+
+<h2>Principle 3 — empty space</h2>
+
+<p>Leave thirty percent of the frame open, and convey not the "furniture" but the "view." Do not pack the frame with furniture; let the sky, the mountains, the streetscape breathe. The "place" in the photograph is a differentiation the competitor next door cannot copy.</p>
+
+<h2>The 12-shot must-have list</h2>
+
+<p>The order of the list is the order of priority.</p>
+
+<ol>
+<li>The first photo — the guest room (in morning light)</li>
+<li>The room’s second angle (from the window)</li>
+<li>A close-up of the bedding (texture)</li>
+<li>The bathroom (bright)</li>
+<li>The view (what is seen from the room)</li>
+<li>The restaurant / the breakfast table</li>
+<li>The property’s signature space (the lounge, and the like)</li>
+<li>Details that speak the brand (art, materials)</li>
+<li>The surrounding area / access</li>
+<li>The owner or the staff (human warmth)</li>
+<li>Seasonal styling (the "sense of updating" that changes with the seasons)</li>
+<li>Group and family use (broadening the audience)</li>
+</ol>
+
+<h2>Spend half the effort on "the first three photos"</h2>
+
+<p>Do not perfect all twelve. <strong>Use half your shooting time on the first three.</strong> The first photo is "the signboard"; the next three are "the story." This is where the stumbling happens, where the scroll down the detail page stops. And as the survey above shows, the higher the nightly rate, the more the decider shifts to "photos of amenities and equipment" — the more a property wants to raise its rates, the more carefully it should treat No. 3 (the bedding’s texture) and No. 8 (the details). Photos are not a once-and-done shoot; they are something whose "sense of freshness" is maintained by reshooting with the seasons (the timing of shoots for the summer peak is in the seasonal-plays article).</p>
+
+<h2>The other side — when photos hurt the property</h2>
+
+<ul>
+<li><strong>Over-staging becomes a complaint</strong> — "different from the photos" is Pattern 1 of inbound complaints. Wide-angle looks and embellished styling come back, in the moment of entering the room, as "the gap from the photos" (see the complaint-handling article).</li>
+<li><strong>You need not be a pro — but the first three, yes</strong> — Even without the budget for a photographer for all twelve, reshooting just the first three in morning light is possible on a smartphone. Trying to fix everything and fixing nothing is what happens on the ground.</li>
+<li><strong>Giving up on updates</strong> — A page selling summer with snow scenes left up quietly shaves trust. Review the first three at least twice a year.</li>
+<li><strong>Don’t sell the "90%" literally</strong> — The fact that price and location sit above is something properties know best. The value of photographs is better told, to the field, not as exaggeration but as "the position of the final deciding factor."</li>
+</ul>
+
+<p>The first step is, this weekend morning, to reshoot the first three photos. Sixty minutes after sunrise, curtains fully open, ceiling lights off — with that alone, the first photo at many properties is reborn. The 12-shot list is the map for after those three are settled.</p>
+
+<div class="note">This article is intended for sharing ideas. The survey cited is an attitudes survey (as of writing); results differ by market and by segment. Please check effects such as click rate in your own booking-site analytics.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#summer-ota-peak-season">Summer Peak: 3 Plays to Win OTA Search Rankings</a> — seasonal photos and titles</li>
+<li><a href="#instagram-saveable-account">Designing an Instagram Account for "Saves," Not Followers</a> — where the photos go to work</li>
+<li><a href="#small-experiences-5-touchpoints">The "Small Experiences" Guests Talk About After Checkout</a> — creating the "life" the photos show</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te5e,<p>“看缩略图 3 秒即可做出预订决定。”这并不夸张。在 OTA 搜索中，照片决定了 90% 的点击次数。此条款适用于所有预订的照片。<strong>光、生活感、留白</strong>基于这三个原则，我们提出了一个 12 个镜头的列表。</p>
+<h2>1. 为什么是“90%照片”？</h2>
+<p>OTA 行动遵循严格的渠道：<strong>缩略图（列表页）→ 单击 → 前 3 → 详细信息 → 预订</strong>。列表页的点击率通常为 3-8%，而照片是最大的杠杆。在实际操作中，经常会发现仅仅改变照片，CTR就会变化±30%。详细信息屏幕也是如此，如果前三个图像没有传达空间感，则滚动将在那里结束。</p>
+<p>换句话说，照片优化不是“设计工作”，而是漏斗的顶部。<strong>销售工作</strong>。</p>
+<h2>2. 原则一：轻</h2>
+<ul>
+<li><strong>我早上就拿。</strong> 黄金时间是日出后60至90分钟。光线柔和，影子很长。</li>
+<li><strong>转向窗户。</strong> 以自然光斜射房间的角度拍摄照片。</li>
+<li><strong>关掉顶灯。</strong> 仅使用室内照明的照片使房间看起来很平坦——这是最常见的错误。</li>
+</ul>
+<h2>3.原则2：生活感受</h2>
+<p>最好的造型时刻是在客人进入之前：</p>
+<ul>
+<li>毛巾放在床尾</li>
+<li>桌上有一杯或一杯水</li>
+<li>1 个稍微移动的坐垫</li>
+</ul>
+<p>这张“布置但空荡荡”的照片看起来就像一个陈列室。很漂亮，但我觉得我不能住在那里。<strong>小小的“生活方式”可以提高转化率。</strong>——客人的大脑正在模拟“在这里度过时间”，并且该模拟创建了预订。</p>
+<h2>4. 原则 3：空白</h2>
+<p>留出 30% 的图片开放以传达视图而不是家具：</p>
+<ul>
+<li>不要用家具挡住画面</li>
+<li>让天空、山脉和城市景观呼吸</li>
+<li>让“地方”说话——这是竞争对手无法模仿的差异化</li>
+</ul>
+<h2>12个必拍镜头清单</h2>
+<ol>
+<li>第一张照片——客房（晨光）</li>
+<li>客房第二角度（从窗户看）</li>
+<li>床上用品特写（质感）</li>
+<li>浴室（明亮）</li>
+<li>景观（从房间可以看到的东西）</li>
+<li>餐厅/早餐桌</li>
+<li>旅馆的象征性空间（休息室等）</li>
+<li>与品牌相关的细节（艺术/材料）</li>
+<li>周边地区/交通</li>
+<li>管理层或员工（人们传递温暖）</li>
+<li>季节造型（随季节变化的更新感）</li>
+<li>团体/家庭使用（扩大范围）</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>+32%</b><span>（数值示例）点击率（列表页）</span></div><div class="stat"><b>+18%</b><span>（数值示例）详情→预订转化率</span></div><div class="stat"><b>前3名</b><span>（数值示例）OTA搜索排名</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>第一个是“招牌”，后面三个是“故事”。按照“前 1 个→后 3 个→剩余”的顺序进行优化将最大化每小时的影响。</div>
+<h2>行动清单</h2>
+<ul>
+<li><strong>第一周：当前库存</strong> —记录当前情况并列出三个问题</li>
+<li><strong>第 2 周：设计一项改进</strong> — 在一张纸上设计并总结最有效的单一改进</li>
+<li><strong>第 3 周：从小事做起</strong> — 从一间房间、一个架子、一个短语开始</li>
+<li><strong>第 4 周：记录和分享</strong> — 在一张纸上记录您的努力并与员工分享</li>
+<li><strong>延续：让改进成为一种文化</strong> — 每周留出 15 分钟并持续这样做，它将成为一种文化。</li>
+</ul>
+b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":["- ",["$","span",null,{"className":"ja-only","children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","span",null,{"className":"en-only","children":"RevPAR Up 1.8×: Pricing From \"Gut Feeling\" to \"Design\""}],["$","span",null,{"className":"zh-only","children":"每间可用房收入 (RevPAR) 增加了 1.8 倍。将定价从“感觉”转向“设计”"}]]}],["$","$L8",null,{"href":"/journal/articles/instagram-saveable-account","children":[["$","span",null,{"className":"ja-only","children":"Instagramで「保存される」宿のアカウント設計"}],["$","span",null,{"className":"en-only","children":"Designing an Instagram Account for \"Saves,\" Not Followers"}],["$","span",null,{"className":"zh-only","children":"Instagram 上“保存”的旅馆账户设计"}]," -"]}]]}]
+10:null

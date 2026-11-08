@@ -1,15 +1,180 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_pricing-basics.jpg","image"]
 :HL["/library/journal/ai_revenue-management-basics.jpg","image"]
 :HL["/library/journal/ai_revpar-18x-dynamic-pricing.jpg","image"]
 :HL["/library/journal/ai_ota-commission-visibility-new.jpg","image"]
-3:T230f,<p>「うちの部屋、いくらにすべきだと思いますか」——宿の経営者から最も多く聞かれるこの質問には、実は問いの立て方自体に落とし穴があります。価格は、宿が決めるものではないからです。市場があり、競合があり、旅人の判断があり、その上で初めて、あなたの宿の部屋の値段が決まる。経営者の仕事は決めることではなく、その決定に参加することです。この記事は、参加のための3つのステップ——市場価格を探す、自分の位置を決める、時間で調整する——と、最後に、数字の裏にある「値上げの掟」の話です。</p><h2>ステップ1 — 市場価格を探す</h2><p>まず、周辺5宿の競合の価格帯を記録します。最低・中央・最高の3点。予約サイトで10分もあれば集まります。ここで作るのは「市場の値段の幅」という物差しです。自分の宿の現在の価格が、この幅のどこにいるのか。多くの宿は、この物差しを持っていない。持った瞬間、価格の悩みは半分なくなります(これは誇張ではなく、悩みの半分は「市場がどうなっているか分からない」から来るためです)。</p><h2>ステップ2 — 自分の位置を決める</h2><p>物差しのどこに立つか。判断の材料は3つ——品質(部屋と設備の水準)、体験(食、湯、時間の過ごし方)、立地(景観、アクセス、環境)。この3点で上に立てる宿は上に、しからざる宿は中央に。<strong>分からなければ中央で始める</strong>のが安全です。中央は、上がりも下がりもできる位置だからです。上に立った宿は下げにくい(値下げは「本来の価格」を壊します)が、中央から上へは、評価を見ながら動ける。</p><h2>ステップ3 — 時間で調整する</h2><p>同じ部屋の同じ価格を1年中貼る宿は、季節・曜日・リードタイム・稼働の4つの変化を捨てています。調整の設計(需要に応じて価格を動かす)は、大きく育てた先の記事に譲りますが、基礎として覚えるのは一文です。<strong>価格は、決めるものではなく、調整するもの</strong>。季節で動かし、曜日で動かし、残り部屋数で動かす。ここから先は「値付けを設計する」話です。</p><h2>値上げの掟 — なぜ同じ値上げが、受け入れられる時と怨まれる時があるのか</h2><p>ここからは、3ステップの裏にある人間の心の話です。1986年、カーネマン、ネッチ、セイラーの3人の研究者が、人々の「値段の公平感」を電話調査で調べた研究を発表しました。有名な設問がこれです。「金物屋が15ドルで売っていた雪かきショベルを、大雪の翌朝、20ドルに値上げしました」。これを「不当」と評価した人は、82%にのぼりました。需要が増えたから値上げする——経済学の教科書通りに行動した店が、8割の人に怨まれる。しかも同じ研究で、仕入れ値(卸値)が上がった場合の値上げは、多くの人が「やむを得ない」と受け入れることも分かりました。研究者たちはこの感覚を「デュアル・エンタイトルメント(二重の権利)」と名付けました。客には「いつもの値段」の権利があり、店には「いつもの利益」の権利がある。客が許すのは、店が自分の利益を守るための値上げだけ。需要の増えに乗っかる値上げは、不正と感じられるのです。</p><div class="stats"><span class="tag">RESEARCH</span><strong>カーネマン、ネッチ、セイラーの研究(1986、米国の電話調査)では、大雪の翌朝に雪かきショベルを15ドルから20ドルに値上げした金物屋を「不当」と評価した人は82%(107人中)。一方、仕入れ値上昇に伴う値上げは受け入れられる傾向が示された</strong> — 人が許す値上げと許さない値上げの線は、市場ではなく公平感の中にある。</div><p>これを宿の言葉に翻訳します。宿の値上げが受け入れられるのは、理由が語れる時です。<strong>費用が変わった時</strong>(朝食の素材を変えた、備品を上げた)。<strong>中身が変わった時</strong>(紅葉の見える季節、祭りの見える部屋、平日にはない夕食付き)。<strong>慣習が支えている時</strong>(土曜は高い、お盆は高い——長年の慣習は「いつもの値段」の一部になる)。逆に、語れない値上げ——「近くの宿が取れたから」「人気が出たから」だけの値上げ——は、雪の朝のショベルと同じ心象を生みます。予約にはつながっても、レビューに「高い」と書かれれば、それは将来の値引きの始まりです。</p><h2>よくある2つのミス</h2><ul><li><strong>原価プラスの罠</strong> — 「建設費と人件費を足して、利益を乗せて、これくらいで」という値付けは、市場が払ってくれる額を取り逃がします。原価は値下げの限界線を教える材料であって、値段を決める物差しではない。</li><li><strong>常時値引きの罠</strong> — いつも安い宿の「安さ」は、やがて「本来の値段」と認識されます。そこから戻るには、理由の中身(リニューアル、体験の追加)が必要で、時間がかかる。</li></ul><h2>RevPARへの接続</h2><p>最後に、単価という数字の居場所です。単価は、単体では意味を持ちません。10室の宿が1万円で8室売るのと、1.5万円で5室売るのと、どちらが良いか——この比較を可能にするのが、稼働率と組んだRevPAR(1室あたりの売上)です。3つの数字の読み方は、収益管理の基礎の記事で、動かす設計はダイナミックプライシングの記事で扱います。この記事の3ステップは、その前段です。市場の物差しを持ち、位置を決め、時間で調整する。値上げの時は、理由を一言、添えられるように。</p><h2>プライシングの反対側</h2><ul><li><strong>競合の記録は劣化する</strong> — 5宿の価格帯は、季節と相場で動きます。物差しは四半期に1度、撮り直す。古い物差しは、間違えた位置の根拠になるだけです。</li><li><strong>最安値の席</strong> — 「市場の最低価格で立つ」戦略は、予約を増やしますが、安さを理由に来る客を増やします。値を上げた途端に去る集団です。立つなら、安さではなく理由(立地、体験)で立つ。</li><li><strong>値上げの急斜面</strong> — 公平感の研究が教える通り、同じ値上げでも説明で受け入れは変わります。それでも、一度に大きく上げる値上げは、説明があっても怨まれます。値上げは階段で、エレベーターでない。</li><li><strong>価格だけを見る経営</strong> — 価格は、部屋と体験の評価額の反映です。物差しばかり磨いて、部屋を磨かない宿の価格は、いずれ市場に訂正されます。</li><li><strong>数字の秘密</strong> — 料金表は人が読むもの。隠しコスト(清掃費、入湯税の紛れ)は、雪の朝のショベルと同じ心象を生みます。総額を見せる宿が結局勝ちます。</li></ul><p>今週やることは、予約サイトで近隣5宿の価格帯を書き出す、たったそれだけです。最低・中央・最高の3点と、自分の宿の位置に丸を付ける。その1枚の紙が、あなたの宿の値段の議論の、これからの土台になります。</p><div class="note">この記事はアイデア共有を目的としています。記載の研究は米国の調査の紹介であり、価格判断の効果を保証するものではありません。税・料金の表示は法令(旅行業法・特定商取引法等)に沿ってご確認ください。</div><h2>次に読む</h2><ul><li><a href="#revenue-management-basics">収益管理の基礎 — ADR・稼働率・RevPARの読み方</a> — 単価と稼働を組んで読む話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 調整を設計に育てる話</li><li><a href="#stay-purpose-demand">旅の目的別の宿選び — ビジネス・レジャー・行事で変わる需要</a> — 同じ部屋の値段が目的で変わる話</li><li><a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a> — 宿に来た後の値段の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"children":["ARTICLE ","017"]}]]}],["$","h1",null,{"children":"部屋単価の決め方 — プライシングの基礎"}],["$","p",null,{"className":"excerpt","children":"部屋単価は「市場価格→自分の位置→時間の調整」の3ステップで決まります。加えて、値上げには見えない掟があります。1986年の研究では、需要増を理由とした値上げを82%の人が不当と評価しました。理由が語れる値上げと、語れない値上げ——プライシングの基礎を整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.13"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}]]}]]}],["$","$L2","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}]]}]]}],["$","$L2","ota-commission-visibility",{"href":"/journal/articles/ota-commission-visibility","children":[["$","img",null,{"src":"/library/journal/ai_ota-commission-visibility-new.jpg","alt":"OTA手数料を可視化する"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.02.20"}],["$","h4",null,{"children":"OTA手数料を可視化する"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/room-photography-guide","children":["← ","客室の写真の撮り方 — 構図と光の2点"]}],["$","$L2",null,{"href":"/journal/articles/service-standard-basics","children":["サービスの基本 — 人による差をつけない「標準」"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T230f,<p>「うちの部屋、いくらにすべきだと思いますか」——宿の経営者から最も多く聞かれるこの質問には、実は問いの立て方自体に落とし穴があります。価格は、宿が決めるものではないからです。市場があり、競合があり、旅人の判断があり、その上で初めて、あなたの宿の部屋の値段が決まる。経営者の仕事は決めることではなく、その決定に参加することです。この記事は、参加のための3つのステップ——市場価格を探す、自分の位置を決める、時間で調整する——と、最後に、数字の裏にある「値上げの掟」の話です。</p><h2>ステップ1 — 市場価格を探す</h2><p>まず、周辺5宿の競合の価格帯を記録します。最低・中央・最高の3点。予約サイトで10分もあれば集まります。ここで作るのは「市場の値段の幅」という物差しです。自分の宿の現在の価格が、この幅のどこにいるのか。多くの宿は、この物差しを持っていない。持った瞬間、価格の悩みは半分なくなります(これは誇張ではなく、悩みの半分は「市場がどうなっているか分からない」から来るためです)。</p><h2>ステップ2 — 自分の位置を決める</h2><p>物差しのどこに立つか。判断の材料は3つ——品質(部屋と設備の水準)、体験(食、湯、時間の過ごし方)、立地(景観、アクセス、環境)。この3点で上に立てる宿は上に、しからざる宿は中央に。<strong>分からなければ中央で始める</strong>のが安全です。中央は、上がりも下がりもできる位置だからです。上に立った宿は下げにくい(値下げは「本来の価格」を壊します)が、中央から上へは、評価を見ながら動ける。</p><h2>ステップ3 — 時間で調整する</h2><p>同じ部屋の同じ価格を1年中貼る宿は、季節・曜日・リードタイム・稼働の4つの変化を捨てています。調整の設計(需要に応じて価格を動かす)は、大きく育てた先の記事に譲りますが、基礎として覚えるのは一文です。<strong>価格は、決めるものではなく、調整するもの</strong>。季節で動かし、曜日で動かし、残り部屋数で動かす。ここから先は「値付けを設計する」話です。</p><h2>値上げの掟 — なぜ同じ値上げが、受け入れられる時と怨まれる時があるのか</h2><p>ここからは、3ステップの裏にある人間の心の話です。1986年、カーネマン、ネッチ、セイラーの3人の研究者が、人々の「値段の公平感」を電話調査で調べた研究を発表しました。有名な設問がこれです。「金物屋が15ドルで売っていた雪かきショベルを、大雪の翌朝、20ドルに値上げしました」。これを「不当」と評価した人は、82%にのぼりました。需要が増えたから値上げする——経済学の教科書通りに行動した店が、8割の人に怨まれる。しかも同じ研究で、仕入れ値(卸値)が上がった場合の値上げは、多くの人が「やむを得ない」と受け入れることも分かりました。研究者たちはこの感覚を「デュアル・エンタイトルメント(二重の権利)」と名付けました。客には「いつもの値段」の権利があり、店には「いつもの利益」の権利がある。客が許すのは、店が自分の利益を守るための値上げだけ。需要の増えに乗っかる値上げは、不正と感じられるのです。</p><div class="stats"><span class="tag">RESEARCH</span><strong>カーネマン、ネッチ、セイラーの研究(1986、米国の電話調査)では、大雪の翌朝に雪かきショベルを15ドルから20ドルに値上げした金物屋を「不当」と評価した人は82%(107人中)。一方、仕入れ値上昇に伴う値上げは受け入れられる傾向が示された</strong> — 人が許す値上げと許さない値上げの線は、市場ではなく公平感の中にある。</div><p>これを宿の言葉に翻訳します。宿の値上げが受け入れられるのは、理由が語れる時です。<strong>費用が変わった時</strong>(朝食の素材を変えた、備品を上げた)。<strong>中身が変わった時</strong>(紅葉の見える季節、祭りの見える部屋、平日にはない夕食付き)。<strong>慣習が支えている時</strong>(土曜は高い、お盆は高い——長年の慣習は「いつもの値段」の一部になる)。逆に、語れない値上げ——「近くの宿が取れたから」「人気が出たから」だけの値上げ——は、雪の朝のショベルと同じ心象を生みます。予約にはつながっても、レビューに「高い」と書かれれば、それは将来の値引きの始まりです。</p><h2>よくある2つのミス</h2><ul><li><strong>原価プラスの罠</strong> — 「建設費と人件費を足して、利益を乗せて、これくらいで」という値付けは、市場が払ってくれる額を取り逃がします。原価は値下げの限界線を教える材料であって、値段を決める物差しではない。</li><li><strong>常時値引きの罠</strong> — いつも安い宿の「安さ」は、やがて「本来の値段」と認識されます。そこから戻るには、理由の中身(リニューアル、体験の追加)が必要で、時間がかかる。</li></ul><h2>RevPARへの接続</h2><p>最後に、単価という数字の居場所です。単価は、単体では意味を持ちません。10室の宿が1万円で8室売るのと、1.5万円で5室売るのと、どちらが良いか——この比較を可能にするのが、稼働率と組んだRevPAR(1室あたりの売上)です。3つの数字の読み方は、収益管理の基礎の記事で、動かす設計はダイナミックプライシングの記事で扱います。この記事の3ステップは、その前段です。市場の物差しを持ち、位置を決め、時間で調整する。値上げの時は、理由を一言、添えられるように。</p><h2>プライシングの反対側</h2><ul><li><strong>競合の記録は劣化する</strong> — 5宿の価格帯は、季節と相場で動きます。物差しは四半期に1度、撮り直す。古い物差しは、間違えた位置の根拠になるだけです。</li><li><strong>最安値の席</strong> — 「市場の最低価格で立つ」戦略は、予約を増やしますが、安さを理由に来る客を増やします。値を上げた途端に去る集団です。立つなら、安さではなく理由(立地、体験)で立つ。</li><li><strong>値上げの急斜面</strong> — 公平感の研究が教える通り、同じ値上げでも説明で受け入れは変わります。それでも、一度に大きく上げる値上げは、説明があっても怨まれます。値上げは階段で、エレベーターでない。</li><li><strong>価格だけを見る経営</strong> — 価格は、部屋と体験の評価額の反映です。物差しばかり磨いて、部屋を磨かない宿の価格は、いずれ市場に訂正されます。</li><li><strong>数字の秘密</strong> — 料金表は人が読むもの。隠しコスト(清掃費、入湯税の紛れ)は、雪の朝のショベルと同じ心象を生みます。総額を見せる宿が結局勝ちます。</li></ul><p>今週やることは、予約サイトで近隣5宿の価格帯を書き出す、たったそれだけです。最低・中央・最高の3点と、自分の宿の位置に丸を付ける。その1枚の紙が、あなたの宿の値段の議論の、これからの土台になります。</p><div class="note">この記事はアイデア共有を目的としています。記載の研究は米国の調査の紹介であり、価格判断の効果を保証するものではありません。税・料金の表示は法令(旅行業法・特定商取引法等)に沿ってご確認ください。</div><h2>次に読む</h2><ul><li><a href="#revenue-management-basics">収益管理の基礎 — ADR・稼働率・RevPARの読み方</a> — 単価と稼働を組んで読む話</li><li><a href="#revpar-18x-dynamic-pricing">RevPARが1.8倍に。値付けを「感覚」から「設計」へ</a> — 調整を設計に育てる話</li><li><a href="#stay-purpose-demand">旅の目的別の宿選び — ビジネス・レジャー・行事で変わる需要</a> — 同じ部屋の値段が目的で変わる話</li><li><a href="#upselling-front-desk">アップセル — 受付での「もう一押し」の基本</a> — 宿に来た後の値段の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"収益改善"}],["$","span",null,{"className":"ARTICLE","children":"017"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"部屋単価の決め方 — プライシングの基礎"}],["$","span",null,{"className":"en-only","children":"How to Set Room Rates: Pricing Fundamentals"}],["$","span",null,{"className":"zh-only","children":"如何确定房间的单价 — 定价基础知识"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"部屋単価は「市場価格→自分の位置→時間の調整」の3ステップで決まります。加えて、値上げには見えない掟があります。1986年の研究では、需要増を理由とした値上げを82%の人が不当と評価しました。理由が語れる値上げと、語れない値上げ——プライシングの基礎を整理しました。"}],["$","span",null,{"className":"en-only","children":"Room rates are set in three steps: find the market price, choose your position, adjust over time. And price increases have an unwritten law — in 1986 research, 82% of people judged an increase justified only by higher demand to be unfair. Increases with a reason you can tell, and increases without one: here are the fundamentals of pricing."}],["$","span",null,{"className":"zh-only","children":"“如何确定房间的单价”可以分为三个步骤：“市场价格→您的位置→时间调整。”有关定价的基本文章。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_pricing-basics.jpg","alt":"部屋単価の決め方 — プライシングの基礎"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.13"}],["$","span",null,{"children":"Revenue Growth"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T20a7,<p>"What do you think we should charge for our rooms?" — the question owners ask most often has a pitfall in the way it is asked. The price is not something the inn decides. There is a market, there are competitors, there are travelers' judgments; and only on top of all that is the price of your room settled. The owner's job is not to decide but to take part in that decision. This article is about the three steps of participation — find the market price, choose your position, adjust with time — and, at the end, the "law of price increases" behind the numbers.</p>
+
+<h2>Step 1 — Find the market price</h2>
+
+<p>First, record the price band of five neighboring competitors: the low, the middle, and the high. Ten minutes on the booking sites collects it. What this builds is a ruler — "the width of the market's price." Where in that width does your inn's current price sit? Most inns do not carry this ruler. The moment you hold it, half the worry over pricing disappears (not an exaggeration: half the worry comes from not knowing what the market is doing).</p>
+
+<h2>Step 2 — Choose your position</h2>
+
+<p>Where on the ruler to stand. The materials for judgment are three — quality (the level of the rooms and facilities), experience (food, the bath, how time is spent), and location (views, access, surroundings). Inns that can stand above on these three points stand above; those that cannot stand in the middle. <strong>If you cannot tell, starting in the middle is safe</strong> — the middle is the position from which you can move both up and down. An inn that has stood at the top cannot easily come down (discounting destroys "the true price"), but from the middle upward, you can move while watching the reviews.</p>
+
+<h2>Step 3 — Adjust with time</h2>
+
+<p>An inn that posts the same price for the same room all year is discarding four changes: season, day of the week, lead time, and occupancy. The design of adjustment (moving prices with demand) is left to an article further down the road, but the sentence to memorize as a foundation is this: <strong>a price is not something you set once; it is something you adjust</strong>. Move it with the season, with the day of the week, with the rooms remaining. From here on, it is the story of "pricing as design."</p>
+
+<h2>The law of price increases — why the same increase is accepted sometimes and resented at others</h2>
+
+<p>From here, the story of the human heart behind the three steps. In 1986, three researchers — Kahneman, Knetsch, and Thaler — published a study of people's "sense of price fairness," conducted as a telephone survey. The famous question: "A hardware store has been selling snow shovels for $15. On the morning after a blizzard, it raises the price to $20." Fully 82% judged this "unfair." Raise the price because demand rose — a store behaving exactly as the economics textbook prescribes is resented by eight in ten. And in the same study, an increase made because the wholesale cost had risen was accepted by many as "unavoidable." The researchers named this feeling "dual entitlement." The guest holds a right to "the usual price"; the store holds a right to "the usual profit." What the guest permits is only the increase a store makes to protect that profit. An increase that rides a surge of demand feels like injustice.</p>
+
+<div class="stats"><span class="tag">RESEARCH</span><strong>In the Kahneman, Knetsch, and Thaler study (1986, a U.S. telephone survey), 82% of respondents (of 107) judged a hardware store that raised a snow shovel from $15 to $20 on the morning after a blizzard "unfair," while increases attributed to rising wholesale costs tended to be accepted</strong> — The line between increases people permit and refuse lies not in the market but in the sense of fairness.</div>
+
+<p>Translating this into the inn's language: an increase is accepted when the reason can be told. <strong>When costs have changed</strong> (the breakfast ingredients changed, the amenities were upgraded). <strong>When the content has changed</strong> (the season of autumn leaves, a room overlooking the festival, a dinner not served on weekdays). <strong>When custom supports it</strong> (Saturdays cost more, Obon costs more — long-standing custom becomes part of "the usual price"). The reverse — an increase with no tellable reason, only "the inn nearby sold out" or "we got popular" — creates the same impression as the shovel on the snow morning. It may still bring bookings, but the moment a review says "expensive," the future discounting has begun.</p>
+
+<h2>Two common mistakes</h2>
+
+<ul>
+<li><strong>The cost-plus trap</strong> — Pricing by "add construction and labor costs, put profit on top, and it comes to about this" misses the amount the market would actually pay. Cost is material that teaches the floor of a discount, not the ruler that sets the price.</li>
+<li><strong>The constant-discount trap</strong> — The "cheapness" of an inn that is always cheap eventually gets recognized as "the real price." Climbing back from there requires content with a reason (a renovation, an added experience) — and it takes time.</li>
+</ul>
+
+<h2>The connection to RevPAR</h2>
+
+<p>Finally, where the number called "rate" lives. A rate alone means nothing. A 10-room inn selling 8 rooms at ¥10,000, or 5 rooms at ¥15,000 — which is better? What makes that comparison possible is RevPAR (revenue per room), paired with occupancy. How to read the three numbers belongs to the revenue-management basics article, and the design that moves them to the dynamic pricing article. The three steps of this article are the stage before them: carry the market's ruler, choose a position, adjust with time. And when you raise the price, be able to add the reason in one line.</p>
+
+<h2>The other side of pricing</h2>
+
+<ul>
+<li><strong>Competitor records decay</strong> — Five inns' price bands move with the season and the market. Re-shoot the ruler once a quarter. An old ruler becomes nothing but the basis of a mistaken position.</li>
+<li><strong>The cheapest seat</strong> — Standing at the market's lowest price increases bookings — and increases the guests who come for the cheapness alone. A group that leaves the moment you raise the value. If you stand, stand on a reason (location, experience), not on cheapness.</li>
+<li><strong>The steep slope of increases</strong> — As the fairness research teaches, acceptance of the same increase changes with the explanation. Even so, a large one-shot increase is resented even with the explanation. Price increases are stairs, not an elevator.</li>
+<li><strong>Management that watches only price</strong> — Price is a reflection of how the rooms and the experience are valued. An inn that polishes only the ruler and not the rooms will, in time, be corrected by the market.</li>
+<li><strong>Secrets in the numbers</strong> — A rate table is read by people. Hidden costs (cleaning fees, bathing taxes slipped in) create the same impression as the shovel on the snow morning. The inn that shows the total wins in the end.</li>
+</ul>
+
+<p>What to do this week is only this: write out the price bands of five nearby inns on the booking sites. Three points — low, middle, high — and a circle around where your inn sits. That single sheet becomes, from now on, the foundation of every discussion of your inn's prices.</p>
+
+<div class="note">This article is intended for sharing ideas. The research cited is an introduction of a U.S. survey and does not guarantee effects on pricing decisions. Check the display of taxes and charges in line with the law (the Travel Agency Act, the Act on Specified Commercial Transactions, and others).</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#revenue-management-basics">Revenue Management Basics: How to Read ADR, Occupancy, and RevPAR</a> — reading rate and occupancy together</li>
+<li><a href="#revpar-18x-dynamic-pricing">RevPAR Up 1.8×: Pricing From "Gut Feeling" to "Design"</a> — growing adjustment into design</li>
+<li><a href="#stay-purpose-demand">Lodging by Travel Purpose: Demand That Changes With Business, Leisure, and Events</a> — the same room priced by purpose</li>
+<li><a href="#upselling-front-desk">Upselling: The Basics of the "One More Push" at the Front Desk</a> — pricing after the guest arrives</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Te82,<p>“如何确定房间的单价”<strong>3步：“市场价格→自己持仓→时间调整”</strong>您可以组织它这篇文章是一篇基础文章，总结了定价的基础知识。 （以下数字为参考值和示例。）</p>
+<h2>1. Step1：查找市场价格</h2>
+<ul>
+<li>记录周围5个竞争对手的价格范围（最低、中间、最高）。</li>
+<li><strong>“我的价格是市场上的某个价格。”</strong>首先，知道。</li>
+</ul>
+<h2>2. 第二步：确定你的立场</h2>
+<ul>
+<li>根据三点决定产品在您的价格范围内的位置：质量、体验和位置。</li>
+<li><strong>从“中心”开始</strong>是安全的（查看评级并将其向上或向下移动）。</li>
+</ul>
+<h2>3. 第三步：按时间调整</h2>
+<ul>
+<li>根据季节、星期几、交货时间和操作进行操作。</li>
+<li>有关详细信息，请参阅动态定价（RevPAR 1.8x 文章）。</li>
+</ul>
+<h2>4. 两个常见错误</h2>
+<ul>
+<li><strong>成本加成陷阱</strong> —“成本+利润”意味着您错过了市场将为您支付的金额。</li>
+<li><strong>不断的折扣陷阱</strong> — 如果价格总是很低，“原价”就会被破坏。</li>
+</ul>
+<h2>5. 连接到 RevPAR</h2>
+<p>单单价格没有任何意义，<strong>RevPAR 与利用率相结合</strong>查看此处（请参阅有关收入管理基础知识的文章）。</p>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“如何确定客房价格 - 定价的基础知识” 与五年前相比，客人的期望发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>提高盈利能力的努力将增加整个地区的价值，而不仅仅是旅馆本身的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>5</b><span>记录的冲突数量</span></div><div class="stat"><b>中心</b><span>起始位置（大约）</span></div><div class="stat"><b>3</b><span>调整轴</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>房间价格应根据<strong>“不是您认为它值多少钱，而是客人认为它值多少钱”</strong>来确定： 只需在步骤1中进行一次市场记录，您就可以消除一半的价格担忧。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：记录周围5个竞争对手的价格范围</li>
+<li>第 2 周：决定你的位置（中心起点）</li>
+<li>第三周：根据季节和星期几决定调整轴</li>
+<li>每月：结合运营检查 RevPAR</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","revenue-management-basics",{"href":"/journal/articles/revenue-management-basics","children":[["$","img",null,{"src":"/library/journal/ai_revenue-management-basics.jpg","alt":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.11.21"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"収益管理の基礎 — ADR・稼働率・RevPARの読み方"}],["$","span",null,{"className":"en-only","children":"Revenue Management Basics: How to Read ADR, Occupancy, and RevPAR"}],["$","span",null,{"className":"zh-only","children":"收益管理基础知识 — 如何解读 ADR、入住率和 RevPAR"}]]}]]}]]}],["$","$L8","revpar-18x-dynamic-pricing",{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","img",null,{"src":"/library/journal/ai_revpar-18x-dynamic-pricing.jpg","alt":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.05.19"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","span",null,{"className":"en-only","children":"RevPAR Up 1.8×: Pricing From \"Gut Feeling\" to \"Design\""}],["$","span",null,{"className":"zh-only","children":"每间可用房收入 (RevPAR) 增加了 1.8 倍。将定价从“感觉”转向“设计”"}]]}]]}]]}],["$","$L8","ota-commission-visibility",{"href":"/journal/articles/ota-commission-visibility","children":[["$","img",null,{"src":"/library/journal/ai_ota-commission-visibility-new.jpg","alt":"OTA手数料を可視化する"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.02.20"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"OTA手数料を可視化する"}],["$","span",null,{"className":"en-only","children":"Making OTA Commissions Visible"}],["$","span",null,{"className":"zh-only","children":"可视化 OTA 费用"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/room-photography-guide","children":["- ",["$","span",null,{"className":"ja-only","children":"客室の写真の撮り方 — 構図と光の2点"}],["$","span",null,{"className":"en-only","children":"How to Photograph Guest Rooms: The Two Points of Composition and Light"}],["$","span",null,{"className":"zh-only","children":"客房照片如何拍——两点：构图和光线"}]]}],["$","$L8",null,{"href":"/journal/articles/service-standard-basics","children":[["$","span",null,{"className":"ja-only","children":"サービスの基本 — 人による差をつけない「標準」"}],["$","span",null,{"className":"en-only","children":"Service Basics: The \"Standard\" That Does Not Vary by Person"}],["$","span",null,{"className":"zh-only","children":"服务基础：不区分人的“标准”"}]," -"]}]]}]
+10:null

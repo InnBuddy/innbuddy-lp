@@ -1,15 +1,168 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_email-crm-direct.jpg","image"]
 :HL["/library/journal/ai_guest-data-river.jpg","image"]
 :HL["/library/journal/ai_instagram-cold-start.jpg","image"]
 :HL["/library/journal/ai_landing-page-3-seconds.jpg","image"]
-3:T1e2e,<p>チェックアウトの朝、宿とゲストの縁は一度切れます。予約サイトは予約が成立した時点で役目を終え、「また来たい」と思った人が宿に直接戻る道を用意してくれません。SNSは、タイムラインに偶然現れるのを待つしかない。その中で、泊まったことがある人に、広告費も手数料もかけずに、確実に届く手段が一つだけあります。メールです。ただし、この道具には法律で定められた作法があり、作法を知らないまま送ると、信頼だけでなく罰則の問題になり得ます。まず法の話から入ります。</p><h2>メールを送る前に — 特定電子メール法</h2><p>広告や宣伝を含むメールを規制する「特定電子メールの送信の適正化等に関する法律」——通称・特定電子メール法は、迷惑メールが社会問題化した2002年に施行されました。当初は「送らないでほしいと申し出た人には送らない」方式でしたが、2008年12月の改正で方針が反転します。事前に同意を得た人にしか送ってはならない——オプトイン方式への転換です。以来、広告メールは「断られたら止める」のではなく「了承をもらった人にだけ送る」ものになりました。</p><div class="stats"><span class="tag">FACT</span><strong>特定電子メール法(2002年施行、2008年12月改正)は、広告・宣伝メールについて事前の同意(オプトイン)を原則とし、同意の記録の保存を義務づけ、送信者の氏名・住所、受信拒否できる旨とその受け付け先の表示を義務づけている</strong> — 「配信停止はこちら」の一行は、作法ではなく法律の表示義務である。</div><p>違反の罰則も知っておく必要があります。送信者情報を偽った送信や、行政の措置命令に従わない場合には、1年以下の懲役または100万円以下の罰金。法人には3,000万円以下の罰金が科され得ます。宿のメールマガジンも、携帯のSMSも、この法律の対象です。とはいえ、宿での同意の取り方は素朴で構いません。予約時やチェックイン時の用紙に、メールアドレスの欄と、「宿からの情報のお知らせに使わせていただきます。いつでも停止できます」の一文とチェック欄を置く。そして、その記録を残す。法律の要求は、ほぼこれだけです。</p><div class="stats"><span class="tag">FACT</span><strong>特定電子メール法違反(送信者情報の偽装、措置命令への違反など)には1年以下の懲役または100万円以下の罰金が、法人には3,000万円以下の罰金が科され得る(同法の罰則規定。SMSにも適用される)</strong> — 宿の送る一通も、法律の対象から外れていない。</div><h2>送るべき3通 — 到着前・チェックアウト後・次の季節</h2><ol><li><strong>到着前の一通 — 不安を減らす</strong> — アクセス、持ち物、当日の空模様の一言。旅の前夜、人は不安で目を閉じます。この一通の役割は売ることではなく、不安を減らすことです。結果的にチェックインは滑らかになり、到着の第一印象まで良くなります。</li><li><strong>チェックアウト後の一通 — 感謝と、レビューのお願い</strong> — 帰宅した夜か、翌朝に。感想を伺う一文と、「よろしければレビューを」という一文だけ。レビューがなぜ宿の資産になるかは、レビュー運営の記事に譲ります。</li><li><strong>次の季節の一通 — 季節の便り</strong> — 「山の雪解けが始まりました」「蛍の季節が来ます」。売る文ではなく、その季節の土地の便りとして書きます。宿は「また行きたい」と記憶された場所のひとつであり、季節の便りは、その記憶に一度だけ声をかけるものです。</li></ol><h2>CRM — 記録が「そのゲストに合う一言」に変わる</h2><p>3通を支える土台が、顧客情報の記録——CRMです。記録するのは3つで十分です。滞在履歴(いつ、どのプランで)、リクエスト(枕、アレルギー、部屋の希望)、記念日。この記録の使い道は、送信リストではありません。「そのゲストに合う一言」を作る素材です。「前回はお子さまとご一緒でしたね」「前回、枕が合わないとおっしゃっていたので、今回は替えをご用意しました」。一斉送信のメールにこの一言が乗ると、メールは手紙になります。データの取り扱いの法——利用目的の明示、同意、削除の設計——については、ゲストデータの基本の記事で扱いました。メールは、その延長線上にある道具です。</p><h2>メールの反対側</h2><ul><li><strong>送らない設計</strong> — 「月1回まで」の意味は、送れる回数ではなく、送らないと決めることです。送らなかった月に、次の季節の便りは温まります。</li><li><strong>同意の形</strong> — 用紙の細字に紛れ込ませた同意は、取得したとは言えません。目的と停止の方法が読めて、チェックができる形であること。</li><li><strong>停止の即実行</strong> — 配信停止の連絡が来たら、その日のうちに外す。止まらないメールほど、宿への信頼を速く削るものはありません。</li><li><strong>返信は人が読む</strong> — 宛先を送信専用にしない。質問を返す人が必ずいます。返信を見る窓口があって、メールは初めて通路になります。</li><li><strong>覚えすぎない</strong> — 記録は、ゲストが話して楽しい話題だけに使う。細部を覚えられすぎる不快感は、データの記事で扱った宿の作法と同じです。</li><li><strong>数字の見方</strong> — 開封率やクリック率は改善の参考にはなりますが、手紙の質を測る物差しではありません。届いたかどうかは、返信が来るか、次の予約の備考に気持ちが書かれるかで読みます。</li></ul><p>手紙は、書かなかった手紙は一生届きません。まず小さく、次の季節の便りを3行だけ下書きしておく——山の便り、海の便り、祭りの便り。届け先の名簿は、宿帳と予約の記録の中に、もう眠っています。</p><div class="note">この記事はアイデア共有を目的としています。法令の説明は概要の紹介であり、実際の運用は最新の法令および総務省・消費者庁のガイドラインをご確認のうえ、必要に応じて専門家にご相談ください。</div><h2>次に読む</h2><ul><li><a href="#guest-data-basics">ゲストデータの基本 — 何を記録し、どう使うか</a> — 記録を巡る法と実務の話</li><li><a href="#direct-site-minimum-setup">直結サイト — LPの最小構成（プラン・決済・セキュリティ）</a> — 届けた先の受け皿の話</li><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 便りに書く季節の準備の話</li><li><a href="#review-replies-trust">感謝のメッセージが届きました — レビュー返信で信頼を積む</a> — チェックアウト後の言葉の作法の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"children":["ARTICLE ","011"]}]]}],["$","h1",null,{"children":"メールとCRM — チェックアウト後にも消えない直結エンジン"}],["$","p",null,{"className":"excerpt","children":"チェックアウト後に泊まった人へコストゼロで届く唯一の直結手段がメールです。ただしその運用は、2008年から事前の同意なく広告メールを送ることを禁じた特定電子メール法の上に組み立てる必要があります。送るべき3通と、記録から生まれる「そのゲストに合う一言」までを整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_email-crm-direct.jpg","alt":"メールとCRM — チェックアウト後にも消えない直結エンジン"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.01"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":"ゲストデータの基本 — 何を記録し、どう使うか"}]]}]]}],["$","$L2","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}]]}]]}],["$","$L2","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/video-marketing-3-videos","children":["← ","動画マーケティング — 宿が最初に作るべき3本"]}],["$","$L2",null,{"href":"/journal/articles/fnb-revenue-basics","children":["F&B売上を上げる — 朝食・レストラン収益の基本"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1e2e,<p>チェックアウトの朝、宿とゲストの縁は一度切れます。予約サイトは予約が成立した時点で役目を終え、「また来たい」と思った人が宿に直接戻る道を用意してくれません。SNSは、タイムラインに偶然現れるのを待つしかない。その中で、泊まったことがある人に、広告費も手数料もかけずに、確実に届く手段が一つだけあります。メールです。ただし、この道具には法律で定められた作法があり、作法を知らないまま送ると、信頼だけでなく罰則の問題になり得ます。まず法の話から入ります。</p><h2>メールを送る前に — 特定電子メール法</h2><p>広告や宣伝を含むメールを規制する「特定電子メールの送信の適正化等に関する法律」——通称・特定電子メール法は、迷惑メールが社会問題化した2002年に施行されました。当初は「送らないでほしいと申し出た人には送らない」方式でしたが、2008年12月の改正で方針が反転します。事前に同意を得た人にしか送ってはならない——オプトイン方式への転換です。以来、広告メールは「断られたら止める」のではなく「了承をもらった人にだけ送る」ものになりました。</p><div class="stats"><span class="tag">FACT</span><strong>特定電子メール法(2002年施行、2008年12月改正)は、広告・宣伝メールについて事前の同意(オプトイン)を原則とし、同意の記録の保存を義務づけ、送信者の氏名・住所、受信拒否できる旨とその受け付け先の表示を義務づけている</strong> — 「配信停止はこちら」の一行は、作法ではなく法律の表示義務である。</div><p>違反の罰則も知っておく必要があります。送信者情報を偽った送信や、行政の措置命令に従わない場合には、1年以下の懲役または100万円以下の罰金。法人には3,000万円以下の罰金が科され得ます。宿のメールマガジンも、携帯のSMSも、この法律の対象です。とはいえ、宿での同意の取り方は素朴で構いません。予約時やチェックイン時の用紙に、メールアドレスの欄と、「宿からの情報のお知らせに使わせていただきます。いつでも停止できます」の一文とチェック欄を置く。そして、その記録を残す。法律の要求は、ほぼこれだけです。</p><div class="stats"><span class="tag">FACT</span><strong>特定電子メール法違反(送信者情報の偽装、措置命令への違反など)には1年以下の懲役または100万円以下の罰金が、法人には3,000万円以下の罰金が科され得る(同法の罰則規定。SMSにも適用される)</strong> — 宿の送る一通も、法律の対象から外れていない。</div><h2>送るべき3通 — 到着前・チェックアウト後・次の季節</h2><ol><li><strong>到着前の一通 — 不安を減らす</strong> — アクセス、持ち物、当日の空模様の一言。旅の前夜、人は不安で目を閉じます。この一通の役割は売ることではなく、不安を減らすことです。結果的にチェックインは滑らかになり、到着の第一印象まで良くなります。</li><li><strong>チェックアウト後の一通 — 感謝と、レビューのお願い</strong> — 帰宅した夜か、翌朝に。感想を伺う一文と、「よろしければレビューを」という一文だけ。レビューがなぜ宿の資産になるかは、レビュー運営の記事に譲ります。</li><li><strong>次の季節の一通 — 季節の便り</strong> — 「山の雪解けが始まりました」「蛍の季節が来ます」。売る文ではなく、その季節の土地の便りとして書きます。宿は「また行きたい」と記憶された場所のひとつであり、季節の便りは、その記憶に一度だけ声をかけるものです。</li></ol><h2>CRM — 記録が「そのゲストに合う一言」に変わる</h2><p>3通を支える土台が、顧客情報の記録——CRMです。記録するのは3つで十分です。滞在履歴(いつ、どのプランで)、リクエスト(枕、アレルギー、部屋の希望)、記念日。この記録の使い道は、送信リストではありません。「そのゲストに合う一言」を作る素材です。「前回はお子さまとご一緒でしたね」「前回、枕が合わないとおっしゃっていたので、今回は替えをご用意しました」。一斉送信のメールにこの一言が乗ると、メールは手紙になります。データの取り扱いの法——利用目的の明示、同意、削除の設計——については、ゲストデータの基本の記事で扱いました。メールは、その延長線上にある道具です。</p><h2>メールの反対側</h2><ul><li><strong>送らない設計</strong> — 「月1回まで」の意味は、送れる回数ではなく、送らないと決めることです。送らなかった月に、次の季節の便りは温まります。</li><li><strong>同意の形</strong> — 用紙の細字に紛れ込ませた同意は、取得したとは言えません。目的と停止の方法が読めて、チェックができる形であること。</li><li><strong>停止の即実行</strong> — 配信停止の連絡が来たら、その日のうちに外す。止まらないメールほど、宿への信頼を速く削るものはありません。</li><li><strong>返信は人が読む</strong> — 宛先を送信専用にしない。質問を返す人が必ずいます。返信を見る窓口があって、メールは初めて通路になります。</li><li><strong>覚えすぎない</strong> — 記録は、ゲストが話して楽しい話題だけに使う。細部を覚えられすぎる不快感は、データの記事で扱った宿の作法と同じです。</li><li><strong>数字の見方</strong> — 開封率やクリック率は改善の参考にはなりますが、手紙の質を測る物差しではありません。届いたかどうかは、返信が来るか、次の予約の備考に気持ちが書かれるかで読みます。</li></ul><p>手紙は、書かなかった手紙は一生届きません。まず小さく、次の季節の便りを3行だけ下書きしておく——山の便り、海の便り、祭りの便り。届け先の名簿は、宿帳と予約の記録の中に、もう眠っています。</p><div class="note">この記事はアイデア共有を目的としています。法令の説明は概要の紹介であり、実際の運用は最新の法令および総務省・消費者庁のガイドラインをご確認のうえ、必要に応じて専門家にご相談ください。</div><h2>次に読む</h2><ul><li><a href="#guest-data-basics">ゲストデータの基本 — 何を記録し、どう使うか</a> — 記録を巡る法と実務の話</li><li><a href="#direct-site-minimum-setup">直結サイト — LPの最小構成（プラン・決済・セキュリティ）</a> — 届けた先の受け皿の話</li><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — 便りに書く季節の準備の話</li><li><a href="#review-replies-trust">感謝のメッセージが届きました — レビュー返信で信頼を積む</a> — チェックアウト後の言葉の作法の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"WEB集客"}],["$","span",null,{"className":"ARTICLE","children":"011"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"メールとCRM — チェックアウト後にも消えない直結エンジン"}],["$","span",null,{"className":"en-only","children":"Email and CRM: The Direct-Booking Engine That Does Not Disappear After Checkout"}],["$","span",null,{"className":"zh-only","children":"电子邮件和 CRM——结帐后不会消失的直接引擎"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に泊まった人へコストゼロで届く唯一の直結手段がメールです。ただしその運用は、2008年から事前の同意なく広告メールを送ることを禁じた特定電子メール法の上に組み立てる必要があります。送るべき3通と、記録から生まれる「そのゲストに合う一言」までを整理しました。"}],["$","span",null,{"className":"en-only","children":"Email is the only direct channel that reaches past guests after checkout at zero cost. But its operation must be built on the Specified Electronic Mail Act, which since 2008 has prohibited sending advertising email without prior consent. Here are the three emails to send, down to the \"one line that fits the guest\" that grows out of records."}],["$","span",null,{"className":"zh-only","children":"结帐后最强大的直接联系方式是“电子邮件”。这是一篇基本文章，其中组织了您应该发送的三封信以及 CRM 的基础知识。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_email-crm-direct.jpg","alt":"メールとCRM — チェックアウト後にも消えない直結エンジン"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.09.01"}],["$","span",null,{"children":"WEB Acquisition"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1c33,<p>On the morning of checkout, the tie between inn and guest is severed once. The booking site finishes its role the moment the reservation is made, and prepares no path back for the person who thinks "I would like to return." Social media can only wait to appear by chance on a timeline. Within all that, there is exactly one channel that reaches the people who have stayed — with no advertising cost, no commission, and certainty: email. But this tool has manners defined by law, and sending without knowing them can become a problem not only of trust but of penalties. We begin with the law.</p>
+
+<h2>Before you send — the Specified Electronic Mail Act</h2>
+
+<p>The law regulating email that contains advertising and publicity — the Act on the Regulation of Transmission of Specified Electronic Mail, known in short as the Specified Electronic Mail Act — was enacted in 2002, when spam had become a social problem. It began as a "do not send to those who ask you not to" system, but the December 2008 revision reversed the policy: email may be sent only to those who have given prior consent — the shift to an opt-in regime. Since then, advertising email has been not "stop when refused" but "send only to those who have agreed."</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>The Specified Electronic Mail Act (enacted 2002, revised December 2008) makes prior consent (opt-in) the principle for advertising email, requires keeping records of that consent, and mandates display of the sender's name and address and of the notice that reception can be refused, together with the address for such requests</strong> — The line "to stop these emails, click here" is not a courtesy but a statutory display duty.</div>
+
+<p>The penalties for violation are also worth knowing. Sending with falsified sender information, or defying an administrative order, carries up to one year of imprisonment or a fine of up to ¥1 million; corporations can be fined up to ¥30 million. An inn's newsletter and SMS to mobile phones alike fall under this law. That said, how an inn takes consent can be plain: on the form at booking or check-in, a field for the email address, one sentence — "We will use it to send news from the inn; you can stop it at any time" — and a checkbox. Then keep the record. That, more or less, is all the law asks.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>Violations of the Specified Electronic Mail Act (falsified sender information, defiance of administrative orders, and the like) carry up to one year of imprisonment or a fine of up to ¥1 million, and corporations can be fined up to ¥30 million (the Act's penalty provisions; also applied to SMS)</strong> — The one email an inn sends is not outside the law's scope.</div>
+
+<h2>The three emails to send — before arrival, after checkout, and the next season</h2>
+
+<ol>
+<li><strong>The pre-arrival email — reducing anxiety</strong> — Access, what to bring, one line on the day's weather. The night before a trip, people close their eyes on anxiety. This email's role is not to sell but to reduce anxiety. Check-in goes smoothly, and even the first impression on arrival improves as a result.</li>
+<li><strong>The post-checkout email — thanks, and a request for a review</strong> — On the night they get home, or the next morning. One line asking their impressions, and one line: "if you are willing, a review." Why reviews become an inn's asset is left to the review-management article.</li>
+<li><strong>The next-season email — a seasonal letter</strong> — "The mountain snow has begun to melt." "The season of fireflies is coming." Written not as a selling sentence but as news of the land in that season. An inn is one of the places remembered as "I would like to go back"; the seasonal letter is a single call placed to that memory.</li>
+</ol>
+
+<h2>CRM — records turn into "the one line that fits the guest"</h2>
+
+<p>The foundation supporting the three emails is the record of customer information — CRM. Three things are enough to record: stay history (when, on which plan), requests (pillow, allergies, room preferences), and anniversaries. The use of these records is not a mailing list; it is material for making "the one line that fits the guest." "You were here with your little one last time." "You mentioned the pillow did not suit you, so we have prepared a replacement this time." When that one line rides on a broadcast email, the email becomes a letter. The law of handling data — stating the purpose of use, consent, designing deletion — was covered in the guest-data basics article; email is a tool on that same line.</p>
+
+<h2>The other side of email</h2>
+
+<ul>
+<li><strong>Designing not to send</strong> — The meaning of "at most once a month" is not the number you may send but the decision of what not to send. In the months you did not send, the next seasonal letter ripens.</li>
+<li><strong>The form of consent</strong> — Consent buried in the fine print of a form cannot be called obtained. It must be a form in which the purpose and the stopping method can be read, and checked.</li>
+<li><strong>Execute stops immediately</strong> — If a stop request arrives, remove the address that day. Nothing cuts trust in an inn faster than email that will not stop.</li>
+<li><strong>A human reads the replies</strong> — Do not make the sender address send-only. Someone will always reply with a question. Email becomes a corridor only when there is a window that reads what comes back.</li>
+<li><strong>Do not remember too much</strong> — Use records only for topics the guest enjoyed discussing. The discomfort of being over-remembered is the same craft of the inn covered in the data article.</li>
+<li><strong>How to read the numbers</strong> — Open rates and click rates can inform improvement, but they are not a measure of a letter's quality. Whether it arrived is read by whether a reply comes, and by whether a feeling is written in the notes of the next booking.</li>
+</ul>
+
+<p>The letter you did not write will never be delivered. Start small: draft next season's letter in just three lines — mountain news, sea news, festival news. The mailing list is already asleep inside the guest register and the booking records.</p>
+
+<div class="note">This article is intended for sharing ideas. The legal descriptions are an outline; for actual operation, check the latest laws and the guidelines of the Ministry of Internal Affairs and Communications and the Consumer Affairs Agency, and consult specialists as necessary.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#guest-data-basics">Guest Data Basics: What to Record, and How to Use It</a> — the law and practice around records</li>
+<li><a href="#direct-site-minimum-setup">The Direct Booking Site: The Minimum Setup Beyond the Landing Page</a> — the receptacle where the email lands</li>
+<li><a href="#seasonal-inbound-demand">Seasonal Inbound Demand: The Basics of When to Prepare What</a> — preparing the seasons you write about</li>
+<li><a href="#review-replies-trust">A Thank-You Note Arrived — Building Trust Through Review Replies</a> — the craft of words after checkout</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1d66,<p>结账后最强的直接连接方式是<strong>“邮件”</strong>。许多旅馆将直接联系视为“自己的网站”或“SNS”，但结帐后最强大的直接联系手段是“电子邮件”。以零成本发送给入住酒店的人。您可以“再次”创建通过 OTA 无法到达的联系点。本文将您应该发送的三封电子邮件和 CRM 的基础知识整理为直接相关的整体设计。 （直连的总体设计分为“直连站点”一文。）</p>
+
+<h2>1. 为什么要发电子邮件？以零成本提供的“退货”联系点</h2>
+<ul>
+<li><strong>以零成本交付给“过夜的人”：</strong>电子邮件将以零成本发送给曾经入住过该酒店的人。没有广告费用，也没有OTA费用。住过那里的人更有可能打开您的电子邮件，因为他们了解这家旅馆。零成本发送的电子邮件是最强大的直接联系方式。</li>
+<li><strong>通过 OTA 无法到达的“再次”联系点：</strong>OTA 不允许在退房后与客人联系。 OTA是一个“预订”平台，不提供“退货”联系点。电子邮件允许您创建无法通过 OTA 联系的“返回”联系点。通过在结帐后通过电子邮件创建“退货”联系人，您可以增加直接预订。</li>
+<li><strong>您可以积累材料来创造“适合客人的词”：</strong>通过发送电子邮件，您可以看到客人的反应（打开、点击、回复）。通过记录客人的反应，你可以积累素材，创造出“适合客人的词”。例如，你可以创造出适合客人的短语，比如“上次是和孩子在一起，这次做情侣怎么样？”</li>
+</ul>
+
+<h2>2. 发送三件事——抵达前、结帐后和下个季节。</h2>
+<ol>
+<li><strong>抵达前——访问、信息、期望（减少焦虑）：</strong>到达前的电子邮件传达访问权限、信息和期望。发送诸如“如何访问...”、“要带什么...”和“我期待明天”等电子邮件，以减少客人的焦虑并提高他们的期望。抵达前电子邮件可减少客人的焦虑，使办理入住手续更加顺利。</li>
+<li><strong>结账后——谢谢+评论请求（见小经验文章）：</strong>结帐后电子邮件将表示感谢并请求审核。发送一封电子邮件表达您的谢意并请求评论，例如“感谢您抽出时间”或“如果您能写评论，我会很高兴。”您可以在结帐后通过电子邮件请求评论来增加评论数量。</li>
+<li><strong>下一季——季节性活动（参见季节性文章）：</strong>下一封季节性电子邮件将传达季节性活动。我们发送传达下一季吸引力的电子邮件，例如“在春天，您可以享受......”或“在夏天，我们推荐......”。您可以通过发送有关下一季的电子邮件让您的客人想要再次回来，从而增加直接预订。</li>
+</ol>
+
+<h2>3. CRM基础——记录什么和“适合客人的话”</h2>
+<ul>
+<li><strong>要记录的事情 - 住宿历史、请求、周年纪念日（生日、周年纪念日）：</strong>CRM记录的是您的入住历史（入住时间）、请求（枕头请求、过敏等）和周年纪念日（生日、周年纪念日）。通过记录住宿历史、请求和周年纪念日，您可以创建适合客人的消息。</li>
+<li><strong>创建“适合客人的词”的材料：</strong>利用 CRM 中记录的入住历史记录、请求和周年纪念日，我们创建“适合客人的词语”。例如：“上次你和孩子在一起，这次作为情侣怎么样？”“上次你说你的枕头不合适，但这次我们为你准备了一个新枕头。”通过创造适合客人的短语，他们会感觉“你还记得我。”</li>
+<li><strong>“适合客人的一句话”就像一封信：</strong>CRM的目的不是一次性发送所有消息，而是向每位客人发送信件。大量电子邮件会让客人觉得他们不适合您。通过向每位客人发送看起来像信件的电子邮件，客人会觉得这封电子邮件是写给他们的。</li>
+</ul>
+
+<h2>4. 规则——每月一次/个性化/取消方式</h2>
+<ul>
+<li><strong>每月最多一次（不足以发送）：</strong>电子邮件的频率将限制为每月一次。如果您每月发送一次以上，您的客人会觉得很麻烦。通过将其限制为每月一次，客人将收到一封包含“必要信息”的电子邮件。</li>
+<li><strong>个性化（姓名/之前的入住意见）：</strong>电子邮件将进行个性化处理（姓名、之前入住的评论）。通过包含他们的姓名和上次入住的反馈，例如“谢谢○○先生上次的光临”，客人会觉得这封电子邮件是写给他们的。</li>
+<li><strong>请务必显示取消方式：</strong>我们将始终在电子邮件中提供有关如何取消的说明。通过向他们展示如何取消订阅，例如“单击此处取消订阅”，客人可以放心，他们可以随时取消订阅。出示取消方式也是一项法律义务。</li>
+</ul>
+
+<div class="stats"><span class="tag">数值示例</span><strong>例如，若施策前的直订量为每月20单，则约2.3倍（即每月46单）可作为“施策见效”的判断参考。例如，若施策前的回头率为10%，则约1.7倍（即17%）可作为“施策见效”的判断参考。以上均为帮助理解思路的模拟示例，实际结果因设施规模、位置、客群及执行程度而异。</strong> — 电子邮件是“零成本的第二个联系点”。只需 3 封电子邮件 + 记录，直接连接机制即可发挥作用。判断效果时，请用相同的统计方法记录并比较施策前后30天的直订量与回头率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>CRM的目的不是“广播”<strong>《致每位来宾的一封信》</strong>。只需发送 3 条消息 + 录音，直接“再次”机制就会起作用。通过个性化您的电子邮件并显示每月最多一次退订的方式，您的电子邮件将成为一封信而不是令人讨厌的东西。通过在结帐后通过电子邮件创建“退货”联系人，您可以增加直接预订。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第 1 周：创建 3 个模板</strong> — 为三封电子邮件创建模板：到货前、结账后和下一季。包括访问、信息、期望、感谢+审核请求和季节性活动。</li>
+<li><strong>第二周：定义记录项目（历史、请求、周年纪念日）</strong> — 定义要在 CRM 中记录的项目（住宿历史记录、请求、周年纪念日）。通过决定要记录的项目，您可以积累材料来创造“适合客人的单词”。</li>
+<li><strong>第 3 周：结账后开始发送电子邮件</strong> — 从结帐后电子邮件开始（谢谢 + 审核请求）。通过结账后电子邮件增加评论数量。</li>
+<li><strong>第 4 周：开始发送抵达前电子邮件和下一个季节性电子邮件</strong> — 开始发送抵达前电子邮件（访问、信息、期望）和下一季的电子邮件（季节性活动）。通过三封电子邮件，直接“再次”机制被激活。</li>
+<li><strong>延续：每月最多一次/个性化/取消方法</strong> — 通过将电子邮件的发送频率限制为每月一次、对其进行个性化设置并提供取消订阅的方式，电子邮件变得更像是一封信，而不是令人讨厌的东西。每月记录一次直接预订和重复率，并持续改进。</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","guest-data-basics",{"href":"/journal/articles/guest-data-basics","children":[["$","img",null,{"src":"/library/journal/ai_guest-data-river.jpg","alt":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.26"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲストデータの基本 — 何を記録し、どう使うか"}],["$","span",null,{"className":"en-only","children":"Guest Data Basics: What to Record, and How to Use It"}],["$","span",null,{"className":"zh-only","children":"访客数据基础知识——记录什么以及如何使用它"}]]}]]}]]}],["$","$L8","instagram-cold-start",{"href":"/journal/articles/instagram-cold-start","children":[["$","img",null,{"src":"/library/journal/ai_instagram-cold-start.jpg","alt":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.09"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ホテルのInstagram — 今から始める「ゼロ→10投稿」の計画"}],["$","span",null,{"className":"en-only","children":"Hotel Instagram: The Zero-to-Ten Post Plan for Starting Now"}],["$","span",null,{"className":"zh-only","children":"Hotel Instagram — 计划从现在开始从“0 条帖子到 10 条帖子”"}]]}]]}]]}],["$","$L8","landing-page-3-seconds",{"href":"/journal/articles/landing-page-3-seconds","children":[["$","img",null,{"src":"/library/journal/ai_landing-page-3-seconds.jpg","alt":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.07"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ランディングページの設計 — 初見の「3秒」で何を伝えるか"}],["$","span",null,{"className":"en-only","children":"Landing Page Design: What to Say in the First \"Three Seconds\""}],["$","span",null,{"className":"zh-only","children":"登陆页面设计——前“3秒”要传达什么"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/video-marketing-3-videos","children":["- ",["$","span",null,{"className":"ja-only","children":"動画マーケティング — 宿が最初に作るべき3本"}],["$","span",null,{"className":"en-only","children":"Video Marketing: The Three Videos a Property Should Make First"}],["$","span",null,{"className":"zh-only","children":"视频营销——酒店首先应该创造的三件事"}]]}],["$","$L8",null,{"href":"/journal/articles/fnb-revenue-basics","children":[["$","span",null,{"className":"ja-only","children":"F&B売上を上げる — 朝食・レストラン収益の基本"}],["$","span",null,{"className":"en-only","children":"Raising F&B Revenue: The Basics of Breakfast and Restaurant Revenue"}],["$","span",null,{"className":"zh-only","children":"增加餐饮销售额——早餐/餐厅收入的基础知识"}]," -"]}]]}]
+10:null

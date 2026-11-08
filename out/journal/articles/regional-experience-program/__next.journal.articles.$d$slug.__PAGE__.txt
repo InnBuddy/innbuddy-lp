@@ -1,15 +1,174 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_regional-experience-program.jpg","image"]
 :HL["/library/journal/ai_small-experiences-5-touchpoints.jpg","image"]
 :HL["/library/journal/ai_scent-music-five-senses-new.jpg","image"]
 :HL["/library/journal/ai_guest-journey-map.jpg","image"]
-3:T1c75,<p>1泊1万円の素泊まりで去るゲストと、同じ1万円の宿泊に加えて体験に5千円、飲食に3千円、お土産に2千円を地域で使い、帰国後にあの体験を3回語るゲスト。地域にとってどちらが価値かは、問うまでもありません。本記事は、<strong>インバウンドゲストの価値を「1泊の単価」ではなく「地域で使う時間とお金」</strong>で測るために、体験プログラムの3要素と、宿への組み込み設計を整理します。</p><h2>満足はある。買われていない。</h2><p>訪日外国人に「日本の日常生活体験」の満足度を聞くと、96.9%が「満足した」と答えます(2022年の観光庁調査)。歴史・伝統文化体験でも96.4%です。ところが、支払いの側を見ると話は変わる。2025年の訪日客の消費を費目別に見ると、宿泊費36.6%、買物代27.0%、飲食費21.9%、交通費10.0%——そして<strong>娯楽等サービス費(体験)は4.5%</strong>にとどまります。</p><div class="stats"><span class="tag">FACT</span><strong>観光庁の調査では、訪日外国人の「日本の日常生活体験」への満足度は96.9%、歴史・伝統文化体験は96.4%(2022年次報告)。一方、費目別の消費構成では娯楽等サービス費は4.5%で、宿泊費36.6%・買物代27.0%・飲食費21.9%・交通費10.0%に比べ小さい(インバウンド消費動向調査2025年確報・執筆時点)</strong> — 体験は「満足」としては存在し、「商品」としてはまだ小さい。</div><p>この差の読み方は、一つしかありません。<strong>体験への需要は既にあるのに、買える形が用意されていない</strong>。味噌蔵の見学も、漁港の朝市も、多くは「予約して買える商品」になっていないままです。この差を埋める仕事は、地域の誰かがやらなければ消えたままになる。そして、その入口に立つのに最も適した業態が宿です。</p><p>なお、娯楽等サービス費の1人当たり額は国によって大きく差があり、最も高いオーストラリアでは3万5千円です(同確報)。体験に落ちるお金は客層で動く——つまり、誰を呼ぶ宿かという選択自体が、体験収入の設計の一部になります。</p><h2>3つの伸びる — 滞在・消費・口コミ</h2><ul><li><strong>滞在の長さ</strong> — 「泊まる」だけなら1泊で足ります。「明日は味噌蔵、明後日は漁港の朝市」なら、連泊の理由ができる。体験は、延泊の理由として効く。</li><li><strong>地域での消費</strong> — 体験料、体験先での飲食と買い物、送迎。宿泊費の外で落とすお金が地域に残る。宿は地域消費の入口になれる。</li><li><strong>口コミの深さ</strong> — 「部屋がきれいだった」は翌年には忘れられる。「おばあちゃんと梅干しを漬けた」は帰国後も語られる。体験は、宿が語られる材料そのものです。</li></ul><h2>体験プログラムの3要素</h2><ol><li><strong>泊まる理由 — 生産者・地域とのつながり</strong> — 観光地巡りは日帰りでもできる。畑に入る、競りを見る、工房で一緒に作る。そこにしかない人とのつながりが、泊まる理由になる。</li><li><strong>ゲストがやること — 受動でなく参加</strong> — 見るだけの見学と、梅を漬ける・網を編む・薪を割るの違いは、記憶に残るかどうかの違いです。手を動かしたことが、身体に残る。</li><li><strong>持ち帰れるもの — 商品・写真・物語</strong> — その体験で作ったもの、生産者の作った商品、そして「あの時の味噌、まだ家にある」という話。持ち帰り物は、次の予約の種になる。</li></ol><h2>組み込みの設計 — 追加オプションにしない</h2><ul><li><strong>パッケージに含めて売る</strong> — 「1泊＋味噌作り」「2連泊＋朝市と朝食」。体験は「選ぶもの」ではなく「含まれているもの」に。選択肢の末尾に置かれた体験は、選ばれません。</li><li><strong>時間を明示する</strong> — 「体験あり」ではなく「9:00宿発、9:30〜11:00味噌蔵、11:30宿着」。インバウンドの旅程は時間で組まれる。</li><li><strong>言葉と身振りの準備</strong> — 体験先の案内を英語で1枚。生産者には「ありがとう」「おいしい」の英語と身振りを共有する。完璧な通訳より、意思の到達。</li><li><strong>価格の設計 — 地域に還す</strong> — 原価の内訳は、生産者への謝礼＋送迎＋保険。宿の取り分は10〜20%に抑えると、生産者が真面目に付き合ってくれます。参考までに、ゲスト負担は1人2,000〜5,000円前後で始まる体験が多い(一例)。</li></ul><h2>反対側 — 体験が宿を疲れさせるとき</h2><ul><li><strong>生産者の本業と季節に縛られる</strong> — 収穫・漁・天候で中止になる日は必ず来ます。雨の日と閑期の代替を用意した上で売り出す。</li><li><strong>忙しい客には「何もしない」も商品</strong> — 体験込み一辺倒のパッケージは、疲れて何もしたくない客を遠ざける。込みと選択制の2段で用意する。</li><li><strong>安全と保険</strong> — 体験中の事故は、宿が組み込んだ旅程の中で起きます。保険の範囲と責任の線を、生産者と事前に書いておく。</li><li><strong>取り分で崩れる信頼</strong> — 宿が体験料の大半を取る設計は、1年で生産者を疲れさせる。還元設計は倫理ではなく、継続の条件です。</li></ul><p>最初の一歩は小さい。宿から半径15分の地図に、口をきける生産者・漁師・工房を3軒書き、そのうち1軒と「1体験」を作る。時間・持ち帰り物・謝礼を1枚にまとめたら、それはもう売れる商品の原型です。満足は既にある。あとは、買える形にするだけです。</p><div class="note">この記事はアイデア共有を目的としています。統計は観光庁の公表値(執筆時点)で、金額は参考例です。体験の安全・保険・必要な手続きは、各宿の責任でご確認ください。</div><h2>次に読む</h2><ul><li><a href="#regional-revitalization-inbound">地方創生×インバウンド — 宿が参画する形と活かし方</a> — 地域の側に立つ設計の話</li><li><a href="#idea-gastronomy-tourism-stay">ガストロノミーツーリズムを宿に取り入れる — 地域の食の物語を味わう体験アイデア</a> — 食体験の具体の話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 小さな体験の最小単位の話</li><li><a href="#12month-marketing-calendar">宿の12ヶ月 — すぐに使えるマーケティングカレンダー</a> — 体験を売る時期の設計の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"children":["ARTICLE ","026"]}]]}],["$","h1",null,{"children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","p",null,{"className":"excerpt","children":"訪日客は体験に高い満足を示すのに、娯楽等サービス費は費目の5%に満たない。満足はあるのに商品になっていない体験を、3要素と組み込みの設計で売れる形にする方法を整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.12.05"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":"チェックアウト後に語られる「小さな体験」の作り方"}]]}]]}],["$","$L2","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":"香りと音楽 — 五感で覚えられる宿"}]]}]]}],["$","$L2","guest-journey-map",{"href":"/journal/articles/guest-journey-map","children":[["$","img",null,{"src":"/library/journal/ai_guest-journey-map.jpg","alt":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.23"}],["$","h4",null,{"children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/media-youtube-introduction","children":["← ","旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"]}],["$","$L2",null,{"href":"/journal/articles/muslim-inbound-segment","children":["ムスリム・インバウンド — 日本の宿が狙う新しいセグメント"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1c75,<p>1泊1万円の素泊まりで去るゲストと、同じ1万円の宿泊に加えて体験に5千円、飲食に3千円、お土産に2千円を地域で使い、帰国後にあの体験を3回語るゲスト。地域にとってどちらが価値かは、問うまでもありません。本記事は、<strong>インバウンドゲストの価値を「1泊の単価」ではなく「地域で使う時間とお金」</strong>で測るために、体験プログラムの3要素と、宿への組み込み設計を整理します。</p><h2>満足はある。買われていない。</h2><p>訪日外国人に「日本の日常生活体験」の満足度を聞くと、96.9%が「満足した」と答えます(2022年の観光庁調査)。歴史・伝統文化体験でも96.4%です。ところが、支払いの側を見ると話は変わる。2025年の訪日客の消費を費目別に見ると、宿泊費36.6%、買物代27.0%、飲食費21.9%、交通費10.0%——そして<strong>娯楽等サービス費(体験)は4.5%</strong>にとどまります。</p><div class="stats"><span class="tag">FACT</span><strong>観光庁の調査では、訪日外国人の「日本の日常生活体験」への満足度は96.9%、歴史・伝統文化体験は96.4%(2022年次報告)。一方、費目別の消費構成では娯楽等サービス費は4.5%で、宿泊費36.6%・買物代27.0%・飲食費21.9%・交通費10.0%に比べ小さい(インバウンド消費動向調査2025年確報・執筆時点)</strong> — 体験は「満足」としては存在し、「商品」としてはまだ小さい。</div><p>この差の読み方は、一つしかありません。<strong>体験への需要は既にあるのに、買える形が用意されていない</strong>。味噌蔵の見学も、漁港の朝市も、多くは「予約して買える商品」になっていないままです。この差を埋める仕事は、地域の誰かがやらなければ消えたままになる。そして、その入口に立つのに最も適した業態が宿です。</p><p>なお、娯楽等サービス費の1人当たり額は国によって大きく差があり、最も高いオーストラリアでは3万5千円です(同確報)。体験に落ちるお金は客層で動く——つまり、誰を呼ぶ宿かという選択自体が、体験収入の設計の一部になります。</p><h2>3つの伸びる — 滞在・消費・口コミ</h2><ul><li><strong>滞在の長さ</strong> — 「泊まる」だけなら1泊で足ります。「明日は味噌蔵、明後日は漁港の朝市」なら、連泊の理由ができる。体験は、延泊の理由として効く。</li><li><strong>地域での消費</strong> — 体験料、体験先での飲食と買い物、送迎。宿泊費の外で落とすお金が地域に残る。宿は地域消費の入口になれる。</li><li><strong>口コミの深さ</strong> — 「部屋がきれいだった」は翌年には忘れられる。「おばあちゃんと梅干しを漬けた」は帰国後も語られる。体験は、宿が語られる材料そのものです。</li></ul><h2>体験プログラムの3要素</h2><ol><li><strong>泊まる理由 — 生産者・地域とのつながり</strong> — 観光地巡りは日帰りでもできる。畑に入る、競りを見る、工房で一緒に作る。そこにしかない人とのつながりが、泊まる理由になる。</li><li><strong>ゲストがやること — 受動でなく参加</strong> — 見るだけの見学と、梅を漬ける・網を編む・薪を割るの違いは、記憶に残るかどうかの違いです。手を動かしたことが、身体に残る。</li><li><strong>持ち帰れるもの — 商品・写真・物語</strong> — その体験で作ったもの、生産者の作った商品、そして「あの時の味噌、まだ家にある」という話。持ち帰り物は、次の予約の種になる。</li></ol><h2>組み込みの設計 — 追加オプションにしない</h2><ul><li><strong>パッケージに含めて売る</strong> — 「1泊＋味噌作り」「2連泊＋朝市と朝食」。体験は「選ぶもの」ではなく「含まれているもの」に。選択肢の末尾に置かれた体験は、選ばれません。</li><li><strong>時間を明示する</strong> — 「体験あり」ではなく「9:00宿発、9:30〜11:00味噌蔵、11:30宿着」。インバウンドの旅程は時間で組まれる。</li><li><strong>言葉と身振りの準備</strong> — 体験先の案内を英語で1枚。生産者には「ありがとう」「おいしい」の英語と身振りを共有する。完璧な通訳より、意思の到達。</li><li><strong>価格の設計 — 地域に還す</strong> — 原価の内訳は、生産者への謝礼＋送迎＋保険。宿の取り分は10〜20%に抑えると、生産者が真面目に付き合ってくれます。参考までに、ゲスト負担は1人2,000〜5,000円前後で始まる体験が多い(一例)。</li></ul><h2>反対側 — 体験が宿を疲れさせるとき</h2><ul><li><strong>生産者の本業と季節に縛られる</strong> — 収穫・漁・天候で中止になる日は必ず来ます。雨の日と閑期の代替を用意した上で売り出す。</li><li><strong>忙しい客には「何もしない」も商品</strong> — 体験込み一辺倒のパッケージは、疲れて何もしたくない客を遠ざける。込みと選択制の2段で用意する。</li><li><strong>安全と保険</strong> — 体験中の事故は、宿が組み込んだ旅程の中で起きます。保険の範囲と責任の線を、生産者と事前に書いておく。</li><li><strong>取り分で崩れる信頼</strong> — 宿が体験料の大半を取る設計は、1年で生産者を疲れさせる。還元設計は倫理ではなく、継続の条件です。</li></ul><p>最初の一歩は小さい。宿から半径15分の地図に、口をきける生産者・漁師・工房を3軒書き、そのうち1軒と「1体験」を作る。時間・持ち帰り物・謝礼を1枚にまとめたら、それはもう売れる商品の原型です。満足は既にある。あとは、買える形にするだけです。</p><div class="note">この記事はアイデア共有を目的としています。統計は観光庁の公表値(執筆時点)で、金額は参考例です。体験の安全・保険・必要な手続きは、各宿の責任でご確認ください。</div><h2>次に読む</h2><ul><li><a href="#regional-revitalization-inbound">地方創生×インバウンド — 宿が参画する形と活かし方</a> — 地域の側に立つ設計の話</li><li><a href="#idea-gastronomy-tourism-stay">ガストロノミーツーリズムを宿に取り入れる — 地域の食の物語を味わう体験アイデア</a> — 食体験の具体の話</li><li><a href="#welcome-amenity-5min">ウェルカムアメニティ — 「最初の5分」の設計</a> — 小さな体験の最小単位の話</li><li><a href="#12month-marketing-calendar">宿の12ヶ月 — すぐに使えるマーケティングカレンダー</a> — 体験を売る時期の設計の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"体験設計"}],["$","span",null,{"className":"ARTICLE","children":"026"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}],["$","span",null,{"className":"en-only","children":"Regional Experience Programs: The Basics for Extending Inbound Stays"}],["$","span",null,{"className":"zh-only","children":"本地体验计划的基础知识——旨在延长入境停留时间的设计"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"訪日客は体験に高い満足を示すのに、娯楽等サービス費は費目の5%に満たない。満足はあるのに商品になっていない体験を、3要素と組み込みの設計で売れる形にする方法を整理しました。"}],["$","span",null,{"className":"en-only","children":"Visitors to Japan report high satisfaction with experiences, yet entertainment-service spending stays under 5% of their budget. Experiences that satisfy but are not sold as products — here is how to make them sellable with the three elements and a design for building them into the stay."}],["$","span",null,{"className":"zh-only","children":"入境旅游的价值不是“一晚”，而是“在该地区花费的时间和金钱”。体验项目及其内在设计的三个要素。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_regional-experience-program.jpg","alt":"地域体験プログラムの基本 — インバウンドの滞在を伸ばす設計"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2025.12.05"}],["$","span",null,{"children":"Experience Design"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1d59,<p>The guest who leaves after one night, ¥10,000, room only — and the guest who, on the same ¥10,000 stay, spends another ¥5,000 on an experience, ¥3,000 on food and drink, ¥2,000 on souvenirs in the region, and tells the story of that experience three times after returning home. Which is worth more to the region hardly needs asking. To measure an inbound guest's value <strong>not by "the rate of one night" but by "the time and money spent in the region,"</strong> this article organizes the three elements of an experience program and the design for building it into the inn.</p>
+
+<h2>The satisfaction exists. It is not being bought.</h2>
+
+<p>Ask foreign visitors about their satisfaction with "experiences of everyday life in Japan," and 96.9% answer "satisfied" (a 2022 Japan Tourism Agency survey). History and traditional culture: 96.4%. But look at the payment side and the story changes. Breaking down 2025 visitor spending by category: lodging 36.6%, shopping 27.0%, food and drink 21.9%, transport 10.0% — and <strong>entertainment and services (experiences) stops at 4.5%</strong>.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>In Japan Tourism Agency surveys, foreign visitors' satisfaction with "experiences of everyday life in Japan" is 96.9%, and with history and traditional culture 96.4% (fiscal 2022 report). Meanwhile, in spending by category, entertainment and services is 4.5% — small beside lodging 36.6%, shopping 27.0%, food and drink 21.9%, and transport 10.0% (Survey of Foreign-Visitor Consumption Trends, 2025 final figures, as of writing)</strong> — The experience exists as "satisfaction," but is still small as "a product."</div>
+
+<p>There is only one way to read this gap. <strong>Demand for experiences already exists; a buyable form has not been prepared.</strong> The miso warehouse tour, the morning market at the fishing port — most remain unconverted into "a product you can reserve and buy." The work of filling this gap goes undone unless someone in the region does it. And the business best placed to stand at its entrance is the inn.</p>
+
+<p>Note, too, that per-visitor entertainment spending differs greatly by country: the highest, Australia, at ¥35,000 (same final report). The money that falls on experiences moves with the guest layer — meaning the choice of whom the inn invites is itself part of designing experience revenue.</p>
+
+<h2>Three things that grow — length of stay, spending, word of mouth</h2>
+
+<ul>
+<li><strong>Length of stay</strong> — If it is only "a place to sleep," one night is enough. "Tomorrow the miso warehouse, the day after the fishing port's morning market" — and a reason for consecutive nights exists. Experiences work as a reason to extend.</li>
+<li><strong>Spending in the region</strong> — Experience fees, food and shopping at the venue, transfers. Money dropped outside the room charge stays in the region. The inn can become the entrance to regional spending.</li>
+<li><strong>Depth of word of mouth</strong> — "The room was clean" is forgotten by next year. "I pickled umeboshi with a grandmother" is still being told after the flight home. Experiences are, themselves, the material the inn gets talked about with.</li>
+</ul>
+
+<h2>The three elements of an experience program</h2>
+
+<ol>
+<li><strong>A reason to stay — connection with producers and the region</strong> — Sightseeing rounds can be done as a day trip. Entering the field, watching the auction, making something together in the workshop. Connections that exist nowhere else become the reason to stay the night.</li>
+<li><strong>What the guest does — participation, not watching</strong> — The difference between a look-only tour and pickling plums, weaving a net, splitting firewood is the difference between staying in memory or not. What the hands did remains in the body.</li>
+<li><strong>What they can take home — a product, photos, a story</strong> — What they made in the experience, the producer's own goods, and the tale of "that miso from back then — we still have some at home." The take-home becomes the seed of the next booking.</li>
+</ol>
+
+<h2>The design of inclusion — do not make it an add-on</h2>
+
+<ul>
+<li><strong>Sell it inside the package</strong> — "One night + miso making." "Two nights + morning market and breakfast." The experience becomes not "something you choose" but "something included." An experience placed at the end of the options does not get chosen.</li>
+<li><strong>State the times</strong> — Not "experience available" but "9:00 depart the inn, 9:30–11:00 miso warehouse, 11:30 return." Inbound itineraries are built on clock times.</li>
+<li><strong>Prepare words and gestures</strong> — One sheet in English at the experience site. Share with producers the English — and the gestures — for "thank you" and "delicious." The arrival of intent, over perfect interpreting.</li>
+<li><strong>Designing the price — return it to the region</strong> — The cost breakdown: the producer's honorarium + transfer + insurance. Keeping the inn's share to 10–20% is what makes producers engage seriously. For reference, many experiences start at roughly ¥2,000–5,000 per guest (one example).</li>
+</ul>
+
+<h2>The other side — when experiences exhaust the inn</h2>
+
+<ul>
+<li><strong>Bound to the producers’ trade and the seasons</strong> — Days canceled by harvest, fishing, or weather always come. Prepare rainy-day and off-season alternatives before selling.</li>
+<li><strong>For tired guests, "doing nothing" is also a product</strong> — An experience-only package drives away the guest too tired to want anything. Offer both: included, and opt-in.</li>
+<li><strong>Safety and insurance</strong> — An accident during an experience happens inside an itinerary the inn built. Write the scope of insurance and the line of responsibility with the producer, in advance.</li>
+<li><strong>Trust broken over the share</strong> — A design where the inn takes most of the experience fee exhausts the producer within a year. A design that returns is not ethics; it is the condition of continuing.</li>
+</ul>
+
+<p>The first step is small. On a map within fifteen minutes of the inn, write three producers, fishers, or workshops you can speak to, and build "one experience" with one of them. Once the time, the take-home, and the honorarium are summarized on one sheet, that is already the prototype of a sellable product. The satisfaction already exists. All that remains is to give it a buyable form.</p>
+
+<div class="note">This article is intended for sharing ideas. The statistics are Japan Tourism Agency published values (as of writing), and the amounts are reference examples. Confirm the safety, insurance, and required procedures of experiences under each property's own responsibility.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#regional-revitalization-inbound">Regional Revitalization × Inbound: How a Property Joins In and Uses It</a> — designing from the region's side</li>
+<li><a href="#idea-gastronomy-tourism-stay">Incorporate Gastronomy Tourism into Inn - Experience Ideas Tasting Story of Regional Food</a> — the concrete food experience</li>
+<li><a href="#welcome-amenity-5min">Welcome Amenity: Designing the First Five Minutes</a> — the minimum unit of a small experience</li>
+<li><a href="#12month-marketing-calendar">The 12 Months of a Property: A Ready-to-Use Marketing Calendar</a> — designing when to sell experiences</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T151f,<p>入境旅客价值<strong>“在该地区花费的时间和金钱”而不是“每晚单价”</strong>确定方式为：一名客人每晚花费 10,000 日元不含餐住宿并离开，另一名客人在当地花费 5,000 日元用于体验，3,000 日元用于食品和饮料，2,000 日元用于购买当地纪念品，并在回家后在 SNS 上发布 3 次。哪个对该地区更有价值？本文概述了延长停留时间、增加消费、加深口碑的“本地体验计划”的三个要素，以及如何将其融入住宿的设计。</p>
+
+<h2>1. 为什么是体验式项目？ 3种成长方式</h2>
+<ul>
+<li><strong>停留时间增加：</strong>只要过夜就够了，但如果你打算明天做味噌，后天和渔民一起去早市，你就有理由过夜了。这种体验是过夜的理由。</li>
+<li><strong>本地消费增长：</strong>体验费、体验场地餐饮、交通。除住宿费用外的消费将下降到该地区。当旅馆成为“一个地区的门户”时，整个地区就会变得丰富起来（参见有关地区振兴的文章）。</li>
+<li><strong>评论深度增加：</strong>“我和奶奶一起做了酸梅”比“我的房间很漂亮”更好。经验创造了“可以谈论的旅馆”。</li>
+</ul>
+
+<h2>2. 体验计划三要素</h2>
+<ol>
+<li><strong>“留下来的理由”——不是旅游，而是与生产商和该地区的联系：</strong>如果只是想参观旅游景点，可以选择一日游。参观生产者的田地，在渔港观看拍卖，并在工作室一起创作。只有在那里才能找到的“与人的联系”成为留下来的理由。例如：凌晨 5 点的渔港、味噌啤酒厂之旅、竹工艺品制作。</li>
+<li><strong>“客人做什么”——参与，而不是被动：</strong>不要只是看和听，要用你的双手。腌李子、织网、劈柴。通过参与，记忆会留在你的身体里。它是“迎宾礼遇”（参见文章）的延伸，可在 5 分钟内完成。</li>
+<li><strong>“你可以带回家的东西”——产品、故事和照片：</strong>体验期间制作的物品（味噌、竹篮）、生产商的产品、体验中的照片和故事。即使回到日本后，“我家里还保留着当时的味噌。”您可以带回家的东西将成为您下次预订的理由。</li>
+</ol>
+
+<h2>3.“内置”设计——不要让它成为一个额外的选项</h2>
+<ul>
+<li><strong>包装内包含：</strong>如果您将其设为附加选项，则不会选择它。套餐包括“1晚+味噌制作体验”和“连续2晚+渔港早市和早餐”，并且从一开始就包含体验。经验不是可以选择的东西，而是包含在其中的东西。</li>
+<li><strong>明确时间：</strong>不是“包含体验”，而是“9:00 从酒店出发，9:30-11:00 参观味噌啤酒厂，11:30 到达酒店。”要清楚何时、何地以及做什么。入站对时间敏感。</li>
+<li><strong>多语言导游和外籍工作人员：</strong>有关体验目的地的信息有英文版本。参考外籍人员的文章，准备20个可以现场使用的短语。我们还与我们品尝的生产者分享了简单的英语和手势，例如“谢谢”和“美味”。</li>
+<li><strong>价格设计：</strong>当体验费包含在住宿费用中时，费用中包含“制作者报酬+交通+保险”。如果住宿的设计将份额保持在10-20%并回馈当地社区，那么继续下去会更容易。作为参考值，每次体验的客人费用为2,000-5,000日元，住宿费为500-1,000日元。</li>
+</ul>
+
+<div class="stats"><span class="tag">数值示例</span><strong>例如，平均住宿1.8晚的旅馆若延长0.6晚就是2.4晚。当地追加消费也可以这样理解——“为每位客人增加一项约3,000日元左右的体验”，这是便于想象的数值示例。</strong> — 体验不是“成本”，而是“延长停留时间的投资”。判断效果时，请用相同的统计方法记录并比较施策前后30天的平均住宿天数与可选项参与率。</div>
+
+<div class="note"><span class="tag">InnBuddy 笔记</span>体验计划的价值是什么？<strong>“客人成为该地区的大使”</strong>。当客栈被定位为“一个地区的入口”时，需求就会来到客栈。一开始还好。首先与一位当地制作人一起创造“一种体验”。</div>
+
+<h2>行动清单</h2>
+<ul>
+<li><strong>第 1 周：3 名合作候选人</strong> — 列出三个可以作为体验的当地生产商、旅游景点和作坊。味噌、酱油、钓鱼、竹工艺品、陶器等</li>
+<li><strong>第 2 周：设计 1 体验</strong> — 根据三个要素设计体验：入住原因、要做的事情和带回家的东西。明确时间、地点以及带什么回家。</li>
+<li><strong>第 3 周：纳入包装中</strong> — 通过 OTA 和我们自己的网站作为“体验包”出售。第一张照片显示了体验。请在描述中注明时间和外卖物品。</li>
+<li><strong>第 4 周：试用 + 记录</strong> — 让你的员工或朋友尝试一下并记录所需的时间和改进之处。记录客人的反应（无论是拍照、发布到 SNS 还是购买产品）。</li>
+<li><strong>续：回馈社会</strong> — 与制作人分享体验费用的细目。如果设计旨在回馈当地社区，生产者就会变得更加积极主动，体验质量也会提高。</li>
+</ul>
+b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","small-experiences-5-touchpoints",{"href":"/journal/articles/small-experiences-5-touchpoints","children":[["$","img",null,{"src":"/library/journal/ai_small-experiences-5-touchpoints.jpg","alt":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.04.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"チェックアウト後に語られる「小さな体験」の作り方"}],["$","span",null,{"className":"en-only","children":"The \"Small Experiences\" Guests Talk About After Checkout"}],["$","span",null,{"className":"zh-only","children":"如何打造结账后才会谈论的“小体验”"}]]}]]}]]}],["$","$L8","scent-music-five-senses",{"href":"/journal/articles/scent-music-five-senses","children":[["$","img",null,{"src":"/library/journal/ai_scent-music-five-senses-new.jpg","alt":"香りと音楽 — 五感で覚えられる宿"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.03.05"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"香りと音楽 — 五感で覚えられる宿"}],["$","span",null,{"className":"en-only","children":"Scent & Sound — A Stay the Five Senses Remember"}],["$","span",null,{"className":"zh-only","children":"香气与音乐——五种感官都能记住的旅馆"}]]}]]}]]}],["$","$L8","guest-journey-map",{"href":"/journal/articles/guest-journey-map","children":[["$","img",null,{"src":"/library/journal/ai_guest-journey-map.jpg","alt":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.09.23"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"ゲスト体験の全体像 — 「接点」をmapで見る方法"}],["$","span",null,{"className":"en-only","children":"The Whole Guest Experience: Mapping the Touchpoints"}],["$","span",null,{"className":"zh-only","children":"宾客体验的全貌——如何在地图上查看“接触点”"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/media-youtube-introduction","children":["- ",["$","span",null,{"className":"ja-only","children":"旅行メディア・YouTuberへの宿紹介 — 招待の進め方と効果測定"}],["$","span",null,{"className":"en-only","children":"Introducing Your Property to Travel Media and YouTubers: How to Reach Out and Measure Results"}],["$","span",null,{"className":"zh-only","children":"向旅游媒体和 YouTube 用户介绍住宿 — 如何进行邀请并衡量有效性"}]]}],["$","$L8",null,{"href":"/journal/articles/muslim-inbound-segment","children":[["$","span",null,{"className":"ja-only","children":"ムスリム・インバウンド — 日本の宿が狙う新しいセグメント"}],["$","span",null,{"className":"en-only","children":"Muslim Inbound: A New Segment for Japanese Properties"}],["$","span",null,{"className":"zh-only","children":"穆斯林入境——日本旅馆瞄准的新细分市场"}]," -"]}]]}]
+10:null

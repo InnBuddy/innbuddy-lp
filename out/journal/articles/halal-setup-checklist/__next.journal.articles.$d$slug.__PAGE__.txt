@@ -1,15 +1,188 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_halal-setup-checklist.jpg","image"]
 :HL["/library/journal/ai_upselling-front.jpg","image"]
 :HL["/library/journal/ai_service-recovery-lounge.jpg","image"]
 :HL["/library/journal/ai_energy-solar-hills.jpg","image"]
-3:T233f,<p>市場の規模と正直なポジショニングという「戦略の側」は、別記事「ムスリム・インバウンド — 日本の宿が狙う新しいセグメント」で整理しました。本記事はその設営編です。机の上の理屈はここまで——ここからは、<strong>礼拝できる場所・安心して食べられる食事・清潔さのシグナル</strong>の3ブロックを、小規模な宿が現実的な範囲で始めるためのチェックリストを整理します。繰り返しになりますが、ハラル対応は規模ではなく「信頼できるか」で決まります。</p><h2>言葉の地図 — 「認証」と「ムスリムフレンドリー」は別物</h2><p>設営の前に、言葉を正確にしておく必要があります。この分野の用語は、混ぜて使うと事故になります。</p><div class="stats"><span class="tag">FACT</span><strong>「ハラル認証」は、第三者の認証機関が厨房・食材の供給経路・調理工程を審査して発行するもの。一方「ムスリムフレンドリー」は、豚肉やアルコールを抜くなどの善意ある対応を示す自己申告の表現で、認証のような第三者による担保がない。日本には認証機関を統制する法律や機関がなく、複数の民間機関が独自基準の認証やマークを出している(一般社団法人ジャパン・ハラール・ファンデーション・日本アジアハラール協会の公表資料、調理科学誌の論文)</strong> — 「認証を取った」と書けるのは、審査を経た場合だけ。</div><p>この事実は、小さな宿にとって朗報でもあります。認証の取得には費用・時間・体制がかかり、すぐには手が届かない。しかし、<strong>認証がなくても信頼は作れる</strong>——その方法を先人の事例が示しています。</p><div class="stats"><span class="tag">CASE</span><strong>飛騨高山のムスリムフレンドリープロジェクトでは、名古屋モスクの関係者がかかわったまま、「ハラル認証」の道ではなく、ハラル肉やノンアルコールの調味料を使った郷土料理を開発し、原材料の情報を丁寧に表示して、ムスリム自身に判断してもらう道が選ばれた(調理科学誌の論文による紹介)</strong> — 隠す代わりに、判断の材料を渡す。認証のない宿が取れる、最も誠実な道。</div><p>この記事の設営も、この思想で貫きます。<strong>完璧を装わず、事実を渡す</strong>。以下の3ブロックです。</p><h2>ブロック1 — 礼拝できる場所(4項目)</h2><ol><li><strong>静かで清潔な小空間</strong> — 一部屋で十分です。カーテンで区切った一角でも構いません。大切なのは「ここをご案内できます」と言えること。</li><li><strong>礼拝用のラグ</strong> — 貸出用を清潔に管理する。床の上で礼拝する際の一枚の工夫で、持参しないゲストにも対応できます。</li><li><strong>お清めの場所(ウドゥー)</strong> — 礼拝の前に手・足・顔を洗うウドゥーのため、洗面所や浴室の入口が使えます。水差しを添えると、しゃがんで洗いやすい配慮になります。</li><li><strong>礼拝の方角(キブラ)の表示</strong> — 礼拝はメッカの方角に向かって行われます。その方角を示す印(窓の向きや矢印、方角の書いたカード)を用意しておくと、ゲストは自分で確認できます。</li></ol><h2>ブロック2 — 安心して食べられる食事(4項目)</h2><ol start="5"><li><strong>「何が入っているか」が分かるメニュー</strong> — 使った素材を書く。認証の証明ではなく、事実の開示で信頼を作ります(飛騨高山の思想)。</li><li><strong>調理の分離(交差汚染の管理)</strong> — ハラル向けの料理は、豚肉や酒を使う調理と器具・場所を分ける。ベジ対応の記事の仕組みが、そのまま流用できます。</li><li><strong>隠れ成分の見える化</strong> — 和食の落とし穴です。みりんと料理酒(アルコール)、かつおや豚を原料とする出汁、豚由来のゼラチン——「日本食なのにムスリム的に引っかかる成分」は、この3系統に集中します。どこまで抜くかは宿の判断ですが、<strong>何を使っているかを把握して説明できること</strong>が最低ラインです。</li><li><strong>スタッフのスクリプト</strong> — 「完全なハラルではありませんが、この料理は豚肉と酒を使っていません。原材料もお見せできます」。この一文を全スタッフが言えることが、どんな設備より強いシグナルです。</li></ol><h2>ブロック3 — 清潔さとシグナル(3項目)</h2><ol start="9"><li><strong>対応の明確な表示</strong> — 看板・Listing・サイトに、何ができて何ができないかを書く。「ムスリムフレンドリー」の言葉を使うなら、その中身(何をしているか)も添える。</li><li><strong>「できること・できないこと」の1枚</strong> — 礼拝の場所・食事・洗い場・調理の状況を1ページに。正直な「できません」は、あいまいな「対応しています」より信頼されます。</li><li><strong>研修の記録</strong> — スタッフがどこまで説明できるかのメモを残す。外部の研修を受けた記録があれば、さらに強い表示になります。</li></ol><h2>始める順 — 費用対効果の順番</h2><p>11項目を一度にやる必要はありません。最初は<strong>「表示の正直さ」と「清潔さ」</strong>——費用はほぼゼロで、信頼の土台になる2点から。次に食事の情報開示(隠れ成分の把握)、そして礼拝の場所の整備、という順番が、小さな宿には現実的です。</p><h2>反対側 — 設営が宿を傷つけるとき</h2><ul><li><strong>「対応しています」の重さ</strong> — 実態が伴わない表示は、無表示よりはるかに危険です。書く前に、書いた内容が全スタッフの言葉と一致しているかを確かめる。</li><li><strong>和食とみりんの両立</strong> — みりんを完全に抜くと味の設計から作り直しになります。ノンアルコールの代替調味料もありますが、導入の判断は料理人と一緒に。「抜きました」と嘘を言うのが一番いけない。</li><li><strong>ラマダン(断食月)の逆転</strong> — 断食月は、食事が夜明け前と日没後に移ります。訪日客の滞在中に重なる可能性は常にあり、時期は暦の性質上、毎年およそ11日ずつ早くへずれていきます。「朝食は何時から可能か」と聞かれたら、前日までに答えを用意しておく——それだけの準備で、断食中のゲストの滞在は格段に楽になります。</li><li><strong>高額なコンサルに飛びつかない</strong> — 基準や事例は関係団体の公表資料で読めます。まず無料の情報で全体像を掴んでから、必要な支援を判断する。</li><li><strong>一括りにしない</strong> — 礼拝も食も断食も、実践の度合いは人によって違います。備えたものは「選べる形」で置き、使うかどうかはゲストに委ねる。押し付けは配慮の逆です。</li></ul><p>最初の一歩は、今夜、調味料の棚のラベルを並べて写真を撮ることです。みりん・料理酒・出汁・ゼラチン——あなたの宿の「隠れ成分」を数え、メニューのどの料理に使っているかを1枚にまとめる。その1枚は、いつか来るゲストの質問への、最も正直な答えの材料になります。</p><div class="note">この記事はアイデア共有を目的としています。宗教上の実践の度合いは個人により異なります。認証の要否や表現の判断は、関係機関の公表資料と専門家のご確認をお願いします。</div><h2>次に読む</h2><ul><li><a href="#muslim-inbound-segment">ムスリム・インバウンド — 日本の宿が狙う新しいセグメント</a> — 市場と戦略の側の話</li><li><a href="#vegan-menu-one-dish">ヴィーガン対応の基本 — 1品から始めるメニュー設計</a> — 食の多様性の隣の実践の話</li><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — ラマダンなど季節と需要の話</li><li><a href="#english-listing-10-rules">日本の宿の英語Listingコピー — 10のルール</a> — 対応を正直に書く技術の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"children":["ARTICLE ","036"]}]]}],["$","h1",null,{"children":"礼拝室とハラルメニュー — ハラル対応の設営チェックリスト"}],["$","p",null,{"className":"excerpt","children":"ハラル対応は規模でなく「信頼」で決まる。認証とムスリムフレンドリーの言葉の地図、飛騨高山の「判断を渡す」事例、礼拝・食事・清潔の3ブロック設営を整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_halal-setup-checklist.jpg","alt":"礼拝室とハラルメニュー — ハラル対応の設営チェックリスト"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.08.24"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":"アップセル — 受付での「もう一押し」の基本"}]]}]]}],["$","$L2","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":"サービスリカバリー — クレームを信頼に変える「一手」"}]]}]]}],["$","$L2","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":"エネルギー削減 — 「収益の口座」としての基礎"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/international-credit-card-checklist","children":["← ","国際カードとオンライン予約 — 準備チェックリスト"]}],["$","$L2",null,{"href":"/journal/articles/inbound-complaint-handling","children":["インバウンドクレーム対応 — 高頻度ケースと初動テンプレ"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T233f,<p>市場の規模と正直なポジショニングという「戦略の側」は、別記事「ムスリム・インバウンド — 日本の宿が狙う新しいセグメント」で整理しました。本記事はその設営編です。机の上の理屈はここまで——ここからは、<strong>礼拝できる場所・安心して食べられる食事・清潔さのシグナル</strong>の3ブロックを、小規模な宿が現実的な範囲で始めるためのチェックリストを整理します。繰り返しになりますが、ハラル対応は規模ではなく「信頼できるか」で決まります。</p><h2>言葉の地図 — 「認証」と「ムスリムフレンドリー」は別物</h2><p>設営の前に、言葉を正確にしておく必要があります。この分野の用語は、混ぜて使うと事故になります。</p><div class="stats"><span class="tag">FACT</span><strong>「ハラル認証」は、第三者の認証機関が厨房・食材の供給経路・調理工程を審査して発行するもの。一方「ムスリムフレンドリー」は、豚肉やアルコールを抜くなどの善意ある対応を示す自己申告の表現で、認証のような第三者による担保がない。日本には認証機関を統制する法律や機関がなく、複数の民間機関が独自基準の認証やマークを出している(一般社団法人ジャパン・ハラール・ファンデーション・日本アジアハラール協会の公表資料、調理科学誌の論文)</strong> — 「認証を取った」と書けるのは、審査を経た場合だけ。</div><p>この事実は、小さな宿にとって朗報でもあります。認証の取得には費用・時間・体制がかかり、すぐには手が届かない。しかし、<strong>認証がなくても信頼は作れる</strong>——その方法を先人の事例が示しています。</p><div class="stats"><span class="tag">CASE</span><strong>飛騨高山のムスリムフレンドリープロジェクトでは、名古屋モスクの関係者がかかわったまま、「ハラル認証」の道ではなく、ハラル肉やノンアルコールの調味料を使った郷土料理を開発し、原材料の情報を丁寧に表示して、ムスリム自身に判断してもらう道が選ばれた(調理科学誌の論文による紹介)</strong> — 隠す代わりに、判断の材料を渡す。認証のない宿が取れる、最も誠実な道。</div><p>この記事の設営も、この思想で貫きます。<strong>完璧を装わず、事実を渡す</strong>。以下の3ブロックです。</p><h2>ブロック1 — 礼拝できる場所(4項目)</h2><ol><li><strong>静かで清潔な小空間</strong> — 一部屋で十分です。カーテンで区切った一角でも構いません。大切なのは「ここをご案内できます」と言えること。</li><li><strong>礼拝用のラグ</strong> — 貸出用を清潔に管理する。床の上で礼拝する際の一枚の工夫で、持参しないゲストにも対応できます。</li><li><strong>お清めの場所(ウドゥー)</strong> — 礼拝の前に手・足・顔を洗うウドゥーのため、洗面所や浴室の入口が使えます。水差しを添えると、しゃがんで洗いやすい配慮になります。</li><li><strong>礼拝の方角(キブラ)の表示</strong> — 礼拝はメッカの方角に向かって行われます。その方角を示す印(窓の向きや矢印、方角の書いたカード)を用意しておくと、ゲストは自分で確認できます。</li></ol><h2>ブロック2 — 安心して食べられる食事(4項目)</h2><ol start="5"><li><strong>「何が入っているか」が分かるメニュー</strong> — 使った素材を書く。認証の証明ではなく、事実の開示で信頼を作ります(飛騨高山の思想)。</li><li><strong>調理の分離(交差汚染の管理)</strong> — ハラル向けの料理は、豚肉や酒を使う調理と器具・場所を分ける。ベジ対応の記事の仕組みが、そのまま流用できます。</li><li><strong>隠れ成分の見える化</strong> — 和食の落とし穴です。みりんと料理酒(アルコール)、かつおや豚を原料とする出汁、豚由来のゼラチン——「日本食なのにムスリム的に引っかかる成分」は、この3系統に集中します。どこまで抜くかは宿の判断ですが、<strong>何を使っているかを把握して説明できること</strong>が最低ラインです。</li><li><strong>スタッフのスクリプト</strong> — 「完全なハラルではありませんが、この料理は豚肉と酒を使っていません。原材料もお見せできます」。この一文を全スタッフが言えることが、どんな設備より強いシグナルです。</li></ol><h2>ブロック3 — 清潔さとシグナル(3項目)</h2><ol start="9"><li><strong>対応の明確な表示</strong> — 看板・Listing・サイトに、何ができて何ができないかを書く。「ムスリムフレンドリー」の言葉を使うなら、その中身(何をしているか)も添える。</li><li><strong>「できること・できないこと」の1枚</strong> — 礼拝の場所・食事・洗い場・調理の状況を1ページに。正直な「できません」は、あいまいな「対応しています」より信頼されます。</li><li><strong>研修の記録</strong> — スタッフがどこまで説明できるかのメモを残す。外部の研修を受けた記録があれば、さらに強い表示になります。</li></ol><h2>始める順 — 費用対効果の順番</h2><p>11項目を一度にやる必要はありません。最初は<strong>「表示の正直さ」と「清潔さ」</strong>——費用はほぼゼロで、信頼の土台になる2点から。次に食事の情報開示(隠れ成分の把握)、そして礼拝の場所の整備、という順番が、小さな宿には現実的です。</p><h2>反対側 — 設営が宿を傷つけるとき</h2><ul><li><strong>「対応しています」の重さ</strong> — 実態が伴わない表示は、無表示よりはるかに危険です。書く前に、書いた内容が全スタッフの言葉と一致しているかを確かめる。</li><li><strong>和食とみりんの両立</strong> — みりんを完全に抜くと味の設計から作り直しになります。ノンアルコールの代替調味料もありますが、導入の判断は料理人と一緒に。「抜きました」と嘘を言うのが一番いけない。</li><li><strong>ラマダン(断食月)の逆転</strong> — 断食月は、食事が夜明け前と日没後に移ります。訪日客の滞在中に重なる可能性は常にあり、時期は暦の性質上、毎年およそ11日ずつ早くへずれていきます。「朝食は何時から可能か」と聞かれたら、前日までに答えを用意しておく——それだけの準備で、断食中のゲストの滞在は格段に楽になります。</li><li><strong>高額なコンサルに飛びつかない</strong> — 基準や事例は関係団体の公表資料で読めます。まず無料の情報で全体像を掴んでから、必要な支援を判断する。</li><li><strong>一括りにしない</strong> — 礼拝も食も断食も、実践の度合いは人によって違います。備えたものは「選べる形」で置き、使うかどうかはゲストに委ねる。押し付けは配慮の逆です。</li></ul><p>最初の一歩は、今夜、調味料の棚のラベルを並べて写真を撮ることです。みりん・料理酒・出汁・ゼラチン——あなたの宿の「隠れ成分」を数え、メニューのどの料理に使っているかを1枚にまとめる。その1枚は、いつか来るゲストの質問への、最も正直な答えの材料になります。</p><div class="note">この記事はアイデア共有を目的としています。宗教上の実践の度合いは個人により異なります。認証の要否や表現の判断は、関係機関の公表資料と専門家のご確認をお願いします。</div><h2>次に読む</h2><ul><li><a href="#muslim-inbound-segment">ムスリム・インバウンド — 日本の宿が狙う新しいセグメント</a> — 市場と戦略の側の話</li><li><a href="#vegan-menu-one-dish">ヴィーガン対応の基本 — 1品から始めるメニュー設計</a> — 食の多様性の隣の実践の話</li><li><a href="#seasonal-inbound-demand">季節ごとのインバウンド需要 — 「いつ何を」準備するかの基本</a> — ラマダンなど季節と需要の話</li><li><a href="#english-listing-10-rules">日本の宿の英語Listingコピー — 10のルール</a> — 対応を正直に書く技術の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ホテル運営"}],["$","span",null,{"className":"ARTICLE","children":"036"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"礼拝室とハラルメニュー — ハラル対応の設営チェックリスト"}],["$","span",null,{"className":"en-only","children":"Prayer Room & Halal Menu: A Halal-Readiness Setup Checklist"}],["$","span",null,{"className":"zh-only","children":"祈祷室和清真菜单 — 清真友好设置清单"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"ハラル対応は規模でなく「信頼」で決まる。認証とムスリムフレンドリーの言葉の地図、飛騨高山の「判断を渡す」事例、礼拝・食事・清潔の3ブロック設営を整理しました。"}],["$","span",null,{"className":"en-only","children":"Halal readiness is decided not by scale but by \"trust.\" Here is a map of the words \"certified\" and \"Muslim-friendly,\" the Hida Takayama case of \"handing over the judgment,\" and the three-block setup of prayer, food, and cleanliness."}],["$","span",null,{"className":"zh-only","children":"清真支持不是由规模决定的，而是由信任决定的。祈祷空间、可靠的食物、清洁信号和 3 块设置清单。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_halal-setup-checklist.jpg","alt":"礼拝室とハラルメニュー — ハラル対応の設営チェックリスト"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.08.24"}],["$","span",null,{"children":"Hotel Operations"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T20c2,<p>The "strategy side" — the market’s size and honest positioning — was organized in the separate article "Muslim Inbound: A New Segment for Japanese Properties." This article is the setup edition. Enough of the theory on the desk — from here, we organize a checklist for small properties to start, within realistic bounds, the three blocks of <strong>a place to pray, food they can eat with confidence, and signals of cleanliness</strong>. To repeat: halal readiness is decided not by scale but by "can it be trusted."</p>
+
+<h2>A map of the words — "certified" and "Muslim-friendly" are different things</h2>
+
+<p>Before any setup, the words must be made precise. In this field, mixing the terms causes accidents.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>"Halal certification" is issued by a third-party certification body after examining the kitchen, the supply routes of the ingredients, and the cooking process. "Muslim-friendly," by contrast, is a self-declared expression indicating good-faith efforts such as removing pork and alcohol, with no third-party guarantee as certification has. In Japan there is no law or body governing certification bodies, and multiple private organizations issue certifications and marks under their own standards (publications of the Japan Halal Foundation and the Nippon Asia Halal Association; a paper in a culinary-science journal)</strong> — Only a property that has undergone the examination may write "certified."</div>
+
+<p>This fact is good news for a small property, too. Certification takes money, time, and a structure, and does not come within reach at once. But <strong>even without certification, trust can be built</strong> — an earlier generation’s case shows the way.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>In the Hida Takayama Muslim-friendly project, with people from the Nagoya Mosque still involved, the path chosen was not that of "halal certification" but of developing local dishes using halal meat and non-alcoholic seasonings, carefully displaying ingredient information, and letting Muslims themselves judge (introduced in a culinary-science journal paper)</strong> — Instead of hiding, hand over the materials for judgment. The most honest path a property without certification can take.</div>
+
+<p>The setup in this article runs on this same philosophy throughout. <strong>Do not feign perfection; hand over the facts.</strong> Here are the three blocks.</p>
+
+<h2>Block 1 — a place to pray (4 items)</h2>
+
+<ol>
+<li><strong>A quiet, clean small space</strong> — One room is enough. A corner partitioned by a curtain will do. What matters is being able to say, "We can show you here."</li>
+<li><strong>A prayer rug</strong> — Keep the loaner rugs clean. One device for praying on the floor also covers guests who bring none.</li>
+<li><strong>A place for ablution (wudu)</strong> — Before prayer, hands, feet, and face are washed (wudu); the washroom or the bathroom entrance can serve. Adding a water pitcher makes it easier to wash while crouching.</li>
+<li><strong>A mark of the prayer direction (qibla)</strong> — Prayer is offered facing Mecca. If you prepare a mark showing that direction (the window’s orientation, an arrow, a card naming the direction), guests can confirm it themselves.</li>
+</ol>
+
+<h2>Block 2 — food they can eat with confidence (4 items)</h2>
+
+<ol start="5">
+<li><strong>A menu that shows "what is in it"</strong> — Write the ingredients used. Not proof of certification, but disclosure of facts builds trust (the Hida Takayama philosophy).</li>
+<li><strong>Separation of cooking (managing cross-contamination)</strong> — Separate the utensils and the place for halal-oriented dishes from cooking that uses pork or alcohol. The mechanism of the vegan article can be reused as is.</li>
+<li><strong>Making hidden ingredients visible</strong> — The pitfall of washoku. Mirin and cooking sake (alcohol), dashi stock made from bonito or pork, gelatin of pork origin — the "ingredients that trip up Muslims despite the food being Japanese" concentrate in these three lines. How far to remove them is the property’s call, but <strong>knowing what you use and being able to explain it</strong> is the minimum line.</li>
+<li><strong>A staff script</strong> — "This is not fully halal, but this dish uses no pork or alcohol. We can show you the ingredients too." All staff being able to say this one sentence is a stronger signal than any equipment.</li>
+</ol>
+
+<h2>Block 3 — cleanliness and signals (3 items)</h2>
+
+<ol start="9">
+<li><strong>A clear display of what you offer</strong> — On the sign, the listing, the site, write what you can and cannot do. If you use the words "Muslim-friendly," add their substance too (what you actually do).</li>
+<li><strong>One sheet of "what we can and cannot do"</strong> — The prayer place, meals, washing places, the state of the kitchen, on one page. An honest "we cannot" is trusted more than a vague "we accommodate."</li>
+<li><strong>A record of training</strong> — Leave a memo of how far staff can explain. A record of external training received makes an even stronger display.</li>
+</ol>
+
+<h2>The order to start — the order of cost-effectiveness</h2>
+
+<p>The 11 items need not all be done at once. Start with <strong>"honesty of displays" and "cleanliness"</strong> — two points that cost almost nothing and form the foundation of trust. Next, disclosure of food information (grasping the hidden ingredients), then preparing the prayer place — that order is realistic for a small property.</p>
+
+<h2>The other side — when the setup hurts the property</h2>
+
+<ul>
+<li><strong>The weight of "we accommodate"</strong> — A display unmatched by reality is far more dangerous than no display. Before writing, check that what you wrote matches every staff member’s words.</li>
+<li><strong>Washoku and mirin coexisting</strong> — Removing mirin entirely means rebuilding the flavor design from scratch. Non-alcoholic substitute seasonings exist, but the decision to introduce them belongs with the chef. Lying "we removed it" is the worst of all.</li>
+<li><strong>The reversal of Ramadan (the fasting month)</strong> — In the fasting month, meals shift to before dawn and after sunset. The chance of a visitor’s stay overlapping it is always there, and because of the calendar’s nature, the timing shifts about 11 days earlier each year. If asked "from what time can breakfast be served," have the answer ready by the day before — with just that preparation, the stay of a fasting guest becomes dramatically easier.</li>
+<li><strong>Don’t leap at expensive consultants</strong> — Standards and cases can be read in the publications of the relevant organizations. Grasp the whole picture from free information first, then judge what support you need.</li>
+<li><strong>Don’t lump everyone together</strong> — Prayer, food, fasting — the degree of practice differs by person. Put what you have prepared in "a form they can choose," and leave whether to use it to the guest. Pushing is the opposite of consideration.</li>
+</ul>
+
+<p>The first step is, tonight, to line up the labels on the seasoning shelf and photograph them. Mirin, cooking sake, dashi, gelatin — count your property’s "hidden ingredients," and put on one sheet which dishes use them. That sheet becomes the material for the most honest answer to a question from a guest who will come someday.</p>
+
+<div class="note">This article is intended for sharing ideas. The degree of religious practice differs by individual. For judgments on whether certification is needed and on wording, please check the publications of the relevant organizations and consult specialists.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#muslim-inbound-segment">Muslim Inbound: A New Segment for Japanese Properties</a> — the market and strategy side</li>
+<li><a href="#vegan-menu-one-dish">Vegan Basics: Menu Design Starting From One Dish</a> — the practice next to food diversity</li>
+<li><a href="#seasonal-inbound-demand">Seasonal Inbound Demand: The Basics of When to Prepare What</a> — seasons and demand, including Ramadan</li>
+<li><a href="#english-listing-10-rules">English Listing Copy for Japanese Properties: 10 Rules</a> — the craft of writing what you offer honestly</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tf12,<p>日本旅馆的清真住宿是<strong>“礼拜场所”、“可以放心吃的饭菜”、“干净的信号”。</strong>它是由三件事决定的。本文是一个从小而实际的规模开始的设置清单。 （有关清真市场的策略，请参阅单独的文章“穆斯林入境”。）</p>
+<h2>第 1 区：可以礼拜的场所（3 项）</h2>
+<ol>
+<li><strong>安静干净的小空间</strong> — 一间房间就够了。也可以用窗帘隔开。</li>
+<li><strong>新的礼拜地毯</strong> — 保持租赁物品清洁。</li>
+<li><strong>可以洗手洗脚的地方（Pud）</strong> — 可以在洗手间/浴室入口处。与一壶水一起食用。</li>
+</ol>
+<h2>第二块：可以安心吃的饭菜（4种）</h2>
+<ol start="4">
+<li><strong>清真菜单，包含有关所含内容的明确信息</strong> — 展示创造信任。</li>
+<li><strong>烹饪分开（交叉污染控制）</strong> — 专用烹饪用具/区域（使用蔬菜文章中的机制）。</li>
+<li><strong>不含酒精（提供无酒精）</strong> — 产品的分离。</li>
+<li><strong>员工脚本解释“你能做什么和不能做什么”</strong>。</li>
+</ol>
+<h2>第 3 块：清洁度和信号（3 项）</h2>
+<ol start="8">
+<li><strong>明确标明“符合清真”</strong> — 广告牌/列表/SNS。</li>
+<li><strong>“你能做什么/不能做什么”页面</strong> — 诚实的代表创造信任。</li>
+<li><strong>员工培训记录</strong> — 培训说明/认证（如果有）。</li>
+</ol>
+
+<h2>为什么现在值得关注？</h2>
+<ul>
+<li><strong>客人期待的变化：</strong>“祈祷室和清真菜单 - 清真设置清单” 与五年前相比，客人的期望发生了变化。过去“有了更好”的服务，如今已变成“没有就难以被选择”。适应这些变化，是住宿设施持续经营的前提。</li>
+<li><strong>与地区关系：</strong>住宿运营的举措提升的不只是单个旅馆，也包括整个地区的价值。通过与当地生产者和周边商户合作，旅馆的行动会成为“当地故事”。社区共同参与，才更容易长期持续。</li>
+<li><strong>不增加员工负担：</strong>新举措不应增加员工负担。通过建立机制，用一张表或每次15分钟的学习来运转，就能在不增加员工负担的情况下持续改进。</li>
+</ul>
+
+<h2>避免失败的3个要点</h2>
+<ol>
+<li><strong>从小处开始——先做好一件事：</strong>一开始就想全部改变，往往难以持续。先从一件事开始。可以从一间客房、一个货架或一句话开始；即使效果不理想，影响也小，更容易调整。</li>
+<li><strong>记录——用一张表看清楚：</strong>把行动记录在一张表里，效果就能被看见。你会知道哪些做法有效、哪些需要调整，记录也会成为下一轮改进的依据。</li>
+<li><strong>持续——每周一次，每次15分钟：</strong>新行动需要持续。每周留出15分钟，逐渐形成习惯，最后才会成为团队文化。</li>
+</ol>
+<div class="stats stats-grid"><div class="stat"><b>10</b><span>设置项目</span></div><div class="stat"><b>1 间客房</b><span>预计祈祷空间</span></div><div class="stat"><b>10%</b><span>（数值示例）入境游客中穆斯林比例</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>清真支持的价值是<strong>不是“规模”而是“可信度”</strong>。在完善所有10项之前，最好先按照成本效益的顺序改进“陈列的诚实度”和“清洁度”这两项。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：决定祈祷空间的位置（一个房间）</li>
+<li>第二周：准备发袋和水壶</li>
+<li>第三周：清真菜单和烹饪分离设计</li>
+<li>第 4 周：展示（招牌/Listing/SNS）和脚本</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","upselling-front-desk",{"href":"/journal/articles/upselling-front-desk","children":[["$","img",null,{"src":"/library/journal/ai_upselling-front.jpg","alt":"アップセル — 受付での「もう一押し」の基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.28"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"アップセル — 受付での「もう一押し」の基本"}],["$","span",null,{"className":"en-only","children":"Upselling: The Basics of the \"One More Push\" at the Front Desk"}],["$","span",null,{"className":"zh-only","children":"追加销售——接待处“再推一次”的基础知识"}]]}]]}]]}],["$","$L8","service-recovery-basics",{"href":"/journal/articles/service-recovery-basics","children":[["$","img",null,{"src":"/library/journal/ai_service-recovery-lounge.jpg","alt":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.24"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"サービスリカバリー — クレームを信頼に変える「一手」"}],["$","span",null,{"className":"en-only","children":"Service Recovery: The \"One Move\" That Turns a Complaint Into Trust"}],["$","span",null,{"className":"zh-only","children":"服务补救——“一步”将投诉转化为信任"}]]}]]}]]}],["$","$L8","energy-saving-revenue",{"href":"/journal/articles/energy-saving-revenue","children":[["$","img",null,{"src":"/library/journal/ai_energy-solar-hills.jpg","alt":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.18"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"エネルギー削減 — 「収益の口座」としての基礎"}],["$","span",null,{"className":"en-only","children":"Energy Saving: The Basics of a \"Revenue Account\""}],["$","span",null,{"className":"zh-only","children":"节能减排——“收入账户”的基础"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/international-credit-card-checklist","children":["- ",["$","span",null,{"className":"ja-only","children":"国際カードとオンライン予約 — 準備チェックリスト"}],["$","span",null,{"className":"en-only","children":"International Cards & Online Booking: A Preparation Checklist"}],["$","span",null,{"className":"zh-only","children":"国际卡和在线预订——准备清单"}]]}],["$","$L8",null,{"href":"/journal/articles/inbound-complaint-handling","children":[["$","span",null,{"className":"ja-only","children":"インバウンドクレーム対応 — 高頻度ケースと初動テンプレ"}],["$","span",null,{"className":"en-only","children":"Handling Inbound Complaints: High-Frequency Cases and First-Response Templates"}],["$","span",null,{"className":"zh-only","children":"入站投诉处理——高频案例和初始响应模板"}]," -"]}]]}]
+10:null

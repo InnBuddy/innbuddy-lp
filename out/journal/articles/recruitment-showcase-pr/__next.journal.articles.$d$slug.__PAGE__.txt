@@ -1,15 +1,166 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_recruitment-showcase-pr.jpg","image"]
 :HL["/library/journal/ai_retention-team.jpg","image"]
 :HL["/library/journal/ai_foreign-staff-regional-cities.jpg","image"]
 :HL["/library/journal/ai_foreign-staff-retention-teaching.jpg","image"]
-3:T1937,<p>「求人を出す→応募を待つ」。採用の世界で、これほど弱いやり方はありません。本記事の主張は、こうことです。<strong>採用は、ゲスト集客と同じマーケティングの「逆方向」</strong>である——ゲストは宿を選び、働く人は「人と日々」を選ぶ。見せるべきものは同じ資産で、向きが逆なだけです。そしてこの主張には、市場の数字が裏を付けています。</p><div class="stats"><span class="tag">FACT</span><strong>厚生労働省の一般職業紹介状況(2024年9月分)によると、「接客・給仕職業従事者」の有効求人倍率は2.00倍(「飲食物調理従事者」は2.57倍)で、全産業平均(1.2倍前後)を大きく上回る。また日銀短観の雇用人員判断で、宿泊・飲食サービス業は不足感が全産業の中で最も高い水準とされる(2024年時点・執筆時点)</strong> — 求人を出せば人が来る時代ではなく、求人同士が人を取り合う時代。</div><p>倍率2倍の市場で「求人票を書いて待つ」ことは、満室の秋に「空室があります」とだけ掲げるようなものです。求人票はファネルの最後の5メートルに過ぎません。その手前——「ここで働きたい」と思わせる設計——が、採用広報の仕事です。</p><h2>設計1 — 60秒の「宿のある一日」</h2><p>最も効く採用素材は、スタッフの一日を60秒で撮った動画です。</p><ul><li><strong>スタッフ自身が撮る</strong> — スマホで十分。経営者が演出しない。</li><li><strong>シフトの引き継ぎ、仕込み、ゲストとのやりとり</strong> — 「生」の時間をそのまま写す。</li><li><strong>ナレーションは不要</strong> — 宿の音と空気を載せる。動画マーケティングの記事で紹介した「現場の音」と同じ考え方です。</li></ul><p>「見栄えの良さ」は敵です。<strong>実際に働いている人の生々しさが「ここで働きたい」を伝えます</strong>。採用ページにもSNSにも求人媒体にも、同じ1本を載せれば、維持も始めやすい。</p><h2>設計2 — 見せる5つの資産</h2><ul><li><strong>スタッフ寮・住まいの写真</strong> — 「住んでもいい」は、地方の宿にとって最強のフックです(外国人スタッフの記事の「地方パッケージ」と同じ発想)。</li><li><strong>スタッフ食の写真</strong> — 毎日何を食べるかは、福利厚生の一覧表より多くを語ります。</li><li><strong>見えるキャリアパス</strong> — 「入社3年でシフトリーダー」のように、役職と年数で具体化する。</li><li><strong>経営者の短い言葉</strong> — なぜこの宿をやるのか、スタッフに何を感じてほしいのか。数十秒でいい。</li><li><strong>季節の1年写真</strong> — 春夏秋冬の宿の姿。働く場所の一年を見せることで、季節の波のある仕事の実像を先に渡す。</li></ul><h2>設計3 — 「人」である求人票</h2><p>求人票の担当者欄は、人事の窓口ではなく<strong>採用するマネージャー本人</strong>にします。写真と短い自己紹介付きで。候補者が選んでいるのは「会社」ではなく「一緒に働く人」だからです。応募の問い合わせ先に人の顔が見えるだけで、最初の連絡のハードルは下がります。</p><div class="stats"><span class="tag">SIMULATION</span><strong>採用ページへの来訪が約3.2倍、応募率が2.1%から5.8%へ、内定承諾率78%——これらは施策の全体像を示すための参考値(イメージ)であり、実際の結果は宿の立地・給与条件・媒体により大きく異なる</strong> — 効果は、施策前後の応募数・内定承諾率を同じ集計方法で記録して確認する。</div><h2>反対側 — 見せることが宿を傷つけるとき</h2><ul><li><strong>イメージと実態の乖離</strong> — 「楽しそうな宿」を見て入った人の、入社3ヶ月後の失望が最も高くつきます。採用広報は盛る仕事ではなく、実像を先に見せる仕事です(定着の3つの基本の記事の土台と同じ)。</li><li><strong>出す側のコスト</strong> — 動画と5資産は、更新されなければ一気に古くなります。撮るより「載せ続ける」設計(担当と更新の頻度を決める)が本番です。</li><li><strong>スタッフの肖像と了承</strong> — 働く人の顔を出す広報は、本人の了承が前提です。退職した人の写真が残り続けた採用ページは、内外の信頼を削ります。</li><li><strong>経営者の言葉の重さ</strong> — 掲げた言葉は、現場で毎日検証されます。書ける範囲の言葉だけを掲げる。</li><li><strong>採用広報で解けないもの</strong> — 給与・休日・勤務の現実が市場から離れていれば、どんな動画も届きません。広報は条件の代替にはなりません。</li></ul><p>最初の一歩は、今週、スタッフにスマホを渡すことです。「いつもの一日を60秒で撮って」と頼む——それが編集も演出も不要な、最良の採用素材の原型になります。求人を出す前に、まず自分の宿の「見える化」から。</p><div class="note">この記事はアイデア共有を目的としています。統計は厚生労働省公表値(執筆時点)です。求人表記は労働基準法・職業安定法等の法令に沿ってご確認ください。掲載の数値は考え方を示すイメージです。</div><h2>次に読む</h2><ul><li><a href="#staff-retention-basics">人材定着 — 「ここに働き続けたい」の3つの基本</a> — 採った後の話</li><li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 地方の採用の隣の話</li><li><a href="#local-youth-learning-retention">地方の若手が定着する宿の「学び」の設計</a> — 育てる側の話</li><li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — ゲスト向けの動画との同じ作法の話</li></ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"children":["ARTICLE ","043"]}]]}],["$","h1",null,{"children":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","p",null,{"className":"excerpt","children":"接客・給仕職の求人倍率は2倍超——「求人を出して待つ」市場は、もう終わっています。求人票の前に「来てみたい」を作る採用広報の3設計を、現場の数字とともに整理しました。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.05.22"}],["$","span",null,{"children":"Talent & Hiring"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":"人材定着 — 「ここに働き続けたい」の3つの基本"}]]}]]}],["$","$L2","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}]]}]]}],["$","$L2","foreign-staff-retention-teaching",{"href":"/journal/articles/foreign-staff-retention-teaching","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-retention-teaching.jpg","alt":"外国人スタッフが定着する宿の「教え方」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.02.08"}],["$","h4",null,{"children":"外国人スタッフが定着する宿の「教え方」"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/direct-booking-42","children":["← ","直予約比率を42%まで上げた3つの仕掛け"]}],["$","$L2",null,{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":["RevPARが1.8倍に。値付けを「感覚」から「設計」へ"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T1937,<p>「求人を出す→応募を待つ」。採用の世界で、これほど弱いやり方はありません。本記事の主張は、こうことです。<strong>採用は、ゲスト集客と同じマーケティングの「逆方向」</strong>である——ゲストは宿を選び、働く人は「人と日々」を選ぶ。見せるべきものは同じ資産で、向きが逆なだけです。そしてこの主張には、市場の数字が裏を付けています。</p><div class="stats"><span class="tag">FACT</span><strong>厚生労働省の一般職業紹介状況(2024年9月分)によると、「接客・給仕職業従事者」の有効求人倍率は2.00倍(「飲食物調理従事者」は2.57倍)で、全産業平均(1.2倍前後)を大きく上回る。また日銀短観の雇用人員判断で、宿泊・飲食サービス業は不足感が全産業の中で最も高い水準とされる(2024年時点・執筆時点)</strong> — 求人を出せば人が来る時代ではなく、求人同士が人を取り合う時代。</div><p>倍率2倍の市場で「求人票を書いて待つ」ことは、満室の秋に「空室があります」とだけ掲げるようなものです。求人票はファネルの最後の5メートルに過ぎません。その手前——「ここで働きたい」と思わせる設計——が、採用広報の仕事です。</p><h2>設計1 — 60秒の「宿のある一日」</h2><p>最も効く採用素材は、スタッフの一日を60秒で撮った動画です。</p><ul><li><strong>スタッフ自身が撮る</strong> — スマホで十分。経営者が演出しない。</li><li><strong>シフトの引き継ぎ、仕込み、ゲストとのやりとり</strong> — 「生」の時間をそのまま写す。</li><li><strong>ナレーションは不要</strong> — 宿の音と空気を載せる。動画マーケティングの記事で紹介した「現場の音」と同じ考え方です。</li></ul><p>「見栄えの良さ」は敵です。<strong>実際に働いている人の生々しさが「ここで働きたい」を伝えます</strong>。採用ページにもSNSにも求人媒体にも、同じ1本を載せれば、維持も始めやすい。</p><h2>設計2 — 見せる5つの資産</h2><ul><li><strong>スタッフ寮・住まいの写真</strong> — 「住んでもいい」は、地方の宿にとって最強のフックです(外国人スタッフの記事の「地方パッケージ」と同じ発想)。</li><li><strong>スタッフ食の写真</strong> — 毎日何を食べるかは、福利厚生の一覧表より多くを語ります。</li><li><strong>見えるキャリアパス</strong> — 「入社3年でシフトリーダー」のように、役職と年数で具体化する。</li><li><strong>経営者の短い言葉</strong> — なぜこの宿をやるのか、スタッフに何を感じてほしいのか。数十秒でいい。</li><li><strong>季節の1年写真</strong> — 春夏秋冬の宿の姿。働く場所の一年を見せることで、季節の波のある仕事の実像を先に渡す。</li></ul><h2>設計3 — 「人」である求人票</h2><p>求人票の担当者欄は、人事の窓口ではなく<strong>採用するマネージャー本人</strong>にします。写真と短い自己紹介付きで。候補者が選んでいるのは「会社」ではなく「一緒に働く人」だからです。応募の問い合わせ先に人の顔が見えるだけで、最初の連絡のハードルは下がります。</p><div class="stats"><span class="tag">SIMULATION</span><strong>採用ページへの来訪が約3.2倍、応募率が2.1%から5.8%へ、内定承諾率78%——これらは施策の全体像を示すための参考値(イメージ)であり、実際の結果は宿の立地・給与条件・媒体により大きく異なる</strong> — 効果は、施策前後の応募数・内定承諾率を同じ集計方法で記録して確認する。</div><h2>反対側 — 見せることが宿を傷つけるとき</h2><ul><li><strong>イメージと実態の乖離</strong> — 「楽しそうな宿」を見て入った人の、入社3ヶ月後の失望が最も高くつきます。採用広報は盛る仕事ではなく、実像を先に見せる仕事です(定着の3つの基本の記事の土台と同じ)。</li><li><strong>出す側のコスト</strong> — 動画と5資産は、更新されなければ一気に古くなります。撮るより「載せ続ける」設計(担当と更新の頻度を決める)が本番です。</li><li><strong>スタッフの肖像と了承</strong> — 働く人の顔を出す広報は、本人の了承が前提です。退職した人の写真が残り続けた採用ページは、内外の信頼を削ります。</li><li><strong>経営者の言葉の重さ</strong> — 掲げた言葉は、現場で毎日検証されます。書ける範囲の言葉だけを掲げる。</li><li><strong>採用広報で解けないもの</strong> — 給与・休日・勤務の現実が市場から離れていれば、どんな動画も届きません。広報は条件の代替にはなりません。</li></ul><p>最初の一歩は、今週、スタッフにスマホを渡すことです。「いつもの一日を60秒で撮って」と頼む——それが編集も演出も不要な、最良の採用素材の原型になります。求人を出す前に、まず自分の宿の「見える化」から。</p><div class="note">この記事はアイデア共有を目的としています。統計は厚生労働省公表値(執筆時点)です。求人表記は労働基準法・職業安定法等の法令に沿ってご確認ください。掲載の数値は考え方を示すイメージです。</div><h2>次に読む</h2><ul><li><a href="#staff-retention-basics">人材定着 — 「ここに働き続けたい」の3つの基本</a> — 採った後の話</li><li><a href="#foreign-staff-regional-cities">地方都市の外国人スタッフ — 都市部との違いと定着設計</a> — 地方の採用の隣の話</li><li><a href="#local-youth-learning-retention">地方の若手が定着する宿の「学び」の設計</a> — 育てる側の話</li><li><a href="#video-marketing-3-videos">動画マーケティング — 宿が最初に作るべき3本</a> — ゲスト向けの動画との同じ作法の話</li></ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"人材・採用"}],["$","span",null,{"className":"ARTICLE","children":"043"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"採用に困らない宿がやっている「見せ方」採用広報"}],["$","span",null,{"className":"en-only","children":"The \"Show, Don't Post\" Hiring Playbooks of Lodges That Never Struggle to Staff"}],["$","span",null,{"className":"zh-only","children":"招人不成问题的旅馆进行“如何秀”招人宣传"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"接客・給仕職の求人倍率は2倍超——「求人を出して待つ」市場は、もう終わっています。求人票の前に「来てみたい」を作る採用広報の3設計を、現場の数字とともに整理しました。"}],["$","span",null,{"className":"en-only","children":"The job-openings-to-applicants ratio for service and waiting staff exceeds 2 — the \"post a listing and wait\" market is over. Here are the three designs of hiring PR that create \"I want to come see it\" before the job posting, together with the numbers of the field."}],["$","span",null,{"className":"zh-only","children":"在提交招聘启事之前，您需要设计能够传达工作场所吸引力的照片和故事。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_recruitment-showcase-pr.jpg","alt":"採用に困らない宿がやっている「見せ方」採用広報"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2026.05.22"}],["$","span",null,{"children":"Talent & Hiring"}],["$","span",null,{"children":[5,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T1924,<p>"Post a job listing → wait for applicants." In the world of hiring, there is no weaker way than this. This article’s claim is this: <strong>hiring is guest acquisition run in the "opposite direction"</strong> — guests choose a property, and working people choose "the people and the days." What should be shown is the same set of assets; only the direction faces the other way. And the market’s numbers back this claim.</p>
+
+<div class="stats"><span class="tag">FACT</span><strong>According to the Ministry of Health, Labour and Welfare’s placement statistics (September 2024), the job-openings-to-applicants ratio for service and waiting staff was 2.00 (2.57 for cooks and food preparers), far above the all-industry average (around 1.2). In the Bank of Japan’s Tankan survey’s employment assessment, accommodation and food services is rated the most understaffed of all industries (as of 2024, at the time of writing)</strong> — This is no longer an era when posting a listing brings people; it is an era when listings compete for people.</div>
+
+<p>In a market with a 2× ratio, "writing a job posting and waiting" is like posting nothing but "rooms available" in a sold-out autumn. The job posting is only the last five meters of the funnel. What lies before it — the design that makes people think "I want to work here" — is the work of hiring PR.</p>
+
+<h2>Design 1 — the 60-second "one day at the property"</h2>
+
+<p>The hiring material that works best is a 60-second video of a staff member’s day.</p>
+
+<ul>
+<li><strong>The staff film it themselves</strong> — A smartphone is enough. The owner does not stage it.</li>
+<li><strong>Shift handover, prep, exchanges with guests</strong> — Capture the "live" hours as they are.</li>
+<li><strong>No narration needed</strong> — Carry the property’s sounds and air. The same thinking as "the sounds of the field" introduced in the video-marketing article.</li>
+</ul>
+
+<p>"Looking good" is the enemy. <strong>The raw texture of people actually working is what conveys "I want to work here."</strong> Put the same single video on the hiring page, on social, and on job boards, and it is easy to keep up too.</p>
+
+<h2>Design 2 — the 5 assets to show</h2>
+
+<ul>
+<li><strong>Photographs of the staff dormitory and housing</strong> — "You can live here" is the strongest hook a regional property can offer (the same thinking as the "regional package" in the foreign-staff article).</li>
+<li><strong>Photographs of the staff meal</strong> — What there is to eat every day says more than a list of welfare benefits.</li>
+<li><strong>A visible career path</strong> — Made concrete with titles and years, like "shift leader in the third year after joining."</li>
+<li><strong>A short message from the owner</strong> — Why run this property; what do you want the staff to feel. A few dozen seconds is enough.</li>
+<li><strong>One year in photographs</strong> — The property through the four seasons. Showing a year of the workplace hands over, in advance, the real picture of a job that rises and falls with the seasons.</li>
+</ul>
+
+<h2>Design 3 — the job posting that is "a person"</h2>
+
+<p>The contact field of the job posting should not be an HR desk but <strong>the hiring manager personally</strong> — with a photograph and a short self-introduction. What the candidate is choosing is not "a company" but "the people they will work beside." Just letting a human face show at the inquiry address lowers the hurdle of the first contact.</p>
+
+<div class="stats"><span class="tag">SIMULATION</span><strong>Visits to the hiring page about 3.2×, application rate from 2.1% to 5.8%, offer-acceptance rate 78% — these are reference figures (illustrative) for showing the whole shape of the measures; actual results differ greatly by the property’s location, pay conditions, and media</strong> — To check effects, record applications and offer-acceptance rates before and after with the same counting method.</div>
+
+<h2>The other side — when showing hurts the property</h2>
+
+<ul>
+<li><strong>The gap between image and reality</strong> — The disillusionment, three months in, of someone who joined over a "fun-looking property" is the most expensive of all. Hiring PR is not the work of embellishing, but of showing the real picture first (the same foundation as the three basics of retention).</li>
+<li><strong>The cost on the sending side</strong> — The video and the five assets go out of date at a stroke unless updated. More than filming, the design that matters is "keeping them up" (deciding who owns it and how often it is refreshed).</li>
+<li><strong>Portraits and consent</strong> — PR that shows working people’s faces presupposes their consent. A hiring page where a departed employee’s photo stays forever shaves trust, inside and out.</li>
+<li><strong>The weight of the owner’s words</strong> — The words posted are tested on the floor every day. Post only what you can live by.</li>
+<li><strong>What hiring PR cannot solve</strong> — If pay, days off, and the reality of the work sit far from the market, no video will reach. PR is not a substitute for conditions.</li>
+</ul>
+
+<p>The first step is, this week, to hand a staff member a smartphone. Ask them to "film an ordinary day in 60 seconds" — that becomes the prototype of the best hiring material, needing no editing and no staging. Before posting a job listing, start with making your own property visible.</p>
+
+<div class="note">This article is intended for sharing ideas. The statistics are MHLW published values (as of writing). Please make sure job postings comply with the Labor Standards Act, the Employment Security Act, and other laws. The figures given are illustrative, to show the approach.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#staff-retention-basics">Staff Retention: The Three Basics of "Wanting to Keep Working Here"</a> — what comes after the hire</li>
+<li><a href="#foreign-staff-regional-cities">Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design</a> — the neighbor of regional hiring</li>
+<li><a href="#local-youth-learning-retention">How Local Youth Stay: Designing Learning in Rural Hotels</a> — the side that grows people</li>
+<li><a href="#video-marketing-3-videos">Video Marketing: The Three Videos a Property Should Make First</a> — the same craft as guest-facing video</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:Tc63,<p>“发布职位→等待申请”是世界上最薄弱的漏斗。本文将为您讲解一家招聘工作没有明显问题的旅馆的招聘PR设计——如何在提供工作机会之前就让人们想来。核心观点是<strong>招人是营销的“反方向”，就像招客一样。</strong>也就是说。</p>
+<h2>1. 为什么“来自职位发布”会失败？</h2>
+<p>住宿工作的申请率通常低于 2%。而招聘信息只是该漏斗的“最后 5 米”。如果在此之前没有“兴趣”，则职位发布本身将不会被阅读。</p>
+<p>让我们站在客人的角度思考一下。客人不是“寻找酒店”，而是被照片所吸引，然后进行搜索。对于员工来说也是如此。他们不是“找工作”，而是看着旅馆的日常生活，感觉到“我想在这里工作”，然后看看职位空缺。招聘广告就是让人想来的设计。</p>
+<h2>2.设计1：60秒“旅馆的一天”视频</h2>
+<p>使用的最有效的材料是<strong>一段 60 秒的员工一天视频</strong>：</p>
+<ul>
+<li>工作人员自行拍照（智能手机即可）</li>
+<li>轮班交接、准备以及与客人互动的“原始”过程</li>
+<li>无需旁白。旅馆的“声音”和“空气”</li>
+</ul>
+<p>“看起来不错”是敌人。<strong>在那里实际工作的人的原始态度会告诉你你想在这里工作。</strong>在招聘页面、社交媒体和求职板上发布同样的内容。</p>
+<h2>3. 设计 2：展示五项资产</h2>
+<ul>
+<li><strong>员工宿舍照片</strong> ——“可以​​住在那里”是当地旅馆最强的吸引力</li>
+<li><strong>员工吃饭照片</strong> — 从好处列表中告诉我们您每天吃什么</li>
+<li><strong>看得见的职业道路</strong> —《入职3年内成为班长》详细</li>
+<li><strong>管理层简短的话</strong> — “我们为什么要经营这家旅馆？我们希望员工有什么感受？”</li>
+<li><strong>季节性年度照片</strong> ——春、夏、秋、冬、旅馆外观</li>
+</ul>
+<h2>4.设计3：以“人”为主题的招聘信息</h2>
+<p>招聘启事的“负责人”是<strong>招聘经理本人。附照片和简短介绍</strong>。这不是人力资源部。候选人选择的不是公司，而是与他们一起工作的人。</p>
+<div class="stats stats-grid"><div class="stat"><b>3.2倍</b><span>（数值示例）访问招聘页面</span></div><div class="stat"><b>5.8%</b><span>（数值示例）申请率（原2.1%）</span></div><div class="stat"><b>78%</b><span>(示例) 录取率</span></div></div>
+<div class="note"><span class="tag">InnBuddy 笔记</span>招聘与品牌推广“相反”。客人选择他们的住宿，员工选择他们的员工。相同的品牌资产是双向的——唯一的区别在于你是否展示它们。</div>
+<h2>行动清单</h2>
+<ul>
+<li>第一周：拍摄一段60秒的“旅馆的一天”视频（让工作人员拍摄）</li>
+<li>第 2 周：拍摄您想要展示的 5 种资产</li>
+<li>第三周：用“人性化”的面孔重写招聘启事</li>
+<li>始终：继续在三个地方发布相同的资产：招聘页面、SNS 和求职板</li>
+</ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","staff-retention-basics",{"href":"/journal/articles/staff-retention-basics","children":[["$","img",null,{"src":"/library/journal/ai_retention-team.jpg","alt":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.20"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"人材定着 — 「ここに働き続けたい」の3つの基本"}],["$","span",null,{"className":"en-only","children":"Staff Retention: The Three Basics of \"Wanting to Keep Working Here\""}],["$","span",null,{"className":"zh-only","children":"留住人力资源：“我想继续在这里工作”的三个基础"}]]}]]}]]}],["$","$L8","foreign-staff-regional-cities",{"href":"/journal/articles/foreign-staff-regional-cities","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-regional-cities.jpg","alt":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方都市の外国人スタッフ — 都市部との違いと定着設計"}],["$","span",null,{"className":"en-only","children":"Foreign Staff in Regional Cities: The Difference From Urban Areas and Retention Design"}],["$","span",null,{"className":"zh-only","children":"地方城市的外籍员工——与城市地区的差异及保留设计"}]]}]]}]]}],["$","$L8","foreign-staff-retention-teaching",{"href":"/journal/articles/foreign-staff-retention-teaching","children":[["$","img",null,{"src":"/library/journal/ai_foreign-staff-retention-teaching.jpg","alt":"外国人スタッフが定着する宿の「教え方」"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2025.02.08"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"外国人スタッフが定着する宿の「教え方」"}],["$","span",null,{"className":"en-only","children":"The \"Teaching Method\" Behind Foreign Staff Who Stay"}],["$","span",null,{"className":"zh-only","children":"留有外籍员工的旅馆“如何授课”"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/direct-booking-42","children":["- ",["$","span",null,{"className":"ja-only","children":"直予約比率を42%まで上げた3つの仕掛け"}],["$","span",null,{"className":"en-only","children":"Three Mechanisms That Raised Our Direct Booking Ratio to 42%"}],["$","span",null,{"className":"zh-only","children":"三大机制将直订率提升至42%"}]]}],["$","$L8",null,{"href":"/journal/articles/revpar-18x-dynamic-pricing","children":[["$","span",null,{"className":"ja-only","children":"RevPARが1.8倍に。値付けを「感覚」から「設計」へ"}],["$","span",null,{"className":"en-only","children":"RevPAR Up 1.8×: Pricing From \"Gut Feeling\" to \"Design\""}],["$","span",null,{"className":"zh-only","children":"每间可用房收入 (RevPAR) 增加了 1.8 倍。将定价从“感觉”转向“设计”"}]," -"]}]]}]
+10:null

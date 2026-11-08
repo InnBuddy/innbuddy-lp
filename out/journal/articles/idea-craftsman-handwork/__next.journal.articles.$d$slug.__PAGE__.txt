@@ -1,12 +1,77 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
-9:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
+8:I[22016,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/3xyt402c62511.js"],""]
+e:I[97367,["/_next/static/chunks/0fwl0-8mh83pw.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
 :HL["/library/journal/ai_idea-craftsman-handwork.jpg","image"]
 :HL["/library/journal/ai_branding-infinity-pool.jpg","image"]
 :HL["/library/journal/ai_regional-revitalization-inbound.jpg","image"]
 :HL["/library/journal/ai_regional-identity-brand-nhatrang.jpg","image"]
-3:T246f,<p>宿の建物を案内するとき、多くの宿は「築何年」を言います。ですが、建物の本当の説明文は、年数ではなく<strong>職人の判断の跡</strong>にあります。柱の面取り、漆喰の塗り跡、建具の組み、畳の目——それらは、誰かがその場所で何かを判断した記録です。この記事は、宿の建物や道具に残る手仕事を「読んで、見せる」ための、見方の配り方を扱います。</p>
+2:T9bd,
+        html:not([data-lang]) .en-only, html:not([data-lang]) .zh-only { display: none !important; }
+        html[data-lang="ja"] .en-only, html[data-lang="ja"] .zh-only { display: none !important; }
+        html[data-lang="en"] .ja-only, html[data-lang="en"] .zh-only { display: none !important; }
+        html[data-lang="zh"] .ja-only, html[data-lang="zh"] .en-only { display: none !important; }
+        
+        .lang a { text-decoration: none; display: inline-block; }
+        html[data-lang="ja"] .lang-ja, html[data-lang="en"] .lang-en, html[data-lang="zh"] .lang-zh {
+          background-color: #1a1a1a !important; color: #fff !important; border-color: #1a1a1a !important; opacity: 1 !important;
+        }
+
+        /* スリム＆シンプルな黄色フッター */
+        footer {
+          background-color: #FFF04B !important;
+          color: #1a1a1a !important;
+          padding: 24px 20px 20px !important;
+          text-align: center !important;
+        }
+        footer .f1 {
+          font-size: 16px !important;
+          font-weight: 800 !important;
+          margin-bottom: 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f2 {
+          font-size: 11px !important;
+          color: rgba(26, 26, 26, 0.75) !important;
+          margin-bottom: 12px !important;
+        }
+        .f-nav {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 6px 20px !important;
+          margin: 0 0 12px !important;
+        }
+        .journal-clean-link {
+          color: #1a1a1a !important;
+          background: transparent !important;
+          border: none !important;
+          padding: 2px 6px !important;
+          font-size: 13px !important;
+          font-weight: 700 !important;
+          text-decoration: none !important;
+          display: inline-block !important;
+          transition: transform 0.2s ease, opacity 0.2s ease !important;
+        }
+        .journal-clean-link:hover {
+          transform: translateY(-2px) !important;
+          opacity: 0.6 !important;
+        }
+        footer .f3 {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          margin: 0 0 4px !important;
+          color: #1a1a1a !important;
+        }
+        footer .f4 {
+          font-size: 10px !important;
+          color: rgba(26, 26, 26, 0.55) !important;
+          margin: 0 !important;
+          line-height: 1.4 !important;
+        }
+      0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n        (function() {\n          try {\n            var params = new URLSearchParams(window.location.search);\n            var lang = params.get('lang');\n            if (!lang) {\n              lang = localStorage.getItem('journal_lang') || 'ja';\n              var newUrl = new URL(window.location.href);\n              newUrl.searchParams.set('lang', lang);\n              window.history.replaceState({}, '', newUrl);\n            } else {\n              localStorage.setItem('journal_lang', lang);\n            }\n            document.documentElement.setAttribute('data-lang', lang);\n          } catch(e) {}\n        })();\n      "}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wjs50aw9q7KwJzs198_KL"}
+3:["$","header",null,{"className":"article-headbar container","children":[["$","$L8",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L8",null,{"className":"back","href":"/journal","children":"- JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","a",null,{"href":"?lang=ja","children":["$","button",null,{"type":"button","className":"lang-ja","style":{"pointerEvents":"none"},"children":"日本語"}]}],["$","a",null,{"href":"?lang=en","children":["$","button",null,{"type":"button","className":"lang-en","style":{"pointerEvents":"none"},"children":"EN"}]}],["$","a",null,{"href":"?lang=zh","children":["$","button",null,{"type":"button","className":"lang-zh","style":{"pointerEvents":"none"},"children":"中文"}]}]]}]]}]]}]
+9:T246f,<p>宿の建物を案内するとき、多くの宿は「築何年」を言います。ですが、建物の本当の説明文は、年数ではなく<strong>職人の判断の跡</strong>にあります。柱の面取り、漆喰の塗り跡、建具の組み、畳の目——それらは、誰かがその場所で何かを判断した記録です。この記事は、宿の建物や道具に残る手仕事を「読んで、見せる」ための、見方の配り方を扱います。</p>
 
 <h2>1. 建物より先に、技が遺産になります</h2>
 <p>2020年12月、ユネスコの無形文化遺産の代表一覧表に、「伝統建築工匠の技——木造建造物を受け継ぐための伝統技術」が登録されました。檜皮葺（ひわだぶき）など、国の選定保存技術に選ばれた17件の伝統建築技術で構成される登録です。木・草・土といった自然素材を生かす知恵、保存修理を見据えた材料の採取と再利用、木工・屋根葺き・左官・装飾・畳などの高度な技——そして登録の評価には、熟練の職人が弟子を育ててきた系譜と、かやぶき屋根の補修に地元住民も参画してきたことが含まれていました（日本経済新聞報道）。</p>
@@ -44,10 +109,62 @@ a:"$Sreact.suspense"
 <li><a href="#idea-touch-soil-stay">土に触れる滞在 — 土壁・土間・畑の土から考える宿の素材アイデア</a> — 左官の土を扱う体験</li>
 <li><a href="#idea-empty-house-story">空き家の物語を伝える — 空き家の歴史・道具・写真を展示するアイデア</a> — 手仕事が残る古い建築の物語</li>
 <li><a href="#idea-abandoned-school-memory">廃校の記憶を活かす — 廃校の机・黒板・廊下を活かした空間アイデア</a> — 学校建築の再生</li>
-</ul>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"id":"articleView","children":[["$","header",null,{"className":"article-headbar container","children":[["$","$L2",null,{"className":"logo serif","href":"/journal","children":["InnBuddy ",["$","span",null,{"className":"logo-pill","children":"JOURNAL"}]]}],["$","div",null,{"className":"head-right","children":[["$","$L2",null,{"className":"back","href":"/journal","children":"← JOURNAL"}],["$","div",null,{"className":"lang","children":[["$","button",null,{"className":"on","type":"button","children":"日本語"}],["$","button",null,{"type":"button","children":"EN"}],["$","button",null,{"type":"button","children":"中文"}]]}]]}]]}],["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"children":["ARTICLE ","143"]}]]}],["$","h1",null,{"children":"職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア"}],["$","p",null,{"className":"excerpt","children":"同じ2020年、日本の「伝統建築工匠の技」と欧州の大聖堂工房が、それぞれユネスコに登録されました。建物より先に技が遺産になる時代に、宿の建物の職人の判断を読んで、カード1枚で見せる方法。"}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-craftsman-handwork.jpg","alt":"職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.23"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4","$L5"]}]}],"$L6"]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3r0HXY-CJNICXJR0vBtgz"}
-4:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":"RELATED — 同じテーマの記事"}],["$","div",null,{"className":"rel-grid","children":[["$","$L2","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}]]}]]}],["$","$L2","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":"地方創生×インバウンド — 宿が参画する形と活かし方"}]]}]]}],["$","$L2","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":"【事例】地域性をブランドに翻訳した宿の作り方"}]]}]]}]]}]]}]
-5:["$","div",null,{"className":"pager","children":[["$","$L2",null,{"href":"/journal/articles/idea-evening-cool-stay","children":["← ","夕涼みのある宿 — 縁側・縁台・夕涼みの時間の設計アイデア"]}],["$","$L2",null,{"href":"/journal/articles/idea-abandoned-school-memory","children":["廃校の記憶を活かす — 廃校の机・黒板・廊下を活かした空間アイデア"," →"]}]]}]
-6:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING — ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
-8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
-b:null
+</ul>4:["$","main",null,{"className":"container","children":["$","article",null,{"className":"article","children":[["$","div",null,{"className":"kicker","children":[["$","span",null,{"className":"chip","children":"ブランディング"}],["$","span",null,{"className":"ARTICLE","children":"143"}]]}],["$","h1",null,{"children":[["$","span",null,{"className":"ja-only","children":"職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア"}],["$","span",null,{"className":"en-only","children":"Touch Craftsman's Handwork - Ideas for Showing Handwork of Carpenter, Plasterer, Joiner, Tatami"}],["$","span",null,{"className":"zh-only","children":"体验工匠的手工作品——展示木匠、泥水匠、细木工和榻榻米的手工作品的想法"}]]}],["$","p",null,{"className":"excerpt","children":[["$","span",null,{"className":"ja-only","children":"同じ2020年、日本の「伝統建築工匠の技」と欧州の大聖堂工房が、それぞれユネスコに登録されました。建物より先に技が遺産になる時代に、宿の建物の職人の判断を読んで、カード1枚で見せる方法。"}],["$","span",null,{"className":"en-only","children":"In the same year 2020, Japan’s \"traditional architectural craftsmanship\" and Europe’s cathedral workshops were each entered in UNESCO listings. In an age when skill becomes heritage before buildings do — reading the craftsmen’s judgments in the inn’s building, and showing them on a single card."}],["$","span",null,{"className":"zh-only","children":"木工、抹灰工、细木工、榻榻米、木工。这是通过展示工匠的手工作品来讲述旅馆的建筑和工具的故事的创意集合。果田里使用的工具也是工匠手工制作的。"}]]}],["$","div",null,{"className":"hero-img","children":["$","img",null,{"src":"/library/journal/ai_idea-craftsman-handwork.jpg","alt":"職人の手仕事に触れる — 大工・左官・建具・畳の手仕事を見せるアイデア"}]}],["$","div",null,{"className":"meta-row","children":[["$","span",null,{"children":"2024.12.23"}],["$","span",null,{"children":"Branding"}],["$","span",null,{"children":[6,"分で読めます"]}]]}],["$","div",null,{"className":"body","children":[["$","div",null,{"className":"ja-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$9"}}]}],"$La","$Lb"]}],"$Lc","$Ld"]}]}]
+5:["$","footer",null,{"children":[["$","div",null,{"className":"f1","children":"InnBuddy"}],["$","div",null,{"className":"f2","children":"WEB × OPERATION × BRANDING - ホテル運営の知恵を、もっと身近に。"}],["$","div",null,{"className":"f-nav","children":[["$","a",null,{"href":"https://innbuddy-japan.com/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"InnBuddyとは"}],["$","span",null,{"className":"en-only","children":"About InnBuddy"}],["$","span",null,{"className":"zh-only","children":"关于InnBuddy"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/team/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"運営組織"}],["$","span",null,{"className":"en-only","children":"Our Team"}],["$","span",null,{"className":"zh-only","children":"运营组织"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/library/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"メディア一覧"}],["$","span",null,{"className":"en-only","children":"Media List"}],["$","span",null,{"className":"zh-only","children":"媒体一览"}]]}],["$","a",null,{"href":"https://innbuddy-japan.com/contact/","target":"_blank","rel":"noopener noreferrer","className":"journal-clean-link","children":[["$","span",null,{"className":"ja-only","children":"お問い合わせ"}],["$","span",null,{"className":"en-only","children":"Contact"}],["$","span",null,{"className":"zh-only","children":"联系我们"}]]}]]}],["$","div",null,{"className":"f3","children":"© 2026 InnBuddy"}],["$","div",null,{"className":"f4","children":"記事内の数値は一般的な情報に基づく参考値・一例であり、InnBuddyの実績を示すものではありません。"}]]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/3xyt402c62511.js","async":true}]
+7:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+11:T24a3,<p>When guiding guests through an inn’s building, most inns state its age. But the building’s true description lies not in years but in <strong>the traces of craftsmen’s judgments</strong>. The chamfering of a pillar, the trowel marks of the plaster, the joinery of the fittings, the weave of the tatami — these are records of someone deciding something, in that place. This article treats how to distribute the seeing — to read, and to show, the handwork that remains in the inn’s building and tools.</p>
+
+<h2>1. Skill becomes heritage before buildings do</h2>
+
+<p>In December 2020, "Traditional skills, techniques and knowledge for the conservation and transmission of timber architecture in Japan" was inscribed on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity. The inscription is composed of seventeen traditional building techniques selected as the nation’s Selected Conservation Techniques, including hiwada-buki cypress-bark roofing. The wisdom that draws on natural materials — wood, grass, earth; the harvesting and reuse of materials with repair in view; the advanced skills of woodworking, roofing, plastering, decoration, and tatami — and among the grounds for the inscription were the lineage of master craftsmen raising apprentices, and the participation of local residents in re-thatching roofs (Nikkei reporting).</p>
+
+<p>In the same year 2020, on the opposite side of the globe, a similar inscription took place. The craft and customs of Europe’s Bauhütten — the cathedral workshops that have carried the restoration of cathedrals since the Middle Ages — were entered in UNESCO’s Register of Good Safeguarding Practices, under a joint nomination of Germany, Austria, France, Norway, and Switzerland. A network of craftsmen crossing borders, transmitting knowledge by word of mouth and in documents, repairing cathedrals for centuries — that very mechanism was recognized as heritage.</p>
+
+<div class="stats"><span class="tag">CASE</span><strong>In 2020, in Japan and Europe, "the passing on of skill" became heritage, one after the other</strong> — Japan’s inscription on the Representative List, and Europe’s cathedral workshops entered on the Register. In both, what was inscribed is not the building but the <strong>skill, the people, and the organization</strong> that keep repairing it. A cathedral is a record in stone, but what keeps it standing is the workshop’s record. The same is true of an inn’s building — the story of a building is the story of a lineage of craftsmen.</div>
+
+<h2>2. How to read the craftsman — "The Genius of Japanese Carpentry"</h2>
+
+<p>One of the best textbooks for reading handwork is the oral record "Ki no Inochi Ki no Kokoro" (The Life and Heart of Wood). It is the book in which Shiina Osamu transcribed the tellings of three generations: Nishioka Tsunekazu, the last master carpenter of the Hōryūji temple works; his sole apprentice, Ogawa Mitsuo; and the apprentices after them. Nishioka said here that wood has two lives — one is its age as a tree, the other its <strong>service life as timber</strong>. Remove the roof tiles in a repair, and the rafters, freed of their load, spring back; set a plane to them and the scent rises. Timber, too, keeps living — that was his eye. Nishioka is also said to have joined wood by its grain, not by its dimensions. The bases of the pillars standing on natural stone face various directions, each with a different "play" that absorbs the shaking of earthquakes — wisdom proven by Hōryūji’s thirteen hundred years.</p>
+
+<p>Borrow this eye for the inn’s building, and the list of things to see grows at a stroke.</p>
+
+<ul>
+<li><strong>Chamfering</strong> — Dropping the corner of an edge is a judgment that prevents splitting and injury, not just looks. Lay a hand on the corner of a pillar or a lintel.</li>
+<li><strong>Sumiji ink marks</strong> — The assembly symbols written on members. The carpenter’s "instruction manual" remains in the building (treated in <a href="#idea-scrap-wood-signboard">Signboard Made from Scrap Wood - Ideas for Inn Signboard Made from Reclaimed Wood and Old Tools</a>).</li>
+<li><strong>Trowel marks in the plaster</strong> — The trace of the plasterer’s hand. A wall where layers of re-coating overlap is the building’s clinical record (for earthen walls, see <a href="#idea-touch-soil-stay">Stay Touching Soil - Material Ideas for Inn from Earthen Wall, Dirt Floor, Soil of Field</a>).</li>
+<li><strong>The joinery of fittings</strong> — Doors assembled of wood on wood, without nails. The smoothness of the opening and closing is the precision of the joinery itself.</li>
+<li><strong>The tatami weave</strong> — The tightness of the mat’s weave and the pattern of the binding. Ask why it differs room by room, and the tatami-maker’s judgment comes into earshot.</li>
+</ul>
+
+<h2>3. Showing — the "handwork of this building" card</h2>
+
+<p>Once the way of reading is set, all that remains is to distribute it. In the rooms and corridors, place one small card — "the handwork of this room." Three lines are enough: <strong>what it is (the chamfer) / whose technique (carpenter, plasterer, joiner, tatami-maker) / the period of the judgment</strong>. Few buildings know the name of the carpenter who built them, but the name of the one who repaired them can still, at times, be heard. Whenever repair comes, write down the craftsman’s name and the content of the work — the building’s "repair history" accumulates, one line at a time.</p>
+
+<p>Tools, too, are material for showing handwork. Planes, chisels, the ink pot, the try square — when you line up retired carpenter’s tools in a corridor, give each a name tag. One line — "Kanna, the plane: it shaves wood; the tuning of the blade is the craftsman’s wrist" — turns the tool from ornament into document. Where local craftsmen are active, the tools may even be borrowed. Introducing a craftsman’s work at the inn is also a small sending of guests to the home of the region’s handwork.</p>
+
+<h2>4. Touching — the realistic making of a woodworking experience</h2>
+
+<p>Handwork does not complete in watching alone. Shaving, joining, polishing — there is a side the body learns. What is realistic is small woodworking with offcuts: receive the offcuts that come from local carpenters and builders, shave them with a plane into coasters, or tie them with hemp cord into a small shelf. If a craftsman can come, ten minutes of learning to use a plane stays long in a child’s memory. Less than the polish of the finished piece, <strong>touching real tools and real hands</strong> is the core of the experience.</p>
+
+<p>But an experience that handles tools needs lines. Count the blades, teach the habit of returning each tool when done, and attach support for small children. When asking a craftsman, set a proper fee for the role of "teacher of the experience" — teaching is part of the craftsman’s work.</p>
+
+<h2>5. Watching — repair day is the day the building opens</h2>
+
+<p>When the inn’s building enters repair — re-roofing, re-plastering, fixing fittings — it is the day the normally invisible handwork is displayed all at once. Instead of "Keep out: work in progress," can the safe range not be shown? Arrange the schedule with the craftsmen in advance, fix the viewing hours and place, and tell the guests, "Today is the day our building is repaired." A building being repaired is far rarer than a finished building.</p>
+
+<div class="note"><span class="tag">InnBuddy VIEW</span>What is easily forgotten in showing handwork is that the craftsman’s work is not "for showing" — it is <strong>the real performance</strong>. Securing the viewers’ safety, keeping a distance that does not disturb the craftsman’s rhythm, asking about photography — only the inn that manages this care can turn repair day into experience. And one more thing: the decline of successors is a reality shared by many traditional skills. For an inn to write the craftsman’s name and introduce the work is a plain but substantial support — making the demand visible.</div>
+
+<div class="note">This article is intended for sharing ideas. Cases and figures are estimates as of writing, based on public materials. In implementing, design under each inn’s own judgment, including safety, laws and regulations, and consideration for the neighborhood. When handling buildings, old timber, and tools, confirm structural and work safety with specialists.</div>
+
+<h2>Read next</h2>
+<ul>
+<li><a href="#idea-scrap-wood-signboard">Signboard Made from Scrap Wood - Ideas for Inn Signboard Made from Reclaimed Wood and Old Tools</a> — putting handwork’s letters and ink marks on a sign</li>
+<li><a href="#idea-touch-soil-stay">Stay Touching Soil - Material Ideas for Inn from Earthen Wall, Dirt Floor, Soil of Field</a> — the experience of handling the plasterer’s earth</li>
+<li><a href="#idea-empty-house-story">Tell Story of Empty House - Ideas for Exhibiting History, Tools, Photos of Empty House</a> — the story of old buildings where handwork remains</li>
+<li><a href="#idea-abandoned-school-memory">Utilize Memory of Abandoned School - Space Ideas Utilizing Desk, Blackboard, Corridor of Abandoned School</a> — the rebirth of school architecture</li>
+</ul>a:["$","div",null,{"className":"en-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$11"}}]}]
+12:T1131,<p>本文分享一些可供尝试的想法。有的客栈，工匠的手工作品是建筑的一大亮点，有的客栈讲述的是果田里使用的工具的故事，有的客栈则是为孩子们提供的木工体验。为什么不尝试将其布置得像您的旅馆一样呢？</p><p>榻榻米的木工雕刻、抹灰、安装和缝纫。旅馆的建筑和工具中蕴藏着工匠们的手工故事。我们收集了展示工匠手艺的小创意，以及讲述旅馆建筑和工具故事的提示。</p><h2>触动工匠手艺的创意集合</h2><ul><li><strong>展示建筑的手工</strong> — 介绍建筑的手工，如木匠在小木板和卡片上的雕刻、抹灰、安装等。当你介绍在哪里完成什么样的手工作品时，你看待建筑物的方式就会改变。在一家旅馆，每间客房都以“这个房间的手工艺品”为题介绍木匠和泥水匠的手工艺品。</li><li><strong>展示工具的手工</strong> — 介绍果园工具、厨房工具等工具的手工制作。介绍果篮、木梯、木具等工匠手工制作的工具，并附上故事，会改变你对工具的看法。在一家旅馆，从果田采摘的果篮被称为“工匠手工篮”。</li><li><strong>展示工匠的工具</strong> — 在客房和走廊展示木匠、泥水匠和木工的工具。通过展示刨子、凿子和抹刀等工匠工具，您可以讲述您的工艺故事。在一家旅馆，旧木工工具陈列在走廊上，并被介绍为“旧木工工具”。</li><li><strong>手工艺品和果园创意</strong> ——在一家拥有果园的旅馆里，手工作品还讲述了果园使用的工具的故事。一家旅馆引进了果田里的木梯作为工匠的手工作品，并正在计划一种可以利用梯子采摘水果的体验。使用工匠制作的梯子收获水果，可以感受工具的故事。</li><li><strong>与孩子一起体验木工</strong> — 将工匠的手工作品变成孩子们的小型木工体验。用木屑制作小房子和果篮的经历将留在孩子们的记忆中。一家旅馆正在当地木匠的帮助下计划进行木工体验。</li></ul><h2>这就是在海外度过的时光 - 可以体验工匠手工艺的住宿创意</h2><p>在北欧森林客栈，工匠的手工是生活的一部分。展示建筑的手工，重视工具的手工。与工匠的手工艺品一起生活是这家旅馆如此吸引人的地方。即使在日本的里山旅馆，也可以通过展示工匠的手艺来讲述建筑和工具的故事。</p><p>你的旅馆里的工匠会做什么样的手工作品？为什么不从建筑手工开始呢？</p><h2>从小工艺品开始的技巧</h2><p>即使你不懂很多手艺，你也可以从一门手艺开始。在一家旅馆，我们从木匠的雕刻开始，并制作了一块木板来介绍它们。一间客栈的故事，因深入了解一件手艺而诞生。</p><p>如果您入住有果园的旅馆，我们建议您从使用果园工具的手工艺品开始。果篮、木梯等果农工具的手工制作，作为果农故事的一部分，更容易介绍。</p><div class="stats"><span class="tag">模拟示例</span><strong>例如，在开始之前，先统计最近30条点评中有多少条是与该主题相关的好评，并记录数量。30天后用同样的方法再统计一次，通过数量变化判断效果（约22%的数字仅为趋势示意，并不保证效果）。</strong> — 介绍工匠的手工作品可能会引出有关建筑物和工具的故事。</div><div class="note">本文分享的是可供参考的想法，不保证具体结果。在介绍或体验工匠的手工艺品时，请务必充分考虑安全并咨询专业人员。</div><h2>您今天可以尝试的一些小想法的集合</h2><ul><li><strong>制作一块板来介绍这座建筑的手工作品</strong> — 作为每个房间的手工作品，如木匠的雕刻和抹灰，</li><li><strong>介绍工具的手工</strong> ——果篮、木梯等工匠亲手制作的工具，都伴随着故事。</li><li><strong>展示工匠的工具</strong> — 在走廊展示旧木工工具，并介绍它们为旧木工工具</li><li><strong>规划为果园制作工具的实践经验</strong> — 体验使用工匠制作的梯子收获水果</li><li><strong>为儿童规划木工体验</strong> — 在当地木匠的帮助下体验用木屑建造小房子的体验</li></ul>b:["$","div",null,{"className":"zh-only","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}]
+c:["$","div",null,{"className":"rel","children":[["$","div",null,{"className":"rel-label","children":[["$","span",null,{"className":"ja-only","children":"RELATED 同じテーマの記事"}],["$","span",null,{"className":"en-only","children":"RELATED Articles on the same theme"}],["$","span",null,{"className":"zh-only","children":"RELATED 同主题文章"}]]}],["$","div",null,{"className":"rel-grid","children":[["$","$L8","branding-desired-name",{"href":"/journal/articles/branding-desired-name","children":[["$","img",null,{"src":"/library/journal/ai_branding-infinity-pool.jpg","alt":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.08.22"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"「呼ばれたい名前」は何か — ブランディングの対話の入口"}],["$","span",null,{"className":"en-only","children":"What Name Do You Want to Be Called: The Entrance to a Branding Dialogue"}],["$","span",null,{"className":"zh-only","children":"“你想叫什么名字？” — 品牌对话的门户"}]]}]]}]]}],["$","$L8","regional-revitalization-inbound",{"href":"/journal/articles/regional-revitalization-inbound","children":[["$","img",null,{"src":"/library/journal/ai_regional-revitalization-inbound.jpg","alt":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.29"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"地方創生×インバウンド — 宿が参画する形と活かし方"}],["$","span",null,{"className":"en-only","children":"Regional Revitalization × Inbound: How a Property Joins In and Uses It"}],["$","span",null,{"className":"zh-only","children":"区域振兴x入境旅游——旅馆如何参与以及如何利用"}]]}]]}]]}],["$","$L8","regional-identity-brand-nhatrang",{"href":"/journal/articles/regional-identity-brand-nhatrang","children":[["$","img",null,{"src":"/library/journal/ai_regional-identity-brand-nhatrang.jpg","alt":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","div",null,{"className":"t","children":[["$","div",null,{"className":"d","children":"2026.06.10"}],["$","h4",null,{"children":[["$","span",null,{"className":"ja-only","children":"【事例】地域性をブランドに翻訳した宿の作り方"}],["$","span",null,{"className":"en-only","children":"Case: Translating Regional Identity Into a Hotel Brand"}],["$","span",null,{"className":"zh-only","children":"【案例】如何打造一家将地域特色转化为品牌的客栈"}]]}]]}]]}]]}]]}]
+d:["$","div",null,{"className":"pager","children":[["$","$L8",null,{"href":"/journal/articles/idea-evening-cool-stay","children":["- ",["$","span",null,{"className":"ja-only","children":"夕涼みのある宿 — 縁側・縁台・夕涼みの時間の設計アイデア"}],["$","span",null,{"className":"en-only","children":"An inn with Evening Cool - Design Ideas for Engawa, Endai, Time for Evening Cool"}],["$","span",null,{"className":"zh-only","children":"夜晚凉爽氛围的旅馆——阳台、门廊和夜晚凉爽时刻的设计理念"}]]}],["$","$L8",null,{"href":"/journal/articles/idea-abandoned-school-memory","children":[["$","span",null,{"className":"ja-only","children":"廃校の記憶を活かす — 廃校の机・黒板・廊下を活かした空間アイデア"}],["$","span",null,{"className":"en-only","children":"Utilize Memory of Abandoned School - Space Ideas Utilizing Desk, Blackboard, Corridor of Abandoned School"}],["$","span",null,{"className":"zh-only","children":"利用关闭学校的记忆——利用关闭学校的课桌、黑板和走廊的空间创意"}]," -"]}]]}]
+10:null
