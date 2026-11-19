@@ -5,11 +5,8 @@ import activeIds from "@/data/active-dialects.json";
 import { BODY_MARKUP } from "./body-markup";
 import Boot from "./boot";
 
-/**
- * SHIRANGAKE — 3D祭りバージョン (Next.js)
- */
+/* SHIRANGAKE - フラット軽量バージョン (Next.js) */
 const ACTIVE: string[] | null = activeIds as string[];
-
 const dialects = ACTIVE
   ? (dialectsAll as any[]).filter((d) => ACTIVE.includes(d.id))
   : (dialectsAll as any[]);
@@ -46,6 +43,22 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: embed(i18n) }}
       />
       <Boot />
+
+      <footer className="site-footer">
+        <div className="wrap footer-wrap">
+          <p className="copyright">
+            © {new Date().getFullYear()} SHIRANGAKE. All rights reserved.
+          </p>
+          <a
+            href="https://innbuddy-japan.com/library/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="lib-link"
+          >
+            InnBuddy Library ↗
+          </a>
+        </div>
+      </footer>
     </>
   );
 }

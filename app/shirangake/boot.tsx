@@ -1,13 +1,10 @@
 "use client";
-
 import { useEffect } from "react";
 
-// 読み込み順（logic → map → three → bg3d → i18n）
+// 読み込み順 (logic, map, i18n ※3D用の three.min.js / bg3d.js を除外)
 const SCRIPTS = [
   "/js/logic.js",
   "/js/map.js",
-  "/vendor/three.min.js",
-  "/js/bg3d.js",
   "/js/i18n.js",
 ];
 
@@ -28,30 +25,62 @@ function loadScript(src: string) {
 export default function Boot() {
   useEffect(() => {
     const w = window as any;
-    if (w.__shirangakeBooted) return;
-    w.__shirangakeBooted = true;
+    if (w._shirangakeBooted) return;
+    w._shirangakeBooted = true;
 
-    // スクリプト初期化時の勝手な自動スクロールを一時的に無効化
+    let blockAutoScroll = true;
     const originalScrollIntoView = Element.prototype.scrollIntoView;
-    Element.prototype.scrollIntoView = function () {};
+
+    Element.prototype.scrollIntoView = function (...args: any[]) {
+      if (blockAutoScroll) return;
+      return originalScrollIntoView.apply(
+        this,
+        args as [boolean | ScrollIntoViewOptions | undefined]
+      );
+    };
+
+    // 地図エリア(.map-svg)をクリックした直後は下への自動スクロールを止め、
+    // 右側の地域パネル(.region-panel)内の選択肢をチカチカ強調させる
+    const handleMapClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && target.closest(".map-svg")) {
+        blockAutoScroll = true;
+
+        requestAnimationFrame(() => {
+          const panel = document.querySelector(".region-panel");
+          if (panel) {
+            panel.classList.remove("is-updated");
+            void (panel as HTMLElement).offsetWidth;
+            panel.classList.add("is-updated");
+          }
+        });
+
+        setTimeout(() => {
+          blockAutoScroll = false;
+        }, 500);
+      }
+    };
+
+    document.addEventListener("click", handleMapClick, true);
 
     (async () => {
-      // URLに付与された #regions 等のハッシュを削除し、トップ固定にする
       if (window.location.hash) {
         window.history.replaceState(null, "", window.location.pathname);
       }
 
       for (const src of SCRIPTS) await loadScript(src);
 
-      // 画面最上部（ヒーローエリア）に固定スクロール
       window.scrollTo(0, 0);
-
       setTimeout(() => {
         window.scrollTo(0, 0);
-        // 初期読み込み完了後にスクロール機能を復元（手動操作用）
-        Element.prototype.scrollIntoView = originalScrollIntoView;
+        blockAutoScroll = false;
       }, 400);
     })();
+
+    return () => {
+      document.removeEventListener("click", handleMapClick, true);
+      Element.prototype.scrollIntoView = originalScrollIntoView;
+    };
   }, []);
 
   return null;
