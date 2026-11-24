@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server';
 
 // ご自身の Web app URL を貼り付けてください
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbyMNn86bxj4qG9zt-a-oSzy650rLfsP3HBZiU7WYAJ78TYDzMu3QL_kzVRImAD9E6iR/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbyCAJFO27j_De7jI5oMGYjwSZZtpAAQHwUJOw8A7k8AWH-wpS2W90pIRoQuRXHXdpXs/exec';
 
 export async function POST(req: Request) {
   try {
