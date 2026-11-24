@@ -41,7 +41,6 @@
   box-sizing: border-box;
 }
 
-/* 親レイアウトの縦線背景・文字色干渉を完全に遮断（青海波の和柄は維持） */
 html,
 body {
   margin: 0;
@@ -109,7 +108,6 @@ body::after,
   padding: 0 24px;
 }
 
-/* 青海波 (Seigaiha) 和柄パターン */
 .konmaike-root .seigaiha-band {
   background-color: #FAF8F4 !important;
   background-image:
@@ -118,9 +116,7 @@ body::after,
   background-size: 40px 24px !important;
 }
 
-/* =========================================================
-   HEADER
-   ========================================================= */
+/* HEADER (多言語2行折り返し・全文表示対応) */
 .konmaike-root .site-header {
   position: sticky;
   top: 0;
@@ -137,14 +133,15 @@ body::after,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 12px;
 }
 
 .konmaike-root .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   flex-shrink: 0;
+  min-width: 0;
 }
 
 .konmaike-root .brand-seal {
@@ -157,6 +154,7 @@ body::after,
   display: flex;
   flex-direction: column;
   line-height: 1.15;
+  min-width: 0;
 }
 
 .konmaike-root .brand-title {
@@ -168,27 +166,36 @@ body::after,
 }
 
 .konmaike-root .brand-sub {
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
+  font-size: 0.66rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--ink-muted);
+  max-width: 190px;
+  white-space: normal;
+  line-height: 1.2;
 }
 
 .konmaike-root .main-nav {
+  flex: 1 1 auto;
+  min-width: 0;
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 2px;
 }
 
 .konmaike-root .nav-link {
   position: relative;
-  padding: 8px 13px;
-  font-size: 0.9rem;
+  padding: 5px 8px;
+  font-size: clamp(0.7rem, 0.82vw, 0.84rem);
   font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
   color: var(--ink);
-  border-radius: 999px;
+  border-radius: 12px;
   transition: background 0.18s ease, color 0.18s ease;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 128px;
 }
 
 .konmaike-root .nav-link:hover,
@@ -200,7 +207,7 @@ body::after,
 .konmaike-root .header-actions {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   flex-shrink: 0;
 }
 
@@ -208,13 +215,14 @@ body::after,
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 8px 14px;
+  padding: 8px 13px;
   border-radius: 999px;
   border: 1px solid var(--border-strong);
   background: var(--surface);
   color: var(--ink);
-  font-size: 0.85rem;
+  font-size: 0.84rem;
   font-weight: 600;
+  white-space: nowrap;
   transition: all 0.18s ease;
 }
 
@@ -248,6 +256,7 @@ body::after,
   border: 1px solid var(--border-strong);
   background: var(--surface);
   color: var(--ink);
+  flex-shrink: 0;
 }
 
 .konmaike-root .mobile-drawer {
@@ -273,11 +282,12 @@ body::after,
   padding: 12px 14px;
   border-radius: var(--radius-sm);
   font-size: 1rem;
+  max-width: none;
+  white-space: normal;
+  text-align: left;
 }
 
-/* =========================================================
-   HERO
-   ========================================================= */
+/* HERO */
 .konmaike-root .hero {
   position: relative;
   padding: 56px 0 64px;
@@ -542,9 +552,7 @@ body::after,
   margin-top: 3px;
 }
 
-/* =========================================================
-   SECTIONS GENERAL
-   ========================================================= */
+/* SECTIONS GENERAL */
 .konmaike-root .section {
   padding: 76px 0;
   background-color: var(--bg) !important;
@@ -632,9 +640,7 @@ body::after,
   flex-shrink: 0;
 }
 
-/* =========================================================
-   SECTION 1: INTERACTIVE JAPAN MAP
-   ========================================================= */
+/* SECTION 1: INTERACTIVE JAPAN MAP */
 .konmaike-root .map-workbench {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
@@ -976,9 +982,7 @@ body::after,
   color: var(--ink-faint);
 }
 
-/* =========================================================
-   CARDS GRID
-   ========================================================= */
+/* CARDS GRID */
 .konmaike-root .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1155,9 +1159,7 @@ body::after,
   margin-bottom: 20px;
 }
 
-/* =========================================================
-   SECTION 5: JAPANESE MANNERS
-   ========================================================= */
+/* SECTION 5: JAPANESE MANNERS */
 .konmaike-root .manners-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1286,9 +1288,7 @@ body::after,
   line-height: 1.35;
 }
 
-/* =========================================================
-   SECTION 6: HELP & EMERGENCY CONTACTS
-   ========================================================= */
+/* SECTION 6: HELP & EMERGENCY CONTACTS */
 .konmaike-root .help-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1403,9 +1403,7 @@ body::after,
   border-radius: var(--radius-sm);
 }
 
-/* =========================================================
-   FOOTER
-   ========================================================= */
+/* FOOTER */
 .konmaike-root .site-footer {
   background: var(--indigo-dark);
   color: #E2E9F0;
@@ -1418,6 +1416,12 @@ body::after,
   gap: 36px;
   padding-bottom: 36px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.konmaike-root .footer-grid > div {
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .konmaike-root .footer-brand {
@@ -1463,6 +1467,8 @@ body::after,
   padding: 0;
   text-align: left;
   font-size: 0.88rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
   transition: color 0.15s ease;
 }
 
@@ -1483,6 +1489,11 @@ body::after,
   color: #CBD7E3;
 }
 
+.konmaike-root .essentials-list li {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 .konmaike-root .essentials-list strong {
   color: #fff;
 }
@@ -1498,9 +1509,12 @@ body::after,
   color: #96AABF;
 }
 
-/* =========================================================
-   MODAL
-   ========================================================= */
+.konmaike-root .footer-bottom span {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* MODAL */
 .konmaike-root .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -1669,8 +1683,8 @@ body::after,
 }
 
 .konmaike-root .adv-warn { background: #FDECEB; color: #9A2B1F; border-color: #F3C4BE; }
-.konmaike-root .adv-caution { background: #FEF5E6; color: #8A540E; border-color: #EED5A9; }
-.konmaike-root .adv-allergen { background: #EFF3F8; color: #244568; border-color: #CEDAE8; }
+.konmaike-root .adv-caution { background: #FEF5E6; color: #8A540E; border-color: #EDDA93; }
+.konmaike-root .adv-allergen { background: #F0F5FA; color: #234568; border-color: #CEDAE8; }
 .konmaike-root .adv-age20 { background: #F3ECF8; color: #5D2C7A; border-color: #DAC5E8; }
 .konmaike-root .adv-customs { background: #EBF5F2; color: #1F5B4E; border-color: #BDE0D7; }
 .konmaike-root .adv-meta { background: var(--surface-soft); color: var(--ink-muted); border-color: var(--border); }
@@ -1695,9 +1709,7 @@ body::after,
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-/* =========================================================
-   SECTION 7: CRAWLABLE 47-PREFECTURE INDEX
-   ========================================================= */
+/* SECTION 7: CRAWLABLE 47-PREFECTURE INDEX */
 .konmaike-root .pref-index-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1770,9 +1782,7 @@ body::after,
   text-decoration: underline;
 }
 
-/* =========================================================
-   SCENIC PHOTO SLOTS
-   ========================================================= */
+/* SCENIC PHOTO SLOTS */
 .konmaike-root .hero.has-photo-bg {
   overflow: visible;
 }
@@ -2011,9 +2021,7 @@ body::after,
   aspect-ratio: 16 / 9;
 }
 
-/* =========================================================
-   CLICK INTERACTION FIX (ボタン・地図・入力欄のクリック保証)
-   ========================================================= */
+/* CLICK INTERACTION FIX */
 .konmaike-root header,
 .konmaike-root main,
 .konmaike-root section,
@@ -2028,9 +2036,7 @@ body::after,
   pointer-events: auto !important;
 }
 
-/* =========================================================
-   LANGUAGE SWITCHER & TRANSLATION
-   ========================================================= */
+/* LANGUAGE SWITCHER & TRANSLATION */
 .konmaike-root .lang-switcher {
   position: relative;
 }
@@ -2125,9 +2131,16 @@ html[dir="rtl"] .konmaike-root .advisory-strip {
   border-right: 4px solid var(--indigo);
 }
 
-/* =========================================================
-   RESPONSIVE
-   ========================================================= */
+/* RESPONSIVE */
+@media (max-width: 1220px) {
+  .konmaike-root .main-nav {
+    display: none;
+  }
+  .konmaike-root .mobile-menu-btn {
+    display: inline-flex;
+  }
+}
+
 @media (max-width: 1080px) {
   .konmaike-root .hero-grid { grid-template-columns: 1fr; }
   .konmaike-root .map-workbench { grid-template-columns: 1fr; }
@@ -2140,8 +2153,6 @@ html[dir="rtl"] .konmaike-root .advisory-strip {
 }
 
 @media (max-width: 860px) {
-  .konmaike-root .main-nav { display: none; }
-  .konmaike-root .mobile-menu-btn { display: inline-flex; }
   .konmaike-root .pref-index-grid { grid-template-columns: 1fr; }
   .konmaike-root .scenic-triptych-grid { grid-template-columns: 1fr; }
   .konmaike-root .scenic-pair-grid { grid-template-columns: 1fr; }
