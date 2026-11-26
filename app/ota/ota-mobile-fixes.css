@@ -1,0 +1,133 @@
+/* =====================================================
+   InnBuddy OTA MOBILE-ONLY FIXES
+   Imported after ota.css. Desktop styles are intentionally untouched.
+===================================================== */
+@media (max-width: 767px) {
+  .ota-page-root {
+    overflow-x: clip;
+    padding-bottom: calc(82px + env(safe-area-inset-bottom));
+  }
+
+  /* Hero mobile optimization */
+  .ota-page-root section#top.hero {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: calc(84px + env(safe-area-inset-top)) 18px 36px !important;
+  }
+
+  .ota-page-root .hero .wrap,
+  .ota-page-root .hero-2col-wrap,
+  .ota-page-root .hero-left-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .ota-page-root .hero h1 {
+    font-size: clamp(27px, 7.4vw, 35px) !important;
+    line-height: 1.36 !important;
+  }
+
+  .ota-page-root .hero-copy {
+    font-size: 13.5px !important;
+    line-height: 1.85 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .mobile-hero-photo-frame {
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    box-shadow: 0 12px 28px rgba(24, 54, 84, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+  }
+
+  .mobile-hero-photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Service accordion mobile tap & visibility */
+  .services-accordion-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .services-guide-pill {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ota-page-root .services .service button {
+    grid-template-columns: 28px 22px minmax(0, 1fr) 20px !important;
+    gap: 8px !important;
+    min-height: 56px;
+    padding: 14px 14px !important;
+    font-size: 14.5px !important;
+  }
+
+  .ota-page-root .services .service-content.is-expanded {
+    display: block !important;
+    padding: 0 14px 16px 14px !important;
+  }
+
+  /* Inbound strength banner on mobile */
+  .inbound-strength-banner {
+    padding: 22px 18px !important;
+    margin-top: 24px !important;
+  }
+
+  .inbound-strength-title {
+    font-size: 18px !important;
+  }
+
+  /* Contact CTA on mobile */
+  .ota-page-root .huge-contact-cta {
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 185px;
+    aspect-ratio: auto !important;
+    padding: 28px 18px !important;
+  }
+
+  .ota-page-root .huge-cta-main {
+    font-size: clamp(20px, 5.2vw, 24px) !important;
+  }
+
+  /* Article detail mobile adjustments */
+  .article-detail-header {
+    padding: 96px 0 28px;
+  }
+
+  .article-detail-body {
+    padding: 36px 0 60px;
+  }
+
+  .article-nav-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-back-list,
+  .btn-back-ota {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .spot-consult-card,
+  .pricelist-download-banner {
+    padding: 22px 18px;
+  }
+
+  .pricelist-dl-trigger-btn,
+  .spot-consult-action,
+  .spot-consult-action .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
