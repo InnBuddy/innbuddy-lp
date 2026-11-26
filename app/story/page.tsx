@@ -1,5 +1,6 @@
 import WaTalkFull from '@/components/wa-talk/WaTalkFull';
-import { getStoryArticles } from '@/lib/microcms';
+import { LOCAL_STORIES } from '@/data/localStories';
+import './story.css';
 
 export const dynamic = 'force-static';
 
@@ -8,8 +9,6 @@ export const metadata = {
   description: '世界の旅行者が語る日本体験ストーリー。',
 };
 
-export default async function StoryPage() {
-  const articles = await getStoryArticles();
-
-  return <WaTalkFull initialArticles={articles} />;
+export default function StoryPage() {
+  return <WaTalkFull initialArticles={LOCAL_STORIES} />;
 }

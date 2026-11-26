@@ -1,11 +1,32 @@
 'use client'
-import React from 'react'
+
+import React, { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { otaArticles } from '../articlesData'
 import '../ota.css'
 import '../ota-mobile-fixes.css'
 
 export default function OtaArticlesListPage() {
+  const [selectedCategory, setSelectedCategory] = useState<string>('ALL')
+  const [keyword, setKeyword] = useState<string>('')
+
+  const categories = useMemo(() => {
+    return ['ALL', ...Array.from(new Set(otaArticles.map((a) => a.category)))]
+  }, [])
+
+  const filtered = useMemo(() => {
+    return otaArticles.filter((a) => {
+      const matchCat = selectedCategory === 'ALL' || a.category === selectedCategory
+      const q = keyword.trim().toLowerCase()
+      const matchKw =
+        !q ||
+        a.title.toLowerCase().includes(q) ||
+        a.excerpt.toLowerCase().includes(q) ||
+        a.category.toLowerCase().includes(q)
+      return matchCat && matchKw
+    })
+  }, [selectedCategory, keyword])
+
   return (
     <main className="ota-page-root">
       {/* HEADER */}
@@ -30,10 +51,10 @@ export default function OtaArticlesListPage() {
             <span>/</span>
             <span>OTAコラム・記事一覧</span>
           </nav>
-          <p className="services-kicker">OTA KNOWLEDGE / ARTICLES</p>
-          <h1>OTA運用コラム・記事一覧</h1>
+          <p className="services-kicker">OTA KNOWLEDGE / ALL 12 ARTICLES</p>
+          <h1>OTA運用コラム・実践ガイド一覧（全12記事）</h1>
           <p className="intro" style={{ marginBottom: 0 }}>
-            宿泊施設の予約率向上や業務効率化につながる、実践的なOTA運用ノウハウをまとめています。
+            宿泊施設の予約率向上・収益最大化・業務事故防止につながる実践的なOTA運用ノウハウを体系的にまとめています。
           </p>
         </div>
       </section>
@@ -41,8 +62,31 @@ export default function OtaArticlesListPage() {
       {/* ARTICLES GRID */}
       <section className="light section">
         <div className="wrap">
+          {/* 検索＆カテゴリー絞り込みバー */}
+          <div className="ib-filter-bar">
+            <input
+              type="search"
+              value={keyword}
+              onChange={(e) => setKeyword(e.target.value)}
+              placeholder="キーワードで記事を検索（例：料金、在庫、Google、レビュー）"
+              className="ib-search-input"
+            />
+            <div className="ib-cat-pills">
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  type="button"
+                  onClick={() => setSelectedCategory(cat)}
+                  className={`ib-cat-pill ${selectedCategory === cat ? 'is-active' : ''}`}
+                >
+                  {cat === 'ALL' ? `すべて（${otaArticles.length}）` : cat}
+                </button>
+              ))}
+            </div>
+          </div>
+
           <div className="articles-cards-grid">
-            {otaArticles.map((article) => (
+            {filtered.map((article) => (
               <Link
                 href={`/ota/articles/${article.slug}`}
                 key={article.slug}
@@ -50,18 +94,17 @@ export default function OtaArticlesListPage() {
               >
                 <div className="article-card-thumb">
                   <img src={article.image} alt={article.title} />
-                  <span className="article-card-badge">{article.category}</span>
+                  <span className="article-card-badge">
+                    #{article.number} {article.category}
+                  </span>
                 </div>
                 <div className="article-card-body">
                   <div className="article-card-meta">
                     <span>{article.publishedAt}</span>
-                    <span>•</span>
+                    <span>·</span>
                     <span>{article.readTime}</span>
                   </div>
-                  <h2
-                    className="article-card-title"
-                    style={{ fontSize: '17px', marginBottom: '12px' }}
-                  >
+                  <h2 className="article-card-title" style={{ fontSize: '17px', marginBottom: '12px' }}>
                     {article.title}
                   </h2>
                   <p className="article-card-excerpt">{article.excerpt}</p>
@@ -73,7 +116,7 @@ export default function OtaArticlesListPage() {
 
           <div className="articles-bottom-cta" style={{ marginTop: '48px' }}>
             <Link href="/ota" className="btn-back-list">
-              ← OTA運用代行トップページへ戻る
+              OTA運用代行トップページへ戻る
             </Link>
           </div>
         </div>

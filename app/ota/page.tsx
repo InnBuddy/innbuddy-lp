@@ -1,15 +1,14 @@
 'use client'
-import React, { useState } from 'react'
+
+import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { submitDiagnostic, LeadFormData } from '@/lib/submitToSheet'
 import { otaArticles } from './articlesData'
+import { CaseStudy, caseStudiesData } from './caseStudiesData'
 import './ota.css'
 import './ota-mobile-fixes.css'
 
-/* =========================================================
-   スマホ専用ボトムナビゲーション
-   5つすべて同じ丸枠デザイン（直径48px）で均等配置
-========================================================= */
+/* スマホ専用ボトムナビゲーション */
 function MobileBottomNav({ onOpenDiagnostic }: { onOpenDiagnostic: () => void }) {
   const iconProps = {
     viewBox: '0 0 24 24',
@@ -48,7 +47,7 @@ function MobileBottomNav({ onOpenDiagnostic }: { onOpenDiagnostic: () => void })
             gap: 2px !important;
             border-radius: 9999px !important;
             border: 2px solid #FCAF17 !important;
-            background: rgba(255, 255, 255, 0.72) !important;
+            background: rgba(255, 255, 255, 0.85) !important;
             color: #183654 !important;
             text-decoration: none !important;
             font-family: inherit !important;
@@ -70,8 +69,8 @@ function MobileBottomNav({ onOpenDiagnostic }: { onOpenDiagnostic: () => void })
           }
         }
       `}</style>
-      <div className="ota-nav-inner w-full bg-[#E0F2FE]/95 backdrop-blur-xl border border-white/80 shadow-[0_6px_24px_rgba(24,54,84,0.16)] rounded-[2rem] h-[60px]">
-        <a href="https://innbuddy-japan.com/contact" className="ota-nav-item">
+      <div className="ota-nav-inner w-full bg-[#E0F2FE]/95 border border-white/80 shadow-[0_6px_24px_rgba(24,54,84,0.16)] rounded-[2rem] h-[60px]">
+        <a href="https://innbuddy-japan.com/contact/" className="ota-nav-item">
           <svg {...iconProps}>
             <rect x="2" y="4" width="20" height="16" rx="2" />
             <path d="m2 6 10 7 10-7" />
@@ -127,7 +126,7 @@ function ServiceIcon({ index }: { index: number }) {
     <svg key="3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="8" cy="12" r="4" /><path d="m12 12 8-8M17 4l3 3M15 6l2 2" /></svg>,
     <svg key="4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="m3 11 18-5v12L3 13v-2zM11.6 16.8a3 3 0 1 1-5.8-1.6M21 9v6" /></svg>,
     <svg key="5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" /><circle cx="12" cy="13" r="3" /></svg>,
-    <svg key="6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /><path d="m12 7 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z" /></svg>,
+    <svg key="6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /><path d="m12 7 1.2 2.2 2.3.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z" /></svg>,
     <svg key="7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10z" /></svg>,
     <svg key="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M3 3v18h18M18 9l-5 5-4-4-3 3" /><circle cx="18" cy="9" r="1.5" /></svg>,
     <svg key="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" /></svg>,
@@ -167,7 +166,7 @@ const services = [
   ['客室・在庫管理', '客室在庫管理|OTA別在庫確認|販売開始・停止|客室タイプ別在庫|日付別在庫|最低/最大宿泊日数|連泊制限|販売可能期間|キャンセル時の在庫確認'],
   ['キャンペーン・特集', 'OTAキャンペーン確認|セール情報確認|特集掲載確認|クーポン・ポイント施策|季節特集|インバウンド向け施策|キャンペーン参加設定|効果確認'],
   ['写真・コンテンツ', '写真更新|客室・食事・館内写真|周辺情報|写真掲載順|施設・客室紹介文|OTA別仕様対応'],
-  ['口コミ・レビュー', '新着レビュー確認|口コミ返信|低評価レビュー確認|評価内容の整理|頻出コメント確認|口コミ傾向の把握|OTA別状況確認'],
+  ['クチコミ・レビュー', '新着レビュー確認|クチコミ返信|低評価レビュー確認|評価内容の整理|頻出コメント確認|クチコミ傾向の把握|OTA別状況確認'],
   ['海外OTA', 'Booking.com / Agoda|Expedia / Trip.com 等|英語等の掲載情報|海外向けプラン|海外ユーザー向け情報|海外キャンペーン|国・地域別の販売状況'],
   ['販売状況分析', 'OTA別売上・予約数|ADR・稼働率|キャンセル率|リードタイム・滞在日数|客室・プラン別販売|OTA別比較|前月・前年との比較'],
   ['改善', 'プラン・料金調整|在庫調整|掲載内容・写真改善|キャンペーン見直し|OTA別運用改善|状況に応じた施策提案'],
@@ -185,10 +184,46 @@ const painPoints = [
   '事業拡大をしたいが相談できる専門家がいない',
 ]
 
+const scalePlans = [
+  {
+    code: 'SMALL SCALE',
+    title: '小規模施設様',
+    tagline: 'まるごと任せて、「おもてなし」に集中。',
+    body: '限られた人員で日々の宿泊業務を担う施設様には、OTA運用を幅広く代行。煩雑な管理業務を私たちに任せていただき、スタッフの皆様がお客様へのおもてなしに集中できる環境をつくります。',
+    points: [
+      '日々の更新・在庫・料金・プラン管理を代行',
+      '海外OTAの新規開設から日常運用まで一括対応',
+      '少人数運営における業務負担を軽減',
+    ],
+  },
+  {
+    code: 'MEDIUM SCALE',
+    title: '中規模施設様',
+    tagline: '一緒に動いて、収益を最大化。',
+    body: '施設スタッフ様と役割を分担しながら、日々のOTA運用と収益改善を推進。データ分析や販売戦略の提案を通じて、施設全体のパフォーマンス向上を目指します。',
+    points: [
+      '施設スタッフ様との最適な役割分担',
+      'ADR・稼働率の改善につながる料金・プラン提案',
+      '定例ミーティングによる継続的なPDCA',
+    ],
+  },
+  {
+    code: 'LARGE SCALE',
+    title: '大規模施設様',
+    tagline: '戦略と人材の両面から、選ばれる宿へ。',
+    body: 'OTAアドバイザーとして、施設様の中期的な目標達成に向けた販売戦略や改善施策を支援。既存の運営体制や課題に応じて役割を柔軟に設計し、人材確保も含めた総合的な支援を行います。',
+    points: [
+      'OTAアドバイザーとして中期目標の達成に伴走',
+      '組織・運営体制に合わせた柔軟な役割設計',
+      '人材確保・採用支援も含めた戦略的サポート',
+    ],
+  },
+]
+
 const frameworkCategories = [
   {
     category: 'STRATEGY | 戦略',
-    catClass: 'tag-strategy',
+    catClass: 'tag-strategy cat-1',
     steps: [
       { num: '01', title: '現状把握', desc: '売上・予約数・\n稼働率などを\n確認', stepClass: 'step-1' },
       { num: '02', title: '市場分析', desc: '競合施設や\n市場の動向を\n把握', stepClass: 'step-2' },
@@ -198,7 +233,7 @@ const frameworkCategories = [
   },
   {
     category: 'EXECUTION | 実行',
-    catClass: 'tag-execution',
+    catClass: 'tag-execution cat-2',
     steps: [
       { num: '05', title: '運用計画', desc: '料金・プラン・\n販売方法を\n策定', stepClass: 'step-5' },
       { num: '06', title: 'OTA運用', desc: '計画に基づき\n掲載内容を\n管理', stepClass: 'step-6' },
@@ -206,7 +241,7 @@ const frameworkCategories = [
   },
   {
     category: 'OPTIMIZATION | 分析・改善',
-    catClass: 'tag-optimization',
+    catClass: 'tag-optimization cat-3',
     steps: [
       { num: '07', title: '効果検証', desc: '施策の結果を\n数値で確認', stepClass: 'step-7' },
       { num: '08', title: '改善提案', desc: '検証結果をもとに\n改善策を\n提案', stepClass: 'step-8' },
@@ -220,9 +255,9 @@ const otas = ['楽天トラベル', 'じゃらんnet', '一休.com', 'Yahoo!ト�
 const overseas = ['Booking.com', 'Agoda', 'Expedia', 'Trip.com / その他']
 
 const faqs = [
-  ['まだ契約するか決めていませんが、相談だけでもいいですか？', 'もちろんです。「自社の運用に問題があるか見てほしい」「どこまで任せられるのか知りたい」というご相談からでも構いません。'],
-  ['1つのOTAだけでも依頼できますか？', 'はい、可能です。海外OTAのみ、特定の国内OTAのみなど、施設様の状況に合わせて柔軟に対応いたします。'],
-  ['まだ登録していないOTAの新規開設からお願いできますか？', 'はい、新規アカウントの登録申請から、初期のページ作成・プラン設定までサポートいたします。'],
+  ['まだ契約するか決めていませんが、相談だけでもいいですか?', 'もちろんです。「自社の運用に問題があるか見てほしい」「どこまで任せられるのか知りたい」というご相談からでも構いません。'],
+  ['1つのOTAだけでも依頼できますか?', 'はい、可能です。海外OTAのみ、特定の国内OTAのみなど、施設様の状況に合わせて柔軟に対応いたします。'],
+  ['まだ登録していないOTAの新規開設からお願いできますか?', 'はい、新規アカウントの登録申請から、初期のページ作成・プラン設定までサポートいたします。'],
 ]
 
 function Arrow() {
@@ -232,7 +267,32 @@ function Arrow() {
 export default function Page() {
   const [isDiagnosticOpen, setIsDiagnosticOpen] = useState(false)
   const [isInboundMenuOpen, setIsInboundMenuOpen] = useState(false)
+  const [isPriceModalOpen, setIsPriceModalOpen] = useState(false)
   const [openServices, setOpenServices] = useState<number[]>([0, 1])
+
+  // 支援事例モーダル用 state & ref
+  const [selectedCase, setSelectedCase] = useState<CaseStudy | null>(null)
+  const caseTriggerRef = useRef<HTMLButtonElement | null>(null)
+  const caseCloseBtnRef = useRef<HTMLButtonElement | null>(null)
+
+  useEffect(() => {
+    if (!selectedCase) return
+    const originalOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    caseCloseBtnRef.current?.focus({ preventScroll: true })
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSelectedCase(null)
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => {
+      document.body.style.overflow = originalOverflow
+      window.removeEventListener('keydown', handleKeyDown)
+      requestAnimationFrame(() => {
+        caseTriggerRef.current?.focus({ preventScroll: true })
+      })
+    }
+  }, [selectedCase])
 
   const toggleService = (index: number) => {
     setOpenServices((prev) =>
@@ -267,9 +327,11 @@ export default function Page() {
               setIsDiagnosticOpen(true)
             }}
           >
-            無料診断 <span aria-hidden="true">↗</span>
+            無料診断 <span aria-hidden="true">→</span>
           </button>
           <a href="#services">対応業務</a>
+          <a href="#comparison">他社との違い</a>
+          <a href="#cases">支援事例</a>
           <a href="#articles">OTAコラム</a>
           <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
             InnBuddyについて
@@ -277,17 +339,18 @@ export default function Page() {
         </nav>
       </header>
 
-      {/* HERO（左半分：流体マーブル背景 ／ 右半分全面：hero-main.jpg） */}
+      {/* HERO */}
       <section id="top" className="hero max-md:!h-auto max-md:!py-12">
         <div className="hero-right-bg-media max-md:!hidden" aria-hidden="true">
           <img
             src="/library/ota/hero-main.jpg"
             alt="ホテル・旅館の上質な空間とOTA運用サポート"
             className="hero-right-bg-img"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="hero-right-bg-tint" />
         </div>
-
         <div className="wrap hero-2col-wrap">
           <div className="hero-left-content max-md:!w-full max-md:!pt-0 max-md:!flex max-md:!flex-col max-md:!items-center max-md:!text-center">
             <p className="eyebrow hero-script max-md:!self-center max-md:!mx-auto max-md:!w-fit max-md:!text-center max-md:!px-3 max-md:!py-1.5 max-md:!mt-0 max-md:!mb-4 max-md:!text-[12px] max-md:!leading-tight">
@@ -298,16 +361,24 @@ export default function Page() {
               OTA運用を、<br />
               まるごと任せる。
             </h1>
+            {/* スマホ用 信頼要素バッジ */}
+            <div className="md:hidden hero-trust-mobile">
+              <span className="hero-trust-kicker">PROVEN TRACK RECORD</span>
+              <p className="hero-trust-main">
+                <strong>大手企業流</strong>&amp;<strong>300社以上</strong>の<br />
+                施設OTA改善に関わった知見
+              </p>
+            </div>
             <p className="hero-copy hero-script">
               宿泊プラン、料金、在庫、<br />
               掲載情報、キャンペーン、<br />
-              口コミ、海外OTAまで。<br />
+              クチコミ、海外OTAまで。<br />
               日々のOTA業務を、<br />
               InnBuddyがまとめてサポートします。
             </p>
             <div className="max-md:!hidden md:block hero-cta-box">
               <a
-                href="https://innbuddy-japan.com/contact"
+                href="https://innbuddy-japan.com/contact/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button chic-cta-btn"
@@ -317,77 +388,99 @@ export default function Page() {
             </div>
           </div>
 
-          {/* 右側の01〜03すりガラスパネル */}
-          <div className="max-md:!hidden md:flex hero-editorial-panel-group">
-            <a
-              href="https://innbuddy-japan.com/team"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="square-glass-panel panel-about"
-            >
-              <div className="panel-inner">
-                <div className="panel-meta-row">
-                  <span className="panel-num">01</span>
-                  <span className="panel-label">ABOUT US</span>
-                </div>
-                <div className="panel-title-row">
-                  <h3 className="panel-heading">InnBuddyとは？</h3>
-                  <span className="panel-nav-symbol">↗</span>
-                </div>
+          {/* 右側:信頼要素カード(上部強調) + 01~03すりガラスパネル (下部3列横並び) */}
+          <div className="max-md:!hidden md:flex hero-right-stack">
+            <div className="hero-trust-card">
+              <div className="hero-trust-badge-row">
+                <span className="hero-trust-pill">TRUST &amp; EXPERTISE</span>
+                <span className="hero-trust-dot" aria-hidden="true" />
               </div>
-            </a>
+              <p className="hero-trust-headline">
+                <span className="trust-accent">大手企業流</span>&amp;<span className="trust-accent">300社以上</span>の<br />
+                施設OTA改善に関わった知見
+              </p>
+              <p className="hero-trust-sub">
+                国内最大手OTAの現場知見と体系的なメソッドで、成果につながる運用を実現します。
+              </p>
+            </div>
 
-            <button
-              type="button"
-              onClick={() => setIsDiagnosticOpen(true)}
-              className="square-glass-panel panel-check"
-            >
-              <div className="panel-inner">
-                <div className="panel-meta-row">
-                  <span className="panel-num">02</span>
-                  <span className="panel-label">ONLINE CHECK</span>
-                  <span className="panel-pill-tag">RECOMMENDED</span>
+            <div className="hero-panel-grid-3">
+              <a
+                href="https://innbuddy-japan.com/team"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="square-glass-panel-v2 panel-about"
+              >
+                <div className="panel-inner-v2">
+                  <div className="panel-meta-row">
+                    <span className="panel-num">01</span>
+                    <span className="panel-label">ABOUT US</span>
+                  </div>
+                  <div className="panel-title-row">
+                    <h3 className="panel-heading">InnBuddyとは?</h3>
+                    <span className="panel-nav-symbol">→</span>
+                  </div>
                 </div>
-                <div className="panel-title-row">
-                  <h3 className="panel-heading">無料診断で現状を把握しよう</h3>
-                  <span className="panel-nav-symbol">→</span>
-                </div>
-              </div>
-            </button>
+              </a>
 
-            <button
-              type="button"
-              onClick={() => setIsInboundMenuOpen(true)}
-              className="square-glass-panel panel-inbound"
-            >
-              <div className="panel-inner">
-                <div className="panel-meta-row">
-                  <span className="panel-num">03</span>
-                  <span className="panel-label">INBOUND</span>
+              <button
+                type="button"
+                onClick={() => setIsDiagnosticOpen(true)}
+                className="square-glass-panel-v2 panel-check"
+              >
+                <div className="panel-inner-v2">
+                  <div className="panel-meta-row">
+                    <span className="panel-num">02</span>
+                    <span className="panel-label">ONLINE CHECK</span>
+                    <span className="panel-pill-tag">RECOMMENDED</span>
+                  </div>
+                  <div className="panel-title-row">
+                    <h3 className="panel-heading">
+                      無料診断で<br />現状を把握しよう
+                    </h3>
+                    <span className="panel-nav-symbol">→</span>
+                  </div>
                 </div>
-                <div className="panel-title-row">
-                  <h3 className="panel-heading">インバウンドをもっと取り込みたい</h3>
-                  <span className="panel-nav-symbol">→</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setIsInboundMenuOpen(true)}
+                className="square-glass-panel-v2 panel-inbound"
+              >
+                <div className="panel-inner-v2">
+                  <div className="panel-meta-row">
+                    <span className="panel-num">03</span>
+                    <span className="panel-label">INBOUND</span>
+                  </div>
+                  <div className="panel-title-row">
+                    <h3 className="panel-heading">インバウンドをもっと取り込みたい</h3>
+                    <span className="panel-nav-symbol">→</span>
+                  </div>
                 </div>
-              </div>
-            </button>
+              </button>
+            </div>
           </div>
         </div>
 
         {/* スマホ版メイン写真カード */}
         <div className="md:hidden w-full mt-6 px-1">
           <div className="mobile-hero-photo-frame">
-            <img src="/library/ota/hero-main.jpg" alt="ホテル・旅館のOTA運用イメージ" />
+            <img
+              src="/library/ota/hero-main.jpg"
+              alt="ホテル・旅館のOTA運用イメージ"
+              decoding="async"
+            />
           </div>
         </div>
 
         <div className="hero-index max-md:!hidden md:block">
           SCROLL<br />
-          <span>↓</span>
+          <span></span>
         </div>
       </section>
 
-      {/* 中央ポップアップ：インバウンド＆ハラル選択 */}
+      {/* 中央ポップアップ: インバウンド&ハラル選択 */}
       {isInboundMenuOpen && (
         <div className="modal-overlay" onClick={() => setIsInboundMenuOpen(false)}>
           <div className="inbound-square-modal" onClick={(e) => e.stopPropagation()}>
@@ -401,7 +494,7 @@ export default function Page() {
             </button>
             <div className="inbound-square-cards">
               <a
-                href="https://innbuddy-japan.com/inbound"
+                href="https://innbuddy-japan.com/inbound/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inbound-square-item img-card-1"
@@ -411,7 +504,7 @@ export default function Page() {
                 <span className="square-title">インバウンド特設ページをみる</span>
               </a>
               <a
-                href="https://innbuddy-japan.com/halal"
+                href="https://innbuddy-japan.com/halal/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inbound-square-item img-card-2"
@@ -425,11 +518,121 @@ export default function Page() {
         </div>
       )}
 
-      {/* PC・スマートフォン共通の売上期待値測定モーダル */}
+      {/* 売上期待値測定モーダル */}
       <RevenueDiagnosticModal
         isOpen={isDiagnosticOpen}
         onClose={() => setIsDiagnosticOpen(false)}
       />
+
+      {/* InnBuddy価格表ダウンロードモーダル */}
+      <PriceListDownloadModal
+        isOpen={isPriceModalOpen}
+        onClose={() => setIsPriceModalOpen(false)}
+      />
+
+      {/* 支援事例 詳細モーダル（画面中央フィット・2カラムコンパクト表示） */}
+      {selectedCase && (
+        <div
+          className="cs-modal-backdrop"
+          role="presentation"
+          onClick={() => setSelectedCase(null)}
+        >
+          <div
+            className="cs-modal-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="cs-modal-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="cs-modal-header">
+              <div className="cs-modal-header-meta">
+                <span className="cs-modal-num">{selectedCase.num}</span>
+                <span className="case-badge-pref">{selectedCase.prefecture}</span>
+                <span className="case-badge-rooms">{selectedCase.rooms}</span>
+              </div>
+              <button
+                ref={caseCloseBtnRef}
+                type="button"
+                className="cs-modal-close"
+                onClick={() => setSelectedCase(null)}
+                aria-label="事例の詳細を閉じる"
+              >
+                ×
+              </button>
+            </div>
+
+            <div className="cs-modal-body">
+              <h2 id="cs-modal-title" className="cs-modal-feature">
+                {selectedCase.feature}
+              </h2>
+
+              <ul className="case-theme-list cs-modal-themes" aria-label="支援テーマ">
+                {selectedCase.themes.map((theme) => (
+                  <li key={theme} className="case-theme-tag">
+                    {theme}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="cs-detail-grid">
+                <div className="cs-detail-col">
+                  <div className="cs-detail-block">
+                    <h3 className="cs-detail-heading">
+                      <span className="cs-detail-step">01</span>
+                      課題
+                    </h3>
+                    <p className="cs-detail-text">{selectedCase.challenge}</p>
+                  </div>
+
+                  <div className="cs-detail-block cs-detail-block-result">
+                    <h3 className="cs-detail-heading">
+                      <span className="cs-detail-step">03</span>
+                      結果
+                    </h3>
+                    <ul className="cs-detail-list cs-detail-result-list">
+                      {selectedCase.results.map((res) => (
+                        <li key={res}>{res}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="cs-detail-col">
+                  <div className="cs-detail-block">
+                    <h3 className="cs-detail-heading">
+                      <span className="cs-detail-step">02</span>
+                      InnBuddyの取り組み
+                    </h3>
+                    <ul className="cs-detail-list">
+                      {selectedCase.initiatives.map((act) => (
+                        <li key={act}>{act}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="cs-perspective-box">
+                <div className="cs-perspective-label">
+                  <span className="cs-detail-step">04</span>
+                  InnBuddyの視点
+                </div>
+                <p className="cs-perspective-text">{selectedCase.perspective}</p>
+              </div>
+            </div>
+
+            <div className="cs-modal-footer">
+              <button
+                type="button"
+                className="cs-modal-close-bottom"
+                onClick={() => setSelectedCase(null)}
+              >
+                一覧へ戻る（閉じる）
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* PROBLEM */}
       <section className="dark section problem">
@@ -439,18 +642,19 @@ export default function Page() {
               <p className="section-kicker">CHALLENGES</p>
               <h2>
                 こんなお悩みは<br />
-                <span>ありませんか？</span>
+                <span>ありませんか?</span>
               </h2>
             </div>
             <figure className="section-side-photo">
               <img
                 src="/library/ota/problem-hospitality.jpg"
                 alt="丁寧なおもてなしと空間づくりに集中できる環境"
+                loading="lazy"
+                decoding="async"
               />
               <figcaption className="photo-caption-tag">HOSPITALITY FIRST</figcaption>
             </figure>
           </div>
-
           <div className="problem-cards-grid">
             {painPoints.map((p, i) => (
               <div className="problem-card" key={p}>
@@ -470,7 +674,7 @@ export default function Page() {
         <div className="wrap">
           <div className="services-heading-row">
             <div>
-              <p className="services-kicker">OUR SERVICES / 01–11</p>
+              <p className="services-kicker">OUR SERVICES / 01-11</p>
               <h2>
                 InnBuddy OTAが<br />
                 <span>対応する11の業務</span>
@@ -485,6 +689,8 @@ export default function Page() {
             <img
               src="/library/ota/services-support.jpg"
               alt="ホテル・旅館のOTA運用実務サポート"
+              loading="lazy"
+              decoding="async"
             />
             <div className="panorama-overlay-label">
               <span>COMPREHENSIVE OTA OPERATIONS</span>
@@ -501,7 +707,7 @@ export default function Page() {
               onClick={toggleAllServices}
               className="services-toggle-all-btn"
             >
-              {openServices.length === services.length ? 'すべて閉じる −' : 'すべて開く ＋'}
+              {openServices.length === services.length ? 'すべて閉じる' : 'すべて開く'}
             </button>
           </div>
 
@@ -522,7 +728,7 @@ export default function Page() {
                     <ServiceIcon index={idx} />
                     <span className="service-title-text">{title}</span>
                     <span className="plus" aria-hidden="true">
-                      {isOpen ? '−' : '＋'}
+                      {isOpen ? '-' : '+'}
                     </span>
                   </button>
                   <div className={`service-content ${isOpen ? 'is-expanded' : ''}`}>
@@ -540,6 +746,28 @@ export default function Page() {
           <p className="services-footnote">
             ※ 対応範囲は施設の状況・ご契約内容に応じて調整します。
           </p>
+
+          {/* 単発・スポット相談導線 */}
+          <div className="spot-consult-card">
+            <div className="spot-consult-text">
+              <span className="spot-consult-badge">SPOT / FLEXIBLE SUPPORT</span>
+              <h3>フルサポート以外のご相談も大歓迎です</h3>
+              <p>
+                「何か一部だけ対応してほしい」「担当者が入社するまでの短期間の作業代行をしてほしい」「これから代行を検討していきたい、まずは相談だけ」などもお気軽にご連絡ください。<br />
+                InnBuddy流の知見を込めてより良くなる手段を一緒に考えて対応いたします。
+              </p>
+            </div>
+            <div className="spot-consult-action">
+              <a
+                href="https://innbuddy-japan.com/contact/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button chic-cta-btn"
+              >
+                スポット・一部代行を相談する <Arrow />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -561,6 +789,8 @@ export default function Page() {
               <img
                 src="/library/ota/ota-inbound.jpg"
                 alt="国内・海外OTAを通じた集客支援"
+                loading="lazy"
+                decoding="async"
               />
               <figcaption className="photo-caption-tag">DOMESTIC &amp; GLOBAL</figcaption>
             </figure>
@@ -581,7 +811,7 @@ export default function Page() {
             </div>
             <div className="ota-panel-box">
               <h3 className="orange-heading">
-                OVERSEAS OTA <small>海外OTA（インバウンド）</small>
+                OVERSEAS OTA <small>海外OTA (インバウンド)</small>
               </h3>
               {overseas.map((x, i) => (
                 <div className="ota-item" key={x}>
@@ -590,6 +820,327 @@ export default function Page() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* 料金表ダウンロード導線 */}
+          <div className="pricelist-download-banner">
+            <div className="pricelist-banner-copy">
+              <span className="pricelist-kicker">PRICE LIST DOWNLOAD</span>
+              <h3>InnBuddy価格表ダウンロード</h3>
+              <p>
+                サービス詳細・料金目安をまとめた資料を無料でご覧いただけます。フォーム入力後、すぐにご確認いただけます。
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsPriceModalOpen(true)}
+              className="pricelist-dl-trigger-btn"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              価格表を無料ダウンロード
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* FEATURES: InnBuddyの特徴 */}
+      <section id="strengths" className="light section features-bento-section">
+        <div className="wrap">
+          <div className="features-bento-header">
+            <p className="features-bento-kicker">WHY INNBUDDY</p>
+            <div className="features-bento-title-row">
+              <span className="features-title-line" aria-hidden="true" />
+              <h2>
+                InnBuddyの<span>特徴</span>
+              </h2>
+              <span className="features-title-line" aria-hidden="true" />
+            </div>
+            <p className="features-bento-lead">
+              宿の可能性を広げる、私たちの原点と目指す未来。
+            </p>
+          </div>
+
+          <div className="features-bento-grid">
+            {/* 左側 01 */}
+            <article className="fbento-card fbento-card-01">
+              <div className="fbento-bg-photo" aria-hidden="true">
+                <img src="/library/ota/feature-01.jpg" alt="" loading="lazy" decoding="async" />
+              </div>
+              <div className="fbento-scrim fbento-scrim-navy" aria-hidden="true" />
+              <div className="fbento-content">
+                <div className="fbento-num-block">
+                  <span className="fbento-num">01</span>
+                  <span className="fbento-num-bar" aria-hidden="true" />
+                </div>
+                <h3>
+                  宿の課題は一つのサービス<br />
+                  だけでは解決できない。
+                </h3>
+                <p>
+                  最大手OTAのコンサルタントとして多くの宿泊施設様を支援させていただく中で、最ももどかしく感じていたのがこの現実でした。
+                </p>
+                <p>
+                  他社OTAに関する相談、インバウンドの集客や受け入れ体制の構築、そしてニューツーリズムへの新たな取り組みなど、特定のサービスの枠組みだけでは対応しきれない領域が数多く存在します。こうした単一支援の限界を越え、施設様ごとに異なる課題へ本質的に寄り添う総合サポートを実現するために、私たちはこのブランドを立ち上げました。
+                </p>
+              </div>
+            </article>
+
+            {/* 右側カラム (02と03) */}
+            <div className="features-bento-right-col">
+              <article className="fbento-card fbento-card-02">
+                <div className="fbento-bg-photo" aria-hidden="true">
+                  <img src="/library/ota/feature-02.jpg" alt="" loading="lazy" decoding="async" />
+                </div>
+                <div className="fbento-scrim fbento-scrim-navy-side" aria-hidden="true" />
+                <div className="fbento-content">
+                  <div className="fbento-num-block">
+                    <span className="fbento-num">02</span>
+                    <span className="fbento-num-bar" aria-hidden="true" />
+                  </div>
+                  <h3>
+                    OTAを起点に、<br />
+                    最善の一手を。
+                  </h3>
+                  <p>
+                    まずはOTA運用から宿を深く理解し、状況や目標に応じて、OTA以外の施策も含めて最適な方法を一緒に考えます。
+                  </p>
+                </div>
+              </article>
+
+              <article className="fbento-card fbento-card-03">
+                <div className="fbento-bg-photo" aria-hidden="true">
+                  <img src="/library/ota/feature-03.jpg" alt="" loading="lazy" decoding="async" />
+                </div>
+                <div className="fbento-scrim fbento-scrim-gold" aria-hidden="true" />
+                <div className="fbento-content">
+                  <div className="fbento-inline-head">
+                    <div className="fbento-num-block">
+                      <span className="fbento-num fbento-num-white">03</span>
+                      <span className="fbento-num-bar fbento-num-bar-white" aria-hidden="true" />
+                    </div>
+                    <h3>
+                      デスティネーション<br />
+                      デザイン
+                    </h3>
+                  </div>
+                  <p>
+                    総合的なブランディングによって、施設様が本来届けたい「ターゲットとするお客様」から「選ばれる宿」をつくること。これが、私たちが最も意識しているアプローチです。
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* COMPARISON: 他社との違い */}
+      <section id="comparison" className="dark section comparison-section">
+        <div className="comparison-half-bg" aria-hidden="true">
+          <img
+            src="/library/ota/comparison-bg.jpg"
+            alt=""
+            className="comparison-half-bg-img"
+            loading="lazy"
+            decoding="async"
+          />
+          <div className="comparison-half-bg-scrim" />
+        </div>
+
+        <div className="wrap comparison-inner">
+          <p className="section-kicker">DIFFERENCE</p>
+          <h2>
+            他社との<span>違い</span>
+          </h2>
+          <p className="intro">
+            「作業だけ」「過去経験だけ」では成果が伸びにくい時代。<br />
+            InnBuddyは、大手OTAの専門知見と世界中のリアルなネットワークで次のトレンドを先読みします。
+          </p>
+
+          <div className="comparison-grid comparison-grid-weighted">
+            <div className="comparison-card comparison-card-compact">
+              <div className="comp-header">
+                <span className="comp-tag">他社A</span>
+                <h3>ホテル業界のプロフェッショナル</h3>
+              </div>
+              <div className="comp-block comp-good">
+                <span className="comp-badge">強み</span>
+                <p>
+                  OTAや施設に関する深い専門知識と実務経験。業界慣習や現場オペレーションを熟知しており、従来の販売管理を安心して任せられます。
+                </p>
+              </div>
+              <div className="comp-block comp-weak">
+                <span className="comp-badge">課題</span>
+                <p>
+                  従来の国内市場や宿泊業界の枠組みが中心となりやすく、刻々と変化する市場のリアルな動向や組織づくりまで踏み込んだ提案には限界があります。
+                </p>
+              </div>
+            </div>
+
+            <div className="comparison-card comparison-card-compact">
+              <div className="comp-header">
+                <span className="comp-tag">他社B</span>
+                <h3>丁寧な作業代行が得意</h3>
+              </div>
+              <div className="comp-block comp-good">
+                <span className="comp-badge">強み</span>
+                <p>
+                  料金変更やプラン登録、在庫調整など、施設側から依頼された日々のルーティン業務を着実に遂行する対応力と安心感。
+                </p>
+              </div>
+              <div className="comp-block comp-weak">
+                <span className="comp-badge">課題</span>
+                <p>
+                  「指示された作業の代行」が中心となるため、課題発見や能動的な改善提案、海外OTA・インバウンド対策などの新たな取り組みまでは手が回りにくい傾向があります。
+                </p>
+              </div>
+            </div>
+
+            <div className="comparison-card comparison-card-innbuddy comparison-card-large">
+              <div className="comp-header">
+                <span className="comp-tag comp-tag-primary">InnBuddy</span>
+                <h3>専門知見 × 世界のネットワーク × 仮説検証</h3>
+              </div>
+              <p className="comp-innbuddy-lead">
+                経験だけに頼らない。情報を集め、考え、次の一手を。
+              </p>
+              <div className="comp-innbuddy-body">
+                <p>
+                  <strong>5年以上のOTAコンサルティング経験</strong>を持ち、<strong>国内最大手OTAで300社以上の宿泊施設</strong>を支援してきたメンバーが中心となり、全国で培った専門知見を活用します。
+                </p>
+                <p>
+                  また、<strong>大手企業での事業推進や海外法人運営の経験</strong>を活かし、WEB売上UPの裏側にある組織づくり・管理運営面も考慮した<strong>“経営目線”</strong>でサポートします。
+                </p>
+                <p>
+                  さらに、<strong>世界各地に広がるネットワーク</strong>から海外のリアルな情報や新トレンドを収集。インバウンド需要とグローバルのリアル需要の両面から仮説検証を重ね、宿泊施設の可能性を広げる具体的な施策をご提案します。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* 他社との違い直下: インバウンド対応サポート強み横長枠 */}
+          <div className="inbound-strength-banner">
+            <div className="inbound-strength-header">
+              <span className="inbound-strength-badge">他社にはない明確な強み</span>
+              <span className="inbound-strength-subtag">INBOUND &amp; CROSS-CULTURAL SUPPORT</span>
+            </div>
+            <h3 className="inbound-strength-title">
+              インバウンド対応サポートもお任せください
+            </h3>
+            <p className="inbound-strength-text">
+              <strong>海外経験豊富なスタッフが英語で対応。</strong>単なる機械的な翻訳や定型文の返信ではなく、各お客様の<strong>文化や制度背景を深く考慮</strong>し、誤解やトラブルを防ぎながら満足度向上につながる適切な解決サポートを行います。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* SCALE PLANS: 施設規模別支援提案 */}
+      <section id="scale-plans" className="light section scale-section">
+        <div className="wrap">
+          <p className="services-kicker">SUPPORT BY SCALE</p>
+          <h2>
+            施設規模別<span>支援提案</span>
+          </h2>
+          <p className="intro">
+            客室数やスタッフ体制に合わせて、最適な関わり方をご提案します。
+          </p>
+
+          <div className="scale-grid">
+            {scalePlans.map((plan, idx) => (
+              <div className="scale-card" key={plan.code}>
+                <div className="scale-card-head">
+                  <span className="scale-code">{plan.code}</span>
+                  <span className="scale-num">0{idx + 1}</span>
+                </div>
+                <h3>{plan.title}</h3>
+                <p className="scale-tagline">{plan.tagline}</p>
+                <p className="scale-body">{plan.body}</p>
+                <ul className="scale-points">
+                  {plan.points.map((pt) => (
+                    <li key={pt}>{pt}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          <div className="scale-note-cta-box">
+            <div className="scale-note-text">
+              <h3>施設規模は、あくまで目安です。</h3>
+              <p>
+                客室数だけでなく、現在の運営体制や課題、ご希望に応じて支援内容を柔軟に設計します。部分的な業務代行から中長期的な経営支援まで、お気軽にご相談ください。
+              </p>
+            </div>
+            <div className="scale-note-action">
+              <p className="scale-diag-label">効果を無料診断する</p>
+              <button
+                type="button"
+                className="ota-shared-diagnostic-cta scale-diag-btn"
+                aria-haspopup="dialog"
+                aria-label="無料診断を開く"
+                onClick={() => setIsDiagnosticOpen(true)}
+              >
+                無料診断 <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CASE STUDIES: これまでの主な支援紹介 (6件カード) */}
+      <section id="cases" className="dark section cases-section">
+        <div className="wrap">
+          <p className="section-kicker">CASE STUDIES</p>
+          <h2>
+            これまでの<span>主な支援紹介</span>
+          </h2>
+          <p className="intro">
+            宿ごとに異なる魅力に、宿ごとの答えを。<br />
+            宿泊施設の個性や運営状況、販売チャネルに合わせてOTA運営を最適化した支援事例をご紹介します。
+          </p>
+
+          <div className="cases-grid">
+            {caseStudiesData.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                className="case-card-btn"
+                aria-haspopup="dialog"
+                onClick={(e) => {
+                  caseTriggerRef.current = e.currentTarget
+                  setSelectedCase(item)
+                }}
+              >
+                <div className="case-card-top">
+                  <span className="case-num">{item.num}</span>
+                  <div className="case-meta-badges">
+                    <span className="case-badge-pref">{item.prefecture}</span>
+                    <span className="case-badge-rooms">{item.rooms}</span>
+                  </div>
+                </div>
+
+                <h3 className="case-feature-title">{item.feature}</h3>
+
+                <ul className="case-theme-list" aria-label="支援テーマ">
+                  {item.themes.map((theme) => (
+                    <li key={theme} className="case-theme-tag">
+                      {theme}
+                    </li>
+                  ))}
+                </ul>
+
+                <p className="case-summary">{item.summary}</p>
+
+                <div className="case-card-footer">
+                  <span className="case-card-cta">
+                    事例の詳細を見る <span className="case-card-arrow" aria-hidden="true">→</span>
+                  </span>
+                </div>
+              </button>
+            ))}
           </div>
         </div>
       </section>
@@ -620,13 +1171,18 @@ export default function Page() {
                 className="article-card"
               >
                 <div className="article-card-thumb">
-                  <img src={article.image} alt={article.title} />
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <span className="article-card-badge">{article.category}</span>
                 </div>
                 <div className="article-card-body">
                   <div className="article-card-meta">
                     <span>{article.publishedAt}</span>
-                    <span>•</span>
+                    <span>・</span>
                     <span>{article.readTime}</span>
                   </div>
                   <h3 className="article-card-title">{article.title}</h3>
@@ -648,8 +1204,10 @@ export default function Page() {
       </section>
 
       {/* APPROACH */}
-      <section className="dark framework section">
-        <div className="wrap">
+      <section className="dark framework section framework-pink-lime">
+        <div className="framework-pink-lime-bg" aria-hidden="true" />
+        <div className="framework-pink-lime-grid" aria-hidden="true" />
+        <div className="wrap" style={{ position: 'relative', zIndex: 2 }}>
           <p className="section-kicker">OUR APPROACH</p>
           <h2>
             InnBuddyが<br />
@@ -659,6 +1217,7 @@ export default function Page() {
             OTAは、一度設定して終わりではありません。<br />
             決まった作業を繰り返すだけの代行ではなく、現状把握から運用の定着まで、改善サイクルを回し続けます。
           </p>
+
           <div className="framework-flow-wrapper">
             {frameworkCategories.map((cat) => (
               <div className={`framework-cat-group ${cat.catClass}`} key={cat.category}>
@@ -725,15 +1284,14 @@ export default function Page() {
         </div>
       </section>
 
-      {/* PRICING（背景3分割：左1/3背景画像 ＋ 中央マーブル＆文字 ＋ 右1/3背景画像） */}
+      {/* PRICING */}
       <section className="dark section pricing">
         <div className="pricing-bg-left" aria-hidden="true">
-          <img src="/library/ota/pricing-left.jpg" alt="" />
+          <img src="/library/ota/pricing-left.jpg" alt="" loading="lazy" decoding="async" />
         </div>
         <div className="pricing-bg-right" aria-hidden="true">
-          <img src="/library/ota/pricing-right.jpg" alt="" />
+          <img src="/library/ota/pricing-right.jpg" alt="" loading="lazy" decoding="async" />
         </div>
-
         <div className="wrap pricing-center-wrap">
           <p className="section-kicker">PLANS &amp; TERMS</p>
           <h2>料金・契約条件</h2>
@@ -748,10 +1306,20 @@ export default function Page() {
               </div>
               <p>
                 現在、限定3社様に<br />
-                <strong>「初月無料＆1ヶ月契約」</strong>から<br />
+                <strong>「初月無料&amp;1ヶ月契約」</strong>から<br />
                 使用できる特別プランもご提案しております。
               </p>
             </div>
+          </div>
+          <div className="offer-cta-wrap">
+            <a
+              href="https://innbuddy-japan.com/contact/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="offer-campaign-btn"
+            >
+              特別キャンペーン希望の方はこちらからご連絡ください <Arrow />
+            </a>
           </div>
         </div>
       </section>
@@ -778,31 +1346,79 @@ export default function Page() {
 
       {/* CONTACT */}
       <section id="contact" className="dark section contact">
-        <div className="wrap contact-grid-split">
-          <div className="contact-split-left">
-            <p className="section-kicker">CONTACT</p>
-            <h2>
-              「今のOTA運用、<br />
-              どこまで任せられる？」<br />
-              <span>からでも構いません。</span>
-            </h2>
-            <p>
-              現在の運用状況をお聞きし、InnBuddyで対応できる業務範囲をご説明します。<br />
-              右のボタンからお気軽にご相談ください。
-            </p>
+        <div className="wrap">
+          <div className="contact-grid-split">
+            <div className="contact-split-left">
+              <p className="section-kicker">CONTACT</p>
+              <h2>
+                「今のOTA運用、<br />
+                どこまで任せられる?」<br />
+                <span>からでも構いません。</span>
+              </h2>
+              <p>
+                現在の運用状況をお聞きし、InnBuddyで対応できる業務範囲や改善の方向性をご説明します。<br />
+                右のボタンからお気軽にご相談ください。
+              </p>
+            </div>
+            <div className="contact-split-right">
+              <a
+                href="https://innbuddy-japan.com/contact/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="huge-contact-cta-v2"
+              >
+                <div className="contact-lounge-bg-img" aria-hidden="true" />
+                <div className="contact-lounge-scrim" aria-hidden="true" />
+                <div className="huge-cta-v2-inner">
+                  <span className="huge-cta-v2-badge">FREE OTA CHECK</span>
+                  <h3 className="huge-cta-v2-title">
+                    あなたの宿のOTA運用、<br />
+                    無料チェックします。
+                  </h3>
+                  <div className="huge-cta-v2-checklist">
+                    <p className="huge-cta-v2-checklist-head">無料相談・面談でお伝えすること</p>
+                    <ul>
+                      <li>現在の掲載状況</li>
+                      <li>料金・プラン設定</li>
+                      <li>海外OTAの活用余地</li>
+                      <li>改善できるポイント</li>
+                    </ul>
+                  </div>
+                  <span className="huge-cta-v2-action">
+                    無料チェック・お問い合わせへ <Arrow />
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
-          <div className="contact-split-right">
+
+          {/* 関連特設ページリンク */}
+          <div className="contact-special-pills">
             <a
-              href="https://innbuddy-japan.com/contact"
+              href="https://innbuddy-japan.com/inbound/"
               target="_blank"
               rel="noopener noreferrer"
-              className="huge-contact-cta chic-cta-btn"
+              className="special-pill-btn special-pill-inbound"
             >
-              <div className="contact-lounge-bg-img" aria-hidden="true" />
-              <div className="contact-lounge-scrim" aria-hidden="true" />
-              <span className="huge-cta-sub">InnBuddyへの無料相談・お問い合わせ</span>
-              <span className="huge-cta-main">お問い合わせフォームへ</span>
-              <span className="huge-cta-arrow">→</span>
+              <div className="special-pill-text">
+                <span className="special-pill-kicker">INBOUND SUPPORT</span>
+                <strong>インバウンド集客・受入対策ページ</strong>
+                <small>訪日外国人客の集客から現場オペレーションをサポート</small>
+              </div>
+              <span className="special-pill-arrow" aria-hidden="true">→</span>
+            </a>
+            <a
+              href="https://innbuddy-japan.com/halal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="special-pill-btn special-pill-halal"
+            >
+              <div className="special-pill-text">
+                <span className="special-pill-kicker">HALAL / MUSLIM FRIENDLY</span>
+                <strong>ハラル・ムスリム対応特設ページ</strong>
+                <small>成長するムスリム旅行者市場の受入体制づくりをサポート</small>
+              </div>
+              <span className="special-pill-arrow" aria-hidden="true">→</span>
             </a>
           </div>
         </div>
@@ -819,6 +1435,11 @@ export default function Page() {
             InnBuddyは、ホテル・旅館のオンライン販売を支援するサービスです。<br />
             OTA運用を中心に、施設ごとの課題や販売状況を理解しながら、必要なサポートを行っています。
           </p>
+          <p className="ota-footer-vision">
+            目指すのは、<strong>「越境三方よし」</strong>の支援。<br />
+            宿も、地域も、お客様も大満足する未来のために、<br />
+            私たちにしかできない唯一のサービス価値を追求します。
+          </p>
           <div className="ota-footer-links-row">
             <div className="ota-footer-links-group">
               <a href="https://innbuddy-japan.com/" target="_blank" rel="noopener noreferrer">
@@ -827,8 +1448,14 @@ export default function Page() {
               <a href="https://innbuddy-japan.com/team" target="_blank" rel="noopener noreferrer">
                 私たちについて
               </a>
+              <a href="https://innbuddy-japan.com/inbound/" target="_blank" rel="noopener noreferrer">
+                インバウンド対応
+              </a>
+              <a href="https://innbuddy-japan.com/halal/" target="_blank" rel="noopener noreferrer">
+                ハラル対応
+              </a>
               <Link href="/ota/articles">OTA記事一覧</Link>
-              <a href="https://innbuddy-japan.com/contact" target="_blank" rel="noopener noreferrer">
+              <a href="https://innbuddy-japan.com/contact/" target="_blank" rel="noopener noreferrer">
                 お問い合わせ
               </a>
             </div>
@@ -844,7 +1471,282 @@ export default function Page() {
 }
 
 /* =========================================================
-   無料診断モーダル + 実際のLeadCaptureForm送信処理を統合
+   InnBuddy価格表ダウンロードモーダル
+========================================================= */
+const INBOUND_RATIO_OPTIONS = [
+  'ほぼいない (0~5%)',
+  '10%前後',
+  '20~30%',
+  '40~50%',
+  '50%以上',
+  '把握していない',
+]
+
+const NATIONALITY_OPTIONS = [
+  '中国',
+  '台湾',
+  '韓国',
+  '香港',
+  'アメリカ',
+  'オーストラリア',
+  'ロシア',
+  '東南アジア',
+  'ヨーロッパ',
+  '中東地域',
+  '中南米',
+  'その他',
+]
+
+function PriceListDownloadModal({
+  isOpen,
+  onClose,
+}: {
+  isOpen: boolean
+  onClose: () => void
+}) {
+  const [facilityName, setFacilityName] = useState('')
+  const [contactName, setContactName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [address, setAddress] = useState('')
+  const [inboundRatio, setInboundRatio] = useState('')
+  const [nationalities, setNationalities] = useState<string[]>([])
+  const [sending, setSending] = useState(false)
+  const [done, setDone] = useState(false)
+  const [errorMessage, setErrorMessage] = useState('')
+
+  const PRICE_LIST_PDF_URL = '/library/ota/innbuddy-price-list.pdf'
+
+  const toggleNationality = (country: string) => {
+    setNationalities((prev) =>
+      prev.includes(country) ? prev.filter((c) => c !== country) : [...prev, country]
+    )
+  }
+
+  const triggerDownload = () => {
+    const link = document.createElement('a')
+    link.href = PRICE_LIST_PDF_URL
+    link.download = 'InnBuddy_PriceList.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    if (sending) return
+    setSending(true)
+    setErrorMessage('')
+    try {
+      await submitDiagnostic({
+        diagnosticType: 'download',
+        downloadType: 'ota',
+        facilityName,
+        contactName,
+        email,
+        phone,
+        address,
+        ratio: inboundRatio,
+        nationalities: nationalities.join(', '),
+      } as unknown as LeadFormData)
+      setDone(true)
+      triggerDownload()
+    } catch (error) {
+      console.error('価格表ダウンロードの送信に失敗しました:', error)
+      setErrorMessage('送信に失敗しました。時間をおいて再度お試しください。')
+    } finally {
+      setSending(false)
+    }
+  }
+
+  if (!isOpen) return null
+
+  return (
+    <div
+      className="fixed inset-0 z-[200000] flex items-center justify-center bg-[#183654]/65 backdrop-blur-sm p-3 sm:p-4"
+      role="presentation"
+      onClick={onClose}
+    >
+      <div
+        className="price-dl-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="price-dl-title"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          type="button"
+          className="price-dl-close"
+          onClick={onClose}
+          aria-label="閉じる"
+        >
+          ×
+        </button>
+
+        <div className="price-dl-header">
+          <p className="price-dl-kicker">DOWNLOAD</p>
+          <h2 id="price-dl-title" className="price-dl-title">
+            InnBuddy価格表ダウンロード
+          </h2>
+        </div>
+
+        {done ? (
+          <div className="price-dl-done" role="status" aria-live="polite">
+            <h3>ダウンロードありがとうございます</h3>
+            <p>
+              入力いただいたメールアドレス宛にもご案内をお送りしております。<br />
+              自動でダウンロードが開始されない場合は、下のボタンから取得してください。
+            </p>
+            <div className="price-dl-done-actions">
+              <a
+                href={PRICE_LIST_PDF_URL}
+                download="InnBuddy_PriceList.pdf"
+                className="price-dl-submit-btn"
+              >
+                価格表PDFをもう一度ダウンロード
+              </a>
+              <button
+                type="button"
+                onClick={onClose}
+                className="price-dl-close-text-btn"
+              >
+                閉じる
+              </button>
+            </div>
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} className="price-dl-form">
+            <div className="price-dl-grid-2">
+              <div className="price-dl-field">
+                <label htmlFor="dl-facility">
+                  施設名 <span>*</span>
+                </label>
+                <input
+                  id="dl-facility"
+                  type="text"
+                  required
+                  placeholder="例: ホテル インバディ"
+                  value={facilityName}
+                  onChange={(e) => setFacilityName(e.target.value)}
+                />
+              </div>
+              <div className="price-dl-field">
+                <label htmlFor="dl-contact">
+                  ご担当者名 <span>*</span>
+                </label>
+                <input
+                  id="dl-contact"
+                  type="text"
+                  required
+                  placeholder="例: 旅行 太郎"
+                  value={contactName}
+                  onChange={(e) => setContactName(e.target.value)}
+                />
+              </div>
+            </div>
+
+            <div className="price-dl-grid-2">
+              <div className="price-dl-field">
+                <label htmlFor="dl-email">
+                  メールアドレス <span>*</span>
+                </label>
+                <input
+                  id="dl-email"
+                  type="email"
+                  required
+                  placeholder="example@innbuddy.com"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div className="price-dl-field">
+                <label htmlFor="dl-phone">
+                  電話番号 <span>*</span>
+                </label>
+                <input
+                  id="dl-phone"
+                  type="tel"
+                  required
+                  placeholder="03-1234-5678"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                />
+              </div>
+            </div>
+
+            <div className="price-dl-grid-2">
+              <div className="price-dl-field">
+                <label htmlFor="dl-address">
+                  ご住所 <span>*</span>
+                </label>
+                <input
+                  id="dl-address"
+                  type="text"
+                  required
+                  placeholder="例: 東京都渋谷区○○1-2-3"
+                  value={address}
+                  onChange={(e) => setAddress(e.target.value)}
+                />
+              </div>
+              <div className="price-dl-field">
+                <label htmlFor="dl-ratio">
+                  外国人宿泊比率 <span>*</span>
+                </label>
+                <select
+                  id="dl-ratio"
+                  required
+                  value={inboundRatio}
+                  onChange={(e) => setInboundRatio(e.target.value)}
+                >
+                  <option value="">選択してください</option>
+                  {INBOUND_RATIO_OPTIONS.map((opt) => (
+                    <option key={opt} value={opt}>
+                      {opt}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            <div className="price-dl-field">
+              <label>ここ1年で利用されたお客様の国籍（複数選択可）</label>
+              <div className="price-dl-checkbox-box">
+                {NATIONALITY_OPTIONS.map((country) => (
+                  <label key={country} className="price-dl-check-item">
+                    <input
+                      type="checkbox"
+                      checked={nationalities.includes(country)}
+                      onChange={() => toggleNationality(country)}
+                    />
+                    <span>{country}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+
+            {errorMessage && (
+              <p role="alert" className="text-sm text-red-700 bg-red-50 rounded-md p-3">
+                {errorMessage}
+              </p>
+            )}
+
+            <button type="submit" disabled={sending} className="price-dl-submit-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              {sending ? '送信中...' : 'InnBuddy価格表をダウンロード'}
+            </button>
+          </form>
+        )}
+      </div>
+    </div>
+  )
+}
+
+/* =========================================================
+   無料診断モーダル + LeadCaptureForm
 ========================================================= */
 const PREFECTURES = [
   '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
@@ -985,7 +1887,7 @@ function LeadCaptureForm({ diagnosticType, payload, onClose }: LeadCaptureFormPr
       </div>
       <div>
         <label htmlFor="lead-phone" className="block text-xs text-[#183654]/75 mb-1">
-          電話番号（任意）
+          電話番号(任意)
         </label>
         <input
           id="lead-phone"
@@ -1059,7 +1961,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
     ? parseInt(totalRooms, 10) * 365 * (newOCC / 100) * newADR
     : 0
   const annualUpAmount = newAnnualRevenue - currentAnnualRevenue
-  const formattedUpAmount = annualUpAmount.toLocaleString('ja-JP')
+  const formattedUpAmount = Math.round(annualUpAmount).toLocaleString('ja-JP')
 
   const handleBack = () => {
     if (showResult) setShowResult(false)
@@ -1088,7 +1990,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
               onClick={handleBack}
               className="text-sm text-[#183654]/70 hover:text-[#183654] transition-colors min-h-11"
             >
-              ← {showResult ? '入力画面に戻る' : '前のページに戻る'}
+              {showResult ? '← 入力画面に戻る' : '← 前のページに戻る'}
             </button>
             <button
               type="button"
@@ -1116,6 +2018,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   現在の施設情報を入力して、売上改善の可能性をシミュレーションします。
                 </p>
               </div>
+
               <div>
                 <label htmlFor="diag-total-rooms" className="block text-sm text-[#183654]/80 mb-1">
                   総客室数
@@ -1132,9 +2035,10 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   placeholder="例: 15"
                 />
               </div>
+
               <div>
                 <label htmlFor="diag-adr" className="block text-sm text-[#183654]/80 mb-1">
-                  現在のADR（客室単価・円）
+                  現在のADR (客室単価・円)
                 </label>
                 <input
                   id="diag-adr"
@@ -1148,6 +2052,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   placeholder="例: 18000"
                 />
               </div>
+
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <label htmlFor="diag-occ" className="block text-sm text-[#183654]/80">
@@ -1169,9 +2074,10 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   <span>100%</span>
                 </div>
               </div>
+
               <div>
                 <label className="block text-sm text-[#183654]/80 mb-3">
-                  メイン利用OTA（最大3つ）
+                  メイン利用OTA (最大3つ)
                 </label>
                 <div className="flex flex-wrap gap-2">
                   {otaOptions.map((ota) => (
@@ -1192,6 +2098,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                 </div>
                 <p className="text-xs text-[#183654]/55 mt-2">選択中: {selectedOta.length}/3</p>
               </div>
+
               <div>
                 <label htmlFor="diag-primary-ota" className="block text-sm text-[#183654]/80 mb-1">
                   一番予約数の多いOTA
@@ -1210,9 +2117,10 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   ))}
                 </select>
               </div>
+
               <div>
                 <label htmlFor="diag-ota-share" className="block text-sm text-[#183654]/80 mb-1">
-                  そのOTAの売上構成比（%）
+                  そのOTAの売上構成比(%)
                 </label>
                 <input
                   id="diag-ota-share"
@@ -1227,6 +2135,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   placeholder="例: 45"
                 />
               </div>
+
               <div className="pt-6 border-t border-[#dce3ea]">
                 <p className="text-sm text-[#183654]/80 mb-4 font-semibold">改善シミュレーション</p>
                 <div className="mb-5">
@@ -1260,6 +2169,7 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                   />
                 </div>
               </div>
+
               <button
                 type="button"
                 onClick={handleSubmit}
@@ -1280,19 +2190,19 @@ function RevenueDiagnosticModal({ isOpen, onClose }: Props) {
                 <p className="text-4xl sm:text-5xl font-light text-[#183654] break-words">
                   +{formattedUpAmount}円
                 </p>
-                <p className="text-lg text-[#183654] font-semibold">年間売上UP（試算）</p>
+                <p className="text-lg text-[#183654] font-semibold">年間売上UP(試算)</p>
                 <p className="text-sm text-[#183654]/65">
-                  稼働率 +{occUp}% / ADR +{adrUp.toLocaleString()}円
+                  稼働率+{occUp}% / ADR +{adrUp.toLocaleString()}円
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto pt-2">
                   <div className="rounded-lg border border-[#dce3ea] bg-white p-4">
-                    <p className="text-xs text-[#183654]/60 mb-1">現在の年間売上（概算）</p>
+                    <p className="text-xs text-[#183654]/60 mb-1">現在の年間売上 (概算)</p>
                     <p className="text-lg font-semibold text-[#183654]">
                       {Math.round(currentAnnualRevenue).toLocaleString('ja-JP')}円
                     </p>
                   </div>
                   <div className="rounded-lg border border-[#d97724]/40 bg-white p-4">
-                    <p className="text-xs text-[#183654]/60 mb-1">改善後の年間売上（概算）</p>
+                    <p className="text-xs text-[#183654]/60 mb-1">改善後の年間売上 (概算)</p>
                     <p className="text-lg font-semibold text-[#d97724]">
                       {Math.round(newAnnualRevenue).toLocaleString('ja-JP')}円
                     </p>

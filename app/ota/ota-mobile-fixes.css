@@ -1,7 +1,7 @@
-/* =====================================================================
+/* =====================================================
    InnBuddy OTA MOBILE-ONLY FIXES
    Imported after ota.css. Desktop styles are intentionally untouched.
-===================================================================== */
+===================================================== */
 @media (max-width: 767px) {
   .ota-page-root {
     overflow-x: clip;
@@ -76,6 +76,16 @@
     padding: 0 14px 16px 14px !important;
   }
 
+  /* Inbound strength banner on mobile */
+  .inbound-strength-banner {
+    padding: 22px 18px !important;
+    margin-top: 24px !important;
+  }
+
+  .inbound-strength-title {
+    font-size: 18px !important;
+  }
+
   /* Contact CTA on mobile */
   .ota-page-root .huge-contact-cta {
     width: 100% !important;
@@ -107,5 +117,17 @@
   .btn-back-ota {
     justify-content: center;
     width: 100%;
+  }
+
+  .spot-consult-card,
+  .pricelist-download-banner {
+    padding: 22px 18px;
+  }
+
+  .pricelist-dl-trigger-btn,
+  .spot-consult-action,
+  .spot-consult-action .button {
+    width: 100%;
+    justify-content: center;
   }
 }

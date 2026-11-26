@@ -1,9 +1,35 @@
+import type { Metadata } from "next";
 import "./shirangake.css";
 import dialectsAll from "@/data/dialects.json";
 import i18nAll from "@/data/i18n.json";
 import activeIds from "@/data/active-dialects.json";
 import { BODY_MARKUP } from "./body-markup";
 import Boot from "./boot";
+
+export const metadata: Metadata = {
+  title: {
+    absolute:
+      "「REAL vs TEXT BOOK」Japanese dialects will make your travels more exciting",
+  },
+  description:
+    "Discover authentic Japanese dialects beyond the textbook and make your travels in Japan even more exciting.",
+  openGraph: {
+    type: "website",
+    url: "https://innbuddy-japan.com/shirangake/",
+    siteName: "SHIRANGAKE",
+    title:
+      "「REAL vs TEXT BOOK」Japanese dialects will make your travels more exciting",
+    description:
+      "Discover authentic Japanese dialects beyond the textbook and make your travels in Japan even more exciting.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "「REAL vs TEXT BOOK」Japanese dialects will make your travels more exciting",
+    description:
+      "Discover authentic Japanese dialects beyond the textbook and make your travels in Japan even more exciting.",
+  },
+};
 
 /* SHIRANGAKE - フラット軽量バージョン (Next.js) */
 const ACTIVE: string[] | null = activeIds as string[];
